@@ -1,0 +1,16 @@
+
+#Position of the Spell casting gui
+[spellGuiPosition]
+	#Allowed Values: BOTTOM_LEFT, BOTTOM_RIGHT, LEFT, RIGHT, TOP_LEFT, TOP_RIGHT
+	spell_gui_position = "BOTTOM_LEFT"
+
+#Scale of the font in schools of magic books
+[bookFontScale]
+	#Range: 0.05 ~ 5.0
+	book_font_scale = 0.75
+
+#Debug
+[showPacketMessages]
+	#Used to display server/client messages in logs for debug purposes, default true, switching to false will hide these messages.
+	show_packet_messages = true
+

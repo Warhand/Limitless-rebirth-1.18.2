@@ -1,0 +1,161 @@
+{
+	id: "48FF52D6A51E62F5"
+	group: ""
+	order_index: 0
+	filename: "starting_out"
+	title: "Starting out"
+	icon: "minecraft:oak_log"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "pentagon"
+			id: "7C19B9BE95BBC4A8"
+			tasks: [{
+				id: "07243F4EDD1FB7C9"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Starting out: Logs"
+			icon: "minecraft:oak_log"
+			x: 0.0d
+			y: -2.0d
+			subtitle: "\"Lumbering around\""
+			dependencies: ["7C19B9BE95BBC4A8"]
+			id: "458092FB73C98F44"
+			tasks: [{
+				id: "757265732842F13E"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				count: 16L
+			}]
+		}
+		{
+			title: "Starting out: Paragliders"
+			x: 2.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "\"One step closer to your dream of becoming a bird!\""
+			optional: true
+			id: "5B364CE0C28AB8AD"
+			tasks: [{
+				id: "2C66FAC58BFEE015"
+				type: "item"
+				item: "paraglider:paraglider"
+			}]
+		}
+		{
+			title: "Starting out: Bundles"
+			x: 2.0d
+			y: -2.0d
+			shape: "rsquare"
+			subtitle: "\"Like a bag of holding except finite\""
+			optional: true
+			id: "0F79C1F1A5A6A913"
+			tasks: [{
+				id: "65CF193CE14E3E59"
+				type: "item"
+				item: "minecraft:bundle"
+			}]
+		}
+		{
+			title: "Starting out: Tetra"
+			icon: {
+				id: "tetra:holo"
+				Count: 1b
+				tag: {
+					"holo/core_material": "frame/dim"
+					"holo/frame": "holo/frame"
+					"holo/core": "holo/core"
+					"holo/frame_material": "core/ancient"
+				}
+			}
+			x: -2.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "\"Artisinal, hand crafted tools!\""
+			optional: true
+			id: "029A84B1765A3D3A"
+			tasks: [
+				{
+					id: "4C728EA0B000F1D9"
+					type: "item"
+					item: "tetra:basic_workbench"
+				}
+				{
+					id: "67457AC0CEDC90F5"
+					type: "item"
+					icon: {
+						id: "tetra:modular_double"
+						Count: 1b
+						tag: {
+							"double/handle": "double/basic_handle"
+							"double/head_left": "double/basic_hammer_left"
+							"double/head_right": "double/basic_hammer_right"
+							id: "bd496154-1a65-476e-8194-b1e04abaf0b9"
+							"double/basic_hammer_right_material": "basic_hammer/oak"
+							Damage: 0
+							"double/basic_handle_material": "basic_handle/stick"
+							"double/basic_hammer_left_material": "basic_hammer/oak"
+						}
+					}
+					item: {
+						id: "tetra:modular_double"
+						Count: 1b
+						tag: {
+							"double/handle": "double/basic_handle"
+							"double/head_left": "double/basic_hammer_left"
+							"double/head_right": "double/basic_hammer_right"
+							id: "bd496154-1a65-476e-8194-b1e04abaf0b9"
+							"double/basic_hammer_right_material": "basic_hammer/oak"
+							Damage: 0
+							"double/basic_handle_material": "basic_handle/stick"
+							"double/basic_hammer_left_material": "basic_hammer/oak"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			shape: "rsquare"
+			subtitle: "\"More convenient than a golden bag, huh?\""
+			optional: true
+			id: "46800172EB64048D"
+			tasks: [{
+				id: "33FD8BE502EA5909"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+		}
+		{
+			title: "Something that should probably just be in vanilla honestly"
+			x: -2.0d
+			y: -4.0d
+			shape: "rsquare"
+			subtitle: "\"Like seriously, why isn't it?\""
+			description: [
+				"By putting blocks of raw ore in a blast furnace, you can smelt them straight into blocks of processed metal!"
+				"This process takes more time than a typical blast furance recipe, but its still much quicker than smelting the raw ore items individually."
+			]
+			optional: true
+			id: "42FAE51B2C79FFBC"
+			tasks: [{
+				id: "5DC119E62EA6F305"
+				type: "item"
+				item: "minecraft:blast_furnace"
+			}]
+		}
+	]
+}

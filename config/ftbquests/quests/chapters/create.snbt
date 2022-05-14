@@ -1,0 +1,338 @@
+{
+	id: "1E0CDDE218AB6695"
+	group: ""
+	order_index: 2
+	filename: "create"
+	title: "Create"
+	icon: "create:cogwheel"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: 0.0d
+			shape: "pentagon"
+			id: "54B5BF2FC2E52A17"
+			tasks: [{
+				id: "53DFF0A543E9BD18"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 32L
+			}]
+		}
+		{
+			title: "Revealing goggles"
+			x: 2.0d
+			y: -2.0d
+			shape: "rsquare"
+			subtitle: "\"Its just a shame these can't be combined with helmets\""
+			optional: true
+			id: "533014E80E824A7A"
+			tasks: [{
+				id: "41C99F1D6F3D9EB6"
+				type: "item"
+				item: "create:goggles"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			shape: "rsquare"
+			optional: true
+			id: "6473B535FD74CE74"
+			tasks: [{
+				id: "5B3F3FFFFB68617E"
+				type: "item"
+				title: "Any #create:toolboxes"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "create:toolboxes"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			shape: "rsquare"
+			optional: true
+			id: "6CF437F8B13B075A"
+			tasks: [{
+				id: "587FEA8A6F50CB4B"
+				type: "item"
+				item: "create:wrench"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			dependencies: ["54B5BF2FC2E52A17"]
+			id: "20AB03F9913B2F59"
+			tasks: [{
+				id: "39789603CE5F1C3F"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			dependencies: ["20AB03F9913B2F59"]
+			id: "4B27C9BD7515CC0A"
+			tasks: [{
+				id: "5117178B4AA11AA5"
+				type: "item"
+				item: "create:copper_casing"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			dependencies: ["20AB03F9913B2F59"]
+			id: "08FCDF46E01C58E4"
+			tasks: [{
+				id: "1757259E4262D56F"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -6.0d
+			shape: "hexagon"
+			dependencies: ["08FCDF46E01C58E4"]
+			id: "2DA13268629253D4"
+			tasks: [{
+				id: "1C002738A55D7489"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			dependencies: ["2DA13268629253D4"]
+			id: "1AF72FD4FD59777A"
+			tasks: [{
+				id: "0F307A153C9A834D"
+				type: "item"
+				item: "create:brass_ingot"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -6.0d
+			dependencies: ["2DA13268629253D4"]
+			id: "4EAE79DB5F1DCF72"
+			tasks: [{
+				id: "4F19F098B64655D7"
+				type: "item"
+				item: "alloyed:bronze_ingot"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -8.0d
+			dependencies: ["2DA13268629253D4"]
+			id: "5F069BB770F4A258"
+			tasks: [{
+				id: "017D5605D988CDB1"
+				type: "item"
+				item: "alloyed:steel_ingot"
+			}]
+		}
+		{
+			title: "Infinite rotational power!"
+			x: 4.0d
+			y: -6.0d
+			shape: "gear"
+			hide_dependency_lines: true
+			dependencies: [
+				"6473B535FD74CE74"
+				"6CF437F8B13B075A"
+				"533014E80E824A7A"
+				"54B5BF2FC2E52A17"
+				"20AB03F9913B2F59"
+				"4B27C9BD7515CC0A"
+				"08FCDF46E01C58E4"
+				"2DA13268629253D4"
+				"4EAE79DB5F1DCF72"
+				"5F069BB770F4A258"
+				"1AF72FD4FD59777A"
+			]
+			hide: true
+			optional: true
+			id: "77237356B02641A7"
+			tasks: [{
+				id: "17A11CA4F4FEB077"
+				type: "item"
+				item: "create:creative_motor"
+			}]
+		}
+		{
+			title: "As deep as the ocean, smaller than a bathtub"
+			x: 4.0d
+			y: -4.0d
+			shape: "gear"
+			hide_dependency_lines: true
+			dependencies: [
+				"6473B535FD74CE74"
+				"533014E80E824A7A"
+				"6CF437F8B13B075A"
+				"54B5BF2FC2E52A17"
+				"20AB03F9913B2F59"
+				"4B27C9BD7515CC0A"
+				"08FCDF46E01C58E4"
+				"2DA13268629253D4"
+				"1AF72FD4FD59777A"
+				"4EAE79DB5F1DCF72"
+				"5F069BB770F4A258"
+			]
+			hide: true
+			optional: true
+			id: "39AFA2EB617BFEDF"
+			tasks: [{
+				id: "1982BB56F0C617C5"
+				type: "item"
+				item: "create:creative_fluid_tank"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			shape: "gear"
+			hide_dependency_lines: true
+			dependencies: [
+				"54B5BF2FC2E52A17"
+				"533014E80E824A7A"
+				"6473B535FD74CE74"
+				"6CF437F8B13B075A"
+				"20AB03F9913B2F59"
+				"4B27C9BD7515CC0A"
+				"08FCDF46E01C58E4"
+				"2DA13268629253D4"
+				"1AF72FD4FD59777A"
+				"4EAE79DB5F1DCF72"
+				"5F069BB770F4A258"
+			]
+			hide: true
+			optional: true
+			id: "6772F65969E71C01"
+			tasks: [{
+				id: "306C8909183D57B7"
+				type: "item"
+				item: "create:creative_blaze_cake"
+			}]
+		}
+		{
+			title: "Basically the creative vending upgrade but by a different name"
+			x: 2.0d
+			y: -6.0d
+			shape: "gear"
+			hide_dependency_lines: true
+			dependencies: [
+				"54B5BF2FC2E52A17"
+				"533014E80E824A7A"
+				"6473B535FD74CE74"
+				"6CF437F8B13B075A"
+				"20AB03F9913B2F59"
+				"4B27C9BD7515CC0A"
+				"08FCDF46E01C58E4"
+				"2DA13268629253D4"
+				"1AF72FD4FD59777A"
+				"4EAE79DB5F1DCF72"
+				"5F069BB770F4A258"
+			]
+			hide: true
+			optional: true
+			id: "3D1634EB510DC65A"
+			tasks: [{
+				id: "0A04FEC4D06E0E5B"
+				type: "item"
+				item: "create:creative_crate"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.0d
+			id: "379E96A308808D88"
+			tasks: [{
+				id: "578D6F7EE83D2498"
+				type: "item"
+				item: "create:mechanical_drill"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.0d
+			id: "6A85E06DAB13A311"
+			tasks: [{
+				id: "3358ADC94E5FB742"
+				type: "item"
+				item: "create:mechanical_saw"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -4.0d
+			id: "6784D7ABE1D9C130"
+			tasks: [{
+				id: "2958ECAAE08C5CE1"
+				type: "item"
+				item: "create:portable_storage_interface"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -8.0d
+			id: "08751EBBA3B6C07C"
+			tasks: [{
+				id: "54D7A4A2DC65A667"
+				type: "item"
+				item: "create:portable_fluid_interface"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -8.0d
+			id: "54680914D65EF445"
+			tasks: [{
+				id: "6915EDD63C89F4CE"
+				type: "item"
+				item: "create:item_drain"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -6.0d
+			id: "3DA23F82310CA951"
+			tasks: [{
+				id: "44425FDB28BAE1A5"
+				type: "item"
+				item: "create:hose_pulley"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -6.0d
+			id: "5D6EAD5571C31064"
+			tasks: [{
+				id: "1FAAAACCE13D346D"
+				type: "item"
+				item: "create:fluid_tank"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -6.0d
+			id: "5D79856C1FD9C592"
+			tasks: [{
+				id: "6A02DA9992BCB2AD"
+				type: "item"
+				item: "create:fluid_pipe"
+			}]
+		}
+	]
+}

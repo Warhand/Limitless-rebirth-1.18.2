@@ -1,0 +1,7 @@
+#Disables/Enables the fog rendering introduced by Fog Tweaker. Vanilla fog is not disabled with this option. NOTE: This will disregard individual Biome Configs!
+fogEnabled = true
+#Disables/Enables configurable particles spawning in the fog. NOTE: This will disregard individual Biome Configs!
+fogParticlesEnabled = true
+#Enable warnings on load when using incompatible mods.
+incompatibleModsWarning = true
+

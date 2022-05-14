@@ -1,0 +1,3 @@
+#Should the fog be poisonous? NOTE: This will disregard individual Biome Configs!
+poisonousFogEnabled = true
+

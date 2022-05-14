@@ -1,0 +1,906 @@
+[
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "ambient_entity_effect"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "angry_villager"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "block"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "block_marker"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "bubble"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "cloud"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "crit"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "damage_indicator"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "dragon_breath"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "dripping_lava"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "falling_lava"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "landing_lava"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "dripping_water"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "falling_water"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "dust"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "dust_color_transition"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "effect"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "elder_guardian"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "enchanted_hit"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "enchant"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "end_rod"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "entity_effect"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "explosion_emitter"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "explosion"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "falling_dust"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "firework"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "fishing"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "flame"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "soul_fire_flame"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "soul"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "flash"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "happy_villager"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "composter"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "heart"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "instant_effect"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "item"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "vibration"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "item_slime"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "item_snowball"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "large_smoke"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "lava"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "mycelium"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "note"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "poof"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "portal"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "rain"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "smoke"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "sneeze"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "spit"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "squid_ink"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "sweep_attack"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "totem_of_undying"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "underwater"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "splash"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "witch"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "bubble_pop"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "current_down"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "bubble_column_up"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "nautilus"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "dolphin"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "campfire_cosy_smoke"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "campfire_signal_smoke"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "dripping_honey"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "falling_honey"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "landing_honey"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "falling_nectar"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "falling_spore_blossom"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "ash"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "crimson_spore"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "warped_spore"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "spore_blossom_air"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "dripping_obsidian_tear"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "falling_obsidian_tear"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "landing_obsidian_tear"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "reverse_portal"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "white_ash"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "small_flame"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "snowflake"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "dripping_dripstone_lava"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "falling_dripstone_lava"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "dripping_dripstone_water"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "falling_dripstone_water"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "glow_squid_ink"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "glow"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "wax_on"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "wax_off"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "electric_spark"
+  },
+  {
+    "f_135804_": "minecraft",
+    "f_135805_": "scrape"
+  },
+  {
+    "f_135804_": "biomesoplenty",
+    "f_135805_": "dripping_blood"
+  },
+  {
+    "f_135804_": "biomesoplenty",
+    "f_135805_": "falling_blood"
+  },
+  {
+    "f_135804_": "biomesoplenty",
+    "f_135805_": "landing_blood"
+  },
+  {
+    "f_135804_": "biomesoplenty",
+    "f_135805_": "pus"
+  },
+  {
+    "f_135804_": "biomesoplenty",
+    "f_135805_": "glowworm"
+  },
+  {
+    "f_135804_": "botania",
+    "f_135805_": "wisp"
+  },
+  {
+    "f_135804_": "botania",
+    "f_135805_": "sparkle"
+  },
+  {
+    "f_135804_": "schoolsofmagic",
+    "f_135805_": "star_particle"
+  },
+  {
+    "f_135804_": "cgm",
+    "f_135805_": "bullet_hole"
+  },
+  {
+    "f_135804_": "cgm",
+    "f_135805_": "blood"
+  },
+  {
+    "f_135804_": "cgm",
+    "f_135805_": "trail"
+  },
+  {
+    "f_135804_": "graveyard",
+    "f_135805_": "graveyard_fog_particle"
+  },
+  {
+    "f_135804_": "champions",
+    "f_135805_": "rank"
+  },
+  {
+    "f_135804_": "tetra",
+    "f_135805_": "sparkle"
+  },
+  {
+    "f_135804_": "cyclopscore",
+    "f_135805_": "blur"
+  },
+  {
+    "f_135804_": "cyclopscore",
+    "f_135805_": "drop_colored"
+  },
+  {
+    "f_135804_": "blue_skies",
+    "f_135805_": "blue_flame"
+  },
+  {
+    "f_135804_": "blue_skies",
+    "f_135805_": "black_flame"
+  },
+  {
+    "f_135804_": "blue_skies",
+    "f_135805_": "everbright_portal"
+  },
+  {
+    "f_135804_": "blue_skies",
+    "f_135805_": "everdawn_portal"
+  },
+  {
+    "f_135804_": "blue_skies",
+    "f_135805_": "star_flare"
+  },
+  {
+    "f_135804_": "blue_skies",
+    "f_135805_": "poison"
+  },
+  {
+    "f_135804_": "blue_skies",
+    "f_135805_": "dusk_smoke"
+  },
+  {
+    "f_135804_": "blue_skies",
+    "f_135805_": "fluctuant_sphere"
+  },
+  {
+    "f_135804_": "blue_skies",
+    "f_135805_": "fluctuant_sphere_beam"
+  },
+  {
+    "f_135804_": "blue_skies",
+    "f_135805_": "falling_leaf"
+  },
+  {
+    "f_135804_": "blue_skies",
+    "f_135805_": "dust"
+  },
+  {
+    "f_135804_": "blue_skies",
+    "f_135805_": "crusher_dust"
+  },
+  {
+    "f_135804_": "blue_skies",
+    "f_135805_": "brisk_petal"
+  },
+  {
+    "f_135804_": "blue_skies",
+    "f_135805_": "frose_snow"
+  },
+  {
+    "f_135804_": "blue_skies",
+    "f_135805_": "searing_smoke"
+  },
+  {
+    "f_135804_": "blue_skies",
+    "f_135805_": "star_glimmer"
+  },
+  {
+    "f_135804_": "alexsmobs",
+    "f_135805_": "guster_sand_spin"
+  },
+  {
+    "f_135804_": "alexsmobs",
+    "f_135805_": "guster_sand_shot"
+  },
+  {
+    "f_135804_": "alexsmobs",
+    "f_135805_": "guster_sand_spin_red"
+  },
+  {
+    "f_135804_": "alexsmobs",
+    "f_135805_": "guster_sand_shot_red"
+  },
+  {
+    "f_135804_": "alexsmobs",
+    "f_135805_": "guster_sand_spin_soul"
+  },
+  {
+    "f_135804_": "alexsmobs",
+    "f_135805_": "guster_sand_shot_soul"
+  },
+  {
+    "f_135804_": "alexsmobs",
+    "f_135805_": "hemolymph"
+  },
+  {
+    "f_135804_": "alexsmobs",
+    "f_135805_": "platypus_sense"
+  },
+  {
+    "f_135804_": "alexsmobs",
+    "f_135805_": "whale_splash"
+  },
+  {
+    "f_135804_": "alexsmobs",
+    "f_135805_": "dna"
+  },
+  {
+    "f_135804_": "alexsmobs",
+    "f_135805_": "shocked"
+  },
+  {
+    "f_135804_": "alexsmobs",
+    "f_135805_": "worm_portal"
+  },
+  {
+    "f_135804_": "alexsmobs",
+    "f_135805_": "invert_dig"
+  },
+  {
+    "f_135804_": "alexsmobs",
+    "f_135805_": "teeth_glint"
+  },
+  {
+    "f_135804_": "alexsmobs",
+    "f_135805_": "smelly"
+  },
+  {
+    "f_135804_": "alexsmobs",
+    "f_135805_": "bunfungus_transformation"
+  },
+  {
+    "f_135804_": "alexsmobs",
+    "f_135805_": "fungus_bubble"
+  },
+  {
+    "f_135804_": "alexsmobs",
+    "f_135805_": "bear_freddy"
+  },
+  {
+    "f_135804_": "alexsmobs",
+    "f_135805_": "sunbird_feather"
+  },
+  {
+    "f_135804_": "domesticationinnovation",
+    "f_135805_": "deflection_shield"
+  },
+  {
+    "f_135804_": "domesticationinnovation",
+    "f_135805_": "magnet"
+  },
+  {
+    "f_135804_": "domesticationinnovation",
+    "f_135805_": "zzz"
+  },
+  {
+    "f_135804_": "domesticationinnovation",
+    "f_135805_": "giant_pop"
+  },
+  {
+    "f_135804_": "domesticationinnovation",
+    "f_135805_": "simple_bubble"
+  },
+  {
+    "f_135804_": "domesticationinnovation",
+    "f_135805_": "vampire"
+  },
+  {
+    "f_135804_": "domesticationinnovation",
+    "f_135805_": "sniff"
+  },
+  {
+    "f_135804_": "domesticationinnovation",
+    "f_135805_": "psychic_wall"
+  },
+  {
+    "f_135804_": "domesticationinnovation",
+    "f_135805_": "intimidation"
+  },
+  {
+    "f_135804_": "domesticationinnovation",
+    "f_135805_": "blight"
+  },
+  {
+    "f_135804_": "sophisticatedcore",
+    "f_135805_": "jukebox_note"
+  },
+  {
+    "f_135804_": "relics",
+    "f_135805_": "circle_tint"
+  },
+  {
+    "f_135804_": "relics",
+    "f_135805_": "spark_tint"
+  },
+  {
+    "f_135804_": "beyond_earth",
+    "f_135805_": "venus_rain"
+  },
+  {
+    "f_135804_": "beyond_earth",
+    "f_135805_": "large_flame"
+  },
+  {
+    "f_135804_": "beyond_earth",
+    "f_135805_": "large_smoke"
+  },
+  {
+    "f_135804_": "beyond_earth",
+    "f_135805_": "small_flame"
+  },
+  {
+    "f_135804_": "beyond_earth",
+    "f_135805_": "small_smoke"
+  },
+  {
+    "f_135804_": "ars_nouveau",
+    "f_135805_": "glow"
+  },
+  {
+    "f_135804_": "ars_nouveau",
+    "f_135805_": "line"
+  },
+  {
+    "f_135804_": "ars_nouveau",
+    "f_135805_": "sparkle"
+  },
+  {
+    "f_135804_": "ars_nouveau",
+    "f_135805_": "vortex"
+  },
+  {
+    "f_135804_": "findme",
+    "f_135805_": "particle"
+  },
+  {
+    "f_135804_": "undergarden",
+    "f_135805_": "shard"
+  },
+  {
+    "f_135804_": "undergarden",
+    "f_135805_": "grongle_spore"
+  },
+  {
+    "f_135804_": "undergarden",
+    "f_135805_": "undergarden_portal"
+  },
+  {
+    "f_135804_": "undergarden",
+    "f_135805_": "gloomper_fart"
+  },
+  {
+    "f_135804_": "undergarden",
+    "f_135805_": "shimmer"
+  },
+  {
+    "f_135804_": "create",
+    "f_135805_": "rotation_indicator"
+  },
+  {
+    "f_135804_": "create",
+    "f_135805_": "air_flow"
+  },
+  {
+    "f_135804_": "create",
+    "f_135805_": "air"
+  },
+  {
+    "f_135804_": "create",
+    "f_135805_": "heater_particle"
+  },
+  {
+    "f_135804_": "create",
+    "f_135805_": "cube"
+  },
+  {
+    "f_135804_": "create",
+    "f_135805_": "fluid_particle"
+  },
+  {
+    "f_135804_": "create",
+    "f_135805_": "basin_fluid"
+  },
+  {
+    "f_135804_": "create",
+    "f_135805_": "fluid_drip"
+  },
+  {
+    "f_135804_": "create",
+    "f_135805_": "soul"
+  },
+  {
+    "f_135804_": "create",
+    "f_135805_": "soul_base"
+  },
+  {
+    "f_135804_": "create",
+    "f_135805_": "soul_perimeter"
+  },
+  {
+    "f_135804_": "create",
+    "f_135805_": "soul_expanding_perimeter"
+  },
+  {
+    "f_135804_": "immersiveengineering",
+    "f_135805_": "fluid_splash"
+  },
+  {
+    "f_135804_": "immersiveengineering",
+    "f_135805_": "fractal"
+  },
+  {
+    "f_135804_": "immersiveengineering",
+    "f_135805_": "ie_bubble"
+  },
+  {
+    "f_135804_": "immersiveengineering",
+    "f_135805_": "sparks"
+  },
+  {
+    "f_135804_": "supplementaries",
+    "f_135805_": "firefly_glow"
+  },
+  {
+    "f_135804_": "supplementaries",
+    "f_135805_": "speaker_sound"
+  },
+  {
+    "f_135804_": "supplementaries",
+    "f_135805_": "green_flame"
+  },
+  {
+    "f_135804_": "supplementaries",
+    "f_135805_": "dripping_liquid"
+  },
+  {
+    "f_135804_": "supplementaries",
+    "f_135805_": "falling_liquid"
+  },
+  {
+    "f_135804_": "supplementaries",
+    "f_135805_": "splashing_liquid"
+  },
+  {
+    "f_135804_": "supplementaries",
+    "f_135805_": "bomb_explosion"
+  },
+  {
+    "f_135804_": "supplementaries",
+    "f_135805_": "bomb_explosion_emitter"
+  },
+  {
+    "f_135804_": "supplementaries",
+    "f_135805_": "bomb_smoke"
+  },
+  {
+    "f_135804_": "supplementaries",
+    "f_135805_": "bottling_xp"
+  },
+  {
+    "f_135804_": "supplementaries",
+    "f_135805_": "feather"
+  },
+  {
+    "f_135804_": "supplementaries",
+    "f_135805_": "air_burst"
+  },
+  {
+    "f_135804_": "supplementaries",
+    "f_135805_": "stasis"
+  },
+  {
+    "f_135804_": "supplementaries",
+    "f_135805_": "confetti"
+  },
+  {
+    "f_135804_": "supplementaries",
+    "f_135805_": "rotation_trail"
+  },
+  {
+    "f_135804_": "supplementaries",
+    "f_135805_": "rotation_trail_emitter"
+  },
+  {
+    "f_135804_": "supplementaries",
+    "f_135805_": "suds"
+  },
+  {
+    "f_135804_": "supplementaries",
+    "f_135805_": "ash"
+  },
+  {
+    "f_135804_": "supplementaries",
+    "f_135805_": "bubble_block"
+  },
+  {
+    "f_135804_": "tconstruct",
+    "f_135805_": "fluid"
+  },
+  {
+    "f_135804_": "tconstruct",
+    "f_135805_": "sky_slime"
+  },
+  {
+    "f_135804_": "tconstruct",
+    "f_135805_": "ender_slime"
+  },
+  {
+    "f_135804_": "tconstruct",
+    "f_135805_": "terracube"
+  },
+  {
+    "f_135804_": "tconstruct",
+    "f_135805_": "hammer_attack"
+  },
+  {
+    "f_135804_": "tconstruct",
+    "f_135805_": "axe_attack"
+  },
+  {
+    "f_135804_": "ae2",
+    "f_135805_": "crafting_fx"
+  },
+  {
+    "f_135804_": "ae2",
+    "f_135805_": "energy_fx"
+  },
+  {
+    "f_135804_": "ae2",
+    "f_135805_": "lightning_arc_fx"
+  },
+  {
+    "f_135804_": "ae2",
+    "f_135805_": "lightning_fx"
+  },
+  {
+    "f_135804_": "ae2",
+    "f_135805_": "matter_cannon_fx"
+  },
+  {
+    "f_135804_": "ae2",
+    "f_135805_": "vibrant_fx"
+  },
+  {
+    "f_135804_": "tetrapak",
+    "f_135805_": "moonstrike_stage_0"
+  },
+  {
+    "f_135804_": "tetrapak",
+    "f_135805_": "moonstrike_stage_1"
+  },
+  {
+    "f_135804_": "tetrapak",
+    "f_135805_": "moonstrike_stage_2"
+  },
+  {
+    "f_135804_": "tetrapak",
+    "f_135805_": "moonstrike_stage_3"
+  },
+  {
+    "f_135804_": "malum",
+    "f_135805_": "wisp"
+  },
+  {
+    "f_135804_": "malum",
+    "f_135805_": "smoke"
+  },
+  {
+    "f_135804_": "malum",
+    "f_135805_": "sparkle"
+  },
+  {
+    "f_135804_": "malum",
+    "f_135805_": "twinkle"
+  },
+  {
+    "f_135804_": "malum",
+    "f_135805_": "star"
+  },
+  {
+    "f_135804_": "malum",
+    "f_135805_": "spirit_flame"
+  },
+  {
+    "f_135804_": "malum",
+    "f_135805_": "scythe_cut_attack"
+  },
+  {
+    "f_135804_": "malum",
+    "f_135805_": "scythe_sweep_attack"
+  }
+]

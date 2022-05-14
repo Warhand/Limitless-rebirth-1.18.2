@@ -1,0 +1,888 @@
+{
+	id: "623E8DEA16FF7FBD"
+	group: ""
+	order_index: 3
+	filename: "challenges"
+	title: "Challenges"
+	icon: "quark:rainbow_rune"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Vinyl fan"
+			icon: "minecraft:jukebox"
+			x: 0.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "\"Are we sure these aren't available on CD's instead?\""
+			description: ["Collect one of every music disc in the game."]
+			optional: true
+			id: "52B9B8389C584361"
+			tasks: [
+				{
+					id: "313300AEF4F83267"
+					type: "item"
+					title: "C418 - 13"
+					item: "minecraft:music_disc_13"
+				}
+				{
+					id: "492AB4326B7C257E"
+					type: "item"
+					title: "C418 - Cat"
+					item: "minecraft:music_disc_cat"
+				}
+				{
+					id: "6321088373A93B09"
+					type: "item"
+					title: "C418 - Blocks"
+					item: "minecraft:music_disc_blocks"
+				}
+				{
+					id: "077AE5AAC293B56E"
+					type: "item"
+					title: "C418 - Chirp"
+					item: "minecraft:music_disc_chirp"
+				}
+				{
+					id: "41BFEAB1AC0DAE64"
+					type: "item"
+					title: "C418 - Far"
+					item: "minecraft:music_disc_far"
+				}
+				{
+					id: "455EE197324BEA1A"
+					type: "item"
+					title: "C418 - Mall"
+					item: "minecraft:music_disc_mall"
+				}
+				{
+					id: "794398A7540CFF0A"
+					type: "item"
+					title: "C418 - Mellohi"
+					item: "minecraft:music_disc_mellohi"
+				}
+				{
+					id: "79C013BE4BE969A7"
+					type: "item"
+					title: "C418 - Stal"
+					item: "minecraft:music_disc_stal"
+				}
+				{
+					id: "2B0835C5C9757C88"
+					type: "item"
+					title: "C418 - Strad"
+					item: "minecraft:music_disc_strad"
+				}
+				{
+					id: "14AD58E38BA5A962"
+					type: "item"
+					title: "C418 - Ward"
+					item: "minecraft:music_disc_ward"
+				}
+				{
+					id: "2B752724F51CEE73"
+					type: "item"
+					title: "??? - 11"
+					item: "minecraft:music_disc_11"
+				}
+				{
+					id: "63954DD206C9EA34"
+					type: "item"
+					title: "C418 - Wait"
+					item: "minecraft:music_disc_wait"
+				}
+				{
+					id: "7937E309B3A45437"
+					type: "item"
+					title: "Lena Raine - Otherside"
+					item: "minecraft:music_disc_otherside"
+				}
+				{
+					id: "326AF8B601FC15F9"
+					type: "item"
+					title: "Lena Raine - Pigstep"
+					item: "minecraft:music_disc_pigstep"
+				}
+				{
+					id: "487ABC2839B4559F"
+					type: "item"
+					title: "Jonathing - Blinding rage"
+					item: "blue_skies:blinding_rage"
+				}
+				{
+					id: "710F23DBB6D462E8"
+					type: "item"
+					title: "Jonathing - Defying starlight"
+					item: "blue_skies:defying_starlight"
+				}
+				{
+					id: "16BC5B666A2B4FDD"
+					type: "item"
+					title: "Jonathing - Venomous encounter"
+					item: "blue_skies:venomous_encounter"
+				}
+				{
+					id: "4ED02CFB34649479"
+					type: "item"
+					title: "Lachney - Population"
+					item: "blue_skies:population"
+				}
+				{
+					id: "1A955B64A1A6530B"
+					type: "item"
+					title: "LudoCrypt - Thime"
+					item: "alexsmobs:music_disc_thime"
+				}
+				{
+					id: "6B4D35E425E96BB1"
+					type: "item"
+					title: "LudoCrypt - Daze"
+					item: "alexsmobs:music_disc_daze"
+				}
+				{
+					id: "4057810B3B076BCA"
+					type: "item"
+					title: "Tim Rurkowski - Wanderer"
+					item: "biomesoplenty:music_disc_wanderer"
+				}
+				{
+					id: "65E6DC8ECE04BE49"
+					type: "item"
+					title: "Kain Vinosec - Endure Emptiness"
+					item: "botania:record_gaia_1"
+				}
+				{
+					id: "54B1CDA250BB8E68"
+					type: "item"
+					title: "Kain Vinosec - Fight for Quiescence"
+					item: "botania:record_gaia_2"
+				}
+				{
+					id: "1CC4744DB8D42829"
+					type: "item"
+					title: "Screem - Mammoth"
+					item: "undergarden:music_disc_mammoth"
+				}
+				{
+					id: "15D9990E11956F0C"
+					type: "item"
+					title: "Screem - Limax Maximus"
+					item: "undergarden:music_disc_limax_maximus"
+				}
+				{
+					id: "5DF89E6FB42474C2"
+					type: "item"
+					title: "Screem - Relict"
+					item: "undergarden:music_disc_relict"
+				}
+				{
+					id: "0B19101D8EC6DAF9"
+					type: "item"
+					title: "Screem - Gloomper anthem"
+					item: "undergarden:music_disc_gloomper_anthem"
+				}
+				{
+					id: "2BFBABA327DDEB02"
+					type: "item"
+					title: "Kain Vinosec - Endermosh"
+					item: "quark:music_disc_endermosh"
+				}
+			]
+		}
+		{
+			title: "The wanderer"
+			icon: "dimdungeons:block_gold_portal"
+			x: 0.0d
+			y: -2.0d
+			subtitle: "\"You sure do roam around, around, around, around!\""
+			description: ["Visit every dimension in this modpack at least once"]
+			optional: true
+			id: "60B74FA38A43AAC9"
+			tasks: [
+				{
+					id: "1C1AF7748F6387E9"
+					type: "dimension"
+					title: "The overworld"
+					icon: "minecraft:grass_block"
+					dimension: "minecraft:overworld"
+				}
+				{
+					id: "272793D46AB3EFCE"
+					type: "dimension"
+					title: "The nether"
+					dimension: "minecraft:the_nether"
+				}
+				{
+					id: "7FA5FD5711FDDDE4"
+					type: "dimension"
+					title: "The end"
+					icon: "minecraft:ender_eye"
+					dimension: "minecraft:the_end"
+				}
+				{
+					id: "0C979654F7004775"
+					type: "dimension"
+					title: "The everbright"
+					icon: "blue_skies:everbright_portal"
+					dimension: "blue_skies:everbright"
+				}
+				{
+					id: "0B34B9D726D05FED"
+					type: "dimension"
+					title: "the everdawn"
+					icon: "blue_skies:everdawn_portal"
+					dimension: "blue_skies:everdawn"
+				}
+				{
+					id: "508634A3AEE9CDAA"
+					type: "dimension"
+					title: "The moon"
+					icon: "beyond_earth:moon_stone"
+					dimension: "beyond_earth:moon"
+				}
+				{
+					id: "50820D18EFFC51A8"
+					type: "dimension"
+					title: "Mars"
+					icon: "beyond_earth:mars_stone"
+					dimension: "beyond_earth:mars"
+				}
+				{
+					id: "643394642F9CAD5B"
+					type: "dimension"
+					title: "Mercury"
+					icon: "beyond_earth:mercury_stone"
+					dimension: "beyond_earth:mercury"
+				}
+				{
+					id: "277FD4A7309A56AB"
+					type: "dimension"
+					title: "Venus"
+					icon: "beyond_earth:venus_stone"
+					dimension: "beyond_earth:venus"
+				}
+				{
+					id: "61702A9C14B28A86"
+					type: "dimension"
+					title: "Glacio"
+					icon: "beyond_earth:glacio_stone"
+					dimension: "beyond_earth:glacio"
+				}
+				{
+					id: "58CCD89A13DB070B"
+					type: "dimension"
+					title: "The undergarden"
+					icon: "undergarden:catalyst"
+					dimension: "undergarden:undergarden"
+				}
+				{
+					id: "175C43F53049EF1E"
+					type: "dimension"
+					title: "The mining dimension"
+					icon: {
+						id: "minecraft:diamond_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					dimension: "jamd:mining"
+				}
+				{
+					id: "685A6CAD91DA3ED4"
+					type: "dimension"
+					title: "Dimensional dungeons"
+					icon: "dimdungeons:block_portal_keyhole"
+					dimension: "dimdungeons:dungeon_dimension"
+				}
+			]
+		}
+		{
+			title: "Overworld champion"
+			icon: {
+				id: "minecraft:diamond_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: -4.0d
+			subtitle: "\"Your attacks now score critical hits on rolls of 19 or 20!\""
+			optional: true
+			id: "0EAC88E3CAC37AF4"
+			tasks: [
+				{
+					id: "75B7E89137AE4321"
+					type: "kill"
+					title: "Kill 50 Zombies"
+					icon: "minecraft:zombie_head"
+					entity: "minecraft:zombie"
+					value: 50L
+				}
+				{
+					id: "1DC407B6EEA10230"
+					type: "kill"
+					title: "Kill 50 Skeletons"
+					icon: "minecraft:skeleton_skull"
+					entity: "minecraft:skeleton"
+					value: 50L
+				}
+				{
+					id: "5DACB2DE63F856DC"
+					type: "kill"
+					title: "Kill 50 Spiders"
+					icon: "minecraft:spider_eye"
+					entity: "minecraft:spider"
+					value: 50L
+				}
+				{
+					id: "380F00768C3D5A51"
+					type: "kill"
+					title: "Kill 50 Creepers"
+					icon: "minecraft:creeper_head"
+					entity: "minecraft:creeper"
+					value: 50L
+				}
+				{
+					id: "17C5EC726ABFA176"
+					type: "kill"
+					title: "Kill 10 Witches"
+					icon: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:poison"
+						}
+					}
+					entity: "minecraft:witch"
+					value: 10L
+				}
+				{
+					id: "06B84119BFF1EF36"
+					type: "kill"
+					title: "Kill 25 Pillagers"
+					icon: {
+						id: "minecraft:crossbow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					entity: "minecraft:pillager"
+					value: 25L
+				}
+				{
+					id: "731A7B42F6D0C98D"
+					type: "kill"
+					title: "Kill 10 Vindicators"
+					icon: {
+						id: "minecraft:iron_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					entity: "minecraft:vindicator"
+					value: 10L
+				}
+				{
+					id: "3CFD9F547EFA2980"
+					type: "kill"
+					title: "Kill 5 Evokers"
+					icon: "minecraft:totem_of_undying"
+					entity: "minecraft:evoker"
+					value: 5L
+				}
+				{
+					id: "536011D535C88284"
+					type: "kill"
+					title: "Kill 3 Ravagers"
+					icon: "minecraft:saddle"
+					entity: "minecraft:ravager"
+					value: 3L
+				}
+				{
+					id: "2ABABEF2D8AB6CF1"
+					type: "kill"
+					title: "Kill 5 Ghouls"
+					icon: "minecraft:rotten_flesh"
+					entity: "graveyard:ghoul"
+					value: 5L
+				}
+				{
+					id: "5A78885A74BD375B"
+					type: "kill"
+					title: "Kill 10 Revenants"
+					icon: "graveyard:leaning_skeleton"
+					entity: "graveyard:revenant"
+					value: 10L
+				}
+				{
+					id: "6FD64AB56A794D46"
+					type: "kill"
+					title: "Kill 25 Acolytes"
+					icon: {
+						id: "graveyard:bone_dagger"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					entity: "graveyard:acolyte"
+					value: 25L
+				}
+				{
+					id: "026AB57D1057C723"
+					type: "kill"
+					title: "Kill 5 Cave centipedes"
+					icon: "alexsmobs:centipede_leg"
+					entity: "alexsmobs:centipede_head"
+					value: 5L
+				}
+				{
+					id: "1C9ADE48BA5A592B"
+					type: "kill"
+					title: "Kill 50 Wilden stalkers"
+					icon: "ars_nouveau:wilden_wing"
+					entity: "ars_nouveau:wilden_stalker"
+					value: 50L
+				}
+				{
+					id: "68E51DBA00F6C074"
+					type: "kill"
+					title: "Kill 25 Wilden hunters"
+					icon: "ars_nouveau:wilden_horn"
+					entity: "ars_nouveau:wilden_hunter"
+					value: 25L
+				}
+				{
+					id: "6F9F69D2FC30DF44"
+					type: "kill"
+					title: "Kill 10 Wilden defenders"
+					icon: "ars_nouveau:wilden_spike"
+					entity: "ars_nouveau:wilden_guardian"
+					value: 10L
+				}
+				{
+					id: "1E9C59F80D3B5B70"
+					type: "kill"
+					title: "Kill 10 Endermen"
+					icon: "minecraft:ender_pearl"
+					entity: "minecraft:enderman"
+					value: 10L
+				}
+				{
+					id: "5A1ED7D16AF8F53D"
+					type: "kill"
+					title: "Kill 5 Viler witches"
+					icon: {
+						id: "minecraft:lingering_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_poison"
+						}
+					}
+					entity: "restored_earth:viler_witch"
+					value: 5L
+				}
+				{
+					id: "4830EBE5587CA9C5"
+					type: "kill"
+					title: "Kill 3 Forgotten"
+					icon: {
+						id: "quark:forgotten_hat"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					entity: "quark:forgotten"
+					value: 3L
+				}
+			]
+		}
+		{
+			title: "Nether Slayer"
+			icon: "minecraft:nether_star"
+			x: 2.0d
+			y: -4.0d
+			subtitle: "\"Rip and tear, until it is done\""
+			optional: true
+			id: "4E16551FDE63A3DD"
+			tasks: [
+				{
+					id: "30C69B310F5F02CD"
+					type: "kill"
+					title: "Kill 50 Piglins"
+					icon: "minecraft:raw_gold"
+					entity: "minecraft:piglin"
+					value: 50L
+				}
+				{
+					id: "2DFBB776DE7564EC"
+					type: "kill"
+					title: "Kill 10 Piglin Brutes"
+					icon: {
+						id: "minecraft:golden_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					entity: "minecraft:piglin_brute"
+					value: 10L
+				}
+				{
+					id: "31F3F979A92E30C5"
+					type: "kill"
+					title: "Kill 25 Hoglins"
+					icon: "minecraft:porkchop"
+					entity: "minecraft:hoglin"
+					value: 25L
+				}
+				{
+					id: "07D79078F12E85F1"
+					type: "kill"
+					title: "Kill 25 Ghasts"
+					icon: "minecraft:fire_charge"
+					entity: "minecraft:ghast"
+					value: 25L
+				}
+				{
+					id: "6E5404A775BF2473"
+					type: "kill"
+					title: "Kill 25 Blazes"
+					icon: "minecraft:blaze_powder"
+					entity: "minecraft:blaze"
+					value: 25L
+				}
+				{
+					id: "7BEFEDD436B378FF"
+					type: "kill"
+					title: "Kill 10 Endermen"
+					icon: "minecraft:ender_pearl"
+					entity: "minecraft:enderman"
+					value: 10L
+				}
+				{
+					id: "42E10C305C50F1EB"
+					type: "kill"
+					title: "Kill 25 Wither skeletons"
+					icon: "minecraft:wither_skeleton_skull"
+					entity: "minecraft:wither_skeleton"
+					value: 25L
+				}
+				{
+					id: "58721F17430737D7"
+					type: "kill"
+					title: "Kill 50 Straddlers"
+					icon: "alexsmobs:straddlite"
+					entity: "alexsmobs:straddler"
+					value: 50L
+				}
+				{
+					id: "4C5E4A70D6090C69"
+					type: "kill"
+					title: "Kill 50 Wraiths"
+					icon: "quark:soul_bead"
+					entity: "quark:wraith"
+					value: 50L
+				}
+				{
+					id: "7FECDD9A1FEB1637"
+					type: "kill"
+					title: "Kill 25 Soul vultures"
+					icon: "alexsmobs:soul_heart"
+					entity: "alexsmobs:soul_vulture"
+					value: 25L
+				}
+				{
+					id: "3DD7D12F1BA97461"
+					type: "kill"
+					title: "Kill 25 Crimson mosquitos"
+					icon: "alexsmobs:mosquito_larva"
+					entity: "alexsmobs:crimson_mosquito"
+					value: 25L
+				}
+				{
+					id: "71E620333B8BAFB1"
+					type: "kill"
+					title: "Kill 50 Magma cubes"
+					icon: "minecraft:magma_cream"
+					entity: "minecraft:magma_cube"
+					value: 50L
+				}
+				{
+					id: "5C2747508166D4C3"
+					type: "kill"
+					title: "Kill 10 Dropbears"
+					icon: "alexsmobs:dropbear_claw"
+					entity: "alexsmobs:dropbear"
+					value: 10L
+				}
+				{
+					id: "6A6BF43A9E6C6108"
+					type: "kill"
+					title: "Kill 5 Bone serpents"
+					icon: "alexsmobs:bone_serpent_tooth"
+					entity: "alexsmobs:bone_serpent"
+					value: 5L
+				}
+			]
+		}
+		{
+			title: "Ascended"
+			icon: "paraglider:anti_vessel"
+			x: 0.0d
+			y: -8.0d
+			shape: "gear"
+			subtitle: "\"Please go outside now\""
+			description: [
+				"You did it, you crafted every creative item, please go touch grass now."
+				"ass"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"4E16551FDE63A3DD"
+				"0EAC88E3CAC37AF4"
+				"60B74FA38A43AAC9"
+				"52B9B8389C584361"
+				"5321CE3E9A693BC1"
+				"344E4B8D3B1CFFF1"
+			]
+			hide: true
+			optional: true
+			id: "5FEF0053081E8071"
+			tasks: [
+				{
+					id: "61D751E42B325D92"
+					type: "item"
+					item: "create:creative_fluid_tank"
+				}
+				{
+					id: "5CB96BD10DF4151A"
+					type: "item"
+					item: "create:creative_motor"
+				}
+				{
+					id: "67275AA7583BFC32"
+					type: "item"
+					item: "pipez:infinity_upgrade"
+				}
+				{
+					id: "1D9B9C410C8210DD"
+					type: "item"
+					item: "create:creative_blaze_cake"
+				}
+				{
+					id: "56DD2C68A40D66DB"
+					type: "item"
+					item: "immersiveengineering:capacitor_creative"
+				}
+				{
+					id: "093C806AC39F66D2"
+					type: "item"
+					item: "ars_nouveau:creative_source_jar"
+				}
+				{
+					id: "58A8DD5AA6421262"
+					type: "item"
+					item: "ae2:creative_energy_cell"
+				}
+				{
+					id: "39D78D3E9E6A40F3"
+					type: "item"
+					item: "ae2:creative_item_cell"
+				}
+				{
+					id: "153D2820C3E00AB1"
+					type: "item"
+					item: "ae2:creative_fluid_cell"
+				}
+				{
+					id: "46562CAF13A7257A"
+					type: "item"
+					item: "storagedrawers:creative_storage_upgrade"
+				}
+				{
+					id: "04E9D738A9327114"
+					type: "item"
+					item: "storagedrawers:creative_vending_upgrade"
+				}
+				{
+					id: "200116F1CC905B62"
+					type: "item"
+					item: "botania:creative_pool"
+				}
+				{
+					id: "43FC842DD3E73E9F"
+					type: "item"
+					item: {
+						id: "botania:mana_tablet"
+						Count: 1b
+						tag: {
+							mana: 500000
+							creative: 1b
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Ender ender"
+			icon: "minecraft:end_crystal"
+			x: -2.0d
+			y: -4.0d
+			optional: true
+			id: "344E4B8D3B1CFFF1"
+			tasks: [
+				{
+					id: "39CA2E9731E44989"
+					type: "kill"
+					title: "Kill 50 Endermen"
+					icon: "minecraft:ender_pearl"
+					entity: "minecraft:enderman"
+					value: 50L
+				}
+				{
+					id: "36AACB352F47F2ED"
+					type: "kill"
+					title: "Kill 25 Shulkers"
+					icon: "minecraft:shulker_shell"
+					entity: "minecraft:shulker"
+					value: 25L
+				}
+				{
+					id: "7AEA0C157D7DEFB4"
+					type: "kill"
+					title: "Kill 25 Mimicubes"
+					icon: "alexsmobs:mimicream"
+					entity: "alexsmobs:mimicube"
+					value: 25L
+				}
+			]
+		}
+		{
+			title: "Undergardener"
+			icon: {
+				id: "undergarden:forgotten_battleaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						lvl: 4s
+						id: "minecraft:knockback"
+					}]
+				}
+			}
+			x: 0.0d
+			y: -6.0d
+			optional: true
+			id: "5321CE3E9A693BC1"
+			tasks: [
+				{
+					id: "53376F76FCCDDBF7"
+					type: "kill"
+					title: "Kill 50 Rotlings"
+					icon: "undergarden:utheric_shard"
+					entity: "undergarden:rotling"
+					value: 50L
+				}
+				{
+					id: "3777E4ED18AECDD5"
+					type: "kill"
+					title: "Kill 25 Rotwalkers"
+					icon: "undergarden:utherium_crystal"
+					entity: "undergarden:rotwalker"
+					value: 25L
+				}
+				{
+					id: "6C791EFDD29EC5FC"
+					type: "kill"
+					title: "Kill 10 Rotbeasts"
+					icon: "undergarden:utherium_block"
+					entity: "undergarden:rotbeast"
+					value: 10L
+				}
+				{
+					id: "09E7D2D402B4FCED"
+					type: "kill"
+					title: "Kill 25 Sploogies"
+					icon: "undergarden:depthrock_pebble"
+					entity: "undergarden:sploogie"
+					value: 25L
+				}
+				{
+					id: "5ADCE800DB315FE4"
+					type: "kill"
+					title: "Kill 10 Nargoyles"
+					icon: "undergarden:depthrock_bricks"
+					entity: "undergarden:nargoyle"
+					value: 10L
+				}
+				{
+					id: "094D0DE189561F9B"
+					type: "kill"
+					title: "Kill 25 Stoneborn"
+					icon: "undergarden:depthrock"
+					entity: "undergarden:stoneborn"
+					value: 25L
+				}
+				{
+					id: "6AD5269E28587F74"
+					type: "kill"
+					title: "Kill 5 Forgotten guardians"
+					icon: "undergarden:forgotten_ingot"
+					entity: "undergarden:forgotten_guardian"
+					value: 5L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			subtitle: "\"Do you even need a totem at this point?\""
+			description: ["Survive for a total of 24 hours, this timer is reset each time you die, so be careful!"]
+			optional: true
+			id: "483E1EEC6B11F91C"
+			tasks: [{
+				id: "6AC0D5F129FF1B83"
+				type: "stat"
+				title: "Undying"
+				icon: "minecraft:totem_of_undying"
+				stat: "minecraft:time_since_death"
+				value: 1728000
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			subtitle: "\"Hopefully this wont be cut short by a broken elytra\""
+			description: ["Play in this world for a total of 100 ingame days, this timer won't be reset by death, so as long as you keep playing you'll complete it eventually!"]
+			optional: true
+			id: "74B57432B9629E84"
+			tasks: [{
+				id: "16B59EA137819DA1"
+				type: "questsadditions:days"
+				title: "100 days minecraft hardcore challenge not clickbait"
+				icon: "minecraft:clock"
+				days: 100
+			}]
+		}
+		{
+			title: "Lootbox fan"
+			x: -2.0d
+			y: 0.0d
+			subtitle: "\"And you probably still didn't get that one relic you wanted.\""
+			description: ["Open 100 lootr chests to recieve the Centennial trophy"]
+			optional: true
+			id: "31D8FF193765F53B"
+			tasks: [{
+				id: "3B4C271D50D7FC67"
+				type: "item"
+				item: "lootr:trophy"
+			}]
+		}
+	]
+}

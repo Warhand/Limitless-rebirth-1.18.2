@@ -1,0 +1,11 @@
+{
+  "group": "overworld",
+  "displayName": {
+    "text": "Limitless Treasure bag"
+  },
+  "lootTable": "limitlessrebirth:epic",
+  "rarity": "epic",
+  "bagColor": "#2e2d2d",
+  "bagOverlayColor": "#d500d6",
+  "bagStringColor": "#c1ba88"
+}

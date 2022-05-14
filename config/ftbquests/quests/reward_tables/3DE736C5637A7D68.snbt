@@ -1,0 +1,11 @@
+{
+	id: "3DE736C5637A7D68"
+	order_index: 2
+	title: "vessels"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "paraglider:heart_container" }
+		{ item: "paraglider:stamina_vessel" }
+	]
+}

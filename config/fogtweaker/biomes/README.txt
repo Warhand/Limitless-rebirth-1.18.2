@@ -1,0 +1,1 @@
+For more info on editing the configs located here check the wiki: https://github.com/Hennamann/Fog-Tweaker/wiki/Getting-Started-with-the-Config

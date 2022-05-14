@@ -1,0 +1,14 @@
+
+[common]
+
+	#Configure properties related to armor perks, added by Advanced Netherite, here
+	[common.armor_config]
+		#If true, Piglins behave neutral towards players wearing Netherite-Gold Armor. True by default.
+		goldPiglinPassiveArmor = true
+		#If true, Endermen behave neutral towards players wearing Netherite-Emerald Armor. True by default.
+		emeraldEndermanPassiveArmor = true
+		#If true, Piglins behave neutral towards players wearing Netherite-Diamond Armor. True by default.
+		diamondPiglinPassiveArmor = true
+		#If true, Endermen behave neutral towards players wearing Netherite-Diamond Armor. True by default.
+		diamondEndermanPassiveArmor = true
+

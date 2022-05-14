@@ -1,0 +1,12 @@
+{
+  "fogEnabled": false,
+  "fogDensity": 6.0,
+  "fogColor": "#FFFFFF",
+  "particlesEnabled": false,
+  "particleType": "minecraft:ash",
+  "particleAmount": 15,
+  "poisonousFogEnabled": false,
+  "poisonTicks": 1200,
+  "poisonDamage": 1,
+  "_comment": "biomesoplenty:rocky_rainforest"
+}

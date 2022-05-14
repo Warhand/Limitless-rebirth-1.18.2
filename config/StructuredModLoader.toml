@@ -1,0 +1,5 @@
+#How deep the folder structure inside the mods folder may be (max 5)
+recurseDepth = 3
+#A folder containing one or more of these keywords will be skipped
+ignoredKeywords = ["ignore", "unstable", "disable"]
+

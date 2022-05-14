@@ -1,0 +1,37 @@
+{
+	id: "6E6E8985F924A766"
+	order_index: 3
+	title: "Blue"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:diamond", count: 3 }
+		{
+			item: {
+				id: "blue_skies:pyrope_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "blue_skies:pyrope_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "blue_skies:pyrope_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+}

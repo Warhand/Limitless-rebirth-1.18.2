@@ -1,0 +1,11 @@
+{
+  "group": "overworld",
+  "displayName": {
+    "text": "Common Treasure bag"
+  },
+  "lootTable": "limitlessrebirth:common",
+  "rarity": "common",
+  "bagColor": "#DDB47C",
+  "bagOverlayColor": "#A5A5A5",
+  "bagStringColor": "#604721"
+}

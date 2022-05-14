@@ -1,0 +1,50 @@
+
+[worldgen]
+	worldgen_enabled = true
+
+	[worldgen.tin]
+		enabled = true
+		#Range: > 0
+		placement = 16
+		#Range: > -2147483648
+		placement_offset = -16
+		#Range: > -2147483648
+		placement_vertical = 112
+		#Range: > 1
+		size = 10
+		#Range: > 1
+		size_large = 20
+
+	[worldgen.lead]
+		enabled = true
+		#Range: > 0
+		placement = 16
+		#Range: > -2147483648
+		placement_offset = -16
+		#Range: > -2147483648
+		placement_vertical = 80
+		#Range: > 1
+		size = 8
+
+	[worldgen.uranium]
+		enabled = true
+		#Range: > 0
+		placement = 8
+		#Range: > -2147483648
+		placement_offset = -64
+		#Range: > -2147483648
+		placement_vertical = 32
+		#Range: > 1
+		size = 4
+		#Range: 0.0 ~ 2.147483647E9
+		discard_air_exposure = 0.5
+
+	[worldgen.rubber_tree]
+		enabled = true
+		#Range: 0.0 ~ 1.0
+		chance = 0.05000000074505806
+		#Range: 0.0 ~ 1.0
+		chance_rich = 0.10000000149011612
+		chance_biomes = ["minecraft:forest", "minecraft:birch_forest", "minecraft:flower_forest", "minecraft:wooded_hills"]
+		chance_biomes_rich = ["minecraft:swamp", "minecraft:swamp_hills"]
+

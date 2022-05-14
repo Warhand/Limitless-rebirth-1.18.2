@@ -1,0 +1,76 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "botania:overgrowth_seed"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "botania:blacker_lotus"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "dimdungeons:item_portal_key"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 2,
+          "name": "minecraft:enchanted_golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:heart_of_the_sea"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "xercamusic:god"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "paraglider:spirit_orb"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "dimdungeons:block_key_charger"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_star"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:trident"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 100
+        }
+      ]
+    }
+  ]
+}

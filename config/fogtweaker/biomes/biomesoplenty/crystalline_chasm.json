@@ -1,0 +1,12 @@
+{
+  "fogEnabled": true,
+  "fogDensity": 1000.0,
+  "fogColor": "#270d0d",
+  "particlesEnabled": false,
+  "particleType": "minecraft:ash",
+  "particleAmount": 15,
+  "poisonousFogEnabled": false,
+  "poisonTicks": 1200,
+  "poisonDamage": 1,
+  "_comment": "biomesoplenty:crystalline_chasm"
+}

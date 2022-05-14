@@ -1,0 +1,11 @@
+{
+  "group": "overworld",
+  "displayName": {
+    "text": "Rare Treasure bag"
+  },
+  "lootTable": "limitlessrebirth:rare",
+  "rarity": "rare",
+  "bagColor": "#ff5765",
+  "bagOverlayColor": "#4db3e4",
+  "bagStringColor": "#f8d210"
+}
