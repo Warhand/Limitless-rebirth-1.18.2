@@ -2,7 +2,6 @@ Folder PATH listing for volume New SSD
 Volume serial number is BAB7-5634
 C:.
     1.18.2-betteramethyst-1.0.1.jar
-    3dskinlayers-forge-1.4.4-mc1.18.2.jar
     AdditionalEnchantedMiner-1.18.2-18.11.jar
     AI-Improvements-1.18-0.4.0.jar
     AkashicTome-1.5-20.jar
@@ -11,7 +10,6 @@ C:.
     Amplified_Nether_v1.1.1.jar
     Apotheosis-1.18.2-5.3.5.jar
     appleskin-forge-mc1.18-2.4.0.jar
-    appliedenergistics2-11.0.0-alpha.6.jar
     Aquaculture-1.18.2-2.3.6.jar
     architectury-4.4.60.jar
     armorpointspp-forge-1.18.2-3.0.1.jar
@@ -30,7 +28,7 @@ C:.
     blueprint-1.18.2-5.3.2.jar
     blue_skies-1.18.2-1.3.12.jar
     Bookshelf-Forge-1.18.2-13.0.13.jar
-    Botania-1.18.2-431.jar
+    Botania-1.18.2-432.jar
     buildinggadgets-3.13.0-build.5+mc1.18.2.jar
     caelus-forge-1.18.1-3.0.0.2.jar
     cc-tweaked-1.18.2-1.100.5.jar
@@ -48,7 +46,7 @@ C:.
     constructionwand-1.18.2-2.7.jar
     CosmeticArmorReworked-1.18.2-v2.jar
     craftingtweaks-forge-1.18.1-14.0.2.jar
-    CraftTweaker-forge-1.18.2-9.1.133.jar
+    CraftTweaker-forge-1.18.2-9.1.135.jar
     create-mc1.18.2_v0.4.1.jar
     createaddition-1.18.2-20220424a.jar
     createdeco-1.2.7-1.18.2.jar
@@ -114,6 +112,7 @@ C:.
     Jade-1.18.2-5.1.0.jar
     JadeAddons-1.18.2-2.0.0.jar
     JAMD-1.7.0-build.24+mc1.18.2.jar
+    JAOPCA-1.18.2-4.1.4.4.jar
     jei-1.18.2-9.7.0.195.jar
     JEITweaker-1.18.2-3.0.0.8.jar
     justenoughkeys-0.5.3-forge.jar
@@ -125,6 +124,7 @@ C:.
     lootr-1.18.2-0.2.16.52.jar
     malum-1.18.2-1.3.6.jar
     Mantle-1.18.2-1.9.20.jar
+    materialis-1.18.2-2.5.3.jar
     mcjtylib-1.18-6.0.13.jar
     modnametooltip-1.18.1-1.18.0.jar
     MouseTweaks-forge-mc1.18-2.21.jar
@@ -132,7 +132,6 @@ C:.
     netherportalfix-forge-1.18-9.0.0.jar
     ninjaphenix-container-library-1.3.0+1.18-forge.jar
     OpenLoader-Forge-1.18.2-12.0.1.jar
-    oredepos-1.18.2-1.0.8.jar
     OreTweaker-1.18.2-3.3.0.jar
     ortus-1.18.2-1.0.jar
     PackingTape-1.18.2-0.12.5.jar
@@ -150,7 +149,7 @@ C:.
     QuarkOddities-1.18.jar
     questsadditions-1.18.2-1.3.1.jar
     rechiseled-1.0.10a-mc1.18.jar
-    repurposed_structures_forge-5.1.6+1.18.2.jar
+    repurposed_structures_forge-5.1.7+1.18.2.jar
     respawningshulkers_1.18.2-1.7.jar
     restored_earth-1.18.2-1.4.2.jar
     rftoolsbase-1.18-3.0.7.jar
@@ -218,5 +217,5 @@ C:.
     
 No subfolders exist 
 
-Fri 05/13/2022 
-01:44 PM
+Sat 05/14/2022 
+01:15 PM
