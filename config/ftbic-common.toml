@@ -318,7 +318,7 @@
 	#Automatically generate plate recipes
 	"Create plate recipes" = true
 	#Automatically generate gear recipes
-	"Create gear recipes" = true
+	"Create gear recipes" = false
 	#Automatically canned food recipes
 	"Create canned food recipes" = true
 
