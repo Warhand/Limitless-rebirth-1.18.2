@@ -95,7 +95,7 @@ A list of the things I want to finish implementing or add before I consider the 
 - [ ] Add CT scripts (Largely in progress)
   - [X] Crayfish gun recipes adjusted
   - [X] Crayfish ammo recipes adjusted
-  - [ ] Loot table additions
+  - [X] Loot table additions
   - [ ] endgame recipes
   - [ ] assorted recipes
   - [X] Botania weapon values adjusted
@@ -103,17 +103,12 @@ A list of the things I want to finish implementing or add before I consider the 
   - [X] Apotheosis tome recipes adjusted
 - [ ] Seperate Assorted recipes.zs into multiple sub-files, sorted by what mods recipes they change
 
-## Mods I'm waiting to get a 1.18.2 release before I can update the pack to that version
+## Mods I'm waiting to get a 1.18.2 release
 - Alternate current
 - Ars: Creo 
 - Better bundles
 - Ender Bundle
-- Fog tweaker (Testing possible replacement)
-- Grimoire of Tetra (Might be removed)
-- Tetrapak (Might be removed)
-- Tetra (Might be removed)
-- Immersive posts (Might be removed)
-- Industrial Reborn (Testing possible replacement)
+- Immersive posts
 - Loot beams
 - Mutil
 - No null processors
