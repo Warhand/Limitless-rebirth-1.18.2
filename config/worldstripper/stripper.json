@@ -38,6 +38,16 @@
     "minecraft:kelp_plant",
     "minecraft:deepslate",
     "minecraft:tuff",
-    "minecraft:glow_lichen"
+    "minecraft:glow_lichen",
+    "minecraft:bedrock",
+    "minecraft:soul_sand",
+    "minecraft:blackstone",
+    "minecraft:magma_block",
+    "beyond_earth:mars_sand",
+    "beyond_earth:mars_stone",
+    "minecraft:nether_quartz_ore",
+    "minecraft:air",
+    "minecraft:nether_gold_ore",
+    "malum:blazing_quartz_ore"
   ]
 }
