@@ -144,7 +144,7 @@ public var loot_removal = [
 <item:cyclic:crystal_pickaxe>,
 <item:cyclic:crystal_shovel>,
 <item:cyclic:crystal_sword>,
-<item:cyclic:elevation_wand>
+<item:cyclic:elevation_wand>,
 <item:cyclic:ender_bag>,
 <item:cyclic:ender_book>,
 <item:cyclic:ender_eye_reuse>,
@@ -172,7 +172,7 @@ public var loot_removal = [
 <item:quark:diamond_heart>,
 <item:schoolsofmagic:letter_ccw>,
 <item:supplementaries:flax_seeds>,
-<item:supplementaries:rope>,
+<item:supplementaries:rope>
 ]as IIngredient[];
 
 
@@ -206,7 +206,7 @@ val ocean_loot as float[IItemStack] = {
 	<item:artifacts:antidote_vessel>        :0.04,
 	<item:artifacts:aqua_dashers>           :0.04,
 	<item:artifacts:charm_of_sinking>       :0.04,
-	<item:artifacts:flippers>               :0.04
+	<item:artifacts:flippers>               :0.04,
 	<item:artifacts:golden_hook>            :0.04,
 	<item:artifacts:helium_flamingo>        :0.04,
 	<item:artifacts:novelty_drinking_hat>   :0.04,
@@ -223,7 +223,7 @@ val ocean_loot as float[IItemStack] = {
 	<item:cyclic:spell_water>               :0.04,
 	<item:minecraft:potion>                 :0.04,
 	<item:paraglider:spirit_orb>            :0.04,
-	<item:schoolsofmagic:letter_ccw>        :0.04,
+	<item:schoolsofmagic:letter_ccw>        :0.04
 };
 
 loot.modifiers.register("loot_name_in_oceans",
@@ -272,7 +272,7 @@ val underground_loot as float[IItemStack] = {
 	<item:artifacts:panic_necklace>                                         :0.015,
 	<item:artifacts:pocket_piston>                                          :0.015,
 	<item:artifacts:power_glove>                                            :0.015,
-	<item:artifacts:running_shoes>                                          :0.015
+	<item:artifacts:running_shoes>                                          :0.015,
 	<item:artifacts:scarf_of_invisibility>                                  :0.015,
 	<item:artifacts:shock_pendant>                                          :0.015,
 	<item:artifacts:steadfast_spikes>                                       :0.015,
@@ -312,7 +312,7 @@ val underground_loot as float[IItemStack] = {
 	<item:minecraft:potion>.withTag({Potion: "minecraft:luck" as string})   :0.015,
 	<item:paraglider:spirit_orb>                                            :0.1,
 	<item:quark:diamond_heart>                                              :0.015,
-	<item:schoolsofmagic:letter_ccw>                                        :0.015,
+	<item:schoolsofmagic:letter_ccw>                                        :0.015
 };
 
 loot.modifiers.register("loot_name_in_underground",
@@ -386,8 +386,8 @@ val overworld_loot as float[IItemStack] = {
 	<item:cyclic:crystal_shovel>                           :0.03,
 	<item:cyclic:quiver_damage>                            :0.03,
 	<item:cyclic:spell_water>							   :0.03,
-	<item:paraglider:spirit_orb>                           :0.1
-	<item:schoolsofmagic:letter_ccw>                       :0.03,
+	<item:paraglider:spirit_orb>                           :0.1,
+	<item:schoolsofmagic:letter_ccw>                       :0.03
 };
 
 loot.modifiers.register("loot_name_in_overworld",
@@ -445,14 +445,14 @@ val village_loot as float[IItemStack] = {
 	<item:artifacts:superstitious_hat>                     :0.025,
 	<item:artifacts:thorn_pendant>                         :0.025,
 	<item:artifacts:umbrella>                              :0.025,
-	<item:artifacts:universal_attractor>                   :0.025
+	<item:artifacts:universal_attractor>                   :0.025,
 	<item:artifacts:vampiric_glove>                        :0.025,
 	<item:artifacts:villager_hat>                          :0.025,
 	<item:artifacts:whoopee_cushion>                       :0.025,
 	<item:cyclic:charm_stealthpotion>                      :0.025,
 	<item:cyclic:crystal_hoe>                              :0.025,
 	<item:paraglider:spirit_orb>                           :0.1,
-	<item:schoolsofmagic:letter_ccw>                       :0.025,
+	<item:schoolsofmagic:letter_ccw>                       :0.025
 };
 
 public var villages = [
@@ -553,7 +553,7 @@ val desert_loot as float[IItemStack] = {
 	<item:cyclic:charm_creeper>                                           :0.02,
 	<item:cyclic:charm_fire>                                              :0.02,
 	<item:cyclic:charm_invisible>                                         :0.02,
-	<item:cyclic:charm_knockback_resistance>                              :0.02
+	<item:cyclic:charm_knockback_resistance>                              :0.02,
 	<item:cyclic:charm_longfall>                                          :0.02,
 	<item:cyclic:charm_magicdefense>                                      :0.02,
 	<item:cyclic:charm_speed>                                             :0.02,
@@ -570,7 +570,7 @@ val desert_loot as float[IItemStack] = {
 	<item:cyclic:spawner_seeker>                                          :0.02,
 	<item:minecraft:potion>.withTag({Potion: "minecraft:luck" as string}) :0.02,
 	<item:paraglider:spirit_orb>                                          :0.1,
-	<item:schoolsofmagic:letter_ccw>                                      :0.02,
+	<item:schoolsofmagic:letter_ccw>                                      :0.02
 };
 
 loot.modifiers.register("loot_name_in_deserts",
@@ -642,7 +642,7 @@ val forest_loot as float[IItemStack] = {
 	<item:cyclic:spawner_seeker>                                           :0.025,
 	<item:minecraft:potion>.withTag({Potion: "minecraft:luck" as string})  :0.025,
 	<item:paraglider:spirit_orb>                                           :0.1,
-	<item:schoolsofmagic:letter_ccw>                                       :0.025,
+	<item:schoolsofmagic:letter_ccw>                                       :0.025
 };
 
 loot.modifiers.register("loot_name_in_forests",
@@ -718,7 +718,7 @@ val frozen_loot as float[IItemStack] = {
 	<item:cyclic:glove_climb>                              :0.03,
 	<item:cyclic:spawner_seeker>                           :0.03,
 	<item:paraglider:spirit_orb>                           :0.1,
-	<item:schoolsofmagic:letter_ccw>                       :0.03,
+	<item:schoolsofmagic:letter_ccw>                       :0.03
 };
 
 loot.modifiers.register("loot_name_in_frozen",
@@ -771,7 +771,7 @@ val nether_loot as float[IItemStack] = {
 	<item:artifacts:fire_gauntlet>                                         :0.02,
 	<item:artifacts:flame_pendant>                                         :0.02,
 	<item:artifacts:lucky_scarf>                                           :0.02,
-	<item:artifacts:obsidian_skull>                                        :0.02
+	<item:artifacts:obsidian_skull>                                        :0.02,
 	<item:artifacts:panic_necklace>                                        :0.02,
 	<item:artifacts:power_glove>                                           :0.02,
 	<item:artifacts:running_shoes>                                         :0.02,
@@ -806,7 +806,7 @@ val nether_loot as float[IItemStack] = {
 	<item:cyclic:spawner_seeker>                                           :0.02,
 	<item:minecraft:potion>.withTag({Potion: "minecraft:luck" as string})  :0.02,
 	<item:paraglider:spirit_orb>                                           :0.1,
-	<item:schoolsofmagic:letter_ccw>                                       :0.02,
+	<item:schoolsofmagic:letter_ccw>                                       :0.02
 };
 
 loot.modifiers.register("loot_name_in_nether",
@@ -900,7 +900,7 @@ val end_loot as float[IItemStack] = {
 	<item:cyclic:charm_xp_speed>                                          :0.02,
 	<item:cyclic:crystal_pickaxe>                                         :0.02,
 	<item:cyclic:crystal_sword>                                           :0.02,
-	<item:cyclic:elevation_wand>                                          :0.02
+	<item:cyclic:elevation_wand>                                          :0.02,
 	<item:cyclic:ender_bag>                                               :0.02,
 	<item:cyclic:ender_book>                                              :0.02,
 	<item:cyclic:ender_pearl_mounted>                                     :0.02,
@@ -908,7 +908,7 @@ val end_loot as float[IItemStack] = {
 	<item:minecraft:potion>.withTag({Potion: "minecraft:luck" as string}) :0.02,
 	<item:paraglider:spirit_orb>                                          :0.1,
 	<item:quark:diamond_heart>                                            :0.02,
-	<item:schoolsofmagic:letter_ccw>                                      :0.02,
+	<item:schoolsofmagic:letter_ccw>                                      :0.02
 };
 
 loot.modifiers.register("loot_name_in_ender",
@@ -1047,7 +1047,7 @@ val treasure_loot as float[IItemStack] = {
 	<item:cyclic:crystal_pickaxe>                                          :0.005,
 	<item:cyclic:crystal_shovel>                                           :0.005,
 	<item:cyclic:crystal_sword>                                            :0.005,
-	<item:cyclic:elevation_wand>										   :0.005
+	<item:cyclic:elevation_wand>										   :0.005,
 	<item:cyclic:ender_bag>                                                :0.005,
 	<item:cyclic:ender_book>                                               :0.005,
 	<item:cyclic:ender_eye_reuse>                                          :0.005,
@@ -1061,7 +1061,7 @@ val treasure_loot as float[IItemStack] = {
 	<item:minecraft:potion>.withTag({Potion: "minecraft:luck" as string})  :0.005,
 	<item:paraglider:spirit_orb>                                           :0.1,
 	<item:quark:diamond_heart>                                             :0.005,
-	<item:schoolsofmagic:letter_ccw>                                       :0.005,
+	<item:schoolsofmagic:letter_ccw>                                       :0.005
 };
 
 loot.modifiers.register("loot_name_in_treasure",
