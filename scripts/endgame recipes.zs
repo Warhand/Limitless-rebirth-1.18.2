@@ -7,20 +7,6 @@ import crafttweaker.api.item.ItemDefinition;
 import crafttweaker.api.recipe.MirrorAxis;
 import crafttweaker.api.recipe.SmithingRecipeManager;
 
-//pipez infinite pipe upgrade
-craftingTable.remove(<item:pipez:infinity_upgrade>);
-mods.extendedcrafting.TableCrafting.addShaped("aed61643-0077-477b-bdf7-06203844c4d8", 0, <item:pipez:infinity_upgrade> * 4, [
-	[<item:extendedcrafting:black_iron_block>, <item:upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot>, <item:extendedcrafting:black_iron_block>, <item:betteramethyst:amethyst_crystal_block>, <item:pipez:universal_pipe>, <item:betteramethyst:amethyst_crystal_block>, <item:extendedcrafting:black_iron_block>, <item:upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot>, <item:extendedcrafting:black_iron_block>], 
-	[<item:upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot>, <item:upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot>, <item:pipez:ultimate_upgrade>, <item:extendedcrafting:luminessence_block>, <item:pipez:universal_pipe>, <item:extendedcrafting:luminessence_block>, <item:pipez:ultimate_upgrade>, <item:upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot>, <item:upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot>], 
-	[<item:extendedcrafting:black_iron_block>, <item:pipez:ultimate_upgrade>, <item:extendedcrafting:enhanced_ender_ingot>, <item:pipez:ultimate_upgrade>, <item:pipez:universal_pipe>, <item:pipez:ultimate_upgrade>, <item:extendedcrafting:enhanced_ender_ingot>, <item:pipez:ultimate_upgrade>, <item:extendedcrafting:black_iron_block>], 
-	[<item:betteramethyst:amethyst_crystal_block>, <item:extendedcrafting:luminessence_block>, <item:pipez:ultimate_upgrade>, <item:extendedcrafting:luminessence_block>, <item:pipez:universal_pipe>, <item:extendedcrafting:luminessence_block>, <item:pipez:ultimate_upgrade>, <item:extendedcrafting:luminessence_block>, <item:betteramethyst:amethyst_crystal_block>], 
-	[<item:pipez:universal_pipe>, <item:pipez:universal_pipe>, <item:pipez:universal_pipe>, <item:pipez:universal_pipe>, <item:paraglider:anti_vessel>, <item:pipez:universal_pipe>, <item:pipez:universal_pipe>, <item:pipez:universal_pipe>, <item:pipez:universal_pipe>], 
-	[<item:betteramethyst:amethyst_crystal_block>, <item:extendedcrafting:luminessence_block>, <item:pipez:ultimate_upgrade>, <item:extendedcrafting:luminessence_block>, <item:pipez:universal_pipe>, <item:extendedcrafting:luminessence_block>, <item:pipez:ultimate_upgrade>, <item:extendedcrafting:luminessence_block>, <item:betteramethyst:amethyst_crystal_block>], 
-	[<item:extendedcrafting:black_iron_block>, <item:pipez:ultimate_upgrade>, <item:extendedcrafting:enhanced_ender_ingot>, <item:pipez:ultimate_upgrade>, <item:pipez:universal_pipe>, <item:pipez:ultimate_upgrade>, <item:extendedcrafting:enhanced_ender_ingot>, <item:pipez:ultimate_upgrade>, <item:extendedcrafting:black_iron_block>], 
-	[<item:upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot>, <item:upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot>, <item:pipez:ultimate_upgrade>, <item:extendedcrafting:luminessence_block>, <item:pipez:universal_pipe>, <item:extendedcrafting:luminessence_block>, <item:pipez:ultimate_upgrade>, <item:upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot>, <item:upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot>], 
-	[<item:extendedcrafting:black_iron_block>, <item:upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot>, <item:extendedcrafting:black_iron_block>, <item:betteramethyst:amethyst_crystal_block>, <item:pipez:universal_pipe>, <item:betteramethyst:amethyst_crystal_block>, <item:extendedcrafting:black_iron_block>, <item:upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot>, <item:extendedcrafting:black_iron_block>]
-]);
-
 //paraglider spirit orb recipe
 mods.extendedcrafting.CombinationCrafting.addRecipe("2d387cb4-e7ae-402e-86ea-1d77e6c84b01", <item:paraglider:spirit_orb>, 10000, [
 	<item:minecraft:nether_star>, <item:extendedcrafting:luminessence>, <item:quark:soul_bead>, <item:quark:soul_bead>, <item:extendedcrafting:luminessence>, <item:extendedcrafting:luminessence>, <item:quark:soul_bead>, <item:quark:soul_bead>, <item:extendedcrafting:luminessence>
@@ -41,11 +27,6 @@ mods.extendedcrafting.TableCrafting.addShaped("dbd3b6f1-7f18-4147-975a-20df2e644
 <item:paraglider:anti_vessel>.removeTooltip("Retrieves all Heart Containers and Stamina Vessels you consumed.");
 <item:paraglider:anti_vessel>.removeTooltip("§5§k§oasdfasdfasdfas dfasdfasdfasfd sfn §c§k§o가나다§5§k§ofdadff§r");
 <item:paraglider:anti_vessel>.addTooltip("A cursed artifact that can be used to instantly remove all the heart and stamina vessels from an individual, or that can be used in profane rituals to create objects of immense power...");
-
-//Aquasteel recipe
-mods.extendedcrafting.CombinationCrafting.addRecipe("950c4b17-378d-4ced-96cd-9b82690d58f8", <item:relics:aquasteel_ingot>, 5000, [
-	<tag:items:forge:ingots/steel>, <item:minecraft:lapis_lazuli>, <item:minecraft:lapis_lazuli>, <item:minecraft:sea_lantern>, <item:minecraft:sea_lantern>, <item:minecraft:lapis_lazuli>, <item:minecraft:lapis_lazuli>, <item:minecraft:sea_lantern>, <item:minecraft:sea_lantern>
-]);
 
 //Ultimate catalyst fix
 mods.extendedcrafting.TableCrafting.remove(<item:extendedcrafting:ultimate_singularity>);
@@ -70,13 +51,13 @@ mods.extendedcrafting.CombinationCrafting.addRecipe("b9bc0beb-7569-4697-97ee-8fc
 
 //Heart of the sea recipe
 mods.extendedcrafting.TableCrafting.addShaped("aa64fb9f-f888-4abc-bc6c-1ec17ceddd3a", 0, <item:minecraft:heart_of_the_sea>, [
-	[<item:relics:aquasteel_ingot>, <item:relics:aquasteel_ingot>, <item:relics:aquasteel_ingot>, <item:relics:aquasteel_ingot>, <item:relics:aquasteel_ingot>, <item:relics:aquasteel_ingot>, <item:relics:aquasteel_ingot>], 
-	[<item:relics:aquasteel_ingot>, <item:minecraft:prismarine_shard>, <item:minecraft:prismarine_shard>, <item:minecraft:blue_ice>, <item:minecraft:prismarine_shard>, <item:minecraft:prismarine_shard>, <item:relics:aquasteel_ingot>], 
-	[<item:relics:aquasteel_ingot>, <item:minecraft:prismarine_shard>, <item:minecraft:prismarine_crystals>, <item:minecraft:prismarine_crystals>, <item:minecraft:prismarine_crystals>, <item:minecraft:prismarine_shard>, <item:relics:aquasteel_ingot>], 
-	[<item:relics:aquasteel_ingot>, <item:minecraft:blue_ice>, <item:minecraft:prismarine_crystals>, <item:quark:diamond_heart>, <item:minecraft:prismarine_crystals>, <item:minecraft:blue_ice>, <item:relics:aquasteel_ingot>], 
-	[<item:relics:aquasteel_ingot>, <item:minecraft:prismarine_shard>, <item:minecraft:prismarine_crystals>, <item:minecraft:prismarine_crystals>, <item:minecraft:prismarine_crystals>, <item:minecraft:prismarine_shard>, <item:relics:aquasteel_ingot>], 
-	[<item:relics:aquasteel_ingot>, <item:minecraft:prismarine_shard>, <item:minecraft:prismarine_shard>, <item:minecraft:blue_ice>, <item:minecraft:prismarine_shard>, <item:minecraft:prismarine_shard>, <item:relics:aquasteel_ingot>], 
-	[<item:relics:aquasteel_ingot>, <item:relics:aquasteel_ingot>, <item:relics:aquasteel_ingot>, <item:relics:aquasteel_ingot>, <item:relics:aquasteel_ingot>, <item:relics:aquasteel_ingot>, <item:relics:aquasteel_ingot>]
+	[<item:minecraft:prismarine_bricks>, <item:minecraft:prismarine_bricks>, <item:minecraft:prismarine_bricks>, <item:minecraft:prismarine_bricks>, <item:minecraft:prismarine_bricks>, <item:minecraft:prismarine_bricks>, <item:minecraft:prismarine_bricks>], 
+	[<item:minecraft:prismarine_bricks>, <item:minecraft:prismarine_shard>, <item:minecraft:prismarine_shard>, <item:minecraft:blue_ice>, <item:minecraft:prismarine_shard>, <item:minecraft:prismarine_shard>, <item:minecraft:prismarine_bricks>], 
+	[<item:minecraft:prismarine_bricks>, <item:minecraft:prismarine_shard>, <item:minecraft:prismarine_crystals>, <item:minecraft:prismarine_crystals>, <item:minecraft:prismarine_crystals>, <item:minecraft:prismarine_shard>, <item:minecraft:prismarine_bricks>], 
+	[<item:minecraft:prismarine_bricks>, <item:minecraft:blue_ice>, <item:minecraft:prismarine_crystals>, <item:minecraft:netherite_ingot>, <item:minecraft:prismarine_crystals>, <item:minecraft:blue_ice>, <item:minecraft:prismarine_bricks>], 
+	[<item:minecraft:prismarine_bricks>, <item:minecraft:prismarine_shard>, <item:minecraft:prismarine_crystals>, <item:minecraft:prismarine_crystals>, <item:minecraft:prismarine_crystals>, <item:minecraft:prismarine_shard>, <item:minecraft:prismarine_bricks>], 
+	[<item:minecraft:prismarine_bricks>, <item:minecraft:prismarine_shard>, <item:minecraft:prismarine_shard>, <item:minecraft:blue_ice>, <item:minecraft:prismarine_shard>, <item:minecraft:prismarine_shard>, <item:minecraft:prismarine_bricks>], 
+	[<item:minecraft:prismarine_bricks>, <item:minecraft:prismarine_bricks>, <item:minecraft:prismarine_bricks>, <item:minecraft:prismarine_bricks>, <item:minecraft:prismarine_bricks>, <item:minecraft:prismarine_bricks>, <item:minecraft:prismarine_bricks>]
 ]);
 
 //create recipes
@@ -156,47 +137,6 @@ mods.extendedcrafting.TableCrafting.addShaped("00bb93eb-1a7f-4886-90e4-39af28f51
 ]);
 
 //botania recipes end
-
-//applied energistics 2 recipes start
-
-//creative energy cell
-mods.extendedcrafting.TableCrafting.addShaped("15cc5e6d-16cc-4a81-af4e-81ce5aff558c", 0, <item:ae2:creative_energy_cell>, [
-	[<item:extendedcrafting:black_iron_block>, <item:extendedcrafting:black_iron_block>, <item:ae2:energy_acceptor>, <item:ae2:fluix_block>, <item:ae2:fluix_block>, <item:ae2:fluix_block>, <item:ae2:energy_acceptor>, <item:extendedcrafting:black_iron_block>, <item:extendedcrafting:black_iron_block>], 
-	[<item:extendedcrafting:black_iron_block>, <item:extendedcrafting:frame>, <item:ae2:fluix_smart_dense_cable>, <item:ae2:quartz_vibrant_glass>, <item:ae2:quartz_vibrant_glass>, <item:ae2:quartz_vibrant_glass>, <item:ae2:fluix_smart_dense_cable>, <item:extendedcrafting:frame>, <item:extendedcrafting:black_iron_block>], 
-	[<item:ae2:energy_acceptor>, <item:ae2:fluix_smart_dense_cable>, <item:ae2:fluix_smart_dense_cable>, <item:ae2:engineering_processor>, <item:ae2:singularity>, <item:ae2:engineering_processor>, <item:ae2:fluix_smart_dense_cable>, <item:ae2:fluix_smart_dense_cable>, <item:ae2:energy_acceptor>], 
-	[<item:ae2:fluix_block>, <item:ae2:quartz_vibrant_glass>, <item:ae2:engineering_processor>, <item:ae2:dense_energy_cell>.withTag({internalMaxPower: 1600000.0 as double, internalCurrentPower: 1600000.0 as double}), <item:ae2:dense_energy_cell>.withTag({internalMaxPower: 1600000.0 as double, internalCurrentPower: 1600000.0 as double}), <item:ae2:dense_energy_cell>.withTag({internalMaxPower: 1600000.0 as double, internalCurrentPower: 1600000.0 as double}), <item:ae2:engineering_processor>, <item:ae2:quartz_vibrant_glass>, <item:ae2:fluix_block>], 
-	[<item:ae2:fluix_block>, <item:ae2:quartz_vibrant_glass>, <item:ae2:singularity>, <item:ae2:dense_energy_cell>.withTag({internalMaxPower: 1600000.0 as double, internalCurrentPower: 1600000.0 as double}), <item:paraglider:anti_vessel>, <item:ae2:dense_energy_cell>.withTag({internalMaxPower: 1600000.0 as double, internalCurrentPower: 1600000.0 as double}), <item:ae2:singularity>, <item:ae2:quartz_vibrant_glass>, <item:ae2:fluix_block>], 
-	[<item:ae2:fluix_block>, <item:ae2:quartz_vibrant_glass>, <item:ae2:engineering_processor>, <item:ae2:dense_energy_cell>.withTag({internalMaxPower: 1600000.0 as double, internalCurrentPower: 1600000.0 as double}), <item:ae2:dense_energy_cell>.withTag({internalMaxPower: 1600000.0 as double, internalCurrentPower: 1600000.0 as double}), <item:ae2:dense_energy_cell>.withTag({internalMaxPower: 1600000.0 as double, internalCurrentPower: 1600000.0 as double}), <item:ae2:engineering_processor>, <item:ae2:quartz_vibrant_glass>, <item:ae2:fluix_block>], 
-	[<item:ae2:energy_acceptor>, <item:ae2:fluix_smart_dense_cable>, <item:ae2:fluix_smart_dense_cable>, <item:ae2:engineering_processor>, <item:ae2:singularity>, <item:ae2:engineering_processor>, <item:ae2:fluix_smart_dense_cable>, <item:ae2:fluix_smart_dense_cable>, <item:ae2:energy_acceptor>], 
-	[<item:extendedcrafting:black_iron_block>, <item:extendedcrafting:frame>, <item:ae2:fluix_smart_dense_cable>, <item:ae2:quartz_vibrant_glass>, <item:ae2:quartz_vibrant_glass>, <item:ae2:quartz_vibrant_glass>, <item:ae2:fluix_smart_dense_cable>, <item:extendedcrafting:frame>, <item:extendedcrafting:black_iron_block>], 
-	[<item:extendedcrafting:black_iron_block>, <item:extendedcrafting:black_iron_block>, <item:ae2:energy_acceptor>, <item:ae2:fluix_block>, <item:ae2:fluix_block>, <item:ae2:fluix_block>, <item:ae2:energy_acceptor>, <item:extendedcrafting:black_iron_block>, <item:extendedcrafting:black_iron_block>]
-]);
-
-//creative item cell
-mods.extendedcrafting.TableCrafting.addShaped("ee70bbbe-2c8e-4781-922c-f93cc2f416f3", 0, <item:ae2:creative_item_cell>, [
-	[<item:extendedcrafting:frame>, <item:ae2:quartz_vibrant_glass>, <item:ae2:quartz_vibrant_glass>, <item:ae2:quartz_vibrant_glass>, <item:extendedcrafting:frame>, <item:ae2:quartz_vibrant_glass>, <item:ae2:quartz_vibrant_glass>, <item:ae2:quartz_vibrant_glass>, <item:extendedcrafting:frame>], 
-	[<item:ae2:quartz_vibrant_glass>, <item:ae2:fluix_block>, <item:ae2:fluix_block>, <item:ae2:fluix_pearl>, <item:ae2:fluix_smart_dense_cable>, <item:ae2:fluix_pearl>, <item:ae2:fluix_block>, <item:ae2:fluix_block>, <item:ae2:quartz_vibrant_glass>], 
-	[<item:ae2:quartz_vibrant_glass>, <item:ae2:fluix_block>, <item:ae2:fluix_block>, <item:ae2:fluix_pearl>, <item:ae2:fluix_smart_dense_cable>, <item:ae2:fluix_pearl>, <item:ae2:fluix_block>, <item:ae2:fluix_block>, <item:ae2:quartz_vibrant_glass>], 
-	[<item:ae2:quartz_vibrant_glass>, <item:ae2:fluix_pearl>, <item:ae2:fluix_pearl>, <item:ae2:singularity>, <item:ae2:engineering_processor>, <item:ae2:singularity>, <item:ae2:fluix_pearl>, <item:ae2:fluix_pearl>, <item:ae2:quartz_vibrant_glass>], 
-	[<item:extendedcrafting:frame>, <item:ae2:fluix_block>, <item:ae2:fluix_block>, <item:ae2:engineering_processor>, <item:paraglider:anti_vessel>, <item:ae2:engineering_processor>, <item:ae2:fluix_block>, <item:ae2:fluix_block>, <item:extendedcrafting:frame>], 
-	[<item:immersiveengineering:sheetmetal_iron>, <item:ae2:fluix_block>, <item:ae2:fluix_block>, <item:ae2:singularity>, <item:ae2:engineering_processor>, <item:ae2:singularity>, <item:ae2:fluix_block>, <item:ae2:fluix_block>, <item:immersiveengineering:sheetmetal_iron>], 
-	[<item:immersiveengineering:sheetmetal_iron>, <item:ae2:cell_component_64k>, <item:ae2:item_storage_cell_64k>, <item:ae2:fluix_pearl>, <item:ae2:item_storage_cell_64k>, <item:ae2:fluix_pearl>, <item:ae2:item_storage_cell_64k>, <item:ae2:cell_component_64k>, <item:immersiveengineering:sheetmetal_iron>], 
-	[<item:immersiveengineering:sheetmetal_iron>, <item:ae2:cell_component_64k>, <item:ae2:item_storage_cell_64k>, <item:ae2:fluix_pearl>, <item:ae2:item_storage_cell_64k>, <item:ae2:fluix_pearl>, <item:ae2:item_storage_cell_64k>, <item:ae2:cell_component_64k>, <item:immersiveengineering:sheetmetal_iron>], 
-	[<item:ae2:energy_acceptor>, <item:immersiveengineering:sheetmetal_iron>, <item:immersiveengineering:sheetmetal_iron>, <item:immersiveengineering:sheetmetal_iron>, <item:ae2:dense_energy_cell>.withTag({internalMaxPower: 1600000.0 as double, internalCurrentPower: 1600000.0 as double}), <item:immersiveengineering:sheetmetal_iron>, <item:immersiveengineering:sheetmetal_iron>, <item:immersiveengineering:sheetmetal_iron>, <item:ae2:energy_acceptor>]
-]);
-
-//creative fluid cell
-mods.extendedcrafting.TableCrafting.addShaped("98ab38fd-73d9-4ae3-876d-1fb1e9bf100d", 0, <item:ae2:creative_fluid_cell>, [
-	[<item:extendedcrafting:frame>, <item:ae2:quartz_vibrant_glass>, <item:ae2:quartz_vibrant_glass>, <item:ae2:quartz_vibrant_glass>, <item:extendedcrafting:frame>, <item:ae2:quartz_vibrant_glass>, <item:ae2:quartz_vibrant_glass>, <item:ae2:quartz_vibrant_glass>, <item:extendedcrafting:frame>], 
-	[<item:ae2:quartz_vibrant_glass>, <item:ae2:fluix_block>, <item:ae2:fluix_block>, <item:ae2:fluix_pearl>, <item:ae2:fluix_smart_dense_cable>, <item:ae2:fluix_pearl>, <item:ae2:fluix_block>, <item:ae2:fluix_block>, <item:ae2:quartz_vibrant_glass>], 
-	[<item:ae2:quartz_vibrant_glass>, <item:ae2:fluix_block>, <item:ae2:fluix_block>, <item:ae2:fluix_pearl>, <item:ae2:fluix_smart_dense_cable>, <item:ae2:fluix_pearl>, <item:ae2:fluix_block>, <item:ae2:fluix_block>, <item:ae2:quartz_vibrant_glass>], 
-	[<item:ae2:quartz_vibrant_glass>, <item:ae2:fluix_pearl>, <item:ae2:fluix_pearl>, <item:ae2:singularity>, <item:ae2:engineering_processor>, <item:ae2:singularity>, <item:ae2:fluix_pearl>, <item:ae2:fluix_pearl>, <item:ae2:quartz_vibrant_glass>], 
-	[<item:extendedcrafting:frame>, <item:ae2:fluix_block>, <item:ae2:fluix_block>, <item:ae2:engineering_processor>, <item:paraglider:anti_vessel>, <item:ae2:engineering_processor>, <item:ae2:fluix_block>, <item:ae2:fluix_block>, <item:extendedcrafting:frame>], 
-	[<item:immersiveengineering:sheetmetal_copper>, <item:ae2:fluix_block>, <item:ae2:fluix_block>, <item:ae2:singularity>, <item:ae2:engineering_processor>, <item:ae2:singularity>, <item:ae2:fluix_block>, <item:ae2:fluix_block>, <item:immersiveengineering:sheetmetal_copper>], 
-	[<item:immersiveengineering:sheetmetal_copper>, <item:ae2:cell_component_64k>, <item:ae2:portable_fluid_cell_64k>, <item:ae2:fluix_pearl>, <item:ae2:portable_fluid_cell_64k>, <item:ae2:fluix_pearl>, <item:ae2:portable_fluid_cell_64k>, <item:ae2:cell_component_64k>, <item:immersiveengineering:sheetmetal_copper>], 
-	[<item:immersiveengineering:sheetmetal_copper>, <item:ae2:cell_component_64k>, <item:ae2:portable_fluid_cell_64k>, <item:ae2:fluix_pearl>, <item:ae2:portable_fluid_cell_64k>, <item:ae2:fluix_pearl>, <item:ae2:portable_fluid_cell_64k>, <item:ae2:cell_component_64k>, <item:immersiveengineering:sheetmetal_copper>], 
-	[<item:ae2:energy_acceptor>, <item:immersiveengineering:sheetmetal_copper>, <item:immersiveengineering:sheetmetal_copper>, <item:immersiveengineering:sheetmetal_copper>, <item:ae2:dense_energy_cell>.withTag({internalMaxPower: 1600000.0 as double, internalCurrentPower: 1600000.0 as double}), <item:immersiveengineering:sheetmetal_copper>, <item:immersiveengineering:sheetmetal_copper>, <item:immersiveengineering:sheetmetal_copper>, <item:ae2:energy_acceptor>]
-]);
 
 //immersive engineering creative energy cell
 mods.extendedcrafting.TableCrafting.addShaped("770f4ccb-a3f9-442b-9446-74b562a03011", 0, <item:immersiveengineering:capacitor_creative>, [

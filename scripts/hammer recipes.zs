@@ -11,21 +11,13 @@ import crafttweaker.api.recipe.SmithingRecipeManager;
 //adding var for hammers
 
 public var hammers = [
-<item:indreb:hammer>,
 <item:beyond_earth:hammer>,
-<item:relics:runic_hammer>,
 <item:immersiveengineering:hammer>
 ];
 
 //new plates recipes
 
 public var plates = [
-	<item:indreb:copper_plate>,
-	<item:indreb:iron_plate>,
-	<item:indreb:lead_plate>,
-	<item:indreb:gold_plate>,
-	<item:indreb:steel_plate>,
-	<item:indreb:bronze_plate>,
 	<item:extendedcrafting:black_iron_slate>
 ];
 
@@ -49,7 +41,7 @@ val ingot_plate_map as IItemStack[IIngredient] = {
 	<tag:items:forge:ingots/brass>.asIIngredient(): <item:create:brass_sheet>,
 	<tag:items:forge:ingots/netherite>.asIIngredient(): <item:createdeco:netherite_sheet>,
 	<tag:items:forge:ingots/desh>.asIIngredient(): <item:beyond_earth:desh_plate>,
-	<tag:items:forge:ingots/tin>.asIIngredient(): <item:indreb:tin_plate>,
+	<tag:items:forge:ingots/tin>.asIIngredient(): <item:ftbic:tin_plate>,
 	<tag:items:forge:ingots/bronze>.asIIngredient(): <item:alloyed:bronze_sheet>
 };
 
@@ -68,10 +60,10 @@ craftingTable.addShapeless("black_iron_slate_recipe_with" + item.registryName.na
 
 //adding var for cutters
 public var cutters = [
-	<item:ae2:certus_quartz_cutting_knife>,
-	<item:ae2:nether_quartz_cutting_knife>,
-	<item:indreb:cutter>,
-	<item:immersiveengineering:wirecutter>
+	<item:immersiveengineering:wirecutter>,
+	<tag:items:forge:shears>,
+	<tag:items:forge:fillet_knife>,
+	<tag:items:forge:tools/knives>
 ];
 
 val plate_wire_map as IItemStack[IIngredient] = {
@@ -85,10 +77,10 @@ val plate_wire_map as IItemStack[IIngredient] = {
 };
 
 val plate_cable_map as IItemStack[IIngredient] = {
-	<tag:items:forge:plates/tin>.asIIngredient(): <item:indreb:tin_cable>,
-	<tag:items:forge:plates/copper>.asIIngredient(): <item:indreb:copper_cable>,
-	<tag:items:forge:plates/gold>.asIIngredient(): <item:indreb:gold_cable>,
-	<tag:items:forge:plates/iron>.asIIngredient(): <item:indreb:hv_cable>
+	<tag:items:forge:plates/aluminum>.asIIngredient(): <item:ftbic:aluminum_wire>,
+	<tag:items:forge:plates/copper>.asIIngredient(): <item:ftbic:copper_wire>,
+	<tag:items:forge:plates/gold>.asIIngredient(): <item:ftbic:gold_wire>,
+	<tag:items:forge:plates/enderium>.asIIngredient(): <item:ftbic:enderium_wire>
 };
 
 for plate, wire in plate_wire_map {
@@ -119,14 +111,7 @@ val ingot_rod_map as IItemStack[IIngredient] = {
 	<tag:items:forge:ingots/steel>.asIIngredient(): <item:immersiveengineering:stick_steel>,
 	<tag:items:forge:ingots/aluminum>.asIIngredient(): <item:immersiveengineering:stick_aluminum>,
 	<tag:items:forge:ingots/copper>.asIIngredient(): <item:createaddition:copper_rod>,
-	<tag:items:forge:ingots/gold>.asIIngredient(): <item:createaddition:gold_rod>,
-	<tag:items:forge:ingots/uranium>.asIIngredient(): <item:immersiveposts:stick_uranium>,
-	<tag:items:forge:ingots/gold>.asIIngredient(): <item:immersiveposts:stick_gold>,
-	<tag:items:forge:ingots/lead>.asIIngredient(): <item:immersiveposts:stick_lead>,
-	<tag:items:forge:ingots/silver>.asIIngredient(): <item:immersiveposts:stick_silver>,
-	<tag:items:forge:ingots/nickel>.asIIngredient(): <item:immersiveposts:stick_nickel>,
-	<tag:items:forge:ingots/constantan>.asIIngredient(): <item:immersiveposts:stick_constantan>,
-	<tag:items:forge:ingots/electrum>.asIIngredient(): <item:immersiveposts:stick_electrum>
+	<tag:items:forge:ingots/gold>.asIIngredient(): <item:createaddition:gold_rod>
 };
 
 for ingot, rod in ingot_rod_map {
@@ -155,7 +140,7 @@ val raw_crushed_map as IItemStack[IIngredient] = {
 };
 
 for item in hammers {
-	craftingTable.addShapeless("diamond_to_diamond_dust_with_" + item.registryName.namespace, <item:indreb:diamond_dust>, [<item:minecraft:diamond>, item.anyDamage().transformDamage(1)]);
+	craftingTable.addShapeless("diamond_to_diamond_dust_with_" + item.registryName.nameSpace, <item:ftbic:diamond_dust>, [<item:minecraft:diamond>, item.anyDamage().transformDamage(1)]);
 	for raw, crushed in raw_crushed_map {
 	craftingTable.addShapeless("raw_to_" + crushed.registryName.path + "_with_" + item.registryName.namespace, crushed, [raw, item.anyDamage().transformDamage(1)]);
 }}

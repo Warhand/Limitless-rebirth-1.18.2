@@ -17,7 +17,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe("67cd1ba7-b004-4cb1-97ed-cd6
 
 //ender upgrade
 mods.extendedcrafting.CombinationCrafting.addRecipe("8e6d6dc3-041a-4604-ac84-7e1dc9c146ac", <item:upgradednetherite:ender_upgraded_netherite_ingot>, 50000, [
-	<item:minecraft:netherite_ingot>, <item:ae2:ender_dust>, <item:ae2:ender_dust>, <item:ae2:ender_dust>, <item:ae2:ender_dust>, <item:ae2:ender_dust>, <item:ae2:ender_dust>, <item:ae2:ender_dust>, <item:ae2:ender_dust>
+	<item:minecraft:netherite_ingot>, <tag:items:forge:dusts/ender>, <tag:items:forge:dusts/ender>, <tag:items:forge:dusts/ender>, <tag:items:forge:dusts/ender>, <tag:items:forge:dusts/ender>, <tag:items:forge:dusts/ender>, <tag:items:forge:dusts/ender>, <tag:items:forge:dusts/ender>
 ]);
 
 //gold upgrade
@@ -53,10 +53,8 @@ mods.extendedcrafting.CombinationCrafting.addRecipe("8308b882-8c86-4581-b135-e99
 
 //feather upgrade
 mods.extendedcrafting.CombinationCrafting.addRecipe("0c4e7376-17d3-420f-919f-c5ce13fbcad0", <item:upgradednetherite:feather_upgraded_netherite_ingot>, 50000, [
-	<item:minecraft:netherite_ingot>, <item:relics:bloody_feather>, <item:relics:bloody_feather>, <item:relics:bloody_feather>, <item:relics:bloody_feather>, <item:relics:bloody_feather>, <item:relics:bloody_feather>, <item:relics:bloody_feather>, <item:relics:bloody_feather>
+	<item:minecraft:netherite_ingot>, <tag:items:forge:feathers>, <tag:items:forge:feathers>, <tag:items:forge:feathers>, <tag:items:forge:feathers>, <tag:items:forge:feathers>, <tag:items:forge:feathers>, <tag:items:forge:feathers>, <tag:items:forge:feathers>
 ]);
-craftingTable.remove(<item:relics:bloody_feather>);
-craftingTable.addShapeless("bloody_feathers", <item:relics:bloody_feather> * 4, [<tag:items:forge:feathers>, <tag:items:forge:feathers>, <tag:items:forge:feathers>, <tag:items:forge:feathers>, <item:biomesoplenty:blood_bucket>.transformReplace(<item:minecraft:bucket>)]);
 
 //corrupt upgrade
 mods.extendedcrafting.CombinationCrafting.addRecipe("109a4b01-b46f-49ed-8635-46a48603e947", <item:upgradednetherite:corrupt_upgraded_netherite_ingot>, 50000, [
@@ -122,23 +120,3 @@ mods.extendedcrafting.CombinationCrafting.addRecipe("51181257-f0ad-4d3c-922f-86d
 mods.extendedcrafting.CombinationCrafting.addRecipe("ed52d775-12aa-4f9f-b2e7-8fc20db3a192", <item:upgradednetherite_creative:creative_upgraded_netherite_horse_armor>, 1000000, [
 	<item:upgradednetherite_creative:creative_upgraded_netherite_ingot>, <item:upgradednetherite_ultimate:ultimate_upgraded_netherite_horse_armor>, <item:extendedcrafting:ender_star_block>, <item:extendedcrafting:ender_star_block>, <item:upgradednetherite_ultimate:ultimate_upgraded_netherite_horse_armor>, <item:upgradednetherite_ultimate:ultimate_upgraded_netherite_horse_armor>, <item:extendedcrafting:ender_star_block>, <item:extendedcrafting:ender_star_block>, <item:upgradednetherite_ultimate:ultimate_upgraded_netherite_horse_armor>
 ]);
-
-//enchanted netherite apple fix
-smithing.remove(<item:upgradednetherite_items:enchanted_netherite_apple>);
-<recipetype:apotheosis:enchanting>.addJsonRecipe("infused_netherite_apple", {"input": {
-		"item": "upgradednetherite_items:netherite_apple"
-	},
-	"requirements": {
-		"eterna": 25,
-		"quanta": 30,
-		"arcana": 40
-	},
-	"max_requirements": {
-		"eterna": 50,
-		"quanta": 60,
-		"arcana": -1
-	},
-	"result": {
-		"item": "upgradednetherite_items:enchanted_netherite_apple",
-		"count": 1
-}});

@@ -71,42 +71,6 @@ craftingTable.addShaped("quark_oddities_crate", <item:quark:crate>, [[<tag:items
 craftingTable.remove(<item:integrateddynamics:cable>);
 craftingTable.addShapedMirrored("integrateddynamics_crafting_cable", <constant:minecraft:mirroraxis:all>, <item:integrateddynamics:cable> * 4, [[<item:integrateddynamics:crystalized_menril_chunk>, <item:minecraft:end_rod>, <item:integrateddynamics:crystalized_menril_chunk>], [<item:integrateddynamics:crystalized_menril_chunk>, <item:immersiveengineering:rs_engineering>, <item:integrateddynamics:crystalized_menril_chunk>], [<item:integrateddynamics:crystalized_menril_chunk>, <item:minecraft:end_rod>, <item:integrateddynamics:crystalized_menril_chunk>]]);
 
-//pipez item pipe
-craftingTable.remove(<item:pipez:item_pipe>);
-craftingTable.addShaped("pipez_item_pipe", <item:pipez:item_pipe> * 8, [[<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/electrum>, <tag:items:forge:ingots/iron>], [<tag:items:forge:ingots/electrum>, <item:minecraft:hopper>, <tag:items:forge:ingots/electrum>], [<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/electrum>, <tag:items:forge:ingots/iron>]]);
-
-//pipez fluid pipe
-craftingTable.remove(<item:pipez:fluid_pipe>);
-craftingTable.addShaped("pipez_fluid_pipe", <item:pipez:fluid_pipe> * 8, [[<tag:items:forge:ingots/iron>, <item:minecraft:diamond>, <tag:items:forge:ingots/iron>], [<item:minecraft:diamond>, <item:minecraft:bucket>, <item:minecraft:diamond>], [<tag:items:forge:ingots/iron>, <item:minecraft:diamond>, <tag:items:forge:ingots/iron>]]);
-
-//pipez energy pipe
-craftingTable.remove(<item:pipez:energy_pipe>);
-craftingTable.addShaped("pipez_energy_pipe", <item:pipez:energy_pipe> * 8, [[<tag:items:forge:ingots/iron>, <item:extendedcrafting:redstone_ingot>, <tag:items:forge:ingots/iron>], [<item:extendedcrafting:redstone_ingot>, <item:minecraft:redstone_block>, <item:extendedcrafting:redstone_ingot>], [<tag:items:forge:ingots/iron>, <item:extendedcrafting:redstone_ingot>, <tag:items:forge:ingots/iron>]]);
-
-//pipez universal pipe
-craftingTable.remove(<item:pipez:universal_pipe>);
-craftingTable.addShapedMirrored("pipez_universal_pipe1", <constant:minecraft:mirroraxis:all>, <item:pipez:universal_pipe> * 6, [[<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>], [<item:pipez:fluid_pipe>, <item:pipez:item_pipe>, <item:pipez:energy_pipe>], [<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>]]);
-
-craftingTable.addShapedMirrored("pipez_universal_pipe2", <constant:minecraft:mirroraxis:all>, <item:pipez:universal_pipe> * 6, [[<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>], [<item:pipez:energy_pipe>, <item:pipez:fluid_pipe>, <item:pipez:item_pipe>], [<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>]]);
-
-craftingTable.addShapedMirrored("pipez_universal_pipe3", <constant:minecraft:mirroraxis:all>, <item:pipez:universal_pipe> * 6, [[<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>], [<item:pipez:item_pipe>, <item:pipez:energy_pipe>, <item:pipez:fluid_pipe>], [<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>]]);
-
-//pipez basic pipe upgrade
-craftingTable.remove(<item:pipez:basic_upgrade>);
-craftingTable.addShaped("pipez_basic_upgrade", <item:pipez:basic_upgrade>, [[<tag:items:forge:plates/iron>, <tag:items:forge:dusts/redstone>, <tag:items:forge:plates/iron>], [<tag:items:forge:dusts/redstone>, <tag:items:forge:storage_blocks/redstone>, <tag:items:forge:dusts/redstone>], [<tag:items:forge:plates/iron>, <tag:items:forge:dusts/redstone>, <tag:items:forge:plates/iron>]]);
-
-//pipez improved pipe upgrade
-craftingTable.remove(<item:pipez:improved_upgrade>);
-craftingTable.addShaped("pipez_improved_upgrade", <item:pipez:improved_upgrade>, [[<tag:items:forge:plates/gold>, <tag:items:forge:dusts/redstone>, <tag:items:forge:plates/gold>], [<tag:items:forge:dusts/redstone>, <item:pipez:basic_upgrade>, <tag:items:forge:dusts/redstone>], [<tag:items:forge:plates/gold>, <tag:items:forge:dusts/redstone>, <tag:items:forge:plates/gold>]]);
-
-//pipez advanced pipe upgrade
-craftingTable.remove(<item:pipez:advanced_upgrade>);
-craftingTable.addShaped("pipez_advanced_upgrade", <item:pipez:advanced_upgrade>, [[<tag:items:forge:gems/diamond>, <item:immersiveengineering:wirecoil_redstone>, <tag:items:forge:gems/diamond>], [<item:immersiveengineering:wirecoil_redstone>, <item:pipez:improved_upgrade>, <item:immersiveengineering:wirecoil_redstone>], [<tag:items:forge:gems/diamond>, <item:immersiveengineering:wirecoil_redstone>, <tag:items:forge:gems/diamond>]]);
-
-//pipez ultimate pipe upgrade
-craftingTable.remove(<item:pipez:ultimate_upgrade>);
-craftingTable.addShaped("pipez_ultimate_upgrade", <item:pipez:ultimate_upgrade>, [[<tag:items:forge:plates/netherite>, <item:immersiveengineering:rs_engineering>, <tag:items:forge:plates/netherite>], [<item:immersiveengineering:rs_engineering>, <item:pipez:advanced_upgrade>, <item:immersiveengineering:rs_engineering>], [<tag:items:forge:plates/netherite>, <item:immersiveengineering:rs_engineering>, <tag:items:forge:plates/netherite>]]);
-
 //integrated dynamics wrench
 craftingTable.remove(<item:integrateddynamics:wrench>);
 craftingTable.addShaped("integrateddynamics_crafting_wrench", <item:integrateddynamics:wrench>, [[IIngredientEmpty.getInstance(), <item:integrateddynamics:crystalized_menril_chunk>, IIngredientEmpty.getInstance()], [IIngredientEmpty.getInstance(), <tag:items:integrateddynamics:menril_logs>, <item:integrateddynamics:crystalized_menril_chunk>], [<tag:items:integrateddynamics:menril_logs>, IIngredientEmpty.getInstance(), IIngredientEmpty.getInstance()]]);
@@ -154,26 +118,6 @@ craftingTable.addShaped("waystones_bound_scroll", <item:waystones:bound_scroll> 
 craftingTable.remove(<item:waystones:warp_scroll>);
 craftingTable.addShaped("waystones_warp_scroll", <item:waystones:warp_scroll> * 4, [[<tag:items:balm:gold_nuggets>, <item:waystones:warp_stone>, <tag:items:balm:gold_nuggets>], [<item:minecraft:paper>, <item:minecraft:paper>, <item:minecraft:paper>]]);
 
-//infusing enchanted apples with apotheosis
-craftingTable.remove(<item:minecraft:enchanted_golden_apple>);
-<recipetype:apotheosis:enchanting>.addJsonRecipe("infused_golden_apple", {"input": {
-		"item": "minecraft:golden_apple"
-	},
-	"requirements": {
-		"eterna": 20,
-		"quanta": 20,
-		"arcana": 35
-	},
-	"max_requirements": {
-		"eterna": 30,
-		"quanta": 50,
-		"arcana": -1
-	},
-	"result": {
-		"item": "minecraft:enchanted_golden_apple",
-		"count": 1
-}});
-
 //replacing ARS guidebook recipe
 craftingTable.remove(<item:ars_nouveau:worn_notebook>);
 craftingTable.addShapeless("ars_nouveau_worn_notebook", <item:ars_nouveau:worn_notebook>, [<tag:items:forge:gems/source>, <item:minecraft:book>]);
@@ -204,9 +148,6 @@ craftingTable.addShapeless("uncrafting_rose_quartz", <item:biomesoplenty:rose_qu
 
 ////indreb lead plate removal
 //craftingTable.remove(<item:indreb:lead_plate>);
-
-//runic hammer durability upgrade
-<item:relics:runic_hammer>. maxDamage = 200;
 
 //beyond earth hammer durability upgrade
 <item:beyond_earth:hammer>.maxDamage = 50;
@@ -242,24 +183,6 @@ craftingTable.addShaped("quarry_statuschecker", <item:quarryplus:status_checker>
 //quarryplus quarry Y setter recipe
 craftingTable.addShaped("quarry_y_setter", <item:quarryplus:y_setter>, [[<item:quarryplus:marker>, IIngredientEmpty.getInstance(), IIngredientEmpty.getInstance()], [<tag:items:forge:gems/diamond>, <tag:items:forge:dusts/redstone>, <tag:items:forge:gems/diamond>], [<tag:items:forge:gems/diamond>, <tag:items:minecraft:buttons>, <tag:items:forge:gems/diamond>]]);
 
-//infusing quarry with full enchants
-<recipetype:apotheosis:enchanting>.addJsonRecipe("enchanted_quarry", {"input": {
-		"item": "quarryplus:quarry",
-	},
-	"requirements": {
-		"eterna": 30,
-		"quanta": 50,
-		"arcana": 50
-	},
-	"max_requirements": {
-		"eterna": 50,
-		"quanta": 80,
-		"arcana": -1
-	},
-	"result": 
-		<item:quarryplus:quarry>.withTag({Enchantments: [{lvl: 5 as short, id: "minecraft:efficiency" as string}, {lvl: 3 as short, id: "minecraft:unbreaking" as string}, {lvl: 1 as short, id: "minecraft:silk_touch" as string}]})
-});
-
 //quarryplus mining well recipe
 craftingTable.addShaped("mining_well", <item:quarryplus:mining_well>, [[<tag:items:forge:plates/iron>, <tag:items:forge:rods/copper>, <tag:items:forge:plates/iron>], [<tag:items:forge:dusts/redstone>, <tag:items:forge:rods/copper>, <tag:items:forge:dusts/redstone>], [<tag:items:forge:plates/iron>, <item:minecraft:iron_pickaxe>, <tag:items:forge:plates/iron>]]);
 
@@ -274,51 +197,6 @@ craftingTable.addShaped("pump_module", <item:quarryplus:pump_module>, [[<tag:ite
 //dimensional dungeons portal keystone
 craftingTable.remove(<item:dimdungeons:block_portal_keyhole>);
 craftingTable.addShaped("portal_keystone", <item:dimdungeons:block_portal_keyhole>, [[<item:dimdungeons:block_gilded_portal>, <item:supplementaries:lock_block>, <item:dimdungeons:block_gilded_portal>], [<item:supplementaries:lock_block>, <item:minecraft:ender_eye>, <item:supplementaries:lock_block>], [<item:dimdungeons:block_gilded_portal>, <item:supplementaries:lock_block>, <item:dimdungeons:block_gilded_portal>]]);
-
-//better bundles progression adjustments
-craftingTable.removeByName("betterbundles:gold_bundle");
-craftingTable.removeByName("betterbundles:iron_bundle");
-craftingTable.removeByName("betterbundles:netherite_bundle");
-smithing.addRecipe("better_bundles_netherite", <item:betterbundles:netherite_bundle>, <item:betterbundles:diamond_bundle>, <item:minecraft:netherite_ingot>);
-
-//fletching recipes
-<recipetype:apotheosis:fletching>.addJsonRecipe("wilden_spike_arrow", {"conditions": [{
-		"type": "apotheosis:module",
-		"module": "village"
-	}],
-	"ingredients": [{
-			"item": "ars_nouveau:wilden_spike"
-		},
-		{
-			"item": "minecraft:stick"
-		},
-		{
-			"item": "minecraft:feather"
-		}
-	],
-	"result": {
-		"item": "minecraft:arrow",
-		"count": 48
-	}});
-	
-<recipetype:apotheosis:fletching>.addJsonRecipe("shark_tooth_arrow", {"conditions": [{
-		"type": "apotheosis:module",
-		"module": "village"
-	}],
-	"ingredients": [{
-			"item": "alexsmobs:shark_tooth"
-		},
-		{
-			"item": "minecraft:stick"
-		},
-		{
-			"item": "minecraft:kelp"
-		}
-	],
-	"result": {
-		"item": "alexsmobs:shark_tooth_arrow",
-		"count": 12
-	}});
 
 //coin conversion recipes
 craftingTable.removeByName("createdeco:copper_coin");
@@ -579,3 +457,42 @@ craftingTable.addShaped("storagedrawers_tier_one_storage_upgrade", <item:storage
 craftingTable.addShaped("storagedrawers_tier_two_storage_upgrade", <item:storagedrawers:iron_storage_upgrade>, [[<tag:items:forge:plates/gold>, <tag:items:forge:rods/wooden>, <tag:items:forge:plates/gold>], [<tag:items:forge:rods/wooden>, <item:storagedrawers:obsidian_storage_upgrade>, <tag:items:forge:rods/wooden>], [<tag:items:forge:plates/gold>, <tag:items:forge:rods/wooden>, <tag:items:forge:plates/gold>]]);
 
 craftingTable.addShaped("storagedrawers_tier_three_storage_upgrade", <item:storagedrawers:gold_storage_upgrade>, [[<tag:items:forge:gems/diamond>, <tag:items:forge:rods/wooden>, <tag:items:forge:gems/diamond>], [<tag:items:forge:rods/wooden>, <item:storagedrawers:iron_storage_upgrade>, <tag:items:forge:rods/wooden>], [<tag:items:forge:gems/diamond>, <tag:items:forge:rods/wooden>, <tag:items:forge:gems/diamond>]]);
+
+
+// pipez scripts
+
+////pipez item pipe
+//craftingTable.remove(<item:pipez:item_pipe>);
+//craftingTable.addShaped("pipez_item_pipe", <item:pipez:item_pipe> * 8, [[<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/electrum>, <tag:items:forge:ingots/iron>], [<tag:items:forge:ingots/electrum>, <item:minecraft:hopper>, <tag:items:forge:ingots/electrum>], [<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/electrum>, <tag:items:forge:ingots/iron>]]);
+//
+////pipez fluid pipe
+//craftingTable.remove(<item:pipez:fluid_pipe>);
+//craftingTable.addShaped("pipez_fluid_pipe", <item:pipez:fluid_pipe> * 8, [[<tag:items:forge:ingots/iron>, <item:minecraft:diamond>, <tag:items:forge:ingots/iron>], [<item:minecraft:diamond>, <item:minecraft:bucket>, <item:minecraft:diamond>], [<tag:items:forge:ingots/iron>, <item:minecraft:diamond>, <tag:items:forge:ingots/iron>]]);
+//
+////pipez energy pipe
+//craftingTable.remove(<item:pipez:energy_pipe>);
+//craftingTable.addShaped("pipez_energy_pipe", <item:pipez:energy_pipe> * 8, [[<tag:items:forge:ingots/iron>, <item:extendedcrafting:redstone_ingot>, <tag:items:forge:ingots/iron>], [<item:extendedcrafting:redstone_ingot>, <item:minecraft:redstone_block>, <item:extendedcrafting:redstone_ingot>], [<tag:items:forge:ingots/iron>, <item:extendedcrafting:redstone_ingot>, <tag:items:forge:ingots/iron>]]);
+//
+////pipez universal pipe
+//craftingTable.remove(<item:pipez:universal_pipe>);
+//craftingTable.addShapedMirrored("pipez_universal_pipe1", <constant:minecraft:mirroraxis:all>, <item:pipez:universal_pipe> * 6, [[<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>], [<item:pipez:fluid_pipe>, <item:pipez:item_pipe>, <item:pipez:energy_pipe>], [<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>]]);
+//
+//craftingTable.addShapedMirrored("pipez_universal_pipe2", <constant:minecraft:mirroraxis:all>, <item:pipez:universal_pipe> * 6, [[<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>], [<item:pipez:energy_pipe>, <item:pipez:fluid_pipe>, <item:pipez:item_pipe>], [<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>]]);
+//
+//craftingTable.addShapedMirrored("pipez_universal_pipe3", <constant:minecraft:mirroraxis:all>, <item:pipez:universal_pipe> * 6, [[<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>], [<item:pipez:item_pipe>, <item:pipez:energy_pipe>, <item:pipez:fluid_pipe>], [<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>]]);
+//
+////pipez basic pipe upgrade
+//craftingTable.remove(<item:pipez:basic_upgrade>);
+//craftingTable.addShaped("pipez_basic_upgrade", <item:pipez:basic_upgrade>, [[<tag:items:forge:plates/iron>, <tag:items:forge:dusts/redstone>, <tag:items:forge:plates/iron>], [<tag:items:forge:dusts/redstone>, <tag:items:forge:storage_blocks/redstone>, <tag:items:forge:dusts/redstone>], [<tag:items:forge:plates/iron>, <tag:items:forge:dusts/redstone>, <tag:items:forge:plates/iron>]]);
+//
+////pipez improved pipe upgrade
+//craftingTable.remove(<item:pipez:improved_upgrade>);
+//craftingTable.addShaped("pipez_improved_upgrade", <item:pipez:improved_upgrade>, [[<tag:items:forge:plates/gold>, <tag:items:forge:dusts/redstone>, <tag:items:forge:plates/gold>], [<tag:items:forge:dusts/redstone>, <item:pipez:basic_upgrade>, <tag:items:forge:dusts/redstone>], [<tag:items:forge:plates/gold>, <tag:items:forge:dusts/redstone>, <tag:items:forge:plates/gold>]]);
+//
+////pipez advanced pipe upgrade
+//craftingTable.remove(<item:pipez:advanced_upgrade>);
+//craftingTable.addShaped("pipez_advanced_upgrade", <item:pipez:advanced_upgrade>, [[<tag:items:forge:gems/diamond>, <item:immersiveengineering:wirecoil_redstone>, <tag:items:forge:gems/diamond>], [<item:immersiveengineering:wirecoil_redstone>, <item:pipez:improved_upgrade>, <item:immersiveengineering:wirecoil_redstone>], [<tag:items:forge:gems/diamond>, <item:immersiveengineering:wirecoil_redstone>, <tag:items:forge:gems/diamond>]]);
+//
+////pipez ultimate pipe upgrade
+//craftingTable.remove(<item:pipez:ultimate_upgrade>);
+//craftingTable.addShaped("pipez_ultimate_upgrade", <item:pipez:ultimate_upgrade>, [[<tag:items:forge:plates/netherite>, <item:immersiveengineering:rs_engineering>, <tag:items:forge:plates/netherite>], [<item:immersiveengineering:rs_engineering>, <item:pipez:advanced_upgrade>, <item:immersiveengineering:rs_engineering>], [<tag:items:forge:plates/netherite>, <item:immersiveengineering:rs_engineering>, <tag:items:forge:plates/netherite>]]);

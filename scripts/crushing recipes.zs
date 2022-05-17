@@ -10,7 +10,6 @@ import crafttweaker.api.recipe.SmithingRecipeManager;
 //removing base game recipes
 
 val crushers_remove as IItemStack[] = [
-	<item:ae2:certus_quartz_crystal>,
 	<item:beyond_earth:raw_calorite>,
 	<item:beyond_earth:raw_desh>,
 	<item:beyond_earth:raw_ostrum>,
@@ -44,7 +43,6 @@ val crushers_remove as IItemStack[] = [
 	<item:immersiveengineering:raw_silver>,
 	<item:immersiveengineering:raw_uranium>,
 	<item:ftbic:lead_chunk>,
-	<item:indreb:raw_tin>,
 	<item:jaopca:create_crushed_ores.aluminum>,
 	<item:jaopca:create_crushed_ores.calorite>,
 	<item:jaopca:create_crushed_ores.cloggrum>,
@@ -54,7 +52,6 @@ val crushers_remove as IItemStack[] = [
 	<item:jaopca:create_crushed_ores.lead>,
 	<item:jaopca:create_crushed_ores.netherite_scrap> ,
 	<item:jaopca:create_crushed_ores.nickel>,
-	<item:jaopca:create_crushed_ores.osmium>,
 	<item:jaopca:create_crushed_ores.ostrum>,
 	<item:jaopca:create_crushed_ores.regalium>,
 	<item:jaopca:create_crushed_ores.silver>,
@@ -87,11 +84,7 @@ val crushers_remove as IItemStack[] = [
 	<item:undergarden:raw_cloggrum>,
 	<item:undergarden:raw_froststeel>,
 	<item:undergarden:regalium_crystal>,
-	<item:indreb:crushed_tin>,
 	<item:ftbic:lead_dust>,
-	<item:indreb:crushed_copper>,
-	<item:indreb:crushed_iron>,
-	<item:indreb:crushed_gold>
 ];
 
 <recipetype:create:crushing>.removeByName("create:crushing/nether_gold_ore");
@@ -103,7 +96,6 @@ for item in crushers_remove{
 	<recipetype:integrateddynamics:squeezer>.remove(item);
 	<recipetype:create:crushing>.remove(item);
 	<recipetype:immersiveengineering:crusher>.remove(item);
-	<recipetype:indreb:crushing>.remove(item);
 	<recipetype:ars_nouveau:crush>.remove(item);
 }
 
