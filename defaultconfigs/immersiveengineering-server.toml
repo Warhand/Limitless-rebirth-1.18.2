@@ -357,7 +357,7 @@
 		distribution = "TRAPEZOID"
 		#Chance for ores to not generate, if they are exposed to air. 0 means ignoring air exposure, 1 requires being burried.
 		#Range: 0.0 ~ 1.0
-		air_exposure = 0.0
+		air_exposure = 0.25
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
 		vein_size = 6
@@ -369,7 +369,7 @@
 		max_y = 112
 		#The number of veins attempted to be generated per chunk
 		#Range: > 0
-		attempts_per_chunk = 16
+		attempts_per_chunk = 12
 		#Set this to true to allow retro-generation of bauxite Ore.
 		retrogen_enable = false
 
@@ -383,7 +383,7 @@
 		air_exposure = 0.0
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
-		vein_size = 8
+		vein_size = 0
 		#The minimum Y coordinate this ore can spawn at
 		#Range: > -2147483648
 		min_y = -32
@@ -392,7 +392,7 @@
 		max_y = 80
 		#The number of veins attempted to be generated per chunk
 		#Range: > 0
-		attempts_per_chunk = 8
+		attempts_per_chunk = 0
 		#Set this to true to allow retro-generation of lead Ore.
 		retrogen_enable = false
 
