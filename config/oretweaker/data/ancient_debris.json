@@ -26,7 +26,7 @@
       ],
       "distribution": "UNIFORM",
       "minY": 8,
-      "maxY": 118,
+      "maxY": 256,
       "maxVeinSize": 2,
       "spawnRate": 1.0,
       "discardChanceOnAirExposure": 1.0,
@@ -34,6 +34,27 @@
         "biomeBlacklist": [],
         "biomeWhitelist": [
           "NETHER"
+        ]
+      },
+      "replace": true
+    },
+	{
+      "ore": "minecraft:ancient_debris",
+      "fillers": [
+        "beyond_earth:mars_stone"
+      ],
+      "distribution": "TRIANGLE",
+      "minY": -64,
+      "maxY": 80,
+      "maxVeinSize": 9,
+      "spawnRate": 4.0,
+      "discardChanceOnAirExposure": 0.5,
+      "biomeFilters": {
+        "biomeBlacklist": [],
+        "biomeWhitelist": [
+          "beyond_earth:mars_desert",
+		  "beyond_earth:mars_rocky_plains",
+		  "beyond_earth:mars_ice_spikes"
         ]
       },
       "replace": true
