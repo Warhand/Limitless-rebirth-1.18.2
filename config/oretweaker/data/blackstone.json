@@ -7,7 +7,7 @@
       ],
       "distribution": "UNIFORM",
       "minY": 5,
-      "maxY": 31,
+      "maxY": 64,
       "maxVeinSize": 33,
       "spawnRate": 2.0,
       "discardChanceOnAirExposure": 0.0,

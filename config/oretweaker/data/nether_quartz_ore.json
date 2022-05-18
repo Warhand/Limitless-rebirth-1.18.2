@@ -7,9 +7,9 @@
       ],
       "distribution": "UNIFORM",
       "minY": 10,
-      "maxY": 116,
+      "maxY": 256,
       "maxVeinSize": 14,
-      "spawnRate": 16.0,
+      "spawnRate": 22.0,
       "discardChanceOnAirExposure": 0.0,
       "biomeFilters": {
         "biomeBlacklist": [],
@@ -26,9 +26,9 @@
       ],
       "distribution": "UNIFORM",
       "minY": 10,
-      "maxY": 116,
+      "maxY": 256,
       "maxVeinSize": 14,
-      "spawnRate": 32.0,
+      "spawnRate": 48.0,
       "discardChanceOnAirExposure": 0.0,
       "biomeFilters": {
         "biomeBlacklist": [],
