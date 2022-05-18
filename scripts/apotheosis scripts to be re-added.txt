@@ -1,0 +1,76 @@
+//fletching recipes
+<recipetype:apotheosis:fletching>.addJsonRecipe("wilden_spike_arrow", {"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	}],
+	"ingredients": [{
+			"item": "ars_nouveau:wilden_spike"
+		},
+		{
+			"item": "minecraft:stick"
+		},
+		{
+			"item": "minecraft:feather"
+		}
+	],
+	"result": {
+		"item": "minecraft:arrow",
+		"count": 48
+	}});
+	
+<recipetype:apotheosis:fletching>.addJsonRecipe("shark_tooth_arrow", {"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	}],
+	"ingredients": [{
+			"item": "alexsmobs:shark_tooth"
+		},
+		{
+			"item": "minecraft:stick"
+		},
+		{
+			"item": "minecraft:kelp"
+		}
+	],
+	"result": {
+		"item": "alexsmobs:shark_tooth_arrow",
+		"count": 12
+	}});
+	
+//infusing quarry with full enchants
+<recipetype:apotheosis:enchanting>.addJsonRecipe("enchanted_quarry", {"input": {
+		"item": "quarryplus:quarry",
+	},
+	"requirements": {
+		"eterna": 30,
+		"quanta": 50,
+		"arcana": 50
+	},
+	"max_requirements": {
+		"eterna": 50,
+		"quanta": 80,
+		"arcana": -1
+	},
+	"result": 
+		<item:quarryplus:quarry>.withTag({Enchantments: [{lvl: 5 as short, id: "minecraft:efficiency" as string}, {lvl: 3 as short, id: "minecraft:unbreaking" as string}, {lvl: 1 as short, id: "minecraft:silk_touch" as string}]})
+});
+
+//infusing enchanted apples with apotheosis
+craftingTable.remove(<item:minecraft:enchanted_golden_apple>);
+<recipetype:apotheosis:enchanting>.addJsonRecipe("infused_golden_apple", {"input": {
+		"item": "minecraft:golden_apple"
+	},
+	"requirements": {
+		"eterna": 20,
+		"quanta": 20,
+		"arcana": 35
+	},
+	"max_requirements": {
+		"eterna": 30,
+		"quanta": 50,
+		"arcana": -1
+	},
+	"result": {
+		"item": "minecraft:enchanted_golden_apple",
+		"count": 1
+}});
