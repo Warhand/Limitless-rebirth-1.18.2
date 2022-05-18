@@ -15,7 +15,7 @@
 		#Should soulstone ore generate underground?
 		generateSoulstone = true
 		#Should soulstone ore generate on the surface?
-		generateSurfaceSoulstone = true
+		generateSurfaceSoulstone = false
 		#Size of soulstone ore veins underground.
 		soulstoneSize = 12
 		#Amount of soulstone ore veins.
@@ -29,13 +29,13 @@
 		#Minimum height at which surface soulstone ore can spawn.
 		surfaceSoulstoneMinY = 60
 		#Maximum height at which soulstone ore can spawn.
-		soulstoneMaxY = 30
+		soulstoneMaxY = 35
 		#Maximum height at which surface soulstone ore can spawn.
 		surfaceSoulstoneMaxY = 100
 
 	[worldgen.brilliance]
 		#Size of brilliant stone veins.
-		brilliantStoneSize = 2
+		brilliantStoneSize = 4
 		#Maximum height at which brilliant stone can spawn.
 		brilliantStoneMaxY = 40
 		#Minimum height at which brilliant stone can spawn.
