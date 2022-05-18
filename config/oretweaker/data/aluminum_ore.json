@@ -1,0 +1,42 @@
+{
+  "oreConfig": [
+    {
+      "ore": "ftbic:aluminum_ore",
+      "fillers": [
+        "minecraft:stone"
+      ],
+      "distribution": "UNIFORM",
+      "minY": 0,
+      "maxY": 32,
+      "maxVeinSize": 0,
+      "spawnRate": 0.0,
+      "discardChanceOnAirExposure": 1.0,
+      "biomeFilters": {
+        "biomeBlacklist": [],
+        "biomeWhitelist": [
+          "OVERWORLD"
+        ]
+      },
+      "replace": true
+    },
+    {
+      "ore": "ftbic:deepslate_aluminum_ore",
+      "fillers": [
+        "minecraft:deepslate"
+      ],
+      "distribution": "TRIANGLE",
+      "minY": -64,
+      "maxY": -48,
+      "maxVeinSize": 0,
+      "spawnRate": 0.0,
+      "discardChanceOnAirExposure": 1.0,
+      "biomeFilters": {
+        "biomeBlacklist": [],
+        "biomeWhitelist": [
+          "OVERWORLD"
+        ]
+      },
+      "replace": true
+    }
+  ]
+}
