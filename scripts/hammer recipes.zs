@@ -61,9 +61,12 @@ craftingTable.addShapeless("black_iron_slate_recipe_with" + item.registryName.na
 //adding var for cutters
 public var cutters = [
 	<item:immersiveengineering:wirecutter>,
-	<tag:items:forge:shears>,
-	<tag:items:forge:fillet_knife>,
-	<tag:items:forge:tools/knives>
+	<item:minecraft:shears>,
+	<item:botania:manasteel_shears>,
+	<item:botania:elementium_shears>,
+	<item:alloyed:steel_shears>,
+	<item:blue_skies:ventium_shears>,
+	<item:cyclic:shears_obsidian>
 ];
 
 val plate_wire_map as IItemStack[IIngredient] = {
@@ -91,15 +94,15 @@ for plate, cable in plate_cable_map {
 	craftingTable.remove(cable);
 }
 
-for  item in cutters {
+for item in cutters {
 	for plate, cable in plate_cable_map {
 		craftingTable.addShapedMirrored("plate_to_" + cable.registryName.path + "_with_" + item.registryName.path, <constant:minecraft:mirroraxis:all>, cable * 4, [[item.anyDamage().transformDamage(1), plate], [<item:minecraft:air>, plate]]);
 	}
 }
 
-for  item in cutters {
+for item in cutters {
 	for plate, wire in plate_wire_map {
-		craftingTable.addShapeless("plate_to_" + wire.registryName.path + "_with_" + item.registryName.path, wire, [item.anyDamage().transformDamage(1), plate]);
+		craftingTable.addShapeless("plate_to_ftbic_" + wire.registryName.path + "_with_" + item.registryName.path, wire, [item.anyDamage().transformDamage(1), plate]);
 	}
 }
 
@@ -127,20 +130,20 @@ for item in hammers {
 //crushing raw ore into dust with hammers
 
 val raw_crushed_map as IItemStack[IIngredient] = {
-	<tag:items:forge:raw_ores/iron>.asIIngredient(): <item:create:crushed_iron_ore>,
-	<tag:items:forge:raw_ores/gold>.asIIngredient(): <item:create:crushed_gold_ore>,
-	<tag:items:forge:raw_ores/silver>.asIIngredient(): <item:create:crushed_silver_ore>,
-	<tag:items:forge:raw_ores/aluminum>.asIIngredient(): <item:create:crushed_aluminum_ore>,
-	<tag:items:forge:raw_ores/uranium>.asIIngredient(): <item:create:crushed_uranium_ore>,
-	<tag:items:forge:raw_ores/copper>.asIIngredient(): <item:create:crushed_copper_ore>,
-	<tag:items:forge:raw_ores/nickel>.asIIngredient(): <item:create:crushed_nickel_ore>,
-	<tag:items:forge:raw_ores/lead>.asIIngredient(): <item:create:crushed_lead_ore>,
+	<tag:items:forge:raw_materials/iron>.asIIngredient(): <item:create:crushed_iron_ore>,
+	<tag:items:forge:raw_materials/gold>.asIIngredient(): <item:create:crushed_gold_ore>,
+	<tag:items:forge:raw_materials/silver>.asIIngredient(): <item:create:crushed_silver_ore>,
+	<tag:items:forge:raw_materials/aluminum>.asIIngredient(): <item:create:crushed_aluminum_ore>,
+	<tag:items:forge:raw_materials/uranium>.asIIngredient(): <item:create:crushed_uranium_ore>,
+	<tag:items:forge:raw_materials/copper>.asIIngredient(): <item:create:crushed_copper_ore>,
+	<tag:items:forge:raw_materials/nickel>.asIIngredient(): <item:create:crushed_nickel_ore>,
+	<tag:items:forge:raw_materials/lead>.asIIngredient(): <item:create:crushed_lead_ore>,
 	<tag:items:forge:raw_materials/zinc>.asIIngredient(): <item:create:crushed_zinc_ore>,
-	<tag:items:forge:raw_ores/tin>.asIIngredient(): <item:create:crushed_tin_ore>
+	<tag:items:forge:raw_materials/tin>.asIIngredient(): <item:create:crushed_tin_ore>
 };
 
 for item in hammers {
-	craftingTable.addShapeless("diamond_to_diamond_dust_with_" + item.registryName.nameSpace, <item:ftbic:diamond_dust>, [<item:minecraft:diamond>, item.anyDamage().transformDamage(1)]);
+	craftingTable.addShapeless("diamond_to_diamond_dust_with_" + item.registryName.namespace, <item:ftbic:diamond_dust>, [<item:minecraft:diamond>, item.anyDamage().transformDamage(1)]);
 	for raw, crushed in raw_crushed_map {
 	craftingTable.addShapeless("raw_to_" + crushed.registryName.path + "_with_" + item.registryName.namespace, crushed, [raw, item.anyDamage().transformDamage(1)]);
 }}

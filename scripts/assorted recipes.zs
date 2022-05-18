@@ -349,12 +349,13 @@ val rawblock_block_map as IItemStack[IIngredient] = {
 <tag:items:forge:storage_blocks/raw_calorite>.asIIngredient(): <item:beyond_earth:calorite_block>,
 <tag:items:forge:storage_blocks/raw_cloggrum>.asIIngredient(): <item:undergarden:cloggrum_block>,
 <tag:items:forge:storage_blocks/raw_froststeel>.asIIngredient(): <item:undergarden:froststeel_block>,
-<tag:items:forge:raw_blocks/aluminum>.asIIngredient(): <item:immersiveengineering:storage_aluminum>,
-<tag:items:forge:raw_blocks/lead>.asIIngredient(): <item:immersiveengineering:storage_lead>,
-<tag:items:forge:raw_blocks/silver>.asIIngredient(): <item:immersiveengineering:storage_silver>,
-<tag:items:forge:raw_blocks/nickel>.asIIngredient(): <item:immersiveengineering:storage_nickel>,
-<tag:items:forge:raw_blocks/uranium>.asIIngredient(): <item:immersiveengineering:storage_uranium>,
-<tag:items:forge:storage_blocks/raw_cobalt>.asIIngredient(): <item:tconstruct:cobalt_block>
+<tag:items:forge:storage_blocks/raw_aluminum>.asIIngredient(): <item:immersiveengineering:storage_aluminum>,
+<tag:items:forge:storage_blocks/raw_lead>.asIIngredient(): <item:immersiveengineering:storage_lead>,
+<tag:items:forge:storage_blocks/raw_silver>.asIIngredient(): <item:immersiveengineering:storage_silver>,
+<tag:items:forge:storage_blocks/raw_nickel>.asIIngredient(): <item:immersiveengineering:storage_nickel>,
+<tag:items:forge:storage_blocks/raw_uranium>.asIIngredient(): <item:immersiveengineering:storage_uranium>,
+<tag:items:forge:storage_blocks/raw_cobalt>.asIIngredient(): <item:tconstruct:cobalt_block>,
+<tag:items:forge:storage_blocks/raw_tin>.asIIngredient(): <item:ftbic:tin_block>
 };
 
 for rawblock, block in rawblock_block_map {
@@ -399,17 +400,17 @@ craftingTable.addShaped("buildinggadgets_gadget_destruction", <item:buildinggadg
 
 //immersive engineering wire connectors
 
-craftingTable.addShaped("immersiveengineering_crafting_connector_lv", <item:immersiveengineering:connector_lv> * 4, [[IIngredientEmpty.getInstance(), <tag:items:forge:rods/copper>, IIngredientEmpty.getInstance()], [<item:minecraft:terracotta>, <tag:items:forge:rods/copper>, <item:minecraft:terracotta>], [<item:minecraft:terracotta>, <tag:items:forge:rods/copper>, <item:minecraft:terracotta>]]);
+craftingTable.addShaped("immersiveengineering_crafting_connector_lv", <item:immersiveengineering:connector_lv> * 4, [[IIngredientEmpty.getInstance(), <tag:items:forge:ingots/copper>, IIngredientEmpty.getInstance()], [<item:minecraft:terracotta>, <tag:items:forge:ingots/copper>, <item:minecraft:terracotta>], [<item:minecraft:terracotta>, <tag:items:forge:ingots/copper>, <item:minecraft:terracotta>]]);
 
-craftingTable.addShaped("immersiveengineering_crafting_connector_lv_relay", <item:immersiveengineering:connector_lv_relay> * 8, [[IIngredientEmpty.getInstance(), <tag:items:forge:rods/copper>, IIngredientEmpty.getInstance()], [<item:minecraft:terracotta>, <tag:items:forge:rods/copper>, <item:minecraft:terracotta>]]);
+craftingTable.addShaped("immersiveengineering_crafting_connector_lv_relay", <item:immersiveengineering:connector_lv_relay> * 8, [[IIngredientEmpty.getInstance(), <tag:items:forge:ingots/copper>, IIngredientEmpty.getInstance()], [<item:minecraft:terracotta>, <tag:items:forge:ingots/copper>, <item:minecraft:terracotta>]]);
 
-craftingTable.addShaped("immersiveengineering_crafting_connector_mv", <item:immersiveengineering:connector_mv> * 4, [[IIngredientEmpty.getInstance(), <tag:items:forge:rods/electrum>, IIngredientEmpty.getInstance()], [<item:minecraft:terracotta>, <tag:items:forge:rods/electrum>, <item:minecraft:terracotta>], [<item:minecraft:terracotta>, <tag:items:forge:rods/electrum>, <item:minecraft:terracotta>]]);
+craftingTable.addShaped("immersiveengineering_crafting_connector_mv", <item:immersiveengineering:connector_mv> * 4, [[IIngredientEmpty.getInstance(), <tag:items:forge:ingots/electrum>, IIngredientEmpty.getInstance()], [<item:minecraft:terracotta>, <tag:items:forge:ingots/electrum>, <item:minecraft:terracotta>], [<item:minecraft:terracotta>, <tag:items:forge:ingots/electrum>, <item:minecraft:terracotta>]]);
 
-craftingTable.addShaped("immersiveengineering_crafting_connector_mv_relay", <item:immersiveengineering:connector_mv_relay> * 8, [[IIngredientEmpty.getInstance(), <tag:items:forge:rods/electrum>, IIngredientEmpty.getInstance()], [<item:minecraft:terracotta>, <tag:items:forge:rods/electrum>, <item:minecraft:terracotta>]]);
+craftingTable.addShaped("immersiveengineering_crafting_connector_mv_relay", <item:immersiveengineering:connector_mv_relay> * 8, [[IIngredientEmpty.getInstance(), <tag:items:forge:ingots/electrum>, IIngredientEmpty.getInstance()], [<item:minecraft:terracotta>, <tag:items:forge:ingots/electrum>, <item:minecraft:terracotta>]]);
 
-craftingTable.addShaped("immersiveengineering_crafting_connector_hv", <item:immersiveengineering:connector_hv> * 4, [[IIngredientEmpty.getInstance(), <tag:items:forge:rods/aluminum>, IIngredientEmpty.getInstance()], [<item:minecraft:terracotta>, <tag:items:forge:rods/aluminum>, <item:minecraft:terracotta>], [<item:minecraft:terracotta>, <tag:items:forge:rods/aluminum>, <item:minecraft:terracotta>]]);
+craftingTable.addShaped("immersiveengineering_crafting_connector_hv", <item:immersiveengineering:connector_hv> * 4, [[IIngredientEmpty.getInstance(), <tag:items:forge:ingots/aluminum>, IIngredientEmpty.getInstance()], [<item:minecraft:terracotta>, <tag:items:forge:ingots/aluminum>, <item:minecraft:terracotta>], [<item:minecraft:terracotta>, <tag:items:forge:ingots/aluminum>, <item:minecraft:terracotta>]]);
 
-craftingTable.addShaped("immersiveengineering_crafting_connector_hv_relay", <item:immersiveengineering:connector_hv_relay> * 8, [[IIngredientEmpty.getInstance(), <tag:items:forge:rods/aluminum>, IIngredientEmpty.getInstance()], [<item:immersiveengineering:insulating_glass>, <tag:items:forge:rods/aluminum>, <item:immersiveengineering:insulating_glass>], [<item:immersiveengineering:insulating_glass>, <tag:items:forge:rods/aluminum>, <item:immersiveengineering:insulating_glass>]]);
+craftingTable.addShaped("immersiveengineering_crafting_connector_hv_relay", <item:immersiveengineering:connector_hv_relay> * 8, [[IIngredientEmpty.getInstance(), <tag:items:forge:ingots/aluminum>, IIngredientEmpty.getInstance()], [<item:immersiveengineering:insulating_glass>, <tag:items:forge:ingots/aluminum>, <item:immersiveengineering:insulating_glass>], [<item:immersiveengineering:insulating_glass>, <tag:items:forge:ingots/aluminum>, <item:immersiveengineering:insulating_glass>]]);
 
 //furnace burner recipe
 craftingTable.addShaped("furnace_burner_recipe", <item:createaddition:furnace_burner>, [[<item:create:andesite_alloy>, <item:create:andesite_alloy>, <item:create:andesite_alloy>], [<item:create:andesite_alloy>, IIngredientEmpty.getInstance(), <item:create:andesite_alloy>], [<item:create:andesite_alloy>, <item:create:andesite_alloy>, <item:create:andesite_alloy>]]);

@@ -64,7 +64,6 @@ val crushers_remove as IItemStack[] = [
 	<item:jaopca:dusts.desh>,
 	<item:jaopca:dusts.froststeel>,
 	<item:jaopca:dusts.netherite_scrap>,
-	<item:jaopca:dusts.osmium>,
 	<item:jaopca:dusts.ostrum>,
 	<item:jaopca:dusts.regalium>,
 	<item:jaopca:dusts.utherium>,
@@ -124,17 +123,17 @@ val ore_to_raw_map as IItemStack[IIngredient] = {
 };
 
 val raw_to_crushed_map as IItemStack[IIngredient] = {
-	<tag:items:forge:raw_ores/iron>.asIIngredient(): <item:create:crushed_iron_ore>,
+	<tag:items:forge:raw_materials/iron>.asIIngredient(): <item:create:crushed_iron_ore>,
 	<tag:items:forge:raw_materials/copper>.asIIngredient(): <item:create:crushed_copper_ore>,
 	<tag:items:forge:raw_materials/gold>.asIIngredient(): <item:create:crushed_gold_ore>,
 	<tag:items:forge:raw_materials/zinc>.asIIngredient(): <item:create:crushed_zinc_ore>,
 	<tag:items:forge:raw_materials/tin>.asIIngredient(): <item:create:crushed_tin_ore>,
-	<tag:items:forge:raw_ores/silver>.asIIngredient(): <item:create:crushed_silver_ore>,
+	<tag:items:forge:raw_materials/silver>.asIIngredient(): <item:create:crushed_silver_ore>,
 	<item:undergarden:raw_froststeel>: <item:jaopca:create_crushed_ores.froststeel>,
-	<tag:items:forge:raw_ores/lead>.asIIngredient(): <item:create:crushed_lead_ore>,
-	<tag:items:forge:raw_ores/aluminum>.asIIngredient(): <item:create:crushed_aluminum_ore>,
-	<tag:items:forge:raw_ores/nickel>.asIIngredient(): <item:create:crushed_nickel_ore>,
-	<tag:items:forge:raw_ores/uranium>.asIIngredient(): <item:create:crushed_uranium_ore>,
+	<tag:items:forge:raw_materials/lead>.asIIngredient(): <item:create:crushed_lead_ore>,
+	<tag:items:forge:raw_materials/aluminum>.asIIngredient(): <item:create:crushed_aluminum_ore>,
+	<tag:items:forge:raw_materials/nickel>.asIIngredient(): <item:create:crushed_nickel_ore>,
+	<tag:items:forge:raw_materials/uranium>.asIIngredient(): <item:create:crushed_uranium_ore>,
 	<item:undergarden:raw_cloggrum>: <item:jaopca:create_crushed_ores.cloggrum>,
 	<tag:items:forge:raw_materials/ostrum>.asIIngredient(): <item:jaopca:create_crushed_ores.ostrum>,
 	<tag:items:forge:raw_materials/cobalt>.asIIngredient(): <item:jaopca:create_crushed_ores.cobalt>,
@@ -142,7 +141,7 @@ val raw_to_crushed_map as IItemStack[IIngredient] = {
 	<tag:items:forge:raw_materials/desh>.asIIngredient(): <item:jaopca:create_crushed_ores.desh>,
 	<tag:items:blue_skies:raw_materials/ventium>.asIIngredient(): <item:jaopca:create_crushed_ores.ventium>,
 	<tag:items:blue_skies:raw_materials/falsite>.asIIngredient(): <item:jaopca:create_crushed_ores.falsite>,
-	<tag:items:forge:raw_ores/horizonite>.asIIngredient(): <item:jaopca:create_crushed_ores.horizonite>
+	<tag:items:forge:raw_materials/horizonite>.asIIngredient(): <item:jaopca:create_crushed_ores.horizonite>
 };
 
 val crushed_to_dust_map as IItemStack[IIngredient] = {
