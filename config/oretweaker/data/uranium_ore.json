@@ -1,0 +1,19 @@
+{
+  "oreConfig": [
+    {
+      "ore": "ftbic:uranium_ore",
+      "fillers": [],
+      "distribution": "UNIFORM",
+      "minY": -1,
+      "maxY": -1,
+      "maxVeinSize": -1,
+      "spawnRate": 0.0,
+      "discardChanceOnAirExposure": 1.0,
+      "biomeFilters": {
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      "replace": true
+    }
+  ]
+}
