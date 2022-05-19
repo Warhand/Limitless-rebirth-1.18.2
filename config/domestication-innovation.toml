@@ -102,4 +102,8 @@
 	intimidation_enabled = true
 	#true if blight curse enchant is enabled, false if disabled
 	blight_curse_enabled = true
+	#true if tethered teleport enchant is enabled, false if disabled
+	tethered_teleport_enabled = true
+	#true if immaturity curse enchant is enabled, false if disabled
+	immaturity_curse_enabled = true
 
