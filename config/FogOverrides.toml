@@ -3,7 +3,7 @@
 	#Overrides are dependent on potion effects
 	"Potion Active" = true
 	#Creative Mode Always Removes Fog
-	"Creative Overrides" = true
+	"Creative Overrides" = false
 	#Disable the fire overlay when you're burning
 	"Disable Fire Overlay" = false
 	#Offset the fire overlay, negative values means down and positive is up.
@@ -16,7 +16,7 @@
 	#Disable Overworld Fog?
 	"Disable Overworld Fog" = false
 	#Overworld Fog Starting Distance
-	#Range: 0.1 ~ 1.0
+	#Range: 0.1 ~ 10.0
 	"Overworld Fog Starting Distance" = 0.65
 	#Readds the void fog that was removed in 1.8
 	"Enable Void Fog" = false
@@ -35,8 +35,8 @@
 	#Disable Nether Fog?
 	"Disable Nether Fog" = false
 	#Nether Fog Starting Distance
-	#Range: 0.1 ~ 1.0
-	"Nether Fog Starting Distance" = 0.65
+	#Range: 0.1 ~ 10.0
+	"Nether Fog Starting Distance" = 2.0
 
 [lava]
 	#Disable Lava Fog?
