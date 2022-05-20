@@ -76,28 +76,12 @@ val plate_wire_map as IItemStack[IIngredient] = {
 	<tag:items:forge:plates/copper>.asIIngredient(): <item:createaddition:copper_wire>,
 	<tag:items:forge:plates/lead>.asIIngredient(): <item:immersiveengineering:wire_lead>,
 	<tag:items:forge:plates/iron>.asIIngredient(): <item:createaddition:iron_wire>,
-	<tag:items:forge:plates/gold>.asIIngredient(): <item:createaddition:gold_wire>
-};
-
-val plate_cable_map as IItemStack[IIngredient] = {
-	<tag:items:forge:plates/aluminum>.asIIngredient(): <item:ftbic:aluminum_wire>,
-	<tag:items:forge:plates/copper>.asIIngredient(): <item:ftbic:copper_wire>,
-	<tag:items:forge:plates/gold>.asIIngredient(): <item:ftbic:gold_wire>,
+	<tag:items:forge:plates/gold>.asIIngredient(): <item:createaddition:gold_wire>,
 	<tag:items:forge:plates/enderium>.asIIngredient(): <item:ftbic:enderium_wire>
 };
 
 for plate, wire in plate_wire_map {
 	craftingTable.remove(wire);
-}
-
-for plate, cable in plate_cable_map {
-	craftingTable.remove(cable);
-}
-
-for item in cutters {
-	for plate, cable in plate_cable_map {
-		craftingTable.addShapedMirrored("plate_to_" + cable.registryName.path + "_with_" + item.registryName.path, <constant:minecraft:mirroraxis:all>, cable * 4, [[item.anyDamage().transformDamage(1), plate], [<item:minecraft:air>, plate]]);
-	}
 }
 
 for item in cutters {
