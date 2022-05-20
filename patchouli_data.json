@@ -1,1 +1,58 @@
-{"bookGuiScale":0,"clickedVisualize":false,"bookData":{}}
+{
+  "bookGuiScale": 4,
+  "clickedVisualize": false,
+  "bookData": {
+    "ars_nouveau:worn_notebook": {
+      "viewedEntries": [
+        "ars_nouveau:getting_started/source",
+        "ars_nouveau:source/source_jar",
+        "ars_nouveau:source/agronomic_sourcelink",
+        "ars_nouveau:source/vitalic_sourcelink",
+        "ars_nouveau:source/alchemical_sourcelink",
+        "ars_nouveau:source/mycelial_sourcelink",
+        "ars_nouveau:source/volcanic_sourcelink",
+        "ars_nouveau:source/relay_collector",
+        "ars_nouveau:source/relay_deposit",
+        "ars_nouveau:source/relay_splitter",
+        "ars_nouveau:source/relay_warp",
+        "ars_nouveau:source/relay",
+        "ars_nouveau:automation/summon_bed",
+        "ars_nouveau:automation/amethyst_golem_charm",
+        "ars_nouveau:resources/sourceberry",
+        "ars_nouveau:enchantments/how_to_enchant",
+        "ars_nouveau:machines/enchanting_apparatus",
+        "ars_nouveau:enchantments/sharpness",
+        "ars_nouveau:automation/allow_scroll",
+        "ars_nouveau:automation/spell_prism",
+        "ars_nouveau:automation/whirlisprig_charm",
+        "ars_nouveau:rituals/disintegration",
+        "ars_nouveau:rituals/wilden_summon",
+        "ars_nouveau:rituals/burrowing",
+        "ars_nouveau:rituals/performing_rituals",
+        "ars_nouveau:machines/ritual_brazier",
+        "ars_nouveau:rituals/moonfall",
+        "ars_nouveau:rituals/cloudshaping",
+        "ars_nouveau:rituals/scrying",
+        "ars_nouveau:rituals/warping",
+        "ars_nouveau:getting_started/spell_casting"
+      ],
+      "bookmarks": [],
+      "history": [
+        "ars_nouveau:getting_started/spell_casting",
+        "ars_nouveau:rituals/scrying",
+        "ars_nouveau:rituals/moonfall",
+        "ars_nouveau:rituals/warping",
+        "ars_nouveau:rituals/burrowing",
+        "ars_nouveau:rituals/performing_rituals",
+        "ars_nouveau:rituals/cloudshaping",
+        "ars_nouveau:machines/ritual_brazier",
+        "ars_nouveau:rituals/wilden_summon",
+        "ars_nouveau:rituals/disintegration",
+        "ars_nouveau:automation/whirlisprig_charm",
+        "ars_nouveau:automation/spell_prism",
+        "ars_nouveau:automation/allow_scroll"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

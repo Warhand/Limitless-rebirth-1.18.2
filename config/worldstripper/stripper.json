@@ -46,6 +46,10 @@
     "beyond_earth:mars_sand",
     "beyond_earth:mars_stone",
     "minecraft:air",
-    "minecraft:snow"
+    "minecraft:snow",
+    "blue_skies:turquoise_grass_block",
+    "blue_skies:turquoise_dirt",
+    "blue_skies:turquoise_stone",
+    "blue_skies:coarse_turquoise_dirt"
   ]
 }

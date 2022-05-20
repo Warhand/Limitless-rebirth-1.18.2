@@ -14,7 +14,7 @@
 	
 	# Enables creation of death waypoints
 	# Default: true
-	death_waypoints: true
+	death_waypoints: false
 	
 	# Enables debug info
 	# Default: false
@@ -32,7 +32,7 @@
 	
 	# Show waypoints in world
 	# Default: true
-	in_world_waypoints: true
+	in_world_waypoints: false
 	
 	# Different ways to render map
 	# Default: "none"

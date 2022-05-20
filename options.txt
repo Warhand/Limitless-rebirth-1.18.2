@@ -310,7 +310,7 @@ key_key.toolbelt.open:key.keyboard.r
 key_key.toolbelt.cycle.left:key.keyboard.unknown
 key_key.toolbelt.cycle.right:key.keyboard.unknown
 key_key.toolbelt.slot:key.keyboard.v
-soundCategory_master:1.0
+soundCategory_master:0.3178808
 soundCategory_music:0.056338027
 soundCategory_record:0.10798122
 soundCategory_weather:1.0
