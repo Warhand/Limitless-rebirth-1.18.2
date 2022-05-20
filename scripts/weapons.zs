@@ -8,17 +8,6 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 import crafttweaker.api.item.enchantment.Rarity;
 import crafttweaker.api.item.property.Rarity;
 
-val spears as IItemStack[] = [
-	<item:blue_skies:bluebright_spear>,
-	<item:blue_skies:frostbright_spear>,
-	<item:blue_skies:lunar_spear>,
-	<item:blue_skies:cherry_spear>,
-	<item:blue_skies:starlit_spear>,
-	<item:blue_skies:dusk_spear>,
-	<item:blue_skies:maple_spear>
-];
-<tag:items:rosie:spear>.add(spears);
-
 //manasteel sword fix
 <item:botania:manasteel_sword>.addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "cb3f55d3-645c-4f38-a497-9c13a33db5cf", "Extra Power", 5.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:MAINHAND>]);
 

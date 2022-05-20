@@ -65,7 +65,6 @@ public var cutters = [
 	<item:botania:manasteel_shears>,
 	<item:botania:elementium_shears>,
 	<item:alloyed:steel_shears>,
-	<item:blue_skies:ventium_shears>,
 	<item:cyclic:shears_obsidian>
 ];
 

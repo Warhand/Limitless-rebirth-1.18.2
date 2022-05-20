@@ -11,10 +11,6 @@ import crafttweaker.api.recipe.SmithingRecipeManager;
 val cooked_fish as IItemStack[] = [
 	<item:minecraft:cooked_cod>,
 	<item:minecraft:cooked_salmon>,
-	<item:blue_skies:cooked_grittle_flatfish>,
-	<item:blue_skies:cooked_municipal_monkfish>,
-	<item:blue_skies:cooked_charscale_moki>,
-	<item:blue_skies:cooked_horizofin_tunid>,
 	<item:aquaculture:fish_fillet_cooked>,
 	<item:alexsmobs:cooked_lobster_tail>,
 	<item:undergarden:cooked_gwibling>,
@@ -25,8 +21,6 @@ val cooked_fish as IItemStack[] = [
 <tag:items:rosie:cooked_fish>.add(cooked_fish);
 
 //adding blue skies and undergarden mushrooms into HT's treechop
-<tag:blocks:treechop:choppables>.add(<block:blue_skies:snowcap_mushroom_stem>);
-<tag:blocks:treechop:leaves_like>.add(<block:blue_skies:snowcap_mushroom_block>);
 
 <tag:blocks:treechop:choppables>.add(<block:undergarden:indigo_mushroom_stalk>);
 <tag:blocks:treechop:leaves_like>.add(<block:undergarden:indigo_mushroom_cap>);
