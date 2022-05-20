@@ -449,9 +449,6 @@ craftingTable.addShaped("prettypipes_high_crafting_module", <item:prettypipes:hi
 //Cyclic terra petra recipe
 craftingTable.addShaped("cyclic_terra_preta", <item:cyclic:terra_preta> * 4, [[<item:cyclic:biomass>, <item:cyclic:soil>, <item:cyclic:biomass>], [<item:cyclic:soil>, <item:alexsmobs:bone_serpent_tooth>, <item:cyclic:soil>], [<item:cyclic:biomass>, <item:cyclic:soil>, <item:cyclic:biomass>]]);
 
-//adding tags to indreb machine frame recipe
-//craftingTable.addShaped("basic_machine_casing", <item:indreb:basic_machine_casing>, [[<tag:items:forge:plates/iron>, <tag:items:forge:plates/iron>, <tag:items:forge:plates/iron>], [<tag:items:forge:plates/iron>, IIngredientEmpty.getInstance(), <tag:items:forge:plates/iron>], [<tag:items:forge:plates/iron>, <tag:items:forge:plates/iron>, <tag:items:forge:plates/iron>]]);
-
 //storage drawers overhauled
 craftingTable.addShaped("storagedrawers_tier_one_storage_upgrade", <item:storagedrawers:obsidian_storage_upgrade>, [[<tag:items:forge:plates/iron>, <tag:items:forge:rods/wooden>, <tag:items:forge:plates/iron>], [<tag:items:forge:rods/wooden>, <item:storagedrawers:upgrade_template>, <tag:items:forge:rods/wooden>], [<tag:items:forge:plates/iron>, <tag:items:forge:rods/wooden>, <tag:items:forge:plates/iron>]]);
 
@@ -497,3 +494,44 @@ craftingTable.addShaped("storagedrawers_tier_three_storage_upgrade", <item:stora
 ////pipez ultimate pipe upgrade
 //craftingTable.remove(<item:pipez:ultimate_upgrade>);
 //craftingTable.addShaped("pipez_ultimate_upgrade", <item:pipez:ultimate_upgrade>, [[<tag:items:forge:plates/netherite>, <item:immersiveengineering:rs_engineering>, <tag:items:forge:plates/netherite>], [<item:immersiveengineering:rs_engineering>, <item:pipez:advanced_upgrade>, <item:immersiveengineering:rs_engineering>], [<tag:items:forge:plates/netherite>, <item:immersiveengineering:rs_engineering>, <tag:items:forge:plates/netherite>]]);
+
+//FTB IC adding tags to recipes
+craftingTable.addShaped("ftbic_shaped_copper_coil", <item:ftbic:copper_coil>, [[<tag:items:forge:wires/copper>, <tag:items:forge:wires/copper>, <tag:items:forge:wires/copper>], [<tag:items:forge:wires/copper>, <tag:items:forge:rods/iron>, <tag:items:forge:wires/copper>], [<tag:items:forge:wires/copper>, <tag:items:forge:wires/copper>, <tag:items:forge:wires/copper>]]);
+
+craftingTable.removeByName("ftbic:shapeless/lv_cable");
+craftingTable.addShapeless("ftbic_shapeless_lv_cable", <item:ftbic:lv_cable>, [<tag:items:forge:wires/copper>, <item:ftbic:rubber>]);
+
+craftingTable.removeByName("ftbic:shapeless/hv_cable");
+craftingTable.addShapeless("ftbic_shapeless_hv_cable", <item:ftbic:hv_cable>, [<tag:items:forge:wires/gold>, <item:ftbic:rubber>]);
+
+craftingTable.removeByName("ftbic:shapeless/mv_cable");
+craftingTable.addShapeless("ftbic_shapeless_mv_cable", <item:ftbic:mv_cable>, [<tag:items:forge:wires/aluminum>, <item:ftbic:rubber>]);
+
+//enchanting quarry
+mods.extendedcrafting.CombinationCrafting.addRecipe("8ece23eb-e021-403f-b5cc-681d50da8416", <item:quarryplus:quarry>.withTag({Enchantments: [{lvl: 5 as short, id: "minecraft:efficiency" as string}, {lvl: 3 as short, id: "minecraft:unbreaking" as string}, {lvl: 1 as short, id: "minecraft:silk_touch" as string}]}), 100000, [
+	<item:quarryplus:quarry>.withTag({
+ StoredEnchantments: [
+  {
+   lvl: 1 as short,
+   id: "minecraft:silk_touch"
+  }
+ ]
+}), <item:minecraft:enchanted_book>.withTag({
+ StoredEnchantments: [
+  {
+   lvl: 5 as short,
+   id: "minecraft:efficiency"
+  }
+ ]
+}), <item:minecraft:enchanted_book>.withTag({
+ StoredEnchantments: [
+  {
+   lvl: 3 as short,
+   id: "minecraft:unbreaking"
+  }
+ ]
+})
+]);
+
+//tinkers EFLN
+craftingTable.addShaped("tinkers_efln", <item:tconstruct:efln_ball>, [[<item:minecraft:blaze_powder>, <tag:items:forge:dusts/redstone>, <item:minecraft:blaze_powder>], [<item:minecraft:blaze_powder>, <item:minecraft:fire_charge>, <item:minecraft:blaze_powder>], [<tag:items:forge:dusts/redstone>, <item:minecraft:blaze_powder>, <tag:items:forge:dusts/redstone>]]);
