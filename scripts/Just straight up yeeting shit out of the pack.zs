@@ -218,7 +218,9 @@ val trash as IItemStack[] = [
 	<item:cyclic:terra_preta>,
 	<item:storagedrawers:obsidian_storage_upgrade>,
 	<item:storagedrawers:iron_storage_upgrade>,
-	<item:storagedrawers:gold_storage_upgrade>
+	<item:storagedrawers:gold_storage_upgrade>,
+	<item:ftbic:copper_coil>,
+	<item:tconstruct:efln_ball>
 ];
 
 for item in trash{
