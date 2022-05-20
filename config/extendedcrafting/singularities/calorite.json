@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.calorite",
+  "colors": [
+    "5a112f",
+    "b22942"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/calorite"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.soulstone",
+  "colors": [
+    "734c77",
+    "8b568a"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/soulstone"
+  }
+}

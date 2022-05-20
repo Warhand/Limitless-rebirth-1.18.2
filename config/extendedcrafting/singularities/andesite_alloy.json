@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.andesite",
+  "colors": [
+    "31322a",
+    "878787"
+  ],
+  "ingredient": {
+    "item": "create:andesite_alloy"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.source",
+  "colors": [
+    "c14bfc",
+    "ebcafc"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/source"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.utherium",
+  "colors": [
+    "96352f",
+    "fc7768"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/utherium"
+  }
+}
