@@ -9,7 +9,7 @@ customization-meta {
 }
 
 customization {
-  name = everdawn
+  name = Orbit
   action = setbackgroundpanorama
 }
 
