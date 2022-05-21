@@ -1,7 +1,7 @@
 {
 	version: 13
-	title: "Genesis pack"
-	icon: "minecraft:amethyst_block"
+	title: "Limitless rebirth"
+	icon: "ars_nouveau:source_gem_block"
 	default_reward_team: false
 	default_consume_items: false
 	default_autoclaim_rewards: "disabled"

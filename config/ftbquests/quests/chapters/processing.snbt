@@ -1,0 +1,52 @@
+{
+	id: "3C5210D343223A29"
+	group: ""
+	order_index: 1
+	filename: "processing"
+	title: "Processing"
+	icon: "minecraft:grindstone"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Basic ore processing"
+		icon: "integrateddynamics:squeezer"
+		x: 0.0d
+		y: 0.0d
+		subtitle: "\"You'll be ore in the mornin!\""
+		description: [
+			"When it comes to ore processing, the Integrated dynamics squeezer is probably the easiest place to start.        "
+			"Most ore processing in this pack follows the same general process, ores can be processed into raw material, which can be processed into crushed material, which is finally processed into dust.    Any step in this process can be smelted directly into ingots of that material, but going through the whole process increases your chances of maximizing your production.                                              "
+			"The main exceptions to this ore processing tree are gems, minerals, and dusts, such as diamonds, nether quartz, and redstone, all of those ores will be processed directly into their given materials."
+			"ass"
+			"As an important note, different methods of processing will produce different amounts of raw, crushed, and dust materials, so feel free to explore and create the most efficient system you can think of!"
+		]
+		id: "6AC62D2F4308D6D7"
+		tasks: [
+			{
+				id: "0C15B54D82AD0F9F"
+				type: "item"
+				item: "integrateddynamics:squeezer"
+			}
+			{
+				id: "51238198363D1773"
+				type: "item"
+				item: "immersiveengineering:dust_iron"
+				count: 8L
+			}
+		]
+		rewards: [{
+			id: "018128B988CEE1AF"
+			type: "item"
+			item: {
+				id: "treasurebags:treasure_bag"
+				Count: 1b
+				tag: {
+					silentlib.LootContainer: {
+						LootTable: "limitlessrebirth:common"
+						BagType: "limitlessrebirth:common_bag"
+					}
+				}
+			}
+		}]
+	}]
+}
