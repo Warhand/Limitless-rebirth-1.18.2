@@ -81,3 +81,59 @@ for input, output in dust_to_molten_map{
   "heatRequirement": "superheated"
 });
 }
+
+val dust_to_nugget_map as IItemStack[IIngredient] = {
+	<tag:items:forge:raw_materials/iron>.asIIngredient(): <item:minecraft:iron_nugget>,
+	<item:create:crushed_iron_ore>: <item:minecraft:iron_nugget>,
+	<tag:items:forge:dusts/iron>.asIIngredient(): <item:minecraft:iron_nugget>,
+	<tag:items:forge:raw_materials/aluminum>.asIIngredient(): <item:immersiveengineering:nugget_aluminum>,
+	<tag:items:create:crushed_ores/aluminum>.asIIngredient(): <item:immersiveengineering:nugget_aluminum>,
+	<tag:items:forge:dusts/aluminum>.asIIngredient(): <item:immersiveengineering:nugget_aluminum>,
+	<tag:items:forge:raw_materials/gold>.asIIngredient(): <item:minecraft:gold_nugget>,
+	<item:create:crushed_gold_ore>: <item:minecraft:gold_nugget>,
+	<tag:items:forge:dusts/gold>.asIIngredient(): <item:minecraft:gold_nugget>,
+	<tag:items:forge:raw_materials/uranium>.asIIngredient(): <item:immersiveengineering:nugget_uranium>,
+	<tag:items:create:crushed_ores/uranium>.asIIngredient(): <item:immersiveengineering:nugget_uranium>,
+	<tag:items:forge:dusts/uranium>.asIIngredient(): <item:immersiveengineering:nugget_uranium>,
+	<tag:items:forge:raw_materials/nickel>.asIIngredient(): <item:immersiveengineering:nugget_nickel>,
+	<tag:items:create:crushed_ores/nickel>.asIIngredient(): <item:immersiveengineering:nugget_nickel>,
+	<tag:items:forge:dusts/nickel>.asIIngredient(): <item:immersiveengineering:nugget_nickel>,
+	<tag:items:forge:raw_materials/lead>.asIIngredient(): <item:immersiveengineering:nugget_lead>,
+	<tag:items:create:crushed_ores/lead>.asIIngredient(): <item:immersiveengineering:nugget_lead>,
+	<tag:items:forge:dusts/lead>.asIIngredient(): <item:immersiveengineering:nugget_lead>,
+	<tag:items:forge:raw_materials/silver>.asIIngredient(): <item:immersiveengineering:nugget_silver>,
+	<tag:items:create:crushed_ores/silver>: <item:immersiveengineering:nugget_silver>,
+	<tag:items:forge:dusts/silver>.asIIngredient(): <item:immersiveengineering:nugget_silver>,
+	<tag:items:forge:raw_materials/copper>.asIIngredient(): <item:immersiveengineering:nugget_copper>,
+	<item:create:crushed_copper_ore>: <item:immersiveengineering:nugget_copper>,
+	<tag:items:forge:dusts/copper>.asIIngredient(): <item:immersiveengineering:nugget_copper>,
+	<tag:items:forge:raw_materials/tin>.asIIngredient(): <item:ftbic:tin_nugget>,
+	<tag:items:create:crushed_ores/tin>.asIIngredient(): <item:ftbic:tin_nugget>,
+	<tag:items:forge:dusts/tin>.asIIngredient(): <item:ftbic:tin_nugget>,
+	<tag:items:forge:raw_materials/cobalt>.asIIngredient(): <item:tconstruct:cobalt_nugget>,
+	<tag:items:create:crushed_ores/cobalt>.asIIngredient(): <item:tconstruct:cobalt_nugget>,
+	<tag:items:forge:dusts/cobalt>.asIIngredient(): <item:tconstruct:cobalt_nugget>,
+	<tag:items:forge:raw_materials/zinc>.asIIngredient(): <item:create:zinc_nugget>,
+	<item:create:crushed_zinc_ore>: <item:create:zinc_nugget>,
+	<tag:items:forge:dusts/zinc>.asIIngredient(): <item:create:zinc_nugget>,
+	<item:undergarden:raw_cloggrum>: <item:undergarden:cloggrum_nugget>,
+	<tag:items:create:crushed_ores/cloggrum>.asIIngredient(): <item:undergarden:cloggrum_nugget>,
+	<tag:items:forge:dusts/cloggrum>.asIIngredient(): <item:undergarden:cloggrum_nugget>,
+	<item:undergarden:raw_froststeel>: <item:undergarden:froststeel_nugget>,
+	<tag:items:create:crushed_ores/froststeel>.asIIngredient(): <item:undergarden:froststeel_nugget>,
+	<tag:items:forge:dusts/froststeel>.asIIngredient(): <item:undergarden:froststeel_nugget>
+};
+
+<recipetype:immersiveengineering:arc_furnace>.removeAll();
+
+for input, output in dust_to_nugget_map{
+<recipetype:immersiveengineering:arc_furnace>.addJsonRecipe("custom_mixing_dust" + input.items[0].registryName.path + "_to_" + output.registryName.path, {
+"results":[{"count":15, "base_ingredient":{"item": output.registryName}}],
+"additives":[],
+"input":input,
+"slag":{"tag":"forge:slag"},
+"time":100,
+"energy":51200
+}
+);
+}
