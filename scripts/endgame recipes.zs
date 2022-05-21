@@ -7,6 +7,11 @@ import crafttweaker.api.item.ItemDefinition;
 import crafttweaker.api.recipe.MirrorAxis;
 import crafttweaker.api.recipe.SmithingRecipeManager;
 
+//ultimate ingot
+mods.extendedcrafting.CombinationCrafting.addRecipe("46b704c6-fa55-4078-9a97-ffcf1c329050", <item:extendedcrafting:the_ultimate_ingot> * 4, 500000, [
+	<item:extendedcrafting:ultimate_singularity>, <item:extendedcrafting:ultimate_catalyst>, <item:extendedcrafting:ultimate_catalyst>, <item:extendedcrafting:crystaltine_ingot>, <item:extendedcrafting:crystaltine_ingot>, <item:extendedcrafting:ultimate_catalyst>, <item:extendedcrafting:ultimate_catalyst>, <item:extendedcrafting:crystaltine_ingot>, <item:extendedcrafting:crystaltine_ingot>
+]);
+
 //Create creative engine
 mods.extendedcrafting.TableCrafting.addShaped("c9877edb-84f5-40ec-a3ef-130e885184e5", 0, <item:create:creative_motor>, [
 	[<item:minecraft:shulker_shell>, <item:create:furnace_engine>, <item:create:large_cogwheel>, <item:create:shaft>, <item:create:sequenced_gearshift>, <item:create:shaft>, <item:create:large_cogwheel>, <item:create:furnace_engine>, <item:minecraft:shulker_shell>], 
