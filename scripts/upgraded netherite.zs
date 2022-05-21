@@ -13,12 +13,12 @@ mods.extendedcrafting.CombinationCrafting.addRecipe("featherite", <item:upgraded
 ]);
 
 //golderite ingot
-mods.extendedcrafting.CombinationCrafting.addRecipe("featherite", <item:upgradednetherite:gold_upgraded_netherite_ingot>, 25000, [
+mods.extendedcrafting.CombinationCrafting.addRecipe("golderite", <item:upgradednetherite:gold_upgraded_netherite_ingot>, 25000, [
 	<item:minecraft:netherite_ingot>, <tag:items:forge:ingots/gold>, <tag:items:forge:ingots/gold>, <tag:items:forge:ingots/gold>, <tag:items:forge:ingots/gold>
 ]);
 
 //blazerite ingot
-mods.extendedcrafting.CombinationCrafting.addRecipe("featherite", <item:upgradednetherite:fire_upgraded_netherite_ingot>, 25000, [
+mods.extendedcrafting.CombinationCrafting.addRecipe("blazerite", <item:upgradednetherite:fire_upgraded_netherite_ingot>, 25000, [
 	<item:minecraft:netherite_ingot>, <tag:items:forge:rods/blaze>, <tag:items:forge:rods/blaze>, <tag:items:forge:rods/blaze>, <tag:items:forge:rods/blaze>
 ]);
 
