@@ -497,10 +497,10 @@ for input, output in ore_to_dust_map{
 });
 }
 
-//Industrial reborn crusher
+//FTB industrial contraptions macerator
 
 for input, output in ore_to_raw_map{
-	<recipetype:ftbic:macerating>.addJsonRecipe("custom_indreb_crushing_" + output.registryName.path, {
+	<recipetype:ftbic:macerating>.addJsonRecipe("custom_ftb_ic_macerating_" + output.registryName.path, {
 	"inputItems": [input],
   "outputItems": [
     {
@@ -517,7 +517,7 @@ for input, output in ore_to_raw_map{
 }
 
 for input, output in raw_to_crushed_map{
-	<recipetype:ftbic:macerating>.addJsonRecipe("custom_indreb_crushing_" + output.registryName.path, {
+	<recipetype:ftbic:macerating>.addJsonRecipe("custom_ftb_ic_macerating_" + output.registryName.path, {
 	"inputItems": [input],
   "outputItems": [
     {
@@ -534,7 +534,7 @@ for input, output in raw_to_crushed_map{
 }
 
 for input, output in crushed_to_dust_map{
-	<recipetype:ftbic:macerating>.addJsonRecipe("custom_indreb_crushing_" + output.registryName.path, {
+	<recipetype:ftbic:macerating>.addJsonRecipe("custom_ftb_ic_macerating_" + output.registryName.path, {
 	"inputItems": [input],
   "outputItems": [
     {
@@ -551,7 +551,7 @@ for input, output in crushed_to_dust_map{
 }
 
 for input, output in ore_to_gem_map{
-	<recipetype:ftbic:macerating>.addJsonRecipe("custom_indreb_crushing_" + output.registryName.path, {
+	<recipetype:ftbic:macerating>.addJsonRecipe("custom_ftb_ic_macerating_" + output.registryName.path, {
 	"inputItems": [input],
   "outputItems": [
     {
@@ -562,8 +562,8 @@ for input, output in ore_to_gem_map{
 });
 }
 
-for input, output in crushed_to_dust_map{
-	<recipetype:ftbic:macerating>.addJsonRecipe("custom_indreb_crushing_" + output.registryName.path, {
+for input, output in ore_to_mineral_map{
+	<recipetype:ftbic:macerating>.addJsonRecipe("custom_ftb_ic_macerating_" + output.registryName.path, {
 	"inputItems": [input],
   "outputItems": [
     {
@@ -579,8 +579,8 @@ for input, output in crushed_to_dust_map{
 });
 }
 
-for input, output in crushed_to_dust_map{
-	<recipetype:ftbic:macerating>.addJsonRecipe("custom_indreb_crushing_" + output.registryName.path, {
+for input, output in ore_to_dust_map{
+	<recipetype:ftbic:macerating>.addJsonRecipe("custom_ftb_ic_macerating_" + output.registryName.path, {
 	"inputItems": [input],
   "outputItems": [
     {
