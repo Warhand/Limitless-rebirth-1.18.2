@@ -44,15 +44,6 @@ val dust_to_molten_map as IFluidStack[IIngredient] = {
 	<tag:items:forge:raw_materials/cobalt>.asIIngredient(): <fluid:tconstruct:molten_cobalt>,
 	<tag:items:create:crushed_ores/cobalt>.asIIngredient(): <fluid:tconstruct:molten_cobalt>,
 	<tag:items:forge:dusts/cobalt>.asIIngredient(): <fluid:tconstruct:molten_cobalt>,
-	<tag:items:forge:raw_materials/falsite>.asIIngredient(): <fluid:jaopca:molten.falsite>,
-	<tag:items:create:crushed_ores/falsite>.asIIngredient(): <fluid:jaopca:molten.falsite>,
-	<tag:items:forge:dusts/falsite>.asIIngredient(): <fluid:jaopca:molten.falsite>,
-	<tag:items:forge:raw_materials/horizonite>.asIIngredient(): <fluid:jaopca:molten.horizonite>,
-	<tag:items:create:crushed_ores/horizonite>.asIIngredient(): <fluid:jaopca:molten.horizonite>,
-	<tag:items:forge:dusts/horizonite>.asIIngredient(): <fluid:jaopca:molten.horizonite>,
-	<tag:items:forge:raw_materials/ventium>.asIIngredient(): <fluid:jaopca:molten.ventium>,
-	<tag:items:create:crushed_ores/ventium>.asIIngredient(): <fluid:jaopca:molten.ventium>,
-	<tag:items:forge:dusts/ventium>.asIIngredient(): <fluid:jaopca:molten.ventium>,
 	<tag:items:forge:raw_materials/zinc>.asIIngredient(): <fluid:tconstruct:molten_zinc>,
 	<item:create:crushed_zinc_ore>: <fluid:tconstruct:molten_zinc>,
 	<tag:items:forge:dusts/zinc>.asIIngredient(): <fluid:tconstruct:molten_zinc>,
@@ -65,7 +56,7 @@ val dust_to_molten_map as IFluidStack[IIngredient] = {
 };
 
 for input, output in dust_to_molten_map{
-<recipetype:tconstruct:melting>.addJsonRecipe("custom_melting_dust_to_" + output.registryName.path, {
+<recipetype:tconstruct:melting>.addJsonRecipe("custom_melting_" + input.items[0].registryName.path + "_to_" + output.registryName.path, {
   "ingredient": input,
   "result": {
     "fluid": output.registryName,
@@ -77,7 +68,7 @@ for input, output in dust_to_molten_map{
 }
 
 for input, output in dust_to_molten_map{
-<recipetype:create:mixing>.addJsonRecipe("custom_mixing_dust_to_" + output.registryName.path, {
+<recipetype:create:mixing>.addJsonRecipe("custom_mixing_dust" + input.items[0].registryName.path + "_to_" + output.registryName.path, {
   "ingredients": [
     input
   ],
