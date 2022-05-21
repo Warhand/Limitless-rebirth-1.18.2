@@ -68,7 +68,7 @@ for input, output in dust_to_molten_map{
 }
 
 for input, output in dust_to_molten_map{
-<recipetype:create:mixing>.addJsonRecipe("custom_mixing_dust" + input.items[0].registryName.path + "_to_" + output.registryName.path, {
+<recipetype:create:mixing>.addJsonRecipe("custom_mixing_dust_" + input.items[0].registryName.path + "_to_" + output.registryName.path, {
   "ingredients": [
     input
   ],
@@ -127,7 +127,7 @@ val dust_to_nugget_map as IItemStack[IIngredient] = {
 <recipetype:immersiveengineering:arc_furnace>.removeAll();
 
 for input, output in dust_to_nugget_map{
-<recipetype:immersiveengineering:arc_furnace>.addJsonRecipe("custom_mixing_dust" + input.items[0].registryName.path + "_to_" + output.registryName.path, {
+<recipetype:immersiveengineering:arc_furnace>.addJsonRecipe("custom_arc_furnace_dust_" + input.items[0].registryName.path + "_to_" + output.registryName.path, {
 "results":[{"count":15, "base_ingredient":{"item": output.registryName}}],
 "additives":[],
 "input":input,
