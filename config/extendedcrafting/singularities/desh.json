@@ -1,8 +1,8 @@
 {
-  "name": "singularity.extendedcrafting.desh",
+  "name": "Desh",
   "colors": [
-    "9c4438",
-    "dea554"
+    "dea554",
+    "792f44"
   ],
   "ingredient": {
     "tag": "forge:ingots/desh"

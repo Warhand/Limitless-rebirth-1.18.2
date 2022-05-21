@@ -1,8 +1,8 @@
 {
-  "name": "singularity.extendedcrafting.rosegold",
+  "name": "Rose gold",
   "colors": [
-    "bd7e6f",
-    "f4cbb9"
+    "f4cbb9",
+    "ab675a"
   ],
   "ingredient": {
     "tag": "forge:ingots/rose_gold"

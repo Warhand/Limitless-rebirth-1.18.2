@@ -1,8 +1,8 @@
 {
-  "name": "singularity.extendedcrafting.cloggrum",
+  "name": "Cloggrum",
   "colors": [
-    "7a6858",
-    "b89b7a"
+    "947f67",
+    "483832"
   ],
   "ingredient": {
     "tag": "forge:ingots/cloggrum"

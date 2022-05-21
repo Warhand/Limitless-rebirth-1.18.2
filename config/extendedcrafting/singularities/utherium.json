@@ -1,8 +1,8 @@
 {
-  "name": "singularity.extendedcrafting.utherium",
+  "name": "Utherium",
   "colors": [
-    "96352f",
-    "fc7768"
+    "c1424b",
+    "672727"
   ],
   "ingredient": {
     "tag": "forge:ingots/utherium"

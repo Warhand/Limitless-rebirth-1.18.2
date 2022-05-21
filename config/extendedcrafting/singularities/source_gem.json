@@ -1,8 +1,8 @@
 {
-  "name": "singularity.extendedcrafting.source",
+  "name": "Source gem",
   "colors": [
-    "c14bfc",
-    "ebcafc"
+    "da97fc",
+    "8735b1"
   ],
   "ingredient": {
     "tag": "forge:gems/source"

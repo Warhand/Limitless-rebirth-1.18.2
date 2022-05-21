@@ -1,8 +1,8 @@
 {
-  "name": "singularity.extendedcrafting.zinc",
+  "name": "Zinc",
   "colors": [
-    "465355",
-    "d0d2c5"
+    "edeee7",
+    "7d7e6b"
   ],
   "ingredient": {
     "tag": "forge:ingots/zinc"

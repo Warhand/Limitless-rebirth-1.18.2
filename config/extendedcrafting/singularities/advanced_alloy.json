@@ -1,8 +1,8 @@
 {
-  "name": "singularity.extendedcrafting.advanced",
+  "name": "Advanced alloy",
   "colors": [
-    "745153",
-    "cdccbc"
+    "cdccbc",
+    "795d5d"
   ],
   "ingredient": {
     "item": "ftbic:advanced_alloy"

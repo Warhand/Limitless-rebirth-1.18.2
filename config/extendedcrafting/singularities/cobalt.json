@@ -1,8 +1,8 @@
 {
-  "name": "singularity.extendedcrafting.cobalt",
+  "name": "Cobalt",
   "colors": [
     "2375da",
-    "58a4ec"
+    "00286c"
   ],
   "ingredient": {
     "tag": "forge:ingots/cobalt"
