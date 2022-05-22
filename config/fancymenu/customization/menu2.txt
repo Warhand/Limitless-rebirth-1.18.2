@@ -165,7 +165,7 @@ customization {
   actionid = 5202392d-261b-489c-a4ea-5e0fba1d0d661648239384105
   action = addbutton
   y = 24
-  value = https://github.com/Warhand/Limitless_rebirth/issues
+  value = https://github.com/Warhand/Limitless-rebirth-1.18.2/issues
   height = 20
 }
 
@@ -272,7 +272,7 @@ customization {
   actionid = 384e2c08-ac3c-402e-8222-f950d9dfa58a1651492636813
   action = addbutton
   y = 24
-  value = https://github.com/Warhand/Limitless_rebirth/blob/main/Resource%20pack%20reccomendations.md
+  value = https://github.com/Warhand/Limitless-rebirth-1.18.2/issues/blob/main/Resource%20pack%20reccomendations.md
   height = 20
 }
 
