@@ -34,3 +34,4 @@ resourcepacks/Cork - anti-tryphophobia resource pack 1.1.zip
 config/voicechat-client.toml
 prettypipesprefs
 config/jei-client.toml
+*.class
