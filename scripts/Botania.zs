@@ -1,9 +1,14 @@
-println("Hello world!");
-
-//adding new recipe thats more akin to the create belt recipe.
-
-craftingTable.remove(<item:immersiveengineering:conveyor_basic>);
-craftingTable.addShaped("belt_conveyor", <item:immersiveengineering:conveyor_basic>*8, [[<item:minecraft:dried_kelp>, <item:minecraft:dried_kelp>, <item:minecraft:dried_kelp>], [<item:minecraft:iron_ingot>, <item:minecraft:redstone>, <item:minecraft:iron_ingot>]]);
+import crafttweaker.api.loot.condition.LootConditions;
+import crafttweaker.api.loot.modifier.CommonLootModifiers;
+import crafttweaker.api.loot.condition.LootTableIdLootCondition;
+import crafttweaker.api.loot.condition.LootTableIdRegexLootCondition;
+import crafttweaker.api.loot.condition.RandomChanceLootCondition;
+import crafttweaker.api.item.IItemStack;
+import crafttweaker.api.ingredient.IIngredient;
+import crafttweaker.api.ingredient.type.IIngredientAny;
+import crafttweaker.api.ingredient.type.IIngredientEmpty;
+import crafttweaker.api.resource.ResourceLocation;
+import mods.jei.JEI;
 
 //terraplate recipes
 
