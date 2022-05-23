@@ -10,8 +10,13 @@ import crafttweaker.api.fluid.FluidIngredient;
 import crafttweaker.api.fluid.IFluidStack;
 
 
-//removing default dust melting recipe
+//removing default dust melting recipes
 <recipetype:tconstruct:melting>.removeByRegex("tconstruct:smeltery.*melting.*metal.*dust");
+<recipetype:immersiveengineering:arc_furnace>.removeByRegex("immersiveengineering:arfurnace.raw_*_.*");
+<recipetype:immersiveengineering:arc_furnace>.removeByRegex("immersiveengineering:arfurnace.ore.*");
+<recipetype:immersiveengineering:arc_furnace>.removeByRegex("immersiveengineering:arfurnace.dust.*");
+<recipetype:immersiveengineering:arc_furnace>.removeByRegex("jaopca:immersiveengineering.*_to_*..*");
+<recipetype:immersiveengineering:arc_furnace>.removeByName("immersiveengineering:arcfurnace/netherite_scrap");
 
 val dust_to_molten_map as IFluidStack[IIngredient] = {
 	<tag:items:forge:raw_materials/iron>.asIIngredient(): <fluid:tconstruct:molten_iron>,
