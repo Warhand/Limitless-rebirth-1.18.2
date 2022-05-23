@@ -277,6 +277,8 @@ val jei_removal as IItemStack[] = [
 	<item:cyclic:spikes_diamond>,
 	<item:cyclic:experience_pylon>,
 	<item:cyclic:crusher>,
+	<item:cyclic:magma_bucket>,
+	<item:ftbic:fluid_cell>.withTag({Fluid: "cyclic:magma" as string})
 ];
 
 for item in jei_removal{
@@ -406,10 +408,14 @@ val utter_eradication as IItemStack[] = [
 	<item:ftbic:bronze_rod>,
 	<item:ftbic:tin_gear>,
 	<item:ftbic:gold_gear>,
-	<item:ftbic:copper_gear>
+	<item:ftbic:copper_gear>,
+	<item:jaopca:storage_blocks.cast_iron>
 ];
 
 for item in utter_eradication{
 	JEI.hideIngredient(item);
 	recipes.remove(item);
 }
+
+
+JEI.hideIngredient(<fluid:cyclic:magma> * 1000);
