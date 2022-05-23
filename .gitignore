@@ -35,3 +35,13 @@ config/voicechat-client.toml
 prettypipesprefs
 config/jei-client.toml
 *.class
+simple-rpc/Limitless Rebirth/.gitattributes
+simple-rpc/Limitless Rebirth/Automodlist.txt
+simple-rpc/Limitless Rebirth/lr_border.png
+simple-rpc/Limitless Rebirth/Modlistautogen.bat
+simple-rpc/Limitless Rebirth/options.justenoughkeys.txt
+simple-rpc/Limitless Rebirth/options.txt
+simple-rpc/Limitless Rebirth/patchouli_data.json
+simple-rpc/Limitless Rebirth/README.md
+simple-rpc/Limitless Rebirth/Resource pack reccomendations.md
+simple-rpc/Limitless Rebirth/simple-rpc.bak
