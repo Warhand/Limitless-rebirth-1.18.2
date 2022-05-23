@@ -84,6 +84,15 @@ val crushers_remove as IItemStack[] = [
 <recipetype:create:crushing>.removeByName("create:crushing/nether_gold_ore");
 <recipetype:integrateddynamics:squeezer>.remove(<item:minecraft:gold_nugget>);
 <recipetype:integrateddynamics:mechanical_squeezer>.remove(<item:minecraft:gold_nugget>);
+<recipetype:ftbic:macerating>.removeByRegex("jaopca:immersiveengineering.*_to_.*");
+<recipetype:ftbic:macerating>.removeByRegex("malum:create.crushing.crush_.*");
+<recipetype:ftbic:macerating>.removeByRegex("immersiveengineering:crusher/ingot_.*");
+<recipetype:ftbic:macerating>.removeByRegex("immersiveengineering:crusher/raw_block_.*");
+<recipetype:ftbic:macerating>.removeByRegex("ftbic:macerating/.*/.*_to_.*");
+<recipetype:ftbic:macerating>.removeByRegex("jaopca:ftbic.*_to_*.*");
+<recipetype:ftbic:macerating>.removeByRegex("jaopca:create.*_to..*");
+<recipetype:integrateddynamics:mechanical_squeezer>.removeAll();
+<recipetype:integrateddynamics:squeezer>.removeAll();
 
 for item in crushers_remove{
 	<recipetype:integrateddynamics:mechanical_squeezer>.remove(item);
@@ -112,7 +121,8 @@ val ore_to_raw_map as IItemStack[IIngredient] = {
 	<tag:items:forge:ores/ostrum>.asIIngredient(): <item:beyond_earth:raw_ostrum>,
 	<tag:items:forge:ores/cobalt>.asIIngredient(): <item:tconstruct:raw_cobalt>,
 	<tag:items:forge:ores/calorite>.asIIngredient(): <item:beyond_earth:raw_calorite>,
-	<tag:items:forge:ores/desh>.asIIngredient(): <item:beyond_earth:raw_desh>
+	<tag:items:forge:ores/desh>.asIIngredient(): <item:beyond_earth:raw_desh>,
+	<tag:items:forge:ores/iridium>.asIIngredient(): <item:ftbic:iridium_chunk>
 };
 
 val raw_to_crushed_map as IItemStack[IIngredient] = {
@@ -131,7 +141,8 @@ val raw_to_crushed_map as IItemStack[IIngredient] = {
 	<tag:items:forge:raw_materials/ostrum>.asIIngredient(): <item:jaopca:create_crushed_ores.ostrum>,
 	<tag:items:forge:raw_materials/cobalt>.asIIngredient(): <item:jaopca:create_crushed_ores.cobalt>,
 	<tag:items:forge:raw_materials/calorite>.asIIngredient(): <item:jaopca:create_crushed_ores.calorite>,
-	<tag:items:forge:raw_materials/desh>.asIIngredient(): <item:jaopca:create_crushed_ores.desh>
+	<tag:items:forge:raw_materials/desh>.asIIngredient(): <item:jaopca:create_crushed_ores.desh>,
+	<tag:items:forge:raw_materials/iridium>.asIIngredient(): <item:jaopca:create_crushed_ores.iridium>
 };
 
 val crushed_to_dust_map as IItemStack[IIngredient] = {
@@ -150,7 +161,8 @@ val crushed_to_dust_map as IItemStack[IIngredient] = {
 	<item:jaopca:create_crushed_ores.ostrum>: <item:jaopca:dusts.ostrum>,
 	<item:jaopca:create_crushed_ores.cobalt>: <item:jaopca:dusts.cobalt>,
 	<item:jaopca:create_crushed_ores.calorite>: <item:jaopca:dusts.calorite>,
-	<item:jaopca:create_crushed_ores.desh>: <item:jaopca:dusts.desh>
+	<item:jaopca:create_crushed_ores.desh>: <item:jaopca:dusts.desh>,
+	<tag:items:create:crushed_ores/iridium>.asIIngredient(): <item:ftbic:iridium_dust>
 };
 
 //mineral maps
