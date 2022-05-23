@@ -534,3 +534,11 @@ craftingTable.addShaped("tinkers_efln", <item:tconstruct:efln_ball>, [[<item:min
 
 //adding new recipe thats more akin to the create belt recipe.
 craftingTable.addShaped("belt_conveyor", <item:immersiveengineering:conveyor_basic>*8, [[<item:minecraft:dried_kelp>, <item:minecraft:dried_kelp>, <item:minecraft:dried_kelp>], [<item:minecraft:iron_ingot>, <item:minecraft:redstone>, <item:minecraft:iron_ingot>]]);
+
+//enchanted apple smithing recipes
+smithing.addRecipe("enchanted_heart", <item:minecraft:enchanted_golden_apple>, <item:minecraft:golden_apple>, <item:paraglider:heart_container>);
+
+smithing.remove(<item:upgradednetherite_items:enchanted_netherite_apple>);
+smithing.addRecipe("enchanted_netherite_heart", <item:upgradednetherite_items:enchanted_netherite_apple>, <item:upgradednetherite_items:netherite_apple>, <item:paraglider:heart_container>);
+
+smithing.addRecipe("enchanted_netherite_heart", <item:upgradednetherite_items:enchanted_gold_upgraded_netherite_apple>, <item:upgradednetherite_items:gold_upgraded_netherite_apple>, <item:paraglider:heart_container>);
