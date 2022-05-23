@@ -1,6 +1,6 @@
 {
   "name": "creative",
-  "disable": false,
+  "disable": true,
   "tier": -1,
   "color": "cf1ae9",
   "armorPoints": 8,
