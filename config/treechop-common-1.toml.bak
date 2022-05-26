@@ -12,8 +12,8 @@
 		canBeTrue = true
 
 	[permissions.sneakBehavior]
-		canBeNone = true
 		canBeInvertFelling = true
+		canBeNone = true
 		canBeInvertChopping = true
 
 	[permissions.treeMustHaveLeaves]
