@@ -12,19 +12,19 @@ C:.
     Apotheosis-1.18.2-5.3.5.jar
     appleskin-forge-mc1.18-2.4.0.jar
     Aquaculture-1.18.2-2.3.6.jar
-    architectury-4.4.61.jar
+    architectury-4.4.68.jar
     armorpointspp-forge-1.18.2-3.0.1.jar
-    ArmorSetBonuses_1.18_V5.jar
+    ArmorSetBonuses_1.18_V6.jar
     ars_nouveau-1.18.2-2.4.2.jar
     artifacts-1.18.2-4.0.7.jar
-    AttributeFix-Forge-1.18.2-14.0.1.jar
+    AttributeFix-Forge-1.18.2-14.0.2.jar
     AutoRegLib-1.7-53.jar
     balm-3.0.3+0.jar
     betterbiomeblend-1.18.2-1.3.5-forge.jar
     betterfpsdist-1.18.2-1.5.jar
     BetterModsButton-v3.2.2-1.18.2-Forge.jar
-    Beyond-Earth-1.18.2-6.1.jar
-    Beyond-Earth-Giselle-Addon-1.18.2-2.9.jar
+    Beyond-Earth-1.18.2-6.2.jar
+    Beyond-Earth-Giselle-Addon-1.18.2-2.10.jar
     BiomesOPlenty-1.18.2-16.0.0.109-universal.jar
     blueprint-1.18.2-5.3.2.jar
     Bookshelf-Forge-1.18.2-13.0.13.jar
@@ -46,12 +46,12 @@ C:.
     constructionwand-1.18.2-2.7.jar
     CosmeticArmorReworked-1.18.2-v2.jar
     craftingtweaks-forge-1.18.1-14.0.2.jar
-    CraftTweaker-forge-1.18.2-9.1.140.jar
+    CraftTweaker-forge-1.18.2-9.1.143.jar
     create-mc1.18.2_v0.4.1.jar
     createaddition-1.18.2-20220517a.jar
     createdeco-1.2.7-1.18.2.jar
     creeperoverhaul-1.18.2-1.3.0-forge.jar
-    Croptopia-1.18.2-FORGE-2.0.1.jar
+    Croptopia-1.18.2-FORGE-2.0.3.jar
     Cucumber-1.18.2-5.1.1.jar
     curioofundying-forge-1.18-5.3.0.0.jar
     curios-forge-1.18.2-5.0.7.0.jar
@@ -84,11 +84,11 @@ C:.
     findme-3.0.6-forge.jar
     flywheel-forge-1.18-0.6.2.jar
     fogoverrides-1.18.2-1.1.0.jar
-    FramedBlocks-5.1.1-hotfix.jar
+    FramedBlocks-5.2.0.jar
     framework-0.2.3-1.18.2.jar
     ftb-chunks-forge-1802.3.6-build.145.jar
     ftb-essentials-1802.1.7-build.42.jar
-    ftb-industrial-contraptions-1802.1.4-build.141.jar
+    ftb-industrial-contraptions-1802.1.5-build.144.jar
     ftb-library-forge-1802.3.6-build.119.jar
     ftb-quests-forge-1802.3.8-build.101.jar
     ftb-teams-forge-1802.2.6-build.51.jar
@@ -109,20 +109,19 @@ C:.
     ItemBorders-1.18.1-1.1.5.jar
     Jade-1.18.2-5.2.0.jar
     JadeAddons-1.18.2-2.0.0.jar
-    JAMD-1.7.0-build.24+mc1.18.2.jar
+    JAMD-1.7.0-build.25+mc1.18.2.jar
     JAOPCA-1.18.2-4.1.6.6.jar
     jei-1.18.2-9.7.0.195.jar
     JEITweaker-1.18.2-3.0.0.8.jar
     justenoughkeys-0.5.3-forge.jar
     konkrete_forge_1.3.3_MC_1.18-1.18.1.jar
-    Ksyxis-Forge1.17-1.1.jar
     lazydfu-1.0-1.18+.jar
     LegendaryTooltips-1.18.2-1.2.4.jar
     littlelogistics-mc1.18.2-v1.2.3.jar
     lootr-1.18.2-0.2.16.53.jar
     malum-1.18.2-1.3.6.jar
     Mantle-1.18.2-1.9.20.jar
-    materialis-1.18.2-2.5.3.jar
+    materialis-1.18.2-2.5.3.jar.disabled
     mcjtylib-1.18-6.0.13.jar
     modnametooltip-1.18.1-1.18.0.jar
     MouseTweaks-forge-mc1.18-2.21.jar
@@ -151,28 +150,28 @@ C:.
     restored_earth-1.18.2-1.4.2.jar
     rftoolsbase-1.18-3.0.7.jar
     rftoolsbuilder-1.18-4.0.10.jar
-    rftoolsdim-1.18-8.0.4.jar
+    rftoolsdim-1.18-8.0.5.jar
     rftoolspower-1.18-4.0.5.jar
     rftoolsstorage-1.18-3.0.8.jar
-    rftoolsutility-1.18-4.0.14.jar
+    rftoolsutility-1.18-4.0.15.jar
     scaffoldingpower-1.18.2-1.3.0.jar
     ScalableCatsForce-2.13.8-build-4-with-library.jar
-    selene-1.18.2-1.16.2.jar
+    selene-1.18.2-1.16.3.jar
     shutupexperimentalsettings-1.0.5.jar
     silent-lib-1.18.2-6.2.0.jar
     simple-rpc-1.18.2-3.0.1.jar
-    SimpleBackups-1.18.2-1.1.7.jar
+    SimpleBackups-1.18.2-1.1.8.jar
     simplekiln-1.18.2-0.0.1.jar
     simplemagnets-1.1.7-forge-mc1.18.jar
     smoothchunk-1.18.2-1.9.jar
     snowballsfreezemobs_1.18.2-1.6.jar
     SoL-Carrot-1.18.1-1.12.0.jar
     SoMSecondSemester1.18.2-3.1.3.jar
-    sophisticatedbackpacks-1.18.2-3.16.4.584.jar
-    sophisticatedcore-1.18.2-0.1.0.19.jar
+    sophisticatedbackpacks-1.18.2-3.17.2.588.jar
+    sophisticatedcore-1.18.2-0.2.4.26.jar
     spark-1.9.1-forge.jar
     starlight-1.0.2+forge.546ae87.jar
-    StorageDrawers-1.18.2-10.2.0.jar
+    StorageDrawers-1.18.2-10.2.1.jar
     structure_gel-1.18.2-2.3.0.jar
     StylishEffects-v3.1.0-1.18.2-Forge.jar
     supermartijn642configlib-1.0.9-mc1.18.jar
@@ -181,7 +180,7 @@ C:.
     TaxFreeLevels-1.3.1-forge-1.18.1.jar
     TConstruct-1.18.2-3.5.0.17.jar
     TerraBlender-forge-1.18.2-1.1.0.101.jar
-    The_Graveyard_1.7_(FORGE)_for_1.18.2.jar
+    The_Graveyard_1.8_(FORGE)_for_1.18.2.jar
     The_Undergarden-1.18.2-0.7.0.jar
     ToastControl-1.18.2-6.0.2.jar
     ToolBelt-1.18.2-1.18.8.jar
@@ -215,5 +214,5 @@ C:.
     
 No subfolders exist 
 
-Thu 05/26/2022 
-12:43 PM
+Sat 05/28/2022 
+08:16 PM
