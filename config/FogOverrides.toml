@@ -35,7 +35,7 @@
 	#Disable Nether Fog?
 	"Disable Nether Fog" = false
 	#Nether Fog Starting Distance
-	#Range: 0.1 ~ 10.0
+	#Range: 0.1 ~ 50.0
 	"Nether Fog Starting Distance" = 2.0
 
 [lava]
