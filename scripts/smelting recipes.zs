@@ -57,7 +57,16 @@ val dust_to_molten_map as IFluidStack[IIngredient] = {
 	<tag:items:forge:dusts/cloggrum>.asIIngredient(): <fluid:materialis:molten_cloggrum>,
 	<item:undergarden:raw_froststeel>: <fluid:materialis:molten_froststeel>,
 	<tag:items:create:crushed_ores/froststeel>.asIIngredient(): <fluid:materialis:molten_froststeel>,
-	<tag:items:forge:dusts/froststeel>.asIIngredient(): <fluid:materialis:molten_froststeel>
+	<tag:items:forge:dusts/froststeel>.asIIngredient(): <fluid:materialis:molten_froststeel>,
+	<tag:items:forge:raw_materials/ostrum>.asIIngredient(): <fluid:beyond_earth:molten_ostrum>,
+	<tag:items:create:crushed_ores/ostrum>.asIIngredient(): <fluid:beyond_earth:molten_ostrum>,
+	<tag:items:forge:dusts/ostrum>.asIIngredient(): <fluid:beyond_earth:molten_ostrum>,
+	<tag:items:forge:raw_materials/desh>.asIIngredient(): <fluid:beyond_earth:molten_desh>,
+	<tag:items:create:crushed_ores/desh>.asIIngredient(): <fluid:beyond_earth:molten_desh>,
+	<tag:items:forge:dusts/desh>.asIIngredient(): <fluid:beyond_earth:molten_desh>,
+	<tag:items:forge:raw_materials/calorite>.asIIngredient(): <fluid:beyond_earth:molten_calorite>,
+	<tag:items:create:crushed_ores/calorite>.asIIngredient(): <fluid:beyond_earth:molten_calorite>,
+	<tag:items:forge:dusts>.asIIngredient(): <fluid:beyond_earth:molten_calorite>
 };
 
 for input, output in dust_to_molten_map{
@@ -126,7 +135,16 @@ val dust_to_nugget_map as IItemStack[IIngredient] = {
 	<tag:items:forge:dusts/cloggrum>.asIIngredient(): <item:undergarden:cloggrum_nugget>,
 	<item:undergarden:raw_froststeel>: <item:undergarden:froststeel_nugget>,
 	<tag:items:create:crushed_ores/froststeel>.asIIngredient(): <item:undergarden:froststeel_nugget>,
-	<tag:items:forge:dusts/froststeel>.asIIngredient(): <item:undergarden:froststeel_nugget>
+	<tag:items:forge:dusts/froststeel>.asIIngredient(): <item:undergarden:froststeel_nugget>,
+	<tag:items:forge:raw_materials/ostrum>.asIIngredient(): <item:beyond_earth:ostrum_nugget>,
+	<tag:items:create:crushed_ores/ostrum>.asIIngredient(): <item:beyond_earth:ostrum_nugget>,
+	<tag:items:forge:dusts/ostrum>.asIIngredient(): <item:beyond_earth:ostrum_nugget>,
+	<tag:items:forge:raw_materials/desh>.asIIngredient(): <item:beyond_earth:desh_nugget>,
+	<tag:items:create:crushed_ores/desh>.asIIngredient(): <item:beyond_earth:desh_nugget>,
+	<tag:items:forge:dusts/desh>.asIIngredient(): <item:beyond_earth:desh_nugget>,
+	<tag:items:forge:raw_materials/calorite>.asIIngredient(): <item:beyond_earth:calorite_nugget>,
+	<tag:items:create:crushed_ores/calorite>.asIIngredient(): <item:beyond_earth:calorite_nugget>,
+	<tag:items:forge:dusts>.asIIngredient(): <item:beyond_earth:calorite_nugget>
 };
 
 <recipetype:immersiveengineering:arc_furnace>.removeAll();
