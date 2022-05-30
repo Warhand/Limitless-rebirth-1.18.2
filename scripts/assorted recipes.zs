@@ -505,7 +505,8 @@ craftingTable.addShapeless("ftbic_shapeless_mv_cable", <item:ftbic:mv_cable>, [<
 
 //enchanting quarry
 mods.extendedcrafting.CombinationCrafting.addRecipe("8ece23eb-e021-403f-b5cc-681d50da8416", <item:quarryplus:quarry>.withTag({Enchantments: [{lvl: 5 as short, id: "minecraft:efficiency" as string}, {lvl: 3 as short, id: "minecraft:unbreaking" as string}, {lvl: 1 as short, id: "minecraft:silk_touch" as string}]}), 100000, [
-	<item:quarryplus:quarry>.withTag({
+	<item:quarryplus:quarry>,
+	<item:minecraft:enchanted_book>.withTag({
  StoredEnchantments: [
   {
    lvl: 1 as short,
@@ -541,4 +542,4 @@ smithing.addRecipe("enchanted_heart", <item:minecraft:enchanted_golden_apple>, <
 smithing.remove(<item:upgradednetherite_items:enchanted_netherite_apple>);
 smithing.addRecipe("enchanted_netherite_heart", <item:upgradednetherite_items:enchanted_netherite_apple>, <item:upgradednetherite_items:netherite_apple>, <item:paraglider:heart_container>);
 
-smithing.addRecipe("enchanted_netherite_heart", <item:upgradednetherite_items:enchanted_gold_upgraded_netherite_apple>, <item:upgradednetherite_items:gold_upgraded_netherite_apple>, <item:paraglider:heart_container>);
+smithing.addRecipe("enchanted_golderite_heart", <item:upgradednetherite_items:enchanted_gold_upgraded_netherite_apple>, <item:upgradednetherite_items:gold_upgraded_netherite_apple>, <item:paraglider:heart_container>);
