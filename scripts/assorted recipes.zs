@@ -8,6 +8,7 @@ import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.item.ItemDefinition;
 import crafttweaker.api.recipe.MirrorAxis;
 import crafttweaker.api.recipe.SmithingRecipeManager;
+import crafttweaker.api.ingredient.transform.type.TransformReuse;
 
 //adding immersive engineering bottling recipe for create honeyed apple
 <recipetype:immersiveengineering:bottling_machine>.addJsonRecipe("bottling_honeyed_apple", {"result":{"item":"create:honeyed_apple"},"input":{"item":"minecraft:apple"},"fluid":{"tag":"forge:honey","amount":250}});

@@ -60,10 +60,14 @@
         "botania:generating_flowers/kekimurus",
         "botania:generating_flowers/gourmaryllis",
         "botania:generating_flowers/thermalily",
-        "botania:tools/terraform_rod"
+        "botania:tools/terraform_rod",
+        "botania:tools/thorn_chakram",
+        "botania:tools/open_bucket"
       ],
       "bookmarks": [],
       "history": [
+        "botania:tools/open_bucket",
+        "botania:tools/thorn_chakram",
         "botania:tools/terraform_rod",
         "botania:generating_flowers/thermalily",
         "botania:generating_flowers/gourmaryllis",
