@@ -221,7 +221,14 @@ val trash as IItemStack[] = [
 	<item:storagedrawers:gold_storage_upgrade>,
 	<item:ftbic:copper_coil>,
 	<item:tconstruct:efln_ball>,
-	<item:immersiveengineering:conveyor_basic>
+	<item:immersiveengineering:conveyor_basic>,
+	<item:botania:terrasteel_helmet>,
+	<item:botania:terrasteel_chestplate>,
+	<item:botania:terrasteel_leggings>,
+	<item:botania:terrasteel_boots>,
+	<item:botania:terra_axe>,
+	<item:botania:terra_pick>,
+	<item:botania:terra_sword>
 ];
 
 for item in trash{
