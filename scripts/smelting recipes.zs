@@ -161,3 +161,23 @@ for input, output in dust_to_nugget_map{
 }
 );
 }
+
+//metal impetus smelting recipes
+
+val node_to_nugget_map as IItemStack[IItemStack] = {
+	<item:malum:tin_node>: <item:ftbic:tin_nugget>,
+	<item:malum:iron_node>: <item:minecraft:iron_nugget>,
+	<item:malum:copper_node>: <item:immersiveengineering:nugget_copper>,
+	<item:malum:gold_node>: <item:minecraft:gold_nugget>,
+	<item:malum:lead_node>: <item:ftbic:lead_nugget>,
+	<item:malum:silver_node>: <item:immersiveengineering:nugget_silver>,
+	<item:malum:aluminum_node>: <item:immersiveengineering:nugget_aluminum>,
+	<item:malum:nickel_node>: <item:immersiveengineering:nugget_nickel>,
+	<item:malum:uranium_node>: <item:immersiveengineering:nugget_uranium>,
+	<item:malum:zinc_node>: <item:create:zinc_nugget>
+};
+
+for input, output in node_to_nugget_map{
+furnace.addRecipe("smelting_" + output.registryName.path + "_impetus", output * 3, input, 0.4, 200);
+blastFurnace.addRecipe("blasting_" + output.registryName.path + "_impetus", output * 3, input, 0.4, 100);
+}
