@@ -12,6 +12,7 @@ import crafttweaker.api.fluid.IFluidStack;
 
 //removing default dust melting recipes
 <recipetype:tconstruct:melting>.removeByRegex("tconstruct:smeltery.*melting.*metal.*dust");
+<recipetype:tconstruct:melting>.removeByRegex("beyond_earth:smeltery.melting.*.dust");
 <recipetype:immersiveengineering:arc_furnace>.removeByRegex("immersiveengineering:arfurnace.raw_*_.*");
 <recipetype:immersiveengineering:arc_furnace>.removeByRegex("immersiveengineering:arfurnace.ore.*");
 <recipetype:immersiveengineering:arc_furnace>.removeByRegex("immersiveengineering:arfurnace.dust.*");
