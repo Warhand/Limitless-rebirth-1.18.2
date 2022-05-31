@@ -84,13 +84,13 @@ val crushers_remove as IItemStack[] = [
 <recipetype:create:crushing>.removeByName("create:crushing/nether_gold_ore");
 <recipetype:integrateddynamics:squeezer>.remove(<item:minecraft:gold_nugget>);
 <recipetype:integrateddynamics:mechanical_squeezer>.remove(<item:minecraft:gold_nugget>);
-<recipetype:ftbic:macerating>.removeByRegex("jaopca:immersiveengineering.*_to_.*");
-<recipetype:ftbic:macerating>.removeByRegex("malum:create.crushing.crush_.*");
-<recipetype:ftbic:macerating>.removeByRegex("immersiveengineering:crusher/ingot_.*");
-<recipetype:ftbic:macerating>.removeByRegex("immersiveengineering:crusher/raw_block_.*");
+<recipetype:immersiveengineering:crusher>.removeByRegex("jaopca:immersiveengineering.*_to_.*");
+<recipetype:create:crushing>.removeByRegex("malum:create.crushing.crush_.*");
+<recipetype:immersiveengineering:crusher>.removeByRegex("immersiveengineering:crusher/ingot_.*");
+<recipetype:immersiveengineering:crusher>.removeByRegex("immersiveengineering:crusher/raw_block_.*");
 <recipetype:ftbic:macerating>.removeByRegex("ftbic:macerating/.*/.*_to_.*");
 <recipetype:ftbic:macerating>.removeByRegex("jaopca:ftbic.*_to_*.*");
-<recipetype:ftbic:macerating>.removeByRegex("jaopca:create.*_to..*");
+<recipetype:create:crushing>.removeByRegex("jaopca:create.*_to..*");
 <recipetype:integrateddynamics:mechanical_squeezer>.removeAll();
 <recipetype:integrateddynamics:squeezer>.removeAll();
 
