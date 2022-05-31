@@ -53,6 +53,24 @@
         "ars_nouveau:automation/allow_scroll"
       ],
       "completedManualQuests": []
+    },
+    "botania:lexicon": {
+      "viewedEntries": [
+        "botania:generating_flowers/endoflame",
+        "botania:generating_flowers/kekimurus",
+        "botania:generating_flowers/gourmaryllis",
+        "botania:generating_flowers/thermalily",
+        "botania:tools/terraform_rod"
+      ],
+      "bookmarks": [],
+      "history": [
+        "botania:tools/terraform_rod",
+        "botania:generating_flowers/thermalily",
+        "botania:generating_flowers/gourmaryllis",
+        "botania:generating_flowers/kekimurus",
+        "botania:generating_flowers/endoflame"
+      ],
+      "completedManualQuests": []
     }
   }
 }

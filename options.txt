@@ -36,8 +36,8 @@ ao:1
 prioritizeChunkUpdates:0
 biomeBlendRadius:0
 renderClouds:true
-resourcePacks:["vanilla","mod_resources","inmemory:jaopca","Supplementaries Generated Pack","quark:emote_resources","resources/Dimdungeons resource pack","resources/Limitless rebirth textures"]
-incompatibleResourcePacks:["inmemory:jaopca","quark:emote_resources"]
+resourcePacks:["vanilla","mod_resources","inmemory:jaopca","Supplementaries Generated Pack","quark:emote_resources","resources/Dimdungeons resource pack","resources/Limitless rebirth textures","file/Updated_Engineering_v1.5.1.zip","file/FullHD_Font_1.18_1.3.zip","file/Create+Guns+1.18+v4.zip","file/CopperColorFix-1.18.zip","file/Botania Floaroma.zip"]
+incompatibleResourcePacks:["inmemory:jaopca","quark:emote_resources","file/Botania Floaroma.zip"]
 lastServer:
 lang:en_us
 soundDevice:
@@ -109,9 +109,6 @@ key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_key.findme.search:key.keyboard.semicolon
-key_key.ftbchunks.map:key.keyboard.keypad.4
-key_key.ftbchunks.minimap.zoomIn:key.keyboard.equal
-key_key.ftbchunks.minimap.zoomOut:key.keyboard.minus
 key_key.craftingtweaks.rotate:key.keyboard.unknown
 key_key.craftingtweaks.rotate_counter_clockwise:key.keyboard.unknown
 key_key.craftingtweaks.balance:key.keyboard.unknown
@@ -127,6 +124,9 @@ key_key.craftingtweaks.decompressStack:key.keyboard.unknown
 key_key.craftingtweaks.decompressAll:key.keyboard.unknown
 key_key.craftingtweaks.refill_last:key.keyboard.tab
 key_key.craftingtweaks.refill_last_stack:key.keyboard.tab
+key_key.ftbchunks.map:key.keyboard.keypad.4
+key_key.ftbchunks.minimap.zoomIn:key.keyboard.equal
+key_key.ftbchunks.minimap.zoomOut:key.keyboard.minus
 key_Reload Menu | CTRL + ALT + :key.keyboard.r
 key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.c
 key_key.waila.show_recipes:key.keyboard.keypad.3
@@ -181,11 +181,11 @@ key_key.voice_chat_settings:key.keyboard.unknown
 key_key.voice_chat_group:key.keyboard.g
 key_key.voice_chat_toggle_recording:key.keyboard.unknown
 key_key.voice_chat_adjust_volumes:key.keyboard.unknown
-key_key.integrateddynamics.logic_programmer_focus_search:key.keyboard.f:ALT
-key_key.integrateddynamics.logic_programmer_open_rename:key.keyboard.r:ALT
 key_key.immersiveengineering.magnetEquip:key.keyboard.s
 key_key.immersiveengineering.railgunZoom:key.mouse.middle
 key_key.immersiveengineering.chemthrowerSwitch:key.keyboard.unknown
+key_key.integrateddynamics.logic_programmer_focus_search:key.keyboard.f:ALT
+key_key.integrateddynamics.logic_programmer_open_rename:key.keyboard.r:ALT
 key_cos.key.opencosarmorinventory:key.keyboard.unknown
 key_treechop.key.toggle_chopping:scancode.0
 key_treechop.key.toggle_felling:scancode.0
@@ -203,28 +203,17 @@ key_key.buildinggadgets.rotate_mirror:key.keyboard.a
 key_key.buildinggadgets.material_list:key.keyboard.m
 key_framedblocks.key.update_cull:key.keyboard.f9
 key_key.plonk.place:key.keyboard.p
-key_key.beyond_earth.rocket_start:key.keyboard.space
 key_key.justenoughkeys.dropstack:key.keyboard.q
 key_key.ping:key.keyboard.v
 key_ping.key.alert:key.keyboard.keypad.4
 key_ping.key.mine:key.keyboard.keypad.5
 key_ping.key.look:key.keyboard.keypad.6
 key_ping.key.goto:key.keyboard.keypad.8
+key_key.beyond_earth.rocket_start:key.keyboard.space
 key_key.ars_nouveau.open_book:key.keyboard.l
 key_key.ars_nouveau.selection_hud:key.keyboard.j
 key_key.ars_nouveau.previous_slot:key.keyboard.z
 key_key.ars_nouveau.next_slot:key.keyboard.x
-key_key.ftbquests.quests:key.keyboard.unknown
-key_key.effortlessbuilding.hud.desc:key.keyboard.keypad.add
-key_key.effortlessbuilding.replace.desc:key.keyboard.keypad.subtract
-key_key.effortlessbuilding.mode.desc:key.keyboard.left.alt
-key_key.effortlessbuilding.undo.desc:key.keyboard.z:CONTROL
-key_key.effortlessbuilding.redo.desc:key.keyboard.y:CONTROL
-key_key.effortlessbuilding.altplacement.desc:key.keyboard.left.control
-key_key.cyclic.cake:key.keyboard.x
-key_key.openManual:key.keyboard.f1
-key_key.nextDestination:key.keyboard.right.bracket
-key_key.prevDestination:key.keyboard.left.bracket
 key_gui.xaero_switch_waypoint_set:key.keyboard.unknown
 key_gui.xaero_instant_waypoint:key.keyboard.b
 key_gui.xaero_toggle_slime:key.keyboard.unknown
@@ -243,8 +232,17 @@ key_gui.xaero_toggle_entity_radar:key.keyboard.unknown
 key_gui.xaero_reverse_entity_radar:key.keyboard.unknown
 key_gui.xaero_toggle_manual_cave_mode:key.keyboard.unknown
 key_gui.xaero_minimap_settings:key.keyboard.keypad.3
-key_create.keyinfo.toolmenu:key.keyboard.unknown
-key_create.keyinfo.toolbelt:key.keyboard.left.alt
+key_key.effortlessbuilding.hud.desc:key.keyboard.keypad.add
+key_key.effortlessbuilding.replace.desc:key.keyboard.keypad.subtract
+key_key.effortlessbuilding.mode.desc:key.keyboard.left.alt
+key_key.effortlessbuilding.undo.desc:key.keyboard.z:CONTROL
+key_key.effortlessbuilding.redo.desc:key.keyboard.y:CONTROL
+key_key.effortlessbuilding.altplacement.desc:key.keyboard.left.control
+key_key.ftbquests.quests:key.keyboard.unknown
+key_key.openManual:key.keyboard.f1
+key_key.nextDestination:key.keyboard.right.bracket
+key_key.prevDestination:key.keyboard.left.bracket
+key_key.cyclic.cake:key.keyboard.x
 key_key.tconstruct.helmet_interact:key.keyboard.z
 key_key.tconstruct.leggings_interact:key.keyboard.i
 key_key.waila.config:key.keyboard.keypad.0
@@ -252,9 +250,14 @@ key_key.waila.show_overlay:key.keyboard.keypad.1
 key_key.waila.toggle_liquid:key.keyboard.keypad.2
 key_key.waila.narrate:key.keyboard.keypad.6
 key_key.waila.show_details:key.keyboard.left.shift
-key_quark.keybind.autorun:key.keyboard.unknown
-key_quark.keybind.camera_mode:key.keyboard.keypad.1
-key_quark.keybind.lock_rotation:key.keyboard.unknown
+key_create.keyinfo.toolmenu:key.keyboard.unknown
+key_create.keyinfo.toolbelt:key.keyboard.left.alt
+key_gui.xaero_open_map:key.keyboard.m
+key_gui.xaero_open_settings:key.keyboard.right.bracket
+key_gui.xaero_map_zoom_in:key.keyboard.unknown
+key_gui.xaero_map_zoom_out:key.keyboard.unknown
+key_gui.xaero_quick_confirm:key.keyboard.right.shift
+key_gui.xaero_wm_toggle_minimap_radar:key.keyboard.unknown
 key_key.worldstripper.strip_world:key.keyboard.delete
 key_key.worldstripper.dress_world:key.keyboard.insert
 key_key.worldstripper.add_block:key.keyboard.page.up
@@ -263,6 +266,14 @@ key_key.worldstripper.increase_range:key.keyboard.page.up:SHIFT
 key_key.worldstripper.decrease_range:key.keyboard.page.down:SHIFT
 key_key.worldstripper.big_increase_range:key.keyboard.page.up:ALT
 key_key.worldstripper.big_decrease_range:key.keyboard.page.down:ALT
+key_quark.keybind.back:key.mouse.4
+key_quark.keybind.lock_rotation:key.keyboard.unknown
+key_quark.keybind.change_hotbar:key.keyboard.unknown
+key_quark.keybind.transfer_insert:key.keyboard.unknown
+key_quark.keybind.transfer_extract:key.keyboard.unknown
+key_quark.keybind.shift_lock:key.keyboard.unknown
+key_quark.keybind.autorun:key.keyboard.unknown
+key_quark.keybind.camera_mode:key.keyboard.keypad.1
 key_quark.keybind.sort_player:key.keyboard.unknown
 key_quark.keybind.sort_container:key.keyboard.unknown
 key_quark.emote.no:key.keyboard.unknown
@@ -283,17 +294,6 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
-key_quark.keybind.transfer_insert:key.keyboard.unknown
-key_quark.keybind.transfer_extract:key.keyboard.unknown
-key_quark.keybind.shift_lock:key.keyboard.unknown
-key_quark.keybind.back:key.mouse.4
-key_quark.keybind.change_hotbar:key.keyboard.unknown
-key_gui.xaero_open_map:key.keyboard.m
-key_gui.xaero_open_settings:key.keyboard.right.bracket
-key_gui.xaero_map_zoom_in:key.keyboard.unknown
-key_gui.xaero_map_zoom_out:key.keyboard.unknown
-key_gui.xaero_quick_confirm:key.keyboard.right.shift
-key_gui.xaero_wm_toggle_minimap_radar:key.keyboard.unknown
 key_key.paraglider.paragliderSettings:key.keyboard.p
 key_key.cgm.reload:key.keyboard.r
 key_key.cgm.unload:key.keyboard.u
