@@ -75,6 +75,16 @@
         "botania:generating_flowers/endoflame"
       ],
       "completedManualQuests": []
+    },
+    "patchouli:engineers_manual": {
+      "viewedEntries": [
+        "patchouli:heavy/metal_press"
+      ],
+      "bookmarks": [],
+      "history": [
+        "patchouli:heavy/metal_press"
+      ],
+      "completedManualQuests": []
     }
   }
 }
