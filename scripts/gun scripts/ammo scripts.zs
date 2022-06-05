@@ -19,7 +19,8 @@ craftingTable.addShaped("empty_shell", <item:immersiveengineering:empty_shell> *
 //replacign IE casings recipe
 craftingTable.remove(<item:immersiveengineering:empty_casing>);
 
- craftingTable.addShaped("empty_casing", <item:immersiveengineering:empty_casing> * 8, [[<tag:items:forge:plates/brass>, <item:minecraft:air>, <tag:items:forge:plates/brass>], [<tag:items:forge:plates/brass>, <item:minecraft:air>, <tag:items:forge:plates/brass>], [<item:minecraft:air>, <tag:items:forge:plates/brass>, <item:minecraft:air>]]);
+craftingTable.addShaped("empty_casing_copper", <item:immersiveengineering:empty_casing> * 8, [[<tag:items:forge:plates/brass>, <item:minecraft:air>, <tag:items:forge:plates/brass>], [<tag:items:forge:plates/brass>, <item:minecraft:air>, <tag:items:forge:plates/brass>], [<item:minecraft:air>, <tag:items:forge:plates/brass>, <item:minecraft:air>]]);
+craftingTable.addShaped("empty_casing_brass", <item:immersiveengineering:empty_casing> * 6, [[<tag:items:forge:plates/copper>, <item:minecraft:air>, <tag:items:forge:plates/copper>], [<tag:items:forge:plates/copper>, <item:minecraft:air>, <tag:items:forge:plates/copper>], [<item:minecraft:air>, <tag:items:forge:plates/copper>, <item:minecraft:air>]]);
 
 
 //adding new bullet recipe that uses lead instead of iron.
