@@ -250,7 +250,17 @@ val trash as IItemStack[] = [
 	<item:botania:terrasteel_boots>,
 	<item:botania:terra_axe>,
 	<item:botania:terra_pick>,
-	<item:botania:terra_sword>
+	<item:botania:terra_sword>,
+	<item:jaopca:dusts.zinc>,
+	<item:immersiveengineering:dust_silver>,
+	<item:immersiveengineering:dust_nickel>,
+	<item:immersiveengineering:dust_aluminum>,
+	<item:immersiveengineering:dust_uranium>,
+	<item:immersiveengineering:dust_gold>,
+	<item:immersiveengineering:dust_iron>,
+	<item:immersiveengineering:dust_lead>,
+	<item:immersiveengineering:dust_copper>,
+	<item:immersiveengineering:ingot_hop_graphite>
 ];
 
 for item in trash{
