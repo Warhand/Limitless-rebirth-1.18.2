@@ -316,3 +316,49 @@ import crafttweaker.api.recipe.SmithingRecipeManager;
 "input1":{"tag":"forge:nuggets/iron"}
 }
 );
+
+<recipetype:immersiveengineering:alloy>.addJsonRecipe("ie_alloy_bronze", {
+"time":200,
+"result":{"count":3, "base_ingredient":{"item":"alloyed:bronze_ingot"}},
+"input0":{"tag":"forge:ingots/tin"},
+"input1":{"count":3, "base_ingredient":{"tag":"forge:ingots/copper"}}
+}
+);
+
+//tconstruct alloy fixes
+
+<recipetype:tconstruct:alloying>.addJsonRecipe("tinkers_alloy_bronze", {
+"type": "tconstruct:alloy",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ingots/bronze",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    },
+    {
+      "value": {
+        "tag": "forge:ingots/tin",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "forge:molten_copper",
+      "amount": 270
+    },
+    {
+      "tag": "forge:molten_tin",
+      "amount": 90
+    }
+  ],
+  "result": {
+    "fluid": "tconstruct:molten_bronze",
+    "amount": 270
+  },
+  "temperature": 700
+}
+);
