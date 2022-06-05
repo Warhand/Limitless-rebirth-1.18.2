@@ -147,16 +147,8 @@ blastFurnace.remove(<item:beyond_earth:steel_ingot>);
 //rose quartz uncrafting block
 craftingTable.addShapeless("uncrafting_rose_quartz", <item:biomesoplenty:rose_quartz_block> * 4, [<item:biomesoplenty:rose_quartz_shard>]);
 
-////indreb lead plate removal
-//craftingTable.remove(<item:indreb:lead_plate>);
-
 //beyond earth hammer durability upgrade
 <item:beyond_earth:hammer>.maxDamage = 50;
-
-////indreb hammer durability upgrade
-//craftingTable.remove(<item:indreb:hammer>);
-//<item:indreb:hammer>.maxDamage = 100;
-//craftingTable.addShaped("indreb_item_tool_hammer", <item:indreb:hammer>, [[IIngredientEmpty.getInstance(), <tag:items:forge:plates/iron>, <tag:items:forge:plates/iron>], [<tag:items:forge:rods/wooden>, <tag:items:forge:rods/wooden>, <tag:items:forge:plates/iron>], [IIngredientEmpty.getInstance(), <tag:items:forge:plates/iron>, <tag:items:forge:plates/iron>]]);
 
 //immersive engineering hammer durability upgrade and recipe change
 craftingTable.remove(<item:immersiveengineering:hammer>);
@@ -247,44 +239,6 @@ craftingTable.addShapeless("gold_to_netherite", <item:createdeco:netherite_coin>
 //craftingTable.removeByName("computercraft:wired_modem");
 //craftingTable.addShaped("computercraft_wired_modem", <item:computercraft:wired_modem>, [[<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>], [<tag:items:forge:ingots/iron>, <tag:items:forge:dusts/redstone>, <tag:items:forge:ingots/iron>], [<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>]]);
 
-//making Indreb bronze equipment use tags for crafting
-
-//val bronze_equipment as IItemStack[] = [
-//	<item:indreb:bronze_boots>,
-//	<item:indreb:bronze_leggings>,
-//	<item:indreb:bronze_chestplate>,
-//	<item:indreb:bronze_helmet>,
-//	<item:indreb:bronze_hoe>,
-//	<item:indreb:bronze_sword>,
-//	<item:indreb:bronze_axe>,
-//	<item:indreb:bronze_shovel>,
-//	<item:indreb:bronze_pickaxe>,
-//	<item:indreb:lv_transformer>
-//];
-//
-//for item in bronze_equipment{
-//	craftingTable.remove(item);
-//}
-//
-//craftingTable.addShaped("indreb_item_tool_bronze_shovel", <item:indreb:bronze_shovel>, [[<tag:items:forge:ingots/bronze>], [<tag:items:forge:rods/wooden>], [<tag:items:forge:rods/wooden>]]);
-//
-//craftingTable.addShaped("indreb_item_tool_bronze_hoe", <item:indreb:bronze_hoe>, [[<tag:items:forge:ingots/bronze>, <tag:items:forge:ingots/bronze>], [IIngredientEmpty.getInstance(), <tag:items:forge:rods/wooden>], [IIngredientEmpty.getInstance(), <tag:items:forge:rods/wooden>]]);
-//
-//craftingTable.addShaped("indreb_item_tool_bronze_axe", <item:indreb:bronze_axe>, [[<tag:items:forge:ingots/bronze>, <tag:items:forge:ingots/bronze>], [<tag:items:forge:ingots/bronze>, <tag:items:forge:rods/wooden>], [IIngredientEmpty.getInstance(), <tag:items:forge:rods/wooden>]]);
-//
-//craftingTable.addShaped("indreb_item_tool_bronze_sword", <item:indreb:bronze_sword>, [[<tag:items:forge:ingots/bronze>], [<tag:items:forge:ingots/bronze>], [<tag:items:forge:rods/wooden>]]);
-//
-//craftingTable.addShaped("indreb_item_tool_bronze_pickaxe", <item:indreb:bronze_pickaxe>, [[<tag:items:forge:ingots/bronze>, <tag:items:forge:ingots/bronze>, <tag:items:forge:ingots/bronze>], [IIngredientEmpty.getInstance(), <tag:items:forge:rods/wooden>, IIngredientEmpty.getInstance()], [IIngredientEmpty.getInstance(), <tag:items:forge:rods/wooden>, IIngredientEmpty.getInstance()]]);
-//
-//craftingTable.addShaped("indreb_item_bronze_boots", <item:indreb:bronze_boots>, [[<tag:items:forge:ingots/bronze>, IIngredientEmpty.getInstance(), <tag:items:forge:ingots/bronze>], [<tag:items:forge:ingots/bronze>, IIngredientEmpty.getInstance(), <tag:items:forge:ingots/bronze>]]);
-//
-//craftingTable.addShaped("indreb_item_bronze_leggings", <item:indreb:bronze_leggings>, [[<tag:items:forge:ingots/bronze>, <tag:items:forge:ingots/bronze>, <tag:items:forge:ingots/bronze>], [<tag:items:forge:ingots/bronze>, IIngredientEmpty.getInstance(), <tag:items:forge:ingots/bronze>], [<tag:items:forge:ingots/bronze>, IIngredientEmpty.getInstance(), <tag:items:forge:ingots/bronze>]]);
-//
-//craftingTable.addShaped("indreb_item_bronze_chestplate", <item:indreb:bronze_chestplate>, [[<tag:items:forge:ingots/bronze>, IIngredientEmpty.getInstance(), <tag:items:forge:ingots/bronze>], [<tag:items:forge:ingots/bronze>, <tag:items:forge:ingots/bronze>, <tag:items:forge:ingots/bronze>], [<tag:items:forge:ingots/bronze>, <tag:items:forge:ingots/bronze>, <tag:items:forge:ingots/bronze>]]);
-//
-//craftingTable.addShaped("indreb_item_bronze_helmet", <item:indreb:bronze_helmet>, [[<tag:items:forge:ingots/bronze>, <tag:items:forge:ingots/bronze>, <tag:items:forge:ingots/bronze>], [<tag:items:forge:ingots/bronze>, IIngredientEmpty.getInstance(), <tag:items:forge:ingots/bronze>]]);
-//
-//craftingTable.addShaped("indreb_transformer_lv_transformer", <item:indreb:lv_transformer>, [[<tag:items:minecraft:planks>, <item:indreb:copper_cable_insulated>, <tag:items:minecraft:planks>], [<tag:items:forge:plates/bronze>, <item:indreb:coil>, <tag:items:forge:plates/bronze>], [<tag:items:minecraft:planks>, <item:indreb:copper_cable_insulated>, <tag:items:minecraft:planks>]]);
 
 //tooltip lucky rabbits foot
 <item:apotheosis:lucky_foot>.addTooltip("A rare drop from rabbits.");
@@ -383,18 +337,6 @@ craftingTable.addShaped("immersiveengineering_watermill", <item:immersiveenginee
 //IE windmill
 craftingTable.addShaped("immersiveengineering_windmill", <item:immersiveengineering:windmill>, [[<item:immersiveengineering:windmill_blade>, <item:immersiveengineering:windmill_blade>, <item:immersiveengineering:windmill_blade>], [<item:immersiveengineering:windmill_blade>, <tag:items:forge:rods/iron>, <item:immersiveengineering:windmill_blade>], [<item:immersiveengineering:windmill_blade>, <item:immersiveengineering:windmill_blade>, <item:immersiveengineering:windmill_blade>]]);
 
-//building gadget recipe
-craftingTable.addShaped("buildinggadgets_gadget_building", <item:buildinggadgets:gadget_building>.withTag({state: {serializer: "buildinggadgets:dummy_serializer" as string, state: {Name: "minecraft:air" as string}, data: {}}}), [[<tag:items:forge:plates/iron>, <tag:items:forge:dusts/redstone>, <tag:items:forge:plates/iron>], [<tag:items:forge:gems/diamond>, <tag:items:forge:dusts/redstone>, <tag:items:forge:gems/diamond>], [<tag:items:forge:plates/iron>, <tag:items:forge:gems/lapis>, <tag:items:forge:plates/iron>]]);
-
-//exchanging gadgbet recipe
-craftingTable.addShaped("buildinggadgets_gadget_exchanging", <item:buildinggadgets:gadget_exchanging>.withTag({state: {serializer: "buildinggadgets:dummy_serializer" as string, state: {Name: "minecraft:air" as string}, data: {}}}), [[<tag:items:forge:plates/iron>, <tag:items:forge:dusts/redstone>, <tag:items:forge:plates/iron>], [<tag:items:forge:gems/diamond>, <tag:items:forge:gems/lapis>, <tag:items:forge:gems/diamond>], [<tag:items:forge:plates/iron>, <tag:items:forge:gems/lapis>, <tag:items:forge:plates/iron>]]);
-
-//copy paste gadget recipe
-craftingTable.addShaped("buildinggadgets_gadget_copy_paste", <item:buildinggadgets:gadget_copy_paste>, [[<tag:items:forge:plates/iron>, <tag:items:forge:dusts/redstone>, <tag:items:forge:plates/iron>], [<tag:items:forge:gems/emerald>, <tag:items:forge:dusts/redstone>, <tag:items:forge:gems/emerald>], [<tag:items:forge:plates/iron>, <tag:items:forge:gems/lapis>, <tag:items:forge:plates/iron>]]);
-
-//destruction gadget recipe
-craftingTable.addShaped("buildinggadgets_gadget_destruction", <item:buildinggadgets:gadget_destruction>, [[<tag:items:forge:plates/steel>, <tag:items:forge:dusts/redstone>, <tag:items:forge:plates/steel>], [<tag:items:forge:ender_pearls>, <tag:items:forge:dusts/redstone>, <tag:items:forge:ender_pearls>], [<tag:items:forge:plates/steel>, <tag:items:forge:gems/lapis>, <tag:items:forge:plates/steel>]]);
-
 //immersive engineering wire connectors
 
 craftingTable.addShaped("immersiveengineering_crafting_connector_lv", <item:immersiveengineering:connector_lv> * 4, [[IIngredientEmpty.getInstance(), <tag:items:forge:ingots/copper>, IIngredientEmpty.getInstance()], [<item:minecraft:terracotta>, <tag:items:forge:ingots/copper>, <item:minecraft:terracotta>], [<item:minecraft:terracotta>, <tag:items:forge:ingots/copper>, <item:minecraft:terracotta>]]);
@@ -452,45 +394,6 @@ craftingTable.addShaped("storagedrawers_tier_one_storage_upgrade", <item:storage
 craftingTable.addShaped("storagedrawers_tier_two_storage_upgrade", <item:storagedrawers:iron_storage_upgrade>, [[<tag:items:forge:plates/gold>, <tag:items:forge:rods/wooden>, <tag:items:forge:plates/gold>], [<tag:items:forge:rods/wooden>, <item:storagedrawers:obsidian_storage_upgrade>, <tag:items:forge:rods/wooden>], [<tag:items:forge:plates/gold>, <tag:items:forge:rods/wooden>, <tag:items:forge:plates/gold>]]);
 
 craftingTable.addShaped("storagedrawers_tier_three_storage_upgrade", <item:storagedrawers:gold_storage_upgrade>, [[<tag:items:forge:gems/diamond>, <tag:items:forge:rods/wooden>, <tag:items:forge:gems/diamond>], [<tag:items:forge:rods/wooden>, <item:storagedrawers:iron_storage_upgrade>, <tag:items:forge:rods/wooden>], [<tag:items:forge:gems/diamond>, <tag:items:forge:rods/wooden>, <tag:items:forge:gems/diamond>]]);
-
-
-// pipez scripts
-
-////pipez item pipe
-//craftingTable.remove(<item:pipez:item_pipe>);
-//craftingTable.addShaped("pipez_item_pipe", <item:pipez:item_pipe> * 8, [[<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/electrum>, <tag:items:forge:ingots/iron>], [<tag:items:forge:ingots/electrum>, <item:minecraft:hopper>, <tag:items:forge:ingots/electrum>], [<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/electrum>, <tag:items:forge:ingots/iron>]]);
-//
-////pipez fluid pipe
-//craftingTable.remove(<item:pipez:fluid_pipe>);
-//craftingTable.addShaped("pipez_fluid_pipe", <item:pipez:fluid_pipe> * 8, [[<tag:items:forge:ingots/iron>, <item:minecraft:diamond>, <tag:items:forge:ingots/iron>], [<item:minecraft:diamond>, <item:minecraft:bucket>, <item:minecraft:diamond>], [<tag:items:forge:ingots/iron>, <item:minecraft:diamond>, <tag:items:forge:ingots/iron>]]);
-//
-////pipez energy pipe
-//craftingTable.remove(<item:pipez:energy_pipe>);
-//craftingTable.addShaped("pipez_energy_pipe", <item:pipez:energy_pipe> * 8, [[<tag:items:forge:ingots/iron>, <item:extendedcrafting:redstone_ingot>, <tag:items:forge:ingots/iron>], [<item:extendedcrafting:redstone_ingot>, <item:minecraft:redstone_block>, <item:extendedcrafting:redstone_ingot>], [<tag:items:forge:ingots/iron>, <item:extendedcrafting:redstone_ingot>, <tag:items:forge:ingots/iron>]]);
-//
-////pipez universal pipe
-//craftingTable.remove(<item:pipez:universal_pipe>);
-//craftingTable.addShapedMirrored("pipez_universal_pipe1", <constant:minecraft:mirroraxis:all>, <item:pipez:universal_pipe> * 6, [[<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>], [<item:pipez:fluid_pipe>, <item:pipez:item_pipe>, <item:pipez:energy_pipe>], [<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>]]);
-//
-//craftingTable.addShapedMirrored("pipez_universal_pipe2", <constant:minecraft:mirroraxis:all>, <item:pipez:universal_pipe> * 6, [[<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>], [<item:pipez:energy_pipe>, <item:pipez:fluid_pipe>, <item:pipez:item_pipe>], [<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>]]);
-//
-//craftingTable.addShapedMirrored("pipez_universal_pipe3", <constant:minecraft:mirroraxis:all>, <item:pipez:universal_pipe> * 6, [[<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>], [<item:pipez:item_pipe>, <item:pipez:energy_pipe>, <item:pipez:fluid_pipe>], [<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>]]);
-//
-////pipez basic pipe upgrade
-//craftingTable.remove(<item:pipez:basic_upgrade>);
-//craftingTable.addShaped("pipez_basic_upgrade", <item:pipez:basic_upgrade>, [[<tag:items:forge:plates/iron>, <tag:items:forge:dusts/redstone>, <tag:items:forge:plates/iron>], [<tag:items:forge:dusts/redstone>, <tag:items:forge:storage_blocks/redstone>, <tag:items:forge:dusts/redstone>], [<tag:items:forge:plates/iron>, <tag:items:forge:dusts/redstone>, <tag:items:forge:plates/iron>]]);
-//
-////pipez improved pipe upgrade
-//craftingTable.remove(<item:pipez:improved_upgrade>);
-//craftingTable.addShaped("pipez_improved_upgrade", <item:pipez:improved_upgrade>, [[<tag:items:forge:plates/gold>, <tag:items:forge:dusts/redstone>, <tag:items:forge:plates/gold>], [<tag:items:forge:dusts/redstone>, <item:pipez:basic_upgrade>, <tag:items:forge:dusts/redstone>], [<tag:items:forge:plates/gold>, <tag:items:forge:dusts/redstone>, <tag:items:forge:plates/gold>]]);
-//
-////pipez advanced pipe upgrade
-//craftingTable.remove(<item:pipez:advanced_upgrade>);
-//craftingTable.addShaped("pipez_advanced_upgrade", <item:pipez:advanced_upgrade>, [[<tag:items:forge:gems/diamond>, <item:immersiveengineering:wirecoil_redstone>, <tag:items:forge:gems/diamond>], [<item:immersiveengineering:wirecoil_redstone>, <item:pipez:improved_upgrade>, <item:immersiveengineering:wirecoil_redstone>], [<tag:items:forge:gems/diamond>, <item:immersiveengineering:wirecoil_redstone>, <tag:items:forge:gems/diamond>]]);
-//
-////pipez ultimate pipe upgrade
-//craftingTable.remove(<item:pipez:ultimate_upgrade>);
-//craftingTable.addShaped("pipez_ultimate_upgrade", <item:pipez:ultimate_upgrade>, [[<tag:items:forge:plates/netherite>, <item:immersiveengineering:rs_engineering>, <tag:items:forge:plates/netherite>], [<item:immersiveengineering:rs_engineering>, <item:pipez:advanced_upgrade>, <item:immersiveengineering:rs_engineering>], [<tag:items:forge:plates/netherite>, <item:immersiveengineering:rs_engineering>, <tag:items:forge:plates/netherite>]]);
 
 //FTB IC adding tags to recipes
 craftingTable.addShaped("ftbic_shaped_copper_coil", <item:ftbic:copper_coil>, [[<tag:items:forge:wires/copper>, <tag:items:forge:wires/copper>, <tag:items:forge:wires/copper>], [<tag:items:forge:wires/copper>, <tag:items:forge:rods/iron>, <tag:items:forge:wires/copper>], [<tag:items:forge:wires/copper>, <tag:items:forge:wires/copper>, <tag:items:forge:wires/copper>]]);
