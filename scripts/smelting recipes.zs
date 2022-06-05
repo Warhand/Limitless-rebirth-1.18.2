@@ -146,7 +146,7 @@ val dust_to_nugget_map as IItemStack[IIngredient] = {
 	<tag:items:forge:dusts/desh>.asIIngredient(): <item:beyond_earth:desh_nugget>,
 	<tag:items:forge:raw_materials/calorite>.asIIngredient(): <item:beyond_earth:calorite_nugget>,
 	<tag:items:create:crushed_ores/calorite>.asIIngredient(): <item:beyond_earth:calorite_nugget>,
-	<tag:items:forge:dusts>.asIIngredient(): <item:beyond_earth:calorite_nugget>
+	<tag:items:forge:dusts/calorite>.asIIngredient(): <item:beyond_earth:calorite_nugget>
 };
 
 for input, output in dust_to_nugget_map{
