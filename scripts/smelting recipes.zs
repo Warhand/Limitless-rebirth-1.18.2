@@ -152,7 +152,7 @@ val dust_to_nugget_map as IItemStack[IIngredient] = {
 
 for input, output in dust_to_nugget_map{
 <recipetype:immersiveengineering:arc_furnace>.addJsonRecipe("custom_arc_furnace_dust_" + input.items[0].registryName.path + "_to_" + output.registryName.path, {
-"results":[{"count":15, "base_ingredient":{"item": output.registryName}}],
+"results":[{"count":16, "base_ingredient":{"item": output.registryName}}],
 "additives":[],
 "input":input,
 "slag":{"tag":"forge:slag"},
