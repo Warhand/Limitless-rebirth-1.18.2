@@ -177,7 +177,59 @@ val node_to_nugget_map as IItemStack[IItemStack] = {
 	<item:malum:zinc_node>: <item:create:zinc_nugget>
 };
 
+val node_to_molten_map as IFluidStack[IItemStack] = {
+	<item:malum:tin_node>: <fluid:tconstruct:molten_tin>,
+	<item:malum:iron_node>: <fluid:tconstruct:molten_iron>,
+	<item:malum:copper_node>: <fluid:tconstruct:molten_copper>,
+	<item:malum:gold_node>: <fluid:tconstruct:molten_gold>,
+	<item:malum:lead_node>: <fluid:tconstruct:molten_lead>,
+	<item:malum:silver_node>: <fluid:tconstruct:molten_silver>,
+	<item:malum:aluminum_node>: <fluid:tconstruct:molten_aluminum>,
+	<item:malum:nickel_node>: <fluid:tconstruct:molten_nickel>,
+	<item:malum:uranium_node>: <fluid:tconstruct:molten_uranium>,
+	<item:malum:zinc_node>: <fluid:tconstruct:molten_zinc>
+};
+
 for input, output in node_to_nugget_map{
-furnace.addRecipe("smelting_" + output.registryName.path + "_impetus", output * 3, input, 0.4, 200);
-blastFurnace.addRecipe("blasting_" + output.registryName.path + "_impetus", output * 3, input, 0.4, 100);
+furnace.addRecipe("smelting_" + output.registryName.path + "_impetus", output * 3, input, 0.25, 200);
+blastFurnace.addRecipe("blasting_" + output.registryName.path + "_impetus", output * 3, input, 0.25, 100);
+}
+
+for input, output in node_to_molten_map{
+<recipetype:tconstruct:melting>.addJsonRecipe("custom_melting_" + input.items[0].registryName.path + "_to_" + output.registryName.path, {
+  "ingredient": input,
+  "result": {
+    "fluid": output.registryName,
+    "amount": 40
+  },
+  "temperature": 700,
+  "time": 43
+});
+}
+
+for input, output in node_to_nugget_map{
+<recipetype:immersiveengineering:arc_furnace>.addJsonRecipe("custom_arc_furnace_dust_" + input.items[0].registryName.path + "_to_" + output.registryName.path, {
+"results":[{"count":5, "base_ingredient":{"item": output.registryName}}],
+"additives":[],
+"input":input,
+"slag":{"tag":"forge:slag"},
+"time":100,
+"energy":51200
+}
+);
+}
+
+for input, output in node_to_molten_map{
+<recipetype:create:mixing>.addJsonRecipe("custom_mixing_dust_" + input.items[0].registryName.path + "_to_" + output.registryName.path, {
+  "ingredients": [
+    input
+  ],
+  "results": [
+    {
+      "fluid": output.registryName,
+      "amount": 60
+    }
+  ],
+  "heatRequirement": "superheated"
+});
 }
