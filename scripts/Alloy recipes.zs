@@ -236,6 +236,27 @@ import crafttweaker.api.recipe.SmithingRecipeManager;
 }
 );
 
+<recipetype:create:mixing>.addJsonRecipe("create_mixing_steel", {
+  "ingredients": [
+    {
+      "tag": "forge:ingots/iron",
+      "count": 1
+    },
+      {
+        "item": "minecraft:coal"
+      }
+  ],
+  "results": [
+    {
+      "item": "immersiveengineering:ingot_steel",
+      "count": 1
+    }
+  ],
+  "processingTime": 200,
+  "heatRequirement": "heated"
+}
+);
+
 <recipetype:create:mixing>.addJsonRecipe("create_mixing_ender_ingot", {
 "ingredients": [
     {
