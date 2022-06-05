@@ -417,6 +417,15 @@ val utter_eradication as IItemStack[] = [
 	<item:ftbic:gold_gear>,
 	<item:ftbic:copper_gear>,
 	<item:jaopca:storage_blocks.cast_iron>
+	<item:immersiveengineering:armor_steel_feet>,
+	<item:immersiveengineering:armor_steel_legs>,
+	<item:immersiveengineering:armor_steel_chest>,
+	<item:immersiveengineering:armor_steel_head>,
+	<item:immersiveengineering:sword_steel>,
+	<item:immersiveengineering:axe_steel>,
+	<item:immersiveengineering:shovel_steel>,
+	<item:immersiveengineering:pickaxe_steel>,
+	<item:immersiveengineering:hoe_steel>,
 ];
 
 for item in utter_eradication{

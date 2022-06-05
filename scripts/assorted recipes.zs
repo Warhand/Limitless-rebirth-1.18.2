@@ -447,3 +447,32 @@ smithing.addRecipe("enchanted_netherite_heart", <item:upgradednetherite_items:en
 
 smithing.addRecipe("enchanted_golderite_heart", <item:upgradednetherite_items:enchanted_gold_upgraded_netherite_apple>, <item:upgradednetherite_items:gold_upgraded_netherite_apple>, <item:paraglider:heart_container>);
 
+//steel equipment recipe, replacing IE equipment with C:A equipment
+
+craftingTable.addShaped("armor_steel_feet", <item:alloyed:steel_boots>, [[<tag:items:forge:plates/steel>, IIngredientEmpty.getInstance(), <tag:items:forge:plates/steel>], [<tag:items:forge:plates/steel>, IIngredientEmpty.getInstance(), <tag:items:forge:plates/steel>]]);
+
+craftingTable.addShaped("armor_steel_legs", <item:alloyed:steel_leggings>, [[<tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>], [<tag:items:forge:plates/steel>, IIngredientEmpty.getInstance(), <tag:items:forge:plates/steel>], [<tag:items:forge:plates/steel>, IIngredientEmpty.getInstance(), <tag:items:forge:plates/steel>]]);
+
+craftingTable.addShaped("armor_steel_chest", <item:alloyed:steel_chestplate>, [[<tag:items:forge:plates/steel>, IIngredientEmpty.getInstance(), <tag:items:forge:plates/steel>], [<tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>], [<tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>]]);
+
+craftingTable.addShaped("armor_steel_head", <item:alloyed:steel_helmet>, [[<tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>], [<tag:items:forge:plates/steel>, IIngredientEmpty.getInstance(), <tag:items:forge:plates/steel>]]);
+
+
+craftingTable.addShaped("pickaxe_steel", <item:alloyed:steel_pickaxe>, [[<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>], [IIngredientEmpty.getInstance(), <tag:items:forge:rods/treated_wood>, IIngredientEmpty.getInstance()], [IIngredientEmpty.getInstance(), <tag:items:forge:rods/treated_wood>, IIngredientEmpty.getInstance()]]);
+
+craftingTable.addShaped("shovel_steel", <item:alloyed:steel_shovel>, [[<tag:items:forge:ingots/steel>], [<tag:items:forge:rods/treated_wood>], [<tag:items:forge:rods/treated_wood>]]);
+
+craftingTable.addShaped("axe_steel", <item:alloyed:steel_axe>, [[<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>], [<tag:items:forge:ingots/steel>, <tag:items:forge:rods/treated_wood>], [IIngredientEmpty.getInstance(), <tag:items:forge:rods/treated_wood>]]);
+
+craftingTable.addShaped("hoe_steel", <item:alloyed:steel_hoe>, [[<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>], [IIngredientEmpty.getInstance(), <tag:items:forge:rods/treated_wood>], [IIngredientEmpty.getInstance(), <tag:items:forge:rods/treated_wood>]]);
+
+craftingTable.addShaped("sword_steel", <item:alloyed:steel_sword>, [[<tag:items:forge:ingots/steel>], [<tag:items:forge:ingots/steel>], [<tag:items:forge:rods/treated_wood>]]);
+
+
+craftingTable.addShaped("fishing_rod_steel", <item:alloyed:steel_fishing_rod>, [[IIngredientEmpty.getInstance(), IIngredientEmpty.getInstance(), <tag:items:forge:ingots/steel>], [IIngredientEmpty.getInstance(), <tag:items:forge:ingots/steel>, <tag:items:forge:string>], [<tag:items:forge:rods/wooden>, IIngredientEmpty.getInstance(), <tag:items:forge:string>]]);
+
+craftingTable.addShaped("shears_steel", <item:alloyed:steel_shears>, [[IIngredientEmpty.getInstance(), <tag:items:forge:ingots/steel>], [<tag:items:forge:ingots/steel>, IIngredientEmpty.getInstance()]]);
+
+//painting palette
+
+craftingTable.addShapeless("painting_palette", <item:xercapaint:item_palette>.withTag({basic: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}), [<tag:items:minecraft:wooden_slabs>, <tag:items:forge:dyes/black>, <tag:items:forge:dyes/purple>, <tag:items:forge:dyes/orange>, <tag:items:forge:dyes/green>, <tag:items:forge:dyes/white>, <tag:items:forge:dyes/yellow>, <tag:items:forge:dyes/blue>, <tag:items:forge:dyes/red>]);
