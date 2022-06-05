@@ -506,8 +506,20 @@ val utter_eradication as IItemStack[] = [
 ];
 
 for item in utter_eradication{
-	JEI.hideIngredient(item);
 	recipes.remove(item);
+	craftingTable.remove(item);
+	JEI.hideIngredient(item);
+	<recipetype:tconstruct:casting_table>.remove(item);
+	<recipetype:tconstruct:molding_table>.remove(item);
+	<recipetype:immersiveengineering:metal_press>.remove(item);
+	<recipetype:immersiveengineering:arc_furnace>.remove(item);
+	<recipetype:beyond_earth_giselle_addon:rolling>.remove(item);
+	<recipetype:beyond_earth_giselle_addon:extruding>.remove(item);
+	<recipetype:beyond_earth:compressing>.remove(item);
+	<recipetype:ftbic:rolling>.remove(item);
+	<recipetype:create:pressing>.remove(item);
+	<recipetype:create:splashing>.remove(item);
+	<recipetype:immersiveengineering:alloy>.remove(item);
 }
 
 
