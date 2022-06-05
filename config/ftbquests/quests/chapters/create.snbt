@@ -146,7 +146,7 @@
 		{
 			title: "Infinite rotational power!"
 			x: 4.0d
-			y: -6.0d
+			y: -4.0d
 			shape: "gear"
 			hide_dependency_lines: true
 			dependencies: [
@@ -169,34 +169,6 @@
 				id: "17A11CA4F4FEB077"
 				type: "item"
 				item: "create:creative_motor"
-			}]
-		}
-		{
-			title: "As deep as the ocean, smaller than a bathtub"
-			x: 4.0d
-			y: -4.0d
-			shape: "gear"
-			hide_dependency_lines: true
-			dependencies: [
-				"6473B535FD74CE74"
-				"533014E80E824A7A"
-				"6CF437F8B13B075A"
-				"54B5BF2FC2E52A17"
-				"20AB03F9913B2F59"
-				"4B27C9BD7515CC0A"
-				"08FCDF46E01C58E4"
-				"2DA13268629253D4"
-				"1AF72FD4FD59777A"
-				"4EAE79DB5F1DCF72"
-				"5F069BB770F4A258"
-			]
-			hide: true
-			optional: true
-			id: "39AFA2EB617BFEDF"
-			tasks: [{
-				id: "1982BB56F0C617C5"
-				type: "item"
-				item: "create:creative_fluid_tank"
 			}]
 		}
 		{
@@ -224,34 +196,6 @@
 				id: "306C8909183D57B7"
 				type: "item"
 				item: "create:creative_blaze_cake"
-			}]
-		}
-		{
-			title: "Basically the creative vending upgrade but by a different name"
-			x: 2.0d
-			y: -6.0d
-			shape: "gear"
-			hide_dependency_lines: true
-			dependencies: [
-				"54B5BF2FC2E52A17"
-				"533014E80E824A7A"
-				"6473B535FD74CE74"
-				"6CF437F8B13B075A"
-				"20AB03F9913B2F59"
-				"4B27C9BD7515CC0A"
-				"08FCDF46E01C58E4"
-				"2DA13268629253D4"
-				"1AF72FD4FD59777A"
-				"4EAE79DB5F1DCF72"
-				"5F069BB770F4A258"
-			]
-			hide: true
-			optional: true
-			id: "3D1634EB510DC65A"
-			tasks: [{
-				id: "0A04FEC4D06E0E5B"
-				type: "item"
-				item: "create:creative_crate"
 			}]
 		}
 		{
