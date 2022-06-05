@@ -437,7 +437,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe("8ece23eb-e021-403f-b5cc-681
 craftingTable.addShaped("tinkers_efln", <item:tconstruct:efln_ball>, [[<item:minecraft:blaze_powder>, <tag:items:forge:dusts/redstone>, <item:minecraft:blaze_powder>], [<item:minecraft:blaze_powder>, <item:minecraft:fire_charge>, <item:minecraft:blaze_powder>], [<tag:items:forge:dusts/redstone>, <item:minecraft:blaze_powder>, <tag:items:forge:dusts/redstone>]]);
 
 //adding new recipe thats more akin to the create belt recipe.
-craftingTable.addShaped("belt_conveyor", <item:immersiveengineering:conveyor_basic>*8, [[<item:minecraft:dried_kelp>, <item:minecraft:dried_kelp>, <item:minecraft:dried_kelp>], [<item:minecraft:iron_ingot>, <item:minecraft:redstone>, <item:minecraft:iron_ingot>]]);
+craftingTable.addShaped("belt_conveyor", <item:immersiveengineering:conveyor_basic>*8, [[<tag:items:forge:plates/copper>, <tag:items:forge:plates/copper>, <tag:items:forge:plates/copper>], [<item:minecraft:iron_ingot>, <item:minecraft:redstone>, <item:minecraft:iron_ingot>]]);
 
 //enchanted apple smithing recipes
 smithing.addRecipe("enchanted_heart", <item:minecraft:enchanted_golden_apple>, <item:minecraft:golden_apple>, <item:paraglider:heart_container>);
