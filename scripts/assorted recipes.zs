@@ -446,3 +446,4 @@ smithing.remove(<item:upgradednetherite_items:enchanted_netherite_apple>);
 smithing.addRecipe("enchanted_netherite_heart", <item:upgradednetherite_items:enchanted_netherite_apple>, <item:upgradednetherite_items:netherite_apple>, <item:paraglider:heart_container>);
 
 smithing.addRecipe("enchanted_golderite_heart", <item:upgradednetherite_items:enchanted_gold_upgraded_netherite_apple>, <item:upgradednetherite_items:gold_upgraded_netherite_apple>, <item:paraglider:heart_container>);
+
