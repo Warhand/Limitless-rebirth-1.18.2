@@ -600,10 +600,7 @@
 			y: -8.0d
 			shape: "gear"
 			subtitle: "\"Please go outside now\""
-			description: [
-				"You did it, you crafted every creative item, please go touch grass now."
-				"ass"
-			]
+			description: ["You did it, you crafted every creative item, please go touch grass now."]
 			hide_dependency_lines: true
 			dependencies: [
 				"4E16551FDE63A3DD"
@@ -617,11 +614,6 @@
 			optional: true
 			id: "5FEF0053081E8071"
 			tasks: [
-				{
-					id: "61D751E42B325D92"
-					type: "item"
-					item: "create:creative_fluid_tank"
-				}
 				{
 					id: "5CB96BD10DF4151A"
 					type: "item"
@@ -648,26 +640,13 @@
 					item: "storagedrawers:creative_storage_upgrade"
 				}
 				{
-					id: "04E9D738A9327114"
-					type: "item"
-					item: "storagedrawers:creative_vending_upgrade"
-				}
-				{
 					id: "200116F1CC905B62"
 					type: "item"
 					item: "botania:creative_pool"
 				}
 				{
-					id: "43FC842DD3E73E9F"
+					id: "61D7CC0DE0724E93"
 					type: "item"
-					item: {
-						id: "botania:mana_tablet"
-						Count: 1b
-						tag: {
-							mana: 500000
-							creative: 1b
-						}
-					}
 					item: "ftbic:creative_battery"
 				}
 			]
