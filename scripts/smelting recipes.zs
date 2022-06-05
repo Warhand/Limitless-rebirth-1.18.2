@@ -169,7 +169,7 @@ val node_to_nugget_map as IItemStack[IItemStack] = {
 	<item:malum:iron_node>: <item:minecraft:iron_nugget>,
 	<item:malum:copper_node>: <item:create:copper_nugget>,
 	<item:malum:gold_node>: <item:minecraft:gold_nugget>,
-	<item:malum:lead_node>: <item:ftbic:lead_nugget>,
+	<item:malum:lead_node>: <item:immersiveengineering:nugget_lead>,
 	<item:malum:silver_node>: <item:immersiveengineering:nugget_silver>,
 	<item:malum:aluminum_node>: <item:immersiveengineering:nugget_aluminum>,
 	<item:malum:nickel_node>: <item:immersiveengineering:nugget_nickel>,
