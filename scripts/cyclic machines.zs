@@ -199,3 +199,6 @@ craftingTable.addShaped("cyclic_soundproofing", <item:cyclic:soundproofing> * 4,
 
 //cyclic pharros beacon
 craftingTable.addShaped("cyclic_beacon", <item:cyclic:beacon>, [[<item:extendedcrafting:frame>, <item:extendedcrafting:frame>, <item:extendedcrafting:frame>], [<item:extendedcrafting:frame>, <item:extendedcrafting:ender_star>, <item:extendedcrafting:frame>], [<item:extendedcrafting:ultimate_catalyst>, <tag:items:forge:storage_blocks/emerald>, <item:extendedcrafting:ultimate_catalyst>]]);
+
+//cyclic text projector
+craftingTable.addShaped("cyclic_screen", <item:cyclic:screen>, [[<tag:items:forge:nuggets/copper>, <item:minecraft:anvil>, <tag:items:forge:nuggets/copper>], [<tag:items:forge:dyes/red>, <tag:items:forge:dyes/green>, <tag:items:forge:dyes/blue>], [<item:minecraft:iron_bars>, <item:minecraft:iron_bars>, <item:minecraft:iron_bars>]]);
