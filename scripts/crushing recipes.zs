@@ -81,19 +81,6 @@ val crushers_remove as IItemStack[] = [
 	<item:ftbic:lead_dust>
 ];
 
-<recipetype:create:crushing>.removeByName("create:crushing/nether_gold_ore");
-<recipetype:integrateddynamics:squeezer>.remove(<item:minecraft:gold_nugget>);
-<recipetype:integrateddynamics:mechanical_squeezer>.remove(<item:minecraft:gold_nugget>);
-<recipetype:immersiveengineering:crusher>.removeByRegex("jaopca:immersiveengineering.*_to_.*");
-<recipetype:create:crushing>.removeByRegex("malum:create.crushing.crush_.*");
-<recipetype:immersiveengineering:crusher>.removeByRegex("immersiveengineering:crusher/ingot_.*");
-<recipetype:immersiveengineering:crusher>.removeByRegex("immersiveengineering:crusher/raw_block_.*");
-<recipetype:ftbic:macerating>.removeByRegex("ftbic:macerating/.*/.*_to_.*");
-<recipetype:ftbic:macerating>.removeByRegex("jaopca:ftbic.*_to_*.*");
-<recipetype:create:crushing>.removeByRegex("jaopca:create.*_to..*");
-<recipetype:integrateddynamics:mechanical_squeezer>.removeAll();
-<recipetype:integrateddynamics:squeezer>.removeAll();
-
 for item in crushers_remove{
 	<recipetype:integrateddynamics:mechanical_squeezer>.remove(item);
 	<recipetype:integrateddynamics:squeezer>.remove(item);
@@ -102,6 +89,9 @@ for item in crushers_remove{
 	<recipetype:ars_nouveau:crush>.remove(item);
 	<recipetype:ftbic:macerating>.remove(item);
 }
+
+<recipetype:integrateddynamics:squeezer>.remove(<item:minecraft:gold_nugget>);
+<recipetype:integrateddynamics:mechanical_squeezer>.remove(<item:minecraft:gold_nugget>);
 
 //Ore processing maps
 
