@@ -13,11 +13,12 @@ import crafttweaker.api.fluid.IFluidStack;
 //removing default dust melting recipes
 <recipetype:tconstruct:melting>.removeByRegex("tconstruct:smeltery.*melting.*metal.*dust");
 <recipetype:tconstruct:melting>.removeByRegex("beyond_earth:smeltery.melting.*.dust");
-<recipetype:immersiveengineering:arc_furnace>.removeByRegex("immersiveengineering:arfurnace.raw_*_.*");
-<recipetype:immersiveengineering:arc_furnace>.removeByRegex("immersiveengineering:arfurnace.ore.*");
-<recipetype:immersiveengineering:arc_furnace>.removeByRegex("immersiveengineering:arfurnace.dust.*");
+<recipetype:immersiveengineering:arc_furnace>.removeByRegex("immersiveengineering:arcfurnace.raw_*_.*");
+<recipetype:immersiveengineering:arc_furnace>.removeByRegex("immersiveengineering:arcfurnace.ore.*");
+<recipetype:immersiveengineering:arc_furnace>.removeByRegex("immersiveengineering:arcfurnace.dust.*");
 <recipetype:immersiveengineering:arc_furnace>.removeByRegex("jaopca:immersiveengineering.*_to_*..*");
 <recipetype:immersiveengineering:arc_furnace>.removeByName("immersiveengineering:arcfurnace/netherite_scrap");
+recipes.removeByRegex("malum:.*_from_node_.*");
 
 val dust_to_molten_map as IFluidStack[IIngredient] = {
 	<tag:items:forge:raw_materials/iron>.asIIngredient(): <fluid:tconstruct:molten_iron>,
@@ -147,8 +148,6 @@ val dust_to_nugget_map as IItemStack[IIngredient] = {
 	<tag:items:create:crushed_ores/calorite>.asIIngredient(): <item:beyond_earth:calorite_nugget>,
 	<tag:items:forge:dusts>.asIIngredient(): <item:beyond_earth:calorite_nugget>
 };
-
-<recipetype:immersiveengineering:arc_furnace>.removeAll();
 
 for input, output in dust_to_nugget_map{
 <recipetype:immersiveengineering:arc_furnace>.addJsonRecipe("custom_arc_furnace_dust_" + input.items[0].registryName.path + "_to_" + output.registryName.path, {
