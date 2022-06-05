@@ -168,30 +168,6 @@ craftingTable.addShaped("tree_scythe", <item:cyclic:scythe_leaves>, [[<tag:items
 craftingTable.remove(<item:cyclic:scythe_brush>);
 craftingTable.addShaped("brush_scythe", <item:cyclic:scythe_brush>, [[<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>], [IIngredientEmpty.getInstance(), <item:minecraft:stick>, <tag:items:forge:ingots/iron>], [<item:minecraft:stick>, IIngredientEmpty.getInstance(), IIngredientEmpty.getInstance()]]);
 
-//cyclic lapis apple
-craftingTable.remove(<item:cyclic:apple_lapis>);
-craftingTable.addShaped("apple_lapis", <item:cyclic:apple_lapis>, [[<tag:items:forge:storage_blocks/lapis>, <tag:items:forge:storage_blocks/lapis>, <tag:items:forge:storage_blocks/lapis>], [<tag:items:forge:storage_blocks/lapis>, <item:create:honeyed_apple>, <tag:items:forge:storage_blocks/lapis>], [<tag:items:forge:storage_blocks/lapis>, <tag:items:forge:storage_blocks/lapis>, <tag:items:forge:storage_blocks/lapis>]]);
-
-//cyclic bone apple
-craftingTable.remove(<item:cyclic:apple_bone>);
-craftingTable.addShaped("apple_bone", <item:cyclic:apple_bone>, [[<item:minecraft:bone_block>, <item:minecraft:bone_block>, <item:minecraft:bone_block>], [<item:minecraft:bone_block>, <item:create:honeyed_apple>, <item:minecraft:bone_block>], [<item:minecraft:bone_block>, <item:minecraft:bone_block>, <item:minecraft:bone_block>]]);
-
-//cyclic ender apple
-craftingTable.remove(<item:cyclic:apple_ender>);
-craftingTable.addShaped("apple_ender", <item:cyclic:apple_ender>, [[<item:minecraft:ender_eye>, <item:minecraft:ender_eye>, <item:minecraft:ender_eye>], [<item:minecraft:ender_eye>, <item:create:honeyed_apple>, <item:minecraft:ender_eye>], [<item:minecraft:ender_eye>, <item:minecraft:ender_eye>, <item:minecraft:ender_eye>]]);
-
-//cyclic iron apple
-craftingTable.remove(<item:cyclic:apple_iron>);
-craftingTable.addShaped("apple_iron", <item:cyclic:apple_iron>, [[<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>], [<item:minecraft:iron_ingot>, <item:create:honeyed_apple>, <item:minecraft:iron_ingot>], [<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>]]);
-
-//cyclic prismarine apple
-craftingTable.remove(<item:cyclic:apple_prismarine>);
-craftingTable.addShaped("apple_prismarine", <item:cyclic:apple_prismarine>, [[<item:minecraft:prismarine_shard>, <item:minecraft:prismarine_crystals>, <item:minecraft:prismarine_shard>], [<item:minecraft:prismarine_crystals>, <item:create:honeyed_apple>, <item:minecraft:prismarine_crystals>], [<item:minecraft:prismarine_shard>, <item:minecraft:prismarine_crystals>, <item:minecraft:prismarine_shard>]]);
-
-//cyclic chocolate apple
-craftingTable.remove(<item:cyclic:apple_chocolate>);
-craftingTable.addShaped("apple_chocolate", <item:cyclic:apple_chocolate>, [[<item:create:bar_of_chocolate>, <item:create:bar_of_chocolate>, <item:create:bar_of_chocolate>], [<item:create:bar_of_chocolate>, <item:create:honeyed_apple>, <item:create:bar_of_chocolate>], [<item:create:bar_of_chocolate>, <item:create:bar_of_chocolate>, <item:create:bar_of_chocolate>]]);
-
 //cyclic ender pearl block uncrafting
 craftingTable.remove(<item:minecraft:ender_pearl>);
 craftingTable.addShaped("cyclic_eye_teleport_rev", <item:minecraft:ender_pearl> * 5, [[<item:cyclic:eye_teleport>]]);
