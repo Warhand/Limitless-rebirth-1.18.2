@@ -22,7 +22,7 @@
 			title: "Starting out: Logs"
 			icon: "minecraft:oak_log"
 			x: 0.0d
-			y: -2.0d
+			y: -5.0d
 			subtitle: "\"Lumbering around\""
 			dependencies: ["7C19B9BE95BBC4A8"]
 			id: "458092FB73C98F44"
@@ -69,64 +69,6 @@
 			}]
 		}
 		{
-			title: "Starting out: Tetra"
-			icon: {
-				id: "tetra:holo"
-				Count: 1b
-				tag: {
-					"holo/core_material": "frame/dim"
-					"holo/frame": "holo/frame"
-					"holo/core": "holo/core"
-					"holo/frame_material": "core/ancient"
-				}
-			}
-			x: -2.0d
-			y: 0.0d
-			shape: "rsquare"
-			subtitle: "\"Artisinal, hand crafted tools!\""
-			optional: true
-			id: "029A84B1765A3D3A"
-			tasks: [
-				{
-					id: "4C728EA0B000F1D9"
-					type: "item"
-					item: "tetra:basic_workbench"
-				}
-				{
-					id: "67457AC0CEDC90F5"
-					type: "item"
-					icon: {
-						id: "tetra:modular_double"
-						Count: 1b
-						tag: {
-							"double/handle": "double/basic_handle"
-							"double/head_left": "double/basic_hammer_left"
-							"double/head_right": "double/basic_hammer_right"
-							id: "bd496154-1a65-476e-8194-b1e04abaf0b9"
-							"double/basic_hammer_right_material": "basic_hammer/oak"
-							Damage: 0
-							"double/basic_handle_material": "basic_handle/stick"
-							"double/basic_hammer_left_material": "basic_hammer/oak"
-						}
-					}
-					item: {
-						id: "tetra:modular_double"
-						Count: 1b
-						tag: {
-							"double/handle": "double/basic_handle"
-							"double/head_left": "double/basic_hammer_left"
-							"double/head_right": "double/basic_hammer_right"
-							id: "bd496154-1a65-476e-8194-b1e04abaf0b9"
-							"double/basic_hammer_right_material": "basic_hammer/oak"
-							Damage: 0
-							"double/basic_handle_material": "basic_handle/stick"
-							"double/basic_hammer_left_material": "basic_hammer/oak"
-						}
-					}
-				}
-			]
-		}
-		{
 			x: -2.0d
 			y: -2.0d
 			shape: "rsquare"
@@ -142,7 +84,7 @@
 		{
 			title: "Something that should probably just be in vanilla honestly"
 			x: -2.0d
-			y: -4.0d
+			y: 0.0d
 			shape: "rsquare"
 			subtitle: "\"Like seriously, why isn't it?\""
 			description: [
@@ -156,6 +98,11 @@
 				type: "item"
 				item: "minecraft:blast_furnace"
 			}]
+		}
+		{
+			x: -2.0d
+			y: -5.0d
+			id: "640F0C57FC66722E"
 		}
 	]
 }
