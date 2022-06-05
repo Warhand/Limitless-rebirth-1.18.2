@@ -12,6 +12,36 @@ import crafttweaker.api.ingredient.type.IIngredientEmpty;
 import crafttweaker.api.resource.ResourceLocation;
 import mods.jei.JEI;
 
+//removeall functions
+
+<recipetype:createaddition:rolling>.removeAll();
+<recipetype:immersiveengineering:metal_press>.removeAll();
+<recipetype:ftbic:extruding>.removeAll();
+<recipetype:ftbic:rolling>.removeAll();
+<recipetype:integrateddynamics:mechanical_squeezer>.removeAll();
+<recipetype:integrateddynamics:squeezer>.removeAll();
+
+//Regex recipe removal functions
+
+blastFurnace.removeByRegex("jaopca:beyond_earth.recycling.*_from_compresseds");
+furnace.removeByRegex("jaopca:beyond_earth.recycling.*_from_compresseds");
+<recipetype:beyond_earth_giselle_addon:rolling>.removeByRegex("jaopca:beyond_earth_giselle_addon.*");
+<recipetype:beyond_earth_giselle_addon:extruding>.removeByRegex("jaopca:beyond_earth_giselle_addon.*");
+<recipetype:beyond_earth:compressing>.removeByRegex("jaopca:beyond_earth.compressing.*");
+<recipetype:immersiveengineering:crusher>.removeByRegex("jaopca:immersiveengineering.*_to_.*");
+<recipetype:create:crushing>.removeByRegex("malum:create.crushing.crush_.*");
+<recipetype:immersiveengineering:crusher>.removeByRegex("immersiveengineering:crusher/ingot_.*");
+<recipetype:immersiveengineering:crusher>.removeByRegex("immersiveengineering:crusher/raw_block_.*");
+<recipetype:ftbic:macerating>.removeByRegex("ftbic:macerating/.*/.*_to_.*");
+<recipetype:ftbic:macerating>.removeByRegex("jaopca:ftbic.*_to_*.*");
+<recipetype:create:crushing>.removeByRegex("jaopca:create.*_to..*");
+
+//remove by name functions
+<recipetype:create:crushing>.removeByName("create:crushing/nether_gold_ore");
+<recipetype:create:mixing>.removeByName("alloyed:mixing/steel_ingot");
+<recipetype:tconstruct:alloying>.removeByName("tconstruct:smeltery/alloys/molten_bronze");
+
+//item removal lists
 
 val trash as IItemStack[] = [
 	<item:cyclic:apple_honey>,
