@@ -104,30 +104,6 @@
 					item: "minecraft:music_disc_pigstep"
 				}
 				{
-					id: "487ABC2839B4559F"
-					type: "item"
-					title: "Jonathing - Blinding rage"
-					item: "blue_skies:blinding_rage"
-				}
-				{
-					id: "710F23DBB6D462E8"
-					type: "item"
-					title: "Jonathing - Defying starlight"
-					item: "blue_skies:defying_starlight"
-				}
-				{
-					id: "16BC5B666A2B4FDD"
-					type: "item"
-					title: "Jonathing - Venomous encounter"
-					item: "blue_skies:venomous_encounter"
-				}
-				{
-					id: "4ED02CFB34649479"
-					type: "item"
-					title: "Lachney - Population"
-					item: "blue_skies:population"
-				}
-				{
 					id: "1A955B64A1A6530B"
 					type: "item"
 					title: "LudoCrypt - Thime"
@@ -218,20 +194,6 @@
 					title: "The end"
 					icon: "minecraft:ender_eye"
 					dimension: "minecraft:the_end"
-				}
-				{
-					id: "0C979654F7004775"
-					type: "dimension"
-					title: "The everbright"
-					icon: "blue_skies:everbright_portal"
-					dimension: "blue_skies:everbright"
-				}
-				{
-					id: "0B34B9D726D05FED"
-					type: "dimension"
-					title: "the everdawn"
-					icon: "blue_skies:everdawn_portal"
-					dimension: "blue_skies:everdawn"
 				}
 				{
 					id: "508634A3AEE9CDAA"
@@ -666,11 +628,6 @@
 					item: "create:creative_motor"
 				}
 				{
-					id: "67275AA7583BFC32"
-					type: "item"
-					item: "pipez:infinity_upgrade"
-				}
-				{
 					id: "1D9B9C410C8210DD"
 					type: "item"
 					item: "create:creative_blaze_cake"
@@ -684,21 +641,6 @@
 					id: "093C806AC39F66D2"
 					type: "item"
 					item: "ars_nouveau:creative_source_jar"
-				}
-				{
-					id: "58A8DD5AA6421262"
-					type: "item"
-					item: "ae2:creative_energy_cell"
-				}
-				{
-					id: "39D78D3E9E6A40F3"
-					type: "item"
-					item: "ae2:creative_item_cell"
-				}
-				{
-					id: "153D2820C3E00AB1"
-					type: "item"
-					item: "ae2:creative_fluid_cell"
 				}
 				{
 					id: "46562CAF13A7257A"
@@ -726,6 +668,7 @@
 							creative: 1b
 						}
 					}
+					item: "ftbic:creative_battery"
 				}
 			]
 		}
