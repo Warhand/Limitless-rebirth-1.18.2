@@ -12,8 +12,6 @@ import crafttweaker.api.ingredient.type.IIngredientEmpty;
 import crafttweaker.api.resource.ResourceLocation;
 import mods.jei.JEI;
 
-//removing all relics runic altar recipes
-//<recipetype:relics:runic_altar>.removeAll();
 
 val trash as IItemStack[] = [
 	<item:cyclic:apple_honey>,
