@@ -1,0 +1,15 @@
+{
+  "name": "item.cyclic.location_data",
+  "icon": "cyclic:location_data",
+  "category": "patchouli:cyclic_misc",
+  "pages": [
+    {
+      "type": "text",
+      "text": "item.cyclic_data.location.guide"
+    },
+    {
+      "type": "crafting",
+      "recipe": "cyclic:location_data"
+    }
+  ]
+}

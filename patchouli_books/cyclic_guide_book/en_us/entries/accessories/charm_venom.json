@@ -1,0 +1,16 @@
+{
+  "name": "item.cyclic.charm_venom",
+  "icon": "cyclic:charm_venom",
+  "category": "patchouli:accessories",
+  "pages": [
+    {
+      "type": "text",
+      "text": "item.cyclic.charm_venom.guide"
+    },
+    {
+      "type": "spotlight",
+      "item": "cyclic:charm_venom",
+      "text": "item.iscurios.guide"
+    }
+  ]
+}

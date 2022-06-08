@@ -1,0 +1,16 @@
+{
+  "name": "item.cyclic.charm_starvation",
+  "icon": "cyclic:charm_starvation",
+  "category": "patchouli:accessories",
+  "pages": [
+    {
+      "type": "text",
+      "text": "item.cyclic.charm_starvation.guide"
+    },
+    {
+      "type": "spotlight",
+      "item": "cyclic:charm_starvation",
+      "text": "item.iscurios.guide"
+    }
+  ]
+}

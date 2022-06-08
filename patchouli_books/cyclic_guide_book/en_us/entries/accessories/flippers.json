@@ -1,0 +1,16 @@
+{
+  "name": "item.cyclic.flippers",
+  "icon": "cyclic:flippers",
+  "category": "patchouli:accessories",
+  "pages": [
+    {
+      "type": "text",
+      "text": "item.cyclic.flippers.guide"
+    },
+    {
+      "type": "spotlight",
+      "item": "cyclic:flippers",
+      "text": "item.cantoggle.guide"
+    }
+  ]
+}

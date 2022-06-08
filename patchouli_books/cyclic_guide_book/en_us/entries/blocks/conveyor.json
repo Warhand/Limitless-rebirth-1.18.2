@@ -1,0 +1,16 @@
+{
+  "name": "block.cyclic.conveyor",
+  "icon": "cyclic:conveyor",
+  "category": "patchouli:blocks",
+  "pages": [
+    {
+      "type": "text",
+      "text": "block.cyclic.conveyor.guide"
+    },
+    {
+      "type": "crafting",
+      "recipe": "cyclic:conveyor",
+      "text": "block.cyclic.conveyor.guide0"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "item.cyclic.charm_torch_cave",
+  "icon": "cyclic:charm_torch_cave",
+  "category": "patchouli:accessories",
+  "pages": [
+    {
+      "type": "text",
+      "text": "item.cyclic.charm_torch_cave.guide"
+    },
+    {
+      "type": "spotlight",
+      "item": "cyclic:charm_torch_cave",
+      "text": "item.iscurios.guide"
+    }
+  ]
+}

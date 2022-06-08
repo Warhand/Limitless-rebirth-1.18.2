@@ -1,0 +1,16 @@
+{
+  "name": "item.cyclic.antigravity",
+  "icon": "cyclic:antigravity",
+  "category": "patchouli:accessories",
+  "pages": [
+    {
+      "type": "text",
+      "text": "item.cyclic.antigravity.guide"
+    },
+    {
+      "type": "spotlight",
+      "item": "cyclic:antigravity",
+      "text": "item.cantoggle.guide"
+    }
+  ]
+}

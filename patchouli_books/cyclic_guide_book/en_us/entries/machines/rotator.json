@@ -1,0 +1,15 @@
+{
+  "name": "block.cyclic.rotator",
+  "icon": "cyclic:rotator",
+  "category": "patchouli:cyclic_machines",
+  "pages": [
+    {
+      "type": "text",
+      "text": "block.cyclic.rotator.guide"
+    },
+    {
+      "type": "crafting",
+      "recipe": "cyclic:rotator"
+    }
+  ]
+}

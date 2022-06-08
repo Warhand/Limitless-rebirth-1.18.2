@@ -1,0 +1,16 @@
+{
+  "name": "item.cyclic.charm_magicdefense",
+  "icon": "cyclic:charm_magicdefense",
+  "category": "patchouli:accessories",
+  "pages": [
+    {
+      "type": "text",
+      "text": "item.cyclic.charm_magicdefense.guide"
+    },
+    {
+      "type": "spotlight",
+      "item": "cyclic:charm_magicdefense",
+      "text": "item.iscurios.guide"
+    }
+  ]
+}

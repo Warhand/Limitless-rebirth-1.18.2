@@ -1,0 +1,15 @@
+{
+  "name": "block.cyclic.anvil",
+  "icon": "cyclic:anvil",
+  "category": "patchouli:cyclic_machines",
+  "pages": [
+    {
+      "type": "text",
+      "text": "block.cyclic.anvil.guide"
+    },
+    {
+      "type": "crafting",
+      "recipe": "cyclic:anvil"
+    }
+  ]
+}

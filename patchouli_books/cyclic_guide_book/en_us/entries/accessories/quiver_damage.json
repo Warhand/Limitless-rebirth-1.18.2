@@ -1,0 +1,16 @@
+{
+  "name": "item.cyclic.quiver_damage",
+  "icon": "cyclic:quiver_damage",
+  "category": "patchouli:accessories",
+  "pages": [
+    {
+      "type": "text",
+      "text": "item.cyclic.quiver_damage.guide"
+    },
+    {
+      "type": "spotlight",
+      "item": "cyclic:quiver_damage",
+      "text": "item.iscurios.guide"
+    }
+  ]
+}

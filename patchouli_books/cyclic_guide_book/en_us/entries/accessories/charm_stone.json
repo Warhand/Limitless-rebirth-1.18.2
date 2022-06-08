@@ -1,0 +1,16 @@
+{
+  "name": "item.cyclic.charm_stone",
+  "icon": "cyclic:charm_stone",
+  "category": "patchouli:accessories",
+  "pages": [
+    {
+      "type": "text",
+      "text": "item.cyclic.charm_stone.guide"
+    },
+    {
+      "type": "spotlight",
+      "item": "cyclic:charm_stone",
+      "text": "item.iscurios.guide"
+    }
+  ]
+}

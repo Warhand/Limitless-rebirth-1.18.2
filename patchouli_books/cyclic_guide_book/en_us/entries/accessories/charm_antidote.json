@@ -1,0 +1,16 @@
+{
+  "name": "item.cyclic.charm_antidote",
+  "icon": "cyclic:charm_antidote",
+  "category": "patchouli:accessories",
+  "pages": [
+    {
+      "type": "text",
+      "text": "item.cyclic.charm_antidote.guide"
+    },
+    {
+      "type": "spotlight",
+      "item": "cyclic:charm_antidote",
+      "text": "item.iscurios.guide"
+    }
+  ]
+}

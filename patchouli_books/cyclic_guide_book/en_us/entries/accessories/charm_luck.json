@@ -1,0 +1,16 @@
+{
+  "name": "item.cyclic.charm_luck",
+  "icon": "cyclic:charm_luck",
+  "category": "patchouli:accessories",
+  "pages": [
+    {
+      "type": "text",
+      "text": "item.cyclic.charm_luck.guide"
+    },
+    {
+      "type": "spotlight",
+      "item": "cyclic:charm_luck",
+      "text": "item.iscurios.guide"
+    }
+  ]
+}
