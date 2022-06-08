@@ -366,6 +366,28 @@ import crafttweaker.api.recipe.SmithingRecipeManager;
   },
   "temperature": 700
 }
+);
+
+<recipetype:tconstruct:alloying>.addJsonRecipe("tinkers_alloy_ostrum_netherite", {
+"type": "tconstruct:alloy",
+	"inputs": [
+          {
+            "tag": "forge:molten_ostrum",
+            "amount": 20
+          },
+          {
+            "tag": "forge:molten_gold",
+            "amount": 20
+          }
+        ],
+        "result": {
+          "fluid": "tconstruct:molten_netherite",
+          "amount": 10
+        },
+        "temperature": 1250
+}
+);
+
 //Immersive engineering recipes
 
 <recipetype:immersiveengineering:arc_furnace>.addJsonRecipe("custom_arc_bronze", {
