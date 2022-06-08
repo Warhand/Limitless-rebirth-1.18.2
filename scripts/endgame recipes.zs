@@ -12,6 +12,15 @@ mods.extendedcrafting.CombinationCrafting.addRecipe("46b704c6-fa55-4078-9a97-ffc
 	<item:extendedcrafting:ultimate_singularity>, <item:extendedcrafting:ultimate_catalyst>, <item:extendedcrafting:ultimate_catalyst>, <item:extendedcrafting:crystaltine_ingot>, <item:extendedcrafting:crystaltine_ingot>, <item:extendedcrafting:ultimate_catalyst>, <item:extendedcrafting:ultimate_catalyst>, <item:extendedcrafting:crystaltine_ingot>, <item:extendedcrafting:crystaltine_ingot>
 ]);
 
+//heart of the sea recipe
+mods.extendedcrafting.TableCrafting.addShaped("3c8761a0-842c-4bdf-81ce-b41994649819", 0, <item:minecraft:heart_of_the_sea>, [
+	[<item:minecraft:air>, <item:minecraft:lapis_block>, <item:minecraft:lapis_block>, <item:minecraft:lapis_block>, <item:minecraft:air>], 
+	[<item:minecraft:lapis_block>, <tag:items:minecraft:fishes>, <item:minecraft:prismarine_crystals>, <tag:items:minecraft:fishes>, <item:minecraft:lapis_block>], 
+	[<item:minecraft:lapis_block>, <item:minecraft:prismarine_crystals>, <item:aquaculture:neptunium_ingot>, <item:minecraft:prismarine_crystals>, <item:minecraft:lapis_block>], 
+	[<item:minecraft:lapis_block>, <tag:items:minecraft:fishes>, <item:minecraft:prismarine_crystals>, <tag:items:minecraft:fishes>, <item:minecraft:lapis_block>], 
+	[<item:minecraft:air>, <item:minecraft:lapis_block>, <item:minecraft:lapis_block>, <item:minecraft:lapis_block>, <item:minecraft:air>]
+]);
+
 //Create creative engine
 mods.extendedcrafting.TableCrafting.addShaped("c9877edb-84f5-40ec-a3ef-130e885184e5", 0, <item:create:creative_motor>, [
 	[<item:minecraft:shulker_shell>, <item:create:furnace_engine>, <item:create:large_cogwheel>, <item:create:shaft>, <item:create:sequenced_gearshift>, <item:create:shaft>, <item:create:large_cogwheel>, <item:create:furnace_engine>, <item:minecraft:shulker_shell>], 
