@@ -361,3 +361,6 @@
 		#Range: 1 ~ 100
 		maxTerrainHeightDifference = 6
 
+	["The Graveyard - Additional Config".spawner]
+		disableWitherSkeletonSpawner = false
+

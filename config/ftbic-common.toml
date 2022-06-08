@@ -16,7 +16,7 @@
 	#Range: 1.0 ~ Infinity
 	"Iv Transfer Rate" = 8192.0
 	#The amount of Zaps to FE
-	#Range: 1.0 ~ Infinity
+	#Range: 0.0 ~ Infinity
 	"Zap To Fe Conversion Rate" = 4.0
 	#The amount of energy a single use battery can contain
 	#Range: 1.0 ~ Infinity

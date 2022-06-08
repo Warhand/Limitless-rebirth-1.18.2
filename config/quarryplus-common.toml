@@ -21,6 +21,8 @@
 	reduceMarkerGuideLineIfPlayerIsFar = false
 	#Remove adjacent frames when quarry is removed.
 	removeFrameAfterQuarryIsRemoved = false
+	#Allow quarries to work in claimed chunk(FTB Chunks).
+	allowWorkInClaimedChunkByFBTChunks = false
 
 #QuarryPlus Machines. Set true to enable machine or item.
 [machines]

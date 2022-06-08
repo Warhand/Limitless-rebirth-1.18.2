@@ -62,10 +62,12 @@
         "botania:generating_flowers/thermalily",
         "botania:tools/terraform_rod",
         "botania:tools/thorn_chakram",
-        "botania:tools/open_bucket"
+        "botania:tools/open_bucket",
+        "botania:functional_flowers/orechid_ignem"
       ],
       "bookmarks": [],
       "history": [
+        "botania:functional_flowers/orechid_ignem",
         "botania:tools/open_bucket",
         "botania:tools/thorn_chakram",
         "botania:tools/terraform_rod",
@@ -83,6 +85,24 @@
       "bookmarks": [],
       "history": [
         "patchouli:heavy/metal_press"
+      ],
+      "completedManualQuests": []
+    },
+    "patchouli:cyclic_guide_book": {
+      "viewedEntries": [
+        "patchouli:accessories/charm_ultimate",
+        "patchouli:accessories/antigravity",
+        "patchouli:accessories/charm_invisible",
+        "patchouli:blocks/light_camo",
+        "patchouli:blocks/soundproofing_ghost"
+      ],
+      "bookmarks": [],
+      "history": [
+        "patchouli:blocks/soundproofing_ghost",
+        "patchouli:blocks/light_camo",
+        "patchouli:accessories/charm_invisible",
+        "patchouli:accessories/antigravity",
+        "patchouli:accessories/charm_ultimate"
       ],
       "completedManualQuests": []
     }
