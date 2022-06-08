@@ -350,22 +350,6 @@ import crafttweaker.api.recipe.SmithingRecipeManager;
 
 <recipetype:tconstruct:alloying>.addJsonRecipe("tinkers_alloy_bronze", {
 "type": "tconstruct:alloy",
-  "conditions": [
-    {
-      "value": {
-        "tag": "forge:ingots/bronze",
-        "type": "forge:tag_empty"
-      },
-      "type": "forge:not"
-    },
-    {
-      "value": {
-        "tag": "forge:ingots/tin",
-        "type": "forge:tag_empty"
-      },
-      "type": "forge:not"
-    }
-  ],
   "inputs": [
     {
       "tag": "forge:molten_copper",
