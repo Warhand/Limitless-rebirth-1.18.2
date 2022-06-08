@@ -204,7 +204,7 @@ for input, output in ore_to_raw_map{
 		},
 		{
         "item": output.registryName,
-        "chance": 0.15 as float
+        "chance": 0.1 as float
        }
     ]
   }
@@ -219,7 +219,7 @@ for input, output in raw_to_crushed_map{
         output,
       {
         "item": output.registryName,
-        "chance": 0.15 as float
+        "chance": 0.1 as float
       }
     ]
   }
@@ -234,7 +234,7 @@ for input, output in crushed_to_dust_map{
         output,
       {
         "item": output.registryName,
-        "chance": 0.15 as float
+        "chance": 0.1 as float
       }
     ]
   }
@@ -249,7 +249,7 @@ for input, output in ore_to_gem_map{
         output,
       {
         "item": output.registryName,
-        "chance": 0.5 as float
+        "chance": 0.25 as float
       }
     ]
   }
@@ -284,7 +284,7 @@ for input, output in ore_to_dust_map{
 		{
 			"item": {
 			  "item": output.registryName,
-			  "count": 4
+			  "count": 3
 			}
 		},
 		{
@@ -332,7 +332,7 @@ for input, output in ore_to_raw_map{
 		},
 	  {
         "item": output.registryName,
-        "chance": 0.75 as float
+        "chance": 0.5 as float
       }
     ]
   },
@@ -348,7 +348,7 @@ for input, output in raw_to_crushed_map{
         output,
 	  {
         "item": output.registryName,
-        "chance": 0.25 as float
+        "chance": 0.1 as float
       }
     ]
   },
@@ -364,7 +364,7 @@ for input, output in crushed_to_dust_map{
         output,
       {
         "item": output.registryName,
-        "chance": 0.25 as float
+        "chance": 0.1 as float
       }
     ]
   },
@@ -402,7 +402,7 @@ for input, output in ore_to_mineral_map{
 		},
 		{
         "item": output.registryName,
-        "chance": 0.25 as float
+        "chance": 0.15 as float
        }
     ]
   },
@@ -426,7 +426,7 @@ for input, output in ore_to_dust_map{
 			  "item": output.registryName,
 			  "count": 1
 			},
-			"chance": 0.5 as float
+			"chance": 0.4 as float
        },
 	   {
         "item": {
@@ -467,7 +467,7 @@ for input, output in ore_to_raw_map{
     },
 	{
       "item": output.registryName,
-      "chance": 0.5,
+      "chance": 0.25,
       "count": 1
     }
   ]
@@ -486,7 +486,7 @@ for input, output in ore_to_gem_map{
     },
 	{
       "item": output.registryName,
-      "chance": 0.25,
+      "chance": 0.15,
       "count": 1
     }
   ]
@@ -505,7 +505,7 @@ for input, output in ore_to_mineral_map{
     },
 	{
       "item": output.registryName,
-      "chance": 0.5,
+      "chance": 0.25,
       "count": 1
     }
   ]
@@ -524,7 +524,7 @@ for input, output in ore_to_dust_map{
     },
 	{
       "item": output.registryName,
-      "chance": 0.5,
+      "chance": 0.25,
       "count": 3
     }
   ]
@@ -544,7 +544,7 @@ for input, output in ore_to_raw_map{
 	{
       "item": output.registryName,
       "count": 1,
-	  "chance": 0.5
+	  "chance": 0.25
     }
   ]
 });
@@ -561,7 +561,7 @@ for input, output in raw_to_crushed_map{
 	{
       "item": output.registryName,
       "count": 1,
-	  "chance": 0.5
+	  "chance": 0.35
     }
   ]
 });
@@ -578,7 +578,7 @@ for input, output in crushed_to_dust_map{
 	{
       "item": output.registryName,
       "count": 1,
-	  "chance": 0.25
+	  "chance": 0.1
     }
   ]
 });
@@ -607,7 +607,7 @@ for input, output in ore_to_mineral_map{
 	{
       "item": output.registryName,
       "count": 1,
-	  "chance": 0.5
+	  "chance": 0.25
     }
   ]
 });
@@ -655,7 +655,7 @@ for input, output in ore_to_raw_map{
 	},
     {
 		"item": output.registryName,
-		"chance": 0.5
+		"chance": 0.25
     },
     {
       "item": "create:experience_nugget",
@@ -677,7 +677,7 @@ for input, output in raw_to_crushed_map{
 	},
 	{
 		"item": output.registryName,
-		"chance": 0.75
+		"chance": 0.25
     }
   ],
   "processingTime": 400
@@ -694,7 +694,7 @@ for input, output in crushed_to_dust_map{
 	},
     {
 		"item": output.registryName,
-		"chance": 0.25
+		"chance": 0.1
     }
   ],
   "processingTime": 400
@@ -726,7 +726,7 @@ for input, output in ore_to_mineral_map{
 	},
 	{
 		"item": output.registryName,
-		"chance": 0.5
+		"chance": 0.25
     }
   ],
   "processingTime": 400
@@ -744,7 +744,7 @@ for input, output in ore_to_dust_map{
 	},
 	{
 		"item": output.registryName,
-		"chance": 0.5,
+		"chance": 0.25,
 		"count": 2
     }
   ],
@@ -771,21 +771,21 @@ for input, output in one_to_one_map{
 for input, output in ore_to_raw_map{
 <recipetype:immersiveengineering:crusher>.addJsonRecipe("custom_ie_crushing_" + output.registryName.path, 
 {
-"secondaries":[{"chance":0.5,"output":{"item":output.registryName}}],"result":{"count":2,"base_ingredient":{"item":output.registryName}},"input":input,"energy":6000
+"secondaries":[{"chance":0.25,"output":{"item":output.registryName}}],"result":{"count":2,"base_ingredient":{"item":output.registryName}},"input":input,"energy":6000
 });
 }
 
 for input, output in raw_to_crushed_map{
 <recipetype:immersiveengineering:crusher>.addJsonRecipe("custom_ie_crushing_" + output.registryName.path, 
 {
-"secondaries":[{"chance":0.25,"output":{"item":output.registryName}}],"result":{"count":1,"base_ingredient":{"item":output.registryName}},"input":input,"energy":6000
+"secondaries":[{"chance":0.1,"output":{"item":output.registryName}}],"result":{"count":1,"base_ingredient":{"item":output.registryName}},"input":input,"energy":6000
 });
 }
 
 for input, output in crushed_to_dust_map{
 <recipetype:immersiveengineering:crusher>.addJsonRecipe("custom_ie_crushing_" + output.registryName.path, 
 {
-"secondaries":[{"chance":0.75,"output":{"item":output.registryName}}],"result":{"count":1,"base_ingredient":{"item":output.registryName}},"input":input,"energy":6000
+"secondaries":[{"chance":0.25,"output":{"item":output.registryName}}],"result":{"count":1,"base_ingredient":{"item":output.registryName}},"input":input,"energy":6000
 });
 }
 
@@ -799,14 +799,17 @@ for input, output in ore_to_gem_map{
 for input, output in ore_to_mineral_map{
 <recipetype:immersiveengineering:crusher>.addJsonRecipe("custom_ie_crushing_" + output.registryName.path, 
 {
-"secondaries":[{"chance":0.5,"output":{"item":output.registryName}}],"result":{"count":3,"base_ingredient":{"item":output.registryName}},"input":input,"energy":6000
+"secondaries":[{"chance":0.25,"output":{"item":output.registryName}}],"result":{"count":3,"base_ingredient":{"item":output.registryName}},"input":input,"energy":6000
 });
 }
 
 for input, output in ore_to_dust_map{
 <recipetype:immersiveengineering:crusher>.addJsonRecipe("custom_ie_crushing_" + output.registryName.path, 
 {
-"secondaries":[{"chance":0.5,"output":{"count":2,"item":output.registryName}}],"result":{"count":6,"base_ingredient":{"item":output.registryName}},"input":input,"energy":6000
+"secondaries":[{"chance":0.25,"output":{"count":2,"item":output.registryName}}],"result":{"count":6,"base_ingredient":{"item":output.registryName}},"input":input,"energy":6000
+});
+}
+
 for input, output in one_to_one_map{
 <recipetype:immersiveengineering:crusher>.addJsonRecipe("custom_ie_crushing_" + output.registryName.path, 
 {
