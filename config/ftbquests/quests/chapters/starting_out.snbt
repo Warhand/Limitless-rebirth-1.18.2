@@ -9,20 +9,51 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "Welcome!"
 			x: 0.0d
 			y: 0.0d
 			shape: "pentagon"
+			subtitle: "\"Thanks for downloading the pack!\""
+			description: [
+				"Welcome to the FTB questing menu, the menu that tracks all of your quests and rewards throughout your playthrough."
+				"While this pack generally focuses on sandbox style play, and doesn't want to push people into any one playstyle, I do also want to provide these quests as a sort of ingame tutorial, for those who are new to modpacks, or who just like to have stuff to do!"
+				"Quests are completed by completing the various tasks associated with them, usually this involves collecting an item, but it can also involve finding a structure, going to a dimension, defeating a certain number of mods, or any other task!"
+				"Quests can also be Pinned, which will allow them to show up on the right of your screen, and track your progress."
+				"This quest only allows you to click the button to complete it, consider it my welcome gift to you!"
+			]
 			id: "7C19B9BE95BBC4A8"
 			tasks: [{
 				id: "07243F4EDD1FB7C9"
 				type: "checkmark"
 			}]
+			rewards: [
+				{
+					id: "209B590D4343F712"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "limitlessrebirth:common"
+								BagType: "limitlessrebirth:common_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "5DE304C368793651"
+					type: "item"
+					item: "minecraft:bread"
+					count: 16
+				}
+			]
 		}
 		{
 			title: "Starting out: Logs"
 			icon: "minecraft:oak_log"
 			x: 0.0d
-			y: -5.0d
+			y: -6.0d
 			subtitle: "\"Lumbering around\""
 			dependencies: ["7C19B9BE95BBC4A8"]
 			id: "458092FB73C98F44"
@@ -39,6 +70,20 @@
 				}
 				count: 16L
 			}]
+			rewards: [{
+				id: "5B34BE68C7533354"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:common"
+							BagType: "limitlessrebirth:common_bag"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "Starting out: Paragliders"
@@ -52,6 +97,20 @@
 				id: "2C66FAC58BFEE015"
 				type: "item"
 				item: "paraglider:paraglider"
+			}]
+			rewards: [{
+				id: "0AEEDF9BBDE1C27D"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:common"
+							BagType: "limitlessrebirth:common_bag"
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -67,6 +126,20 @@
 				type: "item"
 				item: "minecraft:bundle"
 			}]
+			rewards: [{
+				id: "5C2684DF6A7A97E0"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:common"
+							BagType: "limitlessrebirth:common_bag"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -2.0d
@@ -79,6 +152,20 @@
 				id: "33FD8BE502EA5909"
 				type: "item"
 				item: "sophisticatedbackpacks:backpack"
+			}]
+			rewards: [{
+				id: "7B3C0F8014CD5856"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:common"
+							BagType: "limitlessrebirth:common_bag"
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -98,11 +185,20 @@
 				type: "item"
 				item: "minecraft:blast_furnace"
 			}]
-		}
-		{
-			x: -2.0d
-			y: -5.0d
-			id: "640F0C57FC66722E"
+			rewards: [{
+				id: "75B92B1D895E88B5"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:common"
+							BagType: "limitlessrebirth:common_bag"
+						}
+					}
+				}
+			}]
 		}
 	]
 }

@@ -19,6 +19,20 @@
 				item: "create:andesite_alloy"
 				count: 32L
 			}]
+			rewards: [{
+				id: "3FDFEE1498DD4D16"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:common"
+							BagType: "limitlessrebirth:common_bag"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "Revealing goggles"
@@ -75,6 +89,20 @@
 				type: "item"
 				item: "create:andesite_casing"
 			}]
+			rewards: [{
+				id: "5E0003FCB745AFEE"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:common"
+							BagType: "limitlessrebirth:common_bag"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -4.0d
@@ -86,6 +114,20 @@
 				type: "item"
 				item: "create:copper_casing"
 			}]
+			rewards: [{
+				id: "05CDC4DD8BE760B7"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:common"
+							BagType: "limitlessrebirth:common_bag"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -2.0d
@@ -96,6 +138,20 @@
 				id: "1757259E4262D56F"
 				type: "item"
 				item: "create:mechanical_mixer"
+			}]
+			rewards: [{
+				id: "31D6F78562DB3335"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:common"
+							BagType: "limitlessrebirth:common_bag"
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -109,6 +165,20 @@
 				type: "item"
 				item: "create:blaze_burner"
 			}]
+			rewards: [{
+				id: "5C4555357E78DE20"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:uncommon"
+							BagType: "limitlessrebirth:uncommon_bag"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 0.0d
@@ -119,6 +189,20 @@
 				id: "0F307A153C9A834D"
 				type: "item"
 				item: "create:brass_ingot"
+			}]
+			rewards: [{
+				id: "78FDDA74747C0961"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:uncommon"
+							BagType: "limitlessrebirth:uncommon_bag"
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -131,6 +215,20 @@
 				type: "item"
 				item: "alloyed:bronze_ingot"
 			}]
+			rewards: [{
+				id: "7BDA91A62EFC5B64"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:uncommon"
+							BagType: "limitlessrebirth:uncommon_bag"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -2.0d
@@ -141,6 +239,20 @@
 				id: "017D5605D988CDB1"
 				type: "item"
 				item: "alloyed:steel_ingot"
+			}]
+			rewards: [{
+				id: "2E00788EEA2C4C04"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:uncommon"
+							BagType: "limitlessrebirth:uncommon_bag"
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -170,6 +282,20 @@
 				type: "item"
 				item: "create:creative_motor"
 			}]
+			rewards: [{
+				id: "4C48BC3A7CCB9A6A"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:epic"
+							BagType: "limitlessrebirth:limitless_bag"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 2.0d
@@ -197,6 +323,20 @@
 				type: "item"
 				item: "create:creative_blaze_cake"
 			}]
+			rewards: [{
+				id: "0BA8D0F3F7EA22BD"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:epic"
+							BagType: "limitlessrebirth:limitless_bag"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -6.0d
@@ -206,6 +346,20 @@
 				id: "578D6F7EE83D2498"
 				type: "item"
 				item: "create:mechanical_drill"
+			}]
+			rewards: [{
+				id: "041E0C0200DE0F8C"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:common"
+							BagType: "limitlessrebirth:common_bag"
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -217,6 +371,20 @@
 				type: "item"
 				item: "create:mechanical_saw"
 			}]
+			rewards: [{
+				id: "0D192D582B183897"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:common"
+							BagType: "limitlessrebirth:common_bag"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -8.0d
@@ -226,6 +394,20 @@
 				id: "2958ECAAE08C5CE1"
 				type: "item"
 				item: "create:portable_storage_interface"
+			}]
+			rewards: [{
+				id: "5A9B5BE8CEF04CB8"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:common"
+							BagType: "limitlessrebirth:common_bag"
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -237,6 +419,20 @@
 				type: "item"
 				item: "create:portable_fluid_interface"
 			}]
+			rewards: [{
+				id: "30BA2E2EED409862"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:common"
+							BagType: "limitlessrebirth:common_bag"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -8.0d
@@ -246,6 +442,20 @@
 				id: "6915EDD63C89F4CE"
 				type: "item"
 				item: "create:item_drain"
+			}]
+			rewards: [{
+				id: "09EE0EBEF352D705"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:common"
+							BagType: "limitlessrebirth:common_bag"
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -257,6 +467,20 @@
 				type: "item"
 				item: "create:hose_pulley"
 			}]
+			rewards: [{
+				id: "39C8B2A63FEE7800"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:common"
+							BagType: "limitlessrebirth:common_bag"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -6.0d
@@ -267,6 +491,20 @@
 				type: "item"
 				item: "create:fluid_tank"
 			}]
+			rewards: [{
+				id: "3F5F45583C5D9E97"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:common"
+							BagType: "limitlessrebirth:common_bag"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -10.0d
@@ -276,6 +514,20 @@
 				id: "6A02DA9992BCB2AD"
 				type: "item"
 				item: "create:fluid_pipe"
+			}]
+			rewards: [{
+				id: "59C9E3AB7D941B58"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:common"
+							BagType: "limitlessrebirth:common_bag"
+						}
+					}
+				}
 			}]
 		}
 	]

@@ -35,15 +35,15 @@
 			}
 		]
 		rewards: [{
-			id: "018128B988CEE1AF"
+			id: "364FB043D3992A92"
 			type: "item"
 			item: {
 				id: "treasurebags:treasure_bag"
 				Count: 1b
 				tag: {
 					silentlib.LootContainer: {
-						LootTable: "limitlessrebirth:common"
-						BagType: "limitlessrebirth:common_bag"
+						LootTable: "limitlessrebirth:uncommon"
+						BagType: "limitlessrebirth:uncommon_bag"
 					}
 				}
 			}

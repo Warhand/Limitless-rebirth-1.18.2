@@ -164,6 +164,20 @@
 					item: "quark:music_disc_endermosh"
 				}
 			]
+			rewards: [{
+				id: "4B5A632C8EC7A8D7"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:epic"
+							BagType: "limitlessrebirth:limitless_bag"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "The wanderer"
@@ -258,6 +272,20 @@
 					dimension: "dimdungeons:dungeon_dimension"
 				}
 			]
+			rewards: [{
+				id: "0E24C27A5F6F00A4"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:epic"
+							BagType: "limitlessrebirth:limitless_bag"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "Overworld champion"
@@ -463,6 +491,21 @@
 					value: 3L
 				}
 			]
+			rewards: [{
+				id: "5AB38E9BA5C5761B"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:rare"
+							BagType: "limitlessrebirth:rare_bag"
+						}
+					}
+				}
+				count: 5
+			}]
 		}
 		{
 			title: "Nether Slayer"
@@ -592,6 +635,21 @@
 					value: 5L
 				}
 			]
+			rewards: [{
+				id: "7289192BA3066E40"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:rare"
+							BagType: "limitlessrebirth:rare_bag"
+						}
+					}
+				}
+				count: 5
+			}]
 		}
 		{
 			title: "Ascended"
@@ -650,6 +708,21 @@
 					item: "ftbic:creative_battery"
 				}
 			]
+			rewards: [{
+				id: "35AFEFD1CBF28B0E"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:epic"
+							BagType: "limitlessrebirth:limitless_bag"
+						}
+					}
+				}
+				count: 64
+			}]
 		}
 		{
 			title: "Ender ender"
@@ -684,6 +757,20 @@
 					value: 25L
 				}
 			]
+			rewards: [{
+				id: "4314B7A2BD1F0950"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:rare"
+							BagType: "limitlessrebirth:rare_bag"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "Undergardener"
@@ -760,6 +847,21 @@
 					value: 5L
 				}
 			]
+			rewards: [{
+				id: "39C1CA8D869E2A41"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:rare"
+							BagType: "limitlessrebirth:rare_bag"
+						}
+					}
+				}
+				count: 5
+			}]
 		}
 		{
 			x: -2.0d
@@ -776,6 +878,38 @@
 				stat: "minecraft:time_since_death"
 				value: 1728000
 			}]
+			rewards: [
+				{
+					id: "62DCDBABE3B6D09D"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "limitlessrebirth:rare"
+								BagType: "limitlessrebirth:rare_bag"
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "401A3A446282B667"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "limitlessrebirth:uncommon"
+								BagType: "limitlessrebirth:uncommon_bag"
+							}
+						}
+					}
+					count: 5
+				}
+			]
 		}
 		{
 			x: 2.0d
@@ -791,6 +925,20 @@
 				icon: "minecraft:clock"
 				days: 100
 			}]
+			rewards: [{
+				id: "2599E2B5BC1E24A7"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:epic"
+							BagType: "limitlessrebirth:limitless_bag"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "Lootbox fan"
@@ -804,6 +952,20 @@
 				id: "3B4C271D50D7FC67"
 				type: "item"
 				item: "lootr:trophy"
+			}]
+			rewards: [{
+				id: "2B5583A38E63F83B"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:rare"
+							BagType: "limitlessrebirth:rare_bag"
+						}
+					}
+				}
 			}]
 		}
 	]

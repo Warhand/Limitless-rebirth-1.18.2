@@ -30,6 +30,20 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6D3ADD37368C5059"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:common"
+							BagType: "limitlessrebirth:common_bag"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 0.0d
@@ -41,6 +55,20 @@
 				type: "item"
 				item: "immersiveengineering:coal_coke"
 				count: 16L
+			}]
+			rewards: [{
+				id: "5CE557E08327E946"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:common"
+							BagType: "limitlessrebirth:common_bag"
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -54,17 +82,19 @@
 				item: "immersiveengineering:ingot_steel"
 				count: 32L
 			}]
-		}
-		{
-			x: -2.0d
-			y: 0.0d
-			shape: "rsquare"
-			optional: true
-			id: "593F5B126335CE96"
-			tasks: [{
-				id: "48C4D6479276073C"
+			rewards: [{
+				id: "3E667F1EBDFCA738"
 				type: "item"
-				item: "immersiveengineering:manual"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:uncommon"
+							BagType: "limitlessrebirth:uncommon_bag"
+						}
+					}
+				}
 			}]
 		}
 	]
