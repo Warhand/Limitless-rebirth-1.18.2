@@ -312,13 +312,7 @@ for rawblock, block in rawblock_block_map {
 	blastFurnace.addRecipe("blasting_" + block.registryName.path, block, rawblock, 9.0, 200);
 }
 
-//Energium dust, tags added to recipe
-
-//craftingTable.addShaped("indreb_energium_dust", <item:indreb:energium_dust> * 9, [[<item:minecraft:redstone>, <tag:items:forge:dusts/diamond>, <item:minecraft:redstone>], [<tag:items:forge:dusts/diamond>, <item:minecraft:redstone>, <tag:items:forge:dusts/diamond>], [<item:minecraft:redstone>, <tag:items:forge:dusts/diamond>, <item:minecraft:redstone>]]);
-
 //red alloy ingot recipe
-craftingTable.remove(<item:extendedcrafting:redstone_ingot>);
-
 craftingTable.addShaped("extendedcrafting_redstone_ingot", <item:extendedcrafting:redstone_ingot>, [[<tag:items:forge:dusts/redstone>, <tag:items:forge:dusts/redstone>, <tag:items:forge:dusts/redstone>], [<tag:items:forge:dusts/redstone>, <tag:items:forge:ingots/iron>, <tag:items:forge:dusts/redstone>], [<tag:items:forge:dusts/redstone>, <tag:items:forge:dusts/redstone>, <tag:items:forge:dusts/redstone>]]);
 
 //Tinkers slime crystal tooltips
@@ -475,8 +469,67 @@ craftingTable.addShaped("shears_steel", <item:alloyed:steel_shears>, [[IIngredie
 
 //painting palette
 
-craftingTable.addShapeless("painting_palette", <item:xercapaint:item_palette>.withTag({basic: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}), [<tag:items:minecraft:wooden_slabs>, <tag:items:forge:dyes/black>, <tag:items:forge:dyes/purple>, <tag:items:forge:dyes/orange>, <tag:items:forge:dyes/green>, <tag:items:forge:dyes/white>, <tag:items:forge:dyes/yellow>, <tag:items:forge:dyes/blue>, <tag:items:forge:dyes/red>]);//Ostrum to netherite
+craftingTable.addShapeless("painting_palette", <item:xercapaint:item_palette>.withTag({basic: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}), [<tag:items:minecraft:wooden_slabs>, <tag:items:forge:dyes/black>, <tag:items:forge:dyes/purple>, <tag:items:forge:dyes/orange>, <tag:items:forge:dyes/green>, <tag:items:forge:dyes/white>, <tag:items:forge:dyes/yellow>, <tag:items:forge:dyes/blue>, <tag:items:forge:dyes/red>]);
+
+//Ostrum to netherite
 
 craftingTable.addShapeless("ostrum_netherite", <item:minecraft:netherite_ingot>, [<item:minecraft:netherite_scrap>, <item:minecraft:netherite_scrap>, <tag:items:forge:ingots/ostrum>, <tag:items:forge:ingots/ostrum>]);
 
 //milling flour and dough recipes changed to croptopia flour and dough
+<recipetype:create:milling>.addJsonRecipe("custom_create_milling_flour", {
+  "ingredients": [
+    {
+      "tag": "croptopia:flourable"
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:flour"
+    },
+    {
+      "item": "croptopia:flour",
+      "count": 2,
+      "chance": 0.25
+    },
+    {
+      "item": "minecraft:wheat_seeds",
+      "chance": 0.25
+    }
+  ],
+  "processingTime": 150
+});
+
+<recipetype:create:splashing>.addJsonRecipe("custom_create_washing_dough", {
+  "ingredients": [
+    {
+      "tag": "forge:flour"
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:dough"
+    }
+  ]
+});
+
+<recipetype:create:mixing>.addJsonRecipe("custom_create_mixing_dough", {
+  "ingredients": [
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "fluid": "minecraft:water",
+      "nbt": {},
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:dough"
+    }
+  ]
+});
+
+<recipetype:immersiveengineering:bottling_machine>.addJsonRecipe("custom_ie_mixing_dough", {
+"result":{"item":"croptopia:dough"},"input":{"item":"croptopia:flour"},"fluid":{"tag":"minecraft:water","amount":1000}
+});
