@@ -265,6 +265,27 @@ import crafttweaker.api.recipe.SmithingRecipeManager;
 }
 );
 
+<recipetype:create:mixing>.addJsonRecipe("create_mixing_steel_desh", {
+  "ingredients": [
+    {
+      "tag": "forge:ingots/desh",
+      "count": 1
+    },
+      {
+        "item": "minecraft:coal"
+      }
+  ],
+  "results": [
+    {
+      "item": "immersiveengineering:ingot_steel",
+      "count": 4
+    }
+  ],
+  "processingTime": 200,
+  "heatRequirement": "heated"
+}
+);
+
 <recipetype:create:mixing>.addJsonRecipe("create_mixing_ender_ingot", {
 "ingredients": [
     {
@@ -385,6 +406,10 @@ import crafttweaker.api.recipe.SmithingRecipeManager;
 }
 );
 
+<recipetype:immersiveengineering:arc_furnace>.addJsonRecipe("custom_arc_steel_desh", {
+"results":[{"count":4,"base_ingredient":{"tag":"forge:ingots/steel"}}],"additives":[{"tag":"forge:dusts/coal_coke"}],"input":{"tag":"forge:ingots/desh"},"slag":{"tag":"forge:slag"},"time":400,"energy":204800
+}
+);
 
 <recipetype:immersiveengineering:arc_furnace>.addJsonRecipe("custom_arc_brass", {
 "results":[{"count":2,"base_ingredient":{"tag":"forge:ingots/brass"}}],"additives":[{"tag":"forge:ingots/zinc"}],"input":{"tag":"forge:ingots/copper"},"time":100,"energy":51200
@@ -401,6 +426,15 @@ import crafttweaker.api.recipe.SmithingRecipeManager;
 }
 );
 
+<recipetype:immersiveengineering:blast_furnace>.addJsonRecipe("custom_ie_alloy_steel_desh", {
+"result":{"count":4,"base_ingredient":{"tag":"forge:ingots/steel"}},"input":{"tag":"forge:ingots/desh"},"slag":{"tag":"forge:slag"},"time":1200
+}
+);
+
+<recipetype:immersiveengineering:blast_furnace>.addJsonRecipe("custom_ie_alloy_steel_block_desh", {
+"result":{"count":4,"base_ingredient":{"tag":"forge:storage_blocks/steel"}},"input":{"tag":"forge:storage_blocks/desh"},"slag":{"count":9,"base_ingredient":{"tag":"forge:slag"}},"time":10800
+}
+);
 
 <recipetype:immersiveengineering:arc_furnace>.addJsonRecipe("custom_ie_alloy_redstone", {
 "results":[{"count":1,"base_ingredient":{"item":"extendedcrafting:redstone_ingot"}}],"additives":[{"tag":"forge:ingots/iron"}],"input":{"count":4,"base_ingredient":{"tag":"forge:dusts/redstone"}},"time":100,"energy":51200
