@@ -40,6 +40,8 @@ furnace.removeByRegex("jaopca:beyond_earth.recycling.*_from_compresseds");
 <recipetype:create:crushing>.removeByName("create:crushing/nether_gold_ore");
 <recipetype:create:mixing>.removeByName("alloyed:mixing/steel_ingot");
 <recipetype:tconstruct:alloying>.removeByName("tconstruct:smeltery/alloys/molten_bronze");
+craftingTable.removeByName("extendedcrafting:black_iron_ingot");
+craftingTable.removeByName("extendedcrafting:redstone_ingot");
 
 //item removal lists
 
@@ -290,8 +292,6 @@ val jei_removal as IItemStack[] = [
 	<item:quarryplus:placer_plus>,
 	<item:quarryplus:exp_module>,
 	<item:cyclic:hopper_gold>,
-	<item:extendedcrafting:singularity>.withTag({Id: "extendedcrafting:platinum" as string}),
-	<item:extendedcrafting:singularity>.withTag({Id: "extendedcrafting:invar" as string}),
 	<item:cyclic:anvil>,
 	<item:cyclic:gem_obsidian>,
 	<item:cyclic:gem_amber>,
@@ -317,7 +317,8 @@ val jei_removal as IItemStack[] = [
 	<item:cyclic:experience_pylon>,
 	<item:cyclic:crusher>,
 	<item:cyclic:magma_bucket>,
-	<item:ftbic:fluid_cell>.withTag({Fluid: "cyclic:magma" as string})
+	<item:ftbic:fluid_cell>.withTag({Fluid: "cyclic:magma" as string}),
+	<item:cyclic:conveyor>
 ];
 
 for item in jei_removal{
@@ -502,7 +503,13 @@ val utter_eradication as IItemStack[] = [
 	<item:jaopca:dusts.utherium>,
 	<item:tconstruct:gear_cast>,
 	<item:tconstruct:gear_sand_cast>,
-	<item:tconstruct:gear_red_sand_cast>
+	<item:tconstruct:gear_red_sand_cast>,
+	<item:jaopca:storage_blocks.netherite_scrap>,
+	<item:tconstruct:debris_nugget>,
+	<item:createdeco:netherite_nugget>,
+	<item:cyclic:netherite_nugget>,
+	<item:create:dough>,
+	<item:create:wheat_flour>
 ];
 
 for item in utter_eradication{
@@ -517,8 +524,12 @@ for item in utter_eradication{
 	<recipetype:beyond_earth_giselle_addon:extruding>.remove(item);
 	<recipetype:beyond_earth:compressing>.remove(item);
 	<recipetype:ftbic:rolling>.remove(item);
+	<recipetype:ftbic:macerating>.remove(item);
 	<recipetype:create:pressing>.remove(item);
 	<recipetype:create:splashing>.remove(item);
+	<recipetype:create:milling>.remove(item);
+	<recipetype:create:crushing>.remove(item);
+	<recipetype:create:mixing>.remove(item);
 	<recipetype:immersiveengineering:alloy>.remove(item);
 }
 
