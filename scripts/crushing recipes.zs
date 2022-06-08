@@ -180,6 +180,15 @@ val ore_to_dust_map as IItemStack[IIngredient] = {
 	<tag:items:forge:ores/nethergold>.asIIngredient(): <item:minecraft:gold_nugget>
 };
 
+//generalized grinding recipes
+
+val one_to_one_map as IItemStack[IIngredient] = {
+	<item:minecraft:ender_pearl>: <item:ftbic:ender_dust>,
+	<tag:items:forge:ingots/steel>.asIIngredient(): <item:immersiveengineering:dust_steel>,
+	<tag:items:forge:ingots/constantan>.asIIngredient(): <item:immersiveengineering:dust_constantan>,
+	<tag:items:forge:ingots/electrum>.asIIngredient(): <item:immersiveengineering:dust_electrum>
+};
+
 //basic ID squeezer
 
 for input, output in ore_to_raw_map{
@@ -292,6 +301,17 @@ for input, output in ore_to_dust_map{
 			},
 			"chance": 0.25 as float
        }
+    ]
+  }
+});
+}
+
+for input, output in one_to_one_map{
+    <recipetype:integrateddynamics:squeezer>.addJsonRecipe("custom_squeeze_" + output.registryName.path, {
+  "item": input,
+  "result": {
+    "items": [
+        output
     ]
   }
 });
@@ -415,6 +435,18 @@ for input, output in ore_to_dust_map{
 			},
 			"chance": 0.25 as float
        }
+    ]
+  },
+  "duration": 20
+});
+}
+
+for input, output in one_to_one_map{
+    <recipetype:integrateddynamics:mechanical_squeezer>.addJsonRecipe("custom_mechanical_squeeze_" + output.registryName.path, {
+  "item": input,
+  "result": {
+    "items": [
+        output
     ]
   },
   "duration": 20
@@ -598,6 +630,18 @@ for input, output in ore_to_dust_map{
 });
 }
 
+for input, output in one_to_one_map{
+	<recipetype:ftbic:macerating>.addJsonRecipe("custom_ftb_ic_macerating_" + output.registryName.path, {
+	"inputItems": [input],
+  "outputItems": [
+    {
+      "item": output.registryName,
+      "count": 1
+    }
+  ]
+});
+}
+
 //create crushing wheels
 
 for input, output in ore_to_raw_map{
@@ -708,6 +752,20 @@ for input, output in ore_to_dust_map{
 });
 }
 
+for input, output in one_to_one_map{
+	<recipetype:create:crushing>.addJsonRecipe("custom_create_crushing_" + output.registryName.path, 
+	{
+  "ingredients": [ input ],
+  "results": [
+    { 
+		"item": output.registryName,
+		"count": 1
+	}
+  ],
+  "processingTime": 400
+});
+}
+
 //Immersive engineering crusher
 
 for input, output in ore_to_raw_map{
@@ -749,5 +807,9 @@ for input, output in ore_to_dust_map{
 <recipetype:immersiveengineering:crusher>.addJsonRecipe("custom_ie_crushing_" + output.registryName.path, 
 {
 "secondaries":[{"chance":0.5,"output":{"count":2,"item":output.registryName}}],"result":{"count":6,"base_ingredient":{"item":output.registryName}},"input":input,"energy":6000
+for input, output in one_to_one_map{
+<recipetype:immersiveengineering:crusher>.addJsonRecipe("custom_ie_crushing_" + output.registryName.path, 
+{
+"secondaries":[],"result":{"count":1,"base_ingredient":{"item":output.registryName}},"input":input,"energy":6000
 });
 }
