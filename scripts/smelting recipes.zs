@@ -68,7 +68,7 @@ val dust_to_molten_map as IFluidStack[IIngredient] = {
 	<tag:items:forge:dusts/desh>.asIIngredient(): <fluid:beyond_earth:molten_desh>,
 	<tag:items:forge:raw_materials/calorite>.asIIngredient(): <fluid:beyond_earth:molten_calorite>,
 	<tag:items:create:crushed_ores/calorite>.asIIngredient(): <fluid:beyond_earth:molten_calorite>,
-	<tag:items:forge:dusts>.asIIngredient(): <fluid:beyond_earth:molten_calorite>
+	<tag:items:forge:dusts/calorite>.asIIngredient(): <fluid:beyond_earth:molten_calorite>
 };
 
 for input, output in dust_to_molten_map{
