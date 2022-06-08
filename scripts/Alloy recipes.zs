@@ -346,14 +346,6 @@ import crafttweaker.api.recipe.SmithingRecipeManager;
 }
 );
 
-<recipetype:immersiveengineering:alloy>.addJsonRecipe("ie_alloy_bronze", {
-"time":200,
-"result":{"count":3, "base_ingredient":{"item":"alloyed:bronze_ingot"}},
-"input0":{"tag":"forge:ingots/tin"},
-"input1":{"count":3, "base_ingredient":{"tag":"forge:ingots/copper"}}
-}
-);
-
 //tconstruct alloy fixes
 
 <recipetype:tconstruct:alloying>.addJsonRecipe("tinkers_alloy_bronze", {
