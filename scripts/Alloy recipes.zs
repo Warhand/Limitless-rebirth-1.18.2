@@ -201,14 +201,22 @@ import crafttweaker.api.recipe.SmithingRecipeManager;
       "count": 1
     },
     {
-      "tag": "forge:dusts/redstone",
-      "count": 2
+      "tag": "forge:dusts/redstone"
+    },
+	{
+      "tag": "forge:dusts/redstone"
+    },
+	{
+      "tag": "forge:dusts/redstone"
+    },
+	{
+      "tag": "forge:dusts/redstone"
     }
   ],
   "results": [
     {
       "item": "extendedcrafting:redstone_ingot",
-      "count": 2
+      "count": 1
     }
   ],
   "heatRequirement": "heated"
@@ -279,9 +287,9 @@ import crafttweaker.api.recipe.SmithingRecipeManager;
 
 <recipetype:immersiveengineering:alloy>.addJsonRecipe("ie_alloy_redstone_ingot", {
 "time":200,
-"result":{"count":2, "base_ingredient":{"item":"extendedcrafting:redstone_ingot"}},
+"result":{"count":1, "base_ingredient":{"item":"extendedcrafting:redstone_ingot"}},
 "input0":{"tag":"forge:ingots/iron"},
-"input1":{"count":2, "base_ingredient":{"tag":"forge:dusts/redstone"}}
+"input1":{"count":4, "base_ingredient":{"tag":"forge:dusts/redstone"}}
 }
 );
 
@@ -361,4 +369,6 @@ import crafttweaker.api.recipe.SmithingRecipeManager;
   },
   "temperature": 700
 }
+<recipetype:immersiveengineering:arc_furnace>.addJsonRecipe("custom_ie_alloy_redstone", {
+"results":[{"count":1,"base_ingredient":{"item":"extendedcrafting:redstone_ingot"}}],"additives":[{"tag":"forge:ingots/iron"}],"input":{"count":4,"base_ingredient":{"tag":"forge:dusts/redstone"}},"time":100,"energy":51200
 );
