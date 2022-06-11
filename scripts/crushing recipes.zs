@@ -709,7 +709,11 @@ for input, output in ore_to_gem_map{
     { 
 		"item": output.registryName,
 		"count": 2
-	}
+	},
+	{
+      "item": "create:experience_nugget",
+      "chance": 0.5
+    }
   ],
   "processingTime": 400
 });
@@ -727,6 +731,10 @@ for input, output in ore_to_mineral_map{
 	{
 		"item": output.registryName,
 		"chance": 0.25
+    },
+	{
+      "item": "create:experience_nugget",
+      "chance": 0.5
     }
   ],
   "processingTime": 400
@@ -746,6 +754,10 @@ for input, output in ore_to_dust_map{
 		"item": output.registryName,
 		"chance": 0.25,
 		"count": 2
+    },
+	{
+      "item": "create:experience_nugget",
+      "chance": 0.5
     }
   ],
   "processingTime": 400
