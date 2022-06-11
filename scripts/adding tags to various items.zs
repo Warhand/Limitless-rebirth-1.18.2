@@ -50,5 +50,13 @@ val cooked_fish as IItemStack[] = [
 <tag:items:forge:ores/nethergold>.add(<item:minecraft:nether_gold_ore>);
 <tag:items:forge:ores/gold>.remove(<item:minecraft:nether_gold_ore>);
 
-//adding fish filets to croptopia fish tag
+//adding fish to croptopia fish tag
 <tag:items:croptopia:fishes>.add(<item:aquaculture:fish_fillet_raw>);
+<tag:items:croptopia:fishes>.add(<item:undergarden:raw_gloomper_leg>);
+<tag:items:croptopia:fishes>.add(<item:quark:frog_leg>);
+<tag:items:croptopia:fishes>.add(<item:alexsmobs:raw_catfish>);
+<tag:items:croptopia:fishes>.add(<item:quark:crab_leg>);
+<tag:items:croptopia:fishes>.add(<item:undergarden:raw_gwibling>);
+<tag:items:croptopia:fishes>.add(<item:alexsmobs:lobster_tail>);
+
+//adding meat to croptopia meat tags
