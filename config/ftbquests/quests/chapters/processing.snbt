@@ -7,46 +7,338 @@
 	icon: "minecraft:grindstone"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		title: "Basic ore processing"
-		icon: "integrateddynamics:squeezer"
-		x: 0.0d
-		y: 0.0d
-		subtitle: "\"You'll be ore in the mornin!\""
-		description: [
-			"When it comes to ore processing, the Integrated dynamics squeezer is probably the easiest place to start.        "
-			"Most ore processing in this pack follows the same general process, ores can be processed into raw material, which can be processed into crushed material, which is finally processed into dust.    Any step in this process can be smelted directly into ingots of that material, but going through the whole process increases your chances of maximizing your production.                                              "
-			"The main exceptions to this ore processing tree are gems, minerals, and dusts, such as diamonds, nether quartz, and redstone, all of those ores will be processed directly into their given materials."
-			"ass"
-			"As an important note, different methods of processing will produce different amounts of raw, crushed, and dust materials, so feel free to explore and create the most efficient system you can think of!"
-		]
-		id: "6AC62D2F4308D6D7"
-		tasks: [
-			{
-				id: "0C15B54D82AD0F9F"
+	quests: [
+		{
+			title: "Basic ore processing"
+			icon: "integrateddynamics:squeezer"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "\"You'll be ore in the mornin!\""
+			description: [
+				"When it comes to ore processing, the Integrated dynamics squeezer is probably the easiest place to start.        "
+				"Most ore processing in this pack follows the same general process, ores can be processed into raw material, which can be processed into crushed material, which is finally processed into dust.    Any step in this process can be smelted directly into ingots of that material, but going through the whole process increases your chances of maximizing your production.                                              "
+				"The main exceptions to this ore processing tree are gems, minerals, and dusts, such as diamonds, nether quartz, and redstone, all of those ores will be processed directly into their given materials."
+				"ass"
+				"As an important note, different methods of processing will produce different amounts of raw, crushed, and dust materials, so feel free to explore and create the most efficient system you can think of!"
+			]
+			dependencies: ["30ECBC395B4828E5"]
+			id: "6AC62D2F4308D6D7"
+			tasks: [
+				{
+					id: "0C15B54D82AD0F9F"
+					type: "item"
+					item: "integrateddynamics:squeezer"
+				}
+				{
+					id: "51238198363D1773"
+					type: "item"
+					item: "immersiveengineering:dust_iron"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "364FB043D3992A92"
 				type: "item"
-				item: "integrateddynamics:squeezer"
-			}
-			{
-				id: "51238198363D1773"
-				type: "item"
-				item: "immersiveengineering:dust_iron"
-				count: 8L
-			}
-		]
-		rewards: [{
-			id: "364FB043D3992A92"
-			type: "item"
-			item: {
-				id: "treasurebags:treasure_bag"
-				Count: 1b
-				tag: {
-					silentlib.LootContainer: {
-						LootTable: "limitlessrebirth:uncommon"
-						BagType: "limitlessrebirth:uncommon_bag"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:uncommon"
+							BagType: "limitlessrebirth:uncommon_bag"
+						}
 					}
 				}
-			}
-		}]
-	}]
+			}]
+		}
+		{
+			title: "Mineral deposits: Surveying"
+			x: -3.0d
+			y: -2.0d
+			shape: "circle"
+			subtitle: "\"Looking for who asked\""
+			description: [
+				"Mineral deposits are one of the main sources long term ore production, and veins can be tracked down using a set of survey tools."
+				"Survey tools will tell you whether or not you're close to a vein, and how far away you are, which is the first step in tapping into that vein."
+			]
+			dependencies: ["30ECBC395B4828E5"]
+			id: "3E268B2E9E330F92"
+			tasks: [{
+				id: "08639F23EEFF5DDB"
+				type: "item"
+				item: {
+					id: "immersiveengineering:survey_tools"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "422D0D1FBC5FDFBF"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:common"
+							BagType: "limitlessrebirth:common_bag"
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			title: "Mineral deposits: Core samples"
+			icon: "immersiveengineering:sample_drill"
+			x: -3.0d
+			y: -4.0d
+			shape: "hexagon"
+			subtitle: "\"Rotten to the core!\""
+			description: [
+				"After you use the mineral survey kit to determine the location of a vein, you can use a sample drill to accquire a core sample, which will tell you more info about the deposits below."
+				"More details about what ores a deposit contains can be determined by reading the Engineers Manual."
+				"Once you find a deposit that contains ores you wish to mine, you can use an Excavator to dig them up, however be aware an excavator requires a large amount of energy to run, so its good to do this later on in the game!"
+			]
+			dependencies: ["3E268B2E9E330F92"]
+			id: "4C2809A5E1BFF9EB"
+			tasks: [
+				{
+					id: "07C29F7BDAA42FE8"
+					type: "item"
+					item: {
+						id: "immersiveengineering:coresample"
+						Count: 1b
+						tag: {
+							x: -127
+							z: -225
+							dimension: "minecraft:overworld"
+							mineralInfo: [
+								{
+									depletion: 7283
+									saturation: 0.8592888136065755d
+									mineral: "immersiveengineering:mineral/auricupride"
+									percentage: 0.4344344344344344d
+								}
+								{
+									depletion: 0
+									saturation: 0.9998559938700274d
+									mineral: "immersiveengineering:mineral/venus/shining_coal"
+									percentage: 0.5655655655655656d
+								}
+							]
+							timestamp: 10928507L
+						}
+					}
+				}
+				{
+					id: "09EEDC626DE02876"
+					type: "item"
+					item: "immersiveengineering:sample_drill"
+				}
+			]
+			rewards: [{
+				id: "631165C863C81233"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:uncommon"
+							BagType: "limitlessrebirth:uncommon_bag"
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			title: "Mining well"
+			x: 3.0d
+			y: -2.0d
+			subtitle: "\"Are you mining good or Mining well?\""
+			description: [
+				"The mining well is a simple machine that can be used to dig a hole straight down until it reaches deepslate."
+				"Any blocks it mines will be spat out the top, or deposited into an adjacent inventory!"
+			]
+			dependencies: ["30ECBC395B4828E5"]
+			id: "0EC3310CF8066C34"
+			tasks: [{
+				id: "6E47A1965AF04F14"
+				type: "item"
+				item: "quarryplus:mining_well"
+			}]
+			rewards: [{
+				id: "6D2A4A1AB844246A"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:common"
+							BagType: "limitlessrebirth:common_bag"
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			icon: "quarryplus:quarry"
+			x: 3.0d
+			y: -4.0d
+			shape: "hexagon"
+			subtitle: "\"Like New game+ but for mining\""
+			description: [
+				"The Quarry is a major upgrade to the mining well, in that it can mine through deepslate, and also will mine an entire area of the world instead of a single column!"
+				"Being more complex, it will consume more energy, but it will also provide much more resources."
+				"It will have a default mining radius, but you can use markers to determine the exact space you want your quarry to mine, as long as the space is some form of rectangle!"
+			]
+			dependencies: ["0EC3310CF8066C34"]
+			id: "1803F57940C60627"
+			tasks: [
+				{
+					id: "4706B0AEF9EE6CE3"
+					type: "item"
+					item: "quarryplus:quarry"
+				}
+				{
+					id: "0A4E06C7F05D94F0"
+					type: "item"
+					item: "quarryplus:marker"
+					count: 3L
+				}
+			]
+			rewards: [{
+				id: "6C1BC8D519E42E5A"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:uncommon"
+							BagType: "limitlessrebirth:uncommon_bag"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Orechid"
+			x: -1.0d
+			y: -4.0d
+			shape: "hexagon"
+			subtitle: "\"Yes, every botania flower is a pun, its either that or an anime reference\""
+			description: [
+				"The Orechid is a flower that will convert nearby stone into various ores depending on the type of stone, including stone and ore types from other planets!"
+				"The orechid is a functional flower from Botania, and as such, it requires an adjacent mana pool to supply it with Mana in order for it to work."
+				"The amount of mana requires to convert stone into precious metals is immense, so it is generally recommended to make this later in a playthrough, as a reliable source of ores, and rely on mining until then."
+				"The Lexica botanica has more details on mana generation and functional flowers, and JEI can be used to determine what ores can be generated using different stone types!"
+			]
+			dependencies: ["30ECBC395B4828E5"]
+			id: "290C76C1AC97FB62"
+			tasks: [{
+				id: "47EAB431E8BE8DF5"
+				type: "item"
+				item: "botania:orechid"
+			}]
+			rewards: [{
+				id: "2B3F9F922E474619"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:uncommon"
+							BagType: "limitlessrebirth:uncommon_bag"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Industrial Quarry"
+			icon: "ftbic:quarry"
+			x: 1.0d
+			y: -4.0d
+			shape: "hexagon"
+			subtitle: "\"Quarry, Quarry, Quarry, love is passing me by!\""
+			description: [
+				"The industrial Quarry is an alternative to the Quarry plus, that uses Zaps instead of FE as power, and thus can be used alongside more industrial setups."
+				"Landmarks can be used to customize the border of the quarry, but only in terms of length, and not width."
+			]
+			dependencies: ["30ECBC395B4828E5"]
+			id: "22D248B275FB364D"
+			tasks: [
+				{
+					id: "6B4D3F78187019D8"
+					type: "item"
+					item: "ftbic:quarry"
+				}
+				{
+					id: "16F4E445D9180A3E"
+					type: "item"
+					item: "ftbic:landmark"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "569F1241B5CE45D0"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:uncommon"
+							BagType: "limitlessrebirth:uncommon_bag"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Manual mining"
+			x: 0.0d
+			y: -2.0d
+			subtitle: "\"Ain't much but its honest work\""
+			description: [
+				"Mining is the first available way to collect resources for future projects."
+				"Different materials require different tools and/or tool strengths, the Jade HUD in the upper left will let you know if a block you're looking at can be mined with your held tool."
+				"As a brief example, any axe can chop any wood, and any pickaxe can mine coal ore, but you need an iron pickaxe or better to mine gold ore."
+			]
+			id: "30ECBC395B4828E5"
+			tasks: [{
+				id: "672013CBDB5372A1"
+				type: "item"
+				item: {
+					id: "minecraft:iron_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0001D6E1E896D0F2"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:common"
+							BagType: "limitlessrebirth:common_bag"
+						}
+					}
+				}
+			}]
+		}
+	]
 }
