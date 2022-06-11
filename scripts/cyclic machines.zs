@@ -137,13 +137,6 @@ craftingTable.addShaped("anvil_magma", <item:cyclic:anvil_magma>, [[<item:minecr
 craftingTable.remove(<item:cyclic:tile_transporter_empty>);
 craftingTable.addShaped("tile_transporter_empty", <item:cyclic:tile_transporter_empty>, [[IIngredientEmpty.getInstance(), <tag:items:forge:string>, IIngredientEmpty.getInstance()], [<tag:items:forge:leather>, <item:minecraft:barrel>, <tag:items:forge:leather>], [<tag:items:forge:leather>, <tag:items:forge:leather>, <tag:items:forge:leather>]]);
 
-//cyclic advanced handheld crafting table
-craftingTable.remove(<item:cyclic:crafting_bag>);
-craftingTable.addShaped("advanced_crafting_stick2", <item:cyclic:crafting_bag>, [[IIngredientEmpty.getInstance(), <item:extendedcrafting:black_iron_slate>, IIngredientEmpty.getInstance()], [<item:extendedcrafting:black_iron_slate>, <item:cyclic:crafting_stick>, <item:extendedcrafting:black_iron_slate>], [IIngredientEmpty.getInstance(), <item:extendedcrafting:black_iron_slate>, IIngredientEmpty.getInstance()]]);
-
-//cyclic handheld crafting table
-craftingTable.addShaped("crafting_stick", <item:cyclic:crafting_stick>, [[IIngredientEmpty.getInstance(), <tag:items:minecraft:planks>, <tag:items:minecraft:planks>], [IIngredientEmpty.getInstance(), <tag:items:minecraft:planks>, <tag:items:minecraft:planks>], [<tag:items:forge:rods/wooden>, IIngredientEmpty.getInstance(), IIngredientEmpty.getInstance()]]);
-
 //cyclic workbench
 craftingTable.remove(<item:cyclic:workbench>);
 craftingTable.addShaped("cyclic_workbench", <item:cyclic:workbench>, [[<item:minecraft:tuff>, <item:minecraft:tuff> ,<item:minecraft:tuff>], [<item:minecraft:tuff>, <item:minecraft:crafting_table>, <item:minecraft:tuff>], [<item:minecraft:tuff>, <item:minecraft:tuff>, <item:minecraft:tuff>]]);
