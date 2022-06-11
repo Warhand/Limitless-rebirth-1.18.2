@@ -252,19 +252,6 @@
 					dimension: "undergarden:undergarden"
 				}
 				{
-					id: "175C43F53049EF1E"
-					type: "dimension"
-					title: "The mining dimension"
-					icon: {
-						id: "minecraft:diamond_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-					dimension: "jamd:mining"
-				}
-				{
 					id: "685A6CAD91DA3ED4"
 					type: "dimension"
 					title: "Dimensional dungeons"
@@ -285,6 +272,7 @@
 						}
 					}
 				}
+				count: 3
 			}]
 		}
 		{
