@@ -45,7 +45,7 @@ val crushers_remove as IItemStack[] = [
 	<item:jaopca:create_crushed_ores.desh>,
 	<item:jaopca:create_crushed_ores.froststeel>,
 	<item:jaopca:create_crushed_ores.lead>,
-	<item:jaopca:create_crushed_ores.netherite_scrap> ,
+	<item:jaopca:create_crushed_ores.netherite_scrap>,
 	<item:jaopca:create_crushed_ores.nickel>,
 	<item:jaopca:create_crushed_ores.ostrum>,
 	<item:jaopca:create_crushed_ores.regalium>,
