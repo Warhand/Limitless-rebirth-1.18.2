@@ -200,7 +200,7 @@ import mods.jei.JEI;
   "input": "undergarden:depthrock",
   "output": {
     "type": "block",
-    "block": "beyond_earth:glacio_lapis_ore"
+    "block": "undergarden:depthrock_coal_ore"
   },
   "weight": 75
 });
@@ -351,4 +351,188 @@ import mods.jei.JEI;
     "block": "rftoolsbase:dimensionalshard_nether"
   },
   "weight": 500
+});
+
+//Overworld orechid ore generation
+
+//stone orechid
+<recipetype:botania:orechid>.addJsonRecipe("custom_orechid_stone_lead", {
+  "input": "minecraft:stone",
+  "output": {
+    "type": "block",
+    "block": "ftbic:lead_ore"
+  },
+  "weight": 2600
+});
+
+<recipetype:botania:orechid>.addJsonRecipe("custom_orechid_stone_aluminum", {
+  "input": "minecraft:stone",
+  "output": {
+    "type": "block",
+    "block": "immersiveengineering:ore_aluminum"
+  },
+  "weight": 3000
+});
+
+<recipetype:botania:orechid>.addJsonRecipe("custom_orechid_stone_silver", {
+  "input": "minecraft:stone",
+  "output": {
+    "type": "block",
+    "block": "immersiveengineering:ore_silver"
+  },
+  "weight": 2800
+});
+
+<recipetype:botania:orechid>.addJsonRecipe("custom_orechid_stone_zinc", {
+  "input": "minecraft:stone",
+  "output": {
+    "type": "block",
+    "block": "create:zinc_ore"
+  },
+  "weight": 6000
+});
+
+<recipetype:botania:orechid>.addJsonRecipe("custom_orechid_stone_tin", {
+  "input": "minecraft:stone",
+  "output": {
+    "type": "block",
+    "block": "ftbic:tin_ore"
+  },
+  "weight": 5500
+});
+
+<recipetype:botania:orechid>.addJsonRecipe("custom_orechid_stone_shard", {
+  "input": "minecraft:stone",
+  "output": {
+    "type": "block",
+    "block": "rftoolsbase:dimensionalshard_overworld"
+  },
+  "weight": 900
+});
+
+<recipetype:botania:orechid>.addJsonRecipe("custom_orechid_stone_iridium", {
+  "input": "minecraft:stone",
+  "output": {
+    "type": "block",
+    "block": "ftbic:iridium_ore"
+  },
+  "weight": 100
+});
+
+<recipetype:botania:orechid>.addJsonRecipe("custom_orechid_stone_brilliant", {
+  "input": "minecraft:stone",
+  "output": {
+    "type": "block",
+    "block": "malum:brilliant_stone"
+  },
+  "weight": 3000
+});
+
+<recipetype:botania:orechid>.addJsonRecipe("custom_orechid_stone_soulstone", {
+  "input": "minecraft:stone",
+  "output": {
+    "type": "block",
+    "block": "malum:soulstone_ore"
+  },
+  "weight": 5800
+});
+
+<recipetype:botania:orechid>.addJsonRecipe("custom_orechid_stone_nickel", {
+  "input": "minecraft:stone",
+  "output": {
+    "type": "block",
+    "block": "immersiveengineering:ore_nickel"
+  },
+  "weight": 4500
+});
+
+//deepslate orechid
+<recipetype:botania:orechid>.addJsonRecipe("custom_orechid_deepslate_iridium", {
+  "input": "minecraft:deepslate",
+  "output": {
+    "type": "block",
+    "block": "ftbic:deepslate_iridium_ore"
+  },
+  "weight": 25
+});
+
+<recipetype:botania:orechid>.addJsonRecipe("custom_orechid_deepslate_uranium", {
+  "input": "minecraft:deepslate",
+  "output": {
+    "type": "block",
+    "block": "immersiveengineering:deepslate_ore_uranium"
+  },
+  "weight": 110
+});
+
+<recipetype:botania:orechid>.addJsonRecipe("custom_orechid_deepslate_zinc", {
+  "input": "minecraft:deepslate",
+  "output": {
+    "type": "block",
+    "block": "create:deepslate_zinc_ore"
+  },
+  "weight": 75
+});
+
+<recipetype:botania:orechid>.addJsonRecipe("custom_orechid_deepslate_tin", {
+  "input": "minecraft:deepslate",
+  "output": {
+    "type": "block",
+    "block": "ftbic:deepslate_tin_ore"
+  },
+  "weight": 65
+});
+
+<recipetype:botania:orechid>.addJsonRecipe("custom_orechid_deepslate_nickel", {
+  "input": "minecraft:deepslate",
+  "output": {
+    "type": "block",
+    "block": "immersiveengineering:deepslate_ore_nickel"
+  },
+  "weight": 70
+});
+
+<recipetype:botania:orechid>.addJsonRecipe("custom_orechid_deepslate_silver", {
+  "input": "minecraft:deepslate",
+  "output": {
+    "type": "block",
+    "block": "immersiveengineering:deepslate_ore_silver"
+  },
+  "weight": 150
+});
+
+<recipetype:botania:orechid>.addJsonRecipe("custom_orechid_deepslate_lead", {
+  "input": "minecraft:deepslate",
+  "output": {
+    "type": "block",
+    "block": "ftbic:deepslate_lead_ore"
+  },
+  "weight": 100
+});
+
+<recipetype:botania:orechid>.addJsonRecipe("custom_orechid_deepslate_aluminum", {
+  "input": "minecraft:deepslate",
+  "output": {
+    "type": "block",
+    "block": "immersiveengineering:deepslate_ore_aluminum"
+  },
+  "weight": 75
+});
+
+<recipetype:botania:orechid>.addJsonRecipe("custom_orechid_deepslate_brilliance", {
+  "input": "minecraft:deepslate",
+  "output": {
+    "type": "block",
+    "block": "malum:brilliant_deepslate"
+  },
+  "weight": 50
+});
+
+<recipetype:botania:orechid>.addJsonRecipe("custom_orechid_deepslate_soulstone", {
+  "input": "minecraft:deepslate",
+  "output": {
+    "type": "block",
+    "block": "malum:deepslate_soulstone_ore"
+  },
+  "weight": 120
 });
