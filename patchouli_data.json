@@ -1,6 +1,6 @@
 {
   "bookGuiScale": 4,
-  "clickedVisualize": false,
+  "clickedVisualize": true,
   "bookData": {
     "ars_nouveau:worn_notebook": {
       "viewedEntries": [
@@ -80,10 +80,16 @@
     },
     "patchouli:engineers_manual": {
       "viewedEntries": [
-        "patchouli:heavy/metal_press"
+        "patchouli:heavy/metal_press",
+        "patchouli:heavy/excavator",
+        "patchouli:overview/mineral_deposits",
+        "patchouli:simple/conveyor_belts"
       ],
       "bookmarks": [],
       "history": [
+        "patchouli:overview/mineral_deposits",
+        "patchouli:simple/conveyor_belts",
+        "patchouli:heavy/excavator",
         "patchouli:heavy/metal_press"
       ],
       "completedManualQuests": []
