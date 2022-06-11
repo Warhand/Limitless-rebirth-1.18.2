@@ -533,3 +533,141 @@ craftingTable.addShapeless("ostrum_netherite", <item:minecraft:netherite_ingot>,
 <recipetype:immersiveengineering:bottling_machine>.addJsonRecipe("custom_ie_mixing_dough", {
 "result":{"item":"croptopia:dough"},"input":{"item":"croptopia:flour"},"fluid":{"tag":"minecraft:water","amount":1000}
 });
+
+//milling sourceberries
+<recipetype:create:milling>.addJsonRecipe("custom_create_milling_sourceberry", {
+  "ingredients": [
+    {
+      "item": "ars_nouveau:source_berry"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:purple_dye"
+    },
+    {
+      "item": "minecraft:purple_dye",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 150
+});
+
+<recipetype:ftbic:macerating>.addJsonRecipe("custom_ftb_ic_macerating_sourceberry", {
+	"inputItems": [{
+      "item": "ars_nouveau:source_berry"
+    }],
+  "outputItems": [
+    {
+      "item": "minecraft:purple_dye"
+    },
+	{
+      "item": "minecraft:purple_dye",
+      "count": 1,
+	  "chance": 0.5
+    }
+  ]
+});
+
+<recipetype:immersiveengineering:crusher>.addJsonRecipe("custom_ie_crushing_sourceberries", 
+{
+"secondaries":[{"chance":0.5,"output":{"count":1,"item":"minecraft:purple_dye"}}],"result":{"count":1,"base_ingredient":{"item":"minecraft:purple_dye"}},"input":{"item": "ars_nouveau:source_berry"},"energy":2000
+});
+
+<recipetype:integrateddynamics:squeezer>.addJsonRecipe("custom_squeeze_sourceberries", {
+  "item": [
+    {
+      "item": "ars_nouveau:source_berry"
+    }
+  ],
+  "result": {
+    "items": [
+		{
+			"item": {
+			  "item": "minecraft:purple_dye",
+			  "count": 1
+			}
+		},
+		{
+        "item": "minecraft:purple_dye",
+        "chance": 0.25 as float
+       }
+    ]
+  }
+});
+
+<recipetype:integrateddynamics:mechanical_squeezer>.addJsonRecipe("custom_mech_squeeze_sourceberries", {
+  "item": [
+    {
+      "item": "ars_nouveau:source_berry"
+    }
+  ],
+  "result": {
+    "items": [
+		{
+			"item": {
+			  "item": "minecraft:purple_dye",
+			  "count": 1
+			}
+		},
+		{
+        "item": "minecraft:purple_dye",
+        "chance": 0.25 as float
+       }
+    ]
+  },
+  "duration": 20
+});
+
+//milling magebloom
+<recipetype:create:milling>.addJsonRecipe("custom_create_milling_magebloom", {
+  "ingredients": [
+    {
+      "item": "ars_nouveau:magebloom"
+    }
+  ],
+  "results": [
+    {
+      "item": "ars_nouveau:magebloom_fiber",
+	  "count": 4
+    },
+    {
+      "item": "ars_nouveau:magebloom_fiber",
+	  "count": 2,
+      "chance": 0.25
+    },
+	{
+      "item": "ars_nouveau:magebloom_crop",
+	  "chance": 0.25
+    }
+  ],
+  "processingTime": 150
+});
+
+<recipetype:ftbic:macerating>.addJsonRecipe("custom_ftb_ic_macerating_magebloom", {
+	"inputItems": [{
+      "item": "ars_nouveau:magebloom"
+    }],
+  "outputItems": [
+    {
+      "item": "ars_nouveau:magebloom_fiber",
+	  "count": 4
+    },
+	{
+      "item": "ars_nouveau:magebloom_fiber",
+      "count": 2,
+	  "chance": 0.25
+    }
+  ]
+});
+
+<recipetype:immersiveengineering:crusher>.addJsonRecipe("custom_ie_crushing_magebloom", 
+{
+"secondaries":[{"chance":0.25,"output":{"count":2,"item":"ars_nouveau:magebloom_fiber"}},{"chance":0.25,"output":{"count":1,"item":"ars_nouveau:magebloom_crop"}}],"result":{"count":4,"base_ingredient":{"item":"ars_nouveau:magebloom_fiber"}},"input":{"item": "ars_nouveau:magebloom"},"energy":2000
+});
+
+//Collar tag using plate instead of ingot
+craftingTable.addShaped("collar_tag", <item:domesticationinnovation:collar_tag>, [[<item:minecraft:chain>], [<tag:items:forge:plates/copper>]]);
+
+//adjusting potion charm durability
+<item:apotheosis:potion_charm>.maxDamage = 64;
