@@ -60,3 +60,10 @@ val cooked_fish as IItemStack[] = [
 <tag:items:croptopia:fishes>.add(<item:alexsmobs:lobster_tail>);
 
 //adding meat to croptopia meat tags
+<tag:items:croptopia:beef_replacements>.add(<item:alexsmobs:kangaroo_meat>);
+<tag:items:croptopia:beef_replacements>.add(<item:undergarden:raw_dweller_meat>);
+<tag:items:croptopia:beef_replacements>.add(<item:alexsmobs:moose_ribs>);
+
+<tag:items:croptopia:meat_replacements>.add(<item:alexsmobs:kangaroo_meat>);
+<tag:items:croptopia:meat_replacements>.add(<item:undergarden:raw_dweller_meat>);
+<tag:items:croptopia:meat_replacements>.add(<item:alexsmobs:moose_ribs>);
