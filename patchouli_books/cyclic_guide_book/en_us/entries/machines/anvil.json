@@ -1,7 +1,7 @@
 {
   "name": "block.cyclic.anvil",
   "icon": "cyclic:anvil",
-  "category": "patchouli:cyclic_machines",
+  "category": "patchouli:machines",
   "pages": [
     {
       "type": "text",
