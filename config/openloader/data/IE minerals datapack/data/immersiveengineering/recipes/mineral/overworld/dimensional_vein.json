@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:mineral_mix","ores":[{"chance":0.6,"output":{"item":"rftoolsbase:dimensionalshard_overworld"}},{"chance":0.4,"output":{"tag":"forge:ores/diamond"}}],"dimensions":["minecraft:overworld"],"weight":8,"fail_chance":0.7}

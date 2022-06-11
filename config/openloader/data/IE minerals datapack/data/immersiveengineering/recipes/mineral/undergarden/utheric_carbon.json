@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:mineral_mix","ores":[{"chance":0.4,"output":{"item":"undergarden:depthrock_utherium_ore"}},{"chance":0.4,"output":{"item":"undergarden:depthrock_coal_ore"}},{"chance":0.2,"output":{"item":"undergarden:depthrock_diamond_ore"}}],"dimensions":["undergarden:undergarden"],"weight":15,"fail_chance":0.1, "sample_background":"undergarden:depthrock"}

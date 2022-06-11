@@ -40,12 +40,6 @@
 		},
 		{
 			"type": "patchouli:dual_showcase",
-			"item1": "minecraft:gravel",
-			"item2": "minecraft:ancient_debris",
-			"text": "$(l)Archaic Digsite$() is a mineral vein that can be found in the Nether. $(br)It consists of $(br2)60.00% Gravel $(br)40.00% Ancient Debris."
-		},
-		{
-			"type": "patchouli:dual_showcase",
 			"item1": "minecraft:copper_ore",
 			"item2": "minecraft:deepslate_gold_ore",
 			"text": "$(l)Auricupride$() is a mineral vein that can be found in the Overworld. $(br)It consists of $(br2)75.00% Copper Ore $(br)25.00% Deepslate Gold Ore."
@@ -68,6 +62,13 @@
 			"item2": "minecraft:copper_ore",
 			"item3": "immersiveengineering:dust_sulfur",
 			"text": "$(l)Chalcopyrite$() is a mineral vein that can be found in the Overworld. $(br)It consists of $(br2)35.00% Deepslate Iron Ore $(br)35.00% Copper Ore $(br)30.00% Sulfur Dust."
+		},
+		{
+			"type": "patchouli:triple_showcase",
+			"item1": "create:zinc_ore",
+			"item2": "immersiveengineering:dust_sulfur",
+			"item3": "minecraft:iron_ore",
+			"text": "$(l)Sphalerite$() is a mineral vein that can be found in the Overworld. $(br)It consists of $(br2)60.00% Zinc Ore $(br)20.00% Sulfur Dust $(br)20.00% Iron Ore."
 		},
 		{
 			"type": "patchouli:dual_showcase",
@@ -98,13 +99,6 @@
 		},
 		{
 			"type": "patchouli:triple_showcase",
-			"item1": "minecraft:nether_quartz_ore",
-			"item2": "minecraft:nether_gold_ore",
-			"item3": "immersiveengineering:dust_sulfur",
-			"text": "$(l)Mephic Quarzite$() is a mineral vein that can be found in the Nether. $(br)It consists of $(br2)60.00% Nether Quartz Ore $(br)20.00% Nether Gold Ore $(br)20.00% Sulfur Dust."
-		},
-		{
-			"type": "patchouli:triple_showcase",
 			"item1": "minecraft:deepslate_iron_ore",
 			"item2": "immersiveengineering:deepslate_ore_nickel",
 			"item3": "immersiveengineering:dust_sulfur",
@@ -122,6 +116,202 @@
 			"item1": "immersiveengineering:deepslate_ore_uranium",
 			"item2": "immersiveengineering:deepslate_ore_lead",
 			"text": "$(l)Uraninite$() is a mineral vein that can be found in the Overworld. $(br)It consists of $(br2)70.00% Deepslate Uranium Ore $(br)22.22% Deepslate Lead Ore."
+		},
+		{
+			"type": "patchouli:dual_showcase",
+			"item1": "rftoolsbase:dimensionalshard_overworld",
+			"item2": "minecraft:diamond_ore",
+			"text": "$(l)Dimensional Vein$() is a mineral vein that can be found in the Overworld. $(br)It consists of $(br2)60.00% Dimensional Shard $(br)40.00% Diamond Ore."
+		},
+		{
+			"type": "patchouli:dual_showcase",
+			"item1": "create:zinc_ore",
+			"item2": "ftbic:tin_ore",
+			"text": "$(l)Tinnitus$() is a mineral vein that can be found in the Overworld. $(br)It consists of $(br2)60.00% Zinc Ore $(br)40.00% Tin Ore."
+		},
+		{
+			"type": "patchouli:triple_showcase",
+			"item1": "malum:soulstone_ore",
+			"item2": "malum:brilliant_stone",
+			"item3": "minecraft:lapis_ore",
+			"text": "$(l)Arcanum$() is a mineral vein that can be found in the Overworld. $(br)It consists of $(br2)40.00% Soulstone $(br)30.00% Lapis Lazuli $(br)20.00% Brilliance."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "ftbic:tin_ore",
+			"text": "$(l)Cassiterite$() is a mineral vein that can be found in the Overworld. $(br)It consists of $(br2)100.00% Tin Ore."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "ftbic:deepslate_iridium_ore",
+			"text": "$(l)Irdium Deposit$() is a mineral vein that can be found in the Overworld. $(br)It consists of $(br2)100.00% Iridium Ore."
+		},
+		{
+			"type": "patchouli:triple_showcase",
+			"item1": "minecraft:nether_quartz_ore",
+			"item2": "minecraft:nether_gold_ore",
+			"item3": "immersiveengineering:dust_sulfur",
+			"text": "$(l)Mephic Quarzite$() is a mineral vein that can be found in the Nether. $(br)It consists of $(br2)60.00% Nether Quartz Ore $(br)20.00% Nether Gold Ore $(br)20.00% Sulfur Dust."
+		},
+		{
+			"type": "patchouli:dual_showcase",
+			"item1": "minecraft:gravel",
+			"item2": "minecraft:ancient_debris",
+			"text": "$(l)Archaic Digsite$() is a mineral vein that can be found in the Nether. $(br)It consists of $(br2)60.00% Gravel $(br)40.00% Ancient Debris."
+		},
+		{
+			"type": "patchouli:dual_showcase",
+			"item1": "tconstruct:cobalt_ore",
+			"item2": "minecraft:ancient_debris",
+			"text": "$(l)Ancient Cobalt$() is a mineral vein that can be found in the Nether. $(br)It consists of $(br2)70.00% Cobalt Ore $(br)30.00% Ancient debris."
+		},
+		{
+			"type": "patchouli:triple_showcase",
+			"item1": "malum:blazing_quartz_ore",
+			"item2": "minecraft:magma_block",
+			"item3": "rftoolsbase:dimensionalshard_nether",
+			"text": "$(l)Blazing Shards$() is a mineral vein that can be found in the Nether. $(br)It consists of $(br2)50.00% Blazing Quartz Ore $(br)30.00% Magma Blocks $(br)20.00% Dimensional Shards."
+		},
+		{
+			"type": "patchouli:triple_showcase",
+			"item1": "malum:blazing_quartz_ore",
+			"item2": "minecraft:nether_quartz_ore",
+			"item3": "biomesoplenty:rose_quartz_block",
+			"text": "$(l)Ignis Quartz$() is a mineral vein that can be found in the Nether. $(br)It consists of $(br2)40.00% Blazing Quartz Ore $(br)30.00% Nether Quartz $(br)30.00% Rose Quartz."
+		},
+		{
+			"type": "patchouli:triple_showcase",
+			"item1": "beyond_earth:moon_cheese_ore",
+			"item2": "beyond_earth:moon_iron_ore",
+			"item3": "beyond_earth:moon_ice_shard_ore",
+			"text": "$(l)Ferrous Dairy$() is a mineral vein that can be found on the Moon. $(br)It consists of $(br2)50.00% Moon Cheese Ore $(br)30.00% Moon Iron Ore $(br)20.00% Ice shard ore."
+		},
+		{
+			"type": "patchouli:dual_showcase",
+			"item1": "beyond_earth:moon_ice_shard_ore",
+			"item2": "beyond_earth:moon_cheese_ore",
+			"text": "$(l)Frozen Cheese$() is a mineral vein that can be found on the Moon. $(br)It consists of $(br2)60.00% Ice Shard Ore $(br)40.00% Moon Cheese Ore."
+		},
+		{
+			"type": "patchouli:dual_showcase",
+			"item1": "beyond_earth:moon_iron_ore",
+			"item2": "beyond_earth:moon_desh_ore",
+			"text": "$(l)Moonsteel$() is a mineral vein that can be found on the Moon. $(br)It consists of $(br2)70.00% Desh Ore $(br)30.00% Moon Iron Ore."
+		},
+		{
+			"type": "patchouli:triple_showcase",
+			"item1": "beyond_earth:mars_ice_shard_ore",
+			"item2": "beyond_earth:permafrost",
+			"item3": "beyond_earth:mars_diamond_ore",
+			"text": "$(l)Crystalline Ice$() is a mineral vein that can be found on Mars. $(br)It consists of $(br2)50.00% Ice Shard Ore $(br)30.00% Permafrost $(br)20.00% Martian Diamond Ore."
+		},
+		{
+			"type": "patchouli:dual_showcase",
+			"item1": "beyond_earth:mars_ostrum_ore",
+			"item2": "minecraft:ancient_debris",
+			"text": "$(l)Martian Debris$() is a mineral vein that can be found on Mars. $(br)It consists of $(br2)70.00% Ostrum Ore $(br)30.00% Ancient Debris."
+		},
+		{
+			"type": "patchouli:triple_showcase",
+			"item1": "beyond_earth:mars_iron_ore",
+			"item2": "beyond_earth:mars_ostrum_ore",
+			"item3": "minecraft:ancient_debris",
+			"text": "$(l)Osterrian$() is a mineral vein that can be found on Mars. $(br)It consists of $(br2)50.00% Martian Iron Ore $(br)40.00% Ostrum Ore $(br)10.00% Ancient Debris."
+		},
+		{
+			"type": "patchouli:triple_showcase",
+			"item1": "beyond_earth:venus_calorite_ore",
+			"item2": "beyond_earth:venus_gold_ore",
+			"item3": "beyond_earth:venus_coal_ore",
+			"text": "$(l)Calorum$() is a mineral vein that can be found on Venus. $(br)It consists of $(br2)40.00% Calorite Ore $(br)40.00% Venusian Gold Ore $(br)20.00% Venusian Coal Ore."
+		},
+		{
+			"type": "patchouli:triple_showcase",
+			"item1": "beyond_earth:venus_calorite_ore",
+			"item2": "beyond_earth:venus_coal_ore",
+			"item3": "beyond_earth:venus_diamond_ore",
+			"text": "$(l)Diamondite$() is a mineral vein that can be found on Venus. $(br)It consists of $(br2)50.00% Calorite Ore $(br)30.00% Venusian Coal Ore $(br)20.00% Venusian Diamond Ore."
+		},
+		{
+			"type": "patchouli:triple_showcase",
+			"item1": "beyond_earth:venus_coal_ore",
+			"item2": "beyond_earth:venus_gold_ore",
+			"item3": "beyond_earth:venus_diamond_ore",
+			"text": "$(l)Shining Coal$() is a mineral vein that can be found on Venus. $(br)It consists of $(br2)60.00% Venusian Coal Ore $(br)30.00% Venusian Gold Ore $(br)10.00% Venusian Diamond Ore."
+		},
+		{
+			"type": "patchouli:dual_showcase",
+			"item1": "beyond_earth:glacio_coal_ore",
+			"item2": "beyond_earth:glacio_lapis_ore",
+			"text": "$(l)Blue Carbon$() is a mineral vein that can be found on Glacio. $(br)It consists of $(br2)60.00% Glacian Coal Ore $(br)40.00% Glacian Lapis Ore."
+		},
+		{
+			"type": "patchouli:quad_showcase",
+			"item1": "beyond_earth:glacio_ice_shard_ore",
+			"item2": "beyond_earth:glacio_iron_ore",
+			"item3": "beyond_earth:glacio_coal_ore",
+			"item4": "beyond_earth:glacio_lapis_ore",
+			"text": "$(l)Cryo ferra$() is a mineral vein that can be found on Glacio. $(br)It consists of $(br2)40.00% Glacian Ice shards $(br)30.00% Glacian Iron Ore $(br)20.00% Glacian Coal Ore $(br)10.00% Glacian Lapis Ore."
+		},
+		{
+			"type": "patchouli:triple_showcase",
+			"item1": "beyond_earth:glacio_ice_shard_ore",
+			"item2": "beyond_earth:glacio_iron_ore",
+			"item3": "beyond_earth:glacio_copper_ore",
+			"text": "$(l)Glacial Ore$() is a mineral vein that can be found on Glacio. $(br)It consists of $(br2)40.00% Glacian Ice Shards $(br)30.00% Glacian Iron Ore $(br)30.00% Glacian Copper ore."
+		},
+		{
+			"type": "patchouli:triple_showcase",
+			"item1": "undergarden:depthrock_cloggrum_ore",
+			"item2": "undergarden:depthrock_iron_ore",
+			"item3": "undergarden:depthrock_gold_ore",
+			"text": "$(l)Copprus$() is a mineral vein that can be found in the Undergarden. $(br)It consists of $(br2)50.00% Cloggrum Ore $(br)30.00% Deep Iron Ore $(br)20.00% Deep Gold Ore."
+		},
+		{
+			"type": "patchouli:dual_showcase",
+			"item1": "undergarden:depthrock_iron_ore",
+			"item2": "undergarden:depthrock_gold_ore",
+			"text": "$(l)Ferrous Aurum$() is a mineral vein that can be found in the Undergarden. $(br)It consists of $(br2)60.00% Deep Iron Ore $(br)40.00% Deep Gold Ore."
+		},
+		{
+			"type": "patchouli:triple_showcase",
+			"item1": "undergarden:depthrock_cloggrum_ore",
+			"item2": "undergarden:depthrock_utherium_ore",
+			"item3": "undergarden:depthrock_diamond_ore",
+			"text": "$(l)Polished Coprolite$() is a mineral vein that can be found in the Undergarden. $(br)It consists of $(br2)60.00% Deep Cloggrum Ore $(br)30.00% Deep Utherium Ore $(br)10.00% Deep Diamond Ore."
+		},
+		{
+			"type": "patchouli:triple_showcase",
+			"item1": "undergarden:depthrock_utherium_ore",
+			"item2": "undergarden:depthrock_coal_ore",
+			"item3": "undergarden:depthrock_diamond_ore",
+			"text": "$(l)Utheric Carbon$() is a mineral vein that can be found in the Undergarden. $(br)It consists of $(br2)40.00% Deep Utherium Ore $(br)40.00% Deep Coal Ore $(br)20.00% Deep Diamond Ore."
+		},
+		{
+			"type": "patchouli:dual_showcase",
+			"item1": "undergarden:shiverstone_iron_ore",
+			"item2": "undergarden:shiverstone_froststeel_ore",
+			"text": "$(l)Ferrofrost$() is a mineral vein that can be found in the Undergarden. $(br)It consists of $(br2)60.00% Shiver Iron Ore $(br)40.00% Froststeel."
+		},
+		{
+			"type": "patchouli:dual_showcase",
+			"item1": "undergarden:shiverstone_froststeel_ore",
+			"item2": "undergarden:shiverstone_utherium_ore",
+			"text": "$(l)Frosty Utherium$() is a mineral vein that can be found in the Undergarden. $(br)It consists of $(br2)50.00% Froststeel $(br)50.00% Shiver Utherium Ore."
+		},
+		{
+			"type": "patchouli:triple_showcase",
+			"item1": "undergarden:shiverstone_cloggrum_ore",
+			"item2": "undergarden:shiverstone_froststeel_ore",
+			"item3": "undergarden:shiverstone_coal_ore",
+			"text": "$(l)Glacial Coprolite$() is a mineral vein that can be found in the Undergarden. $(br)It consists of $(br2)40.00% Shiver Cloggrum Ore $(br)40.00% Froststeel $(br)20.00% Shiver Coal Ore."
+		},
+		{
+			"type": "patchouli:triple_showcase",
+			"item1": "undergarden:shiverstone_coal_ore",
+			"item2": "undergarden:shiverstone_froststeel_ore",
+			"item3": "undergarden:shiverstone_diamond_ore",
+			"text": "$(l)Shivercoal$() is a mineral vein that can be found in the Undergarden. $(br)It consists of $(br2)60.00% Shiver Coal Ore $(br)30.00% Froststeel $(br)10.00% Shiver Diamond Ore."
 		}
 	]
 }

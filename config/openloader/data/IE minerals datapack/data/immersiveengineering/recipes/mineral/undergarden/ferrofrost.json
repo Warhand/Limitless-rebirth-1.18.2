@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:mineral_mix","ores":[{"chance":0.6,"output":{"item":"undergarden:shiverstone_iron_ore"}},{"chance":0.4,"output":{"item":"undergarden:shiverstone_froststeel_ore"}}],"dimensions":["undergarden:undergarden"],"weight":15,"fail_chance":0.1, "sample_background":"undergarden:shiverstone"}

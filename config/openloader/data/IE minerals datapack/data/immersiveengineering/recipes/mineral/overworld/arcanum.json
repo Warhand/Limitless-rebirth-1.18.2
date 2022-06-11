@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:mineral_mix","ores":[{"chance":0.4,"output":{"tag":"forge:ores/soulstone"}},{"chance":0.3,"output":{"tag":"forge:ores/lapis"}},{"chance":0.3,"output":{"tag":"forge:ores/brilliance"}}],"dimensions":["minecraft:overworld"],"weight":15,"fail_chance":0.7}
