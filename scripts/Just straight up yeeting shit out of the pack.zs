@@ -42,6 +42,8 @@ furnace.removeByRegex("jaopca:beyond_earth.recycling.*_from_compresseds");
 <recipetype:tconstruct:alloying>.removeByName("tconstruct:smeltery/alloys/molten_bronze");
 craftingTable.removeByName("extendedcrafting:black_iron_ingot");
 craftingTable.removeByName("extendedcrafting:redstone_ingot");
+craftingTable.removeByName("cyclic:netherite_ingot");
+craftingTable.removeByName("createdeco:netherite_ingot");
 
 //item removal lists
 
@@ -318,7 +320,8 @@ val jei_removal as IItemStack[] = [
 	<item:cyclic:crusher>,
 	<item:cyclic:magma_bucket>,
 	<item:ftbic:fluid_cell>.withTag({Fluid: "cyclic:magma" as string}),
-	<item:cyclic:conveyor>
+	<item:cyclic:conveyor>,
+	<item:cyclic:inventory_cake>
 ];
 
 for item in jei_removal{
@@ -509,7 +512,16 @@ val utter_eradication as IItemStack[] = [
 	<item:createdeco:netherite_nugget>,
 	<item:cyclic:netherite_nugget>,
 	<item:create:dough>,
-	<item:create:wheat_flour>
+	<item:create:wheat_flour>,
+	<item:cyclic:peat_fuel>,
+	<item:cyclic:crafting_stick>,
+	<item:cyclic:crafting_bag>,
+	<item:rftoolsbuilder:shape_card_quarry>,
+	<item:rftoolsbuilder:shape_card_quarry_clear>,
+	<item:rftoolsbuilder:shape_card_quarry_clear_fortune>,
+	<item:rftoolsbuilder:shape_card_quarry_clear_silk>,
+	<item:rftoolsbuilder:shape_card_quarry_fortune>,
+	<item:rftoolsbuilder:shape_card_quarry_silk>
 ];
 
 for item in utter_eradication{
