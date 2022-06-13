@@ -521,7 +521,9 @@ val utter_eradication as IItemStack[] = [
 	<item:rftoolsbuilder:shape_card_quarry_clear_fortune>,
 	<item:rftoolsbuilder:shape_card_quarry_clear_silk>,
 	<item:rftoolsbuilder:shape_card_quarry_fortune>,
-	<item:rftoolsbuilder:shape_card_quarry_silk>
+	<item:rftoolsbuilder:shape_card_quarry_silk>,
+	<item:cyclic:spark>,
+	<item:cyclic:fireball>
 ];
 
 for item in utter_eradication{
