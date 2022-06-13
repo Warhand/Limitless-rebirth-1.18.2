@@ -148,12 +148,11 @@ blastFurnace.remove(<item:beyond_earth:steel_ingot>);
 craftingTable.addShapeless("uncrafting_rose_quartz", <item:biomesoplenty:rose_quartz_block> * 4, [<item:biomesoplenty:rose_quartz_shard>]);
 
 //beyond earth hammer durability upgrade
-<item:beyond_earth:hammer>.maxDamage = 50;
+<item:beyond_earth:hammer>.maxDamage = 75;
 
 //immersive engineering hammer durability upgrade and recipe change
 craftingTable.remove(<item:immersiveengineering:hammer>);
-<item:immersiveengineering:hammer>.maxDamage = 100;
-craftingTable.addShaped("immersiveengineering_crafting_hammer", <item:immersiveengineering:hammer>, [[IIngredientEmpty.getInstance(), <tag:items:forge:ingots/lead>, <tag:items:forge:fiber_hemp>], [IIngredientEmpty.getInstance(), <tag:items:forge:rods/wooden>, <tag:items:forge:ingots/lead>], [<tag:items:forge:rods/wooden>, IIngredientEmpty.getInstance(), IIngredientEmpty.getInstance()]]);
+craftingTable.addShaped("immersiveengineering_crafting_hammer", <item:immersiveengineering:hammer>, [[IIngredientEmpty.getInstance(), <tag:items:forge:ingots/iron>, <tag:items:forge:fiber_hemp>], [IIngredientEmpty.getInstance(), <tag:items:forge:rods/wooden>, <tag:items:forge:ingots/iron>], [<tag:items:forge:rods/wooden>, IIngredientEmpty.getInstance(), IIngredientEmpty.getInstance()]]);
 
 //bundle recipe redo
 craftingTable.remove(<item:minecraft:bundle>);
@@ -279,10 +278,6 @@ mods.extendedcrafting.EnderCrafting.addShaped("330a6455-0052-4566-a944-c8a7a51f5
 	[<item:extendedcrafting:ender_ingot>, <item:minecraft:golden_carrot>, <item:extendedcrafting:ender_ingot>], 
 	[<item:minecraft:ender_eye>, <item:extendedcrafting:ender_ingot>, <item:minecraft:ender_eye>]
 ]);
-
-//furnace tin
-//furnace.addRecipe("tin_cook", <item:indreb:tin_ingot>, <item:create:crushed_tin_ore>, 0.5, 200);
-//blastFurnace.addRecipe("tin_blast", <item:indreb:tin_ingot>, <item:create:crushed_tin_ore>, 0.5, 100);
 
 //raw block blasting
 
@@ -668,6 +663,3 @@ craftingTable.addShapeless("ostrum_netherite", <item:minecraft:netherite_ingot>,
 
 //Collar tag using plate instead of ingot
 craftingTable.addShaped("collar_tag", <item:domesticationinnovation:collar_tag>, [[<item:minecraft:chain>], [<tag:items:forge:plates/copper>]]);
-
-//adjusting potion charm durability
-<item:apotheosis:potion_charm>.maxDamage = 64;
