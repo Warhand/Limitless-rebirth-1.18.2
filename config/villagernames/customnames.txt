@@ -12,4 +12,8 @@ Callum,
 Kimmy,
 Erika,
 Celestine,
-Princess
+Princess,
+Radagon,
+Marika,
+Ranni,
+Morgott
