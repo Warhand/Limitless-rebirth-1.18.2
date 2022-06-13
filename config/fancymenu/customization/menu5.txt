@@ -272,7 +272,7 @@ customization {
   actionid = 384e2c08-ac3c-402e-8222-f950d9dfa58a1651492636813
   action = addbutton
   y = 24
-  value = https://github.com/Warhand/Limitless-rebirth-1.18.2/issues/blob/main/Resource%20pack%20reccomendations.md
+  value = https://github.com/Warhand/Limitless-rebirth-1.18.2/blob/main/Visual%20mods%20and%20resource%20packs.md
   height = 20
 }
 
