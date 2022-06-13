@@ -70,6 +70,7 @@ C:.
     effortlessbuilding-1.18-2.34.jar
     EnchantmentDescriptions-Forge-1.18.2-10.0.3.jar
     EnderStorage-1.18.2-2.9.0.177-universal.jar
+    energytransformer-1.18.2-1.0.6.jar
     entityculling-forge-mc1.18-1.5.1.jar
     Entity_Collision_FPS_Fix-forge-1.18.2-1.0.0.jar
     expandability-6.0.0.jar
@@ -143,6 +144,7 @@ C:.
     plonk-1.18.2-10.0.2.jar
     portabletanks-1.1.4-mc1.18.jar
     PrettyPipes-1.12.3.jar
+    PrideFlagsMod-1.18.2.jar
     PuzzlesLib-v3.3.5-1.18.2-Forge.jar
     Quark-3.2-357.jar
     QuarkOddities-1.18.jar
@@ -218,4 +220,4 @@ C:.
 No subfolders exist 
 
 Mon 06/13/2022 
-03:31 PM
+05:11 PM
