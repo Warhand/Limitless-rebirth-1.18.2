@@ -229,5 +229,18 @@
 				}
 			}]
 		}
+		{
+			x: -4.0d
+			y: -2.0d
+			id: "5A3F47E24430BF18"
+			tasks: [{
+				id: "3B435C4529C05EC4"
+				type: "observation"
+				icon: "immersiveengineering:excavator"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:excavator"
+			}]
+		}
 	]
 }
