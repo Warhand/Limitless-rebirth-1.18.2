@@ -6,6 +6,9 @@ import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.item.ItemDefinition;
 import crafttweaker.api.recipe.MirrorAxis;
 import crafttweaker.api.recipe.SmithingRecipeManager;
+import crafttweaker.api.fluid.FluidIngredient;
+import crafttweaker.api.fluid.IFluidStack;
+import crafttweaker.api.tag.type.KnownTag;
 
 
 //adding var for hammers
@@ -73,7 +76,6 @@ val plate_wire_map as IItemStack[IIngredient] = {
 	<tag:items:forge:plates/electrum>.asIIngredient(): <item:immersiveengineering:wire_electrum>,
 	<tag:items:forge:plates/copper>.asIIngredient(): <item:immersiveengineering:wire_copper>,
 	<tag:items:forge:plates/lead>.asIIngredient(): <item:immersiveengineering:wire_lead>,
-	<tag:items:forge:plates/iron>.asIIngredient(): <item:createaddition:iron_wire>,
 	<tag:items:forge:plates/gold>.asIIngredient(): <item:ftbic:gold_wire>,
 	<tag:items:forge:plates/enderium>.asIIngredient(): <item:ftbic:enderium_wire>
 };
@@ -160,6 +162,39 @@ for input, output in ingot_rod_map{
 });
 }
 
+<recipetype:create:compacting>.addJsonRecipe("custom_compacting_compressed_copper_plates", {
+  "ingredients": [
+    {
+      "tag": "forge:plates/copper"
+    },
+	{
+      "tag": "forge:plates/copper"
+    },
+	{
+      "tag": "forge:plates/copper"
+    },
+	{
+      "tag": "forge:plates/copper"
+    },
+	{
+      "tag": "forge:plates/copper"
+    },
+	{
+      "tag": "forge:plates/copper"
+    },
+	{
+      "tag": "forge:plates/copper"
+    },
+	{
+      "tag": "forge:plates/copper"
+    }
+  ],
+  "results": [
+    {
+      "item": "ftbic:dense_copper_plate"
+    }
+  ]
+});
 
 //IE recipes
 
@@ -208,6 +243,13 @@ for input, output in ingot_rod_map{
 	"mold":"immersiveengineering:mold_rod",
 	"result":{"item":"immersiveengineering:graphite_electrode"},
 	"input":{"count":4, "base_ingredient":{"tag": "forge:ingots/hop_graphite"}},
+	"energy":2400
+});
+
+<recipetype:immersiveengineering:metal_press>.addJsonRecipe("custom_pressing_compressed_copper_plate", {
+	"mold":"immersiveengineering:mold_plate",
+	"result":{"item":"ftbic:dense_copper_plate"},
+	"input":{"count":8, "base_ingredient":{"tag": "forge:plates/copper"}},
 	"energy":2400
 });
 
@@ -311,5 +353,389 @@ for input, output in ingot_compressed_map{
     }
   ],
   "heatRequirement": "heated"
+});
+}
+
+//Tconstruct casting table
+
+//iron plate
+
+<recipetype:tconstruct:casting_table>.addJsonRecipe("custom_casting_iron_plate_multi", {
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/plate"
+  },
+  "fluid": {
+    "tag": "forge:molten_iron",
+    "amount": 90
+  },
+  "result": {
+    "item": "immersiveengineering:plate_iron"
+  },
+  "cooling_time": 60
+});
+
+<recipetype:tconstruct:casting_table>.addJsonRecipe("custom_casting_iron_plate_single", {
+  "cast": {
+    "tag": "tconstruct:casts/single_use/plate"
+  },
+  "fluid": {
+    "tag": "forge:molten_iron",
+    "amount": 90
+  },
+  "result": {
+    "item": "immersiveengineering:plate_iron"
+  },
+  "cooling_time": 60
+});
+
+//gold plate
+
+<recipetype:tconstruct:casting_table>.addJsonRecipe("custom_casting_gold_plate_multi", {
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/plate"
+  },
+  "fluid": {
+    "tag": "forge:molten_gold",
+    "amount": 90
+  },
+  "result": {
+    "item": "immersiveengineering:plate_gold"
+  },
+  "cooling_time": 60
+});
+
+<recipetype:tconstruct:casting_table>.addJsonRecipe("custom_casting_gold_plate_single", {
+  "cast": {
+    "tag": "tconstruct:casts/single_use/plate"
+  },
+  "fluid": {
+    "tag": "forge:molten_gold",
+    "amount": 90
+  },
+  "result": {
+    "item": "immersiveengineering:plate_gold"
+  },
+  "cooling_time": 60
+});
+
+//gold wire
+
+<recipetype:tconstruct:casting_table>.addJsonRecipe("custom_casting_gold_wire_multi", {
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/wire"
+  },
+  "fluid": {
+    "tag": "forge:molten_gold",
+    "amount": 45
+  },
+  "result": {
+    "item": "ftbic:gold_wire"
+  },
+  "cooling_time": 40
+});
+
+<recipetype:tconstruct:casting_table>.addJsonRecipe("custom_casting_gold_wire_single", {
+  "cast": {
+    "tag": "tconstruct:casts/single_use/wire"
+  },
+  "fluid": {
+    "tag": "forge:molten_gold",
+    "amount": 45
+  },
+  "result": {
+    "item": "ftbic:gold_wire"
+  },
+  "cooling_time": 40
+});
+
+//copper plate
+
+<recipetype:tconstruct:casting_table>.addJsonRecipe("custom_casting_copper_plate_multi", {
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/plate"
+  },
+  "fluid": {
+    "tag": "forge:molten_copper",
+    "amount": 90
+  },
+  "result": {
+    "item": "immersiveengineering:plate_copper"
+  },
+  "cooling_time": 60
+});
+
+<recipetype:tconstruct:casting_table>.addJsonRecipe("custom_casting_copper_plate_single", {
+  "cast": {
+    "tag": "tconstruct:casts/single_use/plate"
+  },
+  "fluid": {
+    "tag": "forge:molten_copper",
+    "amount": 90
+  },
+  "result": {
+    "item": "immersiveengineering:plate_copper"
+  },
+  "cooling_time": 60
+});
+
+//Regalium gem
+
+<recipetype:tconstruct:casting_table>.addJsonRecipe("custom_casting_regalium_gem_multi", {
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/gem"
+  },
+  "fluid": {
+    "tag": "forge:molten_regalium",
+    "amount": 90
+  },
+  "result": {
+    "item": "undergarden:regalium_crystal"
+  },
+  "cooling_time": 60
+});
+
+<recipetype:tconstruct:casting_table>.addJsonRecipe("custom_casting_regalium_gem_single", {
+  "cast": {
+    "tag": "tconstruct:casts/single_use/gem"
+  },
+  "fluid": {
+    "tag": "forge:molten_regalium",
+    "amount": 90
+  },
+  "result": {
+    "item": "undergarden:regalium_crystal"
+  },
+  "cooling_time": 60
+});
+
+//utherium gem
+
+<recipetype:tconstruct:casting_table>.addJsonRecipe("custom_casting_utherium_gem_multi", {
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/gem"
+  },
+  "fluid": {
+    "tag": "materialis:molten_utherium",
+    "amount": 90
+  },
+  "result": {
+    "item": "undergarden:utherium_crystal"
+  },
+  "cooling_time": 60
+});
+
+<recipetype:tconstruct:casting_table>.addJsonRecipe("custom_casting_utherium_gem_single", {
+  "cast": {
+    "tag": "tconstruct:casts/single_use/gem"
+  },
+  "fluid": {
+    "tag": "materialis:molten_utherium",
+    "amount": 90
+  },
+  "result": {
+    "item": "undergarden:utherium_crystal"
+  },
+  "cooling_time": 60
+});
+
+//enderium wire
+
+<recipetype:tconstruct:casting_table>.addJsonRecipe("custom_casting_enderium_wire_multi", {
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/wire"
+  },
+  "fluid": {
+    "tag": "tconstruct:molten_enderium",
+    "amount": 45
+  },
+  "result": {
+    "item": "ftbic:enderium_wire"
+  },
+  "cooling_time": 40
+});
+
+<recipetype:tconstruct:casting_table>.addJsonRecipe("custom_casting_enderium_wire_single", {
+  "cast": {
+    "tag": "tconstruct:casts/single_use/wire"
+  },
+  "fluid": {
+    "tag": "tconstruct:molten_enderium",
+    "amount": 45
+  },
+  "result": {
+    "item": "ftbic:enderium_wire"
+  },
+  "cooling_time": 40
+});
+
+//automated casting
+
+//ingot casting
+
+val fluid_ingot_cast_map as IItemStack[IFluidStack] = {
+	<fluid:tconstruct:molten_iron>: <item:minecraft:iron_ingot>,
+	<fluid:tconstruct:molten_copper>: <item:minecraft:copper_ingot>,
+	<fluid:tconstruct:molten_gold>: <item:minecraft:gold_ingot>,
+	<fluid:tconstruct:molten_netherite>: <item:minecraft:netherite_ingot>,
+	<fluid:tconstruct:molten_zinc>: <item:create:zinc_ingot>,
+	<fluid:tconstruct:molten_brass>: <item:create:brass_ingot>,
+	<fluid:tconstruct:molten_aluminum>: <item:immersiveengineering:ingot_aluminum>,
+	<fluid:tconstruct:molten_lead>: <item:immersiveengineering:ingot_lead>,
+	<fluid:tconstruct:molten_silver>: <item:immersiveengineering:ingot_silver>,
+	<fluid:tconstruct:molten_nickel>: <item:immersiveengineering:ingot_nickel>,
+	<fluid:tconstruct:molten_uranium>: <item:immersiveengineering:ingot_uranium>,
+	<fluid:tconstruct:molten_constantan>: <item:immersiveengineering:ingot_constantan>,
+	<fluid:tconstruct:molten_electrum>: <item:immersiveengineering:ingot_electrum>,
+	<fluid:tconstruct:molten_steel>: <item:immersiveengineering:ingot_steel>,
+	<fluid:tconstruct:molten_bronze>: <item:alloyed:bronze_ingot>,
+	<fluid:beyond_earth:molten_desh>: <item:beyond_earth:desh_ingot>,
+	<fluid:beyond_earth:molten_ostrum>: <item:beyond_earth:ostrum_ingot>,
+	<fluid:beyond_earth:molten_calorite>: <item:beyond_earth:calorite_ingot>,
+	<fluid:materialis:molten_cloggrum>: <item:undergarden:cloggrum_ingot>,
+	<fluid:materialis:molten_froststeel>: <item:undergarden:froststeel_ingot>,
+	<fluid:materialis:molten_forgotten_metal>: <item:undergarden:forgotten_ingot>,
+	<fluid:materialis:molten_neptunium>: <item:aquaculture:neptunium_ingot>,
+	<fluid:tconstruct:molten_cobalt>: <item:tconstruct:cobalt_ingot>,
+	<fluid:tconstruct:molten_slimesteel>: <item:tconstruct:slimesteel_ingot>,
+	<fluid:tconstruct:molten_amethyst_bronze>: <item:tconstruct:amethyst_bronze_ingot>,
+	<fluid:tconstruct:molten_pig_iron>: <item:tconstruct:pig_iron_ingot>,
+	<fluid:tconstruct:molten_queens_slime>: <item:tconstruct:queens_slime_ingot>,
+	<fluid:tconstruct:molten_manyullyn>: <item:tconstruct:manyullyn_ingot>,
+	<fluid:tconstruct:molten_hepatizon>: <item:tconstruct:hepatizon_ingot>,
+	<fluid:tconstruct:molten_tin>: <item:ftbic:tin_ingot>,
+	<fluid:jaopca:molten.iridium>: <item:ftbic:iridium_ingot>,
+	<fluid:tconstruct:molten_enderium>: <item:ftbic:enderium_ingot>,
+	<fluid:materialis:molten_manasteel>: <item:botania:manasteel_ingot>,
+	<fluid:materialis:molten_terrasteel>: <item:botania:terrasteel_ingot>,
+	<fluid:materialis:molten_elementium>: <item:botania:elementium_ingot>,
+	<fluid:materialis:molten_fairy>: <item:materialis:fairy_ingot>
+};
+
+for input, output in fluid_ingot_cast_map{
+<recipetype:create:filling>.addJsonRecipe("custom_casting_create_" + output.registryName.path, {
+  "ingredients": [
+    {
+      "tag": "tconstruct:casts/single_use/ingot"
+    },
+    {
+      "fluid": input.registryName,
+      "nbt": {},
+      "amount": 90
+    }
+  ],
+  "results": [
+    {
+      "item": output.registryName
+    }
+  ]
+});
+}
+
+//plate casting
+
+val fluid_plate_cast_map as IItemStack[IFluidStack] = {
+	<fluid:tconstruct:molten_iron>: <item:immersiveengineering:plate_iron>,
+	<fluid:tconstruct:molten_copper>: <item:immersiveengineering:plate_copper>,
+	<fluid:tconstruct:molten_gold>: <item:immersiveengineering:plate_gold>,
+	<fluid:tconstruct:molten_netherite>: <item:createdeco:netherite_sheet>,
+	<fluid:tconstruct:molten_zinc>: <item:createaddition:zinc_sheet>,
+	<fluid:tconstruct:molten_brass>: <item:create:brass_sheet>,
+	<fluid:tconstruct:molten_aluminum>: <item:immersiveengineering:plate_aluminum>,
+	<fluid:tconstruct:molten_lead>: <item:immersiveengineering:plate_lead>,
+	<fluid:tconstruct:molten_silver>: <item:immersiveengineering:plate_silver>,
+	<fluid:tconstruct:molten_nickel>: <item:immersiveengineering:plate_nickel>,
+	<fluid:tconstruct:molten_uranium>: <item:immersiveengineering:plate_uranium>,
+	<fluid:tconstruct:molten_constantan>: <item:immersiveengineering:plate_constantan>,
+	<fluid:tconstruct:molten_electrum>: <item:immersiveengineering:plate_electrum>,
+	<fluid:tconstruct:molten_steel>: <item:immersiveengineering:plate_steel>,
+	<fluid:tconstruct:molten_bronze>: <item:alloyed:bronze_sheet>,
+	<fluid:beyond_earth:molten_desh>: <item:beyond_earth:desh_plate>,
+	<fluid:tconstruct:molten_tin>: <item:ftbic:tin_plate>,
+	<fluid:jaopca:molten.iridium>: <item:ftbic:iridium_plate>,
+	<fluid:tconstruct:molten_enderium>: <item:ftbic:enderium_plate>
+};
+
+for input, output in fluid_plate_cast_map{
+<recipetype:create:filling>.addJsonRecipe("custom_casting_create_" + output.registryName.path, {
+  "ingredients": [
+    {
+      "tag": "tconstruct:casts/single_use/plate"
+    },
+    {
+      "fluid": input.registryName,
+      "nbt": {},
+      "amount": 90
+    }
+  ],
+  "results": [
+    {
+      "item": output.registryName
+    }
+  ]
+});
+}
+
+//gem casting
+
+val fluid_gem_cast_map as IItemStack[IFluidStack] = {
+	<fluid:jaopca:molten.soulstone>: <item:malum:processed_soulstone>,
+	<fluid:materialis:molten_utherium>: <item:undergarden:utherium_crystal>,
+	<fluid:materialis:molten_regalium>: <item:undergarden:regalium_crystal>,
+	<fluid:jaopca:molten.lapis>: <item:minecraft:lapis_lazuli>,
+	<fluid:tconstruct:molten_amethyst>: <item:minecraft:amethyst_shard>,
+	<fluid:tconstruct:molten_quartz>: <item:minecraft:quartz>,
+	<fluid:tconstruct:molten_emerald>: <item:minecraft:emerald>,
+	<fluid:tconstruct:molten_diamond>: <item:minecraft:diamond>
+};
+
+for input, output in fluid_gem_cast_map{
+<recipetype:create:filling>.addJsonRecipe("custom_casting_create_" + output.registryName.path, {
+  "ingredients": [
+    {
+      "tag": "tconstruct:casts/single_use/gem"
+    },
+    {
+      "fluid": input.registryName,
+      "nbt": {},
+      "amount": 90
+    }
+  ],
+  "results": [
+    {
+      "item": output.registryName
+    }
+  ]
+});
+}
+
+//wire casting
+
+val fluid_wire_cast_map as IItemStack[IFluidStack] = {
+	<fluid:tconstruct:molten_enderium>: <item:ftbic:enderium_wire>,
+	<fluid:tconstruct:molten_gold>: <item:ftbic:gold_wire>,
+	<fluid:tconstruct:molten_copper>: <item:immersiveengineering:wire_copper>,
+	<fluid:tconstruct:molten_electrum>: <item:immersiveengineering:wire_electrum>,
+	<fluid:tconstruct:molten_aluminum>: <item:immersiveengineering:wire_aluminum>,
+	<fluid:tconstruct:molten_steel>: <item:immersiveengineering:wire_steel>,
+	<fluid:tconstruct:molten_lead>: <item:immersiveengineering:wire_lead>
+};
+
+for input, output in fluid_wire_cast_map{
+<recipetype:create:filling>.addJsonRecipe("custom_casting_create_" + output.registryName.path, {
+  "ingredients": [
+    {
+      "tag": "tconstruct:casts/single_use/wire"
+    },
+    {
+      "fluid": input.registryName,
+      "nbt": {},
+      "amount": 90
+    }
+  ],
+  "results": [
+    {
+      "item": output.registryName
+    }
+  ]
 });
 }
