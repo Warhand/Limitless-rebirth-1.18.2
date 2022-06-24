@@ -131,10 +131,6 @@ craftingTable.addShapeless("portable_storage_interface", <item:create:portable_s
 craftingTable.remove(<item:create:portable_fluid_interface>);
 craftingTable.addShapeless("portable_fluid_interface", <item:create:portable_fluid_interface>, [<item:create:andesite_casing>, <item:create:smart_chute>]);
 
-//Create fluid tank recipe replaced
-craftingTable.remove(<item:create:fluid_tank>);
-craftingTable.addShaped("create_fluid_tank", <item:create:fluid_tank>, [[<tag:items:forge:plates/copper>, <tag:items:forge:plates/copper>, <tag:items:forge:plates/copper>], [<item:quark:framed_glass>, <item:immersiveengineering:wooden_barrel>, <item:quark:framed_glass>], [<tag:items:forge:plates/copper>, <tag:items:forge:plates/copper>, <tag:items:forge:plates/copper>]]);
-
 //create brass casing new recipe
 craftingTable.addShaped("create_brass_casing", <item:create:brass_casing> * 8, [[<item:immersiveengineering:treated_wood_horizontal>, <item:immersiveengineering:treated_wood_horizontal>, <item:immersiveengineering:treated_wood_horizontal>], [<tag:items:forge:plates/brass>, <tag:items:minecraft:logs>, <tag:items:forge:plates/brass>], [<item:immersiveengineering:treated_wood_horizontal>, <item:immersiveengineering:treated_wood_horizontal>, <item:immersiveengineering:treated_wood_horizontal>]]);
 
@@ -663,3 +659,16 @@ craftingTable.addShapeless("ostrum_netherite", <item:minecraft:netherite_ingot>,
 
 //Collar tag using plate instead of ingot
 craftingTable.addShaped("collar_tag", <item:domesticationinnovation:collar_tag>, [[<item:minecraft:chain>], [<tag:items:forge:plates/copper>]]);
+
+
+//Craftable sand casts
+craftingTable.addShaped("sand_cast_ingot", <item:tconstruct:ingot_sand_cast> * 32, [[<tag:items:forge:sand>, <tag:items:forge:sand>, <tag:items:forge:sand>], [<tag:items:forge:sand>, <tag:items:forge:ingots>, <tag:items:forge:sand>], [<tag:items:forge:sand>, <tag:items:forge:sand>, <tag:items:forge:sand>]]);
+
+craftingTable.addShaped("red_sand_cast_ingot", <item:tconstruct:ingot_red_sand_cast> * 32, [[<item:minecraft:red_sand>, <item:minecraft:red_sand>, <item:minecraft:red_sand>], [<item:minecraft:red_sand>, <tag:items:forge:ingots>, <item:minecraft:red_sand>], [<item:minecraft:red_sand>, <item:minecraft:red_sand>, <item:minecraft:red_sand>]]);
+
+//Sculk sensor recipe
+craftingTable.addShaped("custom_sculk", <item:minecraft:comparator>, [[IIngredientEmpty.getInstance(), <item:graveyard:corruption>, IIngredientEmpty.getInstance()], [<item:graveyard:corruption>, <item:minecraft:ender_eye>, <item:graveyard:corruption>], [<item:biomesoplenty:flesh>, <item:biomesoplenty:flesh>, <item:biomesoplenty:flesh>]]);
+
+//flesh block crafting and uncrafting
+craftingTable.addShaped("custom_crafting_flesh_block", <item:biomesoplenty:flesh>, [[<item:minecraft:rotten_flesh>, <item:minecraft:rotten_flesh>], [<item:minecraft:rotten_flesh>, <item:minecraft:rotten_flesh>]]);
+craftingTable.addShapeless("custom_uncrafting_flesh_block", <item:minecraft:rotten_flesh> * 4, [<item:biomesoplenty:flesh>]);
