@@ -400,37 +400,32 @@ import crafttweaker.api.recipe.SmithingRecipeManager;
 );
 
 <recipetype:immersiveengineering:arc_furnace>.addJsonRecipe("custom_arc_steel", {
-"results":[{"tag":"forge:ingots/steel"}],"additives":[{"tag":"forge:dusts/coal_coke"}],"input":{"tag":"forge:ingots/iron"},"slag":{"tag":"forge:slag"},"time":400,"energy":204800
+"results":[{"item":"immersiveengineering:ingot_steel"}],"additives":[{"tag":"forge:dusts/coal_coke"}],"input":{"tag":"forge:ingots/iron"},"slag":{"tag":"forge:slag"},"time":400,"energy":204800
 }
 );
 
 <recipetype:immersiveengineering:arc_furnace>.addJsonRecipe("custom_arc_steel_desh", {
-"results":[{"count":4,"base_ingredient":{"tag":"forge:ingots/steel"}}],"additives":[{"tag":"forge:dusts/coal_coke"}],"input":{"tag":"forge:ingots/desh"},"slag":{"tag":"forge:slag"},"time":400,"energy":204800
+"results":[{"count":4,"base_ingredient":{"item":"immersiveengineering:ingot_steel"}}],"additives":[{"tag":"forge:dusts/coal_coke"}],"input":{"tag":"forge:ingots/desh"},"slag":{"tag":"forge:slag"},"time":400,"energy":204800
 }
 );
 
 <recipetype:immersiveengineering:arc_furnace>.addJsonRecipe("custom_arc_brass", {
-"results":[{"count":2,"base_ingredient":{"tag":"forge:ingots/brass"}}],"additives":[{"tag":"forge:ingots/zinc"}],"input":{"tag":"forge:ingots/copper"},"time":100,"energy":51200
-}
-);
-
-<recipetype:immersiveengineering:arc_furnace>.addJsonRecipe("custom_arc_constantan", {
-"results":[{"count":2,"base_ingredient":{"tag":"forge:ingots/constantan"}}],"additives":[{"tag":"forge:ingots/nickel"}],"input":{"tag":"forge:ingots/copper"},"time":100,"energy":51200
+"results":[{"count":2,"base_ingredient":{"item":"create:brass_ingot"}}],"additives":[{"tag":"forge:ingots/zinc"}],"input":{"tag":"forge:ingots/copper"},"time":100,"energy":51200
 }
 );
 
 <recipetype:immersiveengineering:arc_furnace>.addJsonRecipe("custom_arc_manyullyn", {
-"results":[{"count":4,"base_ingredient":{"tag":"forge:ingots/manyullyn"}}],"additives":[{"item":"minecraft:netherite_scrap"}],"input":{"count":3,"base_ingredient":{"tag":"forge:ingots/cobalt"}},"time":100,"energy":51200
+"results":[{"count":4,"base_ingredient":{"item":"tconstruct:manyullyn_ingot"}}],"additives":[{"item":"minecraft:netherite_scrap"}],"input":{"count":3,"base_ingredient":{"tag":"forge:ingots/cobalt"}},"time":100,"energy":51200
 }
 );
 
 <recipetype:immersiveengineering:blast_furnace>.addJsonRecipe("custom_ie_alloy_steel_desh", {
-"result":{"count":4,"base_ingredient":{"tag":"forge:ingots/steel"}},"input":{"tag":"forge:ingots/desh"},"slag":{"tag":"forge:slag"},"time":1200
+"result":{"count":4,"base_ingredient":{"item":"immersiveengineering:ingot_steel"}},"input":{"tag":"forge:ingots/desh"},"slag":{"tag":"forge:slag"},"time":1200
 }
 );
 
 <recipetype:immersiveengineering:blast_furnace>.addJsonRecipe("custom_ie_alloy_steel_block_desh", {
-"result":{"count":4,"base_ingredient":{"tag":"forge:storage_blocks/steel"}},"input":{"tag":"forge:storage_blocks/desh"},"slag":{"count":9,"base_ingredient":{"tag":"forge:slag"}},"time":10800
+"result":{"count":4,"base_ingredient":{"item":"immersiveengineering:storage_steel"}},"input":{"tag":"forge:storage_blocks/desh"},"slag":{"count":9,"base_ingredient":{"tag":"forge:slag"}},"time":10800
 }
 );
 
