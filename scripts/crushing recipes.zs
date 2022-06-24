@@ -161,6 +161,7 @@ val ore_to_gem_map as IItemStack[IIngredient] = {
 	<tag:items:forge:ores/diamond>.asIIngredient(): <item:minecraft:diamond>,
 	<tag:items:forge:ores/netherite_scrap>.asIIngredient(): <item:minecraft:netherite_scrap>,
 	<tag:items:forge:ores/emerald>.asIIngredient(): <item:minecraft:emerald>,
+	<tag:items:forge:ores/regalium>.asIIngredient(): <item:undergarden:regalium_crystal>,
 	<tag:items:forge:ores/brilliance>.asIIngredient(): <item:malum:cluster_of_brilliance>
 };
 
