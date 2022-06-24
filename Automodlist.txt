@@ -47,6 +47,7 @@ C:.
     CosmeticArmorReworked-1.18.2-v2.jar
     craftingtweaks-forge-1.18.2-14.0.3.jar
     CraftTweaker-forge-1.18.2-9.1.157.jar
+    Create-Curios-1.18.2-v1.0.0.jar
     create-mc1.18.2_v0.4.1.jar
     createaddition-1.18.2-20220517a.jar
     createdeco-1.2.7-1.18.2.jar
@@ -219,4 +220,4 @@ C:.
 No subfolders exist 
 
 Fri 06/24/2022 
-05:57 PM
+06:33 PM
