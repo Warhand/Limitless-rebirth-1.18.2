@@ -5,7 +5,7 @@ ascendingWinds = true
 #  [block ID]   (Matches all state of the block)
 #  [block ID]#[property1=value],[property2=value],[property3=value]   (Matches state of the block that has specified properties)
 #Same property cannot be specified multiple times. Wind sources with any invalid part will be excluded.
-windSources = ["fire", "soul_fire", "campfire#lit=true", "soul_campfire#lit=true", "decorative_blocks:bonfire", "decorative_blocks:brazier", "decorative_blocks:soul_brazier", "biomesoplenty:brimstone_fumarole", "valhelsia_structures:soul_brazier", "valhelsia_structures:brazier", "minecraft:lava", "biomesoplenty:burning_blossom"]
+windSources = ["fire", "soul_fire", "campfire#lit=true", "soul_campfire#lit=true", "decorative_blocks:bonfire", "decorative_blocks:brazier", "decorative_blocks:soul_brazier", "biomesoplenty:brimstone_fumarole", "valhelsia_structures:soul_brazier", "valhelsia_structures:brazier", "biomesoplenty:burning_blossom"]
 #Horizontal movement speed while paragliding.
 #Range: 0.2 ~ 10.0
 paraglidingSpeed = 2.0
