@@ -67,3 +67,7 @@ val cooked_fish as IItemStack[] = [
 <tag:items:croptopia:meat_replacements>.add(<item:alexsmobs:kangaroo_meat>);
 <tag:items:croptopia:meat_replacements>.add(<item:undergarden:raw_dweller_meat>);
 <tag:items:croptopia:meat_replacements>.add(<item:alexsmobs:moose_ribs>);
+
+//add tag for flesh blocks
+<tag:items:forge:flesh>.add(<item:biomesoplenty:flesh>);
+<tag:items:forge:flesh>.add(<item:biomesoplenty:porous_flesh>);
