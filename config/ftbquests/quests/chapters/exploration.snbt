@@ -1,0 +1,69 @@
+{
+	id: "31AFE73D6EAE94EA"
+	group: ""
+	order_index: 5
+	filename: "exploration"
+	title: "Exploration"
+	icon: "dimdungeons:block_key_charger"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "More quests to come in the next update!"
+			x: 0.0d
+			y: 0.0d
+			id: "7D1E2DF2F28392CC"
+			tasks: [{
+				id: "1B8464713D5A73BE"
+				type: "item"
+				item: "minecraft:cobblestone"
+			}]
+		}
+		{
+			title: "Undergarden expedition"
+			x: 0.0d
+			y: -2.0d
+			subtitle: "\"Welcome to the jungle!\""
+			description: [
+				"The undergarden is a location similar to the nether, however instead of fire and brimstone, it is full of overgrown plants, toxic streams, and accursed beings of pure rot."
+				"To access the undergarden, first build a portal frame similar to a nether portal, using deepslate bricks instead of obsidian, and then activate the deepslate frame with a catalyst."
+			]
+			id: "7E645764A7719BFD"
+			tasks: [
+				{
+					id: "3A655027E55FFCBD"
+					type: "item"
+					item: "undergarden:catalyst"
+				}
+				{
+					id: "2C28F96495BBCE4C"
+					type: "item"
+					item: "minecraft:deepslate_bricks"
+					count: 10L
+				}
+				{
+					id: "49E1F61B4BA49DF3"
+					type: "dimension"
+					title: "Visit the Undergarden"
+					icon: "undergarden:shimmerweed"
+					dimension: "undergarden:undergarden"
+				}
+			]
+			rewards: [{
+				id: "79AA1E076221478F"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:common"
+							BagType: "limitlessrebirth:common_bag"
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+	]
+}
