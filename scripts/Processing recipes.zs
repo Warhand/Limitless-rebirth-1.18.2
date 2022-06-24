@@ -133,6 +133,9 @@ for item in hammers {
 	craftingTable.addShapeless("raw_to_" + crushed.registryName.path + "_with_" + item.registryName.namespace, crushed, [raw, item.anyDamage().transformDamage(1)]);
 }}
 
+for item in hammers {
+	craftingTable.addShapeless("cloggrum_to_fetilizer_with_" + item.registryName.namespace, <item:immersiveengineering:fertilizer> * 2, [<item:undergarden:cloggrum_ingot>, item.anyDamage().transformDamage(1)]);
+}
 
 //JSON recipe loops
 //Create adddition recipes
