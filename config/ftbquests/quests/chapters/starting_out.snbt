@@ -119,6 +119,11 @@
 			y: -2.0d
 			shape: "rsquare"
 			subtitle: "\"Like a bag of holding except finite\""
+			description: [
+				"A bundle can be used to hold up to 64 items of any kind, allowing you to conserve space taken up by incomplete stacks of items."
+				"Items with max stack sizes less than 64 (Such as tools, ender pearls, and eggs) will take up as much space as they would in a stack, so an egg would take up 4 spots, and a tool would take up all 64, making it rather inefficient to put tools in the bag."
+				"You can right click on the bag to extract the last item that was put into it, or you can right click while holding the bag to dump it all out at once."
+			]
 			optional: true
 			id: "0F79C1F1A5A6A913"
 			tasks: [{
@@ -227,19 +232,6 @@
 						}
 					}
 				}
-			}]
-		}
-		{
-			x: -4.0d
-			y: -2.0d
-			id: "5A3F47E24430BF18"
-			tasks: [{
-				id: "3B435C4529C05EC4"
-				type: "observation"
-				icon: "immersiveengineering:excavator"
-				timer: 0L
-				observe_type: 0
-				to_observe: "immersiveengineering:excavator"
 			}]
 		}
 	]
