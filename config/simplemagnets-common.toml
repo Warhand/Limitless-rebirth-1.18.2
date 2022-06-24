@@ -28,7 +28,7 @@
     # Allowed range: 1 ~ 20 - Default: 11
     advancedMagnetMaxRange = 11
 
-    [Demagnetization Coils]
+    [General."Demagnetization Coils"]
         # Should the Advanced Demagnetization Coil be able to filter items?
         # Allowed values: true, false - Default: true
         advancedCoilFilter = true
