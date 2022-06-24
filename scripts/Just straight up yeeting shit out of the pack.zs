@@ -39,11 +39,46 @@ furnace.removeByRegex("jaopca:beyond_earth.recycling.*_from_compresseds");
 //remove by name functions
 <recipetype:create:crushing>.removeByName("create:crushing/nether_gold_ore");
 <recipetype:create:mixing>.removeByName("alloyed:mixing/steel_ingot");
+
 <recipetype:tconstruct:alloying>.removeByName("tconstruct:smeltery/alloys/molten_bronze");
+
+<recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/copper/plate_gold_cast");
+<recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/copper/plate_sand_cast");
+<recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/iron/plate_gold_cast");
+<recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/iron/plate_sand_cast");
+<recipetype:tconstruct:casting_table>.removeByName("materialis:smeltery/casting/metal/utherium/nugget_gold_cast");
+<recipetype:tconstruct:casting_table>.removeByName("materialis:smeltery/casting/metal/utherium/nugget_sand_cast");
+<recipetype:tconstruct:casting_table>.removeByName("materialis:smeltery/casting/metal/regalium/nugget_gold_cast");
+<recipetype:tconstruct:casting_table>.removeByName("materialis:smeltery/casting/metal/regalium/nugget_sand_cast");
+<recipetype:tconstruct:casting_table>.removeByName("materialis:smeltery/casting/metal/utherium/ingot_gold_cast");
+<recipetype:tconstruct:casting_table>.removeByName("materialis:smeltery/casting/metal/utherium/ingot_sand_cast");
+<recipetype:tconstruct:casting_table>.removeByName("materialis:smeltery/casting/metal/regalium/ingot_gold_cast");
+<recipetype:tconstruct:casting_table>.removeByName("materialis:smeltery/casting/metal/regalium/ingot_sand_cast");
+<recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/gold/wire_gold_cast");
+<recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/gold/wire_sand_cast");
+<recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/iron/wire_gold_cast");
+<recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/iron/wire_sand_cast");
+
 craftingTable.removeByName("extendedcrafting:black_iron_ingot");
 craftingTable.removeByName("extendedcrafting:redstone_ingot");
 craftingTable.removeByName("cyclic:netherite_ingot");
 craftingTable.removeByName("createdeco:netherite_ingot");
+craftingTable.removeByName("jaopca:nuggets.to_material.utherium");
+craftingTable.removeByName("jaopca:nuggets.to_material.regalium");
+
+blastFurnace.removeByName("jaopca:create.crushed_to_ingot_blasting.regalium");
+blastFurnace.removeByName("jaopca:dusts.to_material_blasting.regalium");
+blastFurnace.removeByName("jaopca:create.crushed_to_ingot_blasting.utherium");
+blastFurnace.removeByName("jaopca:dusts.to_material_blasting.utherium");
+
+furnace.removeByName("jaopca:create.crushed_to_ingot_smelting.regalium");
+furnace.removeByName("jaopca:dusts.to_material.regalium");
+furnace.removeByName("jaopca:create.crushed_to_ingot_smelting.utherium");
+furnace.removeByName("jaopca:dusts.to_material.utherium");
+
+stoneCutter.removeByName("cyclic:stonecutting/dark_glass");
+
+<recipetype:ars_nouveau:imbuement>.removeByName("ars_nouveau:imbuement_lapis");
 
 //item removal lists
 
@@ -264,7 +299,8 @@ val trash as IItemStack[] = [
 	<item:immersiveengineering:dust_iron>,
 	<item:immersiveengineering:dust_lead>,
 	<item:immersiveengineering:dust_copper>,
-	<item:immersiveengineering:ingot_hop_graphite>
+	<item:immersiveengineering:ingot_hop_graphite>,
+	<item:cyclic:emerald_sword>
 ];
 
 for item in trash{
@@ -272,6 +308,7 @@ for item in trash{
 }
 
 val jei_removal as IItemStack[] = [
+	<item:malum:crushed_soulstone>,
 	<item:cyclic:apple_honey>,
 	<item:cyclic:energy_pipe>,
 	<item:cyclic:item_pipe>,
@@ -321,7 +358,11 @@ val jei_removal as IItemStack[] = [
 	<item:cyclic:magma_bucket>,
 	<item:ftbic:fluid_cell>.withTag({Fluid: "cyclic:magma" as string}),
 	<item:cyclic:conveyor>,
-	<item:cyclic:inventory_cake>
+	<item:cyclic:inventory_cake>,
+	<item:jaopca:create_crushed_ores.utherium>,
+	<item:createaddition:iron_wire>,
+	<item:malum:cracked_osmium_impetus>,
+	<item:malum:osmium_impetus>
 ];
 
 for item in jei_removal{
@@ -523,17 +564,25 @@ val utter_eradication as IItemStack[] = [
 	<item:rftoolsbuilder:shape_card_quarry_fortune>,
 	<item:rftoolsbuilder:shape_card_quarry_silk>,
 	<item:cyclic:spark>,
-	<item:cyclic:fireball>
+	<item:cyclic:fireball>,
+	<item:cyclic:wand_hypno>,
+	<item:cyclic:wand_missile>,
+	<item:cyclic:fire_killer>,
+	<item:cyclic:milk_bottle>,
+	<item:cyclic:laser_cannon>,
+	<item:cyclic:workbench>,
+	<item:ftbic:bronze_plate>,
+	<item:createdeco:zinc_sheet>,
+	<item:jaopca:nuggets.regalium>,
+	<item:jaopca:create_crushed_ores.regalium>,
+	<item:jaopca:dusts.regalium>
 ];
 
 for item in utter_eradication{
-	recipes.remove(item);
 	craftingTable.remove(item);
 	JEI.hideIngredient(item);
-	<recipetype:tconstruct:casting_table>.remove(item);
 	<recipetype:tconstruct:molding_table>.remove(item);
 	<recipetype:immersiveengineering:metal_press>.remove(item);
-	<recipetype:immersiveengineering:arc_furnace>.remove(item);
 	<recipetype:beyond_earth_giselle_addon:rolling>.remove(item);
 	<recipetype:beyond_earth_giselle_addon:extruding>.remove(item);
 	<recipetype:beyond_earth:compressing>.remove(item);
@@ -544,8 +593,11 @@ for item in utter_eradication{
 	<recipetype:create:milling>.remove(item);
 	<recipetype:create:crushing>.remove(item);
 	<recipetype:create:mixing>.remove(item);
-	<recipetype:immersiveengineering:alloy>.remove(item);
 }
 
 
 JEI.hideIngredient(<fluid:cyclic:magma> * 1000);
+JEI.hideIngredient(<fluid:cyclic:xpjuice> * 1000);
+JEI.hideIngredient(<fluid:cyclic:biomass> * 1000);
+JEI.hideIngredient(<fluid:cyclic:honey> * 1000);
+JEI.hideIngredient(<fluid:cyclic:wax> * 1000);
