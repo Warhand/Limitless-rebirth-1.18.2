@@ -2,12 +2,12 @@
 #List of curio slot type settings
 [[curiosSettings]]
 	identifier = "ring"
-	size = 4
+	size = 2
 	override = true
 
 [[curiosSettings]]
 	identifier = "charm"
-	size = 4
+	size = 2
 	override = true
 	
 [[curiosSettings]]
@@ -23,9 +23,4 @@
 [[curiosSettings]]
 	identifier = "belt"
 	size = 1
-	override = true
-	
-[[curiosSettings]]
-	identifier = "charm"
-	size = 2
 	override = true
