@@ -187,7 +187,10 @@ val one_to_one_map as IItemStack[IIngredient] = {
 	<item:minecraft:ender_pearl>: <item:ftbic:ender_dust>,
 	<tag:items:forge:ingots/steel>.asIIngredient(): <item:immersiveengineering:dust_steel>,
 	<tag:items:forge:ingots/constantan>.asIIngredient(): <item:immersiveengineering:dust_constantan>,
-	<tag:items:forge:ingots/electrum>.asIIngredient(): <item:immersiveengineering:dust_electrum>
+	<tag:items:forge:ingots/electrum>.asIIngredient(): <item:immersiveengineering:dust_electrum>,
+	<tag:items:forge:coal_coke>.asIIngredient(): <item:immersiveengineering:dust_coke>,
+	<tag:items:minecraft:coals>.asIIngredient(): <item:ftbic:coal_dust>,
+	<tag:items:forge:charcoal>.asIIngredient(): <item:ftbic:charcoal_dust>
 };
 
 val one_to_four_map as IItemStack[IIngredient] = {
@@ -319,7 +322,7 @@ for input, output in one_to_one_map{
         {
 			"item": {
 			  "item": output.registryName,
-			  "count": 4
+			  "count": 1
 			}
 		}
     ]
@@ -332,7 +335,12 @@ for input, output in one_to_four_map{
   "item": input,
   "result": {
     "items": [
-        output
+        {
+			"item": {
+			  "item": output.registryName,
+			  "count": 4
+			}
+		}
     ]
   }
 });
@@ -899,3 +907,254 @@ for input, output in one_to_four_map{
 "secondaries":[],"result":{"count":4,"base_ingredient":{"item":output.registryName}},"input":input,"energy":6000
 });
 }
+
+//generic crushing recipes
+
+//coke block to dust
+<recipetype:integrateddynamics:squeezer>.addJsonRecipe("custom_squeeze_coke_block", {
+  "item": {"tag":"forge:storage_blocks/coal_coke"},
+  "result": {
+    "items": [
+		{
+			"item": {
+			  "item": "immersiveengineering:dust_coke",
+			  "count": 9
+			}
+		}
+    ]
+  }
+});
+
+<recipetype:integrateddynamics:mechanical_squeezer>.addJsonRecipe("custom_mechanical_squeeze_coke_block", {
+  "item": {"tag":"forge:storage_blocks/coal_coke"},
+  "result": {
+    "items": [
+	  {
+			"item": {
+			  "item": "immersiveengineering:dust_coke",
+			  "count": 9
+			}
+		}
+    ]
+  },
+  "duration": 20
+});
+
+<recipetype:ftbic:macerating>.addJsonRecipe("custom_ftb_ic_macerating_coke_block", {
+	"inputItems": [
+	{
+      "ingredient": {
+        "tag": "forge:storage_blocks/coal_coke"
+      },
+      "count": 1
+    }
+	],
+  "outputItems": [
+    {
+      "item": "immersiveengineering:dust_coke",
+      "count": 9
+    }
+  ]
+});
+
+<recipetype:create:crushing>.addJsonRecipe("custom_create_crushing_coke_block", 
+	{
+  "ingredients": [
+	{
+      "tag": "forge:storage_blocks/coal_coke"
+    }
+  ],
+  "results": [
+    { 
+		"item": "immersiveengineering:dust_coke",
+		"count": 9
+	}
+  ],
+  "processingTime": 400
+});
+
+<recipetype:immersiveengineering:crusher>.addJsonRecipe("custom_ie_crushing_coke_block", 
+{
+"secondaries":[],"result":{"count":9,"base_ingredient":{"item":"immersiveengineering:dust_coke"}},"input":{"tag":"forge:storage_blocks/coal_coke"},"energy":6000
+});
+
+
+//sandstone to sand
+<recipetype:integrateddynamics:squeezer>.addJsonRecipe("custom_squeeze_sandstone", {
+  "item": {"tag":"forge:sandstone"},
+  "result": {
+    "items": [
+		{
+			"item": {
+			  "item": "minecraft:sand",
+			  "count": 2
+			}
+		},
+		{
+			"item": {
+			  "item": "immersiveengineering:dust_saltpeter",
+			  "chance": 0.25
+			}
+		}
+    ]
+  }
+});
+
+<recipetype:integrateddynamics:mechanical_squeezer>.addJsonRecipe("custom_mechanical_squeeze_sandstone", {
+  "item": {"tag":"forge:sandstone"},
+  "result": {
+    "items": [
+	  {
+			"item": {
+			  "item": "minecraft:sand",
+			  "count": 2
+			}
+		},
+		{
+			"item": {
+			  "item": "immersiveengineering:dust_saltpeter",
+			  "chance": 0.5
+			}
+		}
+    ]
+  },
+  "duration": 20
+});
+
+<recipetype:ftbic:macerating>.addJsonRecipe("custom_ftb_ic_macerating_sandstone", {
+	"inputItems": [
+	{
+      "ingredient": {
+        "tag": "forge:sandstone"
+      },
+      "count": 1
+    }
+	],
+  "outputItems": [
+    {
+      "item": "minecraft:sand",
+      "count": 2
+    },
+	{
+      "item": "immersiveengineering:dust_saltpeter",
+      "count": 1,
+	  "chance": 0.5
+    }
+  ]
+});
+
+<recipetype:create:crushing>.addJsonRecipe("custom_create_crushing_sandstone", 
+	{
+  "ingredients": [
+	{
+      "tag": "forge:sandstone"
+    }
+  ],
+  "results": [
+    { 
+		"item": "minecraft:sand",
+		"count": 2
+	},
+	{ 
+		"item": "immersiveengineering:dust_saltpeter",
+		"count": 1,
+		"chance": 0.5
+	}
+  ],
+  "processingTime": 400
+});
+
+<recipetype:immersiveengineering:crusher>.addJsonRecipe("custom_ie_crushing_sandstone", 
+{
+"secondaries":[{"chance":0.5,"output":{"item":"immersiveengineering:dust_saltpeter"}}],"result":{"count":2,"base_ingredient":{"item":"minecraft:sand"}},"input":{"tag":"forge:sandstone"},"energy":6000
+});
+
+//blaze rods to powder
+<recipetype:integrateddynamics:squeezer>.addJsonRecipe("custom_squeeze_blaze_rods", {
+  "item": {"tag":"forge:rods/blaze"},
+  "result": {
+    "items": [
+		{
+			"item": {
+			  "item": "minecraft:blaze_powder",
+			  "count": 3
+			}
+		},
+		{
+			"item": {
+			  "item": "immersiveengineering:dust_sulfur",
+			  "chance": 0.25
+			}
+		}
+    ]
+  }
+});
+
+<recipetype:integrateddynamics:mechanical_squeezer>.addJsonRecipe("custom_mechanical_squeeze_blaze_rods", {
+  "item": {"tag":"forge:rods/blaze"},
+  "result": {
+    "items": [
+	  {
+			"item": {
+			  "item": "minecraft:blaze_powder",
+			  "count": 3
+			}
+		},
+		{
+			"item": {
+			  "item": "immersiveengineering:dust_sulfur",
+			  "chance": 0.5
+			}
+		}
+    ]
+  },
+  "duration": 20
+});
+
+<recipetype:ftbic:macerating>.addJsonRecipe("custom_ftb_ic_macerating_blaze_rods", {
+	"inputItems": [
+	{
+      "ingredient": {
+        "tag": "forge:rods/blaze"
+      },
+      "count": 1
+    }
+	],
+  "outputItems": [
+    {
+      "item": "minecraft:blaze_powder",
+      "count": 3
+    },
+	{
+      "item": "immersiveengineering:dust_sulfur",
+      "count": 1,
+	  "chance": 0.5
+    }
+  ]
+});
+
+<recipetype:create:crushing>.addJsonRecipe("custom_create_crushing_blaze_rods", 
+	{
+  "ingredients": [
+	{
+      "tag": "forge:rods/blaze"
+    }
+  ],
+  "results": [
+    { 
+		"item": "minecraft:blaze_powder",
+		"count": 3
+	},
+	{ 
+		"item": "immersiveengineering:dust_sulfur",
+		"count": 1,
+		"chance": 0.5
+	}
+  ],
+  "processingTime": 400
+});
+
+<recipetype:immersiveengineering:crusher>.addJsonRecipe("custom_ie_crushing_blaze_rods", 
+{
+"secondaries":[{"chance":0.5,"output":{"item":"immersiveengineering:dust_sulfur"}}],"result":{"count":3,"base_ingredient":{"item":"minecraft:blaze_powder"}},"input":{"tag":"forge:rods/blaze"},"energy":6000
+});
