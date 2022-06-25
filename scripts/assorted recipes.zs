@@ -653,3 +653,7 @@ craftingTable.addShaped("custom_sculk", <item:minecraft:comparator>, [[IIngredie
 //flesh block crafting and uncrafting
 craftingTable.addShaped("custom_crafting_flesh_block", <item:biomesoplenty:flesh>, [[<item:minecraft:rotten_flesh>, <item:minecraft:rotten_flesh>], [<item:minecraft:rotten_flesh>, <item:minecraft:rotten_flesh>]]);
 craftingTable.addShapeless("custom_uncrafting_flesh_block", <item:minecraft:rotten_flesh> * 4, [<item:biomesoplenty:flesh>]);
+
+//black dye from coal dust
+craftingTable.addShapeless("custom_coal_dye", <item:minecraft:black_dye> * 2, [<item:ftbic:charcoal_dust>|<item:ftbic:coal_dust>, <item:minecraft:potion>.withTag({Potion: "minecraft:water" as string})]);
+craftingTable.addShapeless("custom_coal_dye_bucket", <item:minecraft:black_dye> * 8, [<item:ftbic:charcoal_dust>|<item:ftbic:coal_dust>, <item:ftbic:charcoal_dust>|<item:ftbic:coal_dust>, <item:ftbic:charcoal_dust>|<item:ftbic:coal_dust>, <item:ftbic:charcoal_dust>|<item:ftbic:coal_dust>, <item:minecraft:water_bucket>]);
