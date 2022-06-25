@@ -32,13 +32,29 @@ furnace.removeByRegex("jaopca:beyond_earth.recycling.*_from_compresseds");
 <recipetype:create:crushing>.removeByRegex("malum:create.crushing.crush_.*");
 <recipetype:immersiveengineering:crusher>.removeByRegex("immersiveengineering:crusher/ingot_.*");
 <recipetype:immersiveengineering:crusher>.removeByRegex("immersiveengineering:crusher/raw_block_.*");
+<recipetype:immersiveengineering:crusher>.removeByRegex("immersiveengineering:crusher.raw_ore_.*");
+<recipetype:immersiveengineering:crusher>.removeByRegex("immersiveengineering:crusher.ore_.*");
+<recipetype:immersiveengineering:crusher>.removeByRegex("immersiveengineering:crusher.*_sandstone");
 <recipetype:ftbic:macerating>.removeByRegex("ftbic:macerating/.*/.*_to_.*");
 <recipetype:ftbic:macerating>.removeByRegex("jaopca:ftbic.*_to_*.*");
 <recipetype:create:crushing>.removeByRegex("jaopca:create.*_to..*");
 
 //remove by name functions
 <recipetype:create:crushing>.removeByName("create:crushing/nether_gold_ore");
+<recipetype:create:crushing>.removeByName("create:crushing/blaze_rod");
 <recipetype:create:mixing>.removeByName("alloyed:mixing/steel_ingot");
+<recipetype:create:milling>.removeByName("create:milling/sandstone");
+<recipetype:create:milling>.removeByName("create:milling/coal");
+<recipetype:create:milling>.removeByName("create:milling/charcoal");
+
+<recipetype:ftbic:macerating>.removeByName("ftbic:macerating/blaze_powder");
+<recipetype:ftbic:macerating>.removeByName("ftbic:macerating/coal_dust");
+<recipetype:ftbic:macerating>.removeByName("ftbic:macerating/charcoal_dust");
+
+<recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/coal_block");
+<recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/coke_block");
+<recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/blaze_powder");
+<recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/coal");
 
 <recipetype:tconstruct:alloying>.removeByName("tconstruct:smeltery/alloys/molten_bronze");
 
@@ -194,7 +210,10 @@ val jei_removal as IItemStack[] = [
 	<item:jaopca:create_crushed_ores.utherium>,
 	<item:createaddition:iron_wire>,
 	<item:malum:cracked_osmium_impetus>,
-	<item:malum:osmium_impetus>
+	<item:malum:osmium_impetus>,
+	<item:ftbic:copper_dust>,
+	<item:quarryplus:replacer_module>,
+	<item:quarryplus:remove_bedrock_module>
 ];
 
 for item in jei_removal{
