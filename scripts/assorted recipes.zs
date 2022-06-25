@@ -38,7 +38,7 @@ craftingTable.addShaped("minecraft_lightning_rod", <item:minecraft:lightning_rod
 
 //quark ender watcher
 craftingTable.remove(<item:quark:ender_watcher>);
-craftingTable.addShaped("quark_ender_watcher", <item:quark:ender_watcher>, [[<item:minecraft:obsidian>, <tag:items:forge:dusts/redstone>, <item:minecraft:obsidian>], [<tag:items:forge:dusts/redstone>, <item:cyclic:eye_redstone>, <tag:items:forge:dusts/redstone>], [<item:minecraft:obsidian>, <tag:items:forge:dusts/redstone>, <item:minecraft:obsidian>]]);
+craftingTable.addShaped("quark_ender_watcher", <item:quark:ender_watcher>, [[<item:minecraft:obsidian>, <tag:items:forge:dusts/redstone>, <item:minecraft:obsidian>], [<tag:items:forge:dusts/redstone>, <item:minecraft:ender_eye>, <tag:items:forge:dusts/redstone>], [<item:minecraft:obsidian>, <tag:items:forge:dusts/redstone>, <item:minecraft:obsidian>]]);
 
 //pretty pipes blank module
 craftingTable.remove(<item:prettypipes:blank_module>);
@@ -174,10 +174,6 @@ craftingTable.addShaped("quarry_y_setter", <item:quarryplus:y_setter>, [[<item:q
 //quarryplus mining well recipe
 craftingTable.addShaped("mining_well", <item:quarryplus:mining_well>, [[<tag:items:forge:plates/iron>, <tag:items:forge:rods/copper>, <tag:items:forge:plates/iron>], [<tag:items:forge:dusts/redstone>, <tag:items:forge:rods/copper>, <tag:items:forge:dusts/redstone>], [<tag:items:forge:plates/iron>, <item:minecraft:iron_pickaxe>, <tag:items:forge:plates/iron>]]);
 
-//quarryplus replacing module recipe
-craftingTable.remove(<item:quarryplus:replacer_module>);
-craftingTable.addShaped("replacing_module", <item:quarryplus:replacer_module>, [[<tag:items:forge:ingots/netherite>, <tag:items:forge:glass/colorless>, <tag:items:forge:ingots/netherite>], [<tag:items:forge:dusts/redstone>, <tag:items:forge:glass/colorless>, <tag:items:forge:dusts/redstone>], [<tag:items:forge:ingots/netherite>, <item:cyclic:placer>, <tag:items:forge:ingots/netherite>]]);
-
 //quarryplus pump module recipe
 craftingTable.remove(<item:quarryplus:pump_module>);
 craftingTable.addShaped("pump_module", <item:quarryplus:pump_module>, [[<tag:items:forge:ingots/iron>, <item:immersiveengineering:fluid_pipe>, <tag:items:forge:ingots/iron>], [<tag:items:forge:dusts/redstone>, <item:immersiveengineering:fluid_pipe>, <tag:items:forge:dusts/redstone>], [<tag:items:forge:ingots/iron>, <item:immersiveengineering:fluid_pump>, <tag:items:forge:ingots/iron>]]);
@@ -251,9 +247,6 @@ craftingTable.addShapedMirrored("minecraft_andesite", MirrorAxis.HORIZONTAL, <it
 //craftingTable.remove(<item:indreb:advanced_machine_casing>);
 //craftingTable.addShaped("indreb_block_advanced_machine_casing", <item:indreb:advanced_machine_casing>, [[<tag:items:forge:plates/steel>, <item:indreb:carbon_plate>, <tag:items:forge:plates/steel>], [<item:indreb:advanced_alloy>, <item:indreb:basic_machine_casing>, <item:indreb:advanced_alloy>], [<tag:items:forge:plates/steel>, <item:indreb:carbon_plate>, <tag:items:forge:plates/steel>]]);
 
-//nether wart block uncrafting
-craftingTable.removeByName("cyclic:crafting/nether_wart_reverse");
-
 //Reach upgrade level 1 recipe
 craftingTable.remove(<item:effortlessbuilding:reach_upgrade1>);
 craftingTable.addShaped("effortlessbuilding_reach_upgrade1", <item:effortlessbuilding:reach_upgrade1>, [[IIngredientEmpty.getInstance(), <item:tconstruct:earth_slime_crystal>, IIngredientEmpty.getInstance()], [<item:tconstruct:earth_slime_crystal>, <item:minecraft:slime_ball>, <item:tconstruct:earth_slime_crystal>], [IIngredientEmpty.getInstance(), <item:tconstruct:earth_slime_crystal>, IIngredientEmpty.getInstance()]]);
@@ -265,15 +258,6 @@ craftingTable.addShaped("effortlessbuilding_reach_upgrade2", <item:effortlessbui
 //reach upgrade level 2 recipe
 craftingTable.remove(<item:effortlessbuilding:reach_upgrade3>);
 craftingTable.addShaped("effortlessbuilding_reach_upgrade3", <item:effortlessbuilding:reach_upgrade3>, [[IIngredientEmpty.getInstance(), <item:tconstruct:ender_slime_crystal>, IIngredientEmpty.getInstance()], [<item:tconstruct:ender_slime_crystal>, <item:tconstruct:ender_slime_ball>, <item:tconstruct:ender_slime_crystal>], [IIngredientEmpty.getInstance(), <item:tconstruct:ender_slime_crystal>, IIngredientEmpty.getInstance()]]);
-
-//ender carrot fix
-<item:cyclic:carrot_ender>.removeTooltip("Stackable hidden shields");
-<item:cyclic:carrot_ender>.addTooltip("Gives your horse temporary damage immunity if its health gets too low, can be stacked.");
-mods.extendedcrafting.EnderCrafting.addShaped("330a6455-0052-4566-a944-c8a7a51f5919", <item:cyclic:carrot_ender>, [
-	[<item:minecraft:ender_eye>, <item:extendedcrafting:ender_ingot>, <item:minecraft:ender_eye>], 
-	[<item:extendedcrafting:ender_ingot>, <item:minecraft:golden_carrot>, <item:extendedcrafting:ender_ingot>], 
-	[<item:minecraft:ender_eye>, <item:extendedcrafting:ender_ingot>, <item:minecraft:ender_eye>]
-]);
 
 //raw block blasting
 
@@ -368,9 +352,6 @@ craftingTable.addShaped("prettypipes_high_speed_module", <item:prettypipes:high_
 craftingTable.addShaped("prettypipes_high_retrieval_module", <item:prettypipes:high_retrieval_module>, [[<item:minecraft:redstone_block>, <item:minecraft:diamond>, <item:minecraft:redstone_block>], [<tag:items:forge:plates/gold>, <item:prettypipes:medium_retrieval_module>, <tag:items:forge:plates/gold>], [<item:minecraft:redstone_block>, <tag:items:forge:plates/gold>, <item:minecraft:redstone_block>]]);
 
 craftingTable.addShaped("prettypipes_high_crafting_module", <item:prettypipes:high_crafting_module>, [[<tag:items:forge:plates/gold>, <tag:items:forge:plates/iron>, <tag:items:forge:plates/gold>], [<tag:items:forge:plates/gold>, <item:prettypipes:medium_crafting_module>, <tag:items:forge:plates/gold>], [<tag:items:forge:plates/gold>, <tag:items:forge:plates/iron>, <tag:items:forge:plates/gold>]]);
-
-//Cyclic terra petra recipe
-craftingTable.addShaped("cyclic_terra_preta", <item:cyclic:terra_preta> * 4, [[<item:cyclic:biomass>, <item:cyclic:soil>, <item:cyclic:biomass>], [<item:cyclic:soil>, <item:alexsmobs:bone_serpent_tooth>, <item:cyclic:soil>], [<item:cyclic:biomass>, <item:cyclic:soil>, <item:cyclic:biomass>]]);
 
 //storage drawers overhauled
 craftingTable.addShaped("storagedrawers_tier_one_storage_upgrade", <item:storagedrawers:obsidian_storage_upgrade>, [[<tag:items:forge:plates/iron>, <tag:items:forge:rods/wooden>, <tag:items:forge:plates/iron>], [<tag:items:forge:rods/wooden>, <item:storagedrawers:upgrade_template>, <tag:items:forge:rods/wooden>], [<tag:items:forge:plates/iron>, <tag:items:forge:rods/wooden>, <tag:items:forge:plates/iron>]]);

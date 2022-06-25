@@ -58,7 +58,6 @@ C:.
     curios-forge-1.18.2-5.0.7.1.jar
     curiouselytra-forge-1.18.1-5.0.1.0.jar
     customizableelytra-1.18.2-1.6.5.jar
-    Cyclic-1.18.2-1.7.1.jar
     CyclopsCore-1.18.2-1.15.1.jar
     Decorative Blocks-forge-1.18.2-2.1.0.jar
     dimdungeons-164-forge-1.18.2.jar
@@ -220,4 +219,4 @@ C:.
 No subfolders exist 
 
 Fri 06/24/2022 
-06:33 PM
+11:02 PM

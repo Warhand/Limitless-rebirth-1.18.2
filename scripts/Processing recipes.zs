@@ -66,8 +66,7 @@ public var cutters = [
 	<item:immersiveengineering:wirecutter>,
 	<item:botania:manasteel_shears>,
 	<item:botania:elementium_shears>,
-	<item:alloyed:steel_shears>,
-	<item:cyclic:shears_obsidian>
+	<item:alloyed:steel_shears>
 ];
 
 val plate_wire_map as IItemStack[IIngredient] = {
