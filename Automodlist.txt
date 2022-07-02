@@ -143,7 +143,6 @@ C:.
     plonk-1.18.2-10.0.2.jar
     portabletanks-1.1.5-forge-mc1.18.jar
     PrettyPipes-1.12.3.jar
-    PrideFlagsMod-1.18.2.jar
     PuzzlesLib-v3.3.5-1.18.2-Forge.jar
     Quark-3.2-358.jar
     QuarkOddities-1.18.jar
@@ -218,5 +217,5 @@ C:.
     
 No subfolders exist 
 
-Fri 06/24/2022 
-11:02 PM
+Fri 07/01/2022 
+08:21 PM
