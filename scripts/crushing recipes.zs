@@ -190,7 +190,8 @@ val one_to_one_map as IItemStack[IIngredient] = {
 	<tag:items:forge:ingots/electrum>.asIIngredient(): <item:immersiveengineering:dust_electrum>,
 	<tag:items:forge:coal_coke>.asIIngredient(): <item:immersiveengineering:dust_coke>,
 	<tag:items:minecraft:coals>.asIIngredient(): <item:ftbic:coal_dust>,
-	<tag:items:forge:charcoal>.asIIngredient(): <item:ftbic:charcoal_dust>
+	<tag:items:forge:charcoal>.asIIngredient(): <item:ftbic:charcoal_dust>,
+	<item:malum:blazing_quartz>: <item:immersiveengineering:dust_sulfur>
 };
 
 val one_to_four_map as IItemStack[IIngredient] = {
@@ -993,7 +994,7 @@ for input, output in one_to_four_map{
 		{
 			"item": {
 			  "item": "immersiveengineering:dust_saltpeter",
-			  "chance": 0.25
+			  "chance": 0.25 as float
 			}
 		}
     ]
@@ -1013,7 +1014,7 @@ for input, output in one_to_four_map{
 		{
 			"item": {
 			  "item": "immersiveengineering:dust_saltpeter",
-			  "chance": 0.5
+			  "chance": 0.5 as float
 			}
 		}
     ]
@@ -1083,7 +1084,7 @@ for input, output in one_to_four_map{
 		{
 			"item": {
 			  "item": "immersiveengineering:dust_sulfur",
-			  "chance": 0.25
+			  "chance": 0.25 as float
 			}
 		}
     ]
@@ -1103,7 +1104,7 @@ for input, output in one_to_four_map{
 		{
 			"item": {
 			  "item": "immersiveengineering:dust_sulfur",
-			  "chance": 0.5
+			  "chance": 0.5 as float
 			}
 		}
     ]
