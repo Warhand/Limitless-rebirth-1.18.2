@@ -15,27 +15,8 @@ I:defaultguiscale = '-1';
 
 ##[customization]
 
-B:advancedmode = 'false';
+B:advancedmode = 'true';
 B:showcustomizationbuttons = 'false';
-
-
-##[mainmenu]
-
-B:hidebranding = 'true';
-B:hidelogo = 'false';
-B:hiderealmsnotifications = 'false';
-B:hideforgenotifications = 'false';
-
-
-##[mainmenu_splash]
-
-S:splashcolor = '#ffff00';
-I:splashrotation = '-20';
-I:splashy = '0';
-I:splashx = '0';
-B:hidesplashtext = 'false';
-S:splashtextfile = '';
-S:splashorientation = 'original';
 
 
 ##[loading]
@@ -51,7 +32,7 @@ S:customgameintroskiptext = '';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = '';
+S:customwindowtitle = 'Minecraft: Limitless rebirth';
 [A minecraft restart is required after changing this value.]
 B:customwindowicon = 'false';
 
