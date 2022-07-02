@@ -52,9 +52,12 @@ furnace.removeByRegex("jaopca:beyond_earth.recycling.*_from_compresseds");
 <recipetype:ftbic:macerating>.removeByName("ftbic:macerating/charcoal_dust");
 
 <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/coal_block");
+<recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/coke");
 <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/coke_block");
 <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/blaze_powder");
 <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/coal");
+<recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/nether_gold");
+<recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/sandstone");
 
 <recipetype:tconstruct:alloying>.removeByName("tconstruct:smeltery/alloys/molten_bronze");
 
