@@ -38,7 +38,7 @@ customization {
 }
 
 customization {
-  identifier = %id=604394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   orientation = element
   orientation_element = 5202392d-261b-489c-a4ea-5e0fba1d0d661648239384105
   x = 204
@@ -47,7 +47,7 @@ customization {
 }
 
 customization {
-  identifier = %id=604394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   action = setbuttondescription
   description = Accessibility settings
 }
@@ -74,12 +74,12 @@ customization {
 }
 
 customization {
-  identifier = %id=400334%
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
   action = hidebutton
 }
 
 customization {
-  identifier = %id=400394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = element
   orientation_element = 5202392d-261b-489c-a4ea-5e0fba1d0d661648239384105
   x = 0
@@ -88,13 +88,13 @@ customization {
 }
 
 customization {
-  identifier = %id=400394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   action = setbuttondescription
   description = Change game settings
 }
 
 customization {
-  identifier = %id=502394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = element
   orientation_element = 5202392d-261b-489c-a4ea-5e0fba1d0d661648239384105
   x = 102
@@ -103,13 +103,13 @@ customization {
 }
 
 customization {
-  identifier = %id=502394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   action = setbuttondescription
   description = Leave the game
 }
 
 customization {
-  identifier = %id=376394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = element
   orientation_element = vanillabtn:400358
   x = -24
@@ -118,9 +118,77 @@ customization {
 }
 
 customization {
-  identifier = %id=376394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   action = setbuttondescription
   description = Language settings
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 346
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 3ea74e2d-7af0-4003-ab9c-f4872b7a24631656733492097
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = 99863911-b016-47b4-b010-ce7d30554ab01656733492099
+  y = 527
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 731
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 64123629-e7f4-4b0e-94e1-5e74a5d574231656733492099
+  y = 549
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 583
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = f58aab30-c097-46dd-be6c-2150a30351381656733492099
+  y = 242
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 343
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 0da29dab-5fd8-4446-a27c-a1d5130ca2ee1656733492099
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = false
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 35899be9-ac21-453a-9933-e1d445c00cf61656733492099
+  y = 0
+  height = 30
 }
 
 customization {
@@ -277,19 +345,19 @@ customization {
 }
 
 customization {
-  identifier = %id=400310%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   action = setbuttondescription
   description = Server listings
 }
 
 customization {
-  identifier = %id=400358%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   action = setbuttondescription
   description = Mod list
 }
 
 customization {
-  identifier = %id=400286%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   action = setbuttondescription
   description = Singleplayer worlds
 }
