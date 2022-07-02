@@ -71,3 +71,16 @@ val cooked_fish as IItemStack[] = [
 //add tag for flesh blocks
 <tag:items:forge:flesh>.add(<item:biomesoplenty:flesh>);
 <tag:items:forge:flesh>.add(<item:biomesoplenty:porous_flesh>);
+
+//adding fishing rods to the fishing rods tag
+
+val fishing_rods as IItemStack[] = [
+	<item:minecraft:fishing_rod>,
+	<item:alloyed:steel_fishing_rod>,
+	<item:aquaculture:iron_fishing_rod>,
+	<item:aquaculture:gold_fishing_rod>,
+	<item:aquaculture:diamond_fishing_rod>,
+	<item:aquaculture:neptunium_fishing_rod>
+];
+
+<tag:items:forge:fishing_rods>.add(fishing_rods);
