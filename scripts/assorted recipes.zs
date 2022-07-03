@@ -129,7 +129,7 @@ craftingTable.addShapeless("portable_storage_interface", <item:create:portable_s
 
 //Create fluid interface
 craftingTable.remove(<item:create:portable_fluid_interface>);
-craftingTable.addShapeless("portable_fluid_interface", <item:create:portable_fluid_interface>, [<item:create:andesite_casing>, <item:create:smart_chute>]);
+craftingTable.addShapeless("portable_fluid_interface", <item:create:portable_fluid_interface>, [<item:create:copper_casing>, <item:create:smart_fluid_pipe>]);
 
 //create brass casing new recipe
 craftingTable.addShaped("create_brass_casing", <item:create:brass_casing> * 8, [[<item:immersiveengineering:treated_wood_horizontal>, <item:immersiveengineering:treated_wood_horizontal>, <item:immersiveengineering:treated_wood_horizontal>], [<tag:items:forge:plates/brass>, <tag:items:minecraft:logs>, <tag:items:forge:plates/brass>], [<item:immersiveengineering:treated_wood_horizontal>, <item:immersiveengineering:treated_wood_horizontal>, <item:immersiveengineering:treated_wood_horizontal>]]);
@@ -225,7 +225,7 @@ craftingTable.remove(<item:computercraft:monitor_normal>);
 craftingTable.addShaped("computercraft_monitor_normal", <item:computercraft:monitor_normal> * 4, [[<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>], [<tag:items:forge:ingots/iron>, <tag:items:forge:glass_panes>, <tag:items:forge:ingots/iron>], [<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>]]);
 
 craftingTable.remove(<item:computercraft:cable>);
-craftingTable.addShaped("computercraft_cable", <item:computercraft:cable> * 8, [[IIngredientEmpty.getInstance(), <tag:items:forge:ingots/iron>, IIngredientEmpty.getInstance()], [<tag:items:forge:ingots/iron>, <tag:items:forge:dusts/redstone>, <tag:items:forge:ingots/iron>], [IIngredientEmpty.getInstance(), <tag:items:forge:ingots/iron>, IIngredientEmpty.getInstance()]]);
+craftingTable.addShaped("computercraft_cable", <item:computercraft:cable> * 8, [[IIngredientEmpty.getInstance(), <tag:items:forge:plates/iron>, IIngredientEmpty.getInstance()], [<tag:items:forge:plates/iron>, <tag:items:forge:dusts/redstone>, <tag:items:forge:plates/iron>], [IIngredientEmpty.getInstance(), <tag:items:forge:plates/iron>, IIngredientEmpty.getInstance()]]);
 
 craftingTable.removeByName("computercraft:wired_modem");
 craftingTable.addShaped("computercraft_wired_modem", <item:computercraft:wired_modem>, [[<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>], [<tag:items:forge:ingots/iron>, <tag:items:forge:dusts/redstone>, <tag:items:forge:ingots/iron>], [<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>]]);
@@ -657,3 +657,66 @@ craftingTable.addShapeless("custom_uncrafting_flesh_block", <item:minecraft:rott
 //black dye from coal dust
 craftingTable.addShapeless("custom_coal_dye", <item:minecraft:black_dye> * 2, [<item:ftbic:charcoal_dust>|<item:ftbic:coal_dust>, <item:minecraft:potion>.withTag({Potion: "minecraft:water" as string})]);
 craftingTable.addShapeless("custom_coal_dye_bucket", <item:minecraft:black_dye> * 8, [<item:ftbic:charcoal_dust>|<item:ftbic:coal_dust>, <item:ftbic:charcoal_dust>|<item:ftbic:coal_dust>, <item:ftbic:charcoal_dust>|<item:ftbic:coal_dust>, <item:ftbic:charcoal_dust>|<item:ftbic:coal_dust>, <item:minecraft:water_bucket>]);
+
+//Fixed cfm crates
+craftingTable.addShaped("custom_stripped_warped_crate", <item:cfm:stripped_warped_crate> * 4, [[<item:minecraft:stripped_warped_stem>, <item:minecraft:warped_stem>, <item:minecraft:stripped_warped_stem>], [<item:minecraft:warped_stem>, <tag:items:forge:chests/wooden>, <item:minecraft:warped_stem>], [<item:minecraft:stripped_warped_stem>, <item:minecraft:warped_stem>, <item:minecraft:stripped_warped_stem>]]);
+
+craftingTable.addShaped("custom_stripped_oak_crate", <item:cfm:stripped_oak_crate> * 4, [[<item:minecraft:stripped_oak_log>, <item:minecraft:oak_log>, <item:minecraft:stripped_oak_log>], [<item:minecraft:oak_log>, <tag:items:forge:chests/wooden>, <item:minecraft:oak_log>], [<item:minecraft:stripped_oak_log>, <item:minecraft:oak_log>, <item:minecraft:stripped_oak_log>]]);
+
+craftingTable.addShaped("custom_stripped_spruce_crate", <item:cfm:stripped_spruce_crate> * 4, [[<item:minecraft:stripped_spruce_log>, <item:minecraft:spruce_log>, <item:minecraft:stripped_spruce_log>], [<item:minecraft:spruce_log>, <tag:items:forge:chests/wooden>, <item:minecraft:spruce_log>], [<item:minecraft:stripped_spruce_log>, <item:minecraft:spruce_log>, <item:minecraft:stripped_spruce_log>]]);
+
+craftingTable.addShaped("custom_stripped_birch_crate", <item:cfm:stripped_birch_crate> * 4, [[<item:minecraft:stripped_birch_log>, <item:minecraft:birch_log>, <item:minecraft:stripped_birch_log>], [<item:minecraft:birch_log>, <tag:items:forge:chests/wooden>, <item:minecraft:birch_log>], [<item:minecraft:stripped_birch_log>, <item:minecraft:birch_log>, <item:minecraft:stripped_birch_log>]]);
+
+craftingTable.addShaped("custom_stripped_jungle_crate", <item:cfm:stripped_jungle_crate> * 4, [[<item:minecraft:stripped_jungle_log>, <item:minecraft:jungle_log>, <item:minecraft:stripped_jungle_log>], [<item:minecraft:jungle_log>, <tag:items:forge:chests/wooden>, <item:minecraft:jungle_log>], [<item:minecraft:stripped_jungle_log>, <item:minecraft:jungle_log>, <item:minecraft:stripped_jungle_log>]]);
+
+craftingTable.addShaped("custom_stripped_acacia_crate", <item:cfm:stripped_acacia_crate> * 4, [[<item:minecraft:stripped_acacia_log>, <item:minecraft:acacia_log>, <item:minecraft:stripped_acacia_log>], [<item:minecraft:acacia_log>, <tag:items:forge:chests/wooden>, <item:minecraft:acacia_log>], [<item:minecraft:stripped_acacia_log>, <item:minecraft:acacia_log>, <item:minecraft:stripped_acacia_log>]]);
+
+craftingTable.addShaped("custom_stripped_dark_oak_crate", <item:cfm:stripped_dark_oak_crate> * 4, [[<item:minecraft:stripped_dark_oak_log>, <item:minecraft:dark_oak_log>, <item:minecraft:stripped_dark_oak_log>], [<item:minecraft:dark_oak_log>, <tag:items:forge:chests/wooden>, <item:minecraft:dark_oak_log>], [<item:minecraft:stripped_dark_oak_log>, <item:minecraft:dark_oak_log>, <item:minecraft:stripped_dark_oak_log>]]);
+
+craftingTable.addShaped("custom_stripped_crimson_crate", <item:cfm:stripped_crimson_crate> * 4, [[<item:minecraft:stripped_crimson_stem>, <item:minecraft:crimson_stem>, <item:minecraft:stripped_crimson_stem>], [<item:minecraft:crimson_stem>, <tag:items:forge:chests/wooden>, <item:minecraft:crimson_stem>], [<item:minecraft:stripped_crimson_stem>, <item:minecraft:crimson_stem>, <item:minecraft:stripped_crimson_stem>]]);
+
+//fixed sticky piston recipe
+craftingTable.addShaped("custom_sticky_piston", <item:minecraft:sticky_piston>, [[<tag:items:forge:slimeballs>], [<item:minecraft:piston>]]);
+
+//fixed croptopia knife recipe
+craftingTable.addShaped("custom_croptopia_knife", <item:croptopia:knife>, [[IIngredientEmpty.getInstance(), <tag:items:forge:plates/iron>], [<item:minecraft:stick>, IIngredientEmpty.getInstance()]]);
+
+//fixed cfm bedside cabinets
+craftingTable.addShaped("custom_stripped_oak_bedside_cabinet", <item:cfm:stripped_oak_bedside_cabinet> * 2, [[<item:minecraft:stripped_oak_log>, <item:minecraft:stripped_oak_log>, <item:minecraft:stripped_oak_log>], [<item:minecraft:oak_log>, <tag:items:forge:chests/wooden>, <item:minecraft:oak_log>], [<item:minecraft:oak_log>, <item:minecraft:oak_log>, <item:minecraft:oak_log>]]);
+
+craftingTable.addShaped("custom_stripped_spruce_bedside_cabinet", <item:cfm:stripped_spruce_bedside_cabinet> * 2, [[<item:minecraft:stripped_spruce_log>, <item:minecraft:stripped_spruce_log>, <item:minecraft:stripped_spruce_log>], [<item:minecraft:spruce_log>, <tag:items:forge:chests/wooden>, <item:minecraft:spruce_log>], [<item:minecraft:spruce_log>, <item:minecraft:spruce_log>, <item:minecraft:spruce_log>]]);
+
+craftingTable.addShaped("custom_stripped_birch_bedside_cabinet", <item:cfm:stripped_birch_bedside_cabinet> * 2, [[<item:minecraft:stripped_birch_log>, <item:minecraft:stripped_birch_log>, <item:minecraft:stripped_birch_log>], [<item:minecraft:birch_log>, <tag:items:forge:chests/wooden>, <item:minecraft:birch_log>], [<item:minecraft:birch_log>, <item:minecraft:birch_log>, <item:minecraft:birch_log>]]);
+
+craftingTable.addShaped("custom_stripped_jungle_bedside_cabinet", <item:cfm:stripped_jungle_bedside_cabinet> * 2, [[<item:minecraft:stripped_jungle_log>, <item:minecraft:stripped_jungle_log>, <item:minecraft:stripped_jungle_log>], [<item:minecraft:jungle_log>, <tag:items:forge:chests/wooden>, <item:minecraft:jungle_log>], [<item:minecraft:jungle_log>, <item:minecraft:jungle_log>, <item:minecraft:jungle_log>]]);
+
+craftingTable.addShaped("custom_stripped_acacia_bedside_cabinet", <item:cfm:stripped_acacia_bedside_cabinet> * 2, [[<item:minecraft:stripped_acacia_log>, <item:minecraft:stripped_acacia_log>, <item:minecraft:stripped_acacia_log>], [<item:minecraft:acacia_log>, <tag:items:forge:chests/wooden>, <item:minecraft:acacia_log>], [<item:minecraft:acacia_log>, <item:minecraft:acacia_log>, <item:minecraft:acacia_log>]]);
+
+craftingTable.addShaped("custom_stripped_dark_oak_bedside_cabinet", <item:cfm:stripped_dark_oak_bedside_cabinet> * 2, [[<item:minecraft:stripped_dark_oak_log>, <item:minecraft:stripped_dark_oak_log>, <item:minecraft:stripped_dark_oak_log>], [<item:minecraft:dark_oak_log>, <tag:items:forge:chests/wooden>, <item:minecraft:dark_oak_log>], [<item:minecraft:dark_oak_log>, <item:minecraft:dark_oak_log>, <item:minecraft:dark_oak_log>]]);
+
+craftingTable.addShaped("custom_stripped_crimson_bedside_cabinet", <item:cfm:stripped_crimson_bedside_cabinet> * 2, [[<item:minecraft:stripped_crimson_stem>, <item:minecraft:stripped_crimson_stem>, <item:minecraft:stripped_crimson_stem>], [<item:minecraft:crimson_stem>, <tag:items:forge:chests/wooden>, <item:minecraft:crimson_stem>], [<item:minecraft:crimson_stem>, <item:minecraft:crimson_stem>, <item:minecraft:crimson_stem>]]);
+
+craftingTable.addShaped("custom_stripped_warped_bedside_cabinet", <item:cfm:stripped_warped_bedside_cabinet> * 2, [[<item:minecraft:stripped_warped_stem>, <item:minecraft:stripped_warped_stem>, <item:minecraft:stripped_warped_stem>], [<item:minecraft:warped_stem>, <tag:items:forge:chests/wooden>, <item:minecraft:warped_stem>], [<item:minecraft:warped_stem>, <item:minecraft:warped_stem>, <item:minecraft:warped_stem>]]);
+
+//fixed cfm regular cabinets
+craftingTable.addShaped("custom_stripped_warped_cabinet", <item:cfm:stripped_warped_cabinet> * 2, [[<item:minecraft:stripped_warped_stem>, <item:minecraft:stripped_warped_stem>, <item:minecraft:warped_stem>], [<item:minecraft:stripped_warped_stem>, <tag:items:forge:chests/wooden>, <item:minecraft:warped_stem>], [<item:minecraft:stripped_warped_stem>, <item:minecraft:stripped_warped_stem>, <item:minecraft:warped_stem>]]);
+
+craftingTable.addShaped("custom_stripped_crimson_cabinet", <item:cfm:stripped_crimson_cabinet> * 2, [[<item:minecraft:stripped_crimson_stem>, <item:minecraft:stripped_crimson_stem>, <item:minecraft:crimson_stem>], [<item:minecraft:stripped_crimson_stem>, <tag:items:forge:chests/wooden>, <item:minecraft:crimson_stem>], [<item:minecraft:stripped_crimson_stem>, <item:minecraft:stripped_crimson_stem>, <item:minecraft:crimson_stem>]]);
+
+craftingTable.addShaped("custom_stripped_dark_oak_cabinet", <item:cfm:stripped_dark_oak_cabinet> * 2, [[<item:minecraft:stripped_dark_oak_log>, <item:minecraft:stripped_dark_oak_log>, <item:minecraft:dark_oak_log>], [<item:minecraft:stripped_dark_oak_log>, <tag:items:forge:chests/wooden>, <item:minecraft:dark_oak_log>], [<item:minecraft:stripped_dark_oak_log>, <item:minecraft:stripped_dark_oak_log>, <item:minecraft:dark_oak_log>]]);
+
+craftingTable.addShaped("custom_stripped_acacia_cabinet", <item:cfm:stripped_acacia_cabinet> * 2, [[<item:minecraft:stripped_acacia_log>, <item:minecraft:stripped_acacia_log>, <item:minecraft:acacia_log>], [<item:minecraft:stripped_acacia_log>, <tag:items:forge:chests/wooden>, <item:minecraft:acacia_log>], [<item:minecraft:stripped_acacia_log>, <item:minecraft:stripped_acacia_log>, <item:minecraft:acacia_log>]]);
+
+craftingTable.addShaped("custom_stripped_jungle_cabinet", <item:cfm:stripped_jungle_cabinet> * 2, [[<item:minecraft:stripped_jungle_log>, <item:minecraft:stripped_jungle_log>, <item:minecraft:jungle_log>], [<item:minecraft:stripped_jungle_log>, <tag:items:forge:chests/wooden>, <item:minecraft:jungle_log>], [<item:minecraft:stripped_jungle_log>, <item:minecraft:stripped_jungle_log>, <item:minecraft:jungle_log>]]);
+
+craftingTable.addShaped("custom_stripped_birch_cabinet", <item:cfm:stripped_birch_cabinet> * 2, [[<item:minecraft:stripped_birch_log>, <item:minecraft:stripped_birch_log>, <item:minecraft:birch_log>], [<item:minecraft:stripped_birch_log>, <tag:items:forge:chests/wooden>, <item:minecraft:birch_log>], [<item:minecraft:stripped_birch_log>, <item:minecraft:stripped_birch_log>, <item:minecraft:birch_log>]]);
+
+craftingTable.addShaped("custom_stripped_spruce_cabinet", <item:cfm:stripped_spruce_cabinet> * 2, [[<item:minecraft:stripped_spruce_log>, <item:minecraft:stripped_spruce_log>, <item:minecraft:spruce_log>], [<item:minecraft:stripped_spruce_log>, <tag:items:forge:chests/wooden>, <item:minecraft:spruce_log>], [<item:minecraft:stripped_spruce_log>, <item:minecraft:stripped_spruce_log>, <item:minecraft:spruce_log>]]);
+
+craftingTable.addShaped("custom_stripped_oak_cabinet", <item:cfm:stripped_oak_cabinet> * 2, [[<item:minecraft:stripped_oak_log>, <item:minecraft:stripped_oak_log>, <item:minecraft:oak_log>], [<item:minecraft:stripped_oak_log>, <tag:items:forge:chests/wooden>, <item:minecraft:oak_log>], [<item:minecraft:stripped_oak_log>, <item:minecraft:stripped_oak_log>, <item:minecraft:oak_log>]]);
+
+//fixed magenta pet bed
+craftingTable.addShaped("custom_pet_bed_magenta", <item:domesticationinnovation:pet_bed_magenta>, [[<item:minecraft:magenta_wool>, <item:minecraft:magenta_wool>, <item:minecraft:magenta_wool>], [<tag:items:minecraft:planks>, <item:minecraft:bone>, <tag:items:minecraft:planks>]]);
+
+//fixed lattice
+craftingTable.addShaped("custom_lattice", <item:decorative_blocks:lattice> * 4, [[<tag:items:forge:fences/wooden>, <item:minecraft:stick>, <tag:items:forge:fences/wooden>], [<item:minecraft:stick>, IIngredientEmpty.getInstance(), <item:minecraft:stick>], [<tag:items:forge:fences/wooden>, <item:minecraft:stick>, <tag:items:forge:fences/wooden>]]);
