@@ -84,3 +84,9 @@ val fishing_rods as IItemStack[] = [
 ];
 
 <tag:items:forge:fishing_rods>.add(fishing_rods);
+
+//adding andesite alloy to andesite nuggets and plates tag to fix one recipe
+<tag:items:forge:nuggets/andesite>.add(<item:create:andesite_alloy>);
+
+<tag:items:forge:plates/andesite>.add(<item:minecraft:andesite>);
+<tag:items:forge:plates/andesite>.add(<item:minecraft:polished_andesite>);
