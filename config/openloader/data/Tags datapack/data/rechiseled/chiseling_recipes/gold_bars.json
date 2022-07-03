@@ -1,0 +1,20 @@
+{
+	"type": "rechiseled:chiseling",
+	"entries": [
+    {
+      "item": "createdeco:gold_bars"
+    },
+	{
+      "item": "tconstruct:gold_bars"
+    },
+	{
+      "item": "quark:gold_bars"
+    },
+	{
+      "item": "createdeco:gold_bars_overlay"
+    },
+	{
+      "item": "createdeco:gold_mesh_fence"
+    }
+  ]
+}
