@@ -78,21 +78,59 @@ furnace.removeByRegex("jaopca:beyond_earth.recycling.*_from_compresseds");
 <recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/iron/wire_gold_cast");
 <recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/iron/wire_sand_cast");
 
-craftingTable.removeByName("extendedcrafting:black_iron_ingot");
-craftingTable.removeByName("extendedcrafting:redstone_ingot");
-craftingTable.removeByName("createdeco:netherite_ingot");
-craftingTable.removeByName("jaopca:nuggets.to_material.utherium");
-craftingTable.removeByName("jaopca:nuggets.to_material.regalium");
+public var crafting_table_strings = [
+"extendedcrafting:black_iron_ingot",
+"extendedcrafting:redstone_ingot",
+"createdeco:netherite_ingot",
+"jaopca:nuggets.to_material.utherium",
+"jaopca:nuggets.to_material.regalium",
+"immersiveengineering:crafting/blastfurnace_preheater",
+"minecraft:end_crystal",
+"minecraft:daylight_detector",
+"minecraft:magma_cream",
+"malum:magma_cream_from_sapballs",
+"domesticationinnovation:pet_bed_magenta",
+"immersiveengineering:crafting/nugget_copper_to_copper_ingot",
+"ftbic:shaped/nuggets/copper_to_copper_ingot",
+"malum:copper_ingot_from_nugget",
+"minecraft:lead",
+"malum:lead_from_sapballs",
+"minecraft:glass_bottle",
+"tconstruct:common/materials/copper_ingot_from_nuggets",
+"minecraft:beacon"
+];
 
-blastFurnace.removeByName("jaopca:create.crushed_to_ingot_blasting.regalium");
-blastFurnace.removeByName("jaopca:dusts.to_material_blasting.regalium");
-blastFurnace.removeByName("jaopca:create.crushed_to_ingot_blasting.utherium");
-blastFurnace.removeByName("jaopca:dusts.to_material_blasting.utherium");
+for str in crafting_table_strings{
+craftingTable.removeByName(str);
+}
 
-furnace.removeByName("jaopca:create.crushed_to_ingot_smelting.regalium");
-furnace.removeByName("jaopca:dusts.to_material.regalium");
-furnace.removeByName("jaopca:create.crushed_to_ingot_smelting.utherium");
-furnace.removeByName("jaopca:dusts.to_material.utherium");
+public var blast_furnace_strings = [
+"jaopca:create.crushed_to_ingot_blasting.regalium",
+"jaopca:dusts.to_material_blasting.regalium",
+"jaopca:create.crushed_to_ingot_blasting.utherium",
+"jaopca:dusts.to_material_blasting.utherium",
+"ftbic:blasting/dusts/iron_to_iron_ingot"
+];
+
+for str in blast_furnace_strings{
+blastFurnace.removeByName(str);
+}
+
+public var furnace_strings = [
+"jaopca:create.crushed_to_ingot_smelting.regalium",
+"jaopca:dusts.to_material.regalium",
+"jaopca:create.crushed_to_ingot_smelting.utherium",
+"jaopca:dusts.to_material.utherium",
+"integrateddynamics:smelting/menril_log_coal",
+"integrateddynamics:smelting/menril_log_filled_coal",
+"ftbic:smelting/dusts/iron_to_iron_ingot",
+"ftbic:smelting/dusts/copper_to_copper_ingot",
+"ftbic:smelting/dusts/gold_to_gold_ingot"
+];
+
+for str in furnace_strings{
+furnace.removeByName(str);
+}
 
 <recipetype:ars_nouveau:imbuement>.removeByName("ars_nouveau:imbuement_lapis");
 
@@ -172,7 +210,48 @@ val trash as IItemStack[] = [
 	<item:immersiveengineering:dust_iron>,
 	<item:immersiveengineering:dust_lead>,
 	<item:immersiveengineering:dust_copper>,
-	<item:immersiveengineering:ingot_hop_graphite>
+	<item:immersiveengineering:ingot_hop_graphite>,
+	<item:cfm:stripped_warped_crate>,
+	<item:cfm:stripped_oak_crate>,
+	<item:cfm:stripped_spruce_crate>,
+	<item:cfm:stripped_birch_crate>,
+	<item:cfm:stripped_jungle_crate>,
+	<item:cfm:stripped_acacia_crate>,
+	<item:cfm:stripped_dark_oak_crate>,
+	<item:cfm:stripped_crimson_crate>,
+	<item:minecraft:sticky_piston>,
+	<item:croptopia:knife>,
+	<item:cfm:stripped_oak_bedside_cabinet>,
+	<item:cfm:stripped_spruce_bedside_cabinet>,
+	<item:cfm:stripped_birch_bedside_cabinet>,
+	<item:cfm:stripped_jungle_bedside_cabinet>,
+	<item:cfm:stripped_acacia_bedside_cabinet>,
+	<item:cfm:stripped_dark_oak_bedside_cabinet>,
+	<item:cfm:stripped_crimson_bedside_cabinet>,
+	<item:cfm:stripped_warped_bedside_cabinet>,
+	<item:cfm:stripped_warped_cabinet>,
+	<item:cfm:stripped_crimson_cabinet>,
+	<item:cfm:stripped_dark_oak_cabinet>,
+	<item:cfm:stripped_acacia_cabinet>,
+	<item:cfm:stripped_jungle_cabinet>,
+	<item:cfm:stripped_birch_cabinet>,
+	<item:cfm:stripped_spruce_cabinet>,
+	<item:cfm:stripped_oak_cabinet>,
+	<item:tconstruct:gold_bars>,
+	<item:quark:gold_bars>,
+	<item:jaopca:storage_blocks.dragonstone>,
+	<item:decorative_blocks:lattice>,
+	<item:jaopca:storage_blocks.wood>,
+	<item:ftbic:tin_dust>,
+	<item:createdeco:dusk_bricks_slab_vert>,
+	<item:createdeco:blue_bricks_slab_vert>,
+	<item:createdeco:dean_bricks_slab_vert>,
+	<item:createdeco:scarlet_bricks_slab_vert>,
+	<item:createdeco:pearl_bricks_slab_vert>,
+	<item:createdeco:worn_bricks_slab_vert>,
+	<item:createdeco:mossy_red_bricks_slab_vert>,
+	<item:createdeco:cracked_red_bricks_slab_vert>,
+	<item:createdeco:red_bricks_slab_vert>
 ];
 
 for item in trash{
@@ -216,7 +295,9 @@ val jei_removal as IItemStack[] = [
 	<item:malum:osmium_impetus>,
 	<item:ftbic:copper_dust>,
 	<item:quarryplus:replacer_module>,
-	<item:quarryplus:remove_bedrock_module>
+	<item:quarryplus:remove_bedrock_module>,
+	<item:jaopca:create_crushed_ores.uranium>,
+	<item:ftbic:iron_dust>
 ];
 
 for item in jei_removal{
@@ -404,12 +485,15 @@ val utter_eradication as IItemStack[] = [
 	<item:createdeco:zinc_sheet>,
 	<item:jaopca:nuggets.regalium>,
 	<item:jaopca:create_crushed_ores.regalium>,
-	<item:jaopca:dusts.regalium>
+	<item:jaopca:dusts.regalium>,
+	<item:ftbic:uranium_ingot>
 ];
 
 for item in utter_eradication{
 	craftingTable.remove(item);
 	JEI.hideIngredient(item);
+	blastFurnace.remove(item);
+	furnace.remove(item);
 	<recipetype:tconstruct:molding_table>.remove(item);
 	<recipetype:immersiveengineering:metal_press>.remove(item);
 	<recipetype:beyond_earth_giselle_addon:rolling>.remove(item);
