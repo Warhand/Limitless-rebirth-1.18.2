@@ -47,7 +47,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5035211267605634
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -173,7 +173,7 @@ key_key.curios.open.desc:key.keyboard.g
 key_key.schoolsofmagic.spell:key.keyboard.y
 key_framedblocks.key.update_cull:key.keyboard.f9
 key_key.plonk.place:key.keyboard.p
-key_key.wildfire_gender.gender_menu:key.keyboard.g
+key_key.wildfire_gender.gender_menu:key.keyboard.keypad.7
 key_key.push_to_talk:key.keyboard.caps.lock
 key_key.whisper:key.keyboard.unknown
 key_key.mute_microphone:key.keyboard.m
@@ -307,8 +307,8 @@ key_key.toolbelt.open:key.keyboard.r
 key_key.toolbelt.cycle.left:key.keyboard.unknown
 key_key.toolbelt.cycle.right:key.keyboard.unknown
 key_key.toolbelt.slot:key.keyboard.v
-soundCategory_master:0.35927153
-soundCategory_music:0.056338027
+soundCategory_master:1.0
+soundCategory_music:0.21478873
 soundCategory_record:0.10798122
 soundCategory_weather:1.0
 soundCategory_block:0.5950704
