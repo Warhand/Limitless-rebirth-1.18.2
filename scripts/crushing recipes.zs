@@ -185,13 +185,13 @@ val ore_to_dust_map as IItemStack[IIngredient] = {
 
 val one_to_one_map as IItemStack[IIngredient] = {
 	<item:minecraft:ender_pearl>: <item:ftbic:ender_dust>,
+	<item:malum:blazing_quartz>: <item:immersiveengineering:dust_sulfur>,
 	<tag:items:forge:ingots/steel>.asIIngredient(): <item:immersiveengineering:dust_steel>,
 	<tag:items:forge:ingots/constantan>.asIIngredient(): <item:immersiveengineering:dust_constantan>,
 	<tag:items:forge:ingots/electrum>.asIIngredient(): <item:immersiveengineering:dust_electrum>,
 	<tag:items:forge:coal_coke>.asIIngredient(): <item:immersiveengineering:dust_coke>,
 	<tag:items:minecraft:coals>.asIIngredient(): <item:ftbic:coal_dust>,
-	<tag:items:forge:charcoal>.asIIngredient(): <item:ftbic:charcoal_dust>,
-	<item:malum:blazing_quartz>: <item:immersiveengineering:dust_sulfur>
+	<tag:items:forge:charcoal>.asIIngredient(): <item:ftbic:charcoal_dust>
 };
 
 val one_to_four_map as IItemStack[IIngredient] = {
