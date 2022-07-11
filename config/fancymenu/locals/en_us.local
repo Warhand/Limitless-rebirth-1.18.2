@@ -284,16 +284,20 @@ helper.creator.custombutton.config.actiontype.loadworld.desc.value.example = myw
 helper.creator.custombutton.config.actiontype.opencustomgui.desc.value.example = coolcustomgui
 helper.creator.custombutton.config.actiontype.opengui.desc.value.example = some.menu.identifier
 helper.creator.custombutton.config.actiontype.openfile.desc.value.example = config/fancymenu/changelog.txt
-helper.creator.custombutton.config.actiontype.movefile.desc.value.example = resources/image.jpg;folder/moveto/image.jpg
-helper.creator.custombutton.config.actiontype.copyfile.desc.value.example = resources/image.jpg;some_folder/imagecopy.jpg
+helper.creator.custombutton.config.actiontype.movefile.desc.value.example = config/fancymenu/image.jpg;config/moveto/image.jpg
+helper.creator.custombutton.config.actiontype.copyfile.desc.value.example = config/fancymenu/image.jpg;config/fancymenu/imagecopy.jpg
 helper.creator.custombutton.config.actiontype.deletefile.desc.value.example = config/fancymenu/rickroll.gif
 helper.creator.custombutton.config.actiontype.renamefile.desc.value.example = config/fancymenu/image.jpg;newimagename.jpg
-helper.creator.custombutton.config.actiontype.downloadfile.desc.value.example = https://hoster.com/layout.zip;download/layout.zip
-helper.creator.custombutton.config.actiontype.unpackzip.desc.value.example = resources/archive.zip;resources/unpacked/
+helper.creator.custombutton.config.actiontype.downloadfile.desc.value.example = https://myhoster.com/layout.zip;config/fancymenu/layout.zip
+helper.creator.custombutton.config.actiontype.unpackzip.desc.value.example = config/fancymenu/archive.zip;config/fancymenu/unpacked/
 helper.creator.custombutton.config.actiontype.runscript.desc.value.example = coolscript
 
 helper.creator.rightclick.scale = Force GUI Scale
 helper.creator.rightclick.scale.invalid = §c§lInvalid Scale!%n%%n%%n%Scale values need to be bigger than 0!
+
+helper.creator.custombutton.config.actiontype.mutebackgroundsounds.desc = Mutes or unmutes the menu background sounds added by FancyMenu.
+helper.creator.custombutton.config.actiontype.mutebackgroundsounds.desc.value = true/false
+helper.creator.custombutton.config.actiontype.mutebackgroundsounds.desc.value.example = true
 
 helper.creator.items.button.resetlabel = Reset Label
 
@@ -546,7 +550,7 @@ fancymenu.config.playmenumusic.desc = Enable or disable the default minecraft me
 fancymenu.config.stopworldmusicwhencustomizable.desc = If the vanilla world music should%n%be stopped when opening a customizable menu.
 fancymenu.config.playbackgroundsounds.desc = Enable or disable the custom menu background%n%sounds added with FancyMenu.
 fancymenu.config.playbackgroundsoundsinworld.desc = If menu background sounds added with%n%FancyMenu should be played while%n%a world is loaded (ingame).
-fancymenu.config.defaultguiscale.desc = A default GUI scale that will be set on first launch.%n%Useful for modpacks.%n%Cache data is saved in /fancymenu_data/.
+fancymenu.config.defaultguiscale.desc = A default GUI scale that will be set on first launch.%n%Useful for modpacks.%n%Cache data is saved in /mods/fancymenu/.
 fancymenu.config.showdebugwarnings.desc = If FancyMenu should print warnings%n%to the game log.%n%Errors are not affected by this.
 
 fancymenu.config.showcustomizationbuttons.desc = Show FancyMenu's customization controls in menus.%n%This can be toggled by pressing §lCTRL + ALT + C%n%in a normal menu screen.
@@ -612,9 +616,9 @@ helper.creator.items.string.alignment.centered = Centered
 
 helper.creator.items.string.border.alignment = alignment
 
-helper.creator.custombutton.config.actiontype.runcmd.desc = Runs a CMD/Terminal command.%n%Supports per-OS commands,%n%like in the example.
+helper.creator.custombutton.config.actiontype.runcmd.desc = Runs a CMD/Terminal command. Supports per-OS commands, like in the example.
 helper.creator.custombutton.config.actiontype.runcmd.desc.value = Command
-helper.creator.custombutton.config.actiontype.runcmd.desc.value.example = [windows:run.bat]; [macos:./Run]; [linux:./run.sh];
+helper.creator.custombutton.config.actiontype.runcmd.desc.value.example = [windows:start.bat]; [macos:./Start]; [linux:./start.sh];
 
 helper.creator.custombutton.config.actiontype.closegui.desc = Closes the displayed GUI.
 
@@ -931,7 +935,7 @@ helper.creator.custombutton.config.actiontype.copytoclipboard.desc.value.example
 fancymenu.config.forcefullscreen = Force Fullscreen
 fancymenu.config.forcefullscreen.desc = Forces the window to fullscreen on start.%n%Users will still be able to%n%go out of fullscreen later.
 
-helper.creator.custombutton.config.actiontype.mimicbutton.desc = Execute the button action%n%of a vanilla button.
+helper.creator.custombutton.config.actiontype.mimicbutton.desc = Execute the button action of a vanilla button.
 helper.creator.custombutton.config.actiontype.mimicbutton.desc.value = menu_identifier:button_id
 helper.creator.custombutton.config.actiontype.mimicbutton.desc.value.example = some.menu.identifier:505280
 
@@ -995,6 +999,8 @@ fancymenu.helper.ui.misc.receiving_level_screen.btn.desc = Will open a dummy ins
 fancymenu.helper.ui.misc.open_connect_screen = Open Connect Screen
 fancymenu.helper.ui.misc.open_connect_screen.btn.desc = Will open a dummy instance of%n%the connect screen, that is%n%used for joining servers.%n%%n%Allows you to customize this screen.%n%%n%§cYou can only open this screen%n%§cwhile not in a world%n%§cor on a server!
 
+<<<<<<< Updated upstream
+=======
 fancymenu.helper.editor.layoutoptions.universal_layout.options = Universal Layout Options
 fancymenu.helper.editor.layoutoptions.universal_layout.options.input_menu_identifier = Input Menu Identifier:
 fancymenu.helper.editor.layoutoptions.universal_layout.options.choose_menu_identifier = Choose Menu Identifier
@@ -1097,3 +1103,61 @@ fancymenu.helper.visibilityrequirement.gamemode.is_adventure = Is Adventure
 fancymenu.helper.visibilityrequirement.gamemode.is_adventure.desc = Check if the player is%n%currently in adventure mode.
 fancymenu.helper.visibilityrequirement.gamemode.is_spectator = Is Spectator
 fancymenu.helper.visibilityrequirement.gamemode.is_spectator.desc = Check if the player is%n%currently in spectator mode.
+
+fancymenu.customization.items.input_field = Text Input Field
+fancymenu.customization.items.input_field.desc = A text input field.%n%%n%Can be used to set variable%n%values by user input.
+fancymenu.customization.items.input_field.type.integer = Only Numbers
+fancymenu.customization.items.input_field.type.decimal = Only Decimal Numbers
+fancymenu.customization.items.input_field.type.url = URL
+fancymenu.customization.items.input_field.type.text = Text
+fancymenu.customization.items.input_field.editor.set_variable = Link To Variable
+fancymenu.customization.items.input_field.editor.set_variable.desc = Link this text field to a variable.%n%Use the variable name.%n%%n%The variable can be a new%n%or an existing variable.
+fancymenu.customization.items.input_field.editor.set_max_length = Set Max Text Length
+fancymenu.customization.items.input_field.editor.set_type = Set Type
+fancymenu.customization.items.input_field.editor.set_type.desc = Set the type if this text field.%n%%n%The type defines what characters%n%the user can use in the field.%n%%n%For example:%n%If the field is%n%set to "Only Numbers", the%n%user will only be able to%n%type numbers into the field.
+
+fancymenu.customization.items.slider = Slider
+fancymenu.customization.items.slider.desc = A slider button.%n%%n%Can be used to set variable%n%values by user input.
+fancymenu.customization.items.slider.type.range = Range [Numbers]
+fancymenu.customization.items.slider.type.list = List [Text Values]
+fancymenu.customization.items.slider.editor.set_type = Set Type
+fancymenu.customization.items.slider.editor.set_type.desc = Set the type of this slider.%n%%n%When using the list type,%n%you can set a list of%n%text values you can switch%n%through when moving the slider.%n%%n%The range type allows you%n%to switch through a range%n%of numbers.%n%You can set a min and a max value,%n%when using this type.
+fancymenu.customization.items.slider.editor.set_label_prefix = Set Label Prefix
+fancymenu.customization.items.slider.editor.set_label_prefix.desc = The prefix of the slider label.%n%%n%The base of the slider label%n%is always the current value.
+fancymenu.customization.items.slider.editor.set_label_suffix = Set Label Suffix
+fancymenu.customization.items.slider.editor.set_label_suffix.desc = The suffix of the slider label.%n%%n%The base of the slider label%n%is always the current value.
+fancymenu.customization.items.slider.editor.range.set_min_range_value = Set Min Range Value
+fancymenu.customization.items.slider.editor.range.set_max_range_value = Set Max Range Value
+fancymenu.customization.items.slider.editor.list.set_list_values = Set List Values
+fancymenu.customization.items.slider.editor.list.set_list_values.desc = The list of values.%n%%n%Separate values by semicolon ( ; )!
+fancymenu.customization.items.slider.editor.list.set_list_values.error.not_enough_values = §c§lError!%n%%n%You need at least 2 values!%n% %n% %n% %n%
+fancymenu.customization.items.slider.editor.set_variable = Link To Variable
+fancymenu.customization.items.slider.editor.set_variable.desc = Link this slider to a variable.%n%Use the variable name.%n%%n%The variable can be a new%n%or an existing variable.
+
+fancymenu.helper.editor.global_visibility_requirements = Visibility Requirements [Layout-Wide]
+fancymenu.helper.editor.global_visibility_requirements.desc = Just like visibility requirements%n%for elements, this will set%n%these requirements on the%n%layout level.%n%%n%This means, the whole layout%n%will be visible/invisible depending%n%on its requirements.
+
+fancymenu.helper.editor.items.splash.vanilla_like = Vanilla-Like Splash Text
+fancymenu.helper.editor.items.splash.vanilla_like.desc = Adds a splash text that uses%n%the vanilla splash text source.
+
+fancymenu.commands.variable.get.success = §a[FancyMenu] Variable Value: §6{}
+fancymenu.commands.variable.set.success = §a[FancyMenu] Variable value set to: §6{}
+fancymenu.commands.variable.not_found = §c[FancyMenu] Variable not found!
+
+
+
+
+
+
+
+
+
+
+>>>>>>> Stashed changes
+
+
+
+
+
+
+

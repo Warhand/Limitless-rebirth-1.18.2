@@ -2,6 +2,10 @@ type = last_world
 
 last_world {
   is_server = false
-  world = C:/Users/Kylie/curseforge/minecraft/Instances/Limitless rebirth 1.18.2 (1)/saves/test world 1_18_2 #2
+<<<<<<< Updated upstream
+  world = C:/Users/Kylie/curseforge/minecraft/Instances/Limitless rebirth 1.18.2 (1)/saves/Test world 1_18_2
+=======
+  world = C:/Users/Kylie/curseforge/minecraft/Instances/Limitless rebirth 1.18.2 (1)/saves/Making sure stuff still works #2
+>>>>>>> Stashed changes
 }
 

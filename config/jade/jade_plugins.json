@@ -51,6 +51,9 @@
     "mod_name": true,
     "entity_hp": true
   },
+  "mcjtylib": {
+    "jadeaddons": true
+  },
   "storagedrawers": {
     "display.stacklimit": true,
     "display.content": true,
