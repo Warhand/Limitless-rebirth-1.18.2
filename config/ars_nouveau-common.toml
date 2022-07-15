@@ -2,7 +2,7 @@
 #General settings
 [general]
 	#Dimensions where hostile mobs will not spawn. Ex: ["minecraft:overworld", "undergarden:undergarden"]. . Run /forge dimensions for a list.
-	dimensionBlacklist = []
+	dimensionBlacklist = ["undergarden:undergarden", "beyond_earth:earth_orbit", "beyond_earth:glacio", "beyond_earth:glacio_orbit", "beyond_earth:mars", "beyond_earth:mars_orbit", "beyond_earth:mercury", "beyond_earth:mercury_orbit", "beyond_earth:moon", "beyond_earth:moon_orbit", "beyond_earth:venus", "beyond_earth:venus_orbit", "bloodmagic:dungeon", "dimdungeons:build_dimension", "dimdungeons:dungeon_dimension"]
 	#Rate of tree spawn per chunk
 	#Range: > 0
 	treeWeight = 100
@@ -32,7 +32,7 @@
 	#Range: 0 ~ 200
 	whunterWeight = 50
 	#Should the Wilden Hunter attack animals?
-	hunterHuntsAnimals = true
+	hunterHuntsAnimals = false
 	#Should the Wilden Stalker attack animals?
 	stalkerHuntsAnimals = false
 	#Should the Wilden Defender attack animals?
