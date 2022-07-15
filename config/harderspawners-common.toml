@@ -1,0 +1,43 @@
+
+["Harder Spawners Control Values"]
+	#Debug Level: 0 = Off, 1 = Log, 2 = Chat+Log
+	#Range: 0 ~ 2
+	debugLevel = 0
+	#0 = chat messages on, 1 = chat messages off.
+	#Range: 0 ~ 1
+	spawnerTextOff = 1
+	#Chance to destroy light sources in range (0-100%)
+	#Range: 0 ~ 100
+	destroyLightPercentage = 0
+	#Range of light source destruction in blocks (1-7)
+	#Range: 1 ~ 7
+	destroyLightRange = 1
+	#Spawner Break Speed Modifier: 0 = Off, 1 = 50% slower, 2-11 times slower
+	#Range: 0 ~ 11
+	spawnerBreakSpeedMultiplier = 1
+	#Spawner Revenge Level: 0 = Off, Over 1 spawner takes revenge on player.
+	#Range: 0 ~ 11
+	spawnerRevengeLevel = 0
+	#Explode percentage when Spawners Break
+	#Range: 0.0 ~ 100.0
+	spawnersExplodePercentage = 0.0
+	#Hostile Spawners: Player Range when hostile mobs start spawning
+	#Range: 8 ~ 32
+	requiredPlayerRange = 16
+	#Hostile Spawners: Maximum Spawned Hostile Entities
+	#Range: 4 ~ 32
+	maxNearbyEntities = 8
+	#Hostile Spawners: How far from spawner hostile mobs can spawn
+	#Range: 4 ~ 16
+	spawnRange = 4
+	#hostileSpawnerLightLevel: Maximum Light Level for Hostile Spawners
+	#Range: 0 ~ 15
+	hostileSpawnerLightLevel = 11
+	#hostileSpawnerResistDaylightDuration: give undead fire resistance (true) 
+	#Range: 0 ~ 9999
+	hostileSpawnerResistDaylightDuration = 30
+
+["No Break Mobs Values 6464"]
+	#Trail Block String 6464
+	defaultNoBreakMobsActual = "harderspawners:default,0.0;"
+
