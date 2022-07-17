@@ -1,5 +1,6 @@
 #Ignore directories
 mods/**
+journeymap/**
 logs/**
 profileImage/**
 saves/**
