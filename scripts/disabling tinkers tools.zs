@@ -135,6 +135,7 @@ var hideJEI = [
 	<item:tconstruct:tough_handle>,
 	<item:materialis:wrench_head>,
 	<item:tconstruct:large_plate>,
+	<item:materialis:wrench_head>,
 	
 	<item:tconstruct:plate_boots>,
 	<item:tconstruct:plate_leggings>,
