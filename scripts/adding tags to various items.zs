@@ -50,23 +50,19 @@ val cooked_fish as IItemStack[] = [
 <tag:items:forge:ores/nethergold>.add(<item:minecraft:nether_gold_ore>);
 <tag:items:forge:ores/gold>.remove(<item:minecraft:nether_gold_ore>);
 
-//adding fish to croptopia fish tag
-<tag:items:croptopia:fishes>.add(<item:aquaculture:fish_fillet_raw>);
-<tag:items:croptopia:fishes>.add(<item:undergarden:raw_gloomper_leg>);
-<tag:items:croptopia:fishes>.add(<item:quark:frog_leg>);
-<tag:items:croptopia:fishes>.add(<item:alexsmobs:raw_catfish>);
-<tag:items:croptopia:fishes>.add(<item:quark:crab_leg>);
-<tag:items:croptopia:fishes>.add(<item:undergarden:raw_gwibling>);
-<tag:items:croptopia:fishes>.add(<item:alexsmobs:lobster_tail>);
+//adding fish to forge fish tag
+<tag:items:forge:raw_fishes>.add(<item:aquaculture:fish_fillet_raw>);
+<tag:items:forge:raw_fishes>.add(<item:undergarden:raw_gloomper_leg>);
+<tag:items:forge:raw_fishes>.add(<item:quark:frog_leg>);
+<tag:items:forge:raw_fishes>.add(<item:alexsmobs:raw_catfish>);
+<tag:items:forge:raw_fishes>.add(<item:quark:crab_leg>);
+<tag:items:forge:raw_fishes>.add(<item:undergarden:raw_gwibling>);
+<tag:items:forge:raw_fishes>.add(<item:alexsmobs:lobster_tail>);
 
-//adding meat to croptopia meat tags
-<tag:items:croptopia:beef_replacements>.add(<item:alexsmobs:kangaroo_meat>);
-<tag:items:croptopia:beef_replacements>.add(<item:undergarden:raw_dweller_meat>);
-<tag:items:croptopia:beef_replacements>.add(<item:alexsmobs:moose_ribs>);
-
-<tag:items:croptopia:meat_replacements>.add(<item:alexsmobs:kangaroo_meat>);
-<tag:items:croptopia:meat_replacements>.add(<item:undergarden:raw_dweller_meat>);
-<tag:items:croptopia:meat_replacements>.add(<item:alexsmobs:moose_ribs>);
+//adding meat to forge meat tags
+<tag:items:brewinandchewin:raw_meats>.add(<item:alexsmobs:kangaroo_meat>);
+<tag:items:brewinandchewin:raw_meats>.add(<item:undergarden:raw_dweller_meat>);
+<tag:items:brewinandchewin:raw_meats>.add(<item:alexsmobs:moose_ribs>);
 
 //add tag for flesh blocks
 <tag:items:forge:flesh>.add(<item:biomesoplenty:flesh>);
