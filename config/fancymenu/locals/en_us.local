@@ -284,20 +284,16 @@ helper.creator.custombutton.config.actiontype.loadworld.desc.value.example = myw
 helper.creator.custombutton.config.actiontype.opencustomgui.desc.value.example = coolcustomgui
 helper.creator.custombutton.config.actiontype.opengui.desc.value.example = some.menu.identifier
 helper.creator.custombutton.config.actiontype.openfile.desc.value.example = config/fancymenu/changelog.txt
-helper.creator.custombutton.config.actiontype.movefile.desc.value.example = config/fancymenu/image.jpg;config/moveto/image.jpg
-helper.creator.custombutton.config.actiontype.copyfile.desc.value.example = config/fancymenu/image.jpg;config/fancymenu/imagecopy.jpg
+helper.creator.custombutton.config.actiontype.movefile.desc.value.example = resources/image.jpg;folder/moveto/image.jpg
+helper.creator.custombutton.config.actiontype.copyfile.desc.value.example = resources/image.jpg;some_folder/imagecopy.jpg
 helper.creator.custombutton.config.actiontype.deletefile.desc.value.example = config/fancymenu/rickroll.gif
 helper.creator.custombutton.config.actiontype.renamefile.desc.value.example = config/fancymenu/image.jpg;newimagename.jpg
-helper.creator.custombutton.config.actiontype.downloadfile.desc.value.example = https://myhoster.com/layout.zip;config/fancymenu/layout.zip
-helper.creator.custombutton.config.actiontype.unpackzip.desc.value.example = config/fancymenu/archive.zip;config/fancymenu/unpacked/
+helper.creator.custombutton.config.actiontype.downloadfile.desc.value.example = https://hoster.com/layout.zip;download/layout.zip
+helper.creator.custombutton.config.actiontype.unpackzip.desc.value.example = resources/archive.zip;resources/unpacked/
 helper.creator.custombutton.config.actiontype.runscript.desc.value.example = coolscript
 
 helper.creator.rightclick.scale = Force GUI Scale
 helper.creator.rightclick.scale.invalid = §c§lInvalid Scale!%n%%n%%n%Scale values need to be bigger than 0!
-
-helper.creator.custombutton.config.actiontype.mutebackgroundsounds.desc = Mutes or unmutes the menu background sounds added by FancyMenu.
-helper.creator.custombutton.config.actiontype.mutebackgroundsounds.desc.value = true/false
-helper.creator.custombutton.config.actiontype.mutebackgroundsounds.desc.value.example = true
 
 helper.creator.items.button.resetlabel = Reset Label
 
@@ -550,7 +546,7 @@ fancymenu.config.playmenumusic.desc = Enable or disable the default minecraft me
 fancymenu.config.stopworldmusicwhencustomizable.desc = If the vanilla world music should%n%be stopped when opening a customizable menu.
 fancymenu.config.playbackgroundsounds.desc = Enable or disable the custom menu background%n%sounds added with FancyMenu.
 fancymenu.config.playbackgroundsoundsinworld.desc = If menu background sounds added with%n%FancyMenu should be played while%n%a world is loaded (ingame).
-fancymenu.config.defaultguiscale.desc = A default GUI scale that will be set on first launch.%n%Useful for modpacks.%n%Cache data is saved in /mods/fancymenu/.
+fancymenu.config.defaultguiscale.desc = A default GUI scale that will be set on first launch.%n%Useful for modpacks.%n%Cache data is saved in /fancymenu_data/.
 fancymenu.config.showdebugwarnings.desc = If FancyMenu should print warnings%n%to the game log.%n%Errors are not affected by this.
 
 fancymenu.config.showcustomizationbuttons.desc = Show FancyMenu's customization controls in menus.%n%This can be toggled by pressing §lCTRL + ALT + C%n%in a normal menu screen.
@@ -616,9 +612,9 @@ helper.creator.items.string.alignment.centered = Centered
 
 helper.creator.items.string.border.alignment = alignment
 
-helper.creator.custombutton.config.actiontype.runcmd.desc = Runs a CMD/Terminal command. Supports per-OS commands, like in the example.
+helper.creator.custombutton.config.actiontype.runcmd.desc = Runs a CMD/Terminal command.%n%Supports per-OS commands,%n%like in the example.
 helper.creator.custombutton.config.actiontype.runcmd.desc.value = Command
-helper.creator.custombutton.config.actiontype.runcmd.desc.value.example = [windows:start.bat]; [macos:./Start]; [linux:./start.sh];
+helper.creator.custombutton.config.actiontype.runcmd.desc.value.example = [windows:run.bat]; [macos:./Run]; [linux:./run.sh];
 
 helper.creator.custombutton.config.actiontype.closegui.desc = Closes the displayed GUI.
 
@@ -935,8 +931,8 @@ helper.creator.custombutton.config.actiontype.copytoclipboard.desc.value.example
 fancymenu.config.forcefullscreen = Force Fullscreen
 fancymenu.config.forcefullscreen.desc = Forces the window to fullscreen on start.%n%Users will still be able to%n%go out of fullscreen later.
 
-helper.creator.custombutton.config.actiontype.mimicbutton.desc = Execute the button action of a vanilla button.
-helper.creator.custombutton.config.actiontype.mimicbutton.desc.value = menu_identifier:button_id
+helper.creator.custombutton.config.actiontype.mimicbutton.desc = Mimic the click behaviour/action%n%of a vanilla/mod button.%n%%n%You need the §lbutton locator §rof%n%the button you want to mimic.%n%%n%How to get the §llocator §rof a button:%n%%n%§l1. §rLeave the editor%n%§l2. §rEnable §lTools -> Button Info%n%§l3. §rHover over the target button%n%§l4. §rRight-click the button
+helper.creator.custombutton.config.actiontype.mimicbutton.desc.value = Button Locator
 helper.creator.custombutton.config.actiontype.mimicbutton.desc.value.example = some.menu.identifier:505280
 
 fancymenu.custombutton.action.mimicbutton.unabletoexecute = §c§lError!%n%%n%Unable to execute button action!%n%%n%Invalid button locator or unable to%n%open parent screen of button.%n% %n% %n% %n%
@@ -999,8 +995,6 @@ fancymenu.helper.ui.misc.receiving_level_screen.btn.desc = Will open a dummy ins
 fancymenu.helper.ui.misc.open_connect_screen = Open Connect Screen
 fancymenu.helper.ui.misc.open_connect_screen.btn.desc = Will open a dummy instance of%n%the connect screen, that is%n%used for joining servers.%n%%n%Allows you to customize this screen.%n%%n%§cYou can only open this screen%n%§cwhile not in a world%n%§cor on a server!
 
-<<<<<<< Updated upstream
-=======
 fancymenu.helper.editor.layoutoptions.universal_layout.options = Universal Layout Options
 fancymenu.helper.editor.layoutoptions.universal_layout.options.input_menu_identifier = Input Menu Identifier:
 fancymenu.helper.editor.layoutoptions.universal_layout.options.choose_menu_identifier = Choose Menu Identifier
@@ -1144,20 +1138,23 @@ fancymenu.commands.variable.get.success = §a[FancyMenu] Variable Value: §6{}
 fancymenu.commands.variable.set.success = §a[FancyMenu] Variable value set to: §6{}
 fancymenu.commands.variable.not_found = §c[FancyMenu] Variable not found!
 
+fancymenu.helper.editor.items.vanilla_button.copy_locator = Copy Button Locator
+fancymenu.helper.editor.items.vanilla_button.copy_locator.desc = The button locator is a combination%n%of the menu identifier this%n%button is a part of and its button ID.%n%%n%The button locator is used for%n%button actions like §o'mimicbutton'§r.
 
+fancymenu.helper.button_info.copy_locator = §lRIGHT-CLICK TO COPY BUTTON LOCATOR!
+fancymenu.helper.button_info.copy_locator.copied = §a§lBUTTON LOCATOR COPIED TO CLIPBOARD!
 
+fancymenu.helper.editor.edit_menu_title = Edit Menu Title
+fancymenu.helper.editor.edit_menu_title.desc = You know that annoying little%n%text at the top some menus%n%like the pause menu?%n%This feature allows you to edit it!%n%%n%§cDue to how menus work, it is%n%§cpossible that you can't edit%n%§cthe title of some menus.%n%§cIf that's the case, there's%n%§cnot much you or I can do.
+fancymenu.helper.editor.edit_menu_title.reset = Reset Menu Title
+fancymenu.helper.editor.edit_menu_title.reset.desc = Resets the menu title to the default.
 
+fancymenu.helper.editor.items.visibilityrequirements.realtimeweekday = Is Real Time Week Day
+fancymenu.helper.editor.items.visibilityrequirements.realtimeweekday.desc = Check if the real time's current week day is X.%n%%n%First day of the week is sunday!%n%%n%You can separate multiple values by comma,%n%to check for more than one day%n%at once.
+fancymenu.helper.editor.items.visibilityrequirements.realtimeweekday.valuename = Real Time Week Day(s) (Separate Values By Comma)
 
-
-
-
-
-
->>>>>>> Stashed changes
-
-
-
-
-
+fancymenu.helper.editor.backgrounds.animation.restart_on_load.on = Restart Animation On Load: §aOn
+fancymenu.helper.editor.backgrounds.animation.restart_on_load.off = Restart Animation On Load: §cOff
+fancymenu.helper.editor.backgrounds.animation.restart_on_load.desc = If the animation should restart%n%every time the menu gets opened.
 
 

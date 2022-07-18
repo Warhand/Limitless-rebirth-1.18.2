@@ -1,0 +1,28 @@
+
+#Mobs
+[mobs]
+
+	#Tortoise
+	[mobs.tortoise]
+		#If Tortoises will spawn naturally in the world. (default = true)
+		"Tortoises spawn naturally" = true
+		#The weight of which Tortoises will spawn. (default = 5
+		#Range: 1 ~ 100
+		"Tortoise spawn weight" = 5
+
+	#Lanternfish
+	[mobs.lanternfish]
+		#If Lanternfish will spawn naturally in the world. (default = true)
+		"Lanternfish spawn naturally" = true
+		#The weight of which Lanternfish will spawn. (default = 5)
+		#Range: 1 ~ 100
+		"Lanternfish spawn weight" = 5
+
+#Worldgen
+[worldgen]
+
+	#Jade
+	[worldgen.jade]
+		#If Jade will generate naturally in the world. (default = true)
+		"Jade generates naturally" = true
+

@@ -1,0 +1,6 @@
+
+#Particles
+[particles]
+	#If Particles spawn around the grindstone, while the Player is holding an Item that can be polished. (default = true)
+	"Particles around Grindstone" = true
+
