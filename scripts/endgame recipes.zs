@@ -23,15 +23,15 @@ mods.extendedcrafting.TableCrafting.addShaped("3c8761a0-842c-4bdf-81ce-b41994649
 
 //Create creative engine
 mods.extendedcrafting.TableCrafting.addShaped("c9877edb-84f5-40ec-a3ef-130e885184e5", 0, <item:create:creative_motor>, [
-	[<item:minecraft:shulker_shell>, <item:create:furnace_engine>, <item:create:large_cogwheel>, <item:create:shaft>, <item:create:sequenced_gearshift>, <item:create:shaft>, <item:create:large_cogwheel>, <item:create:furnace_engine>, <item:minecraft:shulker_shell>], 
-	[<item:create:furnace_engine>, <item:create:large_cogwheel>, <item:create:belt_connector>, <item:create:belt_connector>, <item:create:shaft>, <item:create:belt_connector>, <item:create:belt_connector>, <item:create:large_cogwheel>, <item:create:furnace_engine>], 
+	[<item:minecraft:shulker_shell>, <item:create:steam_engine>, <item:create:large_cogwheel>, <item:create:shaft>, <item:create:sequenced_gearshift>, <item:create:shaft>, <item:create:large_cogwheel>, <item:create:steam_engine>, <item:minecraft:shulker_shell>], 
+	[<item:create:steam_engine>, <item:create:large_cogwheel>, <item:create:belt_connector>, <item:create:belt_connector>, <item:create:shaft>, <item:create:belt_connector>, <item:create:belt_connector>, <item:create:large_cogwheel>, <item:create:steam_engine>], 
 	[<item:minecraft:shulker_shell>, <item:create:flywheel>, <item:createaddition:electric_motor>, <item:create:shaft>, <item:create:shaft>, <item:create:shaft>, <item:createaddition:electric_motor>, <item:create:flywheel>, <item:minecraft:shulker_shell>], 
 	[<item:minecraft:shulker_shell>, <item:createaddition:alternator>, <item:createaddition:gold_spool>, <item:createaddition:electric_motor>, <item:create:sequenced_gearshift>, <item:createaddition:electric_motor>, <item:createaddition:gold_spool>, <item:createaddition:alternator>, <item:minecraft:shulker_shell>], 
 	[<item:minecraft:shulker_shell>, <item:createaddition:alternator>, <item:createaddition:gold_spool>, <item:createaddition:electric_motor>, <item:upgradednetherite_creative:creative_upgraded_netherite_ingot>, <item:createaddition:electric_motor>, <item:createaddition:gold_spool>, <item:createaddition:alternator>, <item:minecraft:shulker_shell>], 
 	[<item:minecraft:shulker_shell>, <item:createaddition:alternator>, <item:createaddition:gold_spool>, <item:createaddition:electric_motor>, <item:create:sequenced_gearshift>, <item:createaddition:electric_motor>, <item:createaddition:gold_spool>, <item:createaddition:alternator>, <item:minecraft:shulker_shell>], 
 	[<item:minecraft:shulker_shell>, <item:create:flywheel>, <item:createaddition:electric_motor>, <item:create:shaft>, <item:create:shaft>, <item:create:shaft>, <item:createaddition:electric_motor>, <item:create:flywheel>, <item:minecraft:shulker_shell>], 
-	[<item:create:furnace_engine>, <item:create:large_cogwheel>, <item:create:belt_connector>, <item:create:belt_connector>, <item:create:shaft>, <item:create:belt_connector>, <item:create:belt_connector>, <item:create:large_cogwheel>, <item:create:furnace_engine>], 
-	[<item:minecraft:shulker_shell>, <item:create:furnace_engine>, <item:create:large_cogwheel>, <item:create:shaft>, <item:create:sequenced_gearshift>, <item:create:shaft>, <item:create:large_cogwheel>, <item:create:furnace_engine>, <item:minecraft:shulker_shell>]
+	[<item:create:steam_engine>, <item:create:large_cogwheel>, <item:create:belt_connector>, <item:create:belt_connector>, <item:create:shaft>, <item:create:belt_connector>, <item:create:belt_connector>, <item:create:large_cogwheel>, <item:create:steam_engine>], 
+	[<item:minecraft:shulker_shell>, <item:create:steam_engine>, <item:create:large_cogwheel>, <item:create:shaft>, <item:create:sequenced_gearshift>, <item:create:shaft>, <item:create:large_cogwheel>, <item:create:steam_engine>, <item:minecraft:shulker_shell>]
 ]);
 
 //Create creative blaze cake
