@@ -182,19 +182,6 @@ craftingTable.addShaped("pump_module", <item:quarryplus:pump_module>, [[<tag:ite
 craftingTable.remove(<item:dimdungeons:block_portal_keyhole>);
 craftingTable.addShaped("portal_keystone", <item:dimdungeons:block_portal_keyhole>, [[<item:dimdungeons:block_gilded_portal>, <item:supplementaries:lock_block>, <item:dimdungeons:block_gilded_portal>], [<item:supplementaries:lock_block>, <item:minecraft:ender_eye>, <item:supplementaries:lock_block>], [<item:dimdungeons:block_gilded_portal>, <item:supplementaries:lock_block>, <item:dimdungeons:block_gilded_portal>]]);
 
-//coin conversion recipes
-craftingTable.removeByName("createdeco:copper_coin");
-craftingTable.removeByName("createdeco:iron_coin");
-craftingTable.removeByName("createdeco:gold_coin");
-craftingTable.removeByName("createdeco:netherite_coin");
-
-craftingTable.addShapeless("iron_to_copper", <item:createdeco:copper_coin> * 4, [<item:createdeco:iron_coin>]);
-craftingTable.addShapeless("copper_to_iron", <item:createdeco:iron_coin>, [<item:createdeco:copper_coin>, <item:createdeco:copper_coin>, <item:createdeco:copper_coin>, <item:createdeco:copper_coin>]);
-craftingTable.addShapeless("gold_to_iron", <item:createdeco:iron_coin> * 4, [<item:createdeco:gold_coin>]);
-craftingTable.addShapeless("iron_to_gold", <item:createdeco:gold_coin>, [<item:createdeco:iron_coin>, <item:createdeco:iron_coin>, <item:createdeco:iron_coin>, <item:createdeco:iron_coin>]);
-craftingTable.addShapeless("netherite_to_gold", <item:createdeco:gold_coin> * 4, [<item:createdeco:netherite_coin>]);
-craftingTable.addShapeless("gold_to_netherite", <item:createdeco:netherite_coin>, [<item:createdeco:gold_coin>, <item:createdeco:gold_coin>, <item:createdeco:gold_coin>, <item:createdeco:gold_coin>]);
-
 //updating computercraft recipes
 craftingTable.remove(<item:computercraft:computer_normal>);
 
@@ -318,9 +305,6 @@ craftingTable.addShaped("immersiveengineering_crafting_connector_mv_relay", <ite
 craftingTable.addShaped("immersiveengineering_crafting_connector_hv", <item:immersiveengineering:connector_hv> * 4, [[IIngredientEmpty.getInstance(), <tag:items:forge:ingots/aluminum>, IIngredientEmpty.getInstance()], [<item:minecraft:terracotta>, <tag:items:forge:ingots/aluminum>, <item:minecraft:terracotta>], [<item:minecraft:terracotta>, <tag:items:forge:ingots/aluminum>, <item:minecraft:terracotta>]]);
 
 craftingTable.addShaped("immersiveengineering_crafting_connector_hv_relay", <item:immersiveengineering:connector_hv_relay> * 8, [[IIngredientEmpty.getInstance(), <tag:items:forge:ingots/aluminum>, IIngredientEmpty.getInstance()], [<item:immersiveengineering:insulating_glass>, <tag:items:forge:ingots/aluminum>, <item:immersiveengineering:insulating_glass>], [<item:immersiveengineering:insulating_glass>, <tag:items:forge:ingots/aluminum>, <item:immersiveengineering:insulating_glass>]]);
-
-//furnace burner recipe
-craftingTable.addShaped("furnace_burner_recipe", <item:createaddition:furnace_burner>, [[<item:create:andesite_alloy>, <item:create:andesite_alloy>, <item:create:andesite_alloy>], [<item:create:andesite_alloy>, IIngredientEmpty.getInstance(), <item:create:andesite_alloy>], [<item:create:andesite_alloy>, <item:create:andesite_alloy>, <item:create:andesite_alloy>]]);
 
 //extended crafting crafting core
 mods.extendedcrafting.TableCrafting.addShaped("6f70060a-99fa-4e8b-9542-8504804183c1", 0, <item:extendedcrafting:crafting_core>, [
@@ -451,15 +435,15 @@ craftingTable.addShapeless("ostrum_netherite", <item:minecraft:netherite_ingot>,
 <recipetype:create:milling>.addJsonRecipe("custom_create_milling_flour", {
   "ingredients": [
     {
-      "tag": "croptopia:flourable"
+      "tag": "forge:grain"
     }
   ],
   "results": [
     {
-      "item": "croptopia:flour"
+      "item": "create:wheat_flour"
     },
     {
-      "item": "croptopia:flour",
+      "item": "create:wheat_flour",
       "count": 2,
       "chance": 0.25
     },
@@ -479,7 +463,7 @@ craftingTable.addShapeless("ostrum_netherite", <item:minecraft:netherite_ingot>,
   ],
   "results": [
     {
-      "item": "croptopia:dough"
+      "item": "farmersdelight:wheat_dough"
     }
   ]
 });
@@ -497,13 +481,13 @@ craftingTable.addShapeless("ostrum_netherite", <item:minecraft:netherite_ingot>,
   ],
   "results": [
     {
-      "item": "croptopia:dough"
+      "item": "farmersdelight:wheat_dough"
     }
   ]
 });
 
 <recipetype:immersiveengineering:bottling_machine>.addJsonRecipe("custom_ie_mixing_dough", {
-"result":{"item":"croptopia:dough"},"input":{"item":"croptopia:flour"},"fluid":{"tag":"minecraft:water","amount":1000}
+"result":{"item":"farmersdelight:wheat_dough"},"input":{"tag":"forge:flour"},"fluid":{"tag":"minecraft:water","amount":1000}
 });
 
 //milling sourceberries
@@ -677,9 +661,6 @@ craftingTable.addShaped("custom_stripped_crimson_crate", <item:cfm:stripped_crim
 
 //fixed sticky piston recipe
 craftingTable.addShaped("custom_sticky_piston", <item:minecraft:sticky_piston>, [[<tag:items:forge:slimeballs>], [<item:minecraft:piston>]]);
-
-//fixed croptopia knife recipe
-craftingTable.addShaped("custom_croptopia_knife", <item:croptopia:knife>, [[IIngredientEmpty.getInstance(), <tag:items:forge:plates/iron>], [<item:minecraft:stick>, IIngredientEmpty.getInstance()]]);
 
 //fixed cfm bedside cabinets
 craftingTable.addShaped("custom_stripped_oak_bedside_cabinet", <item:cfm:stripped_oak_bedside_cabinet> * 2, [[<item:minecraft:stripped_oak_log>, <item:minecraft:stripped_oak_log>, <item:minecraft:stripped_oak_log>], [<item:minecraft:oak_log>, <tag:items:forge:chests/wooden>, <item:minecraft:oak_log>], [<item:minecraft:oak_log>, <item:minecraft:oak_log>, <item:minecraft:oak_log>]]);

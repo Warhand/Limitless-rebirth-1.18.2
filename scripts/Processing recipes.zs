@@ -42,7 +42,6 @@ val ingot_plate_map as IItemStack[IIngredient] = {
 	<tag:items:forge:ingots/lead>.asIIngredient(): <item:immersiveengineering:plate_lead>,
 	<tag:items:forge:ingots/zinc>.asIIngredient(): <item:createaddition:zinc_sheet>,
 	<tag:items:forge:ingots/brass>.asIIngredient(): <item:create:brass_sheet>,
-	<tag:items:forge:ingots/netherite>.asIIngredient(): <item:createdeco:netherite_sheet>,
 	<tag:items:forge:ingots/desh>.asIIngredient(): <item:beyond_earth:desh_plate>,
 	<tag:items:forge:ingots/tin>.asIIngredient(): <item:ftbic:tin_plate>,
 	<tag:items:forge:ingots/bronze>.asIIngredient(): <item:alloyed:bronze_sheet>
@@ -636,7 +635,6 @@ val fluid_plate_cast_map as IItemStack[IFluidStack] = {
 	<fluid:tconstruct:molten_iron>: <item:immersiveengineering:plate_iron>,
 	<fluid:tconstruct:molten_copper>: <item:immersiveengineering:plate_copper>,
 	<fluid:tconstruct:molten_gold>: <item:immersiveengineering:plate_gold>,
-	<fluid:tconstruct:molten_netherite>: <item:createdeco:netherite_sheet>,
 	<fluid:tconstruct:molten_zinc>: <item:createaddition:zinc_sheet>,
 	<fluid:tconstruct:molten_brass>: <item:create:brass_sheet>,
 	<fluid:tconstruct:molten_aluminum>: <item:immersiveengineering:plate_aluminum>,

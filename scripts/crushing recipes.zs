@@ -58,7 +58,6 @@ val crushers_remove as IItemStack[] = [
 	<item:jaopca:dusts.cobalt>,
 	<item:jaopca:dusts.desh>,
 	<item:jaopca:dusts.froststeel>,
-	<item:jaopca:dusts.netherite_scrap>,
 	<item:jaopca:dusts.ostrum>,
 	<item:jaopca:dusts.regalium>,
 	<item:jaopca:dusts.utherium>,
@@ -167,7 +166,7 @@ val ore_to_gem_map as IItemStack[IIngredient] = {
 
 val ore_to_mineral_map as IItemStack[IIngredient] = {
 	<tag:items:forge:ores/ice_shard>.asIIngredient(): <item:beyond_earth:ice_shard>,
-	<tag:items:forge:ores/cheese>.asIIngredient(): <item:croptopia:cheese>,
+	<tag:items:forge:ores/cheese>.asIIngredient(): <item:brewinandchewin:flaxen_cheese_wedge>,
 	<tag:items:forge:ores/utherium>.asIIngredient(): <item:undergarden:utherium_crystal>,
 	<tag:items:forge:ores/coal>.asIIngredient(): <item:minecraft:coal>,
 	<tag:items:forge:ores/quartz>.asIIngredient(): <item:minecraft:quartz>,
