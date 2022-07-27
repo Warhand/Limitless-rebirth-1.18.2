@@ -204,8 +204,6 @@
 		#Number of filter slots displayed in a row
 		#Range: 1 ~ 6
 		slotsInRow = 3
-		#Determines whether void upgrade allows voiding anything or it only has overflow option
-		voidAnythingEnabled = true
 
 	#Advanced Void Upgrade Settings
 	[common.advancedVoidUpgrade]
@@ -215,8 +213,6 @@
 		#Number of filter slots displayed in a row
 		#Range: 1 ~ 6
 		slotsInRow = 4
-		#Determines whether void upgrade allows voiding anything or it only has overflow option
-		voidAnythingEnabled = true
 
 	#Stack Upgrade Settings
 	[common.stackUpgrade]

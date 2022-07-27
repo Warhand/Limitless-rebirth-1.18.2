@@ -27,11 +27,8 @@
 	basalt_cabinet = true
 	quartz_cabinet = true
 
-["Foods and Other Items"]
-	animal_fat = true
-	animal_oil_bottle = true
+[Other]
 	azalea_tea = true
-	berry_matcha_latte = true
 	cheeseburger = true
 	chunk_nugget = true
 	chunkwich = true
@@ -43,16 +40,8 @@
 	honey_glazed_walnut = true
 	jelly_bottle = true
 	marshmallow_stick = true
-	matcha = true
-	matcha_latte = true
 	nut_butter_and_jelly_sandwich = true
 	nut_butter_bottle = true
 	prickly_pear_juice = true
-	salmonberry = true
 	smore = true
-
-[Generation]
-	#Chance of generating clusters. Smaller value = more frequent.
-	#Range: > 0
-	chance_wild_salmonberries = 30
 

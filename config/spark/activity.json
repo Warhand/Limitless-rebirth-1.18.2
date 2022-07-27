@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "RosieHolstein",
+      "uniqueId": "5034630f-2b73-4069-8f0f-6b105c9c7022"
+    },
+    "time": 1653141675662,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/iN5GZRvy0K"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "RosieHolstein",
+      "uniqueId": "5034630f-2b73-4069-8f0f-6b105c9c7022"
+    },
+    "time": 1653141526594,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/O8XapCqDh5"
+    }
+  }
+]

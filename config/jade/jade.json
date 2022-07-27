@@ -7,7 +7,6 @@
     "hideFromDebug": true,
     "iconMode": "CENTERED",
     "enableTextToSpeech": false,
-    "ttsMode": "PRESS",
     "maxHealthForRender": 40,
     "maxHeartsPerLine": 10,
     "fluidMode": "SOURCE_ONLY",

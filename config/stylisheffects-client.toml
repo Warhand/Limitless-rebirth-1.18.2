@@ -55,10 +55,10 @@
 		#Range: > 0
 		offset_y = 3
 		#Allow effect renderer to fall back to a more compact version (when available) if not enough screen space exists. Otherwise effect widgets might run off-screen.
-		allow_fallback = true
+		allow_fallback = false
 		#Offset on x-axis.
 		#Range: > 0
-		offset_x = 3
+		offset_x = 160
 		#Maximum amount of status effects rendered in a single row.
 		#Range: 1 ~ 255
 		max_columns = 5

@@ -198,17 +198,6 @@
         "value": 10000000
       }
     },
-    "ars_nouveau:max_mana": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 10000,
-        "value": 10000000
-      }
-    },
     "minecraft:generic.armor": {
       "enabled": true,
       "min": {
@@ -217,17 +206,6 @@
       },
       "max": {
         "default": 30,
-        "value": 10000000
-      }
-    },
-    "ars_nouveau:mana_regen": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2000,
         "value": 10000000
       }
     },
@@ -426,17 +404,6 @@
       },
       "max": {
         "default": 5,
-        "value": 10000000
-      }
-    },
-    "savage_and_ravage:explosive_damage_reduction": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
         "value": 10000000
       }
     },

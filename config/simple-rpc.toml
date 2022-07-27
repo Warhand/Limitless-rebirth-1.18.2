@@ -1,0 +1,239 @@
+
+#General Config Section
+[general]
+	#The Application ID of the Discord App to use
+	clientID = 959642514913108029
+	#Enable/Disable the mod
+	enabled = true
+	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
+	debugging = false
+	#Enable/Disable the in game config screen
+	configScreen = true
+	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
+	launcherIntegration = false
+	#Internal Version Number. NO TOUCHY!
+	version = 13
+
+#The Game Loading event
+[init]
+	#Enable/Disable the Game Loading Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Minecraft is loading"
+	#The second line of text under the app name
+	state = "Game Starting..."
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "limitless_rebirth_logo"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+
+	#The buttons to display on Discord
+	[[init.buttons]]
+		label = "Modpack curseforge page"
+		url = "https://www.curseforge.com/minecraft/modpacks/limitless-rebirth"
+
+#The Main Menu event
+[main_menu]
+	#Enable/Disable the Main Menu Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% Is ingame"
+	#The seconds line of text under the app name
+	state = "Knee deep in the menus"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "limitless_rebirth_logo"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Modpack by Rosieholstein for 1.18"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+
+	#The buttons to display on Discord
+	[[main_menu.buttons]]
+		label = "Modpack curseforge page"
+		url = "https://www.curseforge.com/minecraft/modpacks/limitless-rebirth"
+
+#The Server List event
+[server_list]
+	#Enable/Disable the Server List Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is looking for a server"
+	#The second line of text under the app name
+	state = "Searching for friends"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "limitless_rebirth_logo"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Modpack by Rosieholstein for 1.18"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+
+	#The buttons to display on Discord
+	[[server_list.buttons]]
+		label = "Modpack curseforge page"
+		url = "https://www.curseforge.com/minecraft/modpacks/limitless-rebirth"
+
+#The Realms Screen event
+[realms_list]
+	#Enable/Disable the Realms Screen Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is looking for a Realm"
+	#The second line of text under the app name
+	state = "Browsing Realms"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "mclogonew"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord
+	buttons = []
+
+#The Join Game Event
+[join_game]
+	#Enable/Disable the Join Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is joining a game"
+	#The second line of text under the app name
+	state = "Joining Game"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "limitless_rebirth_logo"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Modpack by Rosieholstein for 1.18"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+
+	#The buttons to display on Discord
+	[[join_game.buttons]]
+		label = "Modpack curseforge page"
+		url = "https://www.curseforge.com/minecraft/modpacks/limitless-rebirth"
+
+#The Single Player Event
+[single_player]
+	#Enable/Disable the Single Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Currently In %world%"
+	#The second line of text under the app name
+	state = "Playing Singleplayer"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "limitless_rebirth_logo"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Modpack by Rosieholstein for 1.18"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+
+	#The buttons to display on Discord
+	[[single_player.buttons]]
+		label = "Modpack curseforge page"
+		url = "https://www.curseforge.com/minecraft/modpacks/limitless-rebirth"
+
+#The Multi Player Event
+[multi_player]
+	#Enable/Disable the Multi Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Playing on %servername%"
+	#The second line of text under the app name
+	state = "%players% players online"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "limitless_rebirth_logo"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Modpack by Rosieholstein for 1.18"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+
+	#The buttons to display on Discord
+	[[multi_player.buttons]]
+		label = "Modpack curseforge page"
+		url = "https://www.curseforge.com/minecraft/modpacks/limitless-rebirth"
+
+#The Realms Game Event
+[realms]
+	#Enable/Disable the Realms Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Playing on %realmname%"
+	#The second line of text under the app name
+	state = "Playing on a Realm"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "mclogonew"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%realmdescription%"
+	#The buttons to display on Discord
+	buttons = []
+
+#Fallback event for disabled events
+[generic]
+	#The first line of text under the app name
+	description = "Playing Minecraft"
+	#The second line of text under the app name
+	state = ""
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "limitless_rebirth_logo"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Modpack by Rosieholstein for 1.18"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+
+	#The buttons to display on Discord
+	[[generic.buttons]]
+		label = "Modpack curseforge page"
+		url = "https://www.curseforge.com/minecraft/modpacks/limitless-rebirth"
+
+#Dimension Information Overrides
+[dimension_overrides]
+	#Allows you to override the displayed values for dimensions
+	enabled = false
+
+	#The Dimensions to override
+	[[dimension_overrides.dimensions]]
+		name = "overworld"
+		description = "%player% is in The Overworld"
+		state = ""
+		largeImageKey = "overworld"
+		largeImageText = "In the Overworld"
+		smallImageKey = "mclogo"
+		smallImageText = "%mods% mods installed"
+
+	[[dimension_overrides.dimensions]]
+		name = "the_nether"
+		description = "%player% is in The Nether"
+		state = ""
+		largeImageKey = "nether"
+		largeImageText = "In the Nether"
+		smallImageKey = "mclogo"
+		smallImageText = "%mods% mods installed"
+
+	[[dimension_overrides.dimensions]]
+		name = "the_end"
+		description = "%player% is in The End"
+		state = ""
+		largeImageKey = "end"
+		largeImageText = "In the End"
+		smallImageKey = "mclogo"
+		smallImageText = "%mods% mods installed"
+

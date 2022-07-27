@@ -56,9 +56,6 @@
   "mcjtylib": {
     "jadeaddons": true
   },
-  "lootr": {
-    "info": true
-  },
   "storagedrawers": {
     "display.stacklimit": true,
     "display.content": true,
