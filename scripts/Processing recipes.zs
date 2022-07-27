@@ -14,7 +14,6 @@ import crafttweaker.api.tag.type.KnownTag;
 //adding var for hammers
 
 public var hammers = [
-<item:beyond_earth:hammer>,
 <item:immersiveengineering:hammer>
 ];
 
@@ -42,7 +41,6 @@ val ingot_plate_map as IItemStack[IIngredient] = {
 	<tag:items:forge:ingots/lead>.asIIngredient(): <item:immersiveengineering:plate_lead>,
 	<tag:items:forge:ingots/zinc>.asIIngredient(): <item:createaddition:zinc_sheet>,
 	<tag:items:forge:ingots/brass>.asIIngredient(): <item:create:brass_sheet>,
-	<tag:items:forge:ingots/desh>.asIIngredient(): <item:beyond_earth:desh_plate>,
 	<tag:items:forge:ingots/tin>.asIIngredient(): <item:ftbic:tin_plate>,
 	<tag:items:forge:ingots/bronze>.asIIngredient(): <item:alloyed:bronze_sheet>
 };
@@ -289,58 +287,6 @@ for input, output in ingot_plate_map{
 });
 }
 
-//Beyond earth recipes
-
-for input, output in ingot_rod_map{
-<recipetype:beyond_earth_giselle_addon:extruding>.addJsonRecipe("custom_extruding_beyondearth_" + output.registryName.path, {
-	"input": input,
-	"output": {
-		"item": output.registryName,
-		"count": 2
-	},
-	"cookTime": 50
-});
-}
-
-for input, output in ingot_plate_map{
-<recipetype:beyond_earth_giselle_addon:rolling>.addJsonRecipe("custom_rolling_beyondearth_" + output.registryName.path, {
-	"input": input,
-	"output": {
-		"item": output.registryName,
-		"count": 1
-	},
-	"cookTime": 200
-});
-}
-
-for input, output in plate_wire_map{
-<recipetype:beyond_earth_giselle_addon:extruding>.addJsonRecipe("custom_extruding_beyondearth_" + output.registryName.path, {
-	"input": input,
-	"output": {
-		"item": output.registryName,
-		"count": 2
-	},
-	"cookTime": 50
-});
-}
-
-//beyond earth compressed metals recipes
-
-val ingot_compressed_map as IItemStack[IIngredient] = {
-	<tag:items:forge:ingots/steel>.asIIngredient(): <item:beyond_earth:compressed_steel>,
-	<tag:items:forge:ingots/ostrum>.asIIngredient(): <item:beyond_earth:compressed_ostrum>,
-	<tag:items:forge:ingots/calorite>.asIIngredient(): <item:beyond_earth:compressed_calorite>,
-	<tag:items:forge:ingots/desh>.asIIngredient(): <item:beyond_earth:compressed_desh>
-};
-
-for input, output in ingot_compressed_map{
-<recipetype:immersiveengineering:metal_press>.addJsonRecipe("custom_pressing_" + output.registryName.path, {
-	"mold":"beyond_earth_giselle_addon:mold_compressing",
-	"result":{"count":1, "base_ingredient":{"item": output.registryName}},
-	"input":input,
-	"energy":2400
-});
-}
 
 for input, output in ingot_compressed_map{
 <recipetype:create:compacting>.addJsonRecipe("custom_compacting_" + output.registryName.path, {
@@ -586,9 +532,6 @@ val fluid_ingot_cast_map as IItemStack[IFluidStack] = {
 	<fluid:tconstruct:molten_electrum>: <item:immersiveengineering:ingot_electrum>,
 	<fluid:tconstruct:molten_steel>: <item:immersiveengineering:ingot_steel>,
 	<fluid:tconstruct:molten_bronze>: <item:alloyed:bronze_ingot>,
-	<fluid:beyond_earth:molten_desh>: <item:beyond_earth:desh_ingot>,
-	<fluid:beyond_earth:molten_ostrum>: <item:beyond_earth:ostrum_ingot>,
-	<fluid:beyond_earth:molten_calorite>: <item:beyond_earth:calorite_ingot>,
 	<fluid:materialis:molten_cloggrum>: <item:undergarden:cloggrum_ingot>,
 	<fluid:materialis:molten_froststeel>: <item:undergarden:froststeel_ingot>,
 	<fluid:materialis:molten_forgotten_metal>: <item:undergarden:forgotten_ingot>,
@@ -646,7 +589,6 @@ val fluid_plate_cast_map as IItemStack[IFluidStack] = {
 	<fluid:tconstruct:molten_electrum>: <item:immersiveengineering:plate_electrum>,
 	<fluid:tconstruct:molten_steel>: <item:immersiveengineering:plate_steel>,
 	<fluid:tconstruct:molten_bronze>: <item:alloyed:bronze_sheet>,
-	<fluid:beyond_earth:molten_desh>: <item:beyond_earth:desh_plate>,
 	<fluid:tconstruct:molten_tin>: <item:ftbic:tin_plate>,
 	<fluid:jaopca:molten.iridium>: <item:ftbic:iridium_plate>,
 	<fluid:tconstruct:molten_enderium>: <item:ftbic:enderium_plate>

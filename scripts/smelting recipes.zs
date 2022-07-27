@@ -12,7 +12,6 @@ import crafttweaker.api.fluid.IFluidStack;
 
 //removing default dust melting recipes
 <recipetype:tconstruct:melting>.removeByRegex("tconstruct:smeltery.*melting.*metal.*dust");
-<recipetype:tconstruct:melting>.removeByRegex("beyond_earth:smeltery.melting.*.dust");
 <recipetype:immersiveengineering:arc_furnace>.removeByRegex("immersiveengineering:arcfurnace.raw_*_.*");
 <recipetype:immersiveengineering:arc_furnace>.removeByRegex("immersiveengineering:arcfurnace.ore.*");
 <recipetype:immersiveengineering:arc_furnace>.removeByRegex("immersiveengineering:arcfurnace.dust.*");
@@ -60,15 +59,6 @@ val dust_to_molten_map as IFluidStack[IIngredient] = {
 	<item:undergarden:raw_froststeel>: <fluid:materialis:molten_froststeel>,
 	<tag:items:create:crushed_ores/froststeel>.asIIngredient(): <fluid:materialis:molten_froststeel>,
 	<tag:items:forge:dusts/froststeel>.asIIngredient(): <fluid:materialis:molten_froststeel>,
-	<tag:items:forge:raw_materials/ostrum>.asIIngredient(): <fluid:beyond_earth:molten_ostrum>,
-	<tag:items:create:crushed_ores/ostrum>.asIIngredient(): <fluid:beyond_earth:molten_ostrum>,
-	<tag:items:forge:dusts/ostrum>.asIIngredient(): <fluid:beyond_earth:molten_ostrum>,
-	<tag:items:forge:raw_materials/desh>.asIIngredient(): <fluid:beyond_earth:molten_desh>,
-	<tag:items:create:crushed_ores/desh>.asIIngredient(): <fluid:beyond_earth:molten_desh>,
-	<tag:items:forge:dusts/desh>.asIIngredient(): <fluid:beyond_earth:molten_desh>,
-	<tag:items:forge:raw_materials/calorite>.asIIngredient(): <fluid:beyond_earth:molten_calorite>,
-	<tag:items:create:crushed_ores/calorite>.asIIngredient(): <fluid:beyond_earth:molten_calorite>,
-	<tag:items:forge:dusts/calorite>.asIIngredient(): <fluid:beyond_earth:molten_calorite>
 };
 
 for input, output in dust_to_molten_map{
@@ -138,15 +128,6 @@ val dust_to_ingot_map as IItemStack[IIngredient] = {
 	<item:undergarden:raw_froststeel>: <item:undergarden:froststeel_ingot>,
 	<tag:items:create:crushed_ores/froststeel>.asIIngredient(): <item:undergarden:froststeel_ingot>,
 	<tag:items:forge:dusts/froststeel>.asIIngredient(): <item:undergarden:froststeel_ingot>,
-	<tag:items:forge:raw_materials/ostrum>.asIIngredient(): <item:beyond_earth:ostrum_ingot>,
-	<tag:items:create:crushed_ores/ostrum>.asIIngredient(): <item:beyond_earth:ostrum_ingot>,
-	<tag:items:forge:dusts/ostrum>.asIIngredient(): <item:beyond_earth:ostrum_ingot>,
-	<tag:items:forge:raw_materials/desh>.asIIngredient(): <item:beyond_earth:desh_ingot>,
-	<tag:items:create:crushed_ores/desh>.asIIngredient(): <item:beyond_earth:desh_ingot>,
-	<tag:items:forge:dusts/desh>.asIIngredient(): <item:beyond_earth:desh_ingot>,
-	<tag:items:forge:raw_materials/calorite>.asIIngredient(): <item:beyond_earth:calorite_ingot>,
-	<tag:items:create:crushed_ores/calorite>.asIIngredient(): <item:beyond_earth:calorite_ingot>,
-	<tag:items:forge:dusts/calorite>.asIIngredient(): <item:beyond_earth:calorite_ingot>
 };
 
 for input, output in dust_to_ingot_map{

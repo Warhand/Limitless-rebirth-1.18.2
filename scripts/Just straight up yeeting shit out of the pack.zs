@@ -23,11 +23,6 @@ import mods.jei.JEI;
 
 //Regex recipe removal functions
 
-blastFurnace.removeByRegex("jaopca:beyond_earth.recycling.*_from_compresseds");
-furnace.removeByRegex("jaopca:beyond_earth.recycling.*_from_compresseds");
-<recipetype:beyond_earth_giselle_addon:rolling>.removeByRegex("jaopca:beyond_earth_giselle_addon.*");
-<recipetype:beyond_earth_giselle_addon:extruding>.removeByRegex("jaopca:beyond_earth_giselle_addon.*");
-<recipetype:beyond_earth:compressing>.removeByRegex("jaopca:beyond_earth.compressing.*");
 <recipetype:immersiveengineering:crusher>.removeByRegex("jaopca:immersiveengineering.*_to_.*");
 <recipetype:create:crushing>.removeByRegex("malum:create.crushing.crush_.*");
 <recipetype:immersiveengineering:crusher>.removeByRegex("immersiveengineering:crusher/ingot_.*");
@@ -142,7 +137,6 @@ val trash as IItemStack[] = [
 	<item:cgm:stun_grenade>,
 	<item:quarryplus:flex_marker>,
 	<item:quarryplus:workbench>,
-	<item:beyond_earth:iron_stick>,
 	<item:quarryplus:mover>,
 	<item:upgradednetherite:gold_upgraded_netherite_ingot>,
 	<item:upgradednetherite:fire_upgraded_netherite_ingot>,
@@ -280,7 +274,6 @@ for item in jei_removal{
 
 val utter_eradication as IItemStack[] = [
 	<item:alloyed:steel_sheet>,
-	<item:beyond_earth:cheese>,
 	<item:createaddition:copper_wire>,
 	<item:ftbic:aluminum_chunk>,
 	<item:ftbic:aluminum_dust>,
@@ -322,55 +315,6 @@ val utter_eradication as IItemStack[] = [
 	<item:ironjetpacks:cell>.withTag({Id:"ironjetpacks:creative"as string}),
 	<item:ironjetpacks:jetpack>.withTag({Id:"ironjetpacks:creative"as string,Throttle:1.0 as double}),
 	<item:ironjetpacks:thruster>.withTag({Id:"ironjetpacks:creative"as string}),
-	<item:jaopca:beyond_earth_compresseds.alfsteel>,
-	<item:jaopca:beyond_earth_compresseds.aluminum>,
-	<item:jaopca:beyond_earth_compresseds.amethyst_bronze>,
-	<item:jaopca:beyond_earth_compresseds.brass>,
-	<item:jaopca:beyond_earth_compresseds.brick>,
-	<item:jaopca:beyond_earth_compresseds.bronze>,
-	<item:jaopca:beyond_earth_compresseds.cloggrum>,
-	<item:jaopca:beyond_earth_compresseds.cobalt>,
-	<item:jaopca:beyond_earth_compresseds.constantan>,
-	<item:jaopca:beyond_earth_compresseds.copper>,
-	<item:jaopca:beyond_earth_compresseds.electrum>,
-	<item:jaopca:beyond_earth_compresseds.elementium>,
-	<item:jaopca:beyond_earth_compresseds.enderium>,
-	<item:jaopca:beyond_earth_compresseds.fairy>,
-	<item:jaopca:beyond_earth_compresseds.falsite>,
-	<item:jaopca:beyond_earth_compresseds.flux_infused>,
-	<item:jaopca:beyond_earth_compresseds.forgotten_metal>,
-	<item:jaopca:beyond_earth_compresseds.froststeel>,
-	<item:jaopca:beyond_earth_compresseds.gold>,
-	<item:jaopca:beyond_earth_compresseds.hepatizon>,
-	<item:jaopca:beyond_earth_compresseds.hop_graphite>,
-	<item:jaopca:beyond_earth_compresseds.horizonite>,
-	<item:jaopca:beyond_earth_compresseds.iridium>,
-	<item:jaopca:beyond_earth_compresseds.knightslime>,
-	<item:jaopca:beyond_earth_compresseds.lead>,
-	<item:jaopca:beyond_earth_compresseds.manasteel>,
-	<item:jaopca:beyond_earth_compresseds.manyullyn>,
-	<item:jaopca:beyond_earth_compresseds.neptunium>,
-	<item:jaopca:beyond_earth_compresseds.nether_brick>,
-	<item:jaopca:beyond_earth_compresseds.netherite>,
-	<item:jaopca:beyond_earth_compresseds.nickel>,
-	<item:jaopca:beyond_earth_compresseds.osmium>,
-	<item:jaopca:beyond_earth_compresseds.pig_iron>,
-	<item:jaopca:beyond_earth_compresseds.pink_slime>,
-	<item:jaopca:beyond_earth_compresseds.queens_slime>,
-	<item:jaopca:beyond_earth_compresseds.refined_radiance>,
-	<item:jaopca:beyond_earth_compresseds.regalium>,
-	<item:jaopca:beyond_earth_compresseds.rose_gold>,
-	<item:jaopca:beyond_earth_compresseds.shadow_steel>,
-	<item:jaopca:beyond_earth_compresseds.silver>,
-	<item:jaopca:beyond_earth_compresseds.slimesteel>,
-	<item:jaopca:beyond_earth_compresseds.soulsteel>,
-	<item:jaopca:beyond_earth_compresseds.starmetal>,
-	<item:jaopca:beyond_earth_compresseds.terrasteel>,
-	<item:jaopca:beyond_earth_compresseds.tin>,
-	<item:jaopca:beyond_earth_compresseds.uranium>,
-	<item:jaopca:beyond_earth_compresseds.utherium>,
-	<item:jaopca:beyond_earth_compresseds.ventium>,
-	<item:jaopca:beyond_earth_compresseds.zinc>,
 	<item:jaopca:create_crushed_ores.aluminum>,
 	<item:jaopca:create_crushed_ores.lead>,
 	<item:jaopca:create_crushed_ores.netherite_scrap>,
@@ -393,9 +337,7 @@ val utter_eradication as IItemStack[] = [
 	<item:tconstruct:molten_refined_glowstone_bucket>,
 	<item:create:copper_sheet>,
 	<item:ftbic:lead_block>,
-	<item:beyond_earth:iron_stick>,
 	<item:create:iron_sheet>,
-	<item:beyond_earth:iron_plate>,
 	<item:ftbic:iron_rod>,
 	<item:ftbic:gold_rod>,
 	<item:ftbic:gold_plate>,
@@ -406,9 +348,7 @@ val utter_eradication as IItemStack[] = [
 	<item:ftbic:iron_plate>,
 	<item:ftbic:lead_plate>,
 	<item:ftbic:uranium_nugget>,
-	<item:beyond_earth:steel_nugget>,
 	<item:alloyed:steel_block>,
-	<item:beyond_earth:steel_ingot>,
 	<item:alloyed:steel_ingot>,
 	<item:ftbic:aluminum_block>,
 	<item:ftbic:aluminum_gear>,
@@ -416,7 +356,6 @@ val utter_eradication as IItemStack[] = [
 	<item:ftbic:aluminum_plate>,
 	<item:ftbic:aluminum_nugget>,
 	<item:ftbic:uranium_nugget>,
-	<item:beyond_earth:steel_block>,
 	<item:ftbic:aluminum_nugget>,
 	<item:ftbic:bronze_ingot>,
 	<item:ftbic:bronze_nugget>,
@@ -473,9 +412,6 @@ for item in utter_eradication{
 	furnace.remove(item);
 	<recipetype:tconstruct:molding_table>.remove(item);
 	<recipetype:immersiveengineering:metal_press>.remove(item);
-	<recipetype:beyond_earth_giselle_addon:rolling>.remove(item);
-	<recipetype:beyond_earth_giselle_addon:extruding>.remove(item);
-	<recipetype:beyond_earth:compressing>.remove(item);
 	<recipetype:ftbic:rolling>.remove(item);
 	<recipetype:ftbic:macerating>.remove(item);
 	<recipetype:create:pressing>.remove(item);

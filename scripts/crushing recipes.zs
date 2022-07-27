@@ -10,9 +10,6 @@ import crafttweaker.api.recipe.SmithingRecipeManager;
 //removing base game recipes
 
 val crushers_remove as IItemStack[] = [
-	<item:beyond_earth:raw_calorite>,
-	<item:beyond_earth:raw_desh>,
-	<item:beyond_earth:raw_ostrum>,
 	<item:create:crushed_aluminum_ore>,
 	<item:create:crushed_copper_ore>,
 	<item:create:crushed_gold_ore>,
@@ -107,10 +104,7 @@ val ore_to_raw_map as IItemStack[IIngredient] = {
 	<tag:items:forge:ores/nickel>.asIIngredient(): <item:immersiveengineering:raw_nickel>,
 	<tag:items:forge:ores/uranium>.asIIngredient(): <item:immersiveengineering:raw_uranium>,
 	<tag:items:forge:ores/cloggrum>.asIIngredient(): <item:undergarden:raw_cloggrum>,
-	<tag:items:forge:ores/ostrum>.asIIngredient(): <item:beyond_earth:raw_ostrum>,
 	<tag:items:forge:ores/cobalt>.asIIngredient(): <item:tconstruct:raw_cobalt>,
-	<tag:items:forge:ores/calorite>.asIIngredient(): <item:beyond_earth:raw_calorite>,
-	<tag:items:forge:ores/desh>.asIIngredient(): <item:beyond_earth:raw_desh>,
 	<tag:items:forge:ores/iridium>.asIIngredient(): <item:ftbic:iridium_chunk>
 };
 
@@ -165,7 +159,6 @@ val ore_to_gem_map as IItemStack[IIngredient] = {
 };
 
 val ore_to_mineral_map as IItemStack[IIngredient] = {
-	<tag:items:forge:ores/ice_shard>.asIIngredient(): <item:beyond_earth:ice_shard>,
 	<tag:items:forge:ores/cheese>.asIIngredient(): <item:brewinandchewin:flaxen_cheese_wedge>,
 	<tag:items:forge:ores/utherium>.asIIngredient(): <item:undergarden:utherium_crystal>,
 	<tag:items:forge:ores/coal>.asIIngredient(): <item:minecraft:coal>,

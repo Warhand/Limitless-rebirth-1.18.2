@@ -134,17 +134,11 @@ craftingTable.addShapeless("portable_fluid_interface", <item:create:portable_flu
 //create brass casing new recipe
 craftingTable.addShaped("create_brass_casing", <item:create:brass_casing> * 8, [[<item:immersiveengineering:treated_wood_horizontal>, <item:immersiveengineering:treated_wood_horizontal>, <item:immersiveengineering:treated_wood_horizontal>], [<tag:items:forge:plates/brass>, <tag:items:minecraft:logs>, <tag:items:forge:plates/brass>], [<item:immersiveengineering:treated_wood_horizontal>, <item:immersiveengineering:treated_wood_horizontal>, <item:immersiveengineering:treated_wood_horizontal>]]);
 
-//beyond earth removing blast furnace steel recipe
-blastFurnace.remove(<item:beyond_earth:steel_ingot>);
-
 //rose quarts tooltip
 <item:biomesoplenty:rose_quartz_shard>.addTooltip("Found in large patches in the nether.");
 
 //rose quartz uncrafting block
 craftingTable.addShapeless("uncrafting_rose_quartz", <item:biomesoplenty:rose_quartz_block> * 4, [<item:biomesoplenty:rose_quartz_shard>]);
-
-//beyond earth hammer durability upgrade
-<item:beyond_earth:hammer>.maxDamage = 75;
 
 //immersive engineering hammer durability upgrade and recipe change
 craftingTable.remove(<item:immersiveengineering:hammer>);
@@ -256,9 +250,6 @@ val rawblock_block_map as IItemStack[IIngredient] = {
 <tag:items:forge:storage_blocks/raw_copper>.asIIngredient(): <item:minecraft:copper_block>,
 <tag:items:forge:storage_blocks/raw_gold>.asIIngredient(): <item:minecraft:gold_block>,
 <tag:items:forge:storage_blocks/raw_zinc>.asIIngredient(): <item:create:zinc_block>,
-<tag:items:forge:storage_blocks/raw_desh>.asIIngredient(): <item:beyond_earth:desh_block>,
-<tag:items:forge:storage_blocks/raw_ostrum>.asIIngredient(): <item:beyond_earth:ostrum_block>,
-<tag:items:forge:storage_blocks/raw_calorite>.asIIngredient(): <item:beyond_earth:calorite_block>,
 <tag:items:forge:storage_blocks/raw_cloggrum>.asIIngredient(): <item:undergarden:cloggrum_block>,
 <tag:items:forge:storage_blocks/raw_froststeel>.asIIngredient(): <item:undergarden:froststeel_block>,
 <tag:items:forge:storage_blocks/raw_aluminum>.asIIngredient(): <item:immersiveengineering:storage_aluminum>,
