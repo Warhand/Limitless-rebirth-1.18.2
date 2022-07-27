@@ -1,0 +1,8321 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "top",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "true",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "straight",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "straight",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "inner_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_left",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "true",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"solid": "false",
+			"shape": "outer_right",
+			"locked": "false",
+			"half": "bottom",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_stairs"
+	}
+]

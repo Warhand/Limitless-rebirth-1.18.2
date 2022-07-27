@@ -1,0 +1,371 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "0"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "1"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "2"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "3"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "4"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "5"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "6"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "7"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "8"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "9"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "10"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "11"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "12"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "13"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "14"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "15"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "16"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "17"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "18"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "19"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "20"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "21"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "22"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "23"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "24"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "25"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "26"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "27"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "28"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "29"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "30"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "31"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "32"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "33"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "34"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "35"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "36"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "37"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "38"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "39"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "40"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "41"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "42"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "43"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "44"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "45"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "46"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "47"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "48"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "49"
+		},
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		"Name": "structure_gel:red_gel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"count": "51"
+		},
+		"Name": "structure_gel:red_gel"
+	}
+]

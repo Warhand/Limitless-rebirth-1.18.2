@@ -1,0 +1,1587 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "big",
+			"up": "true",
+			"horizontal": "big",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "big",
+			"up": "true",
+			"horizontal": "big",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "small",
+			"up": "true",
+			"horizontal": "big",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "hidden",
+			"up": "true",
+			"horizontal": "big",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "hidden",
+			"up": "true",
+			"horizontal": "big",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "big",
+			"up": "false",
+			"horizontal": "big",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "big",
+			"up": "false",
+			"horizontal": "big",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "small",
+			"up": "false",
+			"horizontal": "big",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "small",
+			"up": "false",
+			"horizontal": "big",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "hidden",
+			"up": "false",
+			"horizontal": "big",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "hidden",
+			"up": "false",
+			"horizontal": "big",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "big",
+			"up": "true",
+			"horizontal": "small",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "big",
+			"up": "true",
+			"horizontal": "small",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "small",
+			"up": "true",
+			"horizontal": "small",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "small",
+			"up": "true",
+			"horizontal": "small",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "hidden",
+			"up": "true",
+			"horizontal": "small",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "hidden",
+			"up": "true",
+			"horizontal": "small",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "big",
+			"up": "false",
+			"horizontal": "small",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "big",
+			"up": "false",
+			"horizontal": "small",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "small",
+			"up": "false",
+			"horizontal": "small",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "small",
+			"up": "false",
+			"horizontal": "small",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "hidden",
+			"up": "false",
+			"horizontal": "small",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "hidden",
+			"up": "false",
+			"horizontal": "small",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "big",
+			"up": "true",
+			"horizontal": "hidden",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "big",
+			"up": "true",
+			"horizontal": "hidden",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "small",
+			"up": "true",
+			"horizontal": "hidden",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "small",
+			"up": "true",
+			"horizontal": "hidden",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "hidden",
+			"up": "true",
+			"horizontal": "hidden",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "hidden",
+			"up": "true",
+			"horizontal": "hidden",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "big",
+			"up": "false",
+			"horizontal": "hidden",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "big",
+			"up": "false",
+			"horizontal": "hidden",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "small",
+			"up": "false",
+			"horizontal": "hidden",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "small",
+			"up": "false",
+			"horizontal": "hidden",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "hidden",
+			"up": "false",
+			"horizontal": "hidden",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "hidden",
+			"up": "false",
+			"horizontal": "hidden",
+			"facing": "north"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "big",
+			"up": "true",
+			"horizontal": "big",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "big",
+			"up": "true",
+			"horizontal": "big",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "small",
+			"up": "true",
+			"horizontal": "big",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "small",
+			"up": "true",
+			"horizontal": "big",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "hidden",
+			"up": "true",
+			"horizontal": "big",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "hidden",
+			"up": "true",
+			"horizontal": "big",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "big",
+			"up": "false",
+			"horizontal": "big",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "big",
+			"up": "false",
+			"horizontal": "big",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "small",
+			"up": "false",
+			"horizontal": "big",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "small",
+			"up": "false",
+			"horizontal": "big",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "hidden",
+			"up": "false",
+			"horizontal": "big",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "hidden",
+			"up": "false",
+			"horizontal": "big",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "big",
+			"up": "true",
+			"horizontal": "small",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "big",
+			"up": "true",
+			"horizontal": "small",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "small",
+			"up": "true",
+			"horizontal": "small",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "small",
+			"up": "true",
+			"horizontal": "small",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "hidden",
+			"up": "true",
+			"horizontal": "small",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "hidden",
+			"up": "true",
+			"horizontal": "small",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "big",
+			"up": "false",
+			"horizontal": "small",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "big",
+			"up": "false",
+			"horizontal": "small",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "small",
+			"up": "false",
+			"horizontal": "small",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "small",
+			"up": "false",
+			"horizontal": "small",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "hidden",
+			"up": "false",
+			"horizontal": "small",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "hidden",
+			"up": "false",
+			"horizontal": "small",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "big",
+			"up": "true",
+			"horizontal": "hidden",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "big",
+			"up": "true",
+			"horizontal": "hidden",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "small",
+			"up": "true",
+			"horizontal": "hidden",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "small",
+			"up": "true",
+			"horizontal": "hidden",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "hidden",
+			"up": "true",
+			"horizontal": "hidden",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "hidden",
+			"up": "true",
+			"horizontal": "hidden",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "big",
+			"up": "false",
+			"horizontal": "hidden",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "big",
+			"up": "false",
+			"horizontal": "hidden",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "small",
+			"up": "false",
+			"horizontal": "hidden",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "small",
+			"up": "false",
+			"horizontal": "hidden",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "hidden",
+			"up": "false",
+			"horizontal": "hidden",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "hidden",
+			"up": "false",
+			"horizontal": "hidden",
+			"facing": "south"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "big",
+			"up": "true",
+			"horizontal": "big",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "big",
+			"up": "true",
+			"horizontal": "big",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "small",
+			"up": "true",
+			"horizontal": "big",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "small",
+			"up": "true",
+			"horizontal": "big",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "hidden",
+			"up": "true",
+			"horizontal": "big",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "hidden",
+			"up": "true",
+			"horizontal": "big",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "big",
+			"up": "false",
+			"horizontal": "big",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "big",
+			"up": "false",
+			"horizontal": "big",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "small",
+			"up": "false",
+			"horizontal": "big",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "small",
+			"up": "false",
+			"horizontal": "big",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "hidden",
+			"up": "false",
+			"horizontal": "big",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "hidden",
+			"up": "false",
+			"horizontal": "big",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "big",
+			"up": "true",
+			"horizontal": "small",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "big",
+			"up": "true",
+			"horizontal": "small",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "small",
+			"up": "true",
+			"horizontal": "small",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "small",
+			"up": "true",
+			"horizontal": "small",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "hidden",
+			"up": "true",
+			"horizontal": "small",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "hidden",
+			"up": "true",
+			"horizontal": "small",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "big",
+			"up": "false",
+			"horizontal": "small",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "big",
+			"up": "false",
+			"horizontal": "small",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "small",
+			"up": "false",
+			"horizontal": "small",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "small",
+			"up": "false",
+			"horizontal": "small",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "hidden",
+			"up": "false",
+			"horizontal": "small",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "hidden",
+			"up": "false",
+			"horizontal": "small",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "big",
+			"up": "true",
+			"horizontal": "hidden",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "big",
+			"up": "true",
+			"horizontal": "hidden",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "small",
+			"up": "true",
+			"horizontal": "hidden",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "small",
+			"up": "true",
+			"horizontal": "hidden",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "hidden",
+			"up": "true",
+			"horizontal": "hidden",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "hidden",
+			"up": "true",
+			"horizontal": "hidden",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "big",
+			"up": "false",
+			"horizontal": "hidden",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "big",
+			"up": "false",
+			"horizontal": "hidden",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "small",
+			"up": "false",
+			"horizontal": "hidden",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "small",
+			"up": "false",
+			"horizontal": "hidden",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "hidden",
+			"up": "false",
+			"horizontal": "hidden",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "hidden",
+			"up": "false",
+			"horizontal": "hidden",
+			"facing": "west"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "big",
+			"up": "true",
+			"horizontal": "big",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "big",
+			"up": "true",
+			"horizontal": "big",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "small",
+			"up": "true",
+			"horizontal": "big",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "small",
+			"up": "true",
+			"horizontal": "big",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "hidden",
+			"up": "true",
+			"horizontal": "big",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "hidden",
+			"up": "true",
+			"horizontal": "big",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "big",
+			"up": "false",
+			"horizontal": "big",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "big",
+			"up": "false",
+			"horizontal": "big",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "small",
+			"up": "false",
+			"horizontal": "big",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "small",
+			"up": "false",
+			"horizontal": "big",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "hidden",
+			"up": "false",
+			"horizontal": "big",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "hidden",
+			"up": "false",
+			"horizontal": "big",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "big",
+			"up": "true",
+			"horizontal": "small",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "big",
+			"up": "true",
+			"horizontal": "small",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "small",
+			"up": "true",
+			"horizontal": "small",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "small",
+			"up": "true",
+			"horizontal": "small",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "hidden",
+			"up": "true",
+			"horizontal": "small",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "hidden",
+			"up": "true",
+			"horizontal": "small",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "big",
+			"up": "false",
+			"horizontal": "small",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "big",
+			"up": "false",
+			"horizontal": "small",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "small",
+			"up": "false",
+			"horizontal": "small",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "small",
+			"up": "false",
+			"horizontal": "small",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "hidden",
+			"up": "false",
+			"horizontal": "small",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "hidden",
+			"up": "false",
+			"horizontal": "small",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "big",
+			"up": "true",
+			"horizontal": "hidden",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "big",
+			"up": "true",
+			"horizontal": "hidden",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "small",
+			"up": "true",
+			"horizontal": "hidden",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "small",
+			"up": "true",
+			"horizontal": "hidden",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "hidden",
+			"up": "true",
+			"horizontal": "hidden",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "hidden",
+			"up": "true",
+			"horizontal": "hidden",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "big",
+			"up": "false",
+			"horizontal": "hidden",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "big",
+			"up": "false",
+			"horizontal": "hidden",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "small",
+			"up": "false",
+			"horizontal": "hidden",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "small",
+			"up": "false",
+			"horizontal": "hidden",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertical": "hidden",
+			"up": "false",
+			"horizontal": "hidden",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertical": "hidden",
+			"up": "false",
+			"horizontal": "hidden",
+			"facing": "east"
+		},
+		"Name": "decorative_blocks:acacia_support"
+	}
+]

@@ -1,0 +1,113 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"axis": "x",
+			"attached": "true"
+		},
+		"Name": "valhelsia_structures:dark_oak_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"axis": "x",
+			"attached": "true"
+		},
+		"Name": "valhelsia_structures:dark_oak_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"axis": "y",
+			"attached": "true"
+		},
+		"Name": "valhelsia_structures:dark_oak_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"axis": "y",
+			"attached": "true"
+		},
+		"Name": "valhelsia_structures:dark_oak_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"axis": "z",
+			"attached": "true"
+		},
+		"Name": "valhelsia_structures:dark_oak_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"axis": "z",
+			"attached": "true"
+		},
+		"Name": "valhelsia_structures:dark_oak_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"axis": "x",
+			"attached": "false"
+		},
+		"Name": "valhelsia_structures:dark_oak_post"
+	},
+	{
+		"Name": "valhelsia_structures:dark_oak_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"axis": "y",
+			"attached": "false"
+		},
+		"Name": "valhelsia_structures:dark_oak_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"axis": "y",
+			"attached": "false"
+		},
+		"Name": "valhelsia_structures:dark_oak_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"axis": "z",
+			"attached": "false"
+		},
+		"Name": "valhelsia_structures:dark_oak_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"axis": "z",
+			"attached": "false"
+		},
+		"Name": "valhelsia_structures:dark_oak_post"
+	}
+]

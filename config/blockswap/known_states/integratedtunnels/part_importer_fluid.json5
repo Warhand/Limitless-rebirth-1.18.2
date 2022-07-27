@@ -1,0 +1,150 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"status": "active",
+			"facing": "north"
+		},
+		"Name": "integratedtunnels:part_importer_fluid"
+	},
+	{
+		"Name": "integratedtunnels:part_importer_fluid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"status": "error",
+			"facing": "north"
+		},
+		"Name": "integratedtunnels:part_importer_fluid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"status": "active",
+			"facing": "east"
+		},
+		"Name": "integratedtunnels:part_importer_fluid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"status": "inactive",
+			"facing": "east"
+		},
+		"Name": "integratedtunnels:part_importer_fluid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"status": "error",
+			"facing": "east"
+		},
+		"Name": "integratedtunnels:part_importer_fluid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"status": "active",
+			"facing": "south"
+		},
+		"Name": "integratedtunnels:part_importer_fluid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"status": "inactive",
+			"facing": "south"
+		},
+		"Name": "integratedtunnels:part_importer_fluid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"status": "error",
+			"facing": "south"
+		},
+		"Name": "integratedtunnels:part_importer_fluid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"status": "active",
+			"facing": "west"
+		},
+		"Name": "integratedtunnels:part_importer_fluid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"status": "inactive",
+			"facing": "west"
+		},
+		"Name": "integratedtunnels:part_importer_fluid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"status": "error",
+			"facing": "west"
+		},
+		"Name": "integratedtunnels:part_importer_fluid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"status": "active",
+			"facing": "up"
+		},
+		"Name": "integratedtunnels:part_importer_fluid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"status": "inactive",
+			"facing": "up"
+		},
+		"Name": "integratedtunnels:part_importer_fluid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"status": "error",
+			"facing": "up"
+		},
+		"Name": "integratedtunnels:part_importer_fluid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"status": "active",
+			"facing": "down"
+		},
+		"Name": "integratedtunnels:part_importer_fluid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"status": "inactive",
+			"facing": "down"
+		},
+		"Name": "integratedtunnels:part_importer_fluid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"status": "error",
+			"facing": "down"
+		},
+		"Name": "integratedtunnels:part_importer_fluid"
+	}
+]

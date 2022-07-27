@@ -1,0 +1,198 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "rftoolsutility:creative_screen"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"horizfacing": "south",
+			"facing": "north"
+		},
+		"Name": "rftoolsutility:creative_screen"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"horizfacing": "west",
+			"facing": "north"
+		},
+		"Name": "rftoolsutility:creative_screen"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"horizfacing": "east",
+			"facing": "north"
+		},
+		"Name": "rftoolsutility:creative_screen"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"horizfacing": "north",
+			"facing": "east"
+		},
+		"Name": "rftoolsutility:creative_screen"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"horizfacing": "south",
+			"facing": "east"
+		},
+		"Name": "rftoolsutility:creative_screen"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"horizfacing": "west",
+			"facing": "east"
+		},
+		"Name": "rftoolsutility:creative_screen"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"horizfacing": "east",
+			"facing": "east"
+		},
+		"Name": "rftoolsutility:creative_screen"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"horizfacing": "north",
+			"facing": "south"
+		},
+		"Name": "rftoolsutility:creative_screen"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"horizfacing": "south",
+			"facing": "south"
+		},
+		"Name": "rftoolsutility:creative_screen"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"horizfacing": "west",
+			"facing": "south"
+		},
+		"Name": "rftoolsutility:creative_screen"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"horizfacing": "east",
+			"facing": "south"
+		},
+		"Name": "rftoolsutility:creative_screen"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"horizfacing": "north",
+			"facing": "west"
+		},
+		"Name": "rftoolsutility:creative_screen"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"horizfacing": "south",
+			"facing": "west"
+		},
+		"Name": "rftoolsutility:creative_screen"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"horizfacing": "west",
+			"facing": "west"
+		},
+		"Name": "rftoolsutility:creative_screen"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"horizfacing": "east",
+			"facing": "west"
+		},
+		"Name": "rftoolsutility:creative_screen"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"horizfacing": "north",
+			"facing": "up"
+		},
+		"Name": "rftoolsutility:creative_screen"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"horizfacing": "south",
+			"facing": "up"
+		},
+		"Name": "rftoolsutility:creative_screen"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"horizfacing": "west",
+			"facing": "up"
+		},
+		"Name": "rftoolsutility:creative_screen"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"horizfacing": "east",
+			"facing": "up"
+		},
+		"Name": "rftoolsutility:creative_screen"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"horizfacing": "north",
+			"facing": "down"
+		},
+		"Name": "rftoolsutility:creative_screen"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"horizfacing": "south",
+			"facing": "down"
+		},
+		"Name": "rftoolsutility:creative_screen"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"horizfacing": "west",
+			"facing": "down"
+		},
+		"Name": "rftoolsutility:creative_screen"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"horizfacing": "east",
+			"facing": "down"
+		},
+		"Name": "rftoolsutility:creative_screen"
+	}
+]

@@ -1,0 +1,1538 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"solid": "true",
+			"offset": "true",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"solid": "true",
+			"offset": "true",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"solid": "true",
+			"offset": "true",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"solid": "true",
+			"offset": "true",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"solid": "false",
+			"offset": "true",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"solid": "false",
+			"offset": "true",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"solid": "false",
+			"offset": "true",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"solid": "false",
+			"offset": "true",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"solid": "true",
+			"offset": "false",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"solid": "true",
+			"offset": "false",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"solid": "true",
+			"offset": "false",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"solid": "true",
+			"offset": "false",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"solid": "false",
+			"offset": "false",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"solid": "false",
+			"offset": "false",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"solid": "false",
+			"offset": "false",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"solid": "false",
+			"offset": "false",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"solid": "true",
+			"offset": "true",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"solid": "true",
+			"offset": "true",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"solid": "true",
+			"offset": "true",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"solid": "true",
+			"offset": "true",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"solid": "false",
+			"offset": "true",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"solid": "false",
+			"offset": "true",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"solid": "false",
+			"offset": "true",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"solid": "false",
+			"offset": "true",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"solid": "true",
+			"offset": "false",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"solid": "true",
+			"offset": "false",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"solid": "true",
+			"offset": "false",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"solid": "true",
+			"offset": "false",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"solid": "false",
+			"offset": "false",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"solid": "false",
+			"offset": "false",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"solid": "false",
+			"offset": "false",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"solid": "true",
+			"offset": "true",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"solid": "true",
+			"offset": "true",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"solid": "true",
+			"offset": "true",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"solid": "true",
+			"offset": "true",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"solid": "false",
+			"offset": "true",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"solid": "false",
+			"offset": "true",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"solid": "false",
+			"offset": "true",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"solid": "false",
+			"offset": "true",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"solid": "true",
+			"offset": "false",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"solid": "true",
+			"offset": "false",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"solid": "true",
+			"offset": "false",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"solid": "true",
+			"offset": "false",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"solid": "false",
+			"offset": "false",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"solid": "false",
+			"offset": "false",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"solid": "false",
+			"offset": "false",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"solid": "false",
+			"offset": "false",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"solid": "true",
+			"offset": "true",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"solid": "true",
+			"offset": "true",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"solid": "true",
+			"offset": "true",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"solid": "true",
+			"offset": "true",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"solid": "false",
+			"offset": "true",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"solid": "false",
+			"offset": "true",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"solid": "false",
+			"offset": "true",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"solid": "false",
+			"offset": "true",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"solid": "true",
+			"offset": "false",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"solid": "true",
+			"offset": "false",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"solid": "true",
+			"offset": "false",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"solid": "true",
+			"offset": "false",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"solid": "false",
+			"offset": "false",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"solid": "false",
+			"offset": "false",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"solid": "false",
+			"offset": "false",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"solid": "false",
+			"offset": "false",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"solid": "true",
+			"offset": "true",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"solid": "true",
+			"offset": "true",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"solid": "true",
+			"offset": "true",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"solid": "true",
+			"offset": "true",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"solid": "false",
+			"offset": "true",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"solid": "false",
+			"offset": "true",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"solid": "false",
+			"offset": "true",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"solid": "false",
+			"offset": "true",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"solid": "true",
+			"offset": "false",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"solid": "true",
+			"offset": "false",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"solid": "true",
+			"offset": "false",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"solid": "true",
+			"offset": "false",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"solid": "false",
+			"offset": "false",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"solid": "false",
+			"offset": "false",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"solid": "false",
+			"offset": "false",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"solid": "false",
+			"offset": "false",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"solid": "true",
+			"offset": "true",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"solid": "true",
+			"offset": "true",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"solid": "true",
+			"offset": "true",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"solid": "true",
+			"offset": "true",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"solid": "false",
+			"offset": "true",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"solid": "false",
+			"offset": "true",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"solid": "false",
+			"offset": "true",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"solid": "false",
+			"offset": "true",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"solid": "true",
+			"offset": "false",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"solid": "true",
+			"offset": "false",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"solid": "true",
+			"offset": "false",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"solid": "true",
+			"offset": "false",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"solid": "false",
+			"offset": "false",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"solid": "false",
+			"offset": "false",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"solid": "false",
+			"offset": "false",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"solid": "false",
+			"offset": "false",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"solid": "true",
+			"offset": "true",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"solid": "true",
+			"offset": "true",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"solid": "true",
+			"offset": "true",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"solid": "true",
+			"offset": "true",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"solid": "false",
+			"offset": "true",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"solid": "false",
+			"offset": "true",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"solid": "false",
+			"offset": "true",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"solid": "false",
+			"offset": "true",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"solid": "true",
+			"offset": "false",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"solid": "true",
+			"offset": "false",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"solid": "true",
+			"offset": "false",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"solid": "true",
+			"offset": "false",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"solid": "false",
+			"offset": "false",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"solid": "false",
+			"offset": "false",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"solid": "false",
+			"offset": "false",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"solid": "false",
+			"offset": "false",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"solid": "true",
+			"offset": "true",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"solid": "true",
+			"offset": "true",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"solid": "true",
+			"offset": "true",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"solid": "true",
+			"offset": "true",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"solid": "false",
+			"offset": "true",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"solid": "false",
+			"offset": "true",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"solid": "false",
+			"offset": "true",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"solid": "false",
+			"offset": "true",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"solid": "true",
+			"offset": "false",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"solid": "true",
+			"offset": "false",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"solid": "true",
+			"offset": "false",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"solid": "true",
+			"offset": "false",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"solid": "false",
+			"offset": "false",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"solid": "false",
+			"offset": "false",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"solid": "false",
+			"offset": "false",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"solid": "false",
+			"offset": "false",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_inner_prism_corner"
+	}
+]

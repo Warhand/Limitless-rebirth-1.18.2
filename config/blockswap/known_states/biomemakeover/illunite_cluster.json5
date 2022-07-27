@@ -1,0 +1,329 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "day",
+			"facing": "north"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "day",
+			"facing": "north"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "night",
+			"facing": "north"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "night",
+			"facing": "north"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "unknown",
+			"facing": "north"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "unknown",
+			"facing": "north"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "day",
+			"facing": "east"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "day",
+			"facing": "east"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "night",
+			"facing": "east"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "night",
+			"facing": "east"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "unknown",
+			"facing": "east"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "unknown",
+			"facing": "east"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "day",
+			"facing": "south"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "day",
+			"facing": "south"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "night",
+			"facing": "south"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "night",
+			"facing": "south"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "unknown",
+			"facing": "south"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "unknown",
+			"facing": "south"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "day",
+			"facing": "west"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "day",
+			"facing": "west"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "night",
+			"facing": "west"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "night",
+			"facing": "west"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "unknown",
+			"facing": "west"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "unknown",
+			"facing": "west"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "day",
+			"facing": "up"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "night",
+			"facing": "up"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "night",
+			"facing": "up"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "unknown",
+			"facing": "up"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "unknown",
+			"facing": "up"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "day",
+			"facing": "down"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "day",
+			"facing": "down"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "night",
+			"facing": "down"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "night",
+			"facing": "down"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "unknown",
+			"facing": "down"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "unknown",
+			"facing": "down"
+		},
+		"Name": "biomemakeover:illunite_cluster"
+	}
+]

@@ -1,0 +1,724 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "closed",
+			"latch": "default",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "opening",
+			"latch": "default",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "opening",
+			"latch": "default",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "closing",
+			"latch": "default",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "closing",
+			"latch": "default",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "closed",
+			"latch": "camo",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "closed",
+			"latch": "camo",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "opening",
+			"latch": "camo",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "opening",
+			"latch": "camo",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "closing",
+			"latch": "camo",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "closing",
+			"latch": "camo",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "closed",
+			"latch": "none",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "closed",
+			"latch": "none",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "opening",
+			"latch": "none",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "opening",
+			"latch": "none",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "closing",
+			"latch": "none",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "closing",
+			"latch": "none",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "closed",
+			"latch": "default",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "closed",
+			"latch": "default",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "opening",
+			"latch": "default",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "opening",
+			"latch": "default",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "closing",
+			"latch": "default",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "closing",
+			"latch": "default",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "closed",
+			"latch": "camo",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "closed",
+			"latch": "camo",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "opening",
+			"latch": "camo",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "opening",
+			"latch": "camo",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "closing",
+			"latch": "camo",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "closing",
+			"latch": "camo",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "closed",
+			"latch": "none",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "closed",
+			"latch": "none",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "opening",
+			"latch": "none",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "opening",
+			"latch": "none",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "closing",
+			"latch": "none",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "closing",
+			"latch": "none",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "closed",
+			"latch": "default",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "closed",
+			"latch": "default",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "opening",
+			"latch": "default",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "opening",
+			"latch": "default",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "closing",
+			"latch": "default",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "closing",
+			"latch": "default",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "closed",
+			"latch": "camo",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "closed",
+			"latch": "camo",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "opening",
+			"latch": "camo",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "opening",
+			"latch": "camo",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "closing",
+			"latch": "camo",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "closing",
+			"latch": "camo",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "closed",
+			"latch": "none",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "closed",
+			"latch": "none",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "opening",
+			"latch": "none",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "opening",
+			"latch": "none",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "closing",
+			"latch": "none",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "closing",
+			"latch": "none",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "closed",
+			"latch": "default",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "closed",
+			"latch": "default",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "opening",
+			"latch": "default",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "opening",
+			"latch": "default",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "closing",
+			"latch": "default",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "closing",
+			"latch": "default",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "closed",
+			"latch": "camo",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "closed",
+			"latch": "camo",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "opening",
+			"latch": "camo",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "opening",
+			"latch": "camo",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "closing",
+			"latch": "camo",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "closing",
+			"latch": "camo",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "closed",
+			"latch": "none",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "closed",
+			"latch": "none",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "opening",
+			"latch": "none",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "opening",
+			"latch": "none",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"state": "closing",
+			"latch": "none",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"state": "closing",
+			"latch": "none",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_chest"
+	}
+]

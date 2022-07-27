@@ -1,0 +1,102 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "storagedrawers:compacting_drawers_3"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slots": "open2",
+			"facing": "north"
+		},
+		"Name": "storagedrawers:compacting_drawers_3"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slots": "open3",
+			"facing": "north"
+		},
+		"Name": "storagedrawers:compacting_drawers_3"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slots": "open1",
+			"facing": "south"
+		},
+		"Name": "storagedrawers:compacting_drawers_3"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slots": "open2",
+			"facing": "south"
+		},
+		"Name": "storagedrawers:compacting_drawers_3"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slots": "open3",
+			"facing": "south"
+		},
+		"Name": "storagedrawers:compacting_drawers_3"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slots": "open1",
+			"facing": "west"
+		},
+		"Name": "storagedrawers:compacting_drawers_3"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slots": "open2",
+			"facing": "west"
+		},
+		"Name": "storagedrawers:compacting_drawers_3"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slots": "open3",
+			"facing": "west"
+		},
+		"Name": "storagedrawers:compacting_drawers_3"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slots": "open1",
+			"facing": "east"
+		},
+		"Name": "storagedrawers:compacting_drawers_3"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slots": "open2",
+			"facing": "east"
+		},
+		"Name": "storagedrawers:compacting_drawers_3"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slots": "open3",
+			"facing": "east"
+		},
+		"Name": "storagedrawers:compacting_drawers_3"
+	}
+]

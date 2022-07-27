@@ -1,0 +1,1924 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "left_1",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "left_1",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "left_2",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "left_2",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "left_3",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "left_3",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "left_4",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "left_4",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "middle_1",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "middle_1",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "middle_2",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "middle_2",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "middle_3",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "middle_3",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "middle_4",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "middle_4",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "right_1",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "right_1",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "right_2",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "right_2",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "right_3",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "right_3",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "right_4",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "right_4",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "left_1",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "left_1",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "left_2",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "left_2",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "left_3",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "left_3",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "left_4",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "left_4",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "middle_1",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "middle_2",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "middle_2",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "middle_3",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "middle_3",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "middle_4",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "middle_4",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "right_1",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "right_1",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "right_2",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "right_2",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "right_3",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "right_3",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "right_4",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "right_4",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "left_1",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "left_1",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "left_2",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "left_2",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "left_3",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "left_3",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "left_4",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "left_4",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "middle_1",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "middle_1",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "middle_2",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "middle_2",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "middle_3",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "middle_3",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "middle_4",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "middle_4",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "right_1",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "right_1",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "right_2",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "right_2",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "right_3",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "right_3",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "right_4",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "right_4",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "left_1",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "left_1",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "left_2",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "left_2",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "left_3",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "left_3",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "left_4",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "left_4",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "middle_1",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "middle_1",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "middle_2",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "middle_2",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "middle_3",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "middle_3",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "middle_4",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "middle_4",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "right_1",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "right_1",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "right_2",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "right_2",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "right_3",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "right_3",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "right_4",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "right_4",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "left_1",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "left_1",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "left_2",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "left_2",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "left_3",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "left_3",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "left_4",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "left_4",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "middle_1",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "middle_1",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "middle_2",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "middle_2",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "middle_3",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "middle_3",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "middle_4",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "middle_4",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "right_1",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "right_1",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "right_2",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "right_2",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "right_3",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "right_3",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "right_4",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "right_4",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "left_1",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "left_1",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "left_2",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "left_2",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "left_3",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "left_3",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "left_4",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "left_4",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "middle_1",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "middle_1",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "middle_2",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "middle_2",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "middle_3",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "middle_3",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "middle_4",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "middle_4",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "right_1",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "right_1",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "right_2",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "right_2",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "right_3",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "right_3",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "right_4",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "right_4",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "left_1",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "left_1",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "left_2",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "left_2",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "left_3",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "left_3",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "left_4",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "left_4",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "middle_1",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "middle_1",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "middle_2",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "middle_2",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "middle_3",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "middle_3",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "middle_4",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "middle_4",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "right_1",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "right_1",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "right_2",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "right_2",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "right_3",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "right_3",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "right_4",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "right_4",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "left_1",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "left_1",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "left_2",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "left_2",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "left_3",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "left_3",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "left_4",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "left_4",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "middle_1",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "middle_1",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "middle_2",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "middle_2",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "middle_3",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "middle_3",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "middle_4",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "middle_4",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "right_1",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "right_1",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "right_2",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "right_2",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "right_3",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "right_3",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "right_4",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "right_4",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "valhelsia_structures:dungeon_door"
+	}
+]

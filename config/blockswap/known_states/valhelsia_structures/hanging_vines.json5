@@ -1,0 +1,422 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "true",
+			"age": "0"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "true",
+			"age": "1"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "false",
+			"age": "1"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "true",
+			"age": "2"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "false",
+			"age": "2"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "true",
+			"age": "3"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "false",
+			"age": "3"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "true",
+			"age": "4"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "false",
+			"age": "4"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "true",
+			"age": "5"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "false",
+			"age": "5"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "true",
+			"age": "6"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "false",
+			"age": "6"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "true",
+			"age": "7"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "false",
+			"age": "7"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "true",
+			"age": "8"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "false",
+			"age": "8"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "true",
+			"age": "9"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "false",
+			"age": "9"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "true",
+			"age": "10"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "false",
+			"age": "10"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "true",
+			"age": "11"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "false",
+			"age": "11"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "true",
+			"age": "12"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "false",
+			"age": "12"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "true",
+			"age": "13"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "false",
+			"age": "13"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "true",
+			"age": "14"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "false",
+			"age": "14"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "true",
+			"age": "15"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "false",
+			"age": "15"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "true",
+			"age": "16"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "false",
+			"age": "16"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "true",
+			"age": "17"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "false",
+			"age": "17"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "true",
+			"age": "18"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "false",
+			"age": "18"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "true",
+			"age": "19"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "false",
+			"age": "19"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "true",
+			"age": "20"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "false",
+			"age": "20"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "true",
+			"age": "21"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "false",
+			"age": "21"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "true",
+			"age": "22"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "false",
+			"age": "22"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "true",
+			"age": "23"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "false",
+			"age": "23"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "true",
+			"age": "24"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "false",
+			"age": "24"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "true",
+			"age": "25"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "false",
+			"age": "25"
+		},
+		"Name": "valhelsia_structures:hanging_vines"
+	}
+]

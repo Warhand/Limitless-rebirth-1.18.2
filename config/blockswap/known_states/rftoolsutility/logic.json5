@@ -1,0 +1,175 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "rftoolsutility:logic"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"logic_facing": "down_tosouth"
+		},
+		"Name": "rftoolsutility:logic"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"logic_facing": "down_towest"
+		},
+		"Name": "rftoolsutility:logic"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"logic_facing": "down_toeast"
+		},
+		"Name": "rftoolsutility:logic"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"logic_facing": "up_tonorth"
+		},
+		"Name": "rftoolsutility:logic"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"logic_facing": "up_tosouth"
+		},
+		"Name": "rftoolsutility:logic"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"logic_facing": "up_towest"
+		},
+		"Name": "rftoolsutility:logic"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"logic_facing": "up_toeast"
+		},
+		"Name": "rftoolsutility:logic"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"logic_facing": "north_towest"
+		},
+		"Name": "rftoolsutility:logic"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"logic_facing": "north_toeast"
+		},
+		"Name": "rftoolsutility:logic"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"logic_facing": "north_toup"
+		},
+		"Name": "rftoolsutility:logic"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"logic_facing": "north_todown"
+		},
+		"Name": "rftoolsutility:logic"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"logic_facing": "south_towest"
+		},
+		"Name": "rftoolsutility:logic"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"logic_facing": "south_toeast"
+		},
+		"Name": "rftoolsutility:logic"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"logic_facing": "south_toup"
+		},
+		"Name": "rftoolsutility:logic"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"logic_facing": "south_todown"
+		},
+		"Name": "rftoolsutility:logic"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"logic_facing": "west_tonorth"
+		},
+		"Name": "rftoolsutility:logic"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"logic_facing": "west_tosouth"
+		},
+		"Name": "rftoolsutility:logic"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"logic_facing": "west_toup"
+		},
+		"Name": "rftoolsutility:logic"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"logic_facing": "west_todown"
+		},
+		"Name": "rftoolsutility:logic"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"logic_facing": "east_tonorth"
+		},
+		"Name": "rftoolsutility:logic"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"logic_facing": "east_tosouth"
+		},
+		"Name": "rftoolsutility:logic"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"logic_facing": "east_toup"
+		},
+		"Name": "rftoolsutility:logic"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"logic_facing": "east_todown"
+		},
+		"Name": "rftoolsutility:logic"
+	}
+]

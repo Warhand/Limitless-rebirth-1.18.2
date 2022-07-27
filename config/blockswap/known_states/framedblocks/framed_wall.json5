@@ -1,0 +1,8425 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "none"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "low"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "true",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"locked": "false",
+			"east": "tall"
+		},
+		"Name": "framedblocks:framed_wall"
+	}
+]

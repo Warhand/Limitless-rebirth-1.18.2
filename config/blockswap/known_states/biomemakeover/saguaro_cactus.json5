@@ -1,0 +1,1538 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"horizontal": "true",
+			"facing": "north",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"horizontal": "true",
+			"facing": "north",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"horizontal": "true",
+			"facing": "north",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"horizontal": "true",
+			"facing": "north",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"horizontal": "true",
+			"facing": "north",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"horizontal": "true",
+			"facing": "north",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"horizontal": "true",
+			"facing": "north",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"horizontal": "true",
+			"facing": "north",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"horizontal": "false",
+			"facing": "north",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"horizontal": "false",
+			"facing": "north",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"horizontal": "false",
+			"facing": "north",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"horizontal": "false",
+			"facing": "north",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"horizontal": "false",
+			"facing": "north",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"horizontal": "false",
+			"facing": "north",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"horizontal": "false",
+			"facing": "north",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"horizontal": "false",
+			"facing": "north",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"horizontal": "true",
+			"facing": "south",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"horizontal": "true",
+			"facing": "south",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"horizontal": "true",
+			"facing": "south",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"horizontal": "true",
+			"facing": "south",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"horizontal": "true",
+			"facing": "south",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"horizontal": "true",
+			"facing": "south",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"horizontal": "true",
+			"facing": "south",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"horizontal": "true",
+			"facing": "south",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"horizontal": "false",
+			"facing": "south",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"horizontal": "false",
+			"facing": "south",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"horizontal": "false",
+			"facing": "south",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"horizontal": "false",
+			"facing": "south",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"horizontal": "false",
+			"facing": "south",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"horizontal": "false",
+			"facing": "south",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"horizontal": "false",
+			"facing": "south",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"horizontal": "false",
+			"facing": "south",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"horizontal": "true",
+			"facing": "west",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"horizontal": "true",
+			"facing": "west",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"horizontal": "true",
+			"facing": "west",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"horizontal": "true",
+			"facing": "west",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"horizontal": "true",
+			"facing": "west",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"horizontal": "true",
+			"facing": "west",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"horizontal": "true",
+			"facing": "west",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"horizontal": "true",
+			"facing": "west",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"horizontal": "false",
+			"facing": "west",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"horizontal": "false",
+			"facing": "west",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"horizontal": "false",
+			"facing": "west",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"horizontal": "false",
+			"facing": "west",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"horizontal": "false",
+			"facing": "west",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"horizontal": "false",
+			"facing": "west",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"horizontal": "false",
+			"facing": "west",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"horizontal": "false",
+			"facing": "west",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"horizontal": "true",
+			"facing": "east",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"horizontal": "true",
+			"facing": "east",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"horizontal": "true",
+			"facing": "east",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"horizontal": "true",
+			"facing": "east",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"horizontal": "true",
+			"facing": "east",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"horizontal": "true",
+			"facing": "east",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"horizontal": "true",
+			"facing": "east",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"horizontal": "true",
+			"facing": "east",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"horizontal": "false",
+			"facing": "east",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"horizontal": "false",
+			"facing": "east",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"horizontal": "false",
+			"facing": "east",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"horizontal": "false",
+			"facing": "east",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"horizontal": "false",
+			"facing": "east",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"horizontal": "false",
+			"facing": "east",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"horizontal": "false",
+			"facing": "east",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"horizontal": "false",
+			"facing": "east",
+			"east": "true"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"horizontal": "true",
+			"facing": "north",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"horizontal": "true",
+			"facing": "north",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"horizontal": "true",
+			"facing": "north",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"horizontal": "true",
+			"facing": "north",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"horizontal": "true",
+			"facing": "north",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"horizontal": "true",
+			"facing": "north",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"horizontal": "true",
+			"facing": "north",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"horizontal": "true",
+			"facing": "north",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"horizontal": "false",
+			"facing": "north",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"horizontal": "false",
+			"facing": "north",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"horizontal": "false",
+			"facing": "north",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"horizontal": "false",
+			"facing": "north",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"horizontal": "false",
+			"facing": "north",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"horizontal": "false",
+			"facing": "north",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"horizontal": "false",
+			"facing": "north",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"horizontal": "true",
+			"facing": "south",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"horizontal": "true",
+			"facing": "south",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"horizontal": "true",
+			"facing": "south",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"horizontal": "true",
+			"facing": "south",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"horizontal": "true",
+			"facing": "south",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"horizontal": "true",
+			"facing": "south",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"horizontal": "true",
+			"facing": "south",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"horizontal": "true",
+			"facing": "south",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"horizontal": "false",
+			"facing": "south",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"horizontal": "false",
+			"facing": "south",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"horizontal": "false",
+			"facing": "south",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"horizontal": "false",
+			"facing": "south",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"horizontal": "false",
+			"facing": "south",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"horizontal": "false",
+			"facing": "south",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"horizontal": "false",
+			"facing": "south",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"horizontal": "false",
+			"facing": "south",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"horizontal": "true",
+			"facing": "west",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"horizontal": "true",
+			"facing": "west",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"horizontal": "true",
+			"facing": "west",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"horizontal": "true",
+			"facing": "west",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"horizontal": "true",
+			"facing": "west",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"horizontal": "true",
+			"facing": "west",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"horizontal": "true",
+			"facing": "west",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"horizontal": "true",
+			"facing": "west",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"horizontal": "false",
+			"facing": "west",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"horizontal": "false",
+			"facing": "west",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"horizontal": "false",
+			"facing": "west",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"horizontal": "false",
+			"facing": "west",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"horizontal": "false",
+			"facing": "west",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"horizontal": "false",
+			"facing": "west",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"horizontal": "false",
+			"facing": "west",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"horizontal": "false",
+			"facing": "west",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"horizontal": "true",
+			"facing": "east",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"horizontal": "true",
+			"facing": "east",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"horizontal": "true",
+			"facing": "east",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"horizontal": "true",
+			"facing": "east",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"horizontal": "true",
+			"facing": "east",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"horizontal": "true",
+			"facing": "east",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"horizontal": "true",
+			"facing": "east",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"horizontal": "true",
+			"facing": "east",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"horizontal": "false",
+			"facing": "east",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"horizontal": "false",
+			"facing": "east",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"horizontal": "false",
+			"facing": "east",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"horizontal": "false",
+			"facing": "east",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"horizontal": "false",
+			"facing": "east",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"horizontal": "false",
+			"facing": "east",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"horizontal": "false",
+			"facing": "east",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"horizontal": "false",
+			"facing": "east",
+			"east": "false"
+		},
+		"Name": "biomemakeover:saguaro_cactus"
+	}
+]

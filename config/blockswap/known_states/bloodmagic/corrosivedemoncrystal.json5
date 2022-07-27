@@ -1,0 +1,342 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "down",
+			"age": "0"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "north",
+			"age": "0"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "south",
+			"age": "0"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "west",
+			"age": "0"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "east",
+			"age": "0"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "down",
+			"age": "1"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "up",
+			"age": "1"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "north",
+			"age": "1"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "south",
+			"age": "1"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "west",
+			"age": "1"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "east",
+			"age": "1"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "down",
+			"age": "2"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "up",
+			"age": "2"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "north",
+			"age": "2"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "south",
+			"age": "2"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "west",
+			"age": "2"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "east",
+			"age": "2"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "down",
+			"age": "3"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "up",
+			"age": "3"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "north",
+			"age": "3"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "south",
+			"age": "3"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "west",
+			"age": "3"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "east",
+			"age": "3"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "down",
+			"age": "4"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "up",
+			"age": "4"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "north",
+			"age": "4"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "south",
+			"age": "4"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "west",
+			"age": "4"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "east",
+			"age": "4"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "down",
+			"age": "5"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "up",
+			"age": "5"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "north",
+			"age": "5"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "south",
+			"age": "5"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "west",
+			"age": "5"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "east",
+			"age": "5"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "down",
+			"age": "6"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "up",
+			"age": "6"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "north",
+			"age": "6"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "south",
+			"age": "6"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "west",
+			"age": "6"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"attached": "east",
+			"age": "6"
+		},
+		"Name": "bloodmagic:corrosivedemoncrystal"
+	}
+]

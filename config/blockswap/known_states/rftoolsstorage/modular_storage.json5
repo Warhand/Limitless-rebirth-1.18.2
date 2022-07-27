@@ -1,0 +1,2921 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "north",
+			"amount": "none"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "north",
+			"amount": "none"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "east",
+			"amount": "none"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "east",
+			"amount": "none"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "east",
+			"amount": "none"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "south",
+			"amount": "none"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "south",
+			"amount": "none"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "south",
+			"amount": "none"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "west",
+			"amount": "none"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "west",
+			"amount": "none"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "west",
+			"amount": "none"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "up",
+			"amount": "none"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "up",
+			"amount": "none"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "up",
+			"amount": "none"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "down",
+			"amount": "none"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "down",
+			"amount": "none"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "down",
+			"amount": "none"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "north",
+			"amount": "empty"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "north",
+			"amount": "empty"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "north",
+			"amount": "empty"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "east",
+			"amount": "empty"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "east",
+			"amount": "empty"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "east",
+			"amount": "empty"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "south",
+			"amount": "empty"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "south",
+			"amount": "empty"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "south",
+			"amount": "empty"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "west",
+			"amount": "empty"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "west",
+			"amount": "empty"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "west",
+			"amount": "empty"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "up",
+			"amount": "empty"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "up",
+			"amount": "empty"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "up",
+			"amount": "empty"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "down",
+			"amount": "empty"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "down",
+			"amount": "empty"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "down",
+			"amount": "empty"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "north",
+			"amount": "g0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "north",
+			"amount": "g0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "north",
+			"amount": "g0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "east",
+			"amount": "g0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "east",
+			"amount": "g0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "east",
+			"amount": "g0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "south",
+			"amount": "g0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "south",
+			"amount": "g0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "south",
+			"amount": "g0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "west",
+			"amount": "g0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "west",
+			"amount": "g0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "west",
+			"amount": "g0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "up",
+			"amount": "g0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "up",
+			"amount": "g0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "up",
+			"amount": "g0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "down",
+			"amount": "g0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "down",
+			"amount": "g0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "down",
+			"amount": "g0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "north",
+			"amount": "g1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "north",
+			"amount": "g1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "north",
+			"amount": "g1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "east",
+			"amount": "g1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "east",
+			"amount": "g1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "east",
+			"amount": "g1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "south",
+			"amount": "g1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "south",
+			"amount": "g1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "south",
+			"amount": "g1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "west",
+			"amount": "g1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "west",
+			"amount": "g1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "west",
+			"amount": "g1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "up",
+			"amount": "g1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "up",
+			"amount": "g1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "up",
+			"amount": "g1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "down",
+			"amount": "g1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "down",
+			"amount": "g1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "down",
+			"amount": "g1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "north",
+			"amount": "g2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "north",
+			"amount": "g2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "north",
+			"amount": "g2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "east",
+			"amount": "g2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "east",
+			"amount": "g2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "east",
+			"amount": "g2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "south",
+			"amount": "g2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "south",
+			"amount": "g2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "south",
+			"amount": "g2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "west",
+			"amount": "g2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "west",
+			"amount": "g2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "west",
+			"amount": "g2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "up",
+			"amount": "g2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "up",
+			"amount": "g2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "up",
+			"amount": "g2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "down",
+			"amount": "g2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "down",
+			"amount": "g2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "down",
+			"amount": "g2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "north",
+			"amount": "g3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "north",
+			"amount": "g3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "north",
+			"amount": "g3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "east",
+			"amount": "g3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "east",
+			"amount": "g3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "east",
+			"amount": "g3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "south",
+			"amount": "g3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "south",
+			"amount": "g3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "south",
+			"amount": "g3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "west",
+			"amount": "g3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "west",
+			"amount": "g3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "west",
+			"amount": "g3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "up",
+			"amount": "g3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "up",
+			"amount": "g3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "up",
+			"amount": "g3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "down",
+			"amount": "g3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "down",
+			"amount": "g3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "down",
+			"amount": "g3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "north",
+			"amount": "g4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "north",
+			"amount": "g4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "north",
+			"amount": "g4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "east",
+			"amount": "g4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "east",
+			"amount": "g4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "east",
+			"amount": "g4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "south",
+			"amount": "g4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "south",
+			"amount": "g4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "south",
+			"amount": "g4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "west",
+			"amount": "g4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "west",
+			"amount": "g4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "west",
+			"amount": "g4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "up",
+			"amount": "g4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "up",
+			"amount": "g4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "up",
+			"amount": "g4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "down",
+			"amount": "g4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "down",
+			"amount": "g4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "down",
+			"amount": "g4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "north",
+			"amount": "g5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "north",
+			"amount": "g5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "north",
+			"amount": "g5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "east",
+			"amount": "g5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "east",
+			"amount": "g5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "east",
+			"amount": "g5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "south",
+			"amount": "g5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "south",
+			"amount": "g5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "south",
+			"amount": "g5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "west",
+			"amount": "g5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "west",
+			"amount": "g5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "west",
+			"amount": "g5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "up",
+			"amount": "g5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "up",
+			"amount": "g5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "up",
+			"amount": "g5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "down",
+			"amount": "g5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "down",
+			"amount": "g5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "down",
+			"amount": "g5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "north",
+			"amount": "g6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "north",
+			"amount": "g6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "north",
+			"amount": "g6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "east",
+			"amount": "g6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "east",
+			"amount": "g6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "east",
+			"amount": "g6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "south",
+			"amount": "g6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "south",
+			"amount": "g6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "south",
+			"amount": "g6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "west",
+			"amount": "g6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "west",
+			"amount": "g6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "west",
+			"amount": "g6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "up",
+			"amount": "g6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "up",
+			"amount": "g6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "up",
+			"amount": "g6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "down",
+			"amount": "g6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "down",
+			"amount": "g6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "down",
+			"amount": "g6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "north",
+			"amount": "g7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "north",
+			"amount": "g7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "north",
+			"amount": "g7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "east",
+			"amount": "g7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "east",
+			"amount": "g7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "east",
+			"amount": "g7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "south",
+			"amount": "g7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "south",
+			"amount": "g7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "south",
+			"amount": "g7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "west",
+			"amount": "g7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "west",
+			"amount": "g7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "west",
+			"amount": "g7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "up",
+			"amount": "g7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "up",
+			"amount": "g7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "up",
+			"amount": "g7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "down",
+			"amount": "g7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "down",
+			"amount": "g7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "down",
+			"amount": "g7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "north",
+			"amount": "r0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "north",
+			"amount": "r0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "north",
+			"amount": "r0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "east",
+			"amount": "r0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "east",
+			"amount": "r0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "east",
+			"amount": "r0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "south",
+			"amount": "r0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "south",
+			"amount": "r0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "south",
+			"amount": "r0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "west",
+			"amount": "r0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "west",
+			"amount": "r0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "west",
+			"amount": "r0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "up",
+			"amount": "r0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "up",
+			"amount": "r0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "up",
+			"amount": "r0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "down",
+			"amount": "r0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "down",
+			"amount": "r0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "down",
+			"amount": "r0"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "north",
+			"amount": "r1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "north",
+			"amount": "r1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "north",
+			"amount": "r1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "east",
+			"amount": "r1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "east",
+			"amount": "r1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "east",
+			"amount": "r1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "south",
+			"amount": "r1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "south",
+			"amount": "r1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "south",
+			"amount": "r1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "west",
+			"amount": "r1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "west",
+			"amount": "r1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "west",
+			"amount": "r1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "up",
+			"amount": "r1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "up",
+			"amount": "r1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "up",
+			"amount": "r1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "down",
+			"amount": "r1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "down",
+			"amount": "r1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "down",
+			"amount": "r1"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "north",
+			"amount": "r2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "north",
+			"amount": "r2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "north",
+			"amount": "r2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "east",
+			"amount": "r2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "east",
+			"amount": "r2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "east",
+			"amount": "r2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "south",
+			"amount": "r2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "south",
+			"amount": "r2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "south",
+			"amount": "r2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "west",
+			"amount": "r2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "west",
+			"amount": "r2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "west",
+			"amount": "r2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "up",
+			"amount": "r2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "up",
+			"amount": "r2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "up",
+			"amount": "r2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "down",
+			"amount": "r2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "down",
+			"amount": "r2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "down",
+			"amount": "r2"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "north",
+			"amount": "r3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "north",
+			"amount": "r3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "north",
+			"amount": "r3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "east",
+			"amount": "r3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "east",
+			"amount": "r3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "east",
+			"amount": "r3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "south",
+			"amount": "r3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "south",
+			"amount": "r3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "south",
+			"amount": "r3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "west",
+			"amount": "r3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "west",
+			"amount": "r3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "west",
+			"amount": "r3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "up",
+			"amount": "r3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "up",
+			"amount": "r3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "up",
+			"amount": "r3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "down",
+			"amount": "r3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "down",
+			"amount": "r3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "down",
+			"amount": "r3"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "north",
+			"amount": "r4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "north",
+			"amount": "r4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "north",
+			"amount": "r4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "east",
+			"amount": "r4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "east",
+			"amount": "r4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "east",
+			"amount": "r4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "south",
+			"amount": "r4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "south",
+			"amount": "r4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "south",
+			"amount": "r4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "west",
+			"amount": "r4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "west",
+			"amount": "r4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "west",
+			"amount": "r4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "up",
+			"amount": "r4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "up",
+			"amount": "r4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "up",
+			"amount": "r4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "down",
+			"amount": "r4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "down",
+			"amount": "r4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "down",
+			"amount": "r4"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "north",
+			"amount": "r5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "north",
+			"amount": "r5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "north",
+			"amount": "r5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "east",
+			"amount": "r5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "east",
+			"amount": "r5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "east",
+			"amount": "r5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "south",
+			"amount": "r5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "south",
+			"amount": "r5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "south",
+			"amount": "r5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "west",
+			"amount": "r5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "west",
+			"amount": "r5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "west",
+			"amount": "r5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "up",
+			"amount": "r5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "up",
+			"amount": "r5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "up",
+			"amount": "r5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "down",
+			"amount": "r5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "down",
+			"amount": "r5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "down",
+			"amount": "r5"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "north",
+			"amount": "r6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "north",
+			"amount": "r6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "north",
+			"amount": "r6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "east",
+			"amount": "r6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "east",
+			"amount": "r6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "east",
+			"amount": "r6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "south",
+			"amount": "r6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "south",
+			"amount": "r6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "south",
+			"amount": "r6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "west",
+			"amount": "r6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "west",
+			"amount": "r6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "west",
+			"amount": "r6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "up",
+			"amount": "r6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "up",
+			"amount": "r6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "up",
+			"amount": "r6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "down",
+			"amount": "r6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "down",
+			"amount": "r6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "down",
+			"amount": "r6"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "north",
+			"amount": "r7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "north",
+			"amount": "r7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "north",
+			"amount": "r7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "east",
+			"amount": "r7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "east",
+			"amount": "r7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "east",
+			"amount": "r7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "south",
+			"amount": "r7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "south",
+			"amount": "r7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "south",
+			"amount": "r7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "west",
+			"amount": "r7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "west",
+			"amount": "r7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "west",
+			"amount": "r7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "up",
+			"amount": "r7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "up",
+			"amount": "r7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "up",
+			"amount": "r7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"facing": "down",
+			"amount": "r7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "generic",
+			"facing": "down",
+			"amount": "r7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "ore",
+			"facing": "down",
+			"amount": "r7"
+		},
+		"Name": "rftoolsstorage:modular_storage"
+	}
+]

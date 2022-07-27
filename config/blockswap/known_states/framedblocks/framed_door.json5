@@ -1,0 +1,3329 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "north"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "south"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "west"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "true",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"glowing": "false",
+			"facing": "east"
+		},
+		"Name": "framedblocks:framed_door"
+	}
+]

@@ -1,0 +1,7061 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "pillar",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nweu",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nweu",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nwed",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nwed",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nswu",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nswu",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nswd",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nswd",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nwud",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nwud",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sweu",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sweu",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_swed",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_swed",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "pillar_z",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "pillar_z",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_swud",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_swud",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nseu",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nseu",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nsed",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nsed",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_neud",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_neud",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "pillar_x",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "pillar_x",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_seud",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_seud",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_n",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_n",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_w",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_w",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nwu",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nwu",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nwd",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nwd",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_s",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_s",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_weu",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_weu",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_wed",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_wed",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_swu",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_swu",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_swd",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_swd",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_wud",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_wud",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_e",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_e",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_neu",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_neu",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_ned",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_ned",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_u",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_u",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_d",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_d",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nud",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nud",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_seu",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_seu",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sed",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sed",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_eud",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_eud",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sud",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sud",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nw",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nw",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "slab_yz",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "slab_yz",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sw",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sw",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_wu",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_wu",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_wd",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_wd",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_ne",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_ne",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "slab_xy",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "slab_xy",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nu",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nu",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nd",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nd",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_se",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_se",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_eu",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_eu",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_ed",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_ed",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_su",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_su",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sd",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sd",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "slab_xz",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "slab_xz",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_w",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_w",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_n",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_n",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_e",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_e",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_s",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_s",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_u",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_u",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_d",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_d",
+			"chops": "1"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "pillar",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "pillar",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nweu",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nweu",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nwed",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nwed",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nswu",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nswu",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nswd",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nswd",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nwud",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nwud",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sweu",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sweu",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_swed",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_swed",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "pillar_z",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "pillar_z",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_swud",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_swud",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nseu",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nseu",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nsed",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nsed",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_neud",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_neud",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "pillar_x",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "pillar_x",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_seud",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_seud",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_n",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_n",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_w",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_w",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nwu",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nwu",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nwd",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nwd",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_s",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_s",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_weu",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_weu",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_wed",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_wed",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_swu",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_swu",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_swd",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_swd",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_wud",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_wud",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_e",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_e",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_neu",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_neu",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_ned",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_ned",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_u",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_u",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_d",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_d",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nud",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nud",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_seu",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_seu",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sed",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sed",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_eud",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_eud",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sud",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sud",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nw",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nw",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "slab_yz",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "slab_yz",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sw",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sw",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_wu",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_wu",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_wd",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_wd",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_ne",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_ne",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "slab_xy",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "slab_xy",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nu",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nu",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nd",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nd",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_se",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_se",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_eu",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_eu",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_ed",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_ed",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_su",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_su",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sd",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sd",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "slab_xz",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "slab_xz",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_w",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_w",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_n",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_n",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_e",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_e",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_s",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_s",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_u",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_u",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_d",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_d",
+			"chops": "2"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "pillar",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "pillar",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nweu",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nweu",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nwed",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nwed",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nswu",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nswu",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nswd",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nswd",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nwud",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nwud",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sweu",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sweu",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_swed",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_swed",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "pillar_z",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "pillar_z",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_swud",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_swud",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nseu",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nseu",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nsed",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nsed",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_neud",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_neud",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "pillar_x",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "pillar_x",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_seud",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_seud",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_n",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_n",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_w",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_w",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nwu",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nwu",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nwd",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nwd",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_s",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_s",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_weu",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_weu",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_wed",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_wed",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_swu",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_swu",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_swd",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_swd",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_wud",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_wud",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_e",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_e",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_neu",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_neu",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_ned",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_ned",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_u",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_u",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_d",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_d",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nud",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nud",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_seu",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_seu",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sed",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sed",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_eud",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_eud",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sud",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sud",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nw",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nw",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "slab_yz",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "slab_yz",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sw",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sw",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_wu",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_wu",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_wd",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_wd",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_ne",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_ne",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "slab_xy",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "slab_xy",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nu",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nu",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nd",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nd",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_se",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_se",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_eu",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_eu",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_ed",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_ed",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_su",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_su",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sd",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sd",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "slab_xz",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "slab_xz",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_w",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_w",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_n",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_n",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_e",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_e",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_s",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_s",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_u",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_u",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_d",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_d",
+			"chops": "3"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "pillar",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "pillar",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nweu",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nweu",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nwed",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nwed",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nswu",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nswu",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nswd",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nswd",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nwud",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nwud",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sweu",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sweu",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_swed",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_swed",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "pillar_z",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "pillar_z",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_swud",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_swud",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nseu",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nseu",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nsed",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nsed",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_neud",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_neud",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "pillar_x",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "pillar_x",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_seud",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_seud",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_n",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_n",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_w",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_w",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nwu",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nwu",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nwd",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nwd",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_s",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_s",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_weu",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_weu",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_wed",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_wed",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_swu",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_swu",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_swd",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_swd",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_wud",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_wud",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_e",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_e",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_neu",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_neu",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_ned",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_ned",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_u",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_u",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_d",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_d",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nud",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nud",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_seu",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_seu",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sed",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sed",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_eud",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_eud",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sud",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sud",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nw",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nw",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "slab_yz",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "slab_yz",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sw",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sw",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_wu",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_wu",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_wd",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_wd",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_ne",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_ne",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "slab_xy",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "slab_xy",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nu",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nu",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nd",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nd",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_se",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_se",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_eu",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_eu",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_ed",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_ed",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_su",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_su",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sd",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sd",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "slab_xz",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "slab_xz",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_w",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_w",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_n",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_n",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_e",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_e",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_s",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_s",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_u",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_u",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_d",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_d",
+			"chops": "4"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "pillar",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "pillar",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nweu",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nweu",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nwed",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nwed",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nswu",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nswu",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nswd",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nswd",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nwud",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nwud",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sweu",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sweu",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_swed",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_swed",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "pillar_z",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "pillar_z",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_swud",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_swud",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nseu",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nseu",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nsed",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nsed",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_neud",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_neud",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "pillar_x",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "pillar_x",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_seud",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_seud",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_n",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_n",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_w",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_w",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nwu",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nwu",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nwd",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nwd",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_s",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_s",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_weu",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_weu",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_wed",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_wed",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_swu",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_swu",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_swd",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_swd",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_wud",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_wud",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_e",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_e",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_neu",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_neu",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_ned",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_ned",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_u",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_u",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_d",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_d",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nud",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nud",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_seu",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_seu",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sed",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sed",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_eud",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_eud",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sud",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sud",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nw",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nw",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "slab_yz",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "slab_yz",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sw",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sw",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_wu",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_wu",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_wd",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_wd",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_ne",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_ne",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "slab_xy",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "slab_xy",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nu",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nu",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nd",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nd",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_se",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_se",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_eu",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_eu",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_ed",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_ed",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_su",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_su",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sd",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sd",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "slab_xz",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "slab_xz",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_w",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_w",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_n",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_n",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_e",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_e",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_s",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_s",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_u",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_u",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_d",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_d",
+			"chops": "5"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "pillar",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "pillar",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nweu",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nweu",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nwed",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nwed",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nswu",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nswu",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nswd",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nswd",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nwud",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nwud",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sweu",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sweu",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_swed",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_swed",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "pillar_z",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "pillar_z",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_swud",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_swud",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nseu",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nseu",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nsed",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nsed",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_neud",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_neud",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "pillar_x",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "pillar_x",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_seud",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_seud",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_n",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_n",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_w",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_w",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nwu",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nwu",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nwd",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nwd",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_s",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_s",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_weu",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_weu",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_wed",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_wed",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_swu",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_swu",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_swd",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_swd",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_wud",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_wud",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_e",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_e",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_neu",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_neu",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_ned",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_ned",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_u",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_u",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_d",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_d",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nud",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nud",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_seu",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_seu",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sed",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sed",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_eud",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_eud",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sud",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sud",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nw",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nw",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "slab_yz",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "slab_yz",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sw",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sw",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_wu",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_wu",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_wd",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_wd",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_ne",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_ne",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "slab_xy",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "slab_xy",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nu",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nu",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nd",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nd",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_se",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_se",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_eu",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_eu",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_ed",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_ed",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_su",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_su",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sd",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sd",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "slab_xz",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "slab_xz",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_w",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_w",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_n",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_n",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_e",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_e",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_s",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_s",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_u",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_u",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_d",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_d",
+			"chops": "6"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "pillar",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "pillar",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nweu",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nweu",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nwed",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nwed",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nswu",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nswu",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nswd",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nswd",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nwud",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nwud",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sweu",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sweu",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_swed",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_swed",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "pillar_z",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "pillar_z",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_swud",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_swud",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nseu",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nseu",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nsed",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nsed",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_neud",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_neud",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "pillar_x",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "pillar_x",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_seud",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_seud",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_n",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_n",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_w",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_w",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nwu",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nwu",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nwd",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nwd",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_s",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_s",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_weu",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_weu",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_wed",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_wed",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_swu",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_swu",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_swd",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_swd",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_wud",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_wud",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_e",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_e",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_neu",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_neu",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_ned",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_ned",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_u",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_u",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end_d",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end_d",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nud",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nud",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_seu",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_seu",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sed",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sed",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_eud",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_eud",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sud",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sud",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nw",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nw",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "slab_yz",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "slab_yz",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sw",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sw",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_wu",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_wu",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_wd",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_wd",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_ne",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_ne",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "slab_xy",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "slab_xy",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nu",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nu",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_nd",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_nd",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_se",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_se",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_eu",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_eu",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_ed",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_ed",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_su",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_su",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_sd",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_sd",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "slab_xz",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "slab_xz",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_w",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_w",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_n",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_n",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_e",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_e",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_s",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_s",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_u",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_u",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "side_d",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "side_d",
+			"chops": "7"
+		},
+		"Name": "treechop:chopped_log"
+	}
+]

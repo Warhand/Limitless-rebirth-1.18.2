@@ -1,0 +1,102 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "computercraft:disk_drive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "full",
+			"facing": "north"
+		},
+		"Name": "computercraft:disk_drive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "invalid",
+			"facing": "north"
+		},
+		"Name": "computercraft:disk_drive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "empty",
+			"facing": "south"
+		},
+		"Name": "computercraft:disk_drive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "full",
+			"facing": "south"
+		},
+		"Name": "computercraft:disk_drive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "invalid",
+			"facing": "south"
+		},
+		"Name": "computercraft:disk_drive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "empty",
+			"facing": "west"
+		},
+		"Name": "computercraft:disk_drive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "full",
+			"facing": "west"
+		},
+		"Name": "computercraft:disk_drive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "invalid",
+			"facing": "west"
+		},
+		"Name": "computercraft:disk_drive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "empty",
+			"facing": "east"
+		},
+		"Name": "computercraft:disk_drive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "full",
+			"facing": "east"
+		},
+		"Name": "computercraft:disk_drive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "invalid",
+			"facing": "east"
+		},
+		"Name": "computercraft:disk_drive"
+	}
+]
