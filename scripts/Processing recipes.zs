@@ -287,19 +287,6 @@ for input, output in ingot_plate_map{
 });
 }
 
-
-for input, output in ingot_compressed_map{
-<recipetype:create:compacting>.addJsonRecipe("custom_compacting_" + output.registryName.path, {
-  "ingredients": [input],
-  "results": [
-    {
-      "item": output.registryName
-    }
-  ],
-  "heatRequirement": "heated"
-});
-}
-
 //Tconstruct casting table
 
 //iron plate
