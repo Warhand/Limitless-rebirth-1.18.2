@@ -263,7 +263,27 @@ val jei_removal as IItemStack[] = [
 	<item:quarryplus:replacer_module>,
 	<item:quarryplus:remove_bedrock_module>,
 	<item:jaopca:create_crushed_ores.uranium>,
-	<item:ftbic:iron_dust>
+	<item:ftbic:iron_dust>,
+	<item:additionaladditions:gilded_netherite_hoe>,
+	<item:additionaladditions:rose_gold_helmet>,
+	<item:additionaladditions:gilded_netherite_helmet>,
+	<item:additionaladditions:rose_gold_chestplate>,
+	<item:additionaladditions:gilded_netherite_chestplate>,
+	<item:additionaladditions:rose_gold_leggings>,
+	<item:additionaladditions:gilded_netherite_leggings>,
+	<item:additionaladditions:rose_gold_boots>,
+	<item:additionaladditions:gilded_netherite_boots>,
+	<item:additionaladditions:rope>,
+	<item:additionaladditions:depth_meter>,
+	<item:additionaladditions:wrench>,
+	<item:additionaladditions:gilded_netherite_pickaxe>,
+	<item:additionaladditions:rose_gold_shovel>,
+	<item:additionaladditions:gilded_netherite_shovel>,
+	<item:additionaladditions:rose_gold_axe>,
+	<item:additionaladditions:gilded_netherite_axe>,
+	<item:additionaladditions:rose_gold_hoe>,
+	<item:additionaladditions:rose_gold_pickaxe>,
+	<item:additionaladditions:fried_egg>
 ];
 
 for item in jei_removal{
@@ -402,7 +422,8 @@ val utter_eradication as IItemStack[] = [
 	<item:delightful:lapis_lazuli_knife>,
 	<item:delightful:large_amethyst_knife>,
 	<item:delightful:refined_glowstone_knife>,
-	<item:delightful:refined_obsidian_knife>
+	<item:delightful:refined_obsidian_knife>,
+	<item:additionaladditions:honeyed_apple>
 ];
 
 for item in utter_eradication{
