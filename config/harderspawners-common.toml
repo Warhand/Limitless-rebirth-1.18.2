@@ -22,13 +22,13 @@
 	#Range: 0.0 ~ 100.0
 	spawnersExplodePercentage = 0.0
 	#Hostile Spawners: Player Range when hostile mobs start spawning
-	#Range: 8 ~ 32
+	#Range: 7 ~ 256
 	requiredPlayerRange = 16
 	#Hostile Spawners: Maximum Spawned Hostile Entities
-	#Range: 4 ~ 32
+	#Range: 3 ~ 256
 	maxNearbyEntities = 8
 	#Hostile Spawners: How far from spawner hostile mobs can spawn
-	#Range: 4 ~ 16
+	#Range: 4 ~ 256
 	spawnRange = 4
 	#hostileSpawnerLightLevel: Maximum Light Level for Hostile Spawners
 	#Range: 0 ~ 15
