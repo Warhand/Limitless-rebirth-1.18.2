@@ -9,6 +9,213 @@ to make editing this file much easier.
 */
 [
 	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "single",
+			"facing": "north"
+		},
+		"Name": "compatoplenty:palm_trapped_chest"
+	},
+	{
+		"Name": "compatoplenty:palm_trapped_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "left",
+			"facing": "north"
+		},
+		"Name": "compatoplenty:palm_trapped_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "left",
+			"facing": "north"
+		},
+		"Name": "compatoplenty:palm_trapped_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "right",
+			"facing": "north"
+		},
+		"Name": "compatoplenty:palm_trapped_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "right",
+			"facing": "north"
+		},
+		"Name": "compatoplenty:palm_trapped_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "single",
+			"facing": "south"
+		},
+		"Name": "compatoplenty:palm_trapped_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "single",
+			"facing": "south"
+		},
+		"Name": "compatoplenty:palm_trapped_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "left",
+			"facing": "south"
+		},
+		"Name": "compatoplenty:palm_trapped_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "left",
+			"facing": "south"
+		},
+		"Name": "compatoplenty:palm_trapped_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "right",
+			"facing": "south"
+		},
+		"Name": "compatoplenty:palm_trapped_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "right",
+			"facing": "south"
+		},
+		"Name": "compatoplenty:palm_trapped_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "single",
+			"facing": "west"
+		},
+		"Name": "compatoplenty:palm_trapped_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "single",
+			"facing": "west"
+		},
+		"Name": "compatoplenty:palm_trapped_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "left",
+			"facing": "west"
+		},
+		"Name": "compatoplenty:palm_trapped_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "left",
+			"facing": "west"
+		},
+		"Name": "compatoplenty:palm_trapped_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "right",
+			"facing": "west"
+		},
+		"Name": "compatoplenty:palm_trapped_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "right",
+			"facing": "west"
+		},
+		"Name": "compatoplenty:palm_trapped_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "single",
+			"facing": "east"
+		},
+		"Name": "compatoplenty:palm_trapped_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "single",
+			"facing": "east"
+		},
+		"Name": "compatoplenty:palm_trapped_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "left",
+			"facing": "east"
+		},
+		"Name": "compatoplenty:palm_trapped_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "left",
+			"facing": "east"
+		},
+		"Name": "compatoplenty:palm_trapped_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "right",
+			"facing": "east"
+		},
+		"Name": "compatoplenty:palm_trapped_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "right",
+			"facing": "east"
+		},
 		"Name": "compatoplenty:palm_trapped_chest"
 	}
 ]

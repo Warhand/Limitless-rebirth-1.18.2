@@ -9,6 +9,20 @@ to make editing this file much easier.
 */
 [
 	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"axis": "x"
+		},
+		"Name": "compatoplenty:galanos_pillar"
+	},
+	{
+		"Name": "compatoplenty:galanos_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"axis": "z"
+		},
 		"Name": "compatoplenty:galanos_pillar"
 	}
 ]

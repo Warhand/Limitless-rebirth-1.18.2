@@ -9,13 +9,6 @@ to make editing this file much easier.
 */
 [
 	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"unpacking": "true"
-		},
-		"Name": "packingtape:packaged_block"
-	},
-	{
 		"Name": "packingtape:packaged_block"
 	}
 ]

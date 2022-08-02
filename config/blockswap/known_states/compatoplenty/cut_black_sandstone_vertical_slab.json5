@@ -9,6 +9,78 @@ to make editing this file much easier.
 */
 [
 	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "north"
+		},
+		"Name": "compatoplenty:cut_black_sandstone_vertical_slab"
+	},
+	{
+		"Name": "compatoplenty:cut_black_sandstone_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "south"
+		},
+		"Name": "compatoplenty:cut_black_sandstone_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "south"
+		},
+		"Name": "compatoplenty:cut_black_sandstone_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "west"
+		},
+		"Name": "compatoplenty:cut_black_sandstone_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "west"
+		},
+		"Name": "compatoplenty:cut_black_sandstone_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "east"
+		},
+		"Name": "compatoplenty:cut_black_sandstone_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "east"
+		},
+		"Name": "compatoplenty:cut_black_sandstone_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "double"
+		},
+		"Name": "compatoplenty:cut_black_sandstone_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "double"
+		},
 		"Name": "compatoplenty:cut_black_sandstone_vertical_slab"
 	}
 ]

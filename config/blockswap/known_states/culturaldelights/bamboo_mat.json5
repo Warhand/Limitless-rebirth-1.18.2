@@ -10,26 +10,5 @@ to make editing this file much easier.
 [
 	{
 		"Name": "culturaldelights:bamboo_mat"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"facing": "south"
-		},
-		"Name": "culturaldelights:bamboo_mat"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"facing": "west"
-		},
-		"Name": "culturaldelights:bamboo_mat"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"facing": "east"
-		},
-		"Name": "culturaldelights:bamboo_mat"
 	}
 ]

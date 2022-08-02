@@ -9,6 +9,46 @@ to make editing this file much easier.
 */
 [
 	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "top"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "top"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "bottom"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_slab"
+	},
+	{
+		"Name": "compatoplenty:polished_rose_quartz_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "double"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "double"
+		},
 		"Name": "compatoplenty:polished_rose_quartz_slab"
 	}
 ]

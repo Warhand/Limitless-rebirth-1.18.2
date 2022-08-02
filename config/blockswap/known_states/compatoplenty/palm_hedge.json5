@@ -9,6 +9,762 @@ to make editing this file much easier.
 */
 [
 	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"south": "true",
+			"north": "true",
+			"extend": "true",
+			"east": "true"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"south": "true",
+			"north": "true",
+			"extend": "true",
+			"east": "true"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"south": "true",
+			"north": "true",
+			"extend": "true",
+			"east": "true"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"south": "true",
+			"north": "true",
+			"extend": "true",
+			"east": "true"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"south": "false",
+			"north": "true",
+			"extend": "true",
+			"east": "true"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"south": "false",
+			"north": "true",
+			"extend": "true",
+			"east": "true"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"south": "false",
+			"north": "true",
+			"extend": "true",
+			"east": "true"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"south": "false",
+			"north": "true",
+			"extend": "true",
+			"east": "true"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"south": "true",
+			"north": "false",
+			"extend": "true",
+			"east": "true"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"south": "true",
+			"north": "false",
+			"extend": "true",
+			"east": "true"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"south": "true",
+			"north": "false",
+			"extend": "true",
+			"east": "true"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"south": "true",
+			"north": "false",
+			"extend": "true",
+			"east": "true"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"south": "false",
+			"north": "false",
+			"extend": "true",
+			"east": "true"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"south": "false",
+			"north": "false",
+			"extend": "true",
+			"east": "true"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"south": "false",
+			"north": "false",
+			"extend": "true",
+			"east": "true"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"south": "false",
+			"north": "false",
+			"extend": "true",
+			"east": "true"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"south": "true",
+			"north": "true",
+			"extend": "false",
+			"east": "true"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"south": "true",
+			"north": "true",
+			"extend": "false",
+			"east": "true"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"south": "true",
+			"north": "true",
+			"extend": "false",
+			"east": "true"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"south": "true",
+			"north": "true",
+			"extend": "false",
+			"east": "true"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"south": "false",
+			"north": "true",
+			"extend": "false",
+			"east": "true"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"south": "false",
+			"north": "true",
+			"extend": "false",
+			"east": "true"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"south": "false",
+			"north": "true",
+			"extend": "false",
+			"east": "true"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"south": "false",
+			"north": "true",
+			"extend": "false",
+			"east": "true"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"south": "true",
+			"north": "false",
+			"extend": "false",
+			"east": "true"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"south": "true",
+			"north": "false",
+			"extend": "false",
+			"east": "true"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"south": "true",
+			"north": "false",
+			"extend": "false",
+			"east": "true"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"south": "true",
+			"north": "false",
+			"extend": "false",
+			"east": "true"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"south": "false",
+			"north": "false",
+			"extend": "false",
+			"east": "true"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"south": "false",
+			"north": "false",
+			"extend": "false",
+			"east": "true"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"south": "false",
+			"north": "false",
+			"extend": "false",
+			"east": "true"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"south": "false",
+			"north": "false",
+			"extend": "false",
+			"east": "true"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"south": "true",
+			"north": "true",
+			"extend": "true",
+			"east": "false"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"south": "true",
+			"north": "true",
+			"extend": "true",
+			"east": "false"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"south": "true",
+			"north": "true",
+			"extend": "true",
+			"east": "false"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"south": "true",
+			"north": "true",
+			"extend": "true",
+			"east": "false"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"south": "false",
+			"north": "true",
+			"extend": "true",
+			"east": "false"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"south": "false",
+			"north": "true",
+			"extend": "true",
+			"east": "false"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"south": "false",
+			"north": "true",
+			"extend": "true",
+			"east": "false"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"south": "false",
+			"north": "true",
+			"extend": "true",
+			"east": "false"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"south": "true",
+			"north": "false",
+			"extend": "true",
+			"east": "false"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"south": "true",
+			"north": "false",
+			"extend": "true",
+			"east": "false"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"south": "true",
+			"north": "false",
+			"extend": "true",
+			"east": "false"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"south": "true",
+			"north": "false",
+			"extend": "true",
+			"east": "false"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"south": "false",
+			"north": "false",
+			"extend": "true",
+			"east": "false"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"south": "false",
+			"north": "false",
+			"extend": "true",
+			"east": "false"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"south": "false",
+			"north": "false",
+			"extend": "true",
+			"east": "false"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"south": "false",
+			"north": "false",
+			"extend": "true",
+			"east": "false"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"south": "true",
+			"north": "true",
+			"extend": "false",
+			"east": "false"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"south": "true",
+			"north": "true",
+			"extend": "false",
+			"east": "false"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"south": "true",
+			"north": "true",
+			"extend": "false",
+			"east": "false"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"south": "true",
+			"north": "true",
+			"extend": "false",
+			"east": "false"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"south": "false",
+			"north": "true",
+			"extend": "false",
+			"east": "false"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"south": "false",
+			"north": "true",
+			"extend": "false",
+			"east": "false"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"south": "false",
+			"north": "true",
+			"extend": "false",
+			"east": "false"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"south": "false",
+			"north": "true",
+			"extend": "false",
+			"east": "false"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"south": "true",
+			"north": "false",
+			"extend": "false",
+			"east": "false"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"south": "true",
+			"north": "false",
+			"extend": "false",
+			"east": "false"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"south": "true",
+			"north": "false",
+			"extend": "false",
+			"east": "false"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"south": "true",
+			"north": "false",
+			"extend": "false",
+			"east": "false"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"south": "false",
+			"north": "false",
+			"extend": "false",
+			"east": "false"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"south": "false",
+			"north": "false",
+			"extend": "false",
+			"east": "false"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"south": "false",
+			"north": "false",
+			"extend": "false",
+			"east": "false"
+		},
+		"Name": "compatoplenty:palm_hedge"
+	},
+	{
 		"Name": "compatoplenty:palm_hedge"
 	}
 ]

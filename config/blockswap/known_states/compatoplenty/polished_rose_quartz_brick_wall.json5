@@ -9,6 +9,3882 @@ to make editing this file much easier.
 */
 [
 	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"east": "none"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"east": "low"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "none",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "low",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "none",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "none",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "low",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "low",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "true",
+			"south": "tall",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "true",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"east": "tall"
+		},
+		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"waterlogged": "false",
+			"up": "false",
+			"south": "tall",
+			"north": "tall",
+			"east": "tall"
+		},
 		"Name": "compatoplenty:polished_rose_quartz_brick_wall"
 	}
 ]

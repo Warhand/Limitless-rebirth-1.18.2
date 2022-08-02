@@ -9,6 +9,62 @@ to make editing this file much easier.
 */
 [
 	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "compatoplenty:dead_cabinet"
+	},
+	{
+		"Name": "compatoplenty:dead_cabinet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "compatoplenty:dead_cabinet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "compatoplenty:dead_cabinet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "compatoplenty:dead_cabinet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "compatoplenty:dead_cabinet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "compatoplenty:dead_cabinet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"facing": "east"
+		},
 		"Name": "compatoplenty:dead_cabinet"
 	}
 ]

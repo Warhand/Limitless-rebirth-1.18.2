@@ -9,6 +9,62 @@ to make editing this file much easier.
 */
 [
 	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "north"
+		},
+		"Name": "compatoplenty:dead_table"
+	},
+	{
+		"Name": "compatoplenty:dead_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "south"
+		},
+		"Name": "compatoplenty:dead_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "south"
+		},
+		"Name": "compatoplenty:dead_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "west"
+		},
+		"Name": "compatoplenty:dead_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "west"
+		},
+		"Name": "compatoplenty:dead_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "east"
+		},
+		"Name": "compatoplenty:dead_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "east"
+		},
 		"Name": "compatoplenty:dead_table"
 	}
 ]

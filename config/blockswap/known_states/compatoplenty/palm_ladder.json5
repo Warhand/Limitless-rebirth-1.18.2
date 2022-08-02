@@ -9,6 +9,62 @@ to make editing this file much easier.
 */
 [
 	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "north"
+		},
+		"Name": "compatoplenty:palm_ladder"
+	},
+	{
+		"Name": "compatoplenty:palm_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "south"
+		},
+		"Name": "compatoplenty:palm_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "south"
+		},
+		"Name": "compatoplenty:palm_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "west"
+		},
+		"Name": "compatoplenty:palm_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "west"
+		},
+		"Name": "compatoplenty:palm_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "east"
+		},
+		"Name": "compatoplenty:palm_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "east"
+		},
 		"Name": "compatoplenty:palm_ladder"
 	}
 ]

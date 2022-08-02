@@ -10,54 +10,5 @@ to make editing this file much easier.
 [
 	{
 		"Name": "culturaldelights:white_eggplants"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"age": "1"
-		},
-		"Name": "culturaldelights:white_eggplants"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"age": "2"
-		},
-		"Name": "culturaldelights:white_eggplants"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"age": "3"
-		},
-		"Name": "culturaldelights:white_eggplants"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"age": "4"
-		},
-		"Name": "culturaldelights:white_eggplants"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"age": "5"
-		},
-		"Name": "culturaldelights:white_eggplants"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"age": "6"
-		},
-		"Name": "culturaldelights:white_eggplants"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"age": "7"
-		},
-		"Name": "culturaldelights:white_eggplants"
 	}
 ]

@@ -9,6 +9,46 @@ to make editing this file much easier.
 */
 [
 	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "top"
+		},
+		"Name": "compatoplenty:black_sandstone_brick_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "top"
+		},
+		"Name": "compatoplenty:black_sandstone_brick_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "bottom"
+		},
+		"Name": "compatoplenty:black_sandstone_brick_slab"
+	},
+	{
+		"Name": "compatoplenty:black_sandstone_brick_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "double"
+		},
+		"Name": "compatoplenty:black_sandstone_brick_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "double"
+		},
 		"Name": "compatoplenty:black_sandstone_brick_slab"
 	}
 ]

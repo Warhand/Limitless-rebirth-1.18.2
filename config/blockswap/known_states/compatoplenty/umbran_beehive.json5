@@ -10,5 +10,189 @@ to make editing this file much easier.
 [
 	{
 		"Name": "compatoplenty:umbran_beehive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"honey_level": "1",
+			"facing": "north"
+		},
+		"Name": "compatoplenty:umbran_beehive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"honey_level": "2",
+			"facing": "north"
+		},
+		"Name": "compatoplenty:umbran_beehive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"honey_level": "3",
+			"facing": "north"
+		},
+		"Name": "compatoplenty:umbran_beehive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"honey_level": "4",
+			"facing": "north"
+		},
+		"Name": "compatoplenty:umbran_beehive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"honey_level": "5",
+			"facing": "north"
+		},
+		"Name": "compatoplenty:umbran_beehive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"honey_level": "0",
+			"facing": "south"
+		},
+		"Name": "compatoplenty:umbran_beehive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"honey_level": "1",
+			"facing": "south"
+		},
+		"Name": "compatoplenty:umbran_beehive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"honey_level": "2",
+			"facing": "south"
+		},
+		"Name": "compatoplenty:umbran_beehive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"honey_level": "3",
+			"facing": "south"
+		},
+		"Name": "compatoplenty:umbran_beehive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"honey_level": "4",
+			"facing": "south"
+		},
+		"Name": "compatoplenty:umbran_beehive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"honey_level": "5",
+			"facing": "south"
+		},
+		"Name": "compatoplenty:umbran_beehive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"honey_level": "0",
+			"facing": "west"
+		},
+		"Name": "compatoplenty:umbran_beehive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"honey_level": "1",
+			"facing": "west"
+		},
+		"Name": "compatoplenty:umbran_beehive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"honey_level": "2",
+			"facing": "west"
+		},
+		"Name": "compatoplenty:umbran_beehive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"honey_level": "3",
+			"facing": "west"
+		},
+		"Name": "compatoplenty:umbran_beehive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"honey_level": "4",
+			"facing": "west"
+		},
+		"Name": "compatoplenty:umbran_beehive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"honey_level": "5",
+			"facing": "west"
+		},
+		"Name": "compatoplenty:umbran_beehive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"honey_level": "0",
+			"facing": "east"
+		},
+		"Name": "compatoplenty:umbran_beehive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"honey_level": "1",
+			"facing": "east"
+		},
+		"Name": "compatoplenty:umbran_beehive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"honey_level": "2",
+			"facing": "east"
+		},
+		"Name": "compatoplenty:umbran_beehive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"honey_level": "3",
+			"facing": "east"
+		},
+		"Name": "compatoplenty:umbran_beehive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"honey_level": "4",
+			"facing": "east"
+		},
+		"Name": "compatoplenty:umbran_beehive"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"honey_level": "5",
+			"facing": "east"
+		},
+		"Name": "compatoplenty:umbran_beehive"
 	}
 ]

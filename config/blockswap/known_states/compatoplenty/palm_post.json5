@@ -9,6 +9,5368 @@ to make editing this file much easier.
 */
 [
 	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "x"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "y"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "true",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "true",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "true",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "true",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "true",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "true",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "z"
+		},
+		"Name": "compatoplenty:palm_post"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"chain_west": "false",
+			"chain_up": "false",
+			"chain_south": "false",
+			"chain_north": "false",
+			"chain_east": "false",
+			"chain_down": "false",
+			"axis": "z"
+		},
 		"Name": "compatoplenty:palm_post"
 	}
 ]
