@@ -36,26 +36,20 @@ val crushers_remove as IItemStack[] = [
 	<item:immersiveengineering:raw_uranium>,
 	<item:ftbic:lead_chunk>,
 	<item:jaopca:create_crushed_ores.aluminum>,
-	<item:jaopca:create_crushed_ores.calorite>,
 	<item:jaopca:create_crushed_ores.cloggrum>,
 	<item:jaopca:create_crushed_ores.cobalt>,
-	<item:jaopca:create_crushed_ores.desh>,
 	<item:jaopca:create_crushed_ores.froststeel>,
 	<item:jaopca:create_crushed_ores.lead>,
 	<item:jaopca:create_crushed_ores.netherite_scrap>,
 	<item:jaopca:create_crushed_ores.nickel>,
-	<item:jaopca:create_crushed_ores.ostrum>,
 	<item:jaopca:create_crushed_ores.regalium>,
 	<item:jaopca:create_crushed_ores.silver>,
 	<item:jaopca:create_crushed_ores.tin>,
 	<item:jaopca:create_crushed_ores.uranium>,
 	<item:jaopca:create_crushed_ores.utherium>,
-	<item:jaopca:dusts.calorite>,
 	<item:jaopca:dusts.cloggrum>,
 	<item:jaopca:dusts.cobalt>,
-	<item:jaopca:dusts.desh>,
 	<item:jaopca:dusts.froststeel>,
-	<item:jaopca:dusts.ostrum>,
 	<item:jaopca:dusts.regalium>,
 	<item:jaopca:dusts.utherium>,
 	<item:jaopca:dusts.zinc>,
@@ -121,10 +115,7 @@ val raw_to_crushed_map as IItemStack[IIngredient] = {
 	<tag:items:forge:raw_materials/nickel>.asIIngredient(): <item:create:crushed_nickel_ore>,
 	<tag:items:forge:raw_materials/uranium>.asIIngredient(): <item:create:crushed_uranium_ore>,
 	<item:undergarden:raw_cloggrum>: <item:jaopca:create_crushed_ores.cloggrum>,
-	<tag:items:forge:raw_materials/ostrum>.asIIngredient(): <item:jaopca:create_crushed_ores.ostrum>,
 	<tag:items:forge:raw_materials/cobalt>.asIIngredient(): <item:jaopca:create_crushed_ores.cobalt>,
-	<tag:items:forge:raw_materials/calorite>.asIIngredient(): <item:jaopca:create_crushed_ores.calorite>,
-	<tag:items:forge:raw_materials/desh>.asIIngredient(): <item:jaopca:create_crushed_ores.desh>,
 	<tag:items:forge:raw_materials/iridium>.asIIngredient(): <item:jaopca:create_crushed_ores.iridium>
 };
 
@@ -141,10 +132,7 @@ val crushed_to_dust_map as IItemStack[IIngredient] = {
 	<item:create:crushed_nickel_ore>: <item:immersiveengineering:dust_nickel>,
 	<item:create:crushed_uranium_ore>: <item:immersiveengineering:dust_uranium>,
 	<item:jaopca:create_crushed_ores.cloggrum>: <item:jaopca:dusts.cloggrum>,
-	<item:jaopca:create_crushed_ores.ostrum>: <item:jaopca:dusts.ostrum>,
 	<item:jaopca:create_crushed_ores.cobalt>: <item:jaopca:dusts.cobalt>,
-	<item:jaopca:create_crushed_ores.calorite>: <item:jaopca:dusts.calorite>,
-	<item:jaopca:create_crushed_ores.desh>: <item:jaopca:dusts.desh>,
 	<tag:items:create:crushed_ores/iridium>.asIIngredient(): <item:ftbic:iridium_dust>
 };
 
@@ -159,7 +147,6 @@ val ore_to_gem_map as IItemStack[IIngredient] = {
 };
 
 val ore_to_mineral_map as IItemStack[IIngredient] = {
-	<tag:items:forge:ores/cheese>.asIIngredient(): <item:brewinandchewin:flaxen_cheese_wedge>,
 	<tag:items:forge:ores/utherium>.asIIngredient(): <item:undergarden:utherium_crystal>,
 	<tag:items:forge:ores/coal>.asIIngredient(): <item:minecraft:coal>,
 	<tag:items:forge:ores/quartz>.asIIngredient(): <item:minecraft:quartz>,

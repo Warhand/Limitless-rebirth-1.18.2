@@ -265,27 +265,6 @@ import crafttweaker.api.recipe.SmithingRecipeManager;
 }
 );
 
-<recipetype:create:mixing>.addJsonRecipe("create_mixing_steel_desh", {
-  "ingredients": [
-    {
-      "tag": "forge:ingots/desh",
-      "count": 1
-    },
-      {
-        "item": "minecraft:coal"
-      }
-  ],
-  "results": [
-    {
-      "item": "immersiveengineering:ingot_steel",
-      "count": 4
-    }
-  ],
-  "processingTime": 200,
-  "heatRequirement": "heated"
-}
-);
-
 <recipetype:create:mixing>.addJsonRecipe("create_mixing_ender_ingot", {
 "ingredients": [
     {
@@ -368,26 +347,6 @@ import crafttweaker.api.recipe.SmithingRecipeManager;
 }
 );
 
-<recipetype:tconstruct:alloying>.addJsonRecipe("tinkers_alloy_ostrum_netherite", {
-"type": "tconstruct:alloy",
-	"inputs": [
-          {
-            "tag": "forge:molten_ostrum",
-            "amount": 20
-          },
-          {
-            "tag": "forge:molten_gold",
-            "amount": 20
-          }
-        ],
-        "result": {
-          "fluid": "tconstruct:molten_netherite",
-          "amount": 10
-        },
-        "temperature": 1250
-}
-);
-
 //Immersive engineering recipes
 
 <recipetype:immersiveengineering:arc_furnace>.addJsonRecipe("custom_arc_bronze", {
@@ -404,11 +363,6 @@ import crafttweaker.api.recipe.SmithingRecipeManager;
 }
 );
 
-<recipetype:immersiveengineering:arc_furnace>.addJsonRecipe("custom_arc_steel_desh", {
-"results":[{"count":4,"base_ingredient":{"item":"immersiveengineering:ingot_steel"}}],"additives":[{"tag":"forge:dusts/coal_coke"}],"input":{"tag":"forge:ingots/desh"},"slag":{"tag":"forge:slag"},"time":400,"energy":204800
-}
-);
-
 <recipetype:immersiveengineering:arc_furnace>.addJsonRecipe("custom_arc_brass", {
 "results":[{"count":2,"base_ingredient":{"item":"create:brass_ingot"}}],"additives":[{"tag":"forge:ingots/zinc"}],"input":{"tag":"forge:ingots/copper"},"time":100,"energy":51200
 }
@@ -416,16 +370,6 @@ import crafttweaker.api.recipe.SmithingRecipeManager;
 
 <recipetype:immersiveengineering:arc_furnace>.addJsonRecipe("custom_arc_manyullyn", {
 "results":[{"count":4,"base_ingredient":{"item":"tconstruct:manyullyn_ingot"}}],"additives":[{"item":"minecraft:netherite_scrap"}],"input":{"count":3,"base_ingredient":{"tag":"forge:ingots/cobalt"}},"time":100,"energy":51200
-}
-);
-
-<recipetype:immersiveengineering:blast_furnace>.addJsonRecipe("custom_ie_alloy_steel_desh", {
-"result":{"count":4,"base_ingredient":{"item":"immersiveengineering:ingot_steel"}},"input":{"tag":"forge:ingots/desh"},"slag":{"tag":"forge:slag"},"time":1200
-}
-);
-
-<recipetype:immersiveengineering:blast_furnace>.addJsonRecipe("custom_ie_alloy_steel_block_desh", {
-"result":{"count":4,"base_ingredient":{"item":"immersiveengineering:storage_steel"}},"input":{"tag":"forge:storage_blocks/desh"},"slag":{"count":9,"base_ingredient":{"tag":"forge:slag"}},"time":10800
 }
 );
 
