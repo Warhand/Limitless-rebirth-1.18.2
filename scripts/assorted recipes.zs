@@ -11,7 +11,7 @@ import crafttweaker.api.recipe.SmithingRecipeManager;
 import crafttweaker.api.ingredient.transform.type.TransformReuse;
 
 //adding immersive engineering bottling recipe for create honeyed apple
-<recipetype:immersiveengineering:bottling_machine>.addJsonRecipe("bottling_honeyed_apple", {"result":{"item":"create:honeyed_apple"},"input":{"item":"minecraft:apple"},"fluid":{"tag":"forge:honey","amount":250}});
+<recipetype:immersiveengineering:bottling_machine>.addJsonRecipe("bottling_honeyed_apple", {"results":[{"item":"create:honeyed_apple"}],"input":{"item":"minecraft:apple"},"fluid":{"tag":"forge:honey","amount":250}});
 
 //powdered snow recipe
 craftingTable.addShaped("powdered_snow", <item:minecraft:powder_snow_bucket>, [[<item:minecraft:ice>, <item:minecraft:snowball>, <item:minecraft:ice>], [<item:minecraft:ice>, <item:minecraft:water_bucket>, <item:minecraft:ice>], [<item:minecraft:ice>, <item:minecraft:ice>, <item:minecraft:ice>]]);
@@ -474,7 +474,7 @@ craftingTable.addShapeless("painting_palette", <item:xercapaint:item_palette>.wi
 });
 
 <recipetype:immersiveengineering:bottling_machine>.addJsonRecipe("custom_ie_mixing_dough", {
-"result":{"item":"farmersdelight:wheat_dough"},"input":{"tag":"forge:flour"},"fluid":{"tag":"minecraft:water","amount":1000}
+"results":[{"item":"farmersdelight:wheat_dough"}],"input":{"tag":"forge:flour"},"fluid":{"tag":"minecraft:water","amount":1000}
 });
 
 //milling sourceberries
