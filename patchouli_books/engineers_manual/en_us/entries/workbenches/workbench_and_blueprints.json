@@ -1,7 +1,7 @@
 {    
 	"name": "Engineer's workbench",    
 	"icon": "immersiveengineering:workbench",
-	"category": "patchouli:overview_and_resources",    
+	"category": "workbenches_and_furnaces",    
 	"pages": [        
 		{            
 			"type": "patchouli:text",            

@@ -1,0 +1,6 @@
+{    
+	"name": "Workbenches & Furnaces",    
+	"description": "The workbenches and furnaces used by Engineers.",    
+	"icon": "immersiveengineering:coke_oven",
+	"sortnum": 1
+}

@@ -1,7 +1,7 @@
 {    
 	"name": "Coke Oven",    
 	"icon": "immersiveengineering:coke_oven",
-	"category": "patchouli:overview_and_resources",    
+	"category": "workbenches_and_furnaces",    
 	"pages": [        
 		{            
 			"type": "patchouli:text",            
