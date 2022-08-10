@@ -177,15 +177,6 @@ import mods.jei.JEI;
   "weight": 1500
 });
 
-<recipetype:botania:orechid_ignem>.addJsonRecipe("custom_orechid_netherrack_shard", {
-  "input": "minecraft:netherrack",
-  "output": {
-    "type": "block",
-    "block": "rftoolsbase:dimensionalshard_nether"
-  },
-  "weight": 500
-});
-
 //Overworld orechid ore generation
 
 //stone orechid
@@ -232,15 +223,6 @@ import mods.jei.JEI;
     "block": "ftbic:tin_ore"
   },
   "weight": 5500
-});
-
-<recipetype:botania:orechid>.addJsonRecipe("custom_orechid_stone_shard", {
-  "input": "minecraft:stone",
-  "output": {
-    "type": "block",
-    "block": "rftoolsbase:dimensionalshard_overworld"
-  },
-  "weight": 900
 });
 
 <recipetype:botania:orechid>.addJsonRecipe("custom_orechid_stone_iridium", {

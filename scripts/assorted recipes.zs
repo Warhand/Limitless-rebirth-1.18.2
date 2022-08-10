@@ -414,10 +414,6 @@ craftingTable.addShaped("fishing_rod_steel", <item:alloyed:steel_fishing_rod>, [
 
 craftingTable.addShaped("shears_steel", <item:alloyed:steel_shears>, [[IIngredientEmpty.getInstance(), <tag:items:forge:ingots/steel>], [<tag:items:forge:ingots/steel>, IIngredientEmpty.getInstance()]]);
 
-//painting palette
-
-craftingTable.addShapeless("painting_palette", <item:xercapaint:item_palette>.withTag({basic: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}), [<tag:items:minecraft:wooden_slabs>, <tag:items:forge:dyes/black>, <tag:items:forge:dyes/purple>, <tag:items:forge:dyes/orange>, <tag:items:forge:dyes/green>, <tag:items:forge:dyes/white>, <tag:items:forge:dyes/yellow>, <tag:items:forge:dyes/blue>, <tag:items:forge:dyes/red>]);
-
 //milling flour and dough recipes changed to croptopia flour and dough
 <recipetype:create:milling>.addJsonRecipe("custom_create_milling_flour", {
   "ingredients": [

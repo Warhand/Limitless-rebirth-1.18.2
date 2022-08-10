@@ -114,35 +114,6 @@ mods.extendedcrafting.TableCrafting.addShaped("66859159-0c04-4318-9c48-774939134
 	[<item:ars_nouveau:archwood_planks>, <item:minecraft:gold_block>, <item:ars_nouveau:as_gold_stone>, <item:minecraft:gold_block>, <item:ars_nouveau:as_gold_stone>, <item:minecraft:gold_block>, <item:ars_nouveau:as_gold_stone>, <item:minecraft:gold_block>, <item:ars_nouveau:archwood_planks>]
 ]);
 
-//tinkers creative ability modifier
-mods.extendedcrafting.TableCrafting.addShaped("fbbca6a0-24b1-4cf7-8dfd-f128756b5a08", 0, <item:tconstruct:creative_slot>.withTag({slot: "abilities" as string}), [
-	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:tconstruct:rose_gold_block>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
-	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:tconstruct:rose_gold_block>, <item:tconstruct:rose_gold_block>, <item:tconstruct:rose_gold_block>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
-	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:tconstruct:rose_gold_block>, <item:extendedcrafting:nether_star_block>, <item:tconstruct:rose_gold_block>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
-	[<item:minecraft:air>, <item:tconstruct:rose_gold_block>, <item:tconstruct:rose_gold_block>, <item:materialis:fairy_block>, <item:tconstruct:manyullyn_block>, <item:materialis:fairy_block>, <item:tconstruct:rose_gold_block>, <item:tconstruct:rose_gold_block>, <item:minecraft:air>], 
-	[<item:tconstruct:rose_gold_block>, <item:tconstruct:rose_gold_block>, <item:extendedcrafting:nether_star_block>, <item:tconstruct:manyullyn_block>, <item:upgradednetherite_creative:creative_upgraded_netherite_ingot>, <item:tconstruct:manyullyn_block>, <item:extendedcrafting:nether_star_block>, <item:tconstruct:rose_gold_block>, <item:tconstruct:rose_gold_block>], 
-	[<item:minecraft:air>, <item:tconstruct:rose_gold_block>, <item:tconstruct:rose_gold_block>, <item:materialis:fairy_block>, <item:tconstruct:manyullyn_block>, <item:materialis:fairy_block>, <item:tconstruct:rose_gold_block>, <item:tconstruct:rose_gold_block>, <item:minecraft:air>], 
-	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:tconstruct:rose_gold_block>, <item:extendedcrafting:nether_star_block>, <item:tconstruct:rose_gold_block>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
-	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:tconstruct:rose_gold_block>, <item:tconstruct:rose_gold_block>, <item:tconstruct:rose_gold_block>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
-	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:tconstruct:rose_gold_block>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
-]);
-
-craftingTable.addShapeless("ability_to_soul", <item:tconstruct:creative_slot>.withTag({slot: "souls" as string}), [<item:tconstruct:creative_slot>.withTag({slot: "abilities" as string}), <item:minecraft:soul_lantern>]);
-craftingTable.addShapeless("ability_to_upgrade", <item:tconstruct:creative_slot>.withTag({slot: "upgrades" as string}), [<item:tconstruct:creative_slot>.withTag({slot: "abilities" as string}), <item:minecraft:anvil>]);
-craftingTable.addShapeless("ability_to_defense", <item:tconstruct:creative_slot>.withTag({slot: "defense" as string}), [<item:tconstruct:creative_slot>.withTag({slot: "abilities" as string}), <item:minecraft:diamond_chestplate>]);
-
-craftingTable.addShapeless("soul_to_ability", <item:tconstruct:creative_slot>.withTag({slot: "abilities" as string}), [<item:tconstruct:creative_slot>.withTag({slot: "souls" as string}), <tag:items:forge:ingots/rose_gold>]);
-craftingTable.addShapeless("soul_to_upgrade", <item:tconstruct:creative_slot>.withTag({slot: "upgrades" as string}), [<item:tconstruct:creative_slot>.withTag({slot: "souls" as string}), <item:minecraft:anvil>]);
-craftingTable.addShapeless("soul_to_defense", <item:tconstruct:creative_slot>.withTag({slot: "defense" as string}), [<item:tconstruct:creative_slot>.withTag({slot: "souls" as string}), <item:minecraft:diamond_chestplate>]);
-
-craftingTable.addShapeless("upgrade_to_ability", <item:tconstruct:creative_slot>.withTag({slot: "abilities" as string}), [<item:tconstruct:creative_slot>.withTag({slot: "upgrades" as string}), <tag:items:forge:ingots/rose_gold>]);
-craftingTable.addShapeless("upgrade_to_soul", <item:tconstruct:creative_slot>.withTag({slot: "souls" as string}), [<item:tconstruct:creative_slot>.withTag({slot: "upgrades" as string}), <item:minecraft:soul_lantern>]);
-craftingTable.addShapeless("upgrade_to_defense", <item:tconstruct:creative_slot>.withTag({slot: "defense" as string}), [<item:tconstruct:creative_slot>.withTag({slot: "upgrades" as string}), <item:minecraft:diamond_chestplate>]);
-
-craftingTable.addShapeless("defense_to_ability", <item:tconstruct:creative_slot>.withTag({slot: "abilities" as string}), [<item:tconstruct:creative_slot>.withTag({slot: "defense" as string}), <tag:items:forge:ingots/rose_gold>]);
-craftingTable.addShapeless("defense_to_upgrade", <item:tconstruct:creative_slot>.withTag({slot: "upgrades" as string}), [<item:tconstruct:creative_slot>.withTag({slot: "defense" as string}), <item:minecraft:anvil>]);
-craftingTable.addShapeless("defense_to_soul", <item:tconstruct:creative_slot>.withTag({slot: "souls" as string}), [<item:tconstruct:creative_slot>.withTag({slot: "defense" as string}), <item:minecraft:soul_lantern>]);
-
 //storage drawer infinite storage upgrade
 mods.extendedcrafting.TableCrafting.addShaped("feb1fef0-6aad-49bb-934a-454d6fd38fb9", 0, <item:storagedrawers:creative_storage_upgrade>, [
 	[<item:storagedrawers:upgrade_template>, <item:minecraft:smooth_quartz>, <item:minecraft:smooth_quartz>, <item:storagedrawers:upgrade_template>, <item:storagedrawers:gold_storage_upgrade>, <item:storagedrawers:upgrade_template>, <item:minecraft:smooth_quartz>, <item:minecraft:smooth_quartz>, <item:storagedrawers:upgrade_template>], 
