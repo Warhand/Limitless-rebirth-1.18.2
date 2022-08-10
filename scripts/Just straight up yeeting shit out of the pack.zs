@@ -283,7 +283,17 @@ val jei_removal as IItemStack[] = [
 	<item:additionaladditions:gilded_netherite_axe>,
 	<item:additionaladditions:rose_gold_hoe>,
 	<item:additionaladditions:rose_gold_pickaxe>,
-	<item:additionaladditions:fried_egg>
+	<item:additionaladditions:fried_egg>,
+	<item:minecraft:barrier>,
+	<item:minecraft:light>,
+	<item:minecraft:structure_void>,
+	<item:minecraft:structure_block>,
+	<item:minecraft:jigsaw>,
+	<item:minecraft:knowledge_book>,
+	<item:minecraft:debug_stick>,
+	<item:tconstruct:soulsteel_block>,
+	<item:tconstruct:soulsteel_ingot>,
+	<item:tconstruct:soulsteel_nugget>
 ];
 
 for item in jei_removal{
