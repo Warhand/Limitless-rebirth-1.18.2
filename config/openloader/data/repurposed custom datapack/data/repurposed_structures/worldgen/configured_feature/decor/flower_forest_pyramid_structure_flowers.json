@@ -1,7 +1,0 @@
-{
-  "config": {
-	  "attempts": 8,
-	  "range": 3
-  },
-  "type": "repurposed_structures:structure_flowers"
-}
