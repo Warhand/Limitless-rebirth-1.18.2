@@ -2,58 +2,6 @@
   "bookGuiScale": 4,
   "clickedVisualize": true,
   "bookData": {
-    "ars_nouveau:worn_notebook": {
-      "viewedEntries": [
-        "ars_nouveau:getting_started/source",
-        "ars_nouveau:source/source_jar",
-        "ars_nouveau:source/agronomic_sourcelink",
-        "ars_nouveau:source/vitalic_sourcelink",
-        "ars_nouveau:source/alchemical_sourcelink",
-        "ars_nouveau:source/mycelial_sourcelink",
-        "ars_nouveau:source/volcanic_sourcelink",
-        "ars_nouveau:source/relay_collector",
-        "ars_nouveau:source/relay_deposit",
-        "ars_nouveau:source/relay_splitter",
-        "ars_nouveau:source/relay_warp",
-        "ars_nouveau:source/relay",
-        "ars_nouveau:automation/summon_bed",
-        "ars_nouveau:automation/amethyst_golem_charm",
-        "ars_nouveau:resources/sourceberry",
-        "ars_nouveau:enchantments/how_to_enchant",
-        "ars_nouveau:machines/enchanting_apparatus",
-        "ars_nouveau:enchantments/sharpness",
-        "ars_nouveau:automation/allow_scroll",
-        "ars_nouveau:automation/spell_prism",
-        "ars_nouveau:automation/whirlisprig_charm",
-        "ars_nouveau:rituals/disintegration",
-        "ars_nouveau:rituals/wilden_summon",
-        "ars_nouveau:rituals/burrowing",
-        "ars_nouveau:rituals/performing_rituals",
-        "ars_nouveau:machines/ritual_brazier",
-        "ars_nouveau:rituals/moonfall",
-        "ars_nouveau:rituals/cloudshaping",
-        "ars_nouveau:rituals/scrying",
-        "ars_nouveau:rituals/warping",
-        "ars_nouveau:getting_started/spell_casting"
-      ],
-      "bookmarks": [],
-      "history": [
-        "ars_nouveau:getting_started/spell_casting",
-        "ars_nouveau:rituals/scrying",
-        "ars_nouveau:rituals/moonfall",
-        "ars_nouveau:rituals/warping",
-        "ars_nouveau:rituals/burrowing",
-        "ars_nouveau:rituals/performing_rituals",
-        "ars_nouveau:rituals/cloudshaping",
-        "ars_nouveau:machines/ritual_brazier",
-        "ars_nouveau:rituals/wilden_summon",
-        "ars_nouveau:rituals/disintegration",
-        "ars_nouveau:automation/whirlisprig_charm",
-        "ars_nouveau:automation/spell_prism",
-        "ars_nouveau:automation/allow_scroll"
-      ],
-      "completedManualQuests": []
-    },
     "botania:lexicon": {
       "viewedEntries": [
         "botania:generating_flowers/endoflame",
@@ -66,16 +14,6 @@
         "botania:functional_flowers/orechid_ignem"
       ],
       "bookmarks": [],
-      "history": [
-        "botania:functional_flowers/orechid_ignem",
-        "botania:tools/open_bucket",
-        "botania:tools/thorn_chakram",
-        "botania:tools/terraform_rod",
-        "botania:generating_flowers/thermalily",
-        "botania:generating_flowers/gourmaryllis",
-        "botania:generating_flowers/kekimurus",
-        "botania:generating_flowers/endoflame"
-      ],
       "completedManualQuests": []
     },
     "patchouli:engineers_manual": {
@@ -160,16 +98,44 @@
         "patchouli:overview/ores"
       ],
       "bookmarks": [],
-      "history": [
-        "patchouli:construction/treated_wood",
-        "patchouli:heavy/crusher",
-        "patchouli:heavy/assembler",
-        "patchouli:overview/alloys",
-        "patchouli:overview/mineral_deposits",
-        "patchouli:simple/conveyor_belts",
-        "patchouli:heavy/excavator",
-        "patchouli:heavy/metal_press"
+      "completedManualQuests": []
+    },
+    "ars_nouveau:worn_notebook": {
+      "viewedEntries": [
+        "ars_nouveau:getting_started/source",
+        "ars_nouveau:source/source_jar",
+        "ars_nouveau:source/agronomic_sourcelink",
+        "ars_nouveau:source/vitalic_sourcelink",
+        "ars_nouveau:source/alchemical_sourcelink",
+        "ars_nouveau:source/mycelial_sourcelink",
+        "ars_nouveau:source/volcanic_sourcelink",
+        "ars_nouveau:source/relay_collector",
+        "ars_nouveau:source/relay_deposit",
+        "ars_nouveau:source/relay_splitter",
+        "ars_nouveau:source/relay_warp",
+        "ars_nouveau:source/relay",
+        "ars_nouveau:automation/summon_bed",
+        "ars_nouveau:automation/amethyst_golem_charm",
+        "ars_nouveau:resources/sourceberry",
+        "ars_nouveau:enchantments/how_to_enchant",
+        "ars_nouveau:machines/enchanting_apparatus",
+        "ars_nouveau:enchantments/sharpness",
+        "ars_nouveau:automation/allow_scroll",
+        "ars_nouveau:automation/spell_prism",
+        "ars_nouveau:automation/whirlisprig_charm",
+        "ars_nouveau:rituals/disintegration",
+        "ars_nouveau:rituals/wilden_summon",
+        "ars_nouveau:rituals/burrowing",
+        "ars_nouveau:rituals/performing_rituals",
+        "ars_nouveau:machines/ritual_brazier",
+        "ars_nouveau:rituals/moonfall",
+        "ars_nouveau:rituals/cloudshaping",
+        "ars_nouveau:rituals/scrying",
+        "ars_nouveau:rituals/warping",
+        "ars_nouveau:getting_started/spell_casting",
+        "ars_nouveau:machines/imbuement_chamber"
       ],
+      "bookmarks": [],
       "completedManualQuests": []
     },
     "patchouli:cyclic_guide_book": {
@@ -181,13 +147,6 @@
         "patchouli:blocks/soundproofing_ghost"
       ],
       "bookmarks": [],
-      "history": [
-        "patchouli:blocks/soundproofing_ghost",
-        "patchouli:blocks/light_camo",
-        "patchouli:accessories/charm_invisible",
-        "patchouli:accessories/antigravity",
-        "patchouli:accessories/charm_ultimate"
-      ],
       "completedManualQuests": []
     }
   }
