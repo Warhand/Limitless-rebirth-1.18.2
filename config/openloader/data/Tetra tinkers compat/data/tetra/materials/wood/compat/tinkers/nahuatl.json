@@ -1,0 +1,27 @@
+{
+    "key": "nahuatl",
+    "category": "wood",
+    "primary": 5,
+    "secondary": 5,
+    "tertiary": 2,
+    "durability": 743,
+    "integrityCost": 2,
+    "integrityGain": 2,
+    "magicCapacity": 100,
+    "toolLevel": "minecraft:diamond",
+    "toolEfficiency": 8,
+    "tints": {
+        "glyph": "472f8c",
+        "texture": "7a5c5b"
+    },
+    "textures": [ "crude" ],
+    "material": {
+        "items": [ "tconstruct:nahuatl" ]
+    },
+    "effects": {
+		"bleeding": 2
+	},
+    "requiredTools": {
+        "axe_dig": "minecraft:diamond"
+    }
+}

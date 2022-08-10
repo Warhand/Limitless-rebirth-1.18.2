@@ -1,0 +1,27 @@
+{
+    "key": "hepatizon",
+    "category": "metal",
+    "primary": 8,
+    "secondary": 2.5,
+    "tertiary": 0,
+    "durability": 1000,
+    "integrityCost": 3,
+    "integrityGain": 1,
+    "magicCapacity": 65,
+    "toolLevel": "minecraft:netherite",
+    "toolEfficiency": 12,
+    "tints": {
+        "glyph": "835698",
+        "texture": "835698"
+    },
+    "textures": [
+        "metal",
+        "default"
+    ],
+    "material": {
+        "tag": "forge:ingots/hepatizon"
+    },
+    "requiredTools": {
+        "hammer_dig": 7
+    }
+}

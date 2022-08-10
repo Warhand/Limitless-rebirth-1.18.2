@@ -1,0 +1,27 @@
+{
+    "key": "scorched_stone",
+    "category": "stone",
+    "primary": 5.5,
+    "secondary": 3.5,
+    "tertiary": 0,
+    "durability": 225,
+    "integrityCost": 1,
+    "integrityGain": 4,
+    "magicCapacity": 80,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 4,
+    "tints": {
+        "glyph": "483a32",
+        "texture": "483a32"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [ "tconstruct:scorched_brick" ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:wood"
+    }
+}

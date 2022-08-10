@@ -1,0 +1,27 @@
+{
+    "key": "bloodshroom",
+    "category": "wood",
+    "primary": 3.75,
+    "secondary": 2.5,
+    "tertiary": 12,
+    "durability": 300,
+    "integrityCost": 1,
+    "integrityGain": 5,
+    "magicCapacity": 90,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 6,
+    "tints": {
+        "glyph": "ff0000",
+        "texture": "ff0000"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "items": [ "tconstruct:bloodshroom_planks" ]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:wood"
+    }
+}

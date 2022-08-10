@@ -1,0 +1,27 @@
+{
+    "key": "queenslime",
+    "category": "metal",
+    "primary": 6,
+    "secondary": 4,
+    "tertiary": 10,
+    "durability": 1650,
+    "integrityCost": 2,
+    "integrityGain": 5,
+    "magicCapacity": 100,
+    "toolLevel": "minecraft:netherite",
+    "toolEfficiency": 6,
+    "tints": {
+        "glyph": "969104",
+        "texture": "969104"
+    },
+    "textures": [
+        "metal",
+        "default"
+    ],
+    "material": {
+        "tag": "forge:ingots/queens_slime"
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:diamond"
+    }
+}

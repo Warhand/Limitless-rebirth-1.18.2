@@ -1,0 +1,30 @@
+{
+    "key": "amethyst_bronze",
+    "category": "metal",
+    "primary": 5,
+    "secondary": 3.8,
+    "tertiary": 1.5,
+    "durability": 720,
+    "integrityCost": 2,
+    "integrityGain": 5,
+    "magicCapacity": 85,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 7,
+    "tints": {
+        "glyph": "d9a2d0",
+        "texture": "d9a2d0"
+    },
+    "textures": [
+        "metal",
+        "default"
+    ],
+    "material": {
+        "tag": "forge:ingots/amethyst_bronze"
+    },
+    "improvements": {
+        "workable": 1
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:stone"
+    }
+}

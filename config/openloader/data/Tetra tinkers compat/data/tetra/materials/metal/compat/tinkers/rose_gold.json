@@ -1,0 +1,30 @@
+{
+    "key": "rose_gold",
+    "category": "metal",
+    "primary": 4.5,
+    "secondary": 4.6,
+    "tertiary": 1,
+    "durability": 140,
+    "integrityCost": 2,
+    "integrityGain": 3,
+    "magicCapacity": 100,
+    "toolLevel": "minecraft:gold",
+    "toolEfficiency": 12,
+    "tints": {
+        "glyph": "faa6a1",
+        "texture": "faa6a1"
+    },
+    "textures": [
+        "metal",
+        "default"
+    ],
+    "material": {
+        "tag": "forge:ingots/rose_gold"
+    },
+    "effects": {
+        "stabilizing": 10
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:stone"
+    }
+}
