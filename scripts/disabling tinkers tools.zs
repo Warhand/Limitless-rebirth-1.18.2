@@ -9,6 +9,7 @@ import mods.jei.JEI;
 //removes all armor crafting recipes from the crafting table and tool casting
 craftingTable.removeByRegex("tconstruct:armor.*");
 <recipetype:tconstruct:casting_table>.removeByRegex("tconstruct:armor.*");
+<recipetype:tconstruct:casting_basin>.removeByRegex("tconstruct:armor.*");
 
 //removes all recipes for modifiers and upgrades, only necessary if tinkers tools can be obtained in another way, but you wish to prevent them from being modified or upgraded. Also removes the JEI category
 <recipetype:tconstruct:tinker_station>.removeAll();
@@ -18,6 +19,9 @@ craftingTable.removeByRegex("tconstruct:armor.*");
 
 //removing wrench head crafting
 <recipetype:tconstruct:part_builder>.remove(<item:materialis:wrench_head>);
+
+//removing tinkers tables recipes
+craftingTable.removeByRegex("tconstruct:tables.*");
 
 
 //an array for all recipe names used to mold sand tool casts in the casting table
@@ -33,6 +37,7 @@ var sand_casts = [
 		"tconstruct:smeltery/casts/sand_casts/tool_binding",
 		"tconstruct:smeltery/casts/sand_casts/tool_handle",
 		"tconstruct:smeltery/casts/sand_casts/tough_handle",
+		"tconstruct:smeltery/casts/sand_casts/round_plate",
 
 		"tconstruct:smeltery/casts/red_sand_casts/broad_axe_head",
 		"tconstruct:smeltery/casts/red_sand_casts/broad_blade",
@@ -44,7 +49,8 @@ var sand_casts = [
 		"tconstruct:smeltery/casts/red_sand_casts/small_blade",
 		"tconstruct:smeltery/casts/red_sand_casts/tool_binding",
 		"tconstruct:smeltery/casts/red_sand_casts/tool_handle",
-		"tconstruct:smeltery/casts/red_sand_casts/tough_handle"] as string[];
+		"tconstruct:smeltery/casts/red_sand_casts/tough_handle",
+		"tconstruct:smeltery/casts/red_sand_casts/round_plate"] as string[];
 
 //removes all recipes in the above array
 for item in sand_casts {
@@ -84,6 +90,8 @@ var hideJEI = [
 	<item:tconstruct:large_plate_cast>,
 	<item:tconstruct:tool_handle_cast>,
 	<item:tconstruct:tough_handle_cast>,
+	<item:tconstruct:round_plate_cast>,
+	<item:tconstruct:repair_kit_cast>,
 
 	<item:tconstruct:pick_head_sand_cast>,
 	<item:tconstruct:small_axe_head_sand_cast>,
@@ -95,6 +103,8 @@ var hideJEI = [
 	<item:tconstruct:large_plate_sand_cast>,
 	<item:tconstruct:tool_handle_sand_cast>,
 	<item:tconstruct:tough_handle_sand_cast>,
+	<item:tconstruct:round_plate_sand_cast>,
+	<item:tconstruct:repair_kit_sand_cast>,
 
 	<item:tconstruct:pick_head_red_sand_cast>,
 	<item:tconstruct:small_axe_head_red_sand_cast>,
@@ -106,6 +116,8 @@ var hideJEI = [
 	<item:tconstruct:large_plate_red_sand_cast>,
 	<item:tconstruct:tool_handle_red_sand_cast>,
 	<item:tconstruct:tough_handle_red_sand_cast>,
+	<item:tconstruct:round_plate_red_sand_cast>,
+	<item:tconstruct:repair_kit_red_sand_cast>,
 	
 	<item:tconstruct:pickaxe>,
     <item:tconstruct:sledge_hammer>,
@@ -153,7 +165,21 @@ var hideJEI = [
 	<item:tconstruct:gold_reinforcement>,
 	<item:tconstruct:emerald_reinforcement>,
 	<item:tconstruct:bronze_reinforcement>,
-	<item:tconstruct:cobalt_reinforcement>
+	<item:tconstruct:cobalt_reinforcement>,
+	
+	<item:tconstruct:slime_helmet>,
+	<item:tconstruct:slime_boots>,
+	<item:tconstruct:slime_leggings>,
+	<item:tconstruct:slime_chestplate>,
+	
+	<item:tconstruct:tinker_station>,
+	<item:tconstruct:part_builder>,
+	<item:tconstruct:part_chest>,
+	<item:tconstruct:tinkers_chest>,
+	<item:tconstruct:crafting_station>,
+	<item:tconstruct:cast_chest>,
+	<item:tconstruct:tinkers_anvil>,
+	<item:tconstruct:scorched_anvil>
 	] as IItemStack[];
 
 //hides items in the above array
