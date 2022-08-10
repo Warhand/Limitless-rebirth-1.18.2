@@ -17,7 +17,3 @@
 	#The default byproduct material to output in Create's crushing.
 	byproduct = "minecraft:cobblestone"
 
-[indreb]
-	#The default byproduct material to output in Industrial Reborn's crushing.
-	byproduct = "indreb:stone_dust"
-

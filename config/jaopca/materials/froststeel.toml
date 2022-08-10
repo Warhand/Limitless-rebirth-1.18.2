@@ -13,15 +13,7 @@
 	#The color of this material.
 	color = 9150912
 
-[molten]
-	#The temperature of this molten fluid.
-	temperature = 1000
-
 [create]
 	#The default byproduct material to output in Create's crushing.
 	byproduct = "minecraft:cobblestone"
-
-[indreb]
-	#The default byproduct material to output in Industrial Reborn's crushing.
-	byproduct = "indreb:stone_dust"
 
