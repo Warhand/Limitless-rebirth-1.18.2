@@ -138,3 +138,10 @@
 		#Range: 0.0 ~ 1.0E9
 		breakSilktouchCoefficient = 4.0
 
+#Enchantments. Defines enchantments machines can accept.
+[enchantments]
+	quarry = ["minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:silk_touch"]
+	adv_quarry = ["minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:silk_touch"]
+	mini_quarry = ["minecraft:efficiency", "minecraft:unbreaking"]
+	adv_pump = ["minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune"]
+
