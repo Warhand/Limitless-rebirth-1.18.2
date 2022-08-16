@@ -1,0 +1,49 @@
+#Ignore directories
+mods/**
+journeymap/**
+logs/**
+profileImage/**
+saves/**
+ct_dumps/**
+crash-reports/**
+XaeroWaypoints/**
+XaeroWorldMap/**
+screenshots/**
+downloads/**
+.curseclient
+debug/**
+music_sheets/**
+schematics/**
+local/ftbchunks/data/**
+simplebackups/**
+config/jei/world/**
+
+# ignore file types
+*.log
+*.jar
+config/tellme/**
+
+#ignore specific files
+WailaErrorOutput.txt
+usercache.json
+usernamecache.json
+realms_persistence.json
+minecraftinstance.json
+config/patchouli-client-4.toml.bak
+config/xaerominimap_entities.json
+resourcepacks/Cork - anti-tryphophobia resource pack 1.1.zip
+config/voicechat-client.toml
+prettypipesprefs
+config/jei-client.toml
+*.class
+simple-rpc/Limitless Rebirth/.gitattributes
+simple-rpc/Limitless Rebirth/Automodlist.txt
+simple-rpc/Limitless Rebirth/lr_border.png
+simple-rpc/Limitless Rebirth/Modlistautogen.bat
+simple-rpc/Limitless Rebirth/options.justenoughkeys.txt
+simple-rpc/Limitless Rebirth/options.txt
+simple-rpc/Limitless Rebirth/patchouli_data.json
+simple-rpc/Limitless Rebirth/README.md
+simple-rpc/Limitless Rebirth/Resource pack reccomendations.md
+simple-rpc/Limitless Rebirth/simple-rpc.bak
+resourcepacks/Xaero's Minimap - Mod Icons.zip
