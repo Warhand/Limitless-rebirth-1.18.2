@@ -331,18 +331,48 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:loot_table",
-          "name": "limitlessrebirth:treasure",
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "botania:overgrowth_seed"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "botania:blacker_lotus"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "dimdungeons:item_portal_key"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 2,
+          "name": "minecraft:enchanted_golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:heart_of_the_sea"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:book",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 1
-              }
+              "function": "minecraft:enchant_randomly"
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "paraglider:spirit_orb"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 100
         }
       ]
     },
