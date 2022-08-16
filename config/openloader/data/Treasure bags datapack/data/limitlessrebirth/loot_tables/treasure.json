@@ -31,11 +31,6 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "xercamusic:god"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
           "name": "minecraft:book",
           "functions": [
             {

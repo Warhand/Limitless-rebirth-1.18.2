@@ -17,4 +17,5 @@ Princess,
 Radagon,
 Marika,
 Ranni,
-Morgott
+Morgott,
+Adrian.
