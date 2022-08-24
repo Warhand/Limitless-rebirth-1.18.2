@@ -406,7 +406,7 @@
 	"Skull Pikes" = true
 	"Vexes Die With Their Masters" = true
 	"Pig Litters" = true
-	"Grab Chickens" = true
+	"Grab Chickens" = false
 
 	[tweaks.utility_recipes]
 		#Can any wool color be dyed?
