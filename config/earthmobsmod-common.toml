@@ -12,7 +12,7 @@
 "Hyper Rabbit SpawnRate" = 5
 #Changed Moobloom SpawnRate. [0 ~ 100]
 #Range: 0 ~ 100
-"Moobloom SpawnRate" = 10
+"Moobloom SpawnRate" = 0
 #Changed Moolip SpawnRate. [0 ~ 100]
 #Range: 0 ~ 100
 "Moolip SpawnRate" = 10
