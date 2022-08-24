@@ -148,30 +148,6 @@ craftingTable.addShaped("immersiveengineering_crafting_hammer", <item:immersivee
 craftingTable.remove(<item:minecraft:bundle>);
 craftingTable.addShaped("bundle", <item:minecraft:bundle>, [[<tag:items:forge:string>, <tag:items:forge:leather>, <tag:items:forge:string>], [<tag:items:forge:leather>, IIngredientEmpty.getInstance(), <tag:items:forge:leather>], [<tag:items:forge:leather>, <tag:items:forge:leather>, <tag:items:forge:leather>]]);
 
-//quarryplus marker plus recipe
-craftingTable.remove(<item:quarryplus:marker>);
-craftingTable.addShaped("marker_plus", <item:quarryplus:marker>, [[<item:minecraft:gold_ingot>], [<item:minecraft:redstone_torch>]]);
-
-//quarryplus chunk marker recipe
-craftingTable.remove(<item:quarryplus:marker16>);
-craftingTable.addShaped("marker_chunk", <item:quarryplus:marker16>, [[IIngredientEmpty.getInstance(), <item:quarryplus:marker>, IIngredientEmpty.getInstance()], [<item:quarryplus:marker>, <tag:items:forge:rods/blaze>, <item:quarryplus:marker>], [IIngredientEmpty.getInstance(), <tag:items:forge:rods/blaze>, IIngredientEmpty.getInstance()]]);
-
-//quarryplus recipe
-craftingTable.addShaped("quarry", <item:quarryplus:quarry>, [[<tag:items:forge:plates/steel>, <item:quarryplus:marker>, <tag:items:forge:plates/steel>], [<item:minecraft:diamond>, <item:quarryplus:mining_well>, <item:minecraft:diamond>], [<tag:items:forge:plates/steel>, <item:minecraft:diamond_pickaxe>, <tag:items:forge:plates/steel>]]);
-
-//quarryplus statuschecker recipe
-craftingTable.addShaped("quarry_statuschecker", <item:quarryplus:status_checker>, [[<item:quarryplus:marker>, IIngredientEmpty.getInstance(), IIngredientEmpty.getInstance()], [<tag:items:forge:ingots/iron>, <tag:items:forge:dusts/redstone>, <tag:items:forge:ingots/iron>], [<tag:items:forge:ingots/iron>, <tag:items:minecraft:buttons>, <tag:items:forge:ingots/iron>]]);
-
-//quarryplus quarry Y setter recipe
-craftingTable.addShaped("quarry_y_setter", <item:quarryplus:y_setter>, [[<item:quarryplus:marker>, IIngredientEmpty.getInstance(), IIngredientEmpty.getInstance()], [<tag:items:forge:gems/diamond>, <tag:items:forge:dusts/redstone>, <tag:items:forge:gems/diamond>], [<tag:items:forge:gems/diamond>, <tag:items:minecraft:buttons>, <tag:items:forge:gems/diamond>]]);
-
-//quarryplus mining well recipe
-craftingTable.addShaped("mining_well", <item:quarryplus:mining_well>, [[<tag:items:forge:plates/iron>, <tag:items:forge:rods/copper>, <tag:items:forge:plates/iron>], [<tag:items:forge:dusts/redstone>, <tag:items:forge:rods/copper>, <tag:items:forge:dusts/redstone>], [<tag:items:forge:plates/iron>, <item:minecraft:iron_pickaxe>, <tag:items:forge:plates/iron>]]);
-
-//quarryplus pump module recipe
-craftingTable.remove(<item:quarryplus:pump_module>);
-craftingTable.addShaped("pump_module", <item:quarryplus:pump_module>, [[<tag:items:forge:ingots/iron>, <item:immersiveengineering:fluid_pipe>, <tag:items:forge:ingots/iron>], [<tag:items:forge:dusts/redstone>, <item:immersiveengineering:fluid_pipe>, <tag:items:forge:dusts/redstone>], [<tag:items:forge:ingots/iron>, <item:immersiveengineering:fluid_pump>, <tag:items:forge:ingots/iron>]]);
-
 //dimensional dungeons portal keystone
 craftingTable.remove(<item:dimdungeons:block_portal_keyhole>);
 craftingTable.addShaped("portal_keystone", <item:dimdungeons:block_portal_keyhole>, [[<item:dimdungeons:block_gilded_portal>, <item:supplementaries:lock_block>, <item:dimdungeons:block_gilded_portal>], [<item:supplementaries:lock_block>, <item:minecraft:ender_eye>, <item:supplementaries:lock_block>], [<item:dimdungeons:block_gilded_portal>, <item:supplementaries:lock_block>, <item:dimdungeons:block_gilded_portal>]]);
@@ -346,33 +322,6 @@ craftingTable.addShapeless("ftbic_shapeless_hv_cable", <item:ftbic:hv_cable>, [<
 
 craftingTable.removeByName("ftbic:shapeless/mv_cable");
 craftingTable.addShapeless("ftbic_shapeless_mv_cable", <item:ftbic:mv_cable>, [<tag:items:forge:wires/aluminum>, <item:ftbic:rubber>]);
-
-//enchanting quarry
-mods.extendedcrafting.CombinationCrafting.addRecipe("8ece23eb-e021-403f-b5cc-681d50da8416", <item:quarryplus:quarry>.withTag({Enchantments: [{lvl: 5 as short, id: "minecraft:efficiency" as string}, {lvl: 3 as short, id: "minecraft:unbreaking" as string}, {lvl: 1 as short, id: "minecraft:silk_touch" as string}]}), 100000, [
-	<item:quarryplus:quarry>,
-	<item:minecraft:enchanted_book>.withTag({
- StoredEnchantments: [
-  {
-   lvl: 1 as short,
-   id: "minecraft:silk_touch"
-  }
- ]
-}), <item:minecraft:enchanted_book>.withTag({
- StoredEnchantments: [
-  {
-   lvl: 5 as short,
-   id: "minecraft:efficiency"
-  }
- ]
-}), <item:minecraft:enchanted_book>.withTag({
- StoredEnchantments: [
-  {
-   lvl: 3 as short,
-   id: "minecraft:unbreaking"
-  }
- ]
-})
-]);
 
 //tinkers EFLN
 craftingTable.addShaped("tinkers_efln", <item:tconstruct:efln_ball>, [[<item:minecraft:blaze_powder>, <tag:items:forge:dusts/redstone>, <item:minecraft:blaze_powder>], [<item:minecraft:blaze_powder>, <item:minecraft:fire_charge>, <item:minecraft:blaze_powder>], [<tag:items:forge:dusts/redstone>, <item:minecraft:blaze_powder>, <tag:items:forge:dusts/redstone>]]);
