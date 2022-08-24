@@ -30,6 +30,7 @@ import mods.jei.JEI;
 <recipetype:immersiveengineering:crusher>.removeByRegex("immersiveengineering:crusher.raw_ore_.*");
 <recipetype:immersiveengineering:crusher>.removeByRegex("immersiveengineering:crusher.ore_.*");
 <recipetype:immersiveengineering:crusher>.removeByRegex("immersiveengineering:crusher.*_sandstone");
+<recipetype:tconstruct:casting_table>.removeByRegex("tconstruct:smeltery.casting.metal.*.gear_.*_cast");
 <recipetype:ftbic:macerating>.removeByRegex("ftbic:macerating/.*/.*_to_.*");
 <recipetype:ftbic:macerating>.removeByRegex("jaopca:ftbic.*_to_*.*");
 <recipetype:create:crushing>.removeByRegex("jaopca:create.*_to..*");
@@ -135,9 +136,6 @@ val trash as IItemStack[] = [
 	<item:schoolsofmagic:letter_ccw>,
 	<item:cgm:grenade>,
 	<item:cgm:stun_grenade>,
-	<item:quarryplus:flex_marker>,
-	<item:quarryplus:workbench>,
-	<item:quarryplus:mover>,
 	<item:upgradednetherite:gold_upgraded_netherite_ingot>,
 	<item:upgradednetherite:fire_upgraded_netherite_ingot>,
 	<item:upgradednetherite:ender_upgraded_netherite_ingot>,
@@ -234,23 +232,6 @@ for item in trash{
 
 val jei_removal as IItemStack[] = [
 	<item:malum:crushed_soulstone>,
-	<item:quarryplus:solid_fuel_quarry>,
-	<item:quarryplus:workbench>,
-	<item:quarryplus:book_mover>,
-	<item:quarryplus:pump_plus>,
-	<item:quarryplus:replacer>,
-	<item:quarryplus:exp_pump>,
-	<item:quarryplus:adv_pump>,
-	<item:quarryplus:adv_quarry>,
-	<item:quarryplus:mini_quarry>,
-	<item:quarryplus:filler>,
-	<item:quarryplus:flex_marker>,
-	<item:quarryplus:spawner_controller>,
-	<item:quarryplus:fuel_module_normal>,
-	<item:quarryplus:filler_module>,
-	<item:quarryplus:mover>,
-	<item:quarryplus:placer_plus>,
-	<item:quarryplus:exp_module>,
 	<item:immersiveengineering:mold_gear>,
 	<item:tconstruct:gear_cast>,
 	<item:tconstruct:gear_sand_cast>,
@@ -260,8 +241,6 @@ val jei_removal as IItemStack[] = [
 	<item:malum:cracked_osmium_impetus>,
 	<item:malum:osmium_impetus>,
 	<item:ftbic:copper_dust>,
-	<item:quarryplus:replacer_module>,
-	<item:quarryplus:remove_bedrock_module>,
 	<item:jaopca:create_crushed_ores.uranium>,
 	<item:ftbic:iron_dust>,
 	<item:additionaladditions:gilded_netherite_hoe>,
@@ -293,7 +272,10 @@ val jei_removal as IItemStack[] = [
 	<item:minecraft:debug_stick>,
 	<item:tconstruct:soulsteel_block>,
 	<item:tconstruct:soulsteel_ingot>,
-	<item:tconstruct:soulsteel_nugget>
+	<item:tconstruct:soulsteel_nugget>,
+	<item:create:crushed_quicksilver_ore>,
+	<item:create:crushed_osmium_ore>,
+	<item:create:crushed_platinum_ore>
 ];
 
 for item in jei_removal{
@@ -345,7 +327,6 @@ val utter_eradication as IItemStack[] = [
 	<item:ironjetpacks:cell>.withTag({Id:"ironjetpacks:creative"as string}),
 	<item:ironjetpacks:jetpack>.withTag({Id:"ironjetpacks:creative"as string,Throttle:1.0 as double}),
 	<item:ironjetpacks:thruster>.withTag({Id:"ironjetpacks:creative"as string}),
-	<item:jaopca:create_crushed_ores.aluminum>,
 	<item:jaopca:create_crushed_ores.lead>,
 	<item:jaopca:create_crushed_ores.netherite_scrap>,
 	<item:jaopca:create_crushed_ores.nickel>,
@@ -443,4 +424,7 @@ for item in utter_eradication{
 	<recipetype:create:milling>.remove(item);
 	<recipetype:create:crushing>.remove(item);
 	<recipetype:create:mixing>.remove(item);
+	for tag in <tagmanager:items>.getTagsFor(item) {
+  tag.remove(item);
+}
 }
