@@ -7,6 +7,7 @@
     "hideFromDebug": true,
     "iconMode": "CENTERED",
     "enableTextToSpeech": false,
+    "ttsMode": "PRESS",
     "maxHealthForRender": 40,
     "maxHeartsPerLine": 10,
     "fluidMode": "SOURCE_ONLY",
@@ -15,7 +16,7 @@
   },
   "overlay": {
     "overlayPosX": 0.010869565,
-    "overlayPosY": 0.9782609,
+    "overlayPosY": 0.9619565,
     "overlayScale": 1.0021739,
     "overlayAnchorX": 0.0,
     "overlayAnchorY": 0.0,

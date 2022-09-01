@@ -1,0 +1,194 @@
+
+[general]
+	#Puts all the added items into a new Every Compat tab instead of their own mod tabs. Be warned that if disabled it could cause some issue with some mods that have custom tabs
+	creative_tab = true
+	#Allows the mod to try to remap and convert other blocks and items from other compat mods that have been uninstalled from one world. This was made so one can uninstall such mods seamlessly having their blocks converted into Evety Compat counterparts
+	remap_other_mods = false
+	#Clears out and remaps all blocks registered by this mod belonging to uninstalled wood types to air or oak wood
+	remap_self = true
+	#Makes dynamic assets that are generated depend on loaded resource packs. Turn off to make them just use vanilla assets
+	assets_depend_on_loaded_packs = true
+
+[wood_type]
+
+	[wood_type.minecraft]
+		oak = true
+		spruce = true
+		birch = true
+		jungle = true
+		acacia = true
+		dark_oak = true
+		crimson = true
+		warped = true
+
+	[wood_type.nourished_end]
+		verdant = true
+		cerulean = true
+		seldge = true
+		cosmic = true
+
+	[wood_type.twigs]
+		bamboo = true
+
+	[wood_type.darkerdepths]
+		petrified = true
+
+	[wood_type.wildbackport]
+		mangrove = true
+
+	[wood_type.biomesoplenty]
+		fir = true
+		redwood = true
+		cherry = true
+		mahogany = true
+		jacaranda = true
+		palm = true
+		willow = true
+		dead = true
+		magic = true
+		umbran = true
+		hellbark = true
+
+	[wood_type.botania]
+		livingwood = true
+		dreamwood = true
+
+	[wood_type.schoolsofmagic]
+		acolyte = true
+		vermilion = true
+		wartwood = true
+		jubilee = true
+		bastion = true
+		evermore = true
+
+	[wood_type.integrateddynamics]
+		menril = true
+
+	[wood_type.myrtrees]
+		rubberwood = true
+
+	[wood_type.undergarden]
+		smogstem = true
+		wigglewood = true
+		grongle = true
+
+	[wood_type.biomemakeover]
+		blighted_balsa = true
+		willow = true
+		swamp_cypress = true
+		ancient_oak = true
+
+	[wood_type.tconstruct]
+		greenheart = true
+		skyroot = true
+		bloodshroom = true
+
+	[wood_type.quark]
+		azalea = true
+		blossom = true
+
+	[wood_type.malum]
+		runewood = true
+		soulwood = true
+
+	[wood_type.pinkexpansion]
+		pink_ivory = true
+
+	[wood_type.valhelsia_structures]
+		lapidified_jungle = true
+
+[leaves_type]
+
+	[leaves_type.minecraft]
+		oak = true
+		spruce = true
+		birch = true
+		jungle = true
+		acacia = true
+		dark_oak = true
+		azalea = true
+		flowering_azalea = true
+
+	[leaves_type.twigs]
+		bamboo = true
+
+	[leaves_type.wildbackport]
+		mangrove = true
+
+	[leaves_type.biomesoplenty]
+		fir = true
+		redwood = true
+		mahogany = true
+		jacaranda = true
+		palm = true
+		willow = true
+		dead = true
+		magic = true
+		umbran = true
+		hellbark = true
+		origin = true
+		flowering_oak = true
+		rainbow_birch = true
+		yellow_autumn = true
+		orange_autumn = true
+		maple = true
+		white_cherry = true
+		pink_cherry = true
+
+	[leaves_type.schoolsofmagic]
+		acolyte = true
+		vermilion = true
+		wartwood = true
+		jubilee = true
+		bastion = true
+		evermore = true
+
+	[leaves_type.integrateddynamics]
+		menril = true
+
+	[leaves_type.myrtrees]
+		rubberwood = true
+
+	[leaves_type.undergarden]
+		smogstem = true
+		wigglewood = true
+		grongle = true
+
+	[leaves_type.biomemakeover]
+		blighted_balsa = true
+		willow = true
+		swamp_cypress = true
+		ancient_oak = true
+
+	[leaves_type.nourished_end]
+		cosmic = true
+
+	[leaves_type.malum]
+		runewood = true
+		soulwood = true
+
+	[leaves_type.pinkexpansion]
+		pink_ivory = true
+
+	[leaves_type.ars_nouveau]
+		blue_archwood = true
+		red_archwood = true
+		green_archwood = true
+		purple_archwood = true
+
+	[leaves_type.tconstruct]
+		earth_slime = true
+		sky_slime = true
+		ender_slime = true
+
+	[leaves_type.quark]
+		blue_blossom = true
+		lavender_blossom = true
+		orange_blossom = true
+		pink_blossom = true
+		yellow_blossom = true
+		red_blossom = true
+
+	[leaves_type.culturaldelights]
+		avocado = true
+
