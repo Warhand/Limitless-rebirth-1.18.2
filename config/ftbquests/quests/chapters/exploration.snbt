@@ -1,7 +1,7 @@
 {
 	id: "31AFE73D6EAE94EA"
-	group: ""
-	order_index: 5
+	group: "6070CE001052EDA2"
+	order_index: 1
 	filename: "exploration"
 	title: "Exploration"
 	icon: "dimdungeons:block_key_charger"
@@ -21,6 +21,7 @@
 		}
 		{
 			title: "Undergarden expedition"
+			icon: "undergarden:utheric_shard"
 			x: 0.0d
 			y: -2.0d
 			subtitle: "\"Welcome to the jungle!\""
@@ -50,19 +51,18 @@
 				}
 			]
 			rewards: [{
-				id: "79AA1E076221478F"
+				id: "29BE52FFCB9F779F"
 				type: "item"
 				item: {
 					id: "treasurebags:treasure_bag"
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:common"
-							BagType: "limitlessrebirth:common_bag"
+							BagType: "limitlessrebirth:uncommon_bag"
+							LootTable: "limitlessrebirth:uncommon"
 						}
 					}
 				}
-				count: 2
 			}]
 		}
 	]

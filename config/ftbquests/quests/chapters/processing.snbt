@@ -1,18 +1,18 @@
 {
 	id: "3C5210D343223A29"
 	group: ""
-	order_index: 1
+	order_index: 0
 	filename: "processing"
 	title: "Processing"
-	icon: "minecraft:grindstone"
+	icon: "create:millstone"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			title: "Basic ore processing"
 			icon: "integrateddynamics:squeezer"
-			x: 0.0d
-			y: 0.0d
+			x: 1.5d
+			y: 1.5d
 			subtitle: "\"You'll be ore in the mornin!\""
 			description: [
 				"When it comes to ore processing, the Integrated dynamics squeezer is probably the easiest place to start.        "
@@ -44,8 +44,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:uncommon"
 							BagType: "limitlessrebirth:uncommon_bag"
+							LootTable: "limitlessrebirth:uncommon"
 						}
 					}
 				}
@@ -53,8 +53,8 @@
 		}
 		{
 			title: "Mineral deposits: Surveying"
-			x: -3.0d
-			y: -2.0d
+			x: -1.0d
+			y: -1.0d
 			shape: "circle"
 			subtitle: "\"Looking for who asked\""
 			description: [
@@ -82,8 +82,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:common"
 							BagType: "limitlessrebirth:common_bag"
+							LootTable: "limitlessrebirth:common"
 						}
 					}
 				}
@@ -93,8 +93,8 @@
 		{
 			title: "Mineral deposits: Core samples"
 			icon: "immersiveengineering:sample_drill"
-			x: -3.0d
-			y: -4.0d
+			x: -2.0d
+			y: -2.0d
 			shape: "hexagon"
 			subtitle: "\"Rotten to the core!\""
 			description: [
@@ -112,8 +112,6 @@
 						id: "immersiveengineering:coresample"
 						Count: 1b
 						tag: {
-							x: -127
-							z: -225
 							dimension: "minecraft:overworld"
 							mineralInfo: [
 								{
@@ -130,6 +128,8 @@
 								}
 							]
 							timestamp: 10928507L
+							z: -225
+							x: -127
 						}
 					}
 				}
@@ -147,8 +147,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:uncommon"
 							BagType: "limitlessrebirth:uncommon_bag"
+							LootTable: "limitlessrebirth:uncommon"
 						}
 					}
 				}
@@ -156,82 +156,9 @@
 			}]
 		}
 		{
-			title: "Mining well"
-			x: 3.0d
-			y: -2.0d
-			subtitle: "\"Are you mining good or Mining well?\""
-			description: [
-				"The mining well is a simple machine that can be used to dig a hole straight down until it reaches deepslate."
-				"Any blocks it mines will be spat out the top, or deposited into an adjacent inventory!"
-			]
-			dependencies: ["30ECBC395B4828E5"]
-			id: "0EC3310CF8066C34"
-			tasks: [{
-				id: "6E47A1965AF04F14"
-				type: "item"
-				item: "quarryplus:mining_well"
-			}]
-			rewards: [{
-				id: "6D2A4A1AB844246A"
-				type: "item"
-				item: {
-					id: "treasurebags:treasure_bag"
-					Count: 1b
-					tag: {
-						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:common"
-							BagType: "limitlessrebirth:common_bag"
-						}
-					}
-				}
-				count: 3
-			}]
-		}
-		{
-			icon: "quarryplus:quarry"
-			x: 3.0d
-			y: -4.0d
-			shape: "hexagon"
-			subtitle: "\"Like New game+ but for mining\""
-			description: [
-				"The Quarry is a major upgrade to the mining well, in that it can mine through deepslate, and also will mine an entire area of the world instead of a single column!"
-				"Being more complex, it will consume more energy, but it will also provide much more resources."
-				"It will have a default mining radius, but you can use markers to determine the exact space you want your quarry to mine, as long as the space is some form of rectangle!"
-			]
-			dependencies: ["0EC3310CF8066C34"]
-			id: "1803F57940C60627"
-			tasks: [
-				{
-					id: "4706B0AEF9EE6CE3"
-					type: "item"
-					item: "quarryplus:quarry"
-				}
-				{
-					id: "0A4E06C7F05D94F0"
-					type: "item"
-					item: "quarryplus:marker"
-					count: 3L
-				}
-			]
-			rewards: [{
-				id: "6C1BC8D519E42E5A"
-				type: "item"
-				item: {
-					id: "treasurebags:treasure_bag"
-					Count: 1b
-					tag: {
-						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:uncommon"
-							BagType: "limitlessrebirth:uncommon_bag"
-						}
-					}
-				}
-			}]
-		}
-		{
 			title: "Orechid"
-			x: -1.0d
-			y: -4.0d
+			x: -2.5d
+			y: 0.0d
 			shape: "hexagon"
 			subtitle: "\"Yes, every botania flower is a pun, its either that or an anime reference\""
 			description: [
@@ -255,8 +182,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:uncommon"
 							BagType: "limitlessrebirth:uncommon_bag"
+							LootTable: "limitlessrebirth:uncommon"
 						}
 					}
 				}
@@ -265,8 +192,8 @@
 		{
 			title: "Industrial Quarry"
 			icon: "ftbic:quarry"
-			x: 1.0d
-			y: -4.0d
+			x: 0.0d
+			y: -2.5d
 			shape: "hexagon"
 			subtitle: "\"Quarry, Quarry, Quarry, love is passing me by!\""
 			description: [
@@ -296,8 +223,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:uncommon"
 							BagType: "limitlessrebirth:uncommon_bag"
+							LootTable: "limitlessrebirth:uncommon"
 						}
 					}
 				}
@@ -306,7 +233,8 @@
 		{
 			title: "Manual mining"
 			x: 0.0d
-			y: -2.0d
+			y: 0.0d
+			shape: "pentagon"
 			subtitle: "\"Ain't much but its honest work\""
 			description: [
 				"Mining is the first available way to collect resources for future projects."
@@ -333,8 +261,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:common"
 							BagType: "limitlessrebirth:common_bag"
+							LootTable: "limitlessrebirth:common"
 						}
 					}
 				}

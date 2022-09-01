@@ -1,0 +1,11 @@
+{
+	id: "6B67092822912BA0"
+	group: "34BB85C0E80BC4C8"
+	order_index: 2
+	filename: "construction"
+	title: "Construction"
+	icon: "minecraft:scaffolding"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

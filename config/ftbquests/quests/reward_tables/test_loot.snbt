@@ -10,12 +10,12 @@
 		{ item: "minecraft:diamond_block", count: 16 }
 	]
 	loot_crate: {
-		drops: {
-			boss: 0
-			passive: 300
-			monster: 10
-		}
 		color: 16777215
 		string_id: "test_loot"
+		drops: {
+			passive: 300
+			boss: 0
+			monster: 10
+		}
 	}
 }

@@ -1,6 +1,6 @@
 {
 	id: "48FF52D6A51E62F5"
-	group: ""
+	group: "34BB85C0E80BC4C8"
 	order_index: 0
 	filename: "starting_out"
 	title: "Starting out"
@@ -35,8 +35,8 @@
 						Count: 1b
 						tag: {
 							silentlib.LootContainer: {
-								LootTable: "limitlessrebirth:common"
 								BagType: "limitlessrebirth:common_bag"
+								LootTable: "limitlessrebirth:common"
 							}
 						}
 					}
@@ -78,8 +78,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:common"
 							BagType: "limitlessrebirth:common_bag"
+							LootTable: "limitlessrebirth:common"
 						}
 					}
 				}
@@ -106,8 +106,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:common"
 							BagType: "limitlessrebirth:common_bag"
+							LootTable: "limitlessrebirth:common"
 						}
 					}
 				}
@@ -139,35 +139,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:common"
 							BagType: "limitlessrebirth:common_bag"
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: -2.0d
-			y: -2.0d
-			shape: "rsquare"
-			subtitle: "\"More convenient than a golden bag, huh?\""
-			optional: true
-			id: "46800172EB64048D"
-			tasks: [{
-				id: "33FD8BE502EA5909"
-				type: "item"
-				item: "sophisticatedbackpacks:backpack"
-			}]
-			rewards: [{
-				id: "7B3C0F8014CD5856"
-				type: "item"
-				item: {
-					id: "treasurebags:treasure_bag"
-					Count: 1b
-					tag: {
-						silentlib.LootContainer: {
 							LootTable: "limitlessrebirth:common"
-							BagType: "limitlessrebirth:common_bag"
 						}
 					}
 				}
@@ -198,8 +171,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:common"
 							BagType: "limitlessrebirth:common_bag"
+							LootTable: "limitlessrebirth:common"
 						}
 					}
 				}
@@ -227,8 +200,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:common"
 							BagType: "limitlessrebirth:common_bag"
+							LootTable: "limitlessrebirth:common"
 						}
 					}
 				}

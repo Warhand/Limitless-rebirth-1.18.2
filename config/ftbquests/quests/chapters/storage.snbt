@@ -1,0 +1,48 @@
+{
+	id: "08EBE972FC041F96"
+	group: "34BB85C0E80BC4C8"
+	order_index: 1
+	filename: "storage"
+	title: "storage"
+	icon: "ironchest:iron_chest"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "In-world storage"
+			x: 0.0d
+			y: 0.0d
+			shape: "pentagon"
+			id: "18328DCA8D342C8E"
+			tasks: [{
+				id: "7460F89C2D39975D"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+		}
+		{
+			title: "Metal chests"
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["18328DCA8D342C8E"]
+			id: "18D00805B17462B3"
+			tasks: [{
+				id: "53AA65BAF3599229"
+				type: "item"
+				item: "ironchest:iron_chest"
+			}]
+		}
+		{
+			title: "Chest upgrades"
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["18D00805B17462B3"]
+			id: "787F72AA9B3164D9"
+			tasks: [{
+				id: "03C81C31CD8BCD6B"
+				type: "item"
+				item: "ironchest:iron_to_gold_chest_upgrade"
+			}]
+		}
+	]
+}

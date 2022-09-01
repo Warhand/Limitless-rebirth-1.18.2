@@ -4,7 +4,7 @@
 	order_index: 3
 	filename: "create"
 	title: "Create"
-	icon: "create:cogwheel"
+	icon: "create:wrench"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -27,8 +27,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:common"
 							BagType: "limitlessrebirth:common_bag"
+							LootTable: "limitlessrebirth:common"
 						}
 					}
 				}
@@ -97,8 +97,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:common"
 							BagType: "limitlessrebirth:common_bag"
+							LootTable: "limitlessrebirth:common"
 						}
 					}
 				}
@@ -122,8 +122,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:common"
 							BagType: "limitlessrebirth:common_bag"
+							LootTable: "limitlessrebirth:common"
 						}
 					}
 				}
@@ -147,8 +147,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:common"
 							BagType: "limitlessrebirth:common_bag"
+							LootTable: "limitlessrebirth:common"
 						}
 					}
 				}
@@ -173,8 +173,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:uncommon"
 							BagType: "limitlessrebirth:uncommon_bag"
+							LootTable: "limitlessrebirth:uncommon"
 						}
 					}
 				}
@@ -198,8 +198,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:uncommon"
 							BagType: "limitlessrebirth:uncommon_bag"
+							LootTable: "limitlessrebirth:uncommon"
 						}
 					}
 				}
@@ -223,8 +223,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:uncommon"
 							BagType: "limitlessrebirth:uncommon_bag"
+							LootTable: "limitlessrebirth:uncommon"
 						}
 					}
 				}
@@ -248,8 +248,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:uncommon"
 							BagType: "limitlessrebirth:uncommon_bag"
+							LootTable: "limitlessrebirth:uncommon"
 						}
 					}
 				}
@@ -290,8 +290,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:epic"
 							BagType: "limitlessrebirth:limitless_bag"
+							LootTable: "limitlessrebirth:epic"
 						}
 					}
 				}
@@ -331,8 +331,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:epic"
 							BagType: "limitlessrebirth:limitless_bag"
+							LootTable: "limitlessrebirth:epic"
 						}
 					}
 				}
@@ -355,8 +355,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:common"
 							BagType: "limitlessrebirth:common_bag"
+							LootTable: "limitlessrebirth:common"
 						}
 					}
 				}
@@ -379,8 +379,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:common"
 							BagType: "limitlessrebirth:common_bag"
+							LootTable: "limitlessrebirth:common"
 						}
 					}
 				}
@@ -403,8 +403,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:common"
 							BagType: "limitlessrebirth:common_bag"
+							LootTable: "limitlessrebirth:common"
 						}
 					}
 				}
@@ -427,8 +427,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:common"
 							BagType: "limitlessrebirth:common_bag"
+							LootTable: "limitlessrebirth:common"
 						}
 					}
 				}
@@ -451,8 +451,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:common"
 							BagType: "limitlessrebirth:common_bag"
+							LootTable: "limitlessrebirth:common"
 						}
 					}
 				}
@@ -475,8 +475,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:common"
 							BagType: "limitlessrebirth:common_bag"
+							LootTable: "limitlessrebirth:common"
 						}
 					}
 				}
@@ -499,8 +499,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:common"
 							BagType: "limitlessrebirth:common_bag"
+							LootTable: "limitlessrebirth:common"
 						}
 					}
 				}
@@ -523,8 +523,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:common"
 							BagType: "limitlessrebirth:common_bag"
+							LootTable: "limitlessrebirth:common"
 						}
 					}
 				}
