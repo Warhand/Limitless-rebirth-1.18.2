@@ -1,0 +1,34 @@
+{
+  "oreConfig": [
+    {
+      "ore": "darkerdepths:silver_block",
+      "fillers": [],
+      "distribution": "UNIFORM",
+      "minY": -1,
+      "maxY": -1,
+      "maxVeinSize": -1,
+      "spawnRate": 0.0,
+      "discardChanceOnAirExposure": 1.0,
+      "biomeFilters": {
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      "replace": true
+    },
+    {
+      "ore": "darkerdepths:silver_block",
+      "fillers": [],
+      "distribution": "TRIANGLE",
+      "minY": -1,
+      "maxY": -1,
+      "maxVeinSize": -1,
+      "spawnRate": 0.0,
+      "discardChanceOnAirExposure": 1.0,
+      "biomeFilters": {
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      "replace": true
+    }
+  ]
+}
