@@ -204,18 +204,6 @@ craftingTable.addShapedMirrored("minecraft_andesite", MirrorAxis.HORIZONTAL, <it
 //craftingTable.remove(<item:indreb:advanced_machine_casing>);
 //craftingTable.addShaped("indreb_block_advanced_machine_casing", <item:indreb:advanced_machine_casing>, [[<tag:items:forge:plates/steel>, <item:indreb:carbon_plate>, <tag:items:forge:plates/steel>], [<item:indreb:advanced_alloy>, <item:indreb:basic_machine_casing>, <item:indreb:advanced_alloy>], [<tag:items:forge:plates/steel>, <item:indreb:carbon_plate>, <tag:items:forge:plates/steel>]]);
 
-//Reach upgrade level 1 recipe
-craftingTable.remove(<item:effortlessbuilding:reach_upgrade1>);
-craftingTable.addShaped("effortlessbuilding_reach_upgrade1", <item:effortlessbuilding:reach_upgrade1>, [[IIngredientEmpty.getInstance(), <item:tconstruct:earth_slime_crystal>, IIngredientEmpty.getInstance()], [<item:tconstruct:earth_slime_crystal>, <item:minecraft:slime_ball>, <item:tconstruct:earth_slime_crystal>], [IIngredientEmpty.getInstance(), <item:tconstruct:earth_slime_crystal>, IIngredientEmpty.getInstance()]]);
-
-//reach upgrade level 2 recipe
-craftingTable.remove(<item:effortlessbuilding:reach_upgrade2>);
-craftingTable.addShaped("effortlessbuilding_reach_upgrade2", <item:effortlessbuilding:reach_upgrade2>, [[IIngredientEmpty.getInstance(), <item:tconstruct:ichor_slime_crystal>, IIngredientEmpty.getInstance()], [<item:tconstruct:ichor_slime_crystal>, <item:tconstruct:ichor_slime_ball>, <item:tconstruct:ichor_slime_crystal>], [IIngredientEmpty.getInstance(), <item:tconstruct:ichor_slime_crystal>, IIngredientEmpty.getInstance()]]);
-
-//reach upgrade level 2 recipe
-craftingTable.remove(<item:effortlessbuilding:reach_upgrade3>);
-craftingTable.addShaped("effortlessbuilding_reach_upgrade3", <item:effortlessbuilding:reach_upgrade3>, [[IIngredientEmpty.getInstance(), <item:tconstruct:ender_slime_crystal>, IIngredientEmpty.getInstance()], [<item:tconstruct:ender_slime_crystal>, <item:tconstruct:ender_slime_ball>, <item:tconstruct:ender_slime_crystal>], [IIngredientEmpty.getInstance(), <item:tconstruct:ender_slime_crystal>, IIngredientEmpty.getInstance()]]);
-
 //raw block blasting
 
 <tag:items:forge:storage_blocks/raw_cloggrum>.add(<item:undergarden:raw_cloggrum_block>);
