@@ -275,7 +275,13 @@ val jei_removal as IItemStack[] = [
 	<item:tconstruct:soulsteel_nugget>,
 	<item:create:crushed_quicksilver_ore>,
 	<item:create:crushed_osmium_ore>,
-	<item:create:crushed_platinum_ore>
+	<item:create:crushed_platinum_ore>,
+	<item:jaopca:raw_storage_blocks.osmium>,
+	<item:jaopca:storage_blocks.osmium>,
+	<item:jaopca:bloodmagic_gravels.osmium>,
+	<item:jaopca:bloodmagic_fragments.osmium>,
+	<item:jaopca:create_crushed_ores.osmium>,
+	<item:jaopca:dusts.osmium>
 ];
 
 for item in jei_removal{
@@ -407,7 +413,8 @@ val utter_eradication as IItemStack[] = [
 	<item:delightful:large_amethyst_knife>,
 	<item:delightful:refined_glowstone_knife>,
 	<item:delightful:refined_obsidian_knife>,
-	<item:additionaladditions:honeyed_apple>
+	<item:additionaladditions:honeyed_apple>,
+	<item:darkerdepths:raw_silver>
 ];
 
 for item in utter_eradication{
