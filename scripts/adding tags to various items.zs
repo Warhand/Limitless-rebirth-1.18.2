@@ -90,36 +90,6 @@ val fishing_rods as IItemStack[] = [
 
 //adding path blocks to a special tag so that way they'll increase the players speed when they walk on them.
 
-val path_blocks as IItemStack[] = [
-	<item:infernalexp:crimson_nylium_path>,
-	<item:infernalexp:warped_nylium_path>,
-	<item:infernalexp:soul_soil_path>,
-	<item:ugpaths:frozen_deepturf_path>,
-	<item:ugpaths:deepsoil_path>,
-	<item:ugpaths:ashen_deepturf_path>,
-	<item:minecraft:dirt_path>,
-	<item:minecraft:blue_concrete>,
-	<item:minecraft:purple_concrete>,
-	<item:minecraft:light_gray_concrete>,
-	<item:minecraft:lime_concrete>,
-	<item:minecraft:yellow_concrete>,
-	<item:minecraft:magenta_concrete>,
-	<item:minecraft:white_concrete>,
-	<item:minecraft:cyan_concrete>,
-	<item:immersiveengineering:concrete_leaded>,
-	<item:minecraft:orange_concrete>,
-	<item:minecraft:light_blue_concrete>,
-	<item:minecraft:pink_concrete>,
-	<item:minecraft:gray_concrete>,
-	<item:minecraft:brown_concrete>,
-	<item:minecraft:green_concrete>,
-	<item:minecraft:red_concrete>,
-	<item:immersiveengineering:concrete>,
-	<item:immersiveengineering:concrete_tile>,
-	<item:minecraft:black_concrete>
-];
-<tag:items:limitlessrebirth:paths>.add(path_blocks);
-
 //adding soul soil path to soul speed blocks
 
 <tag:blocks:minecraft:soul_speed_blocks>.add(<block:infernalexp:soul_soil_path>);
