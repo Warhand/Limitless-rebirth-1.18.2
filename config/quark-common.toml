@@ -578,8 +578,8 @@
 				"Is Blacklist" = true
 
 			[world.spiral_spires.biomes.biomes]
-				Biomes = ["minecraft:end_highlands"]
-				"Is Blacklist" = false
+				Biomes = ["minecraft:the_end"]
+				"Is Blacklist" = true
 
 	[world.permafrost]
 
@@ -1146,8 +1146,8 @@
 					"Is Blacklist" = true
 
 				[world.big_stone_clusters.myalite.biomes.biomes]
-					Biomes = ["minecraft:end_highlands"]
-					"Is Blacklist" = false
+					Biomes = ["minecraft:the_end"]
+					"Is Blacklist" = true
 
 	[world.big_dungeon]
 		#The chance that a big dungeon spawn candidate will be allowed to spawn. 0.2 is 20%, which is the same as the Pillager Outpost.
