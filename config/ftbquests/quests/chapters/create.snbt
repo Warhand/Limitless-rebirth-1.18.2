@@ -1,7 +1,7 @@
 {
 	id: "1E0CDDE218AB6695"
-	group: ""
-	order_index: 3
+	group: "25CEE4F4E9FCF868"
+	order_index: 0
 	filename: "create"
 	title: "Create"
 	icon: "create:wrench"
@@ -9,53 +9,67 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -2.0d
+			title: "Introduction to Create"
+			icon: "create:cogwheel"
+			x: 0.0d
 			y: 0.0d
 			shape: "pentagon"
-			id: "54B5BF2FC2E52A17"
-			tasks: [{
-				id: "53DFF0A543E9BD18"
-				type: "item"
-				item: "create:andesite_alloy"
-				count: 32L
-			}]
-			rewards: [{
-				id: "3FDFEE1498DD4D16"
-				type: "item"
-				item: {
-					id: "treasurebags:treasure_bag"
-					Count: 1b
-					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
-					}
+			id: "4322B1494BB74643"
+			tasks: [
+				{
+					id: "0CC2C9EE3D6C9D50"
+					type: "item"
+					item: "create:andesite_alloy"
+					count: 2L
 				}
-			}]
+				{
+					id: "4A3CC0D32E6F06B8"
+					type: "item"
+					item: "create:shaft"
+					count: 8L
+				}
+				{
+					id: "61D8C33A9D34235E"
+					type: "item"
+					item: "create:cogwheel"
+				}
+			]
 		}
 		{
-			title: "Revealing goggles"
-			x: 2.0d
-			y: -2.0d
-			shape: "rsquare"
-			subtitle: "\"Its just a shame these can't be combined with helmets\""
-			optional: true
-			id: "533014E80E824A7A"
-			tasks: [{
-				id: "41C99F1D6F3D9EB6"
-				type: "item"
-				item: "create:goggles"
-			}]
+			title: "gearing up"
+			icon: "create:goggles"
+			x: -1.5d
+			y: 0.0d
+			description: [
+				"A mechanic specializing in kinetic contraptions has a few tools of the trade that allow them to work to the fullest extent of their abilities!"
+				"The Engineers goggles allow the wearer to see clearly enough to tell how much SU a machine is producing or consuming from a contraption, as well as other important details. They can be worn in the helmet slot, or in the head slot as a curio."
+				"The Create wrench can be used to turn components in different directions by right clicking, or you can hold shift before right clicking in order to instantly break a component, allowing you to quickly dismantle your contraptions."
+			]
+			dependencies: ["4322B1494BB74643"]
+			id: "332E33172CFC6F75"
+			tasks: [
+				{
+					id: "0876DD61A4399BC7"
+					type: "item"
+					item: "create:goggles"
+				}
+				{
+					id: "281960FFE8CB6B55"
+					type: "item"
+					item: "create:wrench"
+				}
+			]
 		}
 		{
-			x: 4.0d
-			y: -2.0d
+			icon: "create:brown_toolbox"
+			x: 1.5d
+			y: 0.0d
 			shape: "rsquare"
+			dependencies: ["4322B1494BB74643"]
 			optional: true
-			id: "6473B535FD74CE74"
+			id: "40DE23E500699D23"
 			tasks: [{
-				id: "5B3F3FFFFB68617E"
+				id: "65BCA220207135E6"
 				type: "item"
 				title: "Any #create:toolboxes"
 				item: {
@@ -68,467 +82,75 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 0.0d
-			shape: "rsquare"
-			optional: true
-			id: "6CF437F8B13B075A"
-			tasks: [{
-				id: "587FEA8A6F50CB4B"
-				type: "item"
-				item: "create:wrench"
-			}]
-		}
-		{
-			x: -2.0d
-			y: -2.0d
-			dependencies: ["54B5BF2FC2E52A17"]
-			id: "20AB03F9913B2F59"
-			tasks: [{
-				id: "39789603CE5F1C3F"
-				type: "item"
-				item: "create:andesite_casing"
-			}]
-			rewards: [{
-				id: "5E0003FCB745AFEE"
-				type: "item"
-				item: {
-					id: "treasurebags:treasure_bag"
-					Count: 1b
-					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: -4.0d
-			y: -2.0d
-			dependencies: ["20AB03F9913B2F59"]
-			id: "4B27C9BD7515CC0A"
-			tasks: [{
-				id: "5117178B4AA11AA5"
-				type: "item"
-				item: "create:copper_casing"
-			}]
-			rewards: [{
-				id: "05CDC4DD8BE760B7"
-				type: "item"
-				item: {
-					id: "treasurebags:treasure_bag"
-					Count: 1b
-					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: -2.0d
-			y: -4.0d
-			dependencies: ["20AB03F9913B2F59"]
-			id: "08FCDF46E01C58E4"
-			tasks: [{
-				id: "1757259E4262D56F"
-				type: "item"
-				item: "create:mechanical_mixer"
-			}]
-			rewards: [{
-				id: "31D6F78562DB3335"
-				type: "item"
-				item: {
-					id: "treasurebags:treasure_bag"
-					Count: 1b
-					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: -2.0d
-			y: -6.0d
-			shape: "hexagon"
-			dependencies: ["08FCDF46E01C58E4"]
-			id: "2DA13268629253D4"
-			tasks: [{
-				id: "1C002738A55D7489"
-				type: "item"
-				item: "create:blaze_burner"
-			}]
-			rewards: [{
-				id: "5C4555357E78DE20"
-				type: "item"
-				item: {
-					id: "treasurebags:treasure_bag"
-					Count: 1b
-					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:uncommon_bag"
-							LootTable: "limitlessrebirth:uncommon"
-						}
-					}
-				}
-			}]
-		}
-		{
+			title: "Pondering"
+			icon: "create:experience_nugget"
 			x: 0.0d
-			y: -6.0d
-			dependencies: ["2DA13268629253D4"]
-			id: "1AF72FD4FD59777A"
-			tasks: [{
-				id: "0F307A153C9A834D"
-				type: "item"
-				item: "create:brass_ingot"
-			}]
-			rewards: [{
-				id: "78FDDA74747C0961"
-				type: "item"
-				item: {
-					id: "treasurebags:treasure_bag"
-					Count: 1b
-					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:uncommon_bag"
-							LootTable: "limitlessrebirth:uncommon"
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: -4.0d
-			y: -6.0d
-			dependencies: ["2DA13268629253D4"]
-			id: "4EAE79DB5F1DCF72"
-			tasks: [{
-				id: "4F19F098B64655D7"
-				type: "item"
-				item: "alloyed:bronze_ingot"
-			}]
-			rewards: [{
-				id: "7BDA91A62EFC5B64"
-				type: "item"
-				item: {
-					id: "treasurebags:treasure_bag"
-					Count: 1b
-					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:uncommon_bag"
-							LootTable: "limitlessrebirth:uncommon"
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: -2.0d
-			y: -8.0d
-			dependencies: ["2DA13268629253D4"]
-			id: "5F069BB770F4A258"
-			tasks: [{
-				id: "017D5605D988CDB1"
-				type: "item"
-				item: "alloyed:steel_ingot"
-			}]
-			rewards: [{
-				id: "2E00788EEA2C4C04"
-				type: "item"
-				item: {
-					id: "treasurebags:treasure_bag"
-					Count: 1b
-					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:uncommon_bag"
-							LootTable: "limitlessrebirth:uncommon"
-						}
-					}
-				}
-			}]
-		}
-		{
-			title: "Infinite rotational power!"
-			x: 4.0d
-			y: -4.0d
-			shape: "gear"
-			hide_dependency_lines: true
-			dependencies: [
-				"6473B535FD74CE74"
-				"6CF437F8B13B075A"
-				"533014E80E824A7A"
-				"54B5BF2FC2E52A17"
-				"20AB03F9913B2F59"
-				"4B27C9BD7515CC0A"
-				"08FCDF46E01C58E4"
-				"2DA13268629253D4"
-				"4EAE79DB5F1DCF72"
-				"5F069BB770F4A258"
-				"1AF72FD4FD59777A"
+			y: 1.5d
+			shape: "rsquare"
+			description: [
+				"Pondering is a mechanic unique to create, where you can hover over certain items and hold W to be shown a short ingame render explaining how to use them."
+				"Pondering is often the best way to get a full grasp of how a certain block or item can be used, and you can also search the pondering menu for other entries!"
+				"For more details than are provided in this questline, the pondering mechanic is always there for you."
 			]
-			hide: true
+			dependencies: ["4322B1494BB74643"]
 			optional: true
-			id: "77237356B02641A7"
+			id: "3AE0C85A95D984F4"
 			tasks: [{
-				id: "17A11CA4F4FEB077"
-				type: "item"
-				item: "create:creative_motor"
-			}]
-			rewards: [{
-				id: "4C48BC3A7CCB9A6A"
-				type: "item"
-				item: {
-					id: "treasurebags:treasure_bag"
-					Count: 1b
-					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:limitless_bag"
-							LootTable: "limitlessrebirth:epic"
-						}
-					}
-				}
+				id: "4AD90674EB50DC8E"
+				type: "checkmark"
 			}]
 		}
 		{
-			x: 2.0d
-			y: -4.0d
-			shape: "gear"
-			hide_dependency_lines: true
-			dependencies: [
-				"54B5BF2FC2E52A17"
-				"533014E80E824A7A"
-				"6473B535FD74CE74"
-				"6CF437F8B13B075A"
-				"20AB03F9913B2F59"
-				"4B27C9BD7515CC0A"
-				"08FCDF46E01C58E4"
-				"2DA13268629253D4"
-				"1AF72FD4FD59777A"
-				"4EAE79DB5F1DCF72"
-				"5F069BB770F4A258"
+			title: "Rotational power I"
+			icon: "create:hand_crank"
+			x: 0.0d
+			y: -1.5d
+			description: [
+				"Rotational force is the primary way you get your kinetic devices to function, and as such its important to know how it works."
+				"Rotational force is generated when things rotate, and there are a number of ways this can happen, from waterwheels, to steam engines, and the most simple of them, a hand crank."
+				"Starting with the hand crank, you can generate rotational force by holding down right click, and you can also reverse the direction by holding down shift."
+				"To make use of this rotational force, place down a millstone, attach a cog to it, and place a hand crank on the shaft of the cog. Once you have this set up, you'll have a fully functional millstone! Which can be used to grind wheat into wheat flour."
 			]
-			hide: true
-			optional: true
-			id: "6772F65969E71C01"
-			tasks: [{
-				id: "306C8909183D57B7"
-				type: "item"
-				item: "create:creative_blaze_cake"
-			}]
-			rewards: [{
-				id: "0BA8D0F3F7EA22BD"
-				type: "item"
-				item: {
-					id: "treasurebags:treasure_bag"
-					Count: 1b
-					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:limitless_bag"
-							LootTable: "limitlessrebirth:epic"
-						}
-					}
+			dependencies: ["4322B1494BB74643"]
+			id: "047CDFF1CE5307A1"
+			tasks: [
+				{
+					id: "101ED43BBE146FAD"
+					type: "item"
+					item: "create:millstone"
 				}
-			}]
+				{
+					id: "77D35DEBB18E179F"
+					type: "item"
+					item: "create:hand_crank"
+				}
+				{
+					id: "71AA9F40B1A11E8D"
+					type: "item"
+					item: "create:wheat_flour"
+					count: 8L
+				}
+			]
 		}
 		{
-			x: -6.0d
-			y: -2.0d
-			id: "379E96A308808D88"
-			tasks: [{
-				id: "578D6F7EE83D2498"
-				type: "item"
-				item: "create:mechanical_drill"
-			}]
-			rewards: [{
-				id: "041E0C0200DE0F8C"
-				type: "item"
-				item: {
-					id: "treasurebags:treasure_bag"
-					Count: 1b
-					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
-					}
+			title: "Rotational power II"
+			icon: "create:water_wheel"
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["047CDFF1CE5307A1"]
+			id: "33595B183142ED5F"
+			tasks: [
+				{
+					id: "520828591A59D199"
+					type: "item"
+					item: "create:water_wheel"
 				}
-			}]
-		}
-		{
-			x: -6.0d
-			y: -4.0d
-			id: "6A85E06DAB13A311"
-			tasks: [{
-				id: "3358ADC94E5FB742"
-				type: "item"
-				item: "create:mechanical_saw"
-			}]
-			rewards: [{
-				id: "0D192D582B183897"
-				type: "item"
-				item: {
-					id: "treasurebags:treasure_bag"
-					Count: 1b
-					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
-					}
+				{
+					id: "1A4557441AE5BE67"
+					type: "item"
+					item: "create:large_cogwheel"
 				}
-			}]
-		}
-		{
-			x: -8.0d
-			y: -4.0d
-			id: "6784D7ABE1D9C130"
-			tasks: [{
-				id: "2958ECAAE08C5CE1"
-				type: "item"
-				item: "create:portable_storage_interface"
-			}]
-			rewards: [{
-				id: "5A9B5BE8CEF04CB8"
-				type: "item"
-				item: {
-					id: "treasurebags:treasure_bag"
-					Count: 1b
-					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: -6.0d
-			y: -8.0d
-			id: "08751EBBA3B6C07C"
-			tasks: [{
-				id: "54D7A4A2DC65A667"
-				type: "item"
-				item: "create:portable_fluid_interface"
-			}]
-			rewards: [{
-				id: "30BA2E2EED409862"
-				type: "item"
-				item: {
-					id: "treasurebags:treasure_bag"
-					Count: 1b
-					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: -8.0d
-			y: -8.0d
-			id: "54680914D65EF445"
-			tasks: [{
-				id: "6915EDD63C89F4CE"
-				type: "item"
-				item: "create:item_drain"
-			}]
-			rewards: [{
-				id: "09EE0EBEF352D705"
-				type: "item"
-				item: {
-					id: "treasurebags:treasure_bag"
-					Count: 1b
-					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: -8.0d
-			y: -6.0d
-			id: "3DA23F82310CA951"
-			tasks: [{
-				id: "44425FDB28BAE1A5"
-				type: "item"
-				item: "create:hose_pulley"
-			}]
-			rewards: [{
-				id: "39C8B2A63FEE7800"
-				type: "item"
-				item: {
-					id: "treasurebags:treasure_bag"
-					Count: 1b
-					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: -6.0d
-			y: -6.0d
-			id: "5D6EAD5571C31064"
-			tasks: [{
-				id: "1FAAAACCE13D346D"
-				type: "item"
-				item: "create:fluid_tank"
-			}]
-			rewards: [{
-				id: "3F5F45583C5D9E97"
-				type: "item"
-				item: {
-					id: "treasurebags:treasure_bag"
-					Count: 1b
-					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: -10.0d
-			y: -6.0d
-			id: "5D79856C1FD9C592"
-			tasks: [{
-				id: "6A02DA9992BCB2AD"
-				type: "item"
-				item: "create:fluid_pipe"
-			}]
-			rewards: [{
-				id: "59C9E3AB7D941B58"
-				type: "item"
-				item: {
-					id: "treasurebags:treasure_bag"
-					Count: 1b
-					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
-					}
-				}
-			}]
+			]
 		}
 	]
 }

@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "In-world storage"
+			title: "Basic chests"
 			x: 0.0d
 			y: 0.0d
 			shape: "pentagon"
@@ -42,6 +42,18 @@
 				id: "03C81C31CD8BCD6B"
 				type: "item"
 				item: "ironchest:iron_to_gold_chest_upgrade"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			shape: "rsquare"
+			optional: true
+			id: "0AC7A0EDC8B3C230"
+			tasks: [{
+				id: "443C924ACEC51DEE"
+				type: "item"
+				item: "minecraft:bundle"
 			}]
 		}
 	]

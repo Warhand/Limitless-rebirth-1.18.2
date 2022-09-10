@@ -7,5 +7,15 @@
 	icon: "minecraft:scaffolding"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "32BA21F9BD982E78"
+		tasks: [{
+			id: "4A594DCD3F9CE83F"
+			type: "item"
+			item: "minecraft:scaffolding"
+			count: 8L
+		}]
+	}]
 }

@@ -9,21 +9,11 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "More quests to come in the next update!"
-			x: 0.0d
-			y: 0.0d
-			id: "7D1E2DF2F28392CC"
-			tasks: [{
-				id: "1B8464713D5A73BE"
-				type: "item"
-				item: "minecraft:cobblestone"
-			}]
-		}
-		{
-			title: "Undergarden expedition"
+			title: "The Undergarden"
 			icon: "undergarden:utheric_shard"
 			x: 0.0d
-			y: -2.0d
+			y: -1.5d
+			shape: "pentagon"
 			subtitle: "\"Welcome to the jungle!\""
 			description: [
 				"The undergarden is a location similar to the nether, however instead of fire and brimstone, it is full of overgrown plants, toxic streams, and accursed beings of pure rot."
@@ -58,11 +48,139 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:uncommon_bag"
 							LootTable: "limitlessrebirth:uncommon"
+							BagType: "limitlessrebirth:uncommon_bag"
 						}
 					}
 				}
+			}]
+		}
+		{
+			title: "The Nether"
+			icon: "minecraft:blaze_powder"
+			x: 1.5d
+			y: 0.0d
+			shape: "pentagon"
+			subtitle: "\"You're on the highway to hell!\""
+			id: "305BC7FB2C550C1C"
+			tasks: [
+				{
+					id: "0FD5D01ED2AC1D19"
+					type: "item"
+					item: "minecraft:obsidian"
+					count: 10L
+				}
+				{
+					id: "1FE4B61BC0C9C50D"
+					type: "item"
+					item: {
+						id: "minecraft:flint_and_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0ED245A54C238CD0"
+					type: "dimension"
+					title: "Visit the Nether"
+					dimension: "minecraft:the_nether"
+				}
+			]
+		}
+		{
+			title: "The Dungeons"
+			icon: "dimdungeons:block_gold_portal"
+			x: 0.0d
+			y: 1.5d
+			shape: "pentagon"
+			subtitle: "\"Where the dangers are double and the pleasures are few...\""
+			id: "3BB6D67EC64CA3C4"
+			tasks: [
+				{
+					id: "00D6357CF58DAAAE"
+					type: "item"
+					item: "dimdungeons:block_gilded_portal"
+					count: 2L
+				}
+				{
+					id: "14E84839172F13D2"
+					type: "item"
+					item: "dimdungeons:block_portal_keyhole"
+				}
+				{
+					id: "0D90FA3E6613892D"
+					type: "item"
+					item: "dimdungeons:item_portal_key"
+				}
+				{
+					id: "024072C71A78D9D1"
+					type: "dimension"
+					title: "Visit the Dungeons"
+					icon: "dimdungeons:block_gold_portal"
+					dimension: "dimdungeons:dungeon_dimension"
+				}
+			]
+		}
+		{
+			title: "The End"
+			icon: "minecraft:ender_eye"
+			x: -1.5d
+			y: 0.0d
+			shape: "pentagon"
+			subtitle: "\"This is the end, my only friend, the end...\""
+			id: "27C0FAD123A3B317"
+			tasks: [
+				{
+					id: "2063F91284E3C872"
+					type: "item"
+					item: "minecraft:ender_eye"
+					count: 8L
+				}
+				{
+					id: "1ADEDA3CF8CCB6D5"
+					type: "structure"
+					icon: "minecraft:end_portal_frame"
+					structure: "minecraft:stronghold"
+				}
+				{
+					id: "3C2B176413E6D838"
+					type: "dimension"
+					title: "Visit The End"
+					icon: "minecraft:end_crystal"
+					dimension: "minecraft:the_end"
+				}
+			]
+		}
+		{
+			title: "Hells backdoor"
+			x: 1.5d
+			y: -1.5d
+			shape: "hexagon"
+			description: ["You either made a portal using buckets and wood, or you just hitched a ride on someone elses portal, either way you can still complete the nether quests!"]
+			optional: true
+			secret: true
+			incompatible: ["305BC7FB2C550C1C"]
+			id: "637FA03B444A1021"
+			tasks: [{
+				id: "65F492EFF273D501"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+		}
+		{
+			title: "The Ender Dragon"
+			x: -3.0d
+			y: 0.0d
+			id: "224879C9AC621712"
+			tasks: [{
+				id: "2F49DD76FC832998"
+				type: "kill"
+				title: "Kill the Ender Dragon"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 1L
 			}]
 		}
 	]

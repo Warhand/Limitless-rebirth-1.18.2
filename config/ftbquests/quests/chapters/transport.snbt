@@ -11,8 +11,8 @@
 		{
 			title: "Waystones"
 			icon: "waystones:waystone"
-			x: 0.0d
-			y: 0.0d
+			x: -1.5d
+			y: -1.5d
 			shape: "pentagon"
 			description: [
 				"Waystones are remnants of ancient civilizations, long since collapsed, that had much more advanced transportation methods than we do now."
@@ -38,8 +38,8 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: -2.0d
+			x: -1.5d
+			y: -3.0d
 			shape: "rsquare"
 			description: [
 				"Tired of crafting new warp scrolls whenever you wanna go somewhere? Warpstones are your friend, then!"
@@ -58,6 +58,27 @@
 						Damage: 0
 					}
 				}
+			}]
+		}
+		{
+			title: "Pathways"
+			x: 0.0d
+			y: 0.0d
+			shape: "pentagon"
+			description: [
+				"Pathways are the most basic form of transportation in the world, a well worn path can make it easier to get from one place to another! Pathways can easily be created by right clicking on grass or soil with a shovel."
+				"Path blocks also increase your speed when walking on them, further incentivizing you to use them where you can."
+				"Certain other blocks, mainly concrete, also have this effect!"
+			]
+			id: "10D6313638E9CBDB"
+			tasks: [{
+				id: "1554759A69CDF2A6"
+				type: "observation"
+				title: "Observe a path block"
+				icon: "minecraft:dirt_path"
+				timer: 0L
+				observe_type: 0
+				to_observe: "minecraft:dirt_path"
 			}]
 		}
 	]

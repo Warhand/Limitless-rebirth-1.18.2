@@ -1,7 +1,7 @@
 {
 	id: "623E8DEA16FF7FBD"
 	group: ""
-	order_index: 4
+	order_index: 1
 	filename: "challenges"
 	title: "Challenges"
 	icon: "quark:rainbow_rune"
@@ -172,8 +172,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:limitless_bag"
 							LootTable: "limitlessrebirth:epic"
+							BagType: "limitlessrebirth:limitless_bag"
 						}
 					}
 				}
@@ -185,7 +185,7 @@
 			x: 0.0d
 			y: -1.5d
 			subtitle: "\"You sure do roam around, around, around, around!\""
-			description: ["Visit every dimension in this modpack at least once"]
+			description: ["Visit every dimension at least once"]
 			optional: true
 			id: "60B74FA38A43AAC9"
 			tasks: [
@@ -210,41 +210,6 @@
 					dimension: "minecraft:the_end"
 				}
 				{
-					id: "508634A3AEE9CDAA"
-					type: "dimension"
-					title: "The moon"
-					icon: "beyond_earth:moon_stone"
-					dimension: "beyond_earth:moon"
-				}
-				{
-					id: "50820D18EFFC51A8"
-					type: "dimension"
-					title: "Mars"
-					icon: "beyond_earth:mars_stone"
-					dimension: "beyond_earth:mars"
-				}
-				{
-					id: "643394642F9CAD5B"
-					type: "dimension"
-					title: "Mercury"
-					icon: "beyond_earth:mercury_stone"
-					dimension: "beyond_earth:mercury"
-				}
-				{
-					id: "277FD4A7309A56AB"
-					type: "dimension"
-					title: "Venus"
-					icon: "beyond_earth:venus_stone"
-					dimension: "beyond_earth:venus"
-				}
-				{
-					id: "61702A9C14B28A86"
-					type: "dimension"
-					title: "Glacio"
-					icon: "beyond_earth:glacio_stone"
-					dimension: "beyond_earth:glacio"
-				}
-				{
 					id: "58CCD89A13DB070B"
 					type: "dimension"
 					title: "The undergarden"
@@ -260,19 +225,18 @@
 				}
 			]
 			rewards: [{
-				id: "0E24C27A5F6F00A4"
+				id: "59F927079E78D40C"
 				type: "item"
 				item: {
 					id: "treasurebags:treasure_bag"
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:limitless_bag"
-							LootTable: "limitlessrebirth:epic"
+							BagType: "limitlessrebirth:rare_bag"
+							LootTable: "limitlessrebirth:rare"
 						}
 					}
 				}
-				count: 3
 			}]
 		}
 		{
@@ -321,94 +285,6 @@
 					icon: "minecraft:creeper_head"
 					entity: "minecraft:creeper"
 					value: 50L
-				}
-				{
-					id: "17C5EC726ABFA176"
-					type: "kill"
-					title: "Kill 10 Witches"
-					icon: {
-						id: "minecraft:splash_potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:poison"
-						}
-					}
-					entity: "minecraft:witch"
-					value: 10L
-				}
-				{
-					id: "06B84119BFF1EF36"
-					type: "kill"
-					title: "Kill 25 Pillagers"
-					icon: {
-						id: "minecraft:crossbow"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-					entity: "minecraft:pillager"
-					value: 25L
-				}
-				{
-					id: "731A7B42F6D0C98D"
-					type: "kill"
-					title: "Kill 10 Vindicators"
-					icon: {
-						id: "minecraft:iron_axe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-					entity: "minecraft:vindicator"
-					value: 10L
-				}
-				{
-					id: "3CFD9F547EFA2980"
-					type: "kill"
-					title: "Kill 5 Evokers"
-					icon: "minecraft:totem_of_undying"
-					entity: "minecraft:evoker"
-					value: 5L
-				}
-				{
-					id: "536011D535C88284"
-					type: "kill"
-					title: "Kill 3 Ravagers"
-					icon: "minecraft:saddle"
-					entity: "minecraft:ravager"
-					value: 3L
-				}
-				{
-					id: "2ABABEF2D8AB6CF1"
-					type: "kill"
-					title: "Kill 5 Ghouls"
-					icon: "minecraft:rotten_flesh"
-					entity: "graveyard:ghoul"
-					value: 5L
-				}
-				{
-					id: "5A78885A74BD375B"
-					type: "kill"
-					title: "Kill 10 Revenants"
-					icon: "graveyard:leaning_skeleton"
-					entity: "graveyard:revenant"
-					value: 10L
-				}
-				{
-					id: "6FD64AB56A794D46"
-					type: "kill"
-					title: "Kill 25 Acolytes"
-					icon: {
-						id: "graveyard:bone_dagger"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-					entity: "graveyard:acolyte"
-					value: 25L
 				}
 				{
 					id: "026AB57D1057C723"
@@ -487,8 +363,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:rare_bag"
 							LootTable: "limitlessrebirth:rare"
+							BagType: "limitlessrebirth:rare_bag"
 						}
 					}
 				}
@@ -631,8 +507,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:rare_bag"
 							LootTable: "limitlessrebirth:rare"
+							BagType: "limitlessrebirth:rare_bag"
 						}
 					}
 				}
@@ -648,6 +524,7 @@
 			subtitle: "\"Please go outside now\""
 			description: ["You did it, you crafted every creative item, please go touch grass now."]
 			hide_dependency_lines: true
+			dependencies: ["5250C8038CF4D185"]
 			hide: true
 			optional: true
 			id: "5FEF0053081E8071"
@@ -696,8 +573,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:limitless_bag"
 							LootTable: "limitlessrebirth:epic"
+							BagType: "limitlessrebirth:limitless_bag"
 						}
 					}
 				}
@@ -709,6 +586,7 @@
 			icon: "minecraft:end_crystal"
 			x: -2.0d
 			y: -5.5d
+			subtitle: "\"you see before you an endless expanse of broken islands and alien flora, and all you think about is how fast you can kill it all...\""
 			optional: true
 			id: "344E4B8D3B1CFFF1"
 			tasks: [
@@ -736,6 +614,30 @@
 					entity: "alexsmobs:mimicube"
 					value: 25L
 				}
+				{
+					id: "337C44F68BD25E5F"
+					type: "kill"
+					title: "Kill 20 Phantoms"
+					icon: "minecraft:phantom_membrane"
+					entity: "minecraft:phantom"
+					value: 20L
+				}
+				{
+					id: "1E701FA187B0BD86"
+					type: "kill"
+					title: "Kill 10 Enderiophage"
+					icon: "alexsmobs:enderiophage_rocket"
+					entity: "minecraft:zombie"
+					value: 10L
+				}
+				{
+					id: "6DA259FC118933CF"
+					type: "kill"
+					title: "Kill 15 Endermites"
+					icon: "buzzier_bees:endermite_bottle"
+					entity: "minecraft:endermite"
+					value: 15L
+				}
 			]
 			rewards: [{
 				id: "4314B7A2BD1F0950"
@@ -745,8 +647,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:rare_bag"
 							LootTable: "limitlessrebirth:rare"
+							BagType: "limitlessrebirth:rare_bag"
 						}
 					}
 				}
@@ -760,13 +662,14 @@
 				tag: {
 					Damage: 0
 					Enchantments: [{
-						lvl: 4s
 						id: "minecraft:knockback"
+						lvl: 4s
 					}]
 				}
 			}
 			x: 0.0d
 			y: -5.5d
+			subtitle: "\"The monsters of the undergarden appear to you as a field of wheat, and it is harvest season\""
 			optional: true
 			id: "5321CE3E9A693BC1"
 			tasks: [
@@ -835,8 +738,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:rare_bag"
 							LootTable: "limitlessrebirth:rare"
+							BagType: "limitlessrebirth:rare_bag"
 						}
 					}
 				}
@@ -858,38 +761,21 @@
 				stat: "minecraft:time_since_death"
 				value: 1728000
 			}]
-			rewards: [
-				{
-					id: "62DCDBABE3B6D09D"
-					type: "item"
-					item: {
-						id: "treasurebags:treasure_bag"
-						Count: 1b
-						tag: {
-							silentlib.LootContainer: {
-								BagType: "limitlessrebirth:rare_bag"
-								LootTable: "limitlessrebirth:rare"
-							}
+			rewards: [{
+				id: "401A3A446282B667"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "limitlessrebirth:uncommon"
+							BagType: "limitlessrebirth:uncommon_bag"
 						}
 					}
-					count: 3
 				}
-				{
-					id: "401A3A446282B667"
-					type: "item"
-					item: {
-						id: "treasurebags:treasure_bag"
-						Count: 1b
-						tag: {
-							silentlib.LootContainer: {
-								BagType: "limitlessrebirth:uncommon_bag"
-								LootTable: "limitlessrebirth:uncommon"
-							}
-						}
-					}
-					count: 5
-				}
-			]
+				count: 5
+			}]
 		}
 		{
 			x: 2.0d
@@ -913,8 +799,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:limitless_bag"
 							LootTable: "limitlessrebirth:epic"
+							BagType: "limitlessrebirth:limitless_bag"
 						}
 					}
 				}
@@ -946,6 +832,7 @@
 						}
 					}
 				}
+				count: 5
 			}]
 		}
 		{
@@ -1369,6 +1256,209 @@
 				type: "item"
 				item: "upgradednetherite_creative:creative_upgraded_netherite_ingot"
 			}]
+		}
+		{
+			title: "Graveyard smash"
+			icon: "graveyard:corruption"
+			x: -2.0d
+			y: -3.5d
+			subtitle: "\"You sure mashed those monsters!\""
+			optional: true
+			id: "2237009B0E490065"
+			tasks: [
+				{
+					id: "04A21DE2C0F803F5"
+					type: "kill"
+					title: "Kill 20 Ghouls"
+					icon: "minecraft:rotten_flesh"
+					entity: "graveyard:ghoul"
+					value: 20L
+				}
+				{
+					id: "499C7FF0EB02F47A"
+					type: "kill"
+					title: "Kill 15 creeper skeletons"
+					icon: "graveyard:creeper_skeleton"
+					entity: "graveyard:skeleton_creeper"
+					value: 15L
+				}
+				{
+					id: "4C1A46EDF5AFF31D"
+					type: "kill"
+					title: "Kill 20 Revenants"
+					icon: "minecraft:bone"
+					entity: "graveyard:revenant"
+					value: 20L
+				}
+				{
+					id: "1C89A5A4EC99E335"
+					type: "kill"
+					title: "Kill 15 Acolytes"
+					icon: {
+						id: "graveyard:bone_dagger"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					entity: "graveyard:acolyte"
+					value: 15L
+				}
+				{
+					id: "272768886E818477"
+					type: "kill"
+					title: "Kill 10 Reapers"
+					icon: "minecraft:skeleton_skull"
+					entity: "graveyard:reaper"
+					value: 10L
+				}
+				{
+					id: "5B8F5798C8F4A03B"
+					type: "kill"
+					title: "Kill 5 nightmares"
+					icon: "graveyard:corruption"
+					entity: "graveyard:nightmare"
+					value: 5L
+				}
+			]
+		}
+		{
+			title: "Bane of illagers"
+			icon: "minecraft:emerald"
+			x: 2.0d
+			y: -3.5d
+			subtitle: "You either love villagers or REALLY hate illagers"
+			id: "17D51FF6DB263436"
+			tasks: [
+				{
+					id: "597CEA16F99C4C24"
+					type: "kill"
+					title: "Kill 30 pillagers"
+					icon: {
+						id: "minecraft:crossbow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					entity: "minecraft:pillager"
+					value: 30L
+				}
+				{
+					id: "7A06DD43921CA227"
+					type: "kill"
+					title: "Kill 10 witches"
+					icon: {
+						id: "biomemakeover:witch_hat"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					entity: "minecraft:witch"
+					value: 10L
+				}
+				{
+					id: "2AD76E2DE49C6C8F"
+					type: "kill"
+					title: "Kill 15 vindicators"
+					icon: {
+						id: "minecraft:iron_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					entity: "minecraft:vindicator"
+					value: 15L
+				}
+				{
+					id: "13B0E8B29B031978"
+					type: "kill"
+					title: "Kill 5 evokers"
+					icon: "minecraft:totem_of_undying"
+					entity: "minecraft:evoker"
+					value: 5L
+				}
+				{
+					id: "738AF9E78E33293E"
+					type: "kill"
+					title: "Kill 5 ravagers"
+					icon: "minecraft:saddle"
+					entity: "minecraft:ravager"
+					value: 5L
+				}
+				{
+					id: "1F2E7B52DD917D72"
+					type: "kill"
+					title: "Kill 10 Griefers"
+					icon: {
+						id: "savage_and_ravage:griefer_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					entity: "savage_and_ravage:griefer"
+					value: 10L
+				}
+				{
+					id: "32C3B27DC419D1F6"
+					type: "kill"
+					title: "Kill 10 executioners"
+					icon: {
+						id: "savage_and_ravage:cleaver_of_beheading"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					entity: "savage_and_ravage:executioner"
+					value: 10L
+				}
+				{
+					id: "1AAFE558C96226AF"
+					type: "kill"
+					title: "Kill 5 Viler Witches"
+					icon: {
+						id: "minecraft:lingering_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:harming"
+						}
+					}
+					entity: "earthmobsmod:viler_witch"
+					value: 5L
+				}
+				{
+					id: "0253FDAAEEB4F80E"
+					type: "kill"
+					title: "Kill 10 Hunter Illagers"
+					icon: {
+						id: "hunterillager:boomerang"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					entity: "hunterillager:hunterillager"
+					value: 10L
+				}
+				{
+					id: "1133B101324CA4C7"
+					type: "kill"
+					title: "Kill 3 Tricksters"
+					icon: {
+						id: "savage_and_ravage:mask_of_dishonesty"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					entity: "savage_and_ravage:trickster"
+					value: 3L
+				}
+			]
 		}
 	]
 }

@@ -1,53 +1,11 @@
 {
 	id: "71CDE26B3A9E44CC"
 	group: ""
-	order_index: 1
+	order_index: 0
 	filename: "technology"
 	title: "Technology"
 	icon: "quark:redstone_randomizer"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		title: "Metal maniac"
-		x: 0.0d
-		y: 0.0d
-		shape: "pentagon"
-		subtitle: "\"Where's Sparky?\""
-		description: ["Various metals are the primary building blocks of most technology in this pack, so acquiring metal should be your first goal if you want to start working with mechanical marvels!"]
-		id: "4F9B7B6085A1D14D"
-		tasks: [
-			{
-				id: "55B61EAD8F457592"
-				type: "item"
-				item: "minecraft:iron_ingot"
-				count: 16L
-			}
-			{
-				id: "33B2E578E5492A89"
-				type: "item"
-				item: "minecraft:copper_ingot"
-				count: 16L
-			}
-			{
-				id: "492E226B66571A91"
-				type: "item"
-				item: "ftbic:tin_ingot"
-				count: 16L
-			}
-		]
-		rewards: [{
-			id: "7F364B8DA39C7C9E"
-			type: "item"
-			item: {
-				id: "treasurebags:treasure_bag"
-				Count: 1b
-				tag: {
-					silentlib.LootContainer: {
-						BagType: "limitlessrebirth:common_bag"
-						LootTable: "limitlessrebirth:common"
-					}
-				}
-			}
-		}]
-	}]
+	quests: [ ]
 }
