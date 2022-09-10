@@ -102,16 +102,16 @@
 	#Weight of tinker tools in the vanilla spawn bonus chest, randomly replacing the vanilla axe or shovel. Tool will have a random tier 1 head and binding, plus a wooden handle. Set to 0 to disable.
 	#For comparison, vanilla wooden axes and pickaxes have a weight of 3, and stone axes/pickaxes have a weight of 1
 	#Range: 0 ~ 25
-	tinker_tool_bonus_chest = 2
+	tinker_tool_bonus_chest = 0
 	#If true, ender dragons will drop scales when damaged by explosions
-	drop_dragon_Scales = true
+	drop_dragon_Scales = false
 
 #Everything to do with world generation
 [worldgen]
 	#Generate Cobalt
 	generateCobalt = true
 	#Approx Ores per Chunk
-	veinCountCobalt = 8
+	veinCountCobalt = 14
 
 	#Options related to slime geodes
 	[worldgen.geodes]
