@@ -351,29 +351,7 @@ craftingTable.addShaped("fishing_rod_steel", <item:alloyed:steel_fishing_rod>, [
 
 craftingTable.addShaped("shears_steel", <item:alloyed:steel_shears>, [[IIngredientEmpty.getInstance(), <tag:items:forge:ingots/steel>], [<tag:items:forge:ingots/steel>, IIngredientEmpty.getInstance()]]);
 
-//milling flour and dough recipes changed to croptopia flour and dough
-<recipetype:create:milling>.addJsonRecipe("custom_create_milling_flour", {
-  "ingredients": [
-    {
-      "tag": "forge:grain"
-    }
-  ],
-  "results": [
-    {
-      "item": "create:wheat_flour"
-    },
-    {
-      "item": "create:wheat_flour",
-      "count": 2,
-      "chance": 0.25
-    },
-    {
-      "item": "minecraft:wheat_seeds",
-      "chance": 0.25
-    }
-  ],
-  "processingTime": 150
-});
+//Changing dough recipe to use farmers delight dough istead of create dough
 
 <recipetype:create:splashing>.addJsonRecipe("custom_create_washing_dough", {
   "ingredients": [
