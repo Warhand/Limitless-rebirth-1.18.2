@@ -396,7 +396,6 @@ val utter_eradication as IItemStack[] = [
 	<item:jaopca:storage_blocks.netherite_scrap>,
 	<item:tconstruct:debris_nugget>,
 	<item:create:dough>,
-	<item:create:wheat_flour>,
 	<item:ftbic:bronze_plate>,
 	<item:jaopca:nuggets.regalium>,
 	<item:jaopca:create_crushed_ores.regalium>,
