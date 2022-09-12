@@ -166,7 +166,6 @@ key_key.integrateddynamics.logic_programmer_open_rename:key.keyboard.r:ALT
 key_key.immersiveengineering.magnetEquip:key.keyboard.s
 key_key.immersiveengineering.railgunZoom:key.keyboard.unknown
 key_key.immersiveengineering.chemthrowerSwitch:key.keyboard.unknown
-key_cos.key.opencosarmorinventory:key.keyboard.unknown
 key_key.push_to_talk:key.keyboard.caps.lock
 key_key.whisper:key.keyboard.unknown
 key_key.mute_microphone:key.keyboard.m
@@ -177,13 +176,13 @@ key_key.voice_chat_settings:key.keyboard.unknown
 key_key.voice_chat_group:key.keyboard.g
 key_key.voice_chat_toggle_recording:key.keyboard.unknown
 key_key.voice_chat_adjust_volumes:key.keyboard.unknown
+key_cos.key.opencosarmorinventory:key.keyboard.unknown
 key_treechop.key.toggle_chopping:scancode.0
 key_treechop.key.toggle_felling:scancode.0
 key_treechop.key.cycle_sneak_behavior:scancode.0
 key_treechop.key.open_settings_overlay:key.keyboard.n
 key_placebo.toggleTrails:key.keyboard.keypad.9
 key_placebo.toggleWings:key.keyboard.keypad.8
-key_framedblocks.key.update_cull:key.keyboard.f9
 key_key.buildinggadgets.settings_menu:key.keyboard.g
 key_key.buildinggadgets.range:key.keyboard.r
 key_key.buildinggadgets.undo:key.keyboard.u
@@ -192,6 +191,7 @@ key_key.buildinggadgets.fuzzy:key.keyboard.unknown
 key_key.buildinggadgets.connected_area:key.keyboard.unknown
 key_key.buildinggadgets.rotate_mirror:key.keyboard.unknown
 key_key.buildinggadgets.material_list:key.keyboard.m
+key_framedblocks.key.update_cull:key.keyboard.f9
 key_Show comparison tooltip:key.keyboard.left.shift
 key_key.ping:key.keyboard.v
 key_ping.key.alert:key.keyboard.keypad.4
@@ -222,13 +222,11 @@ key_key.waila.show_overlay:key.keyboard.keypad.1
 key_key.waila.toggle_liquid:key.keyboard.keypad.2
 key_key.waila.narrate:key.keyboard.keypad.6
 key_key.waila.show_details:key.keyboard.left.shift
-key_quark.keybind.autorun:key.keyboard.unknown
 key_quark.keybind.sort_player:key.keyboard.unknown
 key_quark.keybind.sort_container:key.keyboard.unknown
-key_quark.keybind.change_hotbar:key.keyboard.unknown
-key_quark.keybind.back:key.mouse.4
 key_quark.keybind.lock_rotation:key.keyboard.unknown
-key_quark.keybind.camera_mode:key.keyboard.keypad.1
+key_quark.keybind.autorun:key.keyboard.unknown
+key_quark.keybind.change_hotbar:key.keyboard.unknown
 key_quark.keybind.transfer_insert:key.keyboard.unknown
 key_quark.keybind.transfer_extract:key.keyboard.unknown
 key_quark.keybind.shift_lock:key.keyboard.unknown
@@ -250,6 +248,8 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
+key_quark.keybind.camera_mode:key.keyboard.keypad.1
+key_quark.keybind.back:key.mouse.4
 key_key.plonk.place:key.keyboard.p
 key_key.worldstripper.strip_world:key.keyboard.delete
 key_key.worldstripper.dress_world:key.keyboard.insert
@@ -281,8 +281,6 @@ key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x
 key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z
 key_key.configured.open_mod_list:key.keyboard.unknown
-key_key.waila.show_recipes:key.keyboard.keypad.3
-key_key.waila.show_uses:key.keyboard.keypad.4
 soundCategory_master:0.4884106
 soundCategory_music:0.3556338
 soundCategory_record:0.10798122
