@@ -15,6 +15,8 @@ maxDiskSize = "25 GB"
 sendMessages = true
 #Used to define the output path.
 outputPath = "simplebackups"
+#Should only changed files be backed up? Useful for large worlds. Keep in mind that old backups are required for a complete backup. Alternatively, you could run the command to create a new complete backup.
+onlyModified = true
 
 [mod_compat]
 	#Should backup notifications be sent to Discord by using mc2discord? (needs to be installed)
