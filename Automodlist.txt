@@ -16,12 +16,12 @@ C:.
     Apotheosis-1.18.2-5.6.1.jar
     appleskin-forge-mc1.18.2-2.4.1.jar
     Aquaculture-1.18.2-2.3.8.jar
-    architectury-4.9.83-forge.jar
+    architectury-4.9.84-forge.jar
     armorpointspp-forge-1.18.2-3.0.1.jar
     ArmorSoundTweak-5.0.0-forge.jar
     ars_creo-1.18.2-2.1.3.jar
-    ars_nouveau-1.18.2-2.7.7.jar
-    artifacts-1.18.2-4.0.7.jar
+    ars_nouveau-1.18.2-2.7.8.jar
+    artifacts-1.18.2-4.2.0.jar
     AttributeFix-Forge-1.18.2-14.0.2.jar
     AutoRegLib-1.7-53.jar
     balm-3.2.0+0.jar
@@ -73,7 +73,7 @@ C:.
     CraftTweaker-forge-1.18.2-9.1.189.jar
     create-1.18.2-0.5.0.d.jar
     createaddition-1.18.2-20220817a.jar
-    create_crystal_clear-0.1a.jar
+    create_crystal_clear-0.1b.jar
     creeperoverhaul-1.18.2-1.3.0-forge.jar
     Cucumber-1.18.2-5.1.2.jar
     culturaldelights-1.18.2-0.13.jar
@@ -99,7 +99,7 @@ C:.
     EarthMobs-1.18.2-1.1.2.jar
     EasyShulkerBoxes-v3.1.1-1.18.2-Forge.jar
     EnchantingInfuser-v3.3.2-1.18.2-Forge.jar
-    EnchantmentDescriptions-Forge-1.18.2-10.0.8.jar
+    EnchantmentDescriptions-Forge-1.18.2-10.0.9.jar
     entityculling-forge-mc1.18-1.5.1.jar
     Entity_Collision_FPS_Fix-forge-1.18.2-1.0.0.jar
     EquipmentCompare-1.18.1-1.2.12.jar
@@ -107,14 +107,14 @@ C:.
     expandability-6.0.0.jar
     extendedclouds-1.1.1-forge.jar
     ExtendedCrafting-1.18.2-4.1.1.jar
-    fancymenu_forge_2.12.1-1_MC_1.18.2.jar
+    fancymenu_forge_2.12.2_MC_1.18.2.jar
     FarmersDelight-1.18.2-1.1.2.jar
     FarmersRespite-1.18.2-1.3.0.jar
     farsight-1.18.2-1.9.jar
     farsightedmobs-forge-1.1-1.18.jar
     FastFurnace-1.18.2-6.0.3.jar
     FastLeafDecay-28.jar
-    Fastload-Reforged-1.1.6+1.18.2.jar
+    Fastload-Reforged-1.2.0+1.18.2.jar
     FastSuite-1.18.2-3.0.2.jar
     FastWorkbench-1.18.2-6.1.0.jar
     feature_nbt_deadlock_be_gone_forge-2.0.0+1.18.2.jar
@@ -124,7 +124,7 @@ C:.
     fogoverrides-1.18.2-1.1.3.jar
     FramedBlocks-5.7.0.jar
     framework-0.2.4-1.18.2.jar
-    ftb-chunks-forge-1802.3.6-build.160.jar
+    ftb-chunks-forge-1802.3.6-build.170.jar
     ftb-essentials-1802.1.7-build.42.jar
     ftb-industrial-contraptions-1802.1.6-build.197.jar
     ftb-library-forge-1802.3.6-build.140.jar
@@ -245,7 +245,7 @@ C:.
     supplementaries-1.18.2-1.5.1.jar
     TaxFreeLevels-1.3.1-forge-1.18.1.jar
     TConstruct-1.18.2-3.5.1.31.jar
-    TerraBlender-forge-1.18.2-1.2.0.126.jar
+    TerraBlender-forge-1.18.2-1.1.0.102.jar
     tetra-1.18.2-4.9.3.jar
     tetrapak-1.18.2-0.5.3.jar
     The_Graveyard_1.9.2_(FORGE)_for_1.18.2.jar
@@ -282,5 +282,5 @@ C:.
     
 No subfolders exist 
 
-Fri 09/09/2022 
-11:58 PM
+Sun 09/11/2022 
+11:26 PM
