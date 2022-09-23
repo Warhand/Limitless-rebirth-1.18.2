@@ -17,7 +17,7 @@ schematics/**
 local/ftbchunks/data/**
 simplebackups/**
 config/jei/world/**
-config\world_gen_export\**
+config/world_gen_export/**
 
 # ignore file types
 *.log
