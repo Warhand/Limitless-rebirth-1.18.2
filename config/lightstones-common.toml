@@ -1,0 +1,95 @@
+
+[ore_generation]
+
+	[ore_generation.lightstoneOre]
+		#Lightstone Ore Vein Size (Default = 7)
+		#Range: 0 ~ 50
+		stoneLightstoneOreVeinSize = 7
+		#Lightstone Ore Spawn Chance (Default = 3)
+		#Range: 0 ~ 50
+		stoneLightstoneOrePerChunk = 3
+		#Lightstone Ore Min Spawn Height (Default = 0)
+		#Range: 0 ~ 240
+		stoneLightstoneOreMinHeight = 0
+		#Lightstones Ore Max Spawn Height (Default = 48)
+		#Range: 0 ~ 256
+		stoneLightstoneOreMaxHeight = 48
+		#Ocean Lightstone Ore Vein Size (Default = 9)
+		#Range: 0 ~ 50
+		oceanLightstoneOreVeinSize = 9
+		#Ocean Lightstone Ore Spawn Chance (Default = 4)
+		#Range: 0 ~ 50
+		oceanLightstoneOrePerChunk = 4
+		#Ocean Lightstone Ore Min Spawn Height (Default = 0)
+		#Range: 0 ~ 240
+		oceanLightstoneOreMinHeight = 0
+		#Ocean Lightstones Ore Max Spawn Height (Default = 58)
+		#Range: 0 ~ 256
+		oceanLightstoneOreMaxHeight = 58
+		#Deepslate Lightstone Ore Vein Size (Default = 10)
+		#Range: 0 ~ 50
+		deepslateLightstoneOreVeinSize = 10
+		#Deepslate Lightstone Ore Spawn Chance (Default = 6)
+		#Range: 0 ~ 50
+		deepslateLightstoneOrePerChunk = 6
+		#Deepslate Lightstone Ore Min Spawn Height (Default = -48)
+		#Range: -64 ~ 0
+		deepslateLightstoneOreMinHeight = -48
+		#Deepslate Lightstones Ore Max Spawn Height (Default = 1)
+		#Range: -63 ~ 10
+		deepslateLightstoneOreMaxHeight = 1
+
+	[ore_generation.deathstoneOre]
+		#Deathstone Ore Vein Size (Default = 6)
+		#Range: 0 ~ 50
+		stoneDeathstoneOreVeinSize = 6
+		#Deathstone Ore Spawn Chance (Default = 2)
+		#Range: 0 ~ 50
+		stoneDeathstoneOrePerChunk = 2
+		#Deathstone Ore Min Spawn Height (Default = 2)
+		#Range: 0 ~ 240
+		stoneDeathstoneOreMinHeight = 2
+		#Deathstone Ore Max Spawn Height (Default = 32)
+		#Range: 0 ~ 256
+		stoneDeathstoneOreMaxHeight = 32
+		#Deepslate Deathstone Ore Vein Size (Default = 8)
+		#Range: 0 ~ 50
+		deepslateDeathstoneOreVeinSize = 8
+		#Deepslate Deathstone Ore Spawn Chance (Default = 7)
+		#Range: 0 ~ 50
+		deepslateDeathstoneOrePerChunk = 7
+		#Deepslate Deathstone Ore Min Spawn Height (Default = -48)
+		#Range: -64 ~ 0
+		deepslateDeathstoneOreMinHeight = -48
+		#Deepslate Deathstone Ore Max Spawn Height (Default = 1)
+		#Range: -63 ~ 10
+		deepslateDeathstoneOreMaxHeight = 1
+
+	[ore_generation.corestoneOre]
+		#Corestone Ore Vein Size (Default = 8)
+		#Range: 0 ~ 50
+		netherCorestoneOreVeinSize = 8
+		#Corestone Ore Spawn Chance (Default = 7)
+		#Range: 0 ~ 50
+		netherCorestoneOrePerChunk = 7
+		#Corestone Ore Min Spawn Height (Default = 10)
+		#Range: 0 ~ 240
+		netherCorestoneOreMinHeight = 10
+		#Corestone Ore Max Spawn Height (Default = 64)
+		#Range: 0 ~ 256
+		netherCorestoneOreMaxHeight = 64
+
+	[ore_generation.blightstoneOre]
+		#Blightstone Ore Vein Size (Default = 6)
+		#Range: 0 ~ 50
+		endBlightstoneOreVeinSize = 6
+		#Blightstone Ore Spawn Chance (Default = 4)
+		#Range: 0 ~ 50
+		endBlightstoneOrePerChunk = 4
+		#Blightstone Ore Min Spawn Height (Default = 10)
+		#Range: 0 ~ 240
+		endBlightstoneOreMinHeight = 10
+		#Blightstone Ore Max Spawn Height (Default = 65)
+		#Range: 0 ~ 256
+		endBlightstoneOreMaxHeight = 65
+

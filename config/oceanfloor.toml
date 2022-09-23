@@ -1,0 +1,60 @@
+
+#####################################################################################
+#Features
+#####################################################################################
+[oceanfloor]
+
+	#####################################################################################
+	#Size is how large a patch is
+	#####################################################################################
+	[oceanfloor.oceanfloor]
+
+		#####################################################################################
+		#Spread is 'one chance in every -spread-' making  it generate
+		#####################################################################################
+		[oceanfloor.oceanfloor.oceanfloor]
+
+			#####################################################################################
+			# Dirt spawns in spand an gravel floors of ocean-type biomes
+			#####################################################################################
+			[oceanfloor.oceanfloor.oceanfloor.dirt]
+				#Patch size
+				#Range: 0 ~ 64
+				size = 16
+				#Spread
+				#Range: 1 ~ 200
+				spread = 60
+
+			#####################################################################################
+			# Clay spawns in sand and gravel floors of ocean-type biomes
+			#####################################################################################
+			[oceanfloor.oceanfloor.oceanfloor.clay]
+				#Patch size
+				#Range: 0 ~ 64
+				size = 32
+				#Spread
+				#Range: 1 ~ 200
+				spread = 10
+
+			#####################################################################################
+			# Sand spawns in gravel floors of ocean-type biomes
+			#####################################################################################
+			[oceanfloor.oceanfloor.oceanfloor.sand]
+				#Patch size
+				#Range: 0 ~ 64
+				size = 22
+				#Spread
+				#Range: 1 ~ 200
+				spread = 45
+
+			#####################################################################################
+			# Gravel + Coarse Dirt spawn in the stone caves below ocean-type biomes
+			#####################################################################################
+			[oceanfloor.oceanfloor.oceanfloor.gravel]
+				#Patch size
+				#Range: 0 ~ 64
+				size = 16
+				#Spread
+				#Range: 1 ~ 200
+				spread = 16
+

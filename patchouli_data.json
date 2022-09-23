@@ -3,7 +3,9 @@
   "clickedVisualize": true,
   "bookData": {
     "bloodmagic:guide": {
-      "viewedEntries": [],
+      "viewedEntries": [
+        "bloodmagic:rituals/ritual_list/ritual_simple_dungeon"
+      ],
       "bookmarks": [],
       "completedManualQuests": []
     },

@@ -50,6 +50,10 @@
     "blue_skies:turquoise_grass_block",
     "blue_skies:turquoise_dirt",
     "blue_skies:turquoise_stone",
-    "blue_skies:coarse_turquoise_dirt"
+    "blue_skies:coarse_turquoise_dirt",
+    "byg:cryptic_stone",
+    "byg:ivis_phylium",
+    "byg:ether_phylium",
+    "byg:ether_stone"
   ]
 }

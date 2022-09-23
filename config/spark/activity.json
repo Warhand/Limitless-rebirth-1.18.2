@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "RosieHolstein",
+      "uniqueId": "5034630f-2b73-4069-8f0f-6b105c9c7022"
+    },
+    "time": 1663653746604,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/kgmvUbAhX1"
+    }
+  }
+]
