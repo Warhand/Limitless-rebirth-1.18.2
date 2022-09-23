@@ -1,45 +1,42 @@
 {
 	id: "31AFE73D6EAE94EA"
-	group: "6070CE001052EDA2"
-	order_index: 1
+	group: "34BB85C0E80BC4C8"
+	order_index: 4
 	filename: "exploration"
-	title: "Exploration"
-	icon: "dimdungeons:block_key_charger"
+	title: "Travelling"
+	icon: "supplementaries:globe"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			title: "The Undergarden"
-			icon: "undergarden:utheric_shard"
-			x: 0.0d
-			y: -1.5d
-			shape: "pentagon"
+			icon: {
+				id: "undergarden:cloggrum_battleaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:knockback"
+						lvl: 4s
+					}]
+				}
+			}
+			x: -3.0d
+			y: 0.0d
 			subtitle: "\"Welcome to the jungle!\""
 			description: [
 				"The undergarden is a location similar to the nether, however instead of fire and brimstone, it is full of overgrown plants, toxic streams, and accursed beings of pure rot."
 				"To access the undergarden, first build a portal frame similar to a nether portal, using deepslate bricks instead of obsidian, and then activate the deepslate frame with a catalyst."
 			]
+			dependencies: ["10D6313638E9CBDB"]
 			id: "7E645764A7719BFD"
-			tasks: [
-				{
-					id: "3A655027E55FFCBD"
-					type: "item"
-					item: "undergarden:catalyst"
-				}
-				{
-					id: "2C28F96495BBCE4C"
-					type: "item"
-					item: "minecraft:deepslate_bricks"
-					count: 10L
-				}
-				{
-					id: "49E1F61B4BA49DF3"
-					type: "dimension"
-					title: "Visit the Undergarden"
-					icon: "undergarden:shimmerweed"
-					dimension: "undergarden:undergarden"
-				}
-			]
+			tasks: [{
+				id: "49E1F61B4BA49DF3"
+				type: "dimension"
+				title: "Visit the Undergarden"
+				icon: "undergarden:catalyst"
+				dimension: "undergarden:undergarden"
+			}]
 			rewards: [{
 				id: "29BE52FFCB9F779F"
 				type: "item"
@@ -48,131 +45,67 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:uncommon"
 							BagType: "limitlessrebirth:uncommon_bag"
+							LootTable: "limitlessrebirth:uncommon"
 						}
 					}
 				}
 			}]
 		}
 		{
-			title: "The Nether"
-			icon: "minecraft:blaze_powder"
-			x: 1.5d
-			y: 0.0d
-			shape: "pentagon"
-			subtitle: "\"You're on the highway to hell!\""
-			id: "305BC7FB2C550C1C"
-			tasks: [
-				{
-					id: "0FD5D01ED2AC1D19"
-					type: "item"
-					item: "minecraft:obsidian"
-					count: 10L
-				}
-				{
-					id: "1FE4B61BC0C9C50D"
-					type: "item"
-					item: {
-						id: "minecraft:flint_and_steel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "0ED245A54C238CD0"
-					type: "dimension"
-					title: "Visit the Nether"
-					dimension: "minecraft:the_nether"
-				}
-			]
-		}
-		{
 			title: "The Dungeons"
-			icon: "dimdungeons:block_gold_portal"
+			icon: {
+				id: "dimdungeons:item_portal_key"
+				Count: 1b
+				tag: {
+					name_type: 1
+					dest_x: 1
+					dungeon_type: "BASIC"
+					built: 0b
+					key_activated: 1b
+					theme: 0
+					dest_z: 0
+					name_part_2: 23
+					name_part_1: 19
+				}
+			}
 			x: 0.0d
-			y: 1.5d
-			shape: "pentagon"
+			y: 3.0d
+			shape: "circle"
 			subtitle: "\"Where the dangers are double and the pleasures are few...\""
+			dependencies: ["10D6313638E9CBDB"]
 			id: "3BB6D67EC64CA3C4"
-			tasks: [
-				{
-					id: "00D6357CF58DAAAE"
-					type: "item"
-					item: "dimdungeons:block_gilded_portal"
-					count: 2L
-				}
-				{
-					id: "14E84839172F13D2"
-					type: "item"
-					item: "dimdungeons:block_portal_keyhole"
-				}
-				{
-					id: "0D90FA3E6613892D"
-					type: "item"
-					item: "dimdungeons:item_portal_key"
-				}
-				{
-					id: "024072C71A78D9D1"
-					type: "dimension"
-					title: "Visit the Dungeons"
-					icon: "dimdungeons:block_gold_portal"
-					dimension: "dimdungeons:dungeon_dimension"
-				}
-			]
+			tasks: [{
+				id: "024072C71A78D9D1"
+				type: "dimension"
+				title: "Visit the Dungeons"
+				icon: "dimdungeons:block_gold_portal"
+				dimension: "dimdungeons:dungeon_dimension"
+			}]
 		}
 		{
 			title: "The End"
 			icon: "minecraft:ender_eye"
-			x: -1.5d
-			y: 0.0d
-			shape: "pentagon"
-			subtitle: "\"This is the end, my only friend, the end...\""
-			id: "27C0FAD123A3B317"
-			tasks: [
-				{
-					id: "2063F91284E3C872"
-					type: "item"
-					item: "minecraft:ender_eye"
-					count: 8L
-				}
-				{
-					id: "1ADEDA3CF8CCB6D5"
-					type: "structure"
-					icon: "minecraft:end_portal_frame"
-					structure: "minecraft:stronghold"
-				}
-				{
-					id: "3C2B176413E6D838"
-					type: "dimension"
-					title: "Visit The End"
-					icon: "minecraft:end_crystal"
-					dimension: "minecraft:the_end"
-				}
-			]
-		}
-		{
-			title: "Hells backdoor"
-			x: 1.5d
-			y: -1.5d
+			x: 3.0d
+			y: -3.0d
 			shape: "hexagon"
-			description: ["You either made a portal using buckets and wood, or you just hitched a ride on someone elses portal, either way you can still complete the nether quests!"]
-			optional: true
-			secret: true
-			incompatible: ["305BC7FB2C550C1C"]
-			id: "637FA03B444A1021"
+			subtitle: "\"This is the end, my only friend, the end...\""
+			dependencies: ["2225B080EE5B2B86"]
+			id: "27C0FAD123A3B317"
 			tasks: [{
-				id: "65F492EFF273D501"
+				id: "3C2B176413E6D838"
 				type: "dimension"
-				dimension: "minecraft:the_nether"
+				title: "Visit The End"
+				icon: "minecraft:end_crystal"
+				dimension: "minecraft:the_end"
 			}]
 		}
 		{
 			title: "The Ender Dragon"
-			x: -3.0d
-			y: 0.0d
+			x: 3.0d
+			y: -4.5d
+			shape: "hexagon"
+			dependencies: ["27C0FAD123A3B317"]
 			id: "224879C9AC621712"
 			tasks: [{
 				id: "2F49DD76FC832998"
@@ -181,6 +114,192 @@
 				icon: "minecraft:dragon_head"
 				entity: "minecraft:ender_dragon"
 				value: 1L
+			}]
+		}
+		{
+			title: "Waystones"
+			icon: "waystones:waystone"
+			x: 0.0d
+			y: -4.5d
+			shape: "rsquare"
+			subtitle: "\"New quick travel point discovered\""
+			description: [
+				"Waystones are remnants of ancient civilizations, long since collapsed, that had much more advanced transportation methods than we do now."
+				""
+				"While the waystones are too complex to replicate, impossible to move, and their carvings are too worn to work as they used to, they still can be of use to us!"
+				"You can rather easily craft a warp scroll, which will act as a backdoor into the waystone network, and will allow you to transport to any waystones you have located."
+			]
+			optional: true
+			id: "19162AA562EAF199"
+			tasks: [
+				{
+					id: "6B55DB94F30147AE"
+					type: "observation"
+					title: "Find a waystone"
+					icon: "waystones:waystone"
+					timer: 0L
+					observe_type: 1
+					to_observe: "waystones:waystone"
+				}
+				{
+					id: "2FE21193292AACA2"
+					type: "item"
+					item: "waystones:warp_scroll"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -4.5d
+			shape: "rsquare"
+			description: [
+				"Tired of crafting new warp scrolls whenever you wanna go somewhere? Warpstones are your friend, then!"
+				""
+				"Warpstones function very similarly to a warp scroll, except they can be used many times before they're exhausted. However there is a downside, as you have to wait for the crystal to recharge before it can be used again."
+				""
+				"A warpstone can also be crafted into a portstone, which is a variant that has no durability or cooldown, but also is a block rather than an item, so it cannot be carried around."
+			]
+			dependencies: [
+				"19162AA562EAF199"
+				"224879C9AC621712"
+			]
+			optional: true
+			id: "3C60179834135A67"
+			tasks: [{
+				id: "308CA1A833E16309"
+				type: "item"
+				item: {
+					id: "waystones:warp_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Pathways"
+			x: 0.0d
+			y: 0.0d
+			shape: "pentagon"
+			description: [
+				"Pathways are the most basic form of transportation in the world, a well worn path can make it easier to get from one place to another! Pathways can easily be created by right clicking on grass or soil with a shovel."
+				"Path blocks also increase your speed when walking on them, further incentivizing you to use them where you can."
+				"Certain other blocks, mainly concrete, also have this effect!"
+			]
+			id: "10D6313638E9CBDB"
+			tasks: [{
+				id: "1554759A69CDF2A6"
+				type: "observation"
+				title: "Observe a path block"
+				icon: "minecraft:dirt_path"
+				timer: 0L
+				observe_type: 0
+				to_observe: "minecraft:dirt_path"
+			}]
+		}
+		{
+			title: "Starting out: Paragliders"
+			x: 0.0d
+			y: -1.5d
+			shape: "rsquare"
+			subtitle: "\"One step closer to your dream of becoming a bird!\""
+			optional: true
+			id: "5B364CE0C28AB8AD"
+			tasks: [{
+				id: "2C66FAC58BFEE015"
+				type: "item"
+				item: "paraglider:paraglider"
+			}]
+			rewards: [{
+				id: "0AEEDF9BBDE1C27D"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "limitlessrebirth:common_bag"
+							LootTable: "limitlessrebirth:common"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			dependencies: ["447069D73366C4FB"]
+			id: "2225B080EE5B2B86"
+			tasks: [{
+				id: "73BFEDBC6E22071E"
+				type: "structure"
+				title: "Find a nether fortress"
+				icon: "minecraft:nether_bricks"
+				structure: "minecraft:fortress"
+			}]
+		}
+		{
+			title: "The Nether"
+			icon: {
+				id: "minecraft:flint_and_steel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["10D6313638E9CBDB"]
+			id: "447069D73366C4FB"
+			tasks: [{
+				id: "3F89537D93A2A2E6"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+		}
+		{
+			title: "Jetpacks"
+			x: -1.5d
+			y: -1.5d
+			shape: "rsquare"
+			subtitle: "\"Up, up, and away!\""
+			description: [
+				"Jetpacks are simple forms of flight that are mostly used to propel the player straight upwards using electrical energy. In order to fly, the jetpack needs to both be filled with energy, and the engine needs to be active. (The engine can be toggled with V by default)"
+				""
+				"Jetpacks can either be recharged using Charging stations, or Create tesla coils!"
+			]
+			optional: true
+			id: "23BEC7FC1CB7EC6D"
+			tasks: [{
+				id: "2E6F56DC7A6A23AD"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:copper"
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -6.0d
+			shape: "hexagon"
+			dependencies: ["224879C9AC621712"]
+			id: "582B2DC89BBEE667"
+			tasks: [{
+				id: "6CFAC58781839F0A"
+				type: "item"
+				item: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 	]
