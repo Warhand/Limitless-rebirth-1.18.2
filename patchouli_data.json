@@ -318,7 +318,14 @@
         "patchouli:power/current_transformer",
         "patchouli:tools/railgun",
         "patchouli:overview/metal_plates",
-        "patchouli:overview/ores"
+        "patchouli:overview/ores",
+        "patchouli:workbenches/engineers_crafting_table",
+        "patchouli:workbenches/coke_oven",
+        "patchouli:workbenches/engineers_blueprints",
+        "patchouli:workbenches/improved_blast_furnace",
+        "patchouli:workbenches/alloy_kiln",
+        "patchouli:workbenches/workbench_and_blueprints",
+        "patchouli:workbenches/crude_blast_furnace"
       ],
       "bookmarks": [],
       "completedManualQuests": []

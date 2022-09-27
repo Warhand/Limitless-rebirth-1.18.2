@@ -107,7 +107,7 @@
 	#Range: 0 ~ 2
 	jerkyEffectAmplifier = 1
 	#Determines if bricks are throwable or not
-	useThrowableBricks = true
+	useThrowableBricks = false
 
 	[Miscellaneous."Luminous Fungus"]
 		#Determines the distance an entity has to be from a luminous fungus for it to activate (larger values have performance impact)

@@ -1,8 +1,8 @@
 
 [general]
-	toggle = false
-	rightClickToEdit = false
-	releaseToSelect = false
+	toggle = true
+	rightClickToEdit = true
+	releaseToSelect = true
 	menuAnimation = true
 	menuButtonIcon = "minecraft:stone"
 

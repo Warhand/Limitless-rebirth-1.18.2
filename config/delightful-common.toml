@@ -22,6 +22,16 @@
 	silver_knife = true
 	steel_knife = true
 	tin_knife = true
+	amethyst_knife = false
+	deorum_knife = false
+	draco_arcanus_knife = false
+	emerald_knife = false
+	fiery_knife = false
+	ironwood_knife = false
+	knightmetal_knife = false
+	living_knife = false
+	reinforced_deorum_knife = false
+	steeleaf_knife = false
 
 [Cabinets]
 	basalt_cabinet = true
@@ -63,6 +73,13 @@
 	nut_milk = true
 	#Allow cooking honey from honey and clovers
 	clover_honey = true
+	acorn = true
+	acorn_sack = true
+	cooked_goat = true
+	cooked_venison_chops = true
+	raw_goat = true
+	salmonberry_pips = true
+	venison_chops = true
 
 [Generation]
 	#Chance of generating clusters. Smaller value = more frequent.
