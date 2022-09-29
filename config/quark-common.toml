@@ -1166,11 +1166,11 @@
 				# plateau, modified, ocean, river, water, mesa, forest,
 				# plains, mountain, hills, swamp, sandy, snowy, wasteland,
 				# beach, void, overworld, nether, end, underground]
-				"Biome Types" = ["ocean", "beach", "nether", "end"]
+				"Biome Types" = ["ocean", "beach", "nether", "end", "void"]
 				"Is Blacklist" = true
 
 			[world.big_dungeon.biome_config.biomes]
-				Biomes = ["undergarden:ancient_sea", "undergarden:barren_abyss", "undergarden:dead_sea", "undergarden:dense_forest", "undergarden:forgotten_field", "undergarden:frostfields", "undergarden:gronglegrowth", "undergarden:icy_sea", "undergarden:mushroom_bog", "undergarden:smogstem_forest", "undergarden:smog_spires", "undergarden:wigglewood_forest", "dimdungeons:biome_dungeon", "blue_skies:calming_skies", "blue_skies:brightlands", "blue_skies:slushlands", "blue_skies:frostbitten_forest", "blue_skies:peeking_ocean", "blue_skies:midday_shore", "blue_skies:unorthodox_valley", "blue_skies:shaded_woodlands", "blue_skies:crystal_dunes", "blue_skies:sunset_maple_forest", "blue_skies:rising_creek", "blue_skies:snow_covered_pines", "blue_skies:deep_peeking_ocean", "blue_skies:brisk_meadow", "blue_skies:polar_highland", "blue_skies:frostbitten_forest_clearing", "blue_skies:brumble_forest", "blue_skies:moonlit_reservoir", "blue_skies:crystal_roughs", "blue_skies:searing_grassland", "blue_skies:crescent_orchard", "blue_skies:crescent_orchard_lake", "blue_skies:crystal_dunes_spikes", "beyond_earth:moon", "beyond_earth:mars", "beyond_earth:mars_ice_spikes", "beyond_earth:venus", "beyond_earth:infernal_venus_barrens", "beyond_earth:mercury", "beyond_earth:glacio", "beyond_earth:glacio_ice_spikes", "beyond_earth:orbit"]
+				Biomes = []
 				"Is Blacklist" = true
 
 	[world.azalea_wood]
