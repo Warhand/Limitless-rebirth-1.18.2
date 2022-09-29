@@ -1,7 +1,7 @@
 {    
 	"name": "Alloy Kiln",    
 	"icon": "immersiveengineering:alloy_smelter",
-	"category": "workbenches_and_furnaces",    
+	"category": "patchouli:workbenches_and_furnaces",    
 	"pages": [
 		{            
 			"type": "patchouli:text",            

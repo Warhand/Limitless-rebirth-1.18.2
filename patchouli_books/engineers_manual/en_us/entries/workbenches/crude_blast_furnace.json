@@ -1,7 +1,7 @@
 {    
 	"name": "Crude Blast Furnace",    
 	"icon": "immersiveengineering:blast_furnace",
-	"category": "workbenches_and_furnaces",    
+	"category": "patchouli:workbenches_and_furnaces",    
 	"pages": [        
 		{            
 			"type": "patchouli:text",            
