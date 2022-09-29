@@ -11,15 +11,15 @@ import crafttweaker.api.fluid.IFluidStack;
 import crafttweaker.api.tag.type.KnownTag;
 
 
-//adding var for hammers
+//adding val for hammers
 
-public var hammers = [
+public val hammers = [
 <item:immersiveengineering:hammer>
 ];
 
 //new plates recipes
 
-public var plates = [
+public val plates = [
 	<item:extendedcrafting:black_iron_slate>
 ];
 
@@ -58,8 +58,8 @@ for item in hammers {
 craftingTable.addShapeless("black_iron_slate_recipe_with" + item.registryName.namespace, <item:extendedcrafting:black_iron_slate>, [<item:extendedcrafting:black_iron_ingot>, <item:extendedcrafting:black_iron_ingot>, item.anyDamage().transformDamage(1)]);
 }
 
-//adding var for cutters
-public var cutters = [
+//adding val for cutters
+public val cutters = [
 	<item:immersiveengineering:wirecutter>,
 	<item:botania:manasteel_shears>,
 	<item:botania:elementium_shears>,

@@ -25,7 +25,7 @@ craftingTable.removeByRegex("tconstruct:tables.*");
 
 
 //an array for all recipe names used to mold sand tool casts in the casting table
-var sand_casts = [
+val sand_casts = [
 		"tconstruct:smeltery/casts/sand_casts/broad_axe_head",
 		"tconstruct:smeltery/casts/sand_casts/broad_blade",
 		"tconstruct:smeltery/casts/sand_casts/hammer_head",
@@ -59,7 +59,7 @@ for item in sand_casts {
 
 
 //an array for all recipe names used to cast gold tool casts in the casting table
-var gold_casts = [
+val gold_casts = [
 		"tconstruct:smeltery/casts/gold_casts/broad_axe_head",
 		"tconstruct:smeltery/casts/gold_casts/broad_blade",
 		"tconstruct:smeltery/casts/gold_casts/hammer_head",
@@ -79,7 +79,7 @@ for item in gold_casts {
 
 
 //an array of all items to hide from JEI.
-var hideJEI = [
+val hideJEI = [
 	<item:tconstruct:pick_head_cast>,
 	<item:tconstruct:small_axe_head_cast>,
 	<item:tconstruct:small_blade_cast>,

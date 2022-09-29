@@ -74,7 +74,7 @@ import mods.jei.JEI;
 <recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/iron/wire_gold_cast");
 <recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/iron/wire_sand_cast");
 
-public var crafting_table_strings = [
+val crafting_table_strings = [
 "extendedcrafting:black_iron_ingot",
 "extendedcrafting:redstone_ingot",
 "jaopca:nuggets.to_material.utherium",
@@ -99,8 +99,8 @@ for str in crafting_table_strings{
 craftingTable.removeByName(str);
 }
 
-public var blast_furnace_strings = [
 "jaopca:create.crushed_to_ingot_blasting.regalium",
+val blast_furnace_strings = [
 "jaopca:dusts.to_material_blasting.regalium",
 "jaopca:create.crushed_to_ingot_blasting.utherium",
 "jaopca:dusts.to_material_blasting.utherium",
@@ -111,8 +111,8 @@ for str in blast_furnace_strings{
 blastFurnace.removeByName(str);
 }
 
-public var furnace_strings = [
 "jaopca:create.crushed_to_ingot_smelting.regalium",
+val furnace_strings = [
 "jaopca:dusts.to_material.regalium",
 "jaopca:create.crushed_to_ingot_smelting.utherium",
 "jaopca:dusts.to_material.utherium",
