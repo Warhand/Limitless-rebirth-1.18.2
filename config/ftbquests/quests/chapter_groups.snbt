@@ -1,8 +1,7 @@
 {
 	chapter_groups: [
-		{ id: "34BB85C0E80BC4C8", title: "The basics" }
+		{ id: "34BB85C0E80BC4C8", title: "miscellanea" }
 		{ id: "4518160DE3B52D86", title: "Magic" }
 		{ id: "25CEE4F4E9FCF868", title: "Technology" }
-		{ id: "6070CE001052EDA2", title: "Exploration" }
 	]
 }

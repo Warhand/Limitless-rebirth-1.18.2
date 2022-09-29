@@ -16,195 +16,98 @@
 			subtitle: "\"Thanks for downloading the pack!\""
 			description: [
 				"Welcome to the FTB questing menu, the menu that tracks all of your quests and rewards throughout your playthrough."
-				"While this pack generally focuses on sandbox style play, and doesn't want to push people into any one playstyle, I do also want to provide these quests as a sort of ingame tutorial, for those who are new to modpacks, or who just like to have stuff to do!"
-				"Quests are completed by completing the various tasks associated with them, usually this involves collecting an item, but it can also involve finding a structure, going to a dimension, defeating a certain number of mods, or any other task!"
-				"Quests can also be Pinned, which will allow them to show up on the right of your screen, and track your progress."
-				"This quest only allows you to click the button to complete it, consider it my welcome gift to you!"
+				""
+				"Pentagon shaped quests like this represent the start of a questing tree."
+				""
+				"This particular quest is completed by just clicking the checkmark, but other quests have different types of tasks you need to complete in order to gain their rewards and continue along in their quest tree."
 			]
 			id: "7C19B9BE95BBC4A8"
 			tasks: [{
 				id: "07243F4EDD1FB7C9"
 				type: "checkmark"
 			}]
-			rewards: [
-				{
-					id: "209B590D4343F712"
-					type: "item"
-					item: {
-						id: "treasurebags:treasure_bag"
-						Count: 1b
-						tag: {
-							silentlib.LootContainer: {
-								LootTable: "limitlessrebirth:common"
-								BagType: "limitlessrebirth:common_bag"
-							}
-						}
-					}
-				}
-				{
-					id: "5DE304C368793651"
-					type: "item"
-					item: "minecraft:bread"
-					count: 16
-				}
-			]
+			rewards: [{
+				id: "5DE304C368793651"
+				type: "item"
+				item: "minecraft:bread"
+				count: 8
+			}]
 		}
 		{
-			title: "Starting out: Logs"
-			icon: "minecraft:oak_log"
+			title: "Collect logs"
 			x: 0.0d
-			y: -2.0d
-			subtitle: "\"Lumbering around\""
+			y: -1.5d
 			dependencies: ["7C19B9BE95BBC4A8"]
-			id: "458092FB73C98F44"
+			id: "64121C6E037A9B71"
 			tasks: [{
-				id: "757265732842F13E"
+				id: "1F824756A545054D"
 				type: "item"
-				title: "Any #minecraft:logs"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "minecraft:logs"
-					}
-				}
-				count: 16L
+				item: "minecraft:oak_log"
 			}]
-			rewards: [{
-				id: "5B34BE68C7533354"
+		}
+		{
+			title: "Plant a tree"
+			icon: {
+				id: "minecraft:oak_sapling"
+				Count: 1b
+				tag: { }
+			}
+			x: -1.5d
+			y: -1.5d
+			shape: "rsquare"
+			subtitle: "\"Did the Lorax talk you into this?\""
+			dependencies: ["64121C6E037A9B71"]
+			optional: true
+			id: "1DB855EE1023FAE4"
+			tasks: [{
+				id: "3E1DCE2D7E276276"
+				type: "observation"
+				timer: 0L
+				observe_type: 0
+				to_observe: "minecraft:oak_sapling"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			shape: "hexagon"
+			dependencies: ["64121C6E037A9B71"]
+			id: "11D0C4ADB67A779C"
+			tasks: [{
+				id: "2F83FFF3AED988AE"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "minecraft:stone_pickaxe"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:common"
-							BagType: "limitlessrebirth:common_bag"
-						}
+						Damage: 0
 					}
 				}
 			}]
 		}
 		{
-			title: "Starting out: Paragliders"
-			x: 2.0d
-			y: 0.0d
-			shape: "rsquare"
-			subtitle: "\"One step closer to your dream of becoming a bird!\""
-			optional: true
-			id: "5B364CE0C28AB8AD"
+			x: 0.0d
+			y: -4.5d
+			shape: "octagon"
+			dependencies: ["11D0C4ADB67A779C"]
+			size: 1.5d
+			id: "5597A78C9F52EE44"
 			tasks: [{
-				id: "2C66FAC58BFEE015"
+				id: "3A8B67D392A90203"
 				type: "item"
-				item: "paraglider:paraglider"
-			}]
-			rewards: [{
-				id: "0AEEDF9BBDE1C27D"
-				type: "item"
-				item: {
-					id: "treasurebags:treasure_bag"
-					Count: 1b
-					tag: {
-						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:common"
-							BagType: "limitlessrebirth:common_bag"
-						}
-					}
-				}
+				item: "minecraft:iron_ingot"
 			}]
 		}
 		{
-			title: "Starting out: Bundles"
-			x: 2.0d
-			y: -2.0d
-			shape: "rsquare"
-			subtitle: "\"Like a bag of holding except finite\""
-			description: [
-				"A bundle can be used to hold up to 64 items of any kind, allowing you to conserve space taken up by incomplete stacks of items."
-				"Items with max stack sizes less than 64 (Such as tools, ender pearls, and eggs) will take up as much space as they would in a stack, so an egg would take up 4 spots, and a tool would take up all 64, making it rather inefficient to put tools in the bag."
-				"You can right click on the bag to extract the last item that was put into it, or you can right click while holding the bag to dump it all out at once."
-			]
-			optional: true
-			id: "0F79C1F1A5A6A913"
+			x: -1.5d
+			y: -3.0d
+			shape: "gear"
+			secret: true
+			id: "53C2CC3CDA28C29E"
 			tasks: [{
-				id: "65CF193CE14E3E59"
+				id: "63219DB73A047F13"
 				type: "item"
-				item: "minecraft:bundle"
-			}]
-			rewards: [{
-				id: "5C2684DF6A7A97E0"
-				type: "item"
-				item: {
-					id: "treasurebags:treasure_bag"
-					Count: 1b
-					tag: {
-						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:common"
-							BagType: "limitlessrebirth:common_bag"
-						}
-					}
-				}
-			}]
-		}
-		{
-			title: "Something that should probably just be in vanilla honestly"
-			x: -2.0d
-			y: 0.0d
-			shape: "rsquare"
-			subtitle: "\"Like seriously, why isn't it?\""
-			description: [
-				"By putting blocks of raw ore in a blast furnace, you can smelt them straight into blocks of processed metal!"
-				"This process takes more time than a typical blast furance recipe, but its still much quicker than smelting the raw ore items individually."
-			]
-			optional: true
-			id: "42FAE51B2C79FFBC"
-			tasks: [{
-				id: "5DC119E62EA6F305"
-				type: "item"
-				item: "minecraft:blast_furnace"
-			}]
-			rewards: [{
-				id: "75B92B1D895E88B5"
-				type: "item"
-				item: {
-					id: "treasurebags:treasure_bag"
-					Count: 1b
-					tag: {
-						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:common"
-							BagType: "limitlessrebirth:common_bag"
-						}
-					}
-				}
-			}]
-		}
-		{
-			title: "Kiln smelting"
-			x: -4.0d
-			y: 0.0d
-			shape: "rsquare"
-			subtitle: "\"Brick, brick, brick, brick, brick, Its fun\""
-			description: ["The kiln is a similar block to the blast furnace and smoker, in that its used to quickly smelt specific recipes, in this case, its things like bricks, glass, and other building materials!"]
-			optional: true
-			id: "0B9E968FE0505871"
-			tasks: [{
-				id: "49B047CBC7038AE2"
-				type: "item"
-				item: "simplekiln:kiln"
-			}]
-			rewards: [{
-				id: "7FF4F96D1AC30A7F"
-				type: "item"
-				item: {
-					id: "treasurebags:treasure_bag"
-					Count: 1b
-					tag: {
-						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:common"
-							BagType: "limitlessrebirth:common_bag"
-						}
-					}
-				}
+				item: "minecraft:apple"
 			}]
 		}
 	]

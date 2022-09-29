@@ -1,7 +1,7 @@
 {
 	id: "1E0CDDE218AB6695"
 	group: "25CEE4F4E9FCF868"
-	order_index: 0
+	order_index: 1
 	filename: "create"
 	title: "Create"
 	icon: "create:wrench"
@@ -43,6 +43,7 @@
 			description: [
 				"A mechanic specializing in kinetic contraptions has a few tools of the trade that allow them to work to the fullest extent of their abilities!"
 				"The Engineers goggles allow the wearer to see clearly enough to tell how much SU a machine is producing or consuming from a contraption, as well as other important details. They can be worn in the helmet slot, or in the head slot as a curio."
+				""
 				"The Create wrench can be used to turn components in different directions by right clicking, or you can hold shift before right clicking in order to instantly break a component, allowing you to quickly dismantle your contraptions."
 			]
 			dependencies: ["4322B1494BB74643"]
@@ -86,14 +87,14 @@
 			icon: "create:experience_nugget"
 			x: 0.0d
 			y: 1.5d
-			shape: "rsquare"
+			shape: "circle"
 			description: [
 				"Pondering is a mechanic unique to create, where you can hover over certain items and hold W to be shown a short ingame render explaining how to use them."
+				""
 				"Pondering is often the best way to get a full grasp of how a certain block or item can be used, and you can also search the pondering menu for other entries!"
 				"For more details than are provided in this questline, the pondering mechanic is always there for you."
 			]
 			dependencies: ["4322B1494BB74643"]
-			optional: true
 			id: "3AE0C85A95D984F4"
 			tasks: [{
 				id: "4AD90674EB50DC8E"
@@ -109,6 +110,7 @@
 				"Rotational force is the primary way you get your kinetic devices to function, and as such its important to know how it works."
 				"Rotational force is generated when things rotate, and there are a number of ways this can happen, from waterwheels, to steam engines, and the most simple of them, a hand crank."
 				"Starting with the hand crank, you can generate rotational force by holding down right click, and you can also reverse the direction by holding down shift."
+				""
 				"To make use of this rotational force, place down a millstone, attach a cog to it, and place a hand crank on the shaft of the cog. Once you have this set up, you'll have a fully functional millstone! Which can be used to grind wheat into wheat flour."
 			]
 			dependencies: ["4322B1494BB74643"]

@@ -1,7 +1,7 @@
 {
 	id: "623E8DEA16FF7FBD"
-	group: ""
-	order_index: 1
+	group: "34BB85C0E80BC4C8"
+	order_index: 5
 	filename: "challenges"
 	title: "Challenges"
 	icon: "quark:rainbow_rune"
@@ -251,6 +251,7 @@
 			x: 0.0d
 			y: -3.5d
 			subtitle: "\"Your attacks now score critical hits on rolls of 19 or 20!\""
+			description: ["Kill a certain amount of all the basic overworld mobs, which can be found either spawning on the surface or underground."]
 			optional: true
 			id: "0EAC88E3CAC37AF4"
 			tasks: [
@@ -519,13 +520,17 @@
 			title: "Ascended"
 			icon: "paraglider:anti_vessel"
 			x: 0.0d
-			y: -7.0d
+			y: -9.0d
 			shape: "gear"
-			subtitle: "\"Please go outside now\""
+			subtitle: "\"Are you okay?\""
 			description: ["You did it, you crafted every creative item, please go touch grass now."]
 			hide_dependency_lines: true
-			dependencies: ["5250C8038CF4D185"]
+			dependencies: [
+				"5250C8038CF4D185"
+				"221A3E966F516AE5"
+			]
 			hide: true
+			size: 1.5d
 			optional: true
 			id: "5FEF0053081E8071"
 			tasks: [
@@ -566,19 +571,9 @@
 				}
 			]
 			rewards: [{
-				id: "35AFEFD1CBF28B0E"
+				id: "0331C85C883C4913"
 				type: "item"
-				item: {
-					id: "treasurebags:treasure_bag"
-					Count: 1b
-					tag: {
-						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:epic"
-							BagType: "limitlessrebirth:limitless_bag"
-						}
-					}
-				}
-				count: 64
+				item: "malum:the_device"
 			}]
 		}
 		{
@@ -863,6 +858,7 @@
 			}]
 		}
 		{
+			title: "Golden recollections..."
 			x: -4.0d
 			y: -14.0d
 			shape: "diamond"
@@ -1097,6 +1093,7 @@
 			}]
 		}
 		{
+			title: "Soulful reflection..."
 			x: -3.0d
 			y: -13.0d
 			shape: "diamond"
@@ -1259,10 +1256,11 @@
 		}
 		{
 			title: "Graveyard smash"
-			icon: "graveyard:corruption"
+			icon: "botania:fel_pumpkin"
 			x: -2.0d
 			y: -3.5d
 			subtitle: "\"You sure mashed those monsters!\""
+			description: ["Kill a certain amount of graveyard mobs, which can either be found spawning naturally, or can be found in particularly spooky structures."]
 			optional: true
 			id: "2237009B0E490065"
 			tasks: [
@@ -1328,6 +1326,7 @@
 			x: 2.0d
 			y: -3.5d
 			subtitle: "You either love villagers or REALLY hate illagers"
+			description: ["Kill a certain number of illagers, which spawn either in small scouting parties, pillager structures, or during full on raids."]
 			id: "17D51FF6DB263436"
 			tasks: [
 				{

@@ -1,0 +1,11 @@
+{
+	id: "263BE1905A7A40A7"
+	group: "25CEE4F4E9FCF868"
+	order_index: 3
+	filename: "industrial_contraptions"
+	title: "Industrial contraptions"
+	icon: "ftbic:electronic_circuit"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

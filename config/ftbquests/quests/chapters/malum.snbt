@@ -1,0 +1,17 @@
+{
+	id: "488C40FA1AD1F6F2"
+	group: "4518160DE3B52D86"
+	order_index: 2
+	filename: "malum"
+	title: "Malum"
+	icon: {
+		id: "malum:soul_stained_steel_scythe"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

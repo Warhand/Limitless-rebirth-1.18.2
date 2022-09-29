@@ -1,0 +1,11 @@
+{
+	id: "221A3E966F516AE5"
+	group: "4518160DE3B52D86"
+	order_index: 4
+	filename: "blood_magic"
+	title: "Blood magic"
+	icon: "bloodmagic:weakbloodshard"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

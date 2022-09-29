@@ -1,7 +1,7 @@
 {
 	id: "3D44DC15D46FA163"
 	group: "4518160DE3B52D86"
-	order_index: 0
+	order_index: 1
 	filename: "magic"
 	title: "Botania"
 	icon: "botania:mana_pylon"
@@ -70,6 +70,7 @@
 			description: [
 				"Flower crafting is a critical component of botanical magic, and this process can be done in the petal apothecary!"
 				"Simply fill the petal apothecary with water, drop the required petals in, and then finish the recipe by dropping in some seeds."
+				""
 				"If you drop a bucket of water on top of an empty petal apothecary, it will automatically use the water from the bucket to fill the basin, meaning this process can be automated if you have the smarts to do so!"
 			]
 			dependencies: ["6C35735DE3CE0923"]
@@ -193,7 +194,9 @@
 			description: [
 				"When you have some mana in your mana pool, you can begin to use it for mana crafting."
 				"Mana crafting is achieved by tossing the proper item into a mana pool when it contains enough mana."
+				""
 				"The best place to start would be creating manasteel, which is created by tossing an iron ingot into a mana pool. This process only uses a small amount of mana, but other items might be more expensive."
+				""
 				"The main things you'll be making with this process are manasteel, mana diamonds, and mana pearls, which are all basic crafting components of Botanical magic."
 			]
 			dependencies: [
@@ -229,6 +232,7 @@
 			shape: "rsquare"
 			description: [
 				"Eventually your inventory will get very full of all the different types of mystical flowers you're picking up, Which is why it might be a good idea to craft yourself a flower pouch!"
+				""
 				"The flower pouch can hold a full stack of every flower type, and will automatically pick up any mystical flowers that enter your inventory, as long as it has the space for them."
 			]
 			dependencies: ["6C35735DE3CE0923"]
@@ -881,6 +885,7 @@
 			shape: "rsquare"
 			description: [
 				"Open crates are made of livingwood, and are a cornerstone of botanical automation. When an item is inserted into them (Using either a hopper or a pipe.) the item will instantly drop from the bottom of the crate into the world, which can allow for many interactions with flowers or botanical mechanisms."
+				""
 				"One of the first uses of an open crate most botanists will attempt is to use it to automate the refueling of an endoflame, by having the open crate drop fuel onto a wooden pressure plate, that disables the hopper connected to the crate, meaning there will only ever be one item out at a time, allowing the plant to finish consuming one item before the crate drops another."
 			]
 			hide_dependency_lines: true
@@ -968,20 +973,38 @@
 				type: "item"
 				item: "botania:dice"
 			}]
-			rewards: [{
-				id: "2FD8DA7755003AB7"
-				type: "item"
-				item: {
-					id: "treasurebags:treasure_bag"
-					Count: 1b
-					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:limitless_bag"
-							LootTable: "limitlessrebirth:epic"
+			rewards: [
+				{
+					id: "2FD8DA7755003AB7"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								BagType: "limitlessrebirth:limitless_bag"
+								LootTable: "limitlessrebirth:epic"
+							}
 						}
 					}
 				}
-			}]
+				{
+					id: "508160D07B4E70CB"
+					type: "item"
+					item: {
+						id: "trophymanager:trophy"
+						Count: 1b
+						tag: {
+							TrophyEntity: {
+								entityType: "botania:doppleganger"
+							}
+							BaseBlock: "botania:light_launcher"
+							Name: "Botania Trophy"
+							TrophyType: "entity"
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Botanical brewing"
@@ -1441,14 +1464,15 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -2.0d
-			shape: "rsquare"
+			x: -8.0d
+			y: -5.0d
+			shape: "gear"
 			subtitle: "Tiny potato"
 			description: ["Tiny potato"]
 			hide_dependency_lines: true
 			dependencies: ["0D7C93FCF4A92371"]
 			optional: true
+			secret: true
 			id: "0FC2C462065D228B"
 			tasks: [{
 				id: "7EC5D549567D24D4"

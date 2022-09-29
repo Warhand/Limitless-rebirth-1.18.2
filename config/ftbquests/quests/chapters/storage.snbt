@@ -44,17 +44,5 @@
 				item: "ironchest:iron_to_gold_chest_upgrade"
 			}]
 		}
-		{
-			x: -1.5d
-			y: 0.0d
-			shape: "rsquare"
-			optional: true
-			id: "0AC7A0EDC8B3C230"
-			tasks: [{
-				id: "443C924ACEC51DEE"
-				type: "item"
-				item: "minecraft:bundle"
-			}]
-		}
 	]
 }

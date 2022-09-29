@@ -7,15 +7,33 @@
 	icon: "minecraft:scaffolding"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: 0.0d
-		y: 0.0d
-		id: "32BA21F9BD982E78"
-		tasks: [{
-			id: "4A594DCD3F9CE83F"
-			type: "item"
-			item: "minecraft:scaffolding"
-			count: 8L
-		}]
-	}]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "32BA21F9BD982E78"
+			tasks: [{
+				id: "4A594DCD3F9CE83F"
+				type: "item"
+				item: "minecraft:scaffolding"
+				count: 8L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			shape: "rsquare"
+			optional: true
+			id: "57EBAFD6ED1F1C67"
+			tasks: [{
+				id: "077BCB49A4757BB7"
+				type: "item"
+				item: {
+					id: "effortlessbuilding:reach_upgrade1"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+	]
 }

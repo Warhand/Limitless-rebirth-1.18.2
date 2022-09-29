@@ -1,0 +1,11 @@
+{
+	id: "40ED98A88BE1E0C6"
+	group: "25CEE4F4E9FCF868"
+	order_index: 2
+	filename: "little_logistics"
+	title: "Little logistics"
+	icon: "littlelogistics:steam_locomotive"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

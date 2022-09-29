@@ -45,8 +45,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:uncommon_bag"
 							LootTable: "limitlessrebirth:uncommon"
+							BagType: "limitlessrebirth:uncommon_bag"
 						}
 					}
 				}
@@ -61,8 +61,8 @@
 					name_type: 1
 					dest_x: 1
 					dungeon_type: "BASIC"
-					built: 0b
 					key_activated: 1b
+					built: 0b
 					theme: 0
 					dest_z: 0
 					name_part_2: 23
@@ -219,8 +219,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
 							LootTable: "limitlessrebirth:common"
+							BagType: "limitlessrebirth:common_bag"
 						}
 					}
 				}
