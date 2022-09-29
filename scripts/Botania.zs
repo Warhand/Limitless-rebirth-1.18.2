@@ -184,7 +184,7 @@ import mods.jei.JEI;
   "input": "minecraft:stone",
   "output": {
     "type": "block",
-    "block": "ftbic:lead_ore"
+    "block": "immersiveengineering:ore_lead"
   },
   "weight": 2600
 });
@@ -320,7 +320,7 @@ import mods.jei.JEI;
   "input": "minecraft:deepslate",
   "output": {
     "type": "block",
-    "block": "ftbic:deepslate_lead_ore"
+    "block": "immersiveengineering:deepslate_ore_lead"
   },
   "weight": 100
 });
