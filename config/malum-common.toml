@@ -55,7 +55,7 @@
 
 	[worldgen.natural_quartz_geode]
 		#Should quartz geodes generate?
-		generateQuartzGeodes = true
+		generateQuartzGeodes = false
 		#Which dimensions can quartz geodes generate in?
 		quartzGeodeDimensions = ["minecraft:overworld"]
 
@@ -67,15 +67,15 @@
 
 	[worldgen.natural_quartz]
 		#Should natural quartz ore generate?
-		generateBrilliantStone = true
+		generateBrilliantStone = false
 		#Size of natural quartz ore veins.
-		naturalQuartzSize = 4
+		naturalQuartzSize = 1
 		#Amount of natural quartz ore veins.
 		naturalQuartzAmount = 1
 		#Minimum height at which natural quartz ore can spawn.
-		naturalQuartzMinY = -64
+		naturalQuartzMinY = 0
 		#Maximum height at which natural quartz ore can spawn.
-		naturalQuartzMaxY = 10
+		naturalQuartzMaxY = 1
 
 [item]
 
