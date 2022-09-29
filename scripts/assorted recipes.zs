@@ -22,23 +22,16 @@ craftingTable.addShaped("ender_lead", <item:apotheosis:ender_lead>, [[<item:mine
 
 //waystones warp stone
 craftingTable.remove(<item:waystones:warp_stone>);
-craftingTable.addShaped("waystones_warp_stone", <item:waystones:warp_stone>, [[<item:waystones:warp_dust>, <item:minecraft:ender_pearl>, <item:waystones:warp_dust>], [<item:minecraft:ender_pearl>, <tag:items:balm:emeralds>, <item:minecraft:ender_pearl>], [<item:waystones:warp_dust>, <item:minecraft:ender_pearl>, <item:waystones:warp_dust>]]);
+craftingTable.addShaped("waystones_warp_stone", <item:waystones:warp_stone>, [[<item:waystones:warp_dust>, <item:minecraft:chorus_fruit>, <item:waystones:warp_dust>], [<item:minecraft:chorus_fruit>, <tag:items:forge:gems/diamond>, <item:minecraft:chorus_fruit>], [<item:waystones:warp_dust>, <item:minecraft:chorus_fruit>, <item:waystones:warp_dust>]]);
 
 //waystones warp dust
 craftingTable.remove(<item:waystones:warp_dust>);
-craftingTable.addShapeless("waystones_warp_dust", <item:waystones:warp_dust> * 2, [<tag:items:forge:dusts/ender>, <item:minecraft:chorus_fruit>, <item:minecraft:blaze_powder>]);
-
-//waystone warp plate 
-craftingTable.remove(<item:waystones:warp_plate>);
-craftingTable.addShaped("warp_plate", <item:waystones:warp_plate>, [[<item:minecraft:stone_bricks>, <item:waystones:warp_dust>, <item:minecraft:stone_bricks>], [<item:waystones:warp_dust>, <item:minecraft:emerald>, <item:waystones:warp_dust>], [<item:minecraft:stone_bricks>, <item:waystones:warp_dust>, <item:minecraft:stone_bricks>]]);
+craftingTable.addShapeless("waystones_warp_dust", <item:waystones:warp_dust>, [<tag:items:forge:dusts/ender>, <tag:items:forge:gems/amethyst>]);
+craftingTable.addShapeless("ender_waystones_warp_dust", <item:waystones:warp_dust> * 4, [<tag:items:forge:dusts/ender>, <item:minecraft:chorus_fruit>, <item:minecraft:blaze_powder>]);
 
 //minecraft lightning rod
 craftingTable.remove(<item:minecraft:lightning_rod>);
 craftingTable.addShaped("minecraft_lightning_rod", <item:minecraft:lightning_rod>, [[<tag:items:forge:storage_blocks/copper>], [<tag:items:forge:rods/copper>], [<tag:items:forge:rods/copper>]]);
-
-//quark ender watcher
-craftingTable.remove(<item:quark:ender_watcher>);
-craftingTable.addShaped("quark_ender_watcher", <item:quark:ender_watcher>, [[<item:minecraft:obsidian>, <tag:items:forge:dusts/redstone>, <item:minecraft:obsidian>], [<tag:items:forge:dusts/redstone>, <item:minecraft:ender_eye>, <tag:items:forge:dusts/redstone>], [<item:minecraft:obsidian>, <tag:items:forge:dusts/redstone>, <item:minecraft:obsidian>]]);
 
 //pretty pipes blank module
 craftingTable.remove(<item:prettypipes:blank_module>);
@@ -50,7 +43,7 @@ craftingTable.addShapedMirrored("prettypipes_wrench", <constant:minecraft:mirror
 
 //pretty pipes pipe
 craftingTable.remove(<item:prettypipes:pipe>);
-craftingTable.addShaped("prettypipes_pipe", <item:prettypipes:pipe> * 4, [[<item:minecraft:redstone>, <item:minecraft:redstone>, <item:minecraft:redstone>], [<tag:items:forge:fences/steel>, <item:quark:framed_glass>, <tag:items:forge:fences/steel>], [<item:minecraft:redstone>, <item:minecraft:redstone>, <item:minecraft:redstone>]]);
+craftingTable.addShaped("prettypipes_pipe", <item:prettypipes:pipe> * 4, [[IIngredientEmpty.getInstance(), <tag:items:forge:plates/steel>, IIngredientEmpty.getInstance()], [<tag:items:forge:plates/steel>, <tag:items:forge:glass/colorless>, <tag:items:forge:plates/steel>], [IIngredientEmpty.getInstance(), <tag:items:forge:plates/steel>, IIngredientEmpty.getInstance()]]);
 
 //pretty pipes item terminal
 craftingTable.remove(<item:prettypipes:item_terminal>);
@@ -100,24 +93,17 @@ craftingTable.addShaped("integrateddynamics_crafting_variable_transformer_output
 craftingTable.remove(<item:integrateddynamics:energy_battery>);
 craftingTable.addShaped("integrateddynamics_crafting_energy_battery", <item:integrateddynamics:energy_battery>.withTag({energy: 0 as int}), [[<tag:items:integrateddynamics:menril_logs>, <item:integrateddynamics:crystalized_menril_block>, <tag:items:integrateddynamics:menril_logs>], [<tag:items:integrateddynamics:menril_logs>, <item:immersiveengineering:capacitor_mv>, <tag:items:integrateddynamics:menril_logs>], [<tag:items:integrateddynamics:menril_logs>, <item:integrateddynamics:crystalized_menril_block>, <tag:items:integrateddynamics:menril_logs>]]);
 
-//supplementaries blue bomb
-craftingTable.addShapeless("supplementaries_bomb_blue", <item:supplementaries:bomb_blue>, [<item:quark:blue_rune>, <item:supplementaries:bomb>]);
-
 //storage drawers glowing label
 craftingTable.remove(<item:storagedrawers:illumination_upgrade>);
 craftingTable.addShaped("storagedrawers_illumination_upgrade", <item:storagedrawers:illumination_upgrade> * 8, [[<item:minecraft:glow_ink_sac>, <tag:items:forge:rods/wooden>, <item:minecraft:glow_ink_sac>], [<tag:items:forge:rods/wooden>, <item:storagedrawers:upgrade_template>, <tag:items:forge:rods/wooden>], [<item:minecraft:glow_ink_sac>, <tag:items:forge:rods/wooden>, <item:minecraft:glow_ink_sac>]]);
 
-//waystones return scroll
+//waystones scrolls custom recipes
 craftingTable.remove(<item:waystones:return_scroll>);
-craftingTable.addShaped("waystones_return_scroll", <item:waystones:return_scroll> * 2, [[<tag:items:balm:gold_nuggets>, <item:waystones:warp_dust>, <tag:items:balm:gold_nuggets>], [<item:minecraft:paper>, <item:minecraft:paper>, <item:minecraft:paper>]]);
-
-//waystones bound scroll
 craftingTable.remove(<item:waystones:bound_scroll>);
-craftingTable.addShaped("waystones_bound_scroll", <item:waystones:bound_scroll> * 4, [[<tag:items:balm:gold_nuggets>, IIngredientEmpty.getInstance(), <tag:items:balm:gold_nuggets>], [<item:waystones:warp_dust>, <tag:items:balm:gold_nuggets>, <item:waystones:warp_dust>], [<item:minecraft:paper>, <item:minecraft:paper>, <item:minecraft:paper>]]);
-
-//waystones warp scroll
 craftingTable.remove(<item:waystones:warp_scroll>);
-craftingTable.addShaped("waystones_warp_scroll", <item:waystones:warp_scroll> * 4, [[<tag:items:balm:gold_nuggets>, <item:waystones:warp_stone>, <tag:items:balm:gold_nuggets>], [<item:minecraft:paper>, <item:minecraft:paper>, <item:minecraft:paper>]]);
+
+craftingTable.addShapeless("waystones_bound_scroll", <item:waystones:bound_scroll> * 2, [<item:minecraft:paper>, <item:waystones:warp_dust>, <tag:items:forge:nuggets/gold>]);
+craftingTable.addShapeless("waystones_warp_scroll", <item:waystones:warp_scroll>, [<item:minecraft:blaze_powder>, <item:waystones:bound_scroll>]);
 
 //replacing ARS guidebook recipe
 craftingTable.remove(<item:ars_nouveau:worn_notebook>);
@@ -242,7 +228,7 @@ craftingTable.addShaped("extendedcrafting_redstone_ingot", <item:extendedcraftin
 craftingTable.addShaped("custom_brimstone_fumarole", <item:biomesoplenty:brimstone_fumarole>, [[<item:biomesoplenty:brimstone>, <item:minecraft:campfire>, <item:biomesoplenty:brimstone>], [<item:biomesoplenty:brimstone>, <item:minecraft:magma_block>, <item:biomesoplenty:brimstone>]]);
 
 //IE waterwheel
-craftingTable.addShaped("immersiveengineering_watermill", <item:immersiveengineering:watermill>, [[IIngredientEmpty.getInstance(), <item:immersiveengineering:waterwheel_segment>, IIngredientEmpty.getInstance()], [<item:immersiveengineering:waterwheel_segment>, <tag:items:forge:rods/steel>, <item:immersiveengineering:waterwheel_segment>], [IIngredientEmpty.getInstance(), <item:immersiveengineering:waterwheel_segment>, IIngredientEmpty.getInstance()]]);
+craftingTable.addShaped("immersiveengineering_watermill", <item:immersiveengineering:watermill>, [[IIngredientEmpty.getInstance(), <item:immersiveengineering:waterwheel_segment>, IIngredientEmpty.getInstance()], [<item:immersiveengineering:waterwheel_segment>, <tag:items:forge:rods/iron>, <item:immersiveengineering:waterwheel_segment>], [IIngredientEmpty.getInstance(), <item:immersiveengineering:waterwheel_segment>, IIngredientEmpty.getInstance()]]);
 
 //IE windmill
 craftingTable.addShaped("immersiveengineering_windmill", <item:immersiveengineering:windmill>, [[<item:immersiveengineering:windmill_blade>, <item:immersiveengineering:windmill_blade>, <item:immersiveengineering:windmill_blade>], [<item:immersiveengineering:windmill_blade>, <tag:items:forge:rods/iron>, <item:immersiveengineering:windmill_blade>], [<item:immersiveengineering:windmill_blade>, <item:immersiveengineering:windmill_blade>, <item:immersiveengineering:windmill_blade>]]);
@@ -540,62 +526,25 @@ craftingTable.addShapeless("custom_uncrafting_flesh_block", <item:minecraft:rott
 craftingTable.addShapeless("custom_coal_dye", <item:minecraft:black_dye> * 2, [<item:ftbic:charcoal_dust>|<item:ftbic:coal_dust>, <item:minecraft:potion>.withTag({Potion: "minecraft:water" as string})]);
 craftingTable.addShapeless("custom_coal_dye_bucket", <item:minecraft:black_dye> * 8, [<item:ftbic:charcoal_dust>|<item:ftbic:coal_dust>, <item:ftbic:charcoal_dust>|<item:ftbic:coal_dust>, <item:ftbic:charcoal_dust>|<item:ftbic:coal_dust>, <item:ftbic:charcoal_dust>|<item:ftbic:coal_dust>, <item:minecraft:water_bucket>]);
 
-//Fixed cfm crates
-craftingTable.addShaped("custom_stripped_warped_crate", <item:cfm:stripped_warped_crate> * 4, [[<item:minecraft:stripped_warped_stem>, <item:minecraft:warped_stem>, <item:minecraft:stripped_warped_stem>], [<item:minecraft:warped_stem>, <tag:items:forge:chests/wooden>, <item:minecraft:warped_stem>], [<item:minecraft:stripped_warped_stem>, <item:minecraft:warped_stem>, <item:minecraft:stripped_warped_stem>]]);
-
-craftingTable.addShaped("custom_stripped_oak_crate", <item:cfm:stripped_oak_crate> * 4, [[<item:minecraft:stripped_oak_log>, <item:minecraft:oak_log>, <item:minecraft:stripped_oak_log>], [<item:minecraft:oak_log>, <tag:items:forge:chests/wooden>, <item:minecraft:oak_log>], [<item:minecraft:stripped_oak_log>, <item:minecraft:oak_log>, <item:minecraft:stripped_oak_log>]]);
-
-craftingTable.addShaped("custom_stripped_spruce_crate", <item:cfm:stripped_spruce_crate> * 4, [[<item:minecraft:stripped_spruce_log>, <item:minecraft:spruce_log>, <item:minecraft:stripped_spruce_log>], [<item:minecraft:spruce_log>, <tag:items:forge:chests/wooden>, <item:minecraft:spruce_log>], [<item:minecraft:stripped_spruce_log>, <item:minecraft:spruce_log>, <item:minecraft:stripped_spruce_log>]]);
-
-craftingTable.addShaped("custom_stripped_birch_crate", <item:cfm:stripped_birch_crate> * 4, [[<item:minecraft:stripped_birch_log>, <item:minecraft:birch_log>, <item:minecraft:stripped_birch_log>], [<item:minecraft:birch_log>, <tag:items:forge:chests/wooden>, <item:minecraft:birch_log>], [<item:minecraft:stripped_birch_log>, <item:minecraft:birch_log>, <item:minecraft:stripped_birch_log>]]);
-
-craftingTable.addShaped("custom_stripped_jungle_crate", <item:cfm:stripped_jungle_crate> * 4, [[<item:minecraft:stripped_jungle_log>, <item:minecraft:jungle_log>, <item:minecraft:stripped_jungle_log>], [<item:minecraft:jungle_log>, <tag:items:forge:chests/wooden>, <item:minecraft:jungle_log>], [<item:minecraft:stripped_jungle_log>, <item:minecraft:jungle_log>, <item:minecraft:stripped_jungle_log>]]);
-
-craftingTable.addShaped("custom_stripped_acacia_crate", <item:cfm:stripped_acacia_crate> * 4, [[<item:minecraft:stripped_acacia_log>, <item:minecraft:acacia_log>, <item:minecraft:stripped_acacia_log>], [<item:minecraft:acacia_log>, <tag:items:forge:chests/wooden>, <item:minecraft:acacia_log>], [<item:minecraft:stripped_acacia_log>, <item:minecraft:acacia_log>, <item:minecraft:stripped_acacia_log>]]);
-
-craftingTable.addShaped("custom_stripped_dark_oak_crate", <item:cfm:stripped_dark_oak_crate> * 4, [[<item:minecraft:stripped_dark_oak_log>, <item:minecraft:dark_oak_log>, <item:minecraft:stripped_dark_oak_log>], [<item:minecraft:dark_oak_log>, <tag:items:forge:chests/wooden>, <item:minecraft:dark_oak_log>], [<item:minecraft:stripped_dark_oak_log>, <item:minecraft:dark_oak_log>, <item:minecraft:stripped_dark_oak_log>]]);
-
-craftingTable.addShaped("custom_stripped_crimson_crate", <item:cfm:stripped_crimson_crate> * 4, [[<item:minecraft:stripped_crimson_stem>, <item:minecraft:crimson_stem>, <item:minecraft:stripped_crimson_stem>], [<item:minecraft:crimson_stem>, <tag:items:forge:chests/wooden>, <item:minecraft:crimson_stem>], [<item:minecraft:stripped_crimson_stem>, <item:minecraft:crimson_stem>, <item:minecraft:stripped_crimson_stem>]]);
-
 //fixed sticky piston recipe
 craftingTable.addShaped("custom_sticky_piston", <item:minecraft:sticky_piston>, [[<tag:items:forge:slimeballs>], [<item:minecraft:piston>]]);
-
-//fixed cfm bedside cabinets
-craftingTable.addShaped("custom_stripped_oak_bedside_cabinet", <item:cfm:stripped_oak_bedside_cabinet> * 2, [[<item:minecraft:stripped_oak_log>, <item:minecraft:stripped_oak_log>, <item:minecraft:stripped_oak_log>], [<item:minecraft:oak_log>, <tag:items:forge:chests/wooden>, <item:minecraft:oak_log>], [<item:minecraft:oak_log>, <item:minecraft:oak_log>, <item:minecraft:oak_log>]]);
-
-craftingTable.addShaped("custom_stripped_spruce_bedside_cabinet", <item:cfm:stripped_spruce_bedside_cabinet> * 2, [[<item:minecraft:stripped_spruce_log>, <item:minecraft:stripped_spruce_log>, <item:minecraft:stripped_spruce_log>], [<item:minecraft:spruce_log>, <tag:items:forge:chests/wooden>, <item:minecraft:spruce_log>], [<item:minecraft:spruce_log>, <item:minecraft:spruce_log>, <item:minecraft:spruce_log>]]);
-
-craftingTable.addShaped("custom_stripped_birch_bedside_cabinet", <item:cfm:stripped_birch_bedside_cabinet> * 2, [[<item:minecraft:stripped_birch_log>, <item:minecraft:stripped_birch_log>, <item:minecraft:stripped_birch_log>], [<item:minecraft:birch_log>, <tag:items:forge:chests/wooden>, <item:minecraft:birch_log>], [<item:minecraft:birch_log>, <item:minecraft:birch_log>, <item:minecraft:birch_log>]]);
-
-craftingTable.addShaped("custom_stripped_jungle_bedside_cabinet", <item:cfm:stripped_jungle_bedside_cabinet> * 2, [[<item:minecraft:stripped_jungle_log>, <item:minecraft:stripped_jungle_log>, <item:minecraft:stripped_jungle_log>], [<item:minecraft:jungle_log>, <tag:items:forge:chests/wooden>, <item:minecraft:jungle_log>], [<item:minecraft:jungle_log>, <item:minecraft:jungle_log>, <item:minecraft:jungle_log>]]);
-
-craftingTable.addShaped("custom_stripped_acacia_bedside_cabinet", <item:cfm:stripped_acacia_bedside_cabinet> * 2, [[<item:minecraft:stripped_acacia_log>, <item:minecraft:stripped_acacia_log>, <item:minecraft:stripped_acacia_log>], [<item:minecraft:acacia_log>, <tag:items:forge:chests/wooden>, <item:minecraft:acacia_log>], [<item:minecraft:acacia_log>, <item:minecraft:acacia_log>, <item:minecraft:acacia_log>]]);
-
-craftingTable.addShaped("custom_stripped_dark_oak_bedside_cabinet", <item:cfm:stripped_dark_oak_bedside_cabinet> * 2, [[<item:minecraft:stripped_dark_oak_log>, <item:minecraft:stripped_dark_oak_log>, <item:minecraft:stripped_dark_oak_log>], [<item:minecraft:dark_oak_log>, <tag:items:forge:chests/wooden>, <item:minecraft:dark_oak_log>], [<item:minecraft:dark_oak_log>, <item:minecraft:dark_oak_log>, <item:minecraft:dark_oak_log>]]);
-
-craftingTable.addShaped("custom_stripped_crimson_bedside_cabinet", <item:cfm:stripped_crimson_bedside_cabinet> * 2, [[<item:minecraft:stripped_crimson_stem>, <item:minecraft:stripped_crimson_stem>, <item:minecraft:stripped_crimson_stem>], [<item:minecraft:crimson_stem>, <tag:items:forge:chests/wooden>, <item:minecraft:crimson_stem>], [<item:minecraft:crimson_stem>, <item:minecraft:crimson_stem>, <item:minecraft:crimson_stem>]]);
-
-craftingTable.addShaped("custom_stripped_warped_bedside_cabinet", <item:cfm:stripped_warped_bedside_cabinet> * 2, [[<item:minecraft:stripped_warped_stem>, <item:minecraft:stripped_warped_stem>, <item:minecraft:stripped_warped_stem>], [<item:minecraft:warped_stem>, <tag:items:forge:chests/wooden>, <item:minecraft:warped_stem>], [<item:minecraft:warped_stem>, <item:minecraft:warped_stem>, <item:minecraft:warped_stem>]]);
-
-//fixed cfm regular cabinets
-craftingTable.addShaped("custom_stripped_warped_cabinet", <item:cfm:stripped_warped_cabinet> * 2, [[<item:minecraft:stripped_warped_stem>, <item:minecraft:stripped_warped_stem>, <item:minecraft:warped_stem>], [<item:minecraft:stripped_warped_stem>, <tag:items:forge:chests/wooden>, <item:minecraft:warped_stem>], [<item:minecraft:stripped_warped_stem>, <item:minecraft:stripped_warped_stem>, <item:minecraft:warped_stem>]]);
-
-craftingTable.addShaped("custom_stripped_crimson_cabinet", <item:cfm:stripped_crimson_cabinet> * 2, [[<item:minecraft:stripped_crimson_stem>, <item:minecraft:stripped_crimson_stem>, <item:minecraft:crimson_stem>], [<item:minecraft:stripped_crimson_stem>, <tag:items:forge:chests/wooden>, <item:minecraft:crimson_stem>], [<item:minecraft:stripped_crimson_stem>, <item:minecraft:stripped_crimson_stem>, <item:minecraft:crimson_stem>]]);
-
-craftingTable.addShaped("custom_stripped_dark_oak_cabinet", <item:cfm:stripped_dark_oak_cabinet> * 2, [[<item:minecraft:stripped_dark_oak_log>, <item:minecraft:stripped_dark_oak_log>, <item:minecraft:dark_oak_log>], [<item:minecraft:stripped_dark_oak_log>, <tag:items:forge:chests/wooden>, <item:minecraft:dark_oak_log>], [<item:minecraft:stripped_dark_oak_log>, <item:minecraft:stripped_dark_oak_log>, <item:minecraft:dark_oak_log>]]);
-
-craftingTable.addShaped("custom_stripped_acacia_cabinet", <item:cfm:stripped_acacia_cabinet> * 2, [[<item:minecraft:stripped_acacia_log>, <item:minecraft:stripped_acacia_log>, <item:minecraft:acacia_log>], [<item:minecraft:stripped_acacia_log>, <tag:items:forge:chests/wooden>, <item:minecraft:acacia_log>], [<item:minecraft:stripped_acacia_log>, <item:minecraft:stripped_acacia_log>, <item:minecraft:acacia_log>]]);
-
-craftingTable.addShaped("custom_stripped_jungle_cabinet", <item:cfm:stripped_jungle_cabinet> * 2, [[<item:minecraft:stripped_jungle_log>, <item:minecraft:stripped_jungle_log>, <item:minecraft:jungle_log>], [<item:minecraft:stripped_jungle_log>, <tag:items:forge:chests/wooden>, <item:minecraft:jungle_log>], [<item:minecraft:stripped_jungle_log>, <item:minecraft:stripped_jungle_log>, <item:minecraft:jungle_log>]]);
-
-craftingTable.addShaped("custom_stripped_birch_cabinet", <item:cfm:stripped_birch_cabinet> * 2, [[<item:minecraft:stripped_birch_log>, <item:minecraft:stripped_birch_log>, <item:minecraft:birch_log>], [<item:minecraft:stripped_birch_log>, <tag:items:forge:chests/wooden>, <item:minecraft:birch_log>], [<item:minecraft:stripped_birch_log>, <item:minecraft:stripped_birch_log>, <item:minecraft:birch_log>]]);
-
-craftingTable.addShaped("custom_stripped_spruce_cabinet", <item:cfm:stripped_spruce_cabinet> * 2, [[<item:minecraft:stripped_spruce_log>, <item:minecraft:stripped_spruce_log>, <item:minecraft:spruce_log>], [<item:minecraft:stripped_spruce_log>, <tag:items:forge:chests/wooden>, <item:minecraft:spruce_log>], [<item:minecraft:stripped_spruce_log>, <item:minecraft:stripped_spruce_log>, <item:minecraft:spruce_log>]]);
-
-craftingTable.addShaped("custom_stripped_oak_cabinet", <item:cfm:stripped_oak_cabinet> * 2, [[<item:minecraft:stripped_oak_log>, <item:minecraft:stripped_oak_log>, <item:minecraft:oak_log>], [<item:minecraft:stripped_oak_log>, <tag:items:forge:chests/wooden>, <item:minecraft:oak_log>], [<item:minecraft:stripped_oak_log>, <item:minecraft:stripped_oak_log>, <item:minecraft:oak_log>]]);
 
 //fixed magenta pet bed
 craftingTable.addShaped("custom_pet_bed_magenta", <item:domesticationinnovation:pet_bed_magenta>, [[<item:minecraft:magenta_wool>, <item:minecraft:magenta_wool>, <item:minecraft:magenta_wool>], [<tag:items:minecraft:planks>, <item:minecraft:bone>, <tag:items:minecraft:planks>]]);
 
 //fixed lattice
 craftingTable.addShaped("custom_lattice", <item:decorative_blocks:lattice> * 4, [[<tag:items:forge:fences/wooden>, <item:minecraft:stick>, <tag:items:forge:fences/wooden>], [<item:minecraft:stick>, IIngredientEmpty.getInstance(), <item:minecraft:stick>], [<tag:items:forge:fences/wooden>, <item:minecraft:stick>, <tag:items:forge:fences/wooden>]]);
+
+//reach upgrades, new recipes
+craftingTable.addShaped("custom_reach_upgrade1", <item:effortlessbuilding:reach_upgrade1>, [[IIngredientEmpty.getInstance(), <item:tconstruct:earth_slime_crystal>, IIngredientEmpty.getInstance()], [<item:tconstruct:earth_slime_crystal>, <item:sullysmod:polished_jade_block>, <item:tconstruct:earth_slime_crystal>], [IIngredientEmpty.getInstance(), <item:tconstruct:earth_slime_crystal>, IIngredientEmpty.getInstance()]]);
+
+craftingTable.addShaped("custom_reach_upgrade2", <item:effortlessbuilding:reach_upgrade2>, [[<item:nethersdelight:propelpearl>, <item:tconstruct:ichor_slime_crystal>, <item:nethersdelight:propelpearl>], [<item:tconstruct:ichor_slime_crystal>, <item:malum:block_of_blazing_quartz>, <item:tconstruct:ichor_slime_crystal>], [<item:nethersdelight:propelpearl>, <item:tconstruct:ichor_slime_crystal>, <item:nethersdelight:propelpearl>]]);
+
+craftingTable.addShaped("custom_reach_upgrade3", <item:effortlessbuilding:reach_upgrade3>, [[<item:minecraft:shulker_shell>, <item:tconstruct:ender_slime_crystal>, <item:minecraft:shulker_shell>], [<item:tconstruct:ender_slime_crystal>, <item:minecraft:end_crystal>, <item:tconstruct:ender_slime_crystal>], [<item:minecraft:shulker_shell>, <item:tconstruct:ender_slime_crystal>, <item:minecraft:shulker_shell>]]);
+
+//slime crystal crafting
+craftingTable.addShaped("custom_slime_crystal", <item:tconstruct:earth_slime_crystal>, [[IIngredientEmpty.getInstance(), <item:minecraft:slime_ball>, IIngredientEmpty.getInstance()], [<item:minecraft:slime_ball>, <item:minecraft:amethyst_shard>, <item:minecraft:slime_ball>], [IIngredientEmpty.getInstance(), <item:minecraft:slime_ball>, IIngredientEmpty.getInstance()]]);
+
+craftingTable.addShaped("custom_ichor_crystal", <item:tconstruct:ichor_slime_crystal>, [[IIngredientEmpty.getInstance(), <item:tconstruct:ichor_slime_ball>, IIngredientEmpty.getInstance()], [<item:tconstruct:ichor_slime_ball>, <item:biomesoplenty:rose_quartz_shard>, <item:tconstruct:ichor_slime_ball>], [IIngredientEmpty.getInstance(), <item:tconstruct:ichor_slime_ball>, IIngredientEmpty.getInstance()]]);
+
+craftingTable.addShaped("custom_enderslime_crystal", <item:tconstruct:ender_slime_crystal>, [[IIngredientEmpty.getInstance(), <item:tconstruct:ender_slime_ball>, IIngredientEmpty.getInstance()], [<item:tconstruct:ender_slime_ball>, <item:lightstones:blightstone>, <item:tconstruct:ender_slime_ball>], [IIngredientEmpty.getInstance(), <item:tconstruct:ender_slime_ball>, IIngredientEmpty.getInstance()]]);
