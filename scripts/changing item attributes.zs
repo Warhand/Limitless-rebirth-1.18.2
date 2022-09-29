@@ -62,3 +62,8 @@ import crafttweaker.api.item.property.Rarity;
 //aquaculture neptune sword and axe fix
 <item:aquaculture:neptunium_sword>.addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "cb3f55d3-645c-4f38-a497-9c13a33db5cf", "extra power", 7, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:aquaculture:neptunium_axe>.addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "cb3f55d3-645c-4f38-a497-9c13a33db5cf", "extra power", 11, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+
+//changing slimesling durability
+<item:tconstruct:earth_slime_sling>.maxDamage = 64;
+<item:tconstruct:sky_slime_sling>.maxDamage = 64;
+<item:tconstruct:ichor_slime_sling>.maxDamage = 64;
