@@ -6,7 +6,7 @@
     "HoneyedApple": true
   },
   "WateringCan": true,
-  "RoseGold": false,
+  "RoseGold": true,
   "Ropes": false,
   "EnchantmentPrecision": true,
   "EnchantmentSpeed": true,
@@ -30,7 +30,7 @@
   "NoteBlockAmethystSounds": true,
   "ShipwreckSpyglassLoot": true,
   "PocketJukebox": true,
-  "ChickenNugget": true,
+  "ChickenNugget": false,
   "PoweredRailsCopperRecipe": true,
   "GoldRing": true,
   "GlowBerryEatGlow": {
