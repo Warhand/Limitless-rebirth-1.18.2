@@ -1,7 +1,7 @@
 {
   "oreConfig": [
     {
-      "ore": "ftbic:lead_ore",
+      "ore": "immersiveengineering:ore_lead",
       "fillers": [
         "minecraft:stone"
       ],
@@ -20,7 +20,7 @@
       "replace": true
     },
     {
-      "ore": "ftbic:deepslate_lead_ore",
+      "ore": "immersiveengineering:deepslate_ore_lead",
       "fillers": [
         "minecraft:deepslate"
       ],
@@ -35,6 +35,36 @@
         "biomeWhitelist": [
           "OVERWORLD"
         ]
+      },
+      "replace": true
+    },
+	{
+      "ore": "ftbic:lead_ore",
+      "fillers": [],
+      "distribution": "UNIFORM",
+      "minY": -1,
+      "maxY": -1,
+      "maxVeinSize": -1,
+      "spawnRate": 0.0,
+      "discardChanceOnAirExposure": 1.0,
+      "biomeFilters": {
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      "replace": true
+    },
+    {
+      "ore": "ftbic:deepslate_lead_ore",
+      "fillers": [],
+      "distribution": "TRIANGLE",
+      "minY": -1,
+      "maxY": -1,
+      "maxVeinSize": -1,
+      "spawnRate": 0.0,
+      "discardChanceOnAirExposure": 1.0,
+      "biomeFilters": {
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
       },
       "replace": true
     }
