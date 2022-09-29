@@ -10,11 +10,11 @@
 #Defines footstep effect generation parameters
 ["Footstep Options"]
 	#Enable replacement of footstep sounds with acoustic versions
-	"Enable Footprint Sound Effects" = true
+	"Enable Footprint Sound Effects" = false
 	#Enable Footprint particle effects
-	"Enable Footprint Particles" = true
+	"Enable Footprint Particles" = false
 	#Use first person footstep cadence
-	"First Person Cadence" = true
+	"First Person Cadence" = false
 	#Style of footprint to display for a player
 	#Allowed Values: SHOE, SQUARE, HORSESHOE, BIRD, PAW, SQUARE_SOLID, LOWRES_SQUARE
 	"Player Footprint Style" = "LOWRES_SQUARE"
@@ -22,13 +22,13 @@
 	"Footsteps as Quadruped" = false
 	#Footstep master volume scale
 	#Range: 0 ~ 100
-	"Footstep Volume Scale" = 40
+	"Footstep Volume Scale" = 0
 	#Enable armor rustle accents for footstep acoustics
-	"Enable Armor Accents" = true
+	"Enable Armor Accents" = false
 	#Enable rain splash accents for footstep acoustics
-	"Enable Rain Splash Accents" = true
+	"Enable Rain Splash Accents" = false
 	#Enable water logged accents for footstep acoustics
-	"Enable Waterlogged Accents" = true
+	"Enable Waterlogged Accents" = false
 
 #Options for mob effect generation
 ["Mob Effect Options"]

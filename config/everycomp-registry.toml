@@ -85,9 +85,6 @@
 		runewood = true
 		soulwood = true
 
-	[wood_type.pinkexpansion]
-		pink_ivory = true
-
 	[wood_type.valhelsia_structures]
 		lapidified_jungle = true
 
@@ -187,9 +184,6 @@
 	[leaves_type.malum]
 		runewood = true
 		soulwood = true
-
-	[leaves_type.pinkexpansion]
-		pink_ivory = true
 
 	[leaves_type.ars_nouveau]
 		blue_archwood = true
