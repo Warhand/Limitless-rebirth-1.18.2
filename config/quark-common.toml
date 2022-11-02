@@ -550,7 +550,7 @@
 	"Chorus Vegetation" = true
 	"Blossom Trees" = true
 	"Big Stone Clusters" = true
-	"Big Dungeon" = true
+	"Big Dungeon" = false
 	"No More Lava Pockets" = true
 	"Glimmering Weald" = true
 	"Azalea Wood" = true
