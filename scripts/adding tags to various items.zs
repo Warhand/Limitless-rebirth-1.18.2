@@ -93,3 +93,36 @@ val fishing_rods as IItemStack[] = [
 //adding soul soil path to soul speed blocks
 
 <tag:blocks:minecraft:soul_speed_blocks>.add(<block:infernalexp:soul_soil_path>);
+
+//adding farmers delight seed tag
+
+val farmers_seeds = [
+<item:farmersdelight:cabbage_seeds>,
+<item:culturaldelights:cucumber_seeds>,
+<item:farmersdelight:tomato_seeds>,
+<item:culturaldelights:eggplant_seeds>,
+<item:farmersrespite:tea_seeds>,
+<item:farmersdelight:rice>
+];
+
+<tag:items:lr:farmers_seeds>.add(farmers_seeds);
+
+//adding blocks to dimdungeon portal frame tags
+
+val portal_blocks = [
+<block:bygonenether:cracked_withered_blackstone>,
+<block:bygonenether:chiseled_withered_blackstone>,
+<block:supplementaries:blackstone_tile>,
+<block:quark:blackstone_bricks>,
+<block:bygonenether:withered_blackstone>,
+<block:twigs:twisting_polished_blackstone_bricks>,
+<block:twigs:weeping_polished_blackstone_bricks>,
+<block:minecraft:chiseled_polished_blackstone>,
+<block:minecraft:polished_blackstone>,
+<block:minecraft:blackstone>,
+<block:minecraft:gilded_blackstone>,
+<block:minecraft:cracked_polished_blackstone_bricks>,
+<block:minecraft:polished_blackstone_bricks>
+];
+
+<tag:blocks:dimdungeons:portal_frame_blocks>.add(portal_blocks);
