@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:mineral_mix","ores":[{"chance":1.0,"output":{"item":"ftbic:deepslate_iridium_ore"}}],"dimensions":["minecraft:overworld"],"weight":10,"fail_chance":0.7}

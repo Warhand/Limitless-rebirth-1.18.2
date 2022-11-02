@@ -1,0 +1,27 @@
+{
+    "key": "seared_stone",
+    "category": "stone",
+    "primary": 3,
+    "secondary": 3.5,
+    "tertiary": 0,
+    "durability": 225,
+    "integrityCost": 1,
+    "integrityGain": 4,
+    "magicCapacity": 60,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 6.5,
+    "tints": {
+        "glyph": "625b57",
+        "texture": "4f4a47"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [ "tconstruct:seared_brick" ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:wood"
+    }
+}

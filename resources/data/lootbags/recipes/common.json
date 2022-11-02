@@ -1,0 +1,9 @@
+{
+	"type": "lootbags:loot",
+	"name": "Common Lootbag",
+	"color": "#FFFFFF",
+	"rarity": "COMMON",
+	"output": {
+		"table": "limitlessrebirth:common"
+	}
+}

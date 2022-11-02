@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "item": "minecraft:tnt"
+  },
+  "result": {
+    "item": "minecraft:gunpowder",
+    "count": 5
+  }
+}

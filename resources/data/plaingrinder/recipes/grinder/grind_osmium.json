@@ -1,0 +1,25 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "forge:ores/osmium"
+  },
+  "result": {
+    "item": "mekanism:dust_osmium",
+    "count": 2
+  },
+  "conditions": [
+    {
+      "values": [
+        {
+          "modid": "mekanism",
+          "type": "forge:mod_loaded"
+        },
+        {
+          "item": "mekanism:dust_osmium",
+          "type": "forge:item_exists"
+        }
+      ],
+      "type": "forge:and"
+    }
+  ]
+}

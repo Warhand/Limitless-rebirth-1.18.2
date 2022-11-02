@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "forge:ores/coal"
+  },
+  "result": {
+    "item": "plaingrinder:dust_coal",
+    "count": 2
+  }
+}

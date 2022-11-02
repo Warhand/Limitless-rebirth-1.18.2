@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "plaingrinder:block/grinder_top",
+    "down": "plaingrinder:block/grinder_bottom",
+    "up": "plaingrinder:block/grinder_top",
+    "north": "plaingrinder:block/grinder_side",
+    "south": "plaingrinder:block/grinder_side",
+    "west": "plaingrinder:block/grinder_side",
+    "east": "plaingrinder:block/grinder_side"
+  }
+}

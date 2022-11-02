@@ -1,0 +1,27 @@
+{
+    "key": "greenheart",
+    "category": "wood",
+    "primary": 3.5,
+    "secondary": 2,
+    "tertiary": 12,
+    "durability": 300,
+    "integrityCost": 1,
+    "integrityGain": 5,
+    "magicCapacity": 80,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 4,
+    "tints": {
+        "glyph": "76be6d",
+        "texture": "96dd8f"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "items": [ "tconstruct:greenheart_planks" ]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:wood"
+    }
+}

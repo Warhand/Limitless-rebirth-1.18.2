@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "forge:ores/gold"
+  },
+  "result": {
+    "item": "plaingrinder:dust_gold",
+    "count": 2
+  }
+}

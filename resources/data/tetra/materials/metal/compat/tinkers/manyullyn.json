@@ -1,0 +1,30 @@
+{
+    "key": "manyullyn",
+    "category": "metal",
+    "primary": 8,
+    "secondary": 3,
+    "tertiary": 0,
+    "durability": 1250,
+    "integrityCost": 2,
+    "integrityGain": 2,
+    "magicCapacity": 80,
+    "toolLevel": 7,
+    "toolEfficiency": 10,
+    "tints": {
+        "glyph": "9261cc",
+        "texture": "c299f3"
+    },
+    "textures": [
+        "metal",
+        "default"
+    ],
+    "material": {
+        "tag": "forge:ingots/manyullyn"
+    },
+	"effects": {
+		"armorPenetration": 5
+	},
+    "requiredTools": {
+        "hammer_dig": 7
+    }
+}

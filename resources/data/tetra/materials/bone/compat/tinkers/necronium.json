@@ -1,0 +1,30 @@
+{
+    "key": "necronium",
+    "category": "bone",
+    "primary": 7.5,
+    "secondary": 4.5,
+    "tertiary": 6.5,
+    "durability": 1200,
+    "integrityCost": 3,
+    "integrityGain": 5,
+    "magicCapacity": 200,
+    "toolLevel": "minecraft:diamond",
+    "toolEfficiency": 8,
+    "tints": {
+        "glyph": "305826",
+        "texture": "305826"
+    },
+    "textures": [
+        "bone",
+        "crude"
+    ],
+    "material": {
+        "items": "tconstruct:necronium_bone"
+    },
+    "effects": {
+        "unstable": 15
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:diamond"
+    }
+}

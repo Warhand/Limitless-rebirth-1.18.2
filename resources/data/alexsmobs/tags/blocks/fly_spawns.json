@@ -1,0 +1,12 @@
+{
+    "replace": true,
+    "values": [
+        "farmersdelight:organic_compost",
+        "farmersdelight:organic_compost",
+        "farmersdelight:organic_compost",
+        "nethersdelight:soul_compost",
+        "malum:block_of_rotting_essence",
+        "biomesoplenty:porous_flesh",
+        "biomesoplenty:flesh"
+    ]
+}

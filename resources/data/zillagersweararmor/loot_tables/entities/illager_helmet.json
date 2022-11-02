@@ -1,0 +1,195 @@
+{
+  "type": "zillagersweararmor:slot",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "biomemakeover:cladded_helmet",
+          "conditions": [
+            {
+              "condition": "zillagersweararmor:wave",
+              "wave": 0 
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "biomemakeover:cladded_helmet",
+		  "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 0,
+                "max": 5
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.05
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "zillagersweararmor:wave",
+              "wave": 1
+            }
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "biomemakeover:cladded_helmet",
+		  "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 0,
+                "max": 5
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.1
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "zillagersweararmor:wave",
+              "wave": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "biomemakeover:cladded_helmet",
+		  "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 0,
+                "max": 5
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.15
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "zillagersweararmor:wave",
+              "wave": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "biomemakeover:cladded_helmet",
+		  "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 5,
+                "max": 10
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.2
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "zillagersweararmor:wave",
+              "wave": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "biomemakeover:cladded_helmet",
+		  "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 5,
+                "max": 10
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "zillagersweararmor:wave",
+              "wave": 5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "biomemakeover:cladded_helmet",
+		  "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 5,
+                "max": 10
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.3
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "zillagersweararmor:wave",
+              "wave": 6
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "biomemakeover:cladded_helmet",
+		  "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 5,
+                "max": 10
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.35
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "zillagersweararmor:wave",
+              "wave": 7
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

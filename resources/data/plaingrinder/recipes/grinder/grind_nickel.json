@@ -1,0 +1,21 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "forge:ores/nickel"
+  },
+  "result": {
+    "item": "thermal:nickel_dust",
+    "count": 2
+  },
+  "conditions": [
+    {
+      "values": [
+        {
+          "item": "thermal:nickel_dust",
+          "type": "forge:item_exists"
+        }
+      ],
+      "type": "forge:and"
+    }
+  ]
+}

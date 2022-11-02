@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:mineral_mix","ores":[{"chance":0.4,"output":{"item":"malum:blazing_quartz_ore"}},{"chance":0.3,"output":{"item":"minecraft:nether_quartz_ore"}},{"chance":0.3,"output":{"item":"biomesoplenty:rose_quartz_block"}}],"dimensions":["minecraft:the_nether"],"weight":15,"fail_chance":0.1,"sample_background":"minecraft:netherrack"}

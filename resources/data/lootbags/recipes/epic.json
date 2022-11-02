@@ -1,0 +1,9 @@
+{
+	"type": "lootbags:loot",
+	"name": "Epic Lootbag",
+	"color": "#FF55FF",
+	"rarity": "EPIC",
+	"output": {
+		"table": "limitlessrebirth:epic"
+	}
+}

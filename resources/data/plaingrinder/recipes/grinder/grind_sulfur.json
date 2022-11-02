@@ -1,0 +1,21 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "forge:ores/sulfur"
+  },
+  "result": {
+    "item": "thermal:sulfur_dust",
+    "count": 2
+  },
+  "conditions": [
+    {
+      "values": [
+        {
+          "item": "thermal:sulfur_dust",
+          "type": "forge:item_exists"
+        }
+      ],
+      "type": "forge:and"
+    }
+  ]
+}

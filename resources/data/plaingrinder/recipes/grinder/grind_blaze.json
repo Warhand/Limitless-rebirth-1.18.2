@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "item": "minecraft:blaze_rod"
+  },
+  "result": {
+    "item": "minecraft:blaze_powder",
+    "count": 3
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "forge:ores/silver"
+  },
+  "result": {
+    "item": "thermal:silver_dust",
+    "count": 2
+  },
+  "conditions": [
+    {
+      "values": [
+        {
+          "item": "thermal:silver_dust",
+          "type": "forge:item_exists"
+        }
+      ],
+      "type": "forge:and"
+    }
+  ]
+}

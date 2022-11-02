@@ -1,0 +1,38 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cube",
+	"textures": {
+		"1": "block/oak_log_top",
+		"2": "block/oak_log",
+		"particle": "plaingrinder:block/handle"
+	},
+	"elements": [
+		{
+			"name": "base",
+			"from": [6, 0, 6],
+			"to": [10, 12, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [15, 8, 15]},
+			"faces": {
+				"north": {"uv": [10, 4, 14, 16], "texture": "#2"},
+				"east": {"uv": [2, 4, 6, 16], "texture": "#2"},
+				"south": {"uv": [10, 4, 14, 16], "texture": "#2"},
+				"west": {"uv": [6, 4, 10, 16], "texture": "#2"},
+				"up": {"uv": [6, 6, 10, 10], "texture": "#1"},
+				"down": {"uv": [6, 6, 10, 10], "texture": "#1"}
+			}
+		},
+		{
+			"from": [10, 9, 7],
+			"to": [15, 11, 9],
+			"rotation": {"angle": 0, "axis": "z", "origin": [12.5, 10, 8]},
+			"faces": {
+				"north": {"uv": [2, 0, 4, 5], "rotation": 270, "texture": "#2"},
+				"east": {"uv": [6, 6, 10, 10], "rotation": 90, "texture": "#1"},
+				"south": {"uv": [4, 0, 6, 5], "rotation": 90, "texture": "#2"},
+				"west": {"uv": [6, 6, 10, 10], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [6, 0, 8, 5], "rotation": 90, "texture": "#2"},
+				"down": {"uv": [8, 0, 10, 5], "rotation": 90, "texture": "#2"}
+			}
+		}
+	]
+}

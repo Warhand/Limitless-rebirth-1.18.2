@@ -1,0 +1,9 @@
+{
+	"type": "lootbags:loot",
+	"name": "Uncommon Lootbag",
+	"color": "#FFFF55",
+	"rarity": "UNCOMMON",
+	"output": {
+		"table": "limitlessrebirth:uncommon"
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "forge:ores/emerald"
+  },
+  "result": {
+    "item": "plaingrinder:dust_emerald",
+    "count": 2
+  }
+}

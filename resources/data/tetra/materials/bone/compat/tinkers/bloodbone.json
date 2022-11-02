@@ -1,0 +1,27 @@
+{
+    "key": "bloodbone",
+    "category": "bone",
+    "primary": 5,
+    "secondary": 2,
+    "tertiary": 5,
+    "durability": 200,
+    "integrityCost": 1,
+    "integrityGain": 6,
+    "magicCapacity": 120,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 7,
+    "tints": {
+        "glyph": "e82323",
+        "texture": "e82323"
+    },
+    "textures": [
+        "bone",
+        "crude"
+    ],
+    "material": {
+        "items": [ "tconstruct:bloodbone" ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:stone"
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "item": "minecraft:glowstone"
+  },
+  "result": {
+    "item": "minecraft:glowstone_dust",
+    "count": 4
+  },
+  "conditions": [
+    {
+      "values": [
+        {
+          "item": "minecraft:glowstone",
+          "type": "forge:item_exists"
+        },
+        {
+          "type": "forge:true"
+        }
+      ],
+      "type": "forge:and"
+    }
+  ]
+}
