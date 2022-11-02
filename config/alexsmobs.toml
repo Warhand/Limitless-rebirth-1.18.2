@@ -20,8 +20,6 @@
 	polarBearsAttackSeals = true
 	#Whether cats, ocelots and foxes should target jerboa mobs.
 	catsAndFoxesAttackJerboas = true
-	#Whether dolphins should target flying fish mobs.
-	dolphinsAttackFlyingFish = true
 	#Whether lava can be bottled with a right click of a glass bottle.
 	lavaBottleEnabled = true
 	#Whether bone serpents are neutral or hostile.
@@ -113,6 +111,8 @@
 	bunfungusTransformation = true
 	#True if some Alex's Mobs items should spawn in loot chests.
 	addLootToChests = true
+	#Whether dolphins should target flying fish mobs.
+	dolphinsAttackFlyingFish = true
 
 	[general.spawning]
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
@@ -150,7 +150,7 @@
 		flySpawnWeight = 0
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
-		flySpawnRolls = 1
+		flySpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
 		hummingbirdSpawnWeight = 19
@@ -177,10 +177,10 @@
 		gorillaSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		crimsonMosquitoSpawnWeight = 15
+		crimsonMosquitoSpawnWeight = 25
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
-		crimsonMosquitoSpawnRolls = 0
+		crimsonMosquitoSpawnRolls = 1
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
 		rattlesnakeSpawnWeight = 12
@@ -219,7 +219,7 @@
 		capuchinMonkeySpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		caveCentipedeSpawnWeight = 8
+		caveCentipedeSpawnWeight = 15
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		caveCentipedeSpawnRolls = 1
@@ -357,7 +357,7 @@
 		platypusSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		dropbearSpawnWeight = 19
+		dropbearSpawnWeight = 25
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		dropbearSpawnRolls = 1
@@ -375,7 +375,7 @@
 		kangarooSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		cachalotWhaleSpawnWeight = 2
+		cachalotWhaleSpawnWeight = 0
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		cachalotWhaleSpawnRolls = 0
@@ -525,7 +525,7 @@
 		bunfungusSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		bisonSpawnWeight = 9
+		bisonSpawnWeight = 14
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		bisonSpawnRolls = 0
@@ -562,7 +562,7 @@
 
 		[general.spawning.uniqueSpawning]
 			#Whether to enable beached cachalot whales to spawn on beaches during thunder storms.
-			beachedCachalotWhales = true
+			beachedCachalotWhales = false
 			#Percent chance increase for each failed attempt to spawn a beached cachalot whale. Higher value = more spawns.
 			#Range: 0 ~ 100
 			beachedCachalotWhaleSpawnChance = 5
