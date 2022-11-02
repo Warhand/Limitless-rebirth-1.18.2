@@ -330,6 +330,14 @@
       "bookmarks": [],
       "completedManualQuests": []
     },
+    "dimdungeons:guide_book": {
+      "viewedEntries": [
+        "dimdungeons:introduction",
+        "dimdungeons:basic_portals"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
     "ars_nouveau:worn_notebook": {
       "viewedEntries": [
         "ars_nouveau:getting_started/source",
@@ -363,7 +371,19 @@
         "ars_nouveau:rituals/scrying",
         "ars_nouveau:rituals/warping",
         "ars_nouveau:getting_started/spell_casting",
-        "ars_nouveau:machines/imbuement_chamber"
+        "ars_nouveau:machines/imbuement_chamber",
+        "ars_nouveau:resources/lava_lily",
+        "ars_nouveau:resources/archwood",
+        "ars_nouveau:enchantments/respiration",
+        "ars_nouveau:machines/warp_portal",
+        "ars_nouveau:machines/potion_jar",
+        "ars_nouveau:machines/scryers_oculus",
+        "ars_nouveau:machines/potion_melder",
+        "ars_creo:machines/ars_creo",
+        "ars_nouveau:equipment/dull_items",
+        "ars_nouveau:equipment/enchanters_mirror",
+        "ars_nouveau:equipment/spell_bow",
+        "ars_nouveau:equipment/armor"
       ],
       "bookmarks": [],
       "completedManualQuests": []

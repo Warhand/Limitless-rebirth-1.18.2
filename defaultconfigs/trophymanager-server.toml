@@ -3,9 +3,9 @@
 	#Should trophies drop from mobs when killed by a player?
 	dropFromMobs = false
 	#Looting enchant will increase drop change
-	applyLooting = true
+	applyLooting = false
 	#Allow fake players (machines) to get trophy drops
-	allowFakePlayer = true
+	allowFakePlayer = false
 	#Drop chance for trophies when a boss entity is killed by a player.
 	#Range: 0.0 ~ 1.0
 	dropChanceBoss = 0.2

@@ -36,8 +36,8 @@ ao:1
 prioritizeChunkUpdates:0
 biomeBlendRadius:0
 renderClouds:true
-resourcePacks:["vanilla","mod_resources","inmemory:jaopca","Supplementaries Generated Pack","quark:emote_resources","resources/Dimdungeons resource pack","resources/Limitless rebirth textures","file/FullHD_Font_1.18_1.3.zip","file/Create+Guns+1.18+v4.zip","resources/simplehats_hatdl.zip","file/Updated_Engineering_v1.6.zip","file/Copper Color Fix 3.0.zip"]
-incompatibleResourcePacks:["inmemory:jaopca","quark:emote_resources","file/Copper Color Fix 3.0.zip"]
+resourcePacks:["vanilla","mod_resources","inmemory:jaopca","Supplementaries Generated Pack","quark:emote_resources","file/FullHD_Font_1.18_1.3.zip","file/Create+Guns+1.18+v4.zip","resources/simplehats_hatdl.zip","file/Updated_Engineering_v1.6.zip","file/Copper Color Fix 3.0.zip","Everycomp Generated Pack","resources/Limitless rebirth resources","file/eatinganimations+1.9.zip","file/updated_aquaculture-1.0.zip"]
+incompatibleResourcePacks:["inmemory:jaopca","quark:emote_resources","file/Copper Color Fix 3.0.zip","file/updated_aquaculture-1.0.zip"]
 lastServer:
 lang:en_us
 soundDevice:
@@ -74,8 +74,8 @@ hideBundleTutorial:true
 syncChunkWrites:true
 showAutosaveIndicator:true
 allowServerListing:true
-soundCategory_master:0.4884106
-soundCategory_music:0.3556338
+soundCategory_master:0.6056338
+soundCategory_music:1.0
 soundCategory_record:0.10798122
 soundCategory_weather:1.0
 soundCategory_block:1.0

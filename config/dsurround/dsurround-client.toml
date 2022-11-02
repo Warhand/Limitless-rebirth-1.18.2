@@ -21,7 +21,7 @@
 	#Range: 8 ~ 64
 	"Block Range" = 16
 	#Do not show light level for blocks where mobs will not spawn
-	"Hide Safe Blocks" = true
+	"Hide Safe Blocks" = false
 	#Light level at which mobs can spawn
 	#Range: 0 ~ 15
 	"Mob Spawn Light Threshold" = 7

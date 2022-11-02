@@ -55,9 +55,6 @@
 		bastion = true
 		evermore = true
 
-	[wood_type.integrateddynamics]
-		menril = true
-
 	[wood_type.myrtrees]
 		rubberwood = true
 
@@ -84,9 +81,6 @@
 	[wood_type.malum]
 		runewood = true
 		soulwood = true
-
-	[wood_type.valhelsia_structures]
-		lapidified_jungle = true
 
 	[wood_type.byg]
 		aspen = true
@@ -163,9 +157,6 @@
 		jubilee = true
 		bastion = true
 		evermore = true
-
-	[leaves_type.integrateddynamics]
-		menril = true
 
 	[leaves_type.myrtrees]
 		rubberwood = true

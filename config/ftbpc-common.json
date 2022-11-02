@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "featureToast": {
+    "comments": [
+      "Allows you to completely disable the Tutorial Toasts",
+      "Enabled by default"
+    ],
+    "enabled": true
+  }
+}

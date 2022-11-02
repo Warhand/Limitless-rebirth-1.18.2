@@ -38,6 +38,10 @@
     "redstone": true,
     "fe": true
   },
+  "treechop": {
+    "show_tree_block_counts": true,
+    "show_num_chops_remaining": true
+  },
   "create": {
     "contraption_inv": true,
     "blaze_burner": true,
