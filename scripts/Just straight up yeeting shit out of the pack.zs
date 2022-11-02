@@ -18,12 +18,9 @@ import mods.jei.JEI;
 <recipetype:immersiveengineering:metal_press>.removeAll();
 <recipetype:ftbic:extruding>.removeAll();
 <recipetype:ftbic:rolling>.removeAll();
-<recipetype:integrateddynamics:mechanical_squeezer>.removeAll();
-<recipetype:integrateddynamics:squeezer>.removeAll();
 
 //Regex recipe removal functions
 
-<recipetype:immersiveengineering:crusher>.removeByRegex("jaopca:immersiveengineering.*_to_.*");
 <recipetype:create:crushing>.removeByRegex("malum:create.crushing.crush_.*");
 <recipetype:immersiveengineering:crusher>.removeByRegex("immersiveengineering:crusher/ingot_.*");
 <recipetype:immersiveengineering:crusher>.removeByRegex("immersiveengineering:crusher/raw_block_.*");
@@ -32,8 +29,6 @@ import mods.jei.JEI;
 <recipetype:immersiveengineering:crusher>.removeByRegex("immersiveengineering:crusher.*_sandstone");
 <recipetype:tconstruct:casting_table>.removeByRegex("tconstruct:smeltery.casting.metal.*.gear_.*_cast");
 <recipetype:ftbic:macerating>.removeByRegex("ftbic:macerating/.*/.*_to_.*");
-<recipetype:ftbic:macerating>.removeByRegex("jaopca:ftbic.*_to_*.*");
-<recipetype:create:crushing>.removeByRegex("jaopca:create.*_to..*");
 
 //remove by name functions
 <recipetype:create:crushing>.removeByName("create:crushing/nether_gold_ore");
@@ -61,14 +56,6 @@ import mods.jei.JEI;
 <recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/copper/plate_sand_cast");
 <recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/iron/plate_gold_cast");
 <recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/iron/plate_sand_cast");
-<recipetype:tconstruct:casting_table>.removeByName("materialis:smeltery/casting/metal/utherium/nugget_gold_cast");
-<recipetype:tconstruct:casting_table>.removeByName("materialis:smeltery/casting/metal/utherium/nugget_sand_cast");
-<recipetype:tconstruct:casting_table>.removeByName("materialis:smeltery/casting/metal/regalium/nugget_gold_cast");
-<recipetype:tconstruct:casting_table>.removeByName("materialis:smeltery/casting/metal/regalium/nugget_sand_cast");
-<recipetype:tconstruct:casting_table>.removeByName("materialis:smeltery/casting/metal/utherium/ingot_gold_cast");
-<recipetype:tconstruct:casting_table>.removeByName("materialis:smeltery/casting/metal/utherium/ingot_sand_cast");
-<recipetype:tconstruct:casting_table>.removeByName("materialis:smeltery/casting/metal/regalium/ingot_gold_cast");
-<recipetype:tconstruct:casting_table>.removeByName("materialis:smeltery/casting/metal/regalium/ingot_sand_cast");
 <recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/gold/wire_gold_cast");
 <recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/gold/wire_sand_cast");
 <recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/iron/wire_gold_cast");
@@ -78,8 +65,6 @@ import mods.jei.JEI;
 val crafting_table_strings = [
 "extendedcrafting:black_iron_ingot",
 "extendedcrafting:redstone_ingot",
-"jaopca:nuggets.to_material.utherium",
-"jaopca:nuggets.to_material.regalium",
 "immersiveengineering:crafting/blastfurnace_preheater",
 "minecraft:end_crystal",
 "minecraft:daylight_detector",
@@ -101,10 +86,6 @@ craftingTable.removeByName(str);
 }
 
 val blast_furnace_strings = [
-"jaopca:create.crushed_to_material_blasting.regalium",
-"jaopca:dusts.to_material_blasting.regalium",
-"jaopca:create.crushed_to_material_blasting.utherium",
-"jaopca:dusts.to_material_blasting.utherium",
 "ftbic:blasting/dusts/iron_to_iron_ingot"
 ];
 
@@ -113,12 +94,6 @@ blastFurnace.removeByName(str);
 }
 
 val furnace_strings = [
-"jaopca:create.crushed_to_material_smelting.regalium",
-"jaopca:dusts.to_material.regalium",
-"jaopca:create.crushed_to_material_smelting.utherium",
-"jaopca:dusts.to_material.utherium",
-"integrateddynamics:smelting/menril_log_coal",
-"integrateddynamics:smelting/menril_log_filled_coal",
 "ftbic:smelting/dusts/iron_to_iron_ingot",
 "ftbic:smelting/dusts/copper_to_copper_ingot",
 "ftbic:smelting/dusts/gold_to_gold_ingot"
@@ -135,8 +110,6 @@ furnace.removeByName(str);
 val trash as IItemStack[] = [
 	<item:quark:chute>,
 	<item:schoolsofmagic:letter_ccw>,
-	<item:cgm:grenade>,
-	<item:cgm:stun_grenade>,
 	<item:upgradednetherite:gold_upgraded_netherite_ingot>,
 	<item:upgradednetherite:fire_upgraded_netherite_ingot>,
 	<item:upgradednetherite:ender_upgraded_netherite_ingot>,
@@ -146,7 +119,6 @@ val trash as IItemStack[] = [
 	<item:upgradednetherite:phantom_upgraded_netherite_ingot>,
 	<item:upgradednetherite:feather_upgraded_netherite_ingot>,
 	<item:upgradednetherite:corrupt_upgraded_netherite_ingot>,
-	<item:upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot>,
 	<item:extendedcrafting:ender_ingot>,
 	<item:immersiveengineering:mold_gear>,
 	<item:tconstruct:gear_cast>,
@@ -184,7 +156,6 @@ val trash as IItemStack[] = [
 	<item:botania:terra_axe>,
 	<item:botania:terra_pick>,
 	<item:botania:terra_sword>,
-	<item:jaopca:dusts.zinc>,
 	<item:immersiveengineering:dust_silver>,
 	<item:immersiveengineering:dust_nickel>,
 	<item:immersiveengineering:dust_aluminum>,
@@ -197,13 +168,13 @@ val trash as IItemStack[] = [
 	<item:minecraft:sticky_piston>,
 	<item:tconstruct:gold_bars>,
 	<item:quark:gold_bars>,
-	<item:jaopca:storage_blocks.dragonstone>,
 	<item:decorative_blocks:lattice>,
-	<item:jaopca:storage_blocks.wood>,
 	<item:ftbic:tin_dust>,
 	<item:effortlessbuilding:reach_upgrade1>,
 	<item:effortlessbuilding:reach_upgrade2>,
-	<item:effortlessbuilding:reach_upgrade3>
+	<item:effortlessbuilding:reach_upgrade3>,
+	<item:plaingrinder:grinder>,
+	<item:plaingrinder:handle>
 ];
 
 for item in trash{
@@ -216,7 +187,6 @@ val jei_removal as IItemStack[] = [
 	<item:tconstruct:gear_cast>,
 	<item:tconstruct:gear_sand_cast>,
 	<item:tconstruct:gear_red_sand_cast>,
-	<item:jaopca:create_crushed_ores.utherium>,
 	<item:createaddition:iron_wire>,
 	<item:malum:cracked_osmium_impetus>,
 	<item:malum:osmium_impetus>,
@@ -255,12 +225,9 @@ val jei_removal as IItemStack[] = [
 	<item:create:crushed_quicksilver_ore>,
 	<item:create:crushed_osmium_ore>,
 	<item:create:crushed_platinum_ore>,
-	<item:jaopca:raw_storage_blocks.osmium>,
-	<item:jaopca:storage_blocks.osmium>,
-	<item:jaopca:bloodmagic_gravels.osmium>,
-	<item:jaopca:bloodmagic_fragments.osmium>,
-	<item:jaopca:dusts.osmium>,
-	<item:tconstruct:piggy_backpack>
+	<item:tconstruct:piggy_backpack>,
+	<item:additionaladditions:gilded_netherite_sword>,
+	<item:additionaladditions:fried_egg>
 ];
 
 for item in jei_removal{
@@ -312,11 +279,6 @@ val utter_eradication as IItemStack[] = [
 	<item:ironjetpacks:cell>.withTag({Id:"ironjetpacks:creative"as string}),
 	<item:ironjetpacks:jetpack>.withTag({Id:"ironjetpacks:creative"as string,Throttle:1.0 as double}),
 	<item:ironjetpacks:thruster>.withTag({Id:"ironjetpacks:creative"as string}),
-	<item:jaopca:create_crushed_ores.netherite_scrap>,
-	<item:jaopca:dusts.soulstone>,
-	<item:jaopca:raw_storage_blocks.tin>,
-	<item:jaopca:storage_blocks.mana_diamond>,
-	<item:jaopca:storage_blocks.mana_diamond>,
 	<item:malum:copper_nugget>,
 	<item:materialis:inlay_cast>,
 	<item:materialis:inlay_red_sand_cast>,
@@ -359,21 +321,12 @@ val utter_eradication as IItemStack[] = [
 	<item:immersiveengineering:shovel_steel>,
 	<item:immersiveengineering:pickaxe_steel>,
 	<item:immersiveengineering:hoe_steel>,
-	<item:jaopca:nuggets.utherium>,
-	<item:jaopca:nuggets.starmetal>,
-	<item:jaopca:create_crushed_ores.starmetal>,
-	<item:jaopca:dusts.starmetal>,
-	<item:jaopca:dusts.utherium>,
 	<item:tconstruct:gear_cast>,
 	<item:tconstruct:gear_sand_cast>,
 	<item:tconstruct:gear_red_sand_cast>,
-	<item:jaopca:storage_blocks.netherite_scrap>,
 	<item:tconstruct:debris_nugget>,
 	<item:create:dough>,
 	<item:ftbic:bronze_plate>,
-	<item:jaopca:nuggets.regalium>,
-	<item:jaopca:create_crushed_ores.regalium>,
-	<item:jaopca:dusts.regalium>,
 	<item:ftbic:uranium_ingot>,
 	<item:delightful:steel_knife>,
 	<item:delightful:netherite_opal_knife>,
@@ -419,13 +372,22 @@ val utter_eradication as IItemStack[] = [
 	<item:tconstruct:gold_item_frame>,
 	<item:tconstruct:clear_item_frame>,
 	<item:tconstruct:netherite_item_frame>,
-	<item:storagedrawers:controller_slave>
+	<item:storagedrawers:controller_slave>,
+	<item:bygonenether:gilded_netherite_boots>,
+	<item:bygonenether:gilded_netherite_leggings>,
+	<item:bygonenether:gilded_netherite_chestplate>,
+	<item:bygonenether:gilded_netherite_helmet>,
+	<item:farmersdelight:fried_egg>,
+	<item:createaddition:iron_wire>,
+	<item:constructionwand:stone_wand>,
+	<item:constructionwand:iron_wand>
 ];
 
 for item in utter_eradication{
 	craftingTable.remove(item);
 	JEI.hideIngredient(item);
 	blastFurnace.remove(item);
+	smithing.remove(item);
 	furnace.remove(item);
 	<recipetype:tconstruct:molding_table>.remove(item);
 	<recipetype:immersiveengineering:metal_press>.remove(item);
@@ -436,6 +398,7 @@ for item in utter_eradication{
 	<recipetype:create:milling>.remove(item);
 	<recipetype:create:crushing>.remove(item);
 	<recipetype:create:mixing>.remove(item);
+	item.addTooltip("THIS ITEM IS NOT MEANT TO BE OBTAINABLE, PLEASE REPORT THIS AS AN ISSUE IF YOU COME ACROSS IT WHILE PLAYING");
 	for tag in <tagmanager:items>.getTagsFor(item) {
   tag.remove(item);
 }
