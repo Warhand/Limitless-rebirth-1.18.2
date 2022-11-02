@@ -1,0 +1,70 @@
+Vanilla Tweaks Resource Pack
+Version: 1.18
+Resource Packs:
+	ItemStitchingFix
+	BedrockDriedKelpItem
+	CrimsonPlanksBG
+	SmootherFont
+	NoJavaEditionTitle
+	MoreCrosshairs-4Angled
+	PingColorIndicator
+	UnobtrusiveRain
+	UnobtrusiveSnow
+	TransparentPumpkin
+	LowerShield
+	CleanerWorldBorder
+	VisualInfestedStoneItems
+	VisualWaxedCopperItems
+	VisualHoney
+	UnlitRedstoneOre
+	GroovyLevers
+	Age25Kelp
+	ClearBannerPatterns
+	QuieterBats
+	QuieterRain
+	QuieterNetherPortals
+	QuieterDispensersDroppers
+	QuieterMinecarts
+	VariatedBookshelves
+	RandomCoarseDirtRotation
+	VariatedGrass
+	VariatedCobblestone
+	RandomMossRotation
+	VariatedBricks
+	VariatedMushroomBlocks
+	VariatedEndStone
+	VariatedGravel
+	VariatedMycelium
+	VariatedTerracotta
+	VariatedStone
+	VariatedUnpolishedStones
+	BushyLeaves
+	BetterBedrock
+	TwinklingStars
+	FancySunflowers
+	ClearerWater
+	CircleLogTops
+	AccurateSpyglass
+	AshlessCampfires
+	UniqueDyes
+	SmootherWarpedPlanks
+	RedIronGolemFlowers
+	BetterParticles
+	HDShieldBanners
+	AnimatedCampfireItem
+	BedIcons
+	PhantomElytra
+	StickyPistonSides
+	BedrockPistonArms
+
+Combined packs:
+	BedrockPistonArms+StickyPistonSides
+	
+Recipes:
+	craftable blackstone
+	craftable coral blocks 2x2
+	powder to glass
+	dropper to dispenser
+	sandstone dyeing
+	
+Datapacks:
