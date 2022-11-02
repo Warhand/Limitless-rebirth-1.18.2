@@ -9,6 +9,7 @@ import crafttweaker.api.recipe.SmithingRecipeManager;
 import crafttweaker.api.fluid.FluidIngredient;
 import crafttweaker.api.fluid.IFluidStack;
 import crafttweaker.api.tag.type.KnownTag;
+import crafttweaker.api.tag.manager.ITagManager;
 
 
 //adding val for hammers
@@ -559,6 +560,17 @@ for input, output in fluid_ingot_cast_map{
 });
 }
 
+for input, output in fluid_ingot_cast_map{
+var fluidtag1 = <tagManager:fluids>.tag("lr:casting/" + input.registryName.path);
+fluidtag1.add(input);
+
+<recipetype:immersiveengineering:bottling_machine>.addJsonRecipe("custom_casting_single_use_ie_" + output.registryName.path, {
+"results":[{"item": output.registryName}],
+"input":{"tag": "tconstruct:casts/single_use/ingot"},
+"fluid":{"tag": fluidtag1.id, "amount":90}
+});
+}
+
 //plate casting
 
 val fluid_plate_cast_map as IItemStack[IFluidStack] = {
@@ -601,10 +613,20 @@ for input, output in fluid_plate_cast_map{
 });
 }
 
+for input, output in fluid_plate_cast_map{
+var fluidtag2 = <tagManager:fluids>.tag("lr:casting/" + input.registryName.path);
+fluidtag2.add(input);
+
+<recipetype:immersiveengineering:bottling_machine>.addJsonRecipe("custom_casting_single_use_ie_" + output.registryName.path, {
+"results":[{"item": output.registryName}],
+"input":{"tag": "tconstruct:casts/single_use/plate"},
+"fluid":{"tag": fluidtag2.id, "amount":90}
+});
+}
+
 //gem casting
 
 val fluid_gem_cast_map as IItemStack[IFluidStack] = {
-	<fluid:jaopca:molten.soulstone>: <item:malum:processed_soulstone>,
 	<fluid:materialis:molten_utherium>: <item:undergarden:utherium_crystal>,
 	<fluid:materialis:molten_regalium>: <item:undergarden:regalium_crystal>,
 	<fluid:jaopca:molten.lapis>: <item:minecraft:lapis_lazuli>,
@@ -634,6 +656,17 @@ for input, output in fluid_gem_cast_map{
 });
 }
 
+for input, output in fluid_gem_cast_map{
+var fluidtag3 = <tagManager:fluids>.tag("lr:casting/" + input.registryName.path);
+fluidtag3.add(input);
+
+<recipetype:immersiveengineering:bottling_machine>.addJsonRecipe("custom_casting_single_use_ie_" + output.registryName.path, {
+"results":[{"item": output.registryName}],
+"input":{"tag": "tconstruct:casts/single_use/gem"},
+"fluid":{"tag": fluidtag3.id, "amount":90}
+});
+}
+
 //wire casting
 
 val fluid_wire_cast_map as IItemStack[IFluidStack] = {
@@ -645,6 +678,17 @@ val fluid_wire_cast_map as IItemStack[IFluidStack] = {
 	<fluid:tconstruct:molten_steel>: <item:immersiveengineering:wire_steel>,
 	<fluid:tconstruct:molten_lead>: <item:immersiveengineering:wire_lead>
 };
+
+for input, output in fluid_wire_cast_map{
+var fluidtag4 = <tagManager:fluids>.tag("lr:casting/" + input.registryName.path);
+fluidtag4.add(input);
+
+<recipetype:immersiveengineering:bottling_machine>.addJsonRecipe("custom_casting_single_use_ie_" + output.registryName.path, {
+"results":[{"item": output.registryName}],
+"input":{"tag": "tconstruct:casts/single_use/wire"},
+"fluid":{"tag": fluidtag4.id, "amount":90}
+});
+}
 
 for input, output in fluid_wire_cast_map{
 <recipetype:create:filling>.addJsonRecipe("custom_casting_create_" + output.registryName.path, {
