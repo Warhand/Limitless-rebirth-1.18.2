@@ -7,7 +7,7 @@
 	#Should materials be directly added to FTBIC's material list to generate recipes instead of having JAOPCA do so.
 	addToFTBICMaterials = false
 	#The materials that should not have macerator recipes added.
-	toDustMaterialBlacklist = []
+	toDustMaterialBlacklist = ["*"]
 	#The materials that should not have roller to plate recipes added.
 	toPlateMaterialBlacklist = []
 	#The materials that should not have roller to gear recipes added.

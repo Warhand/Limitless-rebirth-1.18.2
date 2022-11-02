@@ -1,9 +1,9 @@
 
 [general]
 	#The material blacklist of this module.
-	materialBlacklist = []
+	materialBlacklist = ["osmium"]
 
 [recipes]
 	#The materials that should not have ARC to dust recipes added.
-	toDustMaterialBlacklist = []
+	toDustMaterialBlacklist = ["*"]
 
