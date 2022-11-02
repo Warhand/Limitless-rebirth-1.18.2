@@ -16,10 +16,6 @@ import crafttweaker.api.ingredient.transform.type.TransformReuse;
 //powdered snow recipe
 craftingTable.addShaped("powdered_snow", <item:minecraft:powder_snow_bucket>, [[<item:minecraft:ice>, <item:minecraft:snowball>, <item:minecraft:ice>], [<item:minecraft:ice>, <item:minecraft:water_bucket>, <item:minecraft:ice>], [<item:minecraft:ice>, <item:minecraft:ice>, <item:minecraft:ice>]]);
 
-//apotheosis ender lead
-craftingTable.remove(<item:apotheosis:ender_lead>);
-craftingTable.addShaped("ender_lead", <item:apotheosis:ender_lead>, [[<item:minecraft:twisting_vines>, <item:minecraft:twisting_vines>, IIngredientEmpty.getInstance()], [<item:minecraft:twisting_vines>, <item:minecraft:ender_eye>, IIngredientEmpty.getInstance()], [IIngredientEmpty.getInstance(), IIngredientEmpty.getInstance(), <item:minecraft:twisting_vines>]]);
-
 //waystones warp stone
 craftingTable.remove(<item:waystones:warp_stone>);
 craftingTable.addShaped("waystones_warp_stone", <item:waystones:warp_stone>, [[<item:waystones:warp_dust>, <item:minecraft:chorus_fruit>, <item:waystones:warp_dust>], [<item:minecraft:chorus_fruit>, <tag:items:forge:gems/diamond>, <item:minecraft:chorus_fruit>], [<item:waystones:warp_dust>, <item:minecraft:chorus_fruit>, <item:waystones:warp_dust>]]);
@@ -61,38 +57,6 @@ craftingTable.addShaped("prettypipes_pressurizer", <item:prettypipes:pressurizer
 craftingTable.remove(<item:quark:crate>);
 craftingTable.addShaped("quark_oddities_crate", <item:quark:crate>, [[<tag:items:forge:plates/iron>, <tag:items:minecraft:planks>, <tag:items:forge:plates/iron>], [<tag:items:minecraft:planks>, <tag:items:forge:barrels/wooden>, <tag:items:minecraft:planks>], [<tag:items:forge:plates/iron>, <tag:items:minecraft:planks>, <tag:items:forge:plates/iron>]]);
 
-//integrated dynamics logic cable
-craftingTable.remove(<item:integrateddynamics:cable>);
-craftingTable.addShapedMirrored("integrateddynamics_crafting_cable", <constant:minecraft:mirroraxis:all>, <item:integrateddynamics:cable> * 4, [[<item:integrateddynamics:crystalized_menril_chunk>, <item:minecraft:end_rod>, <item:integrateddynamics:crystalized_menril_chunk>], [<item:integrateddynamics:crystalized_menril_chunk>, <item:immersiveengineering:rs_engineering>, <item:integrateddynamics:crystalized_menril_chunk>], [<item:integrateddynamics:crystalized_menril_chunk>, <item:minecraft:end_rod>, <item:integrateddynamics:crystalized_menril_chunk>]]);
-
-//integrated dynamics wrench
-craftingTable.remove(<item:integrateddynamics:wrench>);
-craftingTable.addShaped("integrateddynamics_crafting_wrench", <item:integrateddynamics:wrench>, [[IIngredientEmpty.getInstance(), <item:integrateddynamics:crystalized_menril_chunk>, IIngredientEmpty.getInstance()], [IIngredientEmpty.getInstance(), <tag:items:integrateddynamics:menril_logs>, <item:integrateddynamics:crystalized_menril_chunk>], [<tag:items:integrateddynamics:menril_logs>, IIngredientEmpty.getInstance(), IIngredientEmpty.getInstance()]]);
-
-//integrated dynamics item interface
-craftingTable.remove(<item:integratedtunnels:part_interface_item>);
-craftingTable.addShaped("integratedtunnels_crafting_part_interface_item", <item:integratedtunnels:part_interface_item> * 2, [[<item:integrateddynamics:cable>, <item:create:portable_storage_interface>, <item:integrateddynamics:cable>], [<item:integrateddynamics:crystalized_menril_chunk>, <item:integrateddynamics:crystalized_menril_chunk>, <item:integrateddynamics:crystalized_menril_chunk>]]);
-
-//integrated dynamics energy interface
-craftingTable.remove(<item:integratedtunnels:part_interface_energy>);
-craftingTable.addShaped("integratedtunnels_crafting_part_interface_energy", <item:integratedtunnels:part_interface_energy> * 2, [[<item:integrateddynamics:cable>, <item:immersiveengineering:coil_mv>, <item:integrateddynamics:cable>], [<item:integrateddynamics:crystalized_menril_chunk>, <item:integrateddynamics:crystalized_menril_chunk>, <item:integrateddynamics:crystalized_menril_chunk>]]);
-
-//integrated dynamics fluid interface
-craftingTable.remove(<item:integratedtunnels:part_interface_fluid>);
-craftingTable.addShaped("integratedtunnels_crafting_part_interface_fluid", <item:integratedtunnels:part_interface_fluid> * 2, [[<item:integrateddynamics:cable>, <item:create:portable_fluid_interface>, <item:integrateddynamics:cable>], [<item:integrateddynamics:crystalized_menril_chunk>, <item:integrateddynamics:crystalized_menril_chunk>, <item:integrateddynamics:crystalized_menril_chunk>]]);
-
-//integrated dynamic input variable transformer
-craftingTable.remove(<item:integrateddynamics:variable_transformer_input>);
-craftingTable.addShaped("integrateddynamics_crafting_variable_transformer_input", <item:integrateddynamics:variable_transformer_input> * 2, [[IIngredientEmpty.getInstance(), <item:integrateddynamics:variable>, IIngredientEmpty.getInstance()], [<item:integrateddynamics:cable>, <item:minecraft:sticky_piston>, <item:integrateddynamics:cable>], [IIngredientEmpty.getInstance(), <item:integrateddynamics:variable>, IIngredientEmpty.getInstance()]]);
-
-//integrated dynamics output variable transformer
-craftingTable.remove(<item:integrateddynamics:variable_transformer_output>);
-craftingTable.addShaped("integrateddynamics_crafting_variable_transformer_output", <item:integrateddynamics:variable_transformer_output> * 2, [[IIngredientEmpty.getInstance(), <item:integrateddynamics:variable>, IIngredientEmpty.getInstance()], [<item:integrateddynamics:cable>, <item:minecraft:piston>, <item:integrateddynamics:cable>], [IIngredientEmpty.getInstance(), <item:integrateddynamics:variable>, IIngredientEmpty.getInstance()]]);
-
-//integrated dynamics battery
-craftingTable.remove(<item:integrateddynamics:energy_battery>);
-craftingTable.addShaped("integrateddynamics_crafting_energy_battery", <item:integrateddynamics:energy_battery>.withTag({energy: 0 as int}), [[<tag:items:integrateddynamics:menril_logs>, <item:integrateddynamics:crystalized_menril_block>, <tag:items:integrateddynamics:menril_logs>], [<tag:items:integrateddynamics:menril_logs>, <item:immersiveengineering:capacitor_mv>, <tag:items:integrateddynamics:menril_logs>], [<tag:items:integrateddynamics:menril_logs>, <item:integrateddynamics:crystalized_menril_block>, <tag:items:integrateddynamics:menril_logs>]]);
-
 //storage drawers glowing label
 craftingTable.remove(<item:storagedrawers:illumination_upgrade>);
 craftingTable.addShaped("storagedrawers_illumination_upgrade", <item:storagedrawers:illumination_upgrade> * 8, [[<item:minecraft:glow_ink_sac>, <tag:items:forge:rods/wooden>, <item:minecraft:glow_ink_sac>], [<tag:items:forge:rods/wooden>, <item:storagedrawers:upgrade_template>, <tag:items:forge:rods/wooden>], [<item:minecraft:glow_ink_sac>, <tag:items:forge:rods/wooden>, <item:minecraft:glow_ink_sac>]]);
@@ -119,9 +83,6 @@ craftingTable.addShapeless("portable_fluid_interface", <item:create:portable_flu
 
 //create brass casing new recipe
 craftingTable.addShaped("create_brass_casing", <item:create:brass_casing> * 8, [[<item:immersiveengineering:treated_wood_horizontal>, <item:immersiveengineering:treated_wood_horizontal>, <item:immersiveengineering:treated_wood_horizontal>], [<tag:items:forge:plates/brass>, <tag:items:minecraft:logs>, <tag:items:forge:plates/brass>], [<item:immersiveengineering:treated_wood_horizontal>, <item:immersiveengineering:treated_wood_horizontal>, <item:immersiveengineering:treated_wood_horizontal>]]);
-
-//rose quarts tooltip
-<item:biomesoplenty:rose_quartz_shard>.addTooltip("Found in large patches in the nether.");
 
 //rose quartz uncrafting block
 craftingTable.addShapeless("uncrafting_rose_quartz", <item:biomesoplenty:rose_quartz_block> * 4, [<item:biomesoplenty:rose_quartz_shard>]);
@@ -173,9 +134,6 @@ craftingTable.addShaped("computercraft_cable", <item:computercraft:cable> * 8, [
 craftingTable.removeByName("computercraft:wired_modem");
 craftingTable.addShaped("computercraft_wired_modem", <item:computercraft:wired_modem>, [[<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>], [<tag:items:forge:ingots/iron>, <tag:items:forge:dusts/redstone>, <tag:items:forge:ingots/iron>], [<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>]]);
 
-//tooltip lucky rabbits foot
-<item:apotheosis:lucky_foot>.addTooltip("A rare drop from rabbits.");
-
 //stone variant crafting
 craftingTable.removeByName("minecraft:diorite");
 craftingTable.addShapedMirrored("minecraft_diorite", MirrorAxis.HORIZONTAL, <item:minecraft:diorite> * 4, [[<item:minecraft:stone>, <item:minecraft:calcite>], [<item:minecraft:calcite>, <item:minecraft:stone>]]);
@@ -217,12 +175,6 @@ for rawblock, block in rawblock_block_map {
 
 //red alloy ingot recipe
 craftingTable.addShaped("extendedcrafting_redstone_ingot", <item:extendedcrafting:redstone_ingot>, [[<tag:items:forge:dusts/redstone>, <tag:items:forge:dusts/redstone>, <tag:items:forge:dusts/redstone>], [<tag:items:forge:dusts/redstone>, <tag:items:forge:ingots/iron>, <tag:items:forge:dusts/redstone>], [<tag:items:forge:dusts/redstone>, <tag:items:forge:dusts/redstone>, <tag:items:forge:dusts/redstone>]]);
-
-//Tinkers slime crystal tooltips
-<item:tconstruct:earth_slime_crystal>.addTooltip("Found in geodes in the Overworld.");
-<item:tconstruct:sky_slime_crystal>.addTooltip("Found in geodes in the Overworld.");
-<item:tconstruct:ichor_slime_crystal>.addTooltip("Found in geodes in the Nether.");
-<item:tconstruct:ender_slime_crystal>.addTooltip("Found in geodes in the End.");
 
 //Biomes o plenty brimstone fumarole recipe
 craftingTable.addShaped("custom_brimstone_fumarole", <item:biomesoplenty:brimstone_fumarole>, [[<item:biomesoplenty:brimstone>, <item:minecraft:campfire>, <item:biomesoplenty:brimstone>], [<item:biomesoplenty:brimstone>, <item:minecraft:magma_block>, <item:biomesoplenty:brimstone>]]);
@@ -306,11 +258,6 @@ craftingTable.addShaped("belt_conveyor", <item:immersiveengineering:conveyor_bas
 //enchanted apple smithing recipes
 smithing.addRecipe("enchanted_heart", <item:minecraft:enchanted_golden_apple>, <item:minecraft:golden_apple>, <item:paraglider:heart_container>);
 
-smithing.remove(<item:upgradednetherite_items:enchanted_netherite_apple>);
-smithing.addRecipe("enchanted_netherite_heart", <item:upgradednetherite_items:enchanted_netherite_apple>, <item:upgradednetherite_items:netherite_apple>, <item:paraglider:heart_container>);
-
-smithing.addRecipe("enchanted_golderite_heart", <item:upgradednetherite_items:enchanted_gold_upgraded_netherite_apple>, <item:upgradednetherite_items:gold_upgraded_netherite_apple>, <item:paraglider:heart_container>);
-
 //steel equipment recipe, replacing IE equipment with C:A equipment
 
 craftingTable.addShaped("armor_steel_feet", <item:alloyed:steel_boots>, [[<tag:items:forge:plates/steel>, IIngredientEmpty.getInstance(), <tag:items:forge:plates/steel>], [<tag:items:forge:plates/steel>, IIngredientEmpty.getInstance(), <tag:items:forge:plates/steel>]]);
@@ -331,7 +278,6 @@ craftingTable.addShaped("axe_steel", <item:alloyed:steel_axe>, [[<tag:items:forg
 craftingTable.addShaped("hoe_steel", <item:alloyed:steel_hoe>, [[<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>], [IIngredientEmpty.getInstance(), <tag:items:forge:rods/treated_wood>], [IIngredientEmpty.getInstance(), <tag:items:forge:rods/treated_wood>]]);
 
 craftingTable.addShaped("sword_steel", <item:alloyed:steel_sword>, [[<tag:items:forge:ingots/steel>], [<tag:items:forge:ingots/steel>], [<tag:items:forge:rods/treated_wood>]]);
-
 
 craftingTable.addShaped("fishing_rod_steel", <item:alloyed:steel_fishing_rod>, [[IIngredientEmpty.getInstance(), IIngredientEmpty.getInstance(), <tag:items:forge:ingots/steel>], [IIngredientEmpty.getInstance(), <tag:items:forge:ingots/steel>, <tag:items:forge:string>], [<tag:items:forge:rods/wooden>, IIngredientEmpty.getInstance(), <tag:items:forge:string>]]);
 
@@ -412,51 +358,6 @@ craftingTable.addShaped("shears_steel", <item:alloyed:steel_shears>, [[IIngredie
 <recipetype:immersiveengineering:crusher>.addJsonRecipe("custom_ie_crushing_sourceberries", 
 {
 "secondaries":[{"chance":0.5,"output":{"count":1,"item":"minecraft:purple_dye"}}],"result":{"count":1,"base_ingredient":{"item":"minecraft:purple_dye"}},"input":{"item": "ars_nouveau:source_berry"},"energy":2000
-});
-
-<recipetype:integrateddynamics:squeezer>.addJsonRecipe("custom_squeeze_sourceberries", {
-  "item": [
-    {
-      "item": "ars_nouveau:source_berry"
-    }
-  ],
-  "result": {
-    "items": [
-		{
-			"item": {
-			  "item": "minecraft:purple_dye",
-			  "count": 1
-			}
-		},
-		{
-        "item": "minecraft:purple_dye",
-        "chance": 0.25 as float
-       }
-    ]
-  }
-});
-
-<recipetype:integrateddynamics:mechanical_squeezer>.addJsonRecipe("custom_mech_squeeze_sourceberries", {
-  "item": [
-    {
-      "item": "ars_nouveau:source_berry"
-    }
-  ],
-  "result": {
-    "items": [
-		{
-			"item": {
-			  "item": "minecraft:purple_dye",
-			  "count": 1
-			}
-		},
-		{
-        "item": "minecraft:purple_dye",
-        "chance": 0.25 as float
-       }
-    ]
-  },
-  "duration": 20
 });
 
 //milling magebloom
@@ -548,3 +449,58 @@ craftingTable.addShaped("custom_slime_crystal", <item:tconstruct:earth_slime_cry
 craftingTable.addShaped("custom_ichor_crystal", <item:tconstruct:ichor_slime_crystal>, [[IIngredientEmpty.getInstance(), <item:tconstruct:ichor_slime_ball>, IIngredientEmpty.getInstance()], [<item:tconstruct:ichor_slime_ball>, <item:biomesoplenty:rose_quartz_shard>, <item:tconstruct:ichor_slime_ball>], [IIngredientEmpty.getInstance(), <item:tconstruct:ichor_slime_ball>, IIngredientEmpty.getInstance()]]);
 
 craftingTable.addShaped("custom_enderslime_crystal", <item:tconstruct:ender_slime_crystal>, [[IIngredientEmpty.getInstance(), <item:tconstruct:ender_slime_ball>, IIngredientEmpty.getInstance()], [<item:tconstruct:ender_slime_ball>, <item:lightstones:blightstone>, <item:tconstruct:ender_slime_ball>], [IIngredientEmpty.getInstance(), <item:tconstruct:ender_slime_ball>, IIngredientEmpty.getInstance()]]);
+
+
+//Illager items from crude cladding
+
+craftingTable.addShapeless("custom_blast_plating", <item:savage_and_ravage:blast_proof_plating>, [<item:biomemakeover:crude_cladding>, <tag:items:forge:ingots/gold>, <item:savage_and_ravage:creeper_spores>, <item:savage_and_ravage:creeper_spores>]);
+
+craftingTable.addShaped("custom_mask_of_dishonesty", <item:savage_and_ravage:mask_of_dishonesty>, [[<item:biomemakeover:crude_cladding>, <item:minecraft:ghast_tear>, <item:biomemakeover:crude_cladding>], [<item:biomemakeover:crude_cladding>, <item:minecraft:skeleton_skull>, <item:biomemakeover:crude_cladding>], [IIngredientEmpty.getInstance(), <item:biomemakeover:crude_cladding>, IIngredientEmpty.getInstance()]]);
+
+craftingTable.addShaped("custom_boomerang", <item:hunterillager:boomerang>, [[<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <item:biomemakeover:crude_cladding>], [IIngredientEmpty.getInstance(), <item:biomemakeover:crude_cladding>, <tag:items:minecraft:logs>], [IIngredientEmpty.getInstance(), IIngredientEmpty.getInstance(), <tag:items:minecraft:logs>]]);
+
+craftingTable.addShaped("custom_conch_of_conjuring", <item:savage_and_ravage:conch_of_conjuring>, [[<item:biomemakeover:crude_cladding>, <item:minecraft:nautilus_shell>, <item:biomemakeover:crude_cladding>], [<item:minecraft:nautilus_shell>, <item:minecraft:totem_of_undying>, <item:minecraft:nautilus_shell>], [<item:biomemakeover:crude_cladding>, <item:minecraft:nautilus_shell>, <item:biomemakeover:crude_cladding>]]);
+
+craftingTable.addShaped("custom_beheading_sword", <item:savage_and_ravage:cleaver_of_beheading>, [[IIngredientEmpty.getInstance(), <item:biomemakeover:crude_cladding>, IIngredientEmpty.getInstance()], [IIngredientEmpty.getInstance(), <item:biomemakeover:crude_cladding>, IIngredientEmpty.getInstance()], [IIngredientEmpty.getInstance(), <item:minecraft:diamond_sword>, IIngredientEmpty.getInstance()]]);
+
+val tapestry_array as IItemStack[IItemStack] = {
+<item:minecraft:white_banner>      : <item:biomemakeover:white_tapestry>,
+<item:minecraft:orange_banner>     : <item:biomemakeover:orange_tapestry>,
+<item:minecraft:magenta_banner>    : <item:biomemakeover:magenta_tapestry>,
+<item:minecraft:light_blue_banner> : <item:biomemakeover:light_blue_tapestry>,
+<item:minecraft:yellow_banner>     : <item:biomemakeover:yellow_tapestry>,
+<item:minecraft:lime_banner>       : <item:biomemakeover:lime_tapestry>,
+<item:minecraft:pink_banner>       : <item:biomemakeover:pink_tapestry>,
+<item:minecraft:gray_banner>       : <item:biomemakeover:gray_tapestry>,
+<item:minecraft:light_gray_banner> : <item:biomemakeover:light_gray_tapestry>,
+<item:minecraft:cyan_banner>       : <item:biomemakeover:cyan_tapestry>,
+<item:minecraft:purple_banner>     : <item:biomemakeover:purple_tapestry>,
+<item:minecraft:blue_banner>       : <item:biomemakeover:blue_tapestry>,
+<item:minecraft:brown_banner>      : <item:biomemakeover:brown_tapestry>,
+<item:minecraft:green_banner>      : <item:biomemakeover:green_tapestry>,
+<item:minecraft:red_banner>        : <item:biomemakeover:red_tapestry>,
+<item:minecraft:black_banner>      : <item:biomemakeover:black_tapestry>
+};
+
+for input, output in tapestry_array {
+	smithing.addRecipe("custom_recipe_for_" + output.registryName.path, output, input, <item:biomemakeover:crude_cladding>);
+}
+
+//Cloggrum to fertilizer
+composter.setValue(<item:jaopca:dusts.cloggrum>, 1.0);
+
+//burning malum reagants for original drops
+furnace.addRecipe("reagants_to_flesh", <item:malum:rotting_essence>, <item:minecraft:rotten_flesh> * 2, 1.0, 200);
+furnace.addRecipe("reagants_to_bone", <item:malum:grim_talc>, <item:minecraft:bone> * 2, 1.0, 200);
+furnace.addRecipe("reagants_to_membrane", <item:malum:astral_weave>, <item:minecraft:phantom_membrane> * 2, 1.0, 200);
+
+blastFurnace.addRecipe("blast_reagants_to_flesh", <item:malum:rotting_essence>, <item:minecraft:rotten_flesh> * 2, 1.0, 100);
+blastFurnace.addRecipe("blast_reagants_to_bone", <item:malum:grim_talc>, <item:minecraft:bone> * 2, 1.0, 100);
+blastFurnace.addRecipe("blast_reagants_to_membrane", <item:malum:astral_weave>, <item:minecraft:phantom_membrane> * 2, 1.0, 100);
+
+craftingTable.addShaped("custom_summoning_altar", <item:summoningrituals:altar>, [[<tag:items:minecraft:candles>, <item:minecraft:wither_skeleton_skull>, <tag:items:minecraft:candles>], [<tag:items:forge:ingots/gold>, <item:minecraft:red_carpet>, <tag:items:forge:ingots/gold>], [<item:graveyard:dark_iron_block>, <item:graveyard:dark_iron_block>, <item:graveyard:dark_iron_block>]]);
+
+//reworked plain grinder recipes
+craftingTable.addShaped("custom_grinder", <item:plaingrinder:grinder>, [[<tag:items:forge:cobblestone>, <tag:items:forge:ingots/iron>, <tag:items:forge:cobblestone>], [<tag:items:forge:cobblestone>, <item:minecraft:flint>, <tag:items:forge:cobblestone>], [<tag:items:forge:cobblestone>, <tag:items:forge:cobblestone>, <tag:items:forge:cobblestone>]]);
+
+craftingTable.addShaped("custom_handle", <item:plaingrinder:handle>, [[<tag:items:forge:rods/wooden>, <tag:items:forge:rods/wooden>], [IIngredientEmpty.getInstance(), <tag:items:forge:rods/wooden>], [IIngredientEmpty.getInstance(), <tag:items:forge:rods/wooden>]]);
