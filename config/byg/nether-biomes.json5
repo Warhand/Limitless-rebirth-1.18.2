@@ -50,7 +50,7 @@ If your settings in this file seem to have to no effect on the generation of the
 			},
 			{
 				"data": "byg:warped_desert",
-				"weight": 0
+				"weight": 2
 			},
 			{
 				"data": "byg:crimson_gardens",
@@ -259,7 +259,7 @@ If your settings in this file seem to have to no effect on the generation of the
 			},
 			{
 				"data": "byg:warped_desert",
-				"weight": 2
+				"weight": 0
 			},
 			{
 				"data": "byg:crimson_gardens",
