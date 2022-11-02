@@ -134,26 +134,37 @@
 		}
 		{
 			x: -1.5d
-			y: -7.5d
+			y: -6.0d
 			shape: "circle"
 			dependencies: [
 				"4324BA63CAE80BAD"
 				"7F5939B22CD6A758"
 			]
 			id: "3FEC1560879E9060"
-			tasks: [{
-				id: "7CDB925B77462950"
-				type: "observation"
-				title: "Construct an advanced blast furnace"
-				icon: {
-					id: "immersiveengineering:advanced_blast_furnace"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "7CDB925B77462950"
+					type: "observation"
+					title: "Construct an advanced blast furnace"
+					icon: {
+						id: "immersiveengineering:advanced_blast_furnace"
+						Count: 1b
+						tag: { }
+					}
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:advanced_blast_furnace"
 				}
-				timer: 0L
-				observe_type: 0
-				to_observe: "immersiveengineering:advanced_blast_furnace"
-			}]
+				{
+					id: "6E7F48A1D7FDC2BA"
+					type: "item"
+					item: {
+						id: "immersiveengineering:blastfurnace_preheater"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
 		}
 		{
 			x: -3.0d
@@ -188,14 +199,13 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -6.0d
-			shape: "rsquare"
+			x: 0.0d
+			y: -8.0d
+			shape: "circle"
 			dependencies: [
 				"4324BA63CAE80BAD"
 				"7F5939B22CD6A758"
 			]
-			optional: true
 			id: "30B8C35683527461"
 			tasks: [{
 				id: "12EE756E36C2A628"
@@ -221,6 +231,21 @@
 				type: "item"
 				item: {
 					id: "immersiveengineering:conveyor_basic"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -8.0d
+			dependencies: ["7F5939B22CD6A758"]
+			id: "5A539E9BA20FDD12"
+			tasks: [{
+				id: "0B234AB4FF55165D"
+				type: "item"
+				item: {
+					id: "immersiveengineering:connector_lv"
 					Count: 1b
 					tag: { }
 				}

@@ -49,16 +49,16 @@
 				}
 			]
 			rewards: [{
-				id: "585EB933DE9605B6"
+				id: "15628FA2E244A5AD"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
+						Type: "COMMON"
+						Color: 16777215
+						Name: "Common Lootbag"
+						Loot: "lootbags:common"
 					}
 				}
 			}]
@@ -81,16 +81,16 @@
 				item: "botania:apothecary_default"
 			}]
 			rewards: [{
-				id: "36759E4563B713E2"
+				id: "337F4763AFC8848F"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
+						Type: "COMMON"
+						Color: 16777215
+						Name: "Common Lootbag"
+						Loot: "lootbags:common"
 					}
 				}
 			}]
@@ -112,16 +112,16 @@
 				item: "botania:pure_daisy"
 			}]
 			rewards: [{
-				id: "3A2FF98B9DB2E29D"
+				id: "774904BC4A960A51"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
+						Type: "COMMON"
+						Color: 16777215
+						Name: "Common Lootbag"
+						Loot: "lootbags:common"
 					}
 				}
 			}]
@@ -142,16 +142,16 @@
 				item: "botania:mana_pool"
 			}]
 			rewards: [{
-				id: "55BEC660FFC1D237"
+				id: "5897C5B8BF3F0A05"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
+						Type: "COMMON"
+						Color: 16777215
+						Name: "Common Lootbag"
+						Loot: "lootbags:common"
 					}
 				}
 			}]
@@ -172,16 +172,16 @@
 				item: "botania:endoflame"
 			}]
 			rewards: [{
-				id: "1769B970834FF0C5"
+				id: "3491D1C6263789BC"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
+						Type: "COMMON"
+						Color: 16777215
+						Name: "Common Lootbag"
+						Loot: "lootbags:common"
 					}
 				}
 			}]
@@ -211,16 +211,16 @@
 				count: 8L
 			}]
 			rewards: [{
-				id: "4A4697B10D01786F"
+				id: "580CFBD173C19979"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:uncommon_bag"
-							LootTable: "limitlessrebirth:uncommon"
-						}
+						Type: "UNCOMMON"
+						Color: 16777045
+						Name: "Uncommon Lootbag"
+						Loot: "lootbags:uncommon"
 					}
 				}
 			}]
@@ -244,16 +244,16 @@
 				item: "botania:flower_bag"
 			}]
 			rewards: [{
-				id: "2D05D01A278895DF"
+				id: "1C229790667FA8DC"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
+						Type: "COMMON"
+						Color: 16777215
+						Name: "Common Lootbag"
+						Loot: "lootbags:common"
 					}
 				}
 			}]
@@ -280,16 +280,16 @@
 				}
 			}]
 			rewards: [{
-				id: "0040E1E198B81B5F"
+				id: "4833ADE05B66BF78"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
+						Type: "COMMON"
+						Color: 16777215
+						Name: "Common Lootbag"
+						Loot: "lootbags:common"
 					}
 				}
 			}]
@@ -316,16 +316,16 @@
 				item: "botania:bellethorn"
 			}]
 			rewards: [{
-				id: "29005DDA10199D25"
+				id: "786D6E8343021A20"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
+						Type: "COMMON"
+						Color: 16777215
+						Name: "Common Lootbag"
+						Loot: "lootbags:common"
 					}
 				}
 			}]
@@ -362,16 +362,16 @@
 				}
 			]
 			rewards: [{
-				id: "43295CC9A5BECEFF"
+				id: "6C5144D4EEBA3D93"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:uncommon_bag"
-							LootTable: "limitlessrebirth:uncommon"
-						}
+						Type: "COMMON"
+						Color: 16777215
+						Name: "Common Lootbag"
+						Loot: "lootbags:common"
 					}
 				}
 			}]
@@ -393,16 +393,16 @@
 				item: "botania:mana_tablet"
 			}]
 			rewards: [{
-				id: "37B537E21F129311"
+				id: "23F1418DD12E7C25"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
+						Type: "COMMON"
+						Color: 16777215
+						Name: "Common Lootbag"
+						Loot: "lootbags:common"
 					}
 				}
 			}]
@@ -431,16 +431,16 @@
 				}
 			}]
 			rewards: [{
-				id: "5E888180C48C6823"
+				id: "575537D7B734F40F"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
+						Type: "COMMON"
+						Color: 16777215
+						Name: "Common Lootbag"
+						Loot: "lootbags:common"
 					}
 				}
 			}]
@@ -464,16 +464,16 @@
 				item: "botania:dirt_rod"
 			}]
 			rewards: [{
-				id: "40839AB54E20E2AE"
+				id: "458B5DF9F0EE12BA"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
+						Type: "COMMON"
+						Color: 16777215
+						Name: "Common Lootbag"
+						Loot: "lootbags:common"
 					}
 				}
 			}]
@@ -506,16 +506,16 @@
 				}
 			]
 			rewards: [{
-				id: "1473E4AF07380D88"
+				id: "76B460649F369B26"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:rare_bag"
-							LootTable: "limitlessrebirth:rare"
-						}
+						Type: "UNCOMMON"
+						Color: 16777045
+						Name: "Uncommon Lootbag"
+						Loot: "lootbags:uncommon"
 					}
 				}
 			}]
@@ -535,16 +535,16 @@
 				item: "botania:avatar"
 			}]
 			rewards: [{
-				id: "793A7D1E2DD67FA2"
+				id: "0430BD9F809DBD00"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
+						Type: "COMMON"
+						Color: 16777215
+						Name: "Common Lootbag"
+						Loot: "lootbags:common"
 					}
 				}
 			}]
@@ -590,64 +590,16 @@
 				}
 			]
 			rewards: [{
-				id: "569AB840B33A57D8"
+				id: "0BEFE75BEEE26746"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:uncommon_bag"
-							LootTable: "limitlessrebirth:uncommon"
-						}
-					}
-				}
-			}]
-		}
-		{
-			title: "Terrasteel tools"
-			icon: {
-				id: "botania:terra_pick"
-				Count: 1b
-				tag: {
-					Damage: 0
-					mana: 9999
-				}
-			}
-			x: -12.5d
-			y: -5.0d
-			shape: "rsquare"
-			description: [
-				"Terrasteel tools are upgraded versions of their manasteel counterparts, with the added bonus that they all have unique special abilities."
-				"The terra shatterer shown above can be activated by shift right-clicking, and will then consume mana from the users inventory in order to mine multiple blocks at once."
-				"The terra shatterer is also unique in that it can be infused with mana from a mana pool in order to upgrade its activated ability, allowing to break even more blocks when activated."
-			]
-			dependencies: ["461348F16F0585DB"]
-			optional: true
-			min_required_tasks: 1
-			id: "631CF12277E7FCB5"
-			tasks: [{
-				id: "27711669B37BEA24"
-				type: "item"
-				item: {
-					id: "botania:terra_pick"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "37DE8ADE86B5DBF1"
-				type: "item"
-				item: {
-					id: "treasurebags:treasure_bag"
-					Count: 1b
-					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:uncommon_bag"
-							LootTable: "limitlessrebirth:uncommon"
-						}
+						Type: "RARE"
+						Color: 5636095
+						Name: "Rare Lootbag"
+						Loot: "lootbags:rare"
 					}
 				}
 			}]
@@ -670,16 +622,16 @@
 				item: "botania:monocle"
 			}]
 			rewards: [{
-				id: "235FEDF88D672D66"
+				id: "2EC1E652FE468CED"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
+						Type: "COMMON"
+						Color: 16777215
+						Name: "Common Lootbag"
+						Loot: "lootbags:common"
 					}
 				}
 			}]
@@ -727,16 +679,16 @@
 				count: 8L
 			}]
 			rewards: [{
-				id: "7CAC5E82E3CB12EC"
+				id: "0B37B12696004E9E"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
+						Type: "COMMON"
+						Color: 16777215
+						Name: "Common Lootbag"
+						Loot: "lootbags:common"
 					}
 				}
 			}]
@@ -760,16 +712,16 @@
 				item: "botania:alchemy_catalyst"
 			}]
 			rewards: [{
-				id: "444CAC5CA5344DAF"
+				id: "6BCEA308E36DCC6C"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
+						Type: "COMMON"
+						Color: 16777215
+						Name: "Common Lootbag"
+						Loot: "lootbags:common"
 					}
 				}
 			}]
@@ -793,16 +745,16 @@
 				item: "botania:hydroangeas"
 			}]
 			rewards: [{
-				id: "7E147B83D94BB4BE"
+				id: "11C43B2DAB4ED5F0"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
+						Type: "COMMON"
+						Color: 16777215
+						Name: "Common Lootbag"
+						Loot: "lootbags:common"
 					}
 				}
 			}]
@@ -826,16 +778,16 @@
 				item: "botania:mana_spreader"
 			}]
 			rewards: [{
-				id: "6A7B7F9A98FFCA82"
+				id: "234E35EC4084BECB"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
+						Type: "COMMON"
+						Color: 16777215
+						Name: "Common Lootbag"
+						Loot: "lootbags:common"
 					}
 				}
 			}]
@@ -865,16 +817,16 @@
 				}
 			}]
 			rewards: [{
-				id: "516E0150950E3D9D"
+				id: "40B0D91145CA1967"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:rare_bag"
-							LootTable: "limitlessrebirth:rare"
-						}
+						Type: "COMMON"
+						Color: 16777215
+						Name: "Common Lootbag"
+						Loot: "lootbags:common"
 					}
 				}
 			}]
@@ -898,16 +850,16 @@
 				item: "botania:open_crate"
 			}]
 			rewards: [{
-				id: "1C8F57C5BC1AF8DF"
+				id: "60F9312F220B626E"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
+						Type: "COMMON"
+						Color: 16777215
+						Name: "Common Lootbag"
+						Loot: "lootbags:common"
 					}
 				}
 			}]
@@ -941,16 +893,16 @@
 				}
 			]
 			rewards: [{
-				id: "6C613171581586FE"
+				id: "234D6B46B33BF747"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:rare_bag"
-							LootTable: "limitlessrebirth:rare"
-						}
+						Type: "RARE"
+						Color: 5636095
+						Name: "Rare Lootbag"
+						Loot: "lootbags:rare"
 					}
 				}
 			}]
@@ -975,20 +927,6 @@
 			}]
 			rewards: [
 				{
-					id: "2FD8DA7755003AB7"
-					type: "item"
-					item: {
-						id: "treasurebags:treasure_bag"
-						Count: 1b
-						tag: {
-							silentlib.LootContainer: {
-								BagType: "limitlessrebirth:limitless_bag"
-								LootTable: "limitlessrebirth:epic"
-							}
-						}
-					}
-				}
-				{
 					id: "508160D07B4E70CB"
 					type: "item"
 					item: {
@@ -998,9 +936,23 @@
 							TrophyEntity: {
 								entityType: "botania:doppleganger"
 							}
-							BaseBlock: "botania:light_launcher"
-							Name: "Botania Trophy"
 							TrophyType: "entity"
+							Name: "Botania Trophy"
+							BaseBlock: "botania:light_launcher"
+						}
+					}
+				}
+				{
+					id: "719FF47D8AE33813"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "EPIC"
+							Color: 16733695
+							Name: "Epic Lootbag"
+							Loot: "lootbags:epic"
 						}
 					}
 				}
@@ -1026,16 +978,16 @@
 				item: "botania:brewery"
 			}]
 			rewards: [{
-				id: "679CAE54F04DE78F"
+				id: "0DF618BD3AD1131B"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
+						Type: "UNCOMMON"
+						Color: 16777045
+						Name: "Uncommon Lootbag"
+						Loot: "lootbags:uncommon"
 					}
 				}
 			}]
@@ -1058,16 +1010,16 @@
 				item: "botania:ender_air_bottle"
 			}]
 			rewards: [{
-				id: "1A451D99B11B64D1"
+				id: "7D4C09F97BDE6C48"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
+						Type: "COMMON"
+						Color: 16777215
+						Name: "Common Lootbag"
+						Loot: "lootbags:common"
 					}
 				}
 			}]
@@ -1094,16 +1046,16 @@
 				}
 			}]
 			rewards: [{
-				id: "41BF4B54509C4596"
+				id: "47675B2FF44D737B"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:rare_bag"
-							LootTable: "limitlessrebirth:rare"
-						}
+						Type: "RARE"
+						Color: 5636095
+						Name: "Rare Lootbag"
+						Loot: "lootbags:rare"
 					}
 				}
 			}]
@@ -1174,16 +1126,16 @@
 				}
 			]
 			rewards: [{
-				id: "4507699E3BFFD019"
+				id: "297542EF2733ADE6"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:uncommon_bag"
-							LootTable: "limitlessrebirth:uncommon"
-						}
+						Type: "UNCOMMON"
+						Color: 16777045
+						Name: "Uncommon Lootbag"
+						Loot: "lootbags:uncommon"
 					}
 				}
 			}]
@@ -1254,16 +1206,16 @@
 				}
 			]
 			rewards: [{
-				id: "089B28A61B3CA432"
+				id: "25754CE27E98BB63"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
+						Type: "COMMON"
+						Color: 16777215
+						Name: "Common Lootbag"
+						Loot: "lootbags:common"
 					}
 				}
 			}]
@@ -1300,16 +1252,16 @@
 				}
 			]
 			rewards: [{
-				id: "386F2EBC4C115DDC"
+				id: "61208637990ABB53"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
+						Type: "COMMON"
+						Color: 16777215
+						Name: "Common Lootbag"
+						Loot: "lootbags:common"
 					}
 				}
 			}]
@@ -1380,16 +1332,16 @@
 				}
 			]
 			rewards: [{
-				id: "4B79545B7EA8D194"
+				id: "6FCD7011C55020A7"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:common_bag"
-							LootTable: "limitlessrebirth:common"
-						}
+						Type: "COMMON"
+						Color: 16777215
+						Name: "Common Lootbag"
+						Loot: "lootbags:common"
 					}
 				}
 			}]
@@ -1413,16 +1365,16 @@
 				item: "botania:corporea_crystal_cube"
 			}]
 			rewards: [{
-				id: "22BAE54E82991504"
+				id: "5BE368857D546582"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:uncommon_bag"
-							LootTable: "limitlessrebirth:uncommon"
-						}
+						Type: "UNCOMMON"
+						Color: 16777045
+						Name: "Uncommon Lootbag"
+						Loot: "lootbags:uncommon"
 					}
 				}
 			}]
@@ -1449,16 +1401,16 @@
 				item: "botania:corporea_index"
 			}]
 			rewards: [{
-				id: "04A83A72BFCCF685"
+				id: "432F364EFB4ABE69"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:rare_bag"
-							LootTable: "limitlessrebirth:rare"
-						}
+						Type: "RARE"
+						Color: 5636095
+						Name: "Rare Lootbag"
+						Loot: "lootbags:rare"
 					}
 				}
 			}]
@@ -1497,6 +1449,61 @@
 				id: "4A8E27030FACF4C6"
 				type: "item"
 				item: "botania:hourglass"
+			}]
+			rewards: [{
+				id: "3C5B7C12DB1D1919"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 16777215
+						Name: "Common Lootbag"
+						Loot: "lootbags:common"
+					}
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: -5.0d
+			shape: "rsquare"
+			description: [
+				"Terrasteel tools are upgraded versions of their manasteel counterparts, with the added bonus that they all have unique special abilities."
+				""
+				"The terra shatterer shown above can be activated by shift right-clicking, and will then consume mana from the users inventory in order to mine multiple blocks at once."
+				""
+				"The terra shatterer is also unique in that it can be infused with mana from a mana pool in order to upgrade its activated ability, allowing to break even more blocks when activated."
+			]
+			dependencies: ["461348F16F0585DB"]
+			optional: true
+			id: "254A47DED9429E75"
+			tasks: [{
+				id: "3B3998F9CA12A8A2"
+				type: "item"
+				item: {
+					id: "botania:terra_pick"
+					Count: 1b
+					tag: {
+						Damage: 0
+						mana: 9999
+					}
+				}
+			}]
+			rewards: [{
+				id: "3B8DD8196CB65D36"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16777045
+						Name: "Uncommon Lootbag"
+						Loot: "lootbags:uncommon"
+					}
+				}
 			}]
 		}
 	]

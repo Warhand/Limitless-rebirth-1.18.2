@@ -1,7 +1,7 @@
 {
 	id: "623E8DEA16FF7FBD"
 	group: "34BB85C0E80BC4C8"
-	order_index: 5
+	order_index: 6
 	filename: "challenges"
 	title: "Challenges"
 	icon: "quark:rainbow_rune"
@@ -165,16 +165,16 @@
 				}
 			]
 			rewards: [{
-				id: "4B5A632C8EC7A8D7"
+				id: "73B827C88CE953C4"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:epic"
-							BagType: "limitlessrebirth:limitless_bag"
-						}
+						Type: "RARE"
+						Color: 5636095
+						Name: "Rare Lootbag"
+						Loot: "lootbags:rare"
 					}
 				}
 			}]
@@ -225,18 +225,19 @@
 				}
 			]
 			rewards: [{
-				id: "59F927079E78D40C"
+				id: "62BBD72DA5F0DF3E"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:rare_bag"
-							LootTable: "limitlessrebirth:rare"
-						}
+						Type: "COMMON"
+						Color: 16777215
+						Name: "Common Lootbag"
+						Loot: "lootbags:common"
 					}
 				}
+				count: 5
 			}]
 		}
 		{
@@ -261,7 +262,7 @@
 					title: "Kill 50 Zombies"
 					icon: "minecraft:zombie_head"
 					entity: "minecraft:zombie"
-					value: 50L
+					value: 30L
 				}
 				{
 					id: "1DC407B6EEA10230"
@@ -269,7 +270,7 @@
 					title: "Kill 50 Skeletons"
 					icon: "minecraft:skeleton_skull"
 					entity: "minecraft:skeleton"
-					value: 50L
+					value: 25L
 				}
 				{
 					id: "5DACB2DE63F856DC"
@@ -277,7 +278,7 @@
 					title: "Kill 50 Spiders"
 					icon: "minecraft:spider_eye"
 					entity: "minecraft:spider"
-					value: 50L
+					value: 20L
 				}
 				{
 					id: "380F00768C3D5A51"
@@ -285,7 +286,7 @@
 					title: "Kill 50 Creepers"
 					icon: "minecraft:creeper_head"
 					entity: "minecraft:creeper"
-					value: 50L
+					value: 20L
 				}
 				{
 					id: "026AB57D1057C723"
@@ -301,7 +302,7 @@
 					title: "Kill 50 Wilden stalkers"
 					icon: "ars_nouveau:wilden_wing"
 					entity: "ars_nouveau:wilden_stalker"
-					value: 50L
+					value: 25L
 				}
 				{
 					id: "68E51DBA00F6C074"
@@ -309,7 +310,7 @@
 					title: "Kill 25 Wilden hunters"
 					icon: "ars_nouveau:wilden_horn"
 					entity: "ars_nouveau:wilden_hunter"
-					value: 25L
+					value: 20L
 				}
 				{
 					id: "6F9F69D2FC30DF44"
@@ -317,56 +318,20 @@
 					title: "Kill 10 Wilden defenders"
 					icon: "ars_nouveau:wilden_spike"
 					entity: "ars_nouveau:wilden_guardian"
-					value: 10L
-				}
-				{
-					id: "1E9C59F80D3B5B70"
-					type: "kill"
-					title: "Kill 10 Endermen"
-					icon: "minecraft:ender_pearl"
-					entity: "minecraft:enderman"
-					value: 10L
-				}
-				{
-					id: "5A1ED7D16AF8F53D"
-					type: "kill"
-					title: "Kill 5 Viler witches"
-					icon: {
-						id: "minecraft:lingering_potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:long_poison"
-						}
-					}
-					entity: "restored_earth:viler_witch"
 					value: 5L
-				}
-				{
-					id: "4830EBE5587CA9C5"
-					type: "kill"
-					title: "Kill 3 Forgotten"
-					icon: {
-						id: "quark:forgotten_hat"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-					entity: "quark:forgotten"
-					value: 3L
 				}
 			]
 			rewards: [{
-				id: "5AB38E9BA5C5761B"
+				id: "51B4A2E4223F6E93"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:rare"
-							BagType: "limitlessrebirth:rare_bag"
-						}
+						Type: "UNCOMMON"
+						Color: 16777045
+						Name: "Uncommon Lootbag"
+						Loot: "lootbags:uncommon"
 					}
 				}
 				count: 5
@@ -501,16 +466,16 @@
 				}
 			]
 			rewards: [{
-				id: "7289192BA3066E40"
+				id: "16EEE348FEEB3F76"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:rare"
-							BagType: "limitlessrebirth:rare_bag"
-						}
+						Type: "UNCOMMON"
+						Color: 16777045
+						Name: "Uncommon Lootbag"
+						Loot: "lootbags:uncommon"
 					}
 				}
 				count: 5
@@ -520,15 +485,12 @@
 			title: "Ascended"
 			icon: "paraglider:anti_vessel"
 			x: 0.0d
-			y: -9.0d
+			y: -7.5d
 			shape: "gear"
 			subtitle: "\"Are you okay?\""
 			description: ["You did it, you crafted every creative item, please go touch grass now."]
 			hide_dependency_lines: true
-			dependencies: [
-				"5250C8038CF4D185"
-				"221A3E966F516AE5"
-			]
+			dependencies: ["221A3E966F516AE5"]
 			hide: true
 			size: 1.5d
 			optional: true
@@ -622,7 +584,7 @@
 					type: "kill"
 					title: "Kill 10 Enderiophage"
 					icon: "alexsmobs:enderiophage_rocket"
-					entity: "minecraft:zombie"
+					entity: "alexsmobs:enderiophage"
 					value: 10L
 				}
 				{
@@ -635,18 +597,19 @@
 				}
 			]
 			rewards: [{
-				id: "4314B7A2BD1F0950"
+				id: "795AFA0A15502D9F"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:rare"
-							BagType: "limitlessrebirth:rare_bag"
-						}
+						Type: "UNCOMMON"
+						Color: 16777045
+						Name: "Uncommon Lootbag"
+						Loot: "lootbags:uncommon"
 					}
 				}
+				count: 5
 			}]
 		}
 		{
@@ -726,16 +689,16 @@
 				}
 			]
 			rewards: [{
-				id: "39C1CA8D869E2A41"
+				id: "1D36103EF8907DD9"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:rare"
-							BagType: "limitlessrebirth:rare_bag"
-						}
+						Type: "UNCOMMON"
+						Color: 16777045
+						Name: "Uncommon Lootbag"
+						Loot: "lootbags:uncommon"
 					}
 				}
 				count: 5
@@ -757,19 +720,18 @@
 				value: 1728000
 			}]
 			rewards: [{
-				id: "401A3A446282B667"
+				id: "2DD8909786BDF3EE"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:uncommon"
-							BagType: "limitlessrebirth:uncommon_bag"
-						}
+						Type: "RARE"
+						Color: 5636095
+						Name: "Rare Lootbag"
+						Loot: "lootbags:rare"
 					}
 				}
-				count: 5
 			}]
 		}
 		{
@@ -787,16 +749,16 @@
 				days: 100
 			}]
 			rewards: [{
-				id: "2599E2B5BC1E24A7"
+				id: "0544BC395C37B0C2"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:epic"
-							BagType: "limitlessrebirth:limitless_bag"
-						}
+						Type: "RARE"
+						Color: 5636095
+						Name: "Rare Lootbag"
+						Loot: "lootbags:rare"
 					}
 				}
 			}]
@@ -815,443 +777,18 @@
 				item: "lootr:trophy"
 			}]
 			rewards: [{
-				id: "2B5583A38E63F83B"
+				id: "6CB2176DF97B40D7"
 				type: "item"
 				item: {
-					id: "treasurebags:treasure_bag"
+					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						silentlib.LootContainer: {
-							BagType: "limitlessrebirth:rare_bag"
-							LootTable: "limitlessrebirth:rare"
-						}
+						Type: "RARE"
+						Color: 5636095
+						Name: "Rare Lootbag"
+						Loot: "lootbags:rare"
 					}
 				}
-				count: 5
-			}]
-		}
-		{
-			title: "Iron memories..."
-			x: -3.5d
-			y: -13.5d
-			shape: "diamond"
-			secret: true
-			id: "4592B6C20A3AB603"
-			tasks: [{
-				id: "4E1862DF19EF6049"
-				type: "item"
-				item: "minecraft:iron_ingot"
-				count: 64L
-			}]
-		}
-		{
-			x: 3.5d
-			y: -13.5d
-			shape: "diamond"
-			secret: true
-			id: "4637948ECE6D747C"
-			tasks: [{
-				id: "30D602C6712C9268"
-				type: "item"
-				item: "minecraft:copper_ingot"
-				count: 64L
-			}]
-		}
-		{
-			title: "Golden recollections..."
-			x: -4.0d
-			y: -14.0d
-			shape: "diamond"
-			secret: true
-			id: "3A84D5EE9217D3CB"
-			tasks: [{
-				id: "4EB81A51CDC0BF06"
-				type: "item"
-				item: "minecraft:gold_ingot"
-				count: 64L
-			}]
-		}
-		{
-			x: 0.0d
-			y: -10.5d
-			shape: "diamond"
-			secret: true
-			id: "5781E483A33DEE1A"
-			tasks: [{
-				id: "1366A7CAD791B056"
-				type: "item"
-				item: "minecraft:diamond"
-				count: 64L
-			}]
-		}
-		{
-			x: 3.0d
-			y: -17.0d
-			shape: "diamond"
-			secret: true
-			id: "1812565F7698ED36"
-			tasks: [{
-				id: "61FCAFC90E3D60D7"
-				type: "item"
-				item: "ftbic:advanced_alloy"
-				count: 64L
-			}]
-		}
-		{
-			x: -2.5d
-			y: -17.5d
-			shape: "diamond"
-			secret: true
-			id: "362E79E28B8EDF1D"
-			tasks: [{
-				id: "2817E58D06FEAC07"
-				type: "item"
-				item: "immersiveengineering:ingot_aluminum"
-				count: 64L
-			}]
-		}
-		{
-			x: 4.0d
-			y: -14.0d
-			shape: "diamond"
-			secret: true
-			id: "490F0D5E0393780A"
-			tasks: [{
-				id: "57B6419257FCC979"
-				type: "item"
-				item: "create:andesite_alloy"
-				count: 64L
-			}]
-		}
-		{
-			x: 3.0d
-			y: -13.0d
-			shape: "diamond"
-			secret: true
-			id: "2F9F870505E7DF45"
-			tasks: [{
-				id: "1AE83C96FB99807F"
-				type: "item"
-				item: "create:brass_ingot"
-				count: 64L
-			}]
-		}
-		{
-			x: -5.0d
-			y: -15.0d
-			shape: "diamond"
-			secret: true
-			id: "3F03C3F596FE4CD1"
-			tasks: [{
-				id: "00830AAA9461AB5B"
-				type: "item"
-				item: "alloyed:bronze_ingot"
-				count: 64L
-			}]
-		}
-		{
-			x: 2.5d
-			y: -17.5d
-			shape: "diamond"
-			secret: true
-			id: "557D42481F772B2C"
-			tasks: [{
-				id: "548B7259BBEF143D"
-				type: "item"
-				item: "undergarden:cloggrum_ingot"
-				count: 64L
-			}]
-		}
-		{
-			x: 3.5d
-			y: -16.5d
-			shape: "diamond"
-			secret: true
-			id: "1CA82F2F99BC41FA"
-			tasks: [{
-				id: "50B449D51B357701"
-				type: "item"
-				item: "tconstruct:cobalt_ingot"
-				count: 64L
-			}]
-		}
-		{
-			x: -2.0d
-			y: -12.0d
-			shape: "diamond"
-			secret: true
-			id: "0A11069431CF6AD4"
-			tasks: [{
-				id: "4B9EDF6474CAED79"
-				type: "item"
-				item: "immersiveengineering:ingot_constantan"
-				count: 64L
-			}]
-		}
-		{
-			x: -4.5d
-			y: -14.5d
-			shape: "diamond"
-			secret: true
-			id: "187E2793197A2A1D"
-			tasks: [{
-				id: "0AA5618C3D9C905F"
-				type: "item"
-				item: "immersiveengineering:ingot_electrum"
-				count: 64L
-			}]
-		}
-		{
-			x: 4.5d
-			y: -15.5d
-			shape: "diamond"
-			secret: true
-			id: "76D7F6D7C8F307F5"
-			tasks: [{
-				id: "0A7A2223047A067C"
-				type: "item"
-				item: "botania:elementium_ingot"
-				count: 64L
-			}]
-		}
-		{
-			x: 5.0d
-			y: -15.0d
-			shape: "diamond"
-			secret: true
-			id: "128FF79E8F7A4694"
-			tasks: [{
-				id: "29722AAADE65A983"
-				type: "item"
-				item: "minecraft:emerald"
-				count: 64L
-			}]
-		}
-		{
-			x: 2.0d
-			y: -12.0d
-			shape: "diamond"
-			secret: true
-			id: "00CA7A84259F3078"
-			tasks: [{
-				id: "752D7D3BD13F3751"
-				type: "item"
-				item: "immersiveengineering:ingot_lead"
-				count: 64L
-			}]
-		}
-		{
-			x: 2.5d
-			y: -12.5d
-			shape: "diamond"
-			secret: true
-			id: "3159E79072F67578"
-			tasks: [{
-				id: "013E9A6BD20132EF"
-				type: "item"
-				item: "botania:manasteel_ingot"
-				count: 64L
-			}]
-		}
-		{
-			x: -3.0d
-			y: -17.0d
-			shape: "diamond"
-			secret: true
-			id: "2A66CA0E7C04A8FD"
-			tasks: [{
-				id: "6EACCA9BB8905759"
-				type: "item"
-				item: "immersiveengineering:ingot_nickel"
-				count: 64L
-			}]
-		}
-		{
-			x: 4.0d
-			y: -16.0d
-			shape: "diamond"
-			secret: true
-			id: "6D8540BFCC174AE0"
-			tasks: [{
-				id: "0E68DD6297E081A1"
-				type: "item"
-				item: "tconstruct:rose_gold_ingot"
-				count: 64L
-			}]
-		}
-		{
-			x: -4.0d
-			y: -16.0d
-			shape: "diamond"
-			secret: true
-			id: "12D08B6CC0D86F56"
-			tasks: [{
-				id: "331B83D25096FB24"
-				type: "item"
-				item: "immersiveengineering:ingot_silver"
-				count: 64L
-			}]
-		}
-		{
-			title: "Soulful reflection..."
-			x: -3.0d
-			y: -13.0d
-			shape: "diamond"
-			secret: true
-			id: "3994F53D37ECBD92"
-			tasks: [{
-				id: "138C7EE604FBDEF6"
-				type: "item"
-				item: "malum:processed_soulstone"
-				count: 64L
-			}]
-		}
-		{
-			x: -2.5d
-			y: -12.5d
-			shape: "diamond"
-			secret: true
-			id: "6668815E9619D2F6"
-			tasks: [{
-				id: "2100507976F87E89"
-				type: "item"
-				item: "ars_nouveau:source_gem"
-				count: 64L
-			}]
-		}
-		{
-			x: -3.5d
-			y: -16.5d
-			shape: "diamond"
-			secret: true
-			id: "01DF16EB68F7A4D3"
-			tasks: [{
-				id: "2BF1B2F59D217142"
-				type: "item"
-				item: "immersiveengineering:ingot_steel"
-				count: 64L
-			}]
-		}
-		{
-			x: -2.0d
-			y: -18.0d
-			shape: "diamond"
-			secret: true
-			id: "3108C5D6BD71862D"
-			tasks: [{
-				id: "6F98F6C67ABC6753"
-				type: "item"
-				item: "ftbic:tin_ingot"
-			}]
-		}
-		{
-			x: -4.5d
-			y: -15.5d
-			shape: "diamond"
-			secret: true
-			id: "54FF043D5F6762B6"
-			tasks: [{
-				id: "1E18885721029E14"
-				type: "item"
-				item: "immersiveengineering:ingot_uranium"
-				count: 64L
-			}]
-		}
-		{
-			x: 2.0d
-			y: -18.0d
-			shape: "diamond"
-			secret: true
-			id: "3F5E0874A82511E0"
-			tasks: [{
-				id: "2055BE6CF93D72DE"
-				type: "item"
-				item: "undergarden:utherium_crystal"
-				count: 64L
-			}]
-		}
-		{
-			x: 4.5d
-			y: -14.5d
-			shape: "diamond"
-			secret: true
-			id: "6F1EFF697DA180E5"
-			tasks: [{
-				id: "7AF54670B2B6FEFD"
-				type: "item"
-				item: "create:zinc_ingot"
-				count: 64L
-			}]
-		}
-		{
-			title: "Singularities"
-			x: 0.0d
-			y: -15.0d
-			shape: "octagon"
-			dependencies: [
-				"3108C5D6BD71862D"
-				"12D08B6CC0D86F56"
-				"01DF16EB68F7A4D3"
-				"2A66CA0E7C04A8FD"
-				"0A11069431CF6AD4"
-				"00CA7A84259F3078"
-				"54FF043D5F6762B6"
-				"187E2793197A2A1D"
-				"362E79E28B8EDF1D"
-				"3F03C3F596FE4CD1"
-				"3A84D5EE9217D3CB"
-				"4592B6C20A3AB603"
-				"3994F53D37ECBD92"
-				"5781E483A33DEE1A"
-				"6668815E9619D2F6"
-				"128FF79E8F7A4694"
-				"4637948ECE6D747C"
-				"490F0D5E0393780A"
-				"6F1EFF697DA180E5"
-				"2F9F870505E7DF45"
-				"3159E79072F67578"
-				"76D7F6D7C8F307F5"
-				"6D8540BFCC174AE0"
-				"1CA82F2F99BC41FA"
-				"1812565F7698ED36"
-				"557D42481F772B2C"
-				"3F5E0874A82511E0"
-			]
-			hide: true
-			size: 1.5d
-			id: "1C979030F4EDFA6C"
-			tasks: [{
-				id: "4FF670E07743FFEA"
-				type: "item"
-				item: "extendedcrafting:compressor"
-			}]
-		}
-		{
-			x: 0.0d
-			y: -18.75d
-			shape: "hexagon"
-			dependencies: ["1C979030F4EDFA6C"]
-			hide: true
-			size: 2.5d
-			id: "1186F8E8B8663B17"
-			tasks: [{
-				id: "768E866911F94613"
-				type: "item"
-				item: "extendedcrafting:ultimate_singularity"
-			}]
-		}
-		{
-			x: 0.0d
-			y: -21.5d
-			shape: "gear"
-			dependencies: ["1186F8E8B8663B17"]
-			hide: false
-			size: 2.0d
-			id: "5250C8038CF4D185"
-			tasks: [{
-				id: "32E13A4DBF1A3E71"
-				type: "item"
-				item: "upgradednetherite_creative:creative_upgraded_netherite_ingot"
 			}]
 		}
 		{
@@ -1319,6 +856,21 @@
 					value: 5L
 				}
 			]
+			rewards: [{
+				id: "419F7EFC6F8FE4A4"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16777045
+						Name: "Uncommon Lootbag"
+						Loot: "lootbags:uncommon"
+					}
+				}
+				count: 5
+			}]
 		}
 		{
 			title: "Bane of illagers"
@@ -1458,6 +1010,21 @@
 					value: 3L
 				}
 			]
+			rewards: [{
+				id: "68F642AFECFF67BD"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16777045
+						Name: "Uncommon Lootbag"
+						Loot: "lootbags:uncommon"
+					}
+				}
+				count: 5
+			}]
 		}
 	]
 }

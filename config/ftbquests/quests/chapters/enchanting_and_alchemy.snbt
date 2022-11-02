@@ -30,5 +30,19 @@
 				item: "minecraft:brewing_stand"
 			}]
 		}
+		{
+			x: -4.5d
+			y: 0.0d
+			id: "4811CF7FC8F388C9"
+			tasks: [{
+				id: "7EE548B3C612D7A2"
+				type: "item"
+				item: {
+					id: "biomemakeover:altar"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
 	]
 }

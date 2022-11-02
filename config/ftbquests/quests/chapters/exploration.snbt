@@ -45,8 +45,8 @@
 					Count: 1b
 					tag: {
 						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:uncommon"
 							BagType: "limitlessrebirth:uncommon_bag"
+							LootTable: "limitlessrebirth:uncommon"
 						}
 					}
 				}
@@ -61,8 +61,8 @@
 					name_type: 1
 					dest_x: 1
 					dungeon_type: "BASIC"
-					key_activated: 1b
 					built: 0b
+					key_activated: 1b
 					theme: 0
 					dest_z: 0
 					name_part_2: 23
@@ -210,20 +210,6 @@
 				id: "2C66FAC58BFEE015"
 				type: "item"
 				item: "paraglider:paraglider"
-			}]
-			rewards: [{
-				id: "0AEEDF9BBDE1C27D"
-				type: "item"
-				item: {
-					id: "treasurebags:treasure_bag"
-					Count: 1b
-					tag: {
-						silentlib.LootContainer: {
-							LootTable: "limitlessrebirth:common"
-							BagType: "limitlessrebirth:common_bag"
-						}
-					}
-				}
 			}]
 		}
 		{

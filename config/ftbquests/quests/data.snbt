@@ -1,7 +1,7 @@
 {
 	version: 13
 	title: "Limitless rebirth"
-	icon: "ars_nouveau:source_gem_block"
+	icon: "contenttweaker:limitless_potential_core"
 	default_reward_team: false
 	default_consume_items: false
 	default_autoclaim_rewards: "disabled"
@@ -10,8 +10,8 @@
 	emergency_items_cooldown: 300
 	drop_loot_crates: false
 	loot_crate_no_drop: {
-		passive: 4000
-		monster: 600
+		passive: 1
+		monster: 1
 		boss: 0
 	}
 	disable_gui: false
