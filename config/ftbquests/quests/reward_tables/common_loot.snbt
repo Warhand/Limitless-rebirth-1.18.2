@@ -1,0 +1,59 @@
+{
+	id: "0FD10A437CBC53B5"
+	order_index: 0
+	title: "common_loot"
+	icon: {
+		id: "minecraft:calcite"
+		Count: 1b
+		tag: { }
+	}
+	loot_size: 5
+	rewards: [
+		{
+			item: {
+				id: "minecraft:iron_ingot"
+				Count: 1b
+				tag: { }
+			}
+			random_bonus: 7
+			weight: 20
+		}
+		{
+			item: {
+				id: "minecraft:gold_ingot"
+				Count: 1b
+				tag: { }
+			}
+			random_bonus: 5
+			weight: 10
+		}
+		{
+			item: {
+				id: "minecraft:diamond"
+				Count: 1b
+				tag: { }
+			}
+			random_bonus: 1
+			weight: 5
+		}
+		{
+			item: {
+				id: "minecraft:emerald"
+				Count: 1b
+				tag: { }
+			}
+			random_bonus: 7
+			weight: 10
+		}
+	]
+	loot_crate: {
+		color: 16777215
+		item_name: "Common loot"
+		string_id: "common_loot"
+		drops: {
+			passive: 1
+			boss: 0
+			monster: 1
+		}
+	}
+}
