@@ -13,6 +13,13 @@
         "negate": false,
         "value": "byg:warped_desert"
       }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "incendium:weeping_valley"
+      }
     ]
   ]
 }

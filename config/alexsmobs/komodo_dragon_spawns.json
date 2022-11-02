@@ -2,9 +2,40 @@
   "biomes": [
     [
       {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "jungle"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "dense"
+      }
+    ],
+    [
+      {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "minecraft:sparse_jungle"
+        "value": "terralith:sandstone_valley"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "terralith:red_oasis"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "terralith:skylands_summer"
       }
     ]
   ]

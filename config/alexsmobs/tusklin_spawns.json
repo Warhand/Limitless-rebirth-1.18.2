@@ -28,6 +28,20 @@
         "negate": true,
         "value": "mountain"
       }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "terralith:snowy_badlands"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "terralith:gravel_desert"
+      }
     ]
   ]
 }

@@ -11,6 +11,20 @@
         "negate": false,
         "value": "swamp"
       }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "terralith:orchid_swamp"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "terralith:ice_marsh"
+      }
     ]
   ]
 }
