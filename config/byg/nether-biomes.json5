@@ -26,7 +26,7 @@ If your settings in this file seem to have to no effect on the generation of the
 		"biomeWeights": [
 			{
 				"data": "minecraft:crimson_forest",
-				"weight": 2
+				"weight": 0
 			},
 			{
 				"data": "minecraft:nether_wastes",
@@ -42,50 +42,10 @@ If your settings in this file seem to have to no effect on the generation of the
 			},
 			{
 				"data": "minecraft:warped_forest",
-				"weight": 2
+				"weight": 0
 			},
 			{
 				"data": "byg:weeping_mire",
-				"weight": 2
-			},
-			{
-				"data": "byg:warped_desert",
-				"weight": 2
-			},
-			{
-				"data": "byg:crimson_gardens",
-				"weight": 2
-			},
-			{
-				"data": "byg:wailing_garth",
-				"weight": 2
-			},
-			{
-				"data": "infernalexp:glowstone_canyon",
-				"weight": 2
-			},
-			{
-				"data": "biomesoplenty:crystalline_chasm",
-				"weight": 2
-			},
-			{
-				"data": "biomesoplenty:erupting_inferno",
-				"weight": 2
-			},
-			{
-				"data": "biomesoplenty:undergrowth",
-				"weight": 2
-			},
-			{
-				"data": "biomesoplenty:visceral_heap",
-				"weight": 2
-			},
-			{
-				"data": "biomesoplenty:withered_abyss",
-				"weight": 2
-			},
-			{
-				"data": "byg:brimstone_caverns",
 				"weight": 0
 			},
 			{
@@ -93,15 +53,31 @@ If your settings in this file seem to have to no effect on the generation of the
 				"weight": 0
 			},
 			{
-				"data": "byg:glowstone_gardens",
+				"data": "byg:brimstone_caverns",
+				"weight": 2
+			},
+			{
+				"data": "byg:subzero_hypogeal",
+				"weight": 0
+			},
+			{
+				"data": "byg:warped_desert",
 				"weight": 0
 			},
 			{
 				"data": "byg:magma_wastes",
+				"weight": 2
+			},
+			{
+				"data": "byg:quartz_desert",
 				"weight": 0
 			},
 			{
-				"data": "byg:subzero_hypogeal",
+				"data": "byg:crimson_gardens",
+				"weight": 0
+			},
+			{
+				"data": "byg:glowstone_gardens",
 				"weight": 0
 			},
 			{
@@ -109,11 +85,15 @@ If your settings in this file seem to have to no effect on the generation of the
 				"weight": 0
 			},
 			{
-				"data": "byg:arisian_undergrowth",
-				"weight": 0
+				"data": "byg:wailing_garth",
+				"weight": 1
 			},
 			{
-				"data": "byg:quartz_desert",
+				"data": "byg:arisian_undergrowth",
+				"weight": 2
+			},
+			{
+				"data": "infernalexp:glowstone_canyon",
 				"weight": 0
 			}
 		]
@@ -122,13 +102,13 @@ If your settings in this file seem to have to no effect on the generation of the
 	   BYG's nether biome source will automatically add all known nether biomes that specify their biomes in the "minecraft:is_nether" tag, see "addAllNetherBiomeTagEntries" comment.
 	*/
 	"forceBYGNetherBiomeSource": true,
-	"layerSizeInBlocks": 85,
+	"layerSizeInBlocks": 80,
 	/* Biomes that appear at the middle of the nether dimension above the bottom layer.
 	   This layer appears in the y range of: "layer size to (layer size + layer size)".
 	   ie. y40 to y80 if layer size is 40 or y60 to y120 if layer size is 60.
 	*/
 	"middleLayer": {
-		"biomeSize": 3,
+		"biomeSize": 2,
 		/* Higher weight, means the biome in question is bound to spawn more frequently against all other biomes listed here.
 		   Weight of 0 means the biome is disabled.
 		   
@@ -142,74 +122,22 @@ If your settings in this file seem to have to no effect on the generation of the
 			},
 			{
 				"data": "minecraft:nether_wastes",
-				"weight": 2
+				"weight": 3
 			},
 			{
 				"data": "minecraft:soul_sand_valley",
-				"weight": 2
+				"weight": 0
 			},
 			{
 				"data": "minecraft:basalt_deltas",
-				"weight": 2
+				"weight": 0
 			},
 			{
 				"data": "minecraft:warped_forest",
-				"weight": 2
-			},
-			{
-				"data": "byg:warped_desert",
-				"weight": 2
-			},
-			{
-				"data": "byg:weeping_mire",
-				"weight": 2
-			},
-			{
-				"data": "byg:crimson_gardens",
-				"weight": 2
-			},
-			{
-				"data": "byg:wailing_garth",
-				"weight": 2
-			},
-			{
-				"data": "infernalexp:glowstone_canyon",
-				"weight": 2
-			},
-			{
-				"data": "biomesoplenty:crystalline_chasm",
-				"weight": 2
-			},
-			{
-				"data": "biomesoplenty:erupting_inferno",
-				"weight": 2
-			},
-			{
-				"data": "biomesoplenty:undergrowth",
-				"weight": 2
-			},
-			{
-				"data": "biomesoplenty:visceral_heap",
-				"weight": 2
-			},
-			{
-				"data": "biomesoplenty:withered_abyss",
-				"weight": 2
+				"weight": 0
 			},
 			{
 				"data": "byg:brimstone_caverns",
-				"weight": 0
-			},
-			{
-				"data": "byg:embur_bog",
-				"weight": 0
-			},
-			{
-				"data": "byg:glowstone_gardens",
-				"weight": 0
-			},
-			{
-				"data": "byg:magma_wastes",
 				"weight": 0
 			},
 			{
@@ -217,15 +145,47 @@ If your settings in this file seem to have to no effect on the generation of the
 				"weight": 0
 			},
 			{
-				"data": "byg:sythian_torrids",
+				"data": "byg:warped_desert",
 				"weight": 0
 			},
 			{
-				"data": "byg:arisian_undergrowth",
+				"data": "byg:weeping_mire",
 				"weight": 0
+			},
+			{
+				"data": "byg:magma_wastes",
+				"weight": 0
+			},
+			{
+				"data": "byg:embur_bog",
+				"weight": 2
 			},
 			{
 				"data": "byg:quartz_desert",
+				"weight": 0
+			},
+			{
+				"data": "byg:crimson_gardens",
+				"weight": 1
+			},
+			{
+				"data": "byg:glowstone_gardens",
+				"weight": 1
+			},
+			{
+				"data": "byg:sythian_torrids",
+				"weight": 2
+			},
+			{
+				"data": "byg:wailing_garth",
+				"weight": 2
+			},
+			{
+				"data": "byg:arisian_undergrowth",
+				"weight": 1
+			},
+			{
+				"data": "infernalexp:glowstone_canyon",
 				"weight": 0
 			}
 		]
@@ -235,7 +195,7 @@ If your settings in this file seem to have to no effect on the generation of the
 		"biomeWeights": [
 			{
 				"data": "minecraft:crimson_forest",
-				"weight": 2
+				"weight": 0
 			},
 			{
 				"data": "minecraft:nether_wastes",
@@ -243,54 +203,14 @@ If your settings in this file seem to have to no effect on the generation of the
 			},
 			{
 				"data": "minecraft:soul_sand_valley",
-				"weight": 2
-			},
-			{
-				"data": "minecraft:basalt_deltas",
-				"weight": 2
-			},
-			{
-				"data": "minecraft:warped_forest",
-				"weight": 2
-			},
-			{
-				"data": "byg:weeping_mire",
-				"weight": 2
-			},
-			{
-				"data": "byg:warped_desert",
 				"weight": 0
 			},
 			{
-				"data": "byg:crimson_gardens",
-				"weight": 2
+				"data": "minecraft:basalt_deltas",
+				"weight": 0
 			},
 			{
-				"data": "byg:wailing_garth",
-				"weight": 2
-			},
-			{
-				"data": "infernalexp:glowstone_canyon",
-				"weight": 2
-			},
-			{
-				"data": "biomesoplenty:crystalline_chasm",
-				"weight": 2
-			},
-			{
-				"data": "biomesoplenty:erupting_inferno",
-				"weight": 2
-			},
-			{
-				"data": "biomesoplenty:undergrowth",
-				"weight": 2
-			},
-			{
-				"data": "biomesoplenty:visceral_heap",
-				"weight": 2
-			},
-			{
-				"data": "biomesoplenty:withered_abyss",
+				"data": "minecraft:warped_forest",
 				"weight": 2
 			},
 			{
@@ -298,11 +218,27 @@ If your settings in this file seem to have to no effect on the generation of the
 				"weight": 0
 			},
 			{
+				"data": "byg:subzero_hypogeal",
+				"weight": 0
+			},
+			{
 				"data": "byg:embur_bog",
 				"weight": 0
 			},
 			{
-				"data": "byg:glowstone_gardens",
+				"data": "byg:weeping_mire",
+				"weight": 0
+			},
+			{
+				"data": "byg:warped_desert",
+				"weight": 2
+			},
+			{
+				"data": "byg:quartz_desert",
+				"weight": 2
+			},
+			{
+				"data": "byg:crimson_gardens",
 				"weight": 0
 			},
 			{
@@ -310,7 +246,7 @@ If your settings in this file seem to have to no effect on the generation of the
 				"weight": 0
 			},
 			{
-				"data": "byg:subzero_hypogeal",
+				"data": "byg:glowstone_gardens",
 				"weight": 0
 			},
 			{
@@ -318,12 +254,16 @@ If your settings in this file seem to have to no effect on the generation of the
 				"weight": 0
 			},
 			{
+				"data": "byg:wailing_garth",
+				"weight": 1
+			},
+			{
 				"data": "byg:arisian_undergrowth",
 				"weight": 0
 			},
 			{
-				"data": "byg:quartz_desert",
-				"weight": 0
+				"data": "infernalexp:glowstone_canyon",
+				"weight": 2
 			}
 		]
 	}
