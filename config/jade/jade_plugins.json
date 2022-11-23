@@ -42,6 +42,14 @@
     "show_tree_block_counts": true,
     "show_num_chops_remaining": true
   },
+  "mekanism": {
+    "infuse_type": true,
+    "gas": true,
+    "pigment": true,
+    "fluid": true,
+    "slurry": true,
+    "energy": true
+  },
   "create": {
     "contraption_inv": true,
     "blaze_burner": true,

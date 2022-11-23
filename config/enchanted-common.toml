@@ -1,0 +1,53 @@
+
+["Altar Options"]
+	##default 16
+	altar_range = 16
+	##default 2.0
+	altar_recharge_rate = 2.0
+
+["Cauldron Options"]
+	#Allow incorrect items to spoil brew #default true
+	cauldron_item_spoil = true
+
+["Kettle Options"]
+	#Allow incorrect items to spoil brew #default true
+	kettle_item_spoil = true
+
+["Poppet Options"]
+	#Enable the #enchanted:tool_poppet_whitelist tag #default false
+	tool_poppet_whitelist = false
+	#Enable the #enchanted:armour_poppet_whitelist tag #default false
+	armour_poppet_whitelist = false
+
+["Rite Options"]
+	#Global cooldown for the rite of eclipse in seconds
+	total_eclipse_cooldown = 0
+	#Global cooldown for the rite of sky's wrath in seconds
+	sky_wrath_cooldown = 0
+	#Chance for food to be burned by the rite of broiling #default 0.3
+	broiling_burn_chance = 0.3
+	#Disable the curse of misfortune #default false
+	disable_misfortune = false
+	#Disable the curse of overheating #default false
+	disable_overheating = false
+	#Disable the curse of sinking #default false
+	disable_sinking = false
+	#Disable the curse of blight #default false
+	disable_blight = false
+	#Chance for blocks to be decayed by the curse of blight #default 0.3
+	blight_decay_chance = 0.3
+	#Chance for villagers to be zombified by the curse of blight #default 0.3
+	blight_zombie_chance = 0.3
+	#Chance for blocks to be bone mealed by the rite of fertility #default 0.8
+	fertility_bone_meal_chance = 0.8
+	#Average tree count for the rite of the forest to place #default 25
+	forest_tree_amount = 25
+	#Maximum radius trees can be placed in by the rite of the forest #default 25
+	forest_tree_radius = 25
+
+["Miscellaneous Options"]
+	#Only drop modded seeds when a hoe is used to break grass. #default false
+	hoe_seeds = false
+	#Disable totems of undying (to make poppets more useful) #default false
+	disable_totems = false
+

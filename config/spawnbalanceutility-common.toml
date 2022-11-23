@@ -8,7 +8,7 @@
 	#suppressMinecraftMobReporting
 	suppressMinecraftMobReporting = false
 	#fixEmptyNether
-	fixEmptyNether = true
+	fixEmptyNether = false
 	#Use the BiomeMobWeight.CSV file to balance Biome spawn values
 	balanceBiomeSpawnValues = true
 	#Fix min, max values and add nether creatures
@@ -24,7 +24,7 @@
 	minSpawnWeight = 10
 	#maximum Spawn Weight
 	#Range: 1 ~ 1000
-	maxSpawnWeight = 80
+	maxSpawnWeight = 50
 	#list of Mod:MobName,DefaultSpawnweight;
 	defaultSpawnWeightList = "minecraft:enderman,5;minecraft:witch,5;"
 

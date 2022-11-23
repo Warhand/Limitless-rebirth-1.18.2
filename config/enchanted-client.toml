@@ -1,0 +1,5 @@
+
+["Patchouli Options"]
+	#Enable hardcore mode for the books/information. Recipes will be described with words and language will be shifted to be more immersive.
+	hardcore_books = false
+
