@@ -6,5 +6,11 @@
       "Enabled by default"
     ],
     "enabled": true
+  },
+  "featureBeds": {
+    "comments": [
+      "Forces beds to allows all you to sleep regardless of dimension"
+    ],
+    "enabled": false
   }
 }

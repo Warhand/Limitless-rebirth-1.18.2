@@ -1322,7 +1322,9 @@ to make editing this file much easier.
 				*/
 				"pattern": [
 					"  x  ",
+					"     ",
 					"x   x",
+					"     ",
 					"  x  "
 				],
 				// Configured Feature spawner.

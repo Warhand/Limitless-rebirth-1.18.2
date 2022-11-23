@@ -4,7 +4,10 @@
   "bookData": {
     "bloodmagic:guide": {
       "viewedEntries": [
-        "bloodmagic:rituals/ritual_list/ritual_simple_dungeon"
+        "bloodmagic:rituals/ritual_list/ritual_simple_dungeon",
+        "bloodmagic:demon_will/will_manipulation/aspected_will",
+        "bloodmagic:demon_will/demonic_items/sentient_tools",
+        "bloodmagic:alchemy_table/alchemy_table"
       ],
       "bookmarks": [],
       "completedManualQuests": []

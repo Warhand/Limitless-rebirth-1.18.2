@@ -28,6 +28,8 @@
 	advancedEnemyHealthScaling = 2.0
 	#The number of themes to expect in the common config.
 	numberOfThemes = 2
+	basicDamageMultiplier = 1.0
+	advancedDamageMultiplier = 1.5
 
 #Settings for Theme 1
 [dungeonTheme1]
