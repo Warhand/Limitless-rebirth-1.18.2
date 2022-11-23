@@ -65,10 +65,6 @@ val cooked_fish as IItemStack[] = [
 <tag:items:brewinandchewin:raw_meats>.add(<item:undergarden:raw_dweller_meat>);
 <tag:items:brewinandchewin:raw_meats>.add(<item:alexsmobs:moose_ribs>);
 
-//add tag for flesh blocks
-<tag:items:forge:flesh>.add(<item:biomesoplenty:flesh>);
-<tag:items:forge:flesh>.add(<item:biomesoplenty:porous_flesh>);
-
 //adding fishing rods to the fishing rods tag
 
 val fishing_rods as IItemStack[] = [
@@ -126,3 +122,172 @@ val portal_blocks = [
 ];
 
 <tag:blocks:dimdungeons:portal_frame_blocks>.add(portal_blocks);
+
+//adding nether fungus tag
+
+val nether_fungus = [
+<item:minecraft:crimson_fungus>,
+<item:minecraft:warped_fungus>,
+<item:byg:sythian_fungus>,
+<item:infernalexp:luminous_fungus>
+];
+
+<tag:items:lr:nether_fungus>.add(nether_fungus);
+
+//flower dye tags
+
+val yellow_flowers = [
+	<item:minecraft:dandelion>,
+	<item:buzzier_bees:buttercup>,
+	<item:byg:yellow_tulip>,
+	<item:byg:lollipop_flower>,
+	<item:minecraft:sunflower>,
+	<item:byg:yellow_daffodil>,
+	<item:minecraft:horn_coral>,
+	<item:minecraft:horn_coral_fan>,
+	<item:quark:yellow_blossom_sapling>,
+	<item:quark:yellow_blossom_leaves>
+];
+
+<tag:items:lr:dye_flowers/yellow>.add(yellow_flowers);
+
+val red_flowers = [
+	<item:minecraft:poppy>,
+	<item:minecraft:red_tulip>,
+	<item:minecraft:rose_bush>,
+	<item:byg:begonia>,
+	<item:byg:kovan_flower>,
+	<item:byg:torch_ginger>,
+	<item:byg:rose>,
+	<item:byg:amaranth>,
+	<item:minecraft:fire_coral>,
+	<item:minecraft:fire_coral_fan>,
+	<item:quark:red_blossom_sapling>,
+	<item:quark:red_blossom_leaves>,
+	<item:undergarden:blood_mushroom>
+];
+
+<tag:items:lr:dye_flowers/red>.add(red_flowers);
+
+val light_gray_flowers = [
+	<item:minecraft:azure_bluet>,
+	<item:byg:richea>,
+	<item:minecraft:oxeye_daisy>,
+	<item:minecraft:white_tulip>
+];
+
+<tag:items:lr:dye_flowers/light_gray>.add(light_gray_flowers);
+
+val light_blue_flowers = [
+	<item:minecraft:blue_orchid>,
+	<item:byg:winter_scilla>,
+	<item:byg:thereal_bellflower>,
+	<item:biomemakeover:light_blue_petals>,
+	<item:biomemakeover:gray_petals>,
+	<item:quark:blue_blossom_sapling>,
+	<item:quark:blue_blossom_leaves>
+];
+
+<tag:items:lr:dye_flowers/light_blue>.add(light_blue_flowers);
+
+val magenta_flowers = [
+	<item:minecraft:allium>,
+	<item:byg:fairy_slipper>,
+	<item:byg:lazarus_bellflower>,
+	<item:byg:magenta_amaranth>,
+	<item:byg:magenta_tulip>,
+	<item:byg:protea_flower>,
+	<item:minecraft:bubble_coral>,
+	<item:biomemakeover:magenta_petals>,
+	<item:minecraft:bubble_coral_fan>,
+	<item:quark:lavender_blossom_sapling>,
+	<item:quark:lavender_blossom_leaves>
+];
+
+<tag:items:lr:dye_flowers/magenta>.add(magenta_flowers);
+
+val orange_flowers = [
+	<item:minecraft:orange_tulip>,
+	<item:byg:guzmania>,
+	<item:byg:california_poppy>,
+	<item:byg:incan_lily>,
+	<item:byg:orange_amaranth>,
+	<item:byg:orange_daisy>,
+	<item:minecraft:lilac>,
+	<item:quark:orange_blossom_sapling>,
+	<item:quark:orange_blossom_leaves>
+];
+
+<tag:items:lr:dye_flowers/orange>.add(orange_flowers);
+
+val pink_flowers = [
+	<item:byg:pink_allium>,
+	<item:byg:peach_leather_flower>,
+	<item:byg:osiria_rose>,
+	<item:byg:japanese_orchid>,
+	<item:byg:daffodil>,
+	<item:byg:bistort>,
+	<item:byg:firecracker_flower_bush>,
+	<item:minecraft:peony>,
+	<item:minecraft:pink_tulip>,
+	<item:byg:pink_allium_flower_bush>,
+	<item:byg:tall_pink_allium>,
+	<item:byg:pink_anemone>,
+	<item:byg:pink_daffodil>,
+	<item:byg:silver_vase_flower>,
+	<item:biomemakeover:marigold>,
+	<item:buzzier_bees:pink_clover>,
+	<item:minecraft:brain_coral>,
+	<item:minecraft:brain_coral_fan>,
+	<item:quark:pink_blossom_sapling>,
+	<item:quark:pink_blossom_leaves>
+];
+
+<tag:items:lr:dye_flowers/pink>.add(pink_flowers);
+
+val blue_flowers = [
+	<item:minecraft:cornflower>,
+	<item:byg:blueberries>,
+	<item:byg:hydrangea_bush>,
+	<item:byg:blue_sage>,
+	<item:byg:delphinium>,
+	<item:byg:violet_leather_flower>,
+	<item:biomemakeover:blue_petals>,
+	<item:minecraft:tube_coral>,
+	<item:minecraft:tube_coral_fan>,
+	<item:undergarden:indigo_mushroom>
+];
+
+<tag:items:lr:dye_flowers/blue>.add(blue_flowers);
+
+val white_flowers = [
+	<item:minecraft:lily_of_the_valley>,
+	<item:buzzier_bees:white_clover>,
+	<item:byg:angelica>,
+	<item:byg:snowdrops>,
+	<item:byg:white_anemone>,
+	<item:byg:white_sage>,
+	<item:byg:winter_rose>,
+	<item:biomemakeover:swamp_azalea>,
+	<item:undergarden:veil_mushroom>
+];
+
+<tag:items:lr:dye_flowers/white>.add(white_flowers);
+
+val black_flowers = [
+	<item:minecraft:wither_rose>,
+	<item:byg:black_rose>,
+	<item:biomemakeover:black_thistle>,
+	<item:undergarden:ink_mushroom>
+];
+
+<tag:items:lr:dye_flowers/black>.add(black_flowers);
+
+val purple_flowers = [
+	<item:biomemakeover:foxglove>
+];
+
+<tag:items:lr:dye_flowers/purple>.add(purple_flowers);
+
+<tag:items:lr:dye_flowers/gray>.add(<item:biomemakeover:gray_petals>);
+<tag:items:lr:dye_flowers/brown>.add(<item:biomemakeover:brown_petals>);
