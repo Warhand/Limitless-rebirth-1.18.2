@@ -1,8 +1,0 @@
-type = panorama
-
-panorama-meta {
-  name = Orbit
-  speed = 1.0
-  fov = 100.0
-  angle = 40.0
-}
