@@ -24,5 +24,6 @@
 	"minecraft:red_concrete": 1.25,
 	"immersiveengineering:concrete": 1.25,
 	"immersiveengineering:concrete_tile": 1.25,
-	"minecraft:black_concrete": 1.25
+	"minecraft:black_concrete": 1.25,
+	"supplementaries:raked_gravel": 1.25
 }
