@@ -298,17 +298,17 @@
 		biome = "minecraft:dark_forest"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 70
+		spawnWeight = 0
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
-		minCount = 3
+		minCount = 0
 		#Determines the spawn cost for the entity.
 		mobCost = 0.0
 		#Determines what spawn category this entity should use.
 		spawnCategory = "creature"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
-		maxCount = 5
+		maxCount = 0
 
 	[[Spawns.spawns]]
 		#Determines the maximum cost for the entity in a given area.
@@ -319,17 +319,17 @@
 		biome = "minecraft:nether_wastes"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 60
+		spawnWeight = 0
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
-		minCount = 2
+		minCount = 0
 		#Determines the spawn cost for the entity.
 		mobCost = 0.0
 		#Determines what spawn category this entity should use.
 		spawnCategory = "monster"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
-		maxCount = 4
+		maxCount = 0
 
 	[[Spawns.spawns]]
 		#Determines the maximum cost for the entity in a given area.
@@ -340,17 +340,17 @@
 		biome = "minecraft:warped_forest"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 2
+		spawnWeight = 0
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
-		minCount = 2
+		minCount = 0
 		#Determines the spawn cost for the entity.
 		mobCost = 0.0
 		#Determines what spawn category this entity should use.
 		spawnCategory = "monster"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
-		maxCount = 4
+		maxCount = 0
 
 	[[Spawns.spawns]]
 		#Determines the maximum cost for the entity in a given area.
