@@ -50,10 +50,10 @@
 [chopCounting]
 	#Method to use for computing the number of chops needed to fell a tree
 	#Allowed Values: LINEAR, LOGARITHMIC
-	algorithm = "LOGARITHMIC"
+	algorithm = "LINEAR"
 	#How to round the number of chops needed to fell a tree; this is more meaningful for smaller trees
 	#Allowed Values: DOWN, NEAREST, UP
-	rounding = "NEAREST"
+	rounding = "UP"
 	#Whether felling a tree can require more chops than the number of blocks in the tree
 	canRequireMoreChopsThanBlocks = false
 
