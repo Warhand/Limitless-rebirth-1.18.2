@@ -5,7 +5,7 @@
 "Enable Mining" = true
 "Enable Miscellaneous" = true
 "Enable Movement" = true
-"Enable Sleep & Respawn" = true
+"Enable Sleep & Respawn" = false
 "Enable Stack Size" = false
 
 [Combat]
@@ -143,13 +143,13 @@
 		#Increases the time required for Baby Animals to grow (e.g. at 2.0 Animals will take twice to grow).
 		#1.0 will make Animals grow like normal.
 		#Range: 1.0 ~ 128.0
-		"Childs Growth Multiplier" = 3.0
+		"Childs Growth Multiplier" = 1.0
 		#If true, 'Childs Growth Multiplier' will be applied to villagers too.
 		"Childs Growth Villagers" = true
 		#Increases the time required for Animals to breed again (e.g. at 2.0 Animals will take twice to be able to breed again).
 		#1.0 will make Animals breed like normal.
 		#Range: 1.0 ~ 128.0
-		"Breeding Time Multiplier" = 3.5
+		"Breeding Time Multiplier" = 2.0
 		#Increases the time required for Chickens to lay an egg (e.g. at 2.0 Chickens will take twice the time to lay an egg).
 		#1.0 will make chickens lay eggs like normal.
 		#Range: 1.0 ~ 128.0
@@ -157,7 +157,7 @@
 		#Seconds before a cow can be milked again. This applies to Mooshroom stew too.
 		#0 will disable this feature.
 		#Range: > 0
-		"Cow Milk Delay" = 600
+		"Cow Milk Delay" = 300
 
 	#Bonemeal is no longer so OP
 	[Farming."Nerfed Bonemeal"]
@@ -276,10 +276,10 @@
 		"Health Regen Preset" = "COMBAT_TEST"
 		#Sets how many ticks between the health regeneration happens (vanilla is 80; Combat Test is 40).
 		#Range: > 0
-		"Health Regen Speed" = 80
+		"Health Regen Speed" = 40
 		#Sets how much hunger the player must have to regen health (vanilla is >17; Combat Test is >3).
 		#Range: > 0
-		"Regen when Hunger Above" = 17
+		"Regen when Hunger Above" = 10
 		#Sets how many ticks between starve damage happens (vanilla and Combat Test is 80).
 		#Range: > 0
 		"Starve Speed" = 80
@@ -287,7 +287,7 @@
 		#Range: > 0
 		"Starve Damage" = 1
 		#Set to true to consume Hunger only (and not saturation) when regenerating health (false for Vanilla; true for Combat Test).
-		"Consume Hunger Only" = false
+		"Consume Hunger Only" = true
 		#Vanilla consumes 1 saturation or hunger whenever Exhaustion reaches 4.0. You can change that value with this config option. NOTE that Minecraft caps this value to 40
 		#Range: 0.0 ~ 40.0
 		"Max Exhaustion" = 4.0
@@ -295,14 +295,14 @@
 		"Disable Saturation Regen Boost" = false
 		#If 'Consume Hunger Only' is true then this is the chance to consume an hunger whenever the player is healed (vanilla ignores this; Combat Test has this set to 0.5).
 		#Range: 0.0 ~ 1.0
-		"Hunger Consumption Chance" = 0.0
+		"Hunger Consumption Chance" = 0.5
 		#When eating you'll get healed by this percentage of (hunger + saturation) restored.
 		#Range: 0.0 ~ 128.0
 		"Food Heal Multiplier" = 0.0
 
 		[Hunger."Health Regen".Effects]
 			#Set to true to enable Well Fed, a new effect that speeds up health regen and is applied whenever the player eats.
-			"Enable Well Fed" = true
+			"Enable Well Fed" = false
 			#Multiplies the base duration of Well Fed by this value. Base duration is 1 second per food effectiveness (hunger + saturation).
 			#Range: 0.0 ~ 128.0
 			"Well Fed Duration Multiplier" = 1.0
@@ -310,7 +310,7 @@
 			#Range: 0.0 ~ 10.0
 			"Well Fed Effectiveness" = 0.25
 			#Set to true to enable Injured, a new effect that slows down health regen and is applied whenever the player is damaged. The effect slows down health regen by 20% per level.
-			"Enable Injured" = true
+			"Enable Injured" = false
 			#Multiplies the base duration of Injured by this value. Base duration is 1 second per point of damage taken.
 			#Range: 0.0 ~ 128.0
 			"Injured Duration Multiplier" = 1.0
@@ -507,9 +507,9 @@
 		#If true, sheep will no longer drop Wool on death.
 		"No Sheep Death Wool" = false
 		#If true, Iron golems will only drop Iron when killed by the player.
-		"Iron from Golems only when killed by Player" = false
+		"Iron from Golems only when killed by Player" = true
 		#If true, boats will no longer go stupidly fast on ice.
-		"No Ice Boats" = false
+		"No Ice Boats" = true
 
 	#Beacon Range varying based of blocks of the pyramid and better conduit killing mobs
 	[Miscellaneous."Beacon & Conduit"]
@@ -523,16 +523,18 @@
 		"Blocks Range" = ["minecraft:iron_block,1", "minecraft:emerald_block,1.2", "minecraft:gold_block,1.8", "minecraft:diamond_block,2.5", "minecraft:netherite_block,4.0", "tconstruct:cobalt_block,2.4", "tconstruct:queens_slime_block,3.0", "tconstruct:hepatizon_block,2.7", "tconstruct:manyullyn_block,3.3"]
 		#Increases the range and damage of the conduit
 		"Better Conduit Protection" = true
+		#If true, pets will also get the beacon effects
+		"Affect Pets" = true
 
 [Movement]
 	#Armor and Shield slows down the player.
 	"Enable Weighted Equipment" = true
 	#Prevents the player from placing blocks below him when in mid air.
-	"Enable No Pillaring" = true
+	"Enable No Pillaring" = false
 	#Player's slowed down for a brief moment when hit.
 	"Enable Tagging" = true
 	#Slowdown based off the terrain you're walking on.
-	"Enable Terrain Slowdown" = true
+	"Enable Terrain Slowdown" = false
 	#Player's slowed down when walking backwards.
 	"Enable Backwards slowdown" = true
 
@@ -588,7 +590,7 @@
 	#Makes sleeping impossible or possible during day
 	"Enable Sleeping" = false
 	#Prevents sleeping if the player is not tired. Tiredness is gained by gaining exhaustion. Allows you to sleep during daytime if too tired
-	"Enable Tiredness" = true
+	"Enable Tiredness" = false
 
 	#Prevents the player from sleeping if has not enough Hunger and gives him effects on wake up
 	["Sleep & Respawn"."Sleeping Effects"]
@@ -664,7 +666,7 @@
 		#When true, block stacks are affected by both their material type and the block stack multiplier. If false, block stacks will be affected by the multiplier only.
 		"Block Stack Affected by Material" = true
 
-		#Items or tags that will ignore the stack changes. This can be inverted via 'Blacklist as Whitelist'. Each entry has an item or tag. E.g. ["#minecraft:fishes", "minecraft:stone"].
+		#Items that will ignore the stack changes. This can be inverted via 'Blacklist as Whitelist'. Each entry has an item. E.g. ["minecraft:stone"].
 		["Stack Size"."General Stacking".Blacklist]
 			Blacklist = ["minecraft:rotten_flesh"]
 			#If true the list will be treated as a whitelist instead of blacklist
