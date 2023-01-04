@@ -84,9 +84,6 @@ craftingTable.addShapeless("portable_fluid_interface", <item:create:portable_flu
 //create brass casing new recipe
 craftingTable.addShaped("create_brass_casing", <item:create:brass_casing> * 8, [[<item:immersiveengineering:treated_wood_horizontal>, <item:immersiveengineering:treated_wood_horizontal>, <item:immersiveengineering:treated_wood_horizontal>], [<tag:items:forge:plates/brass>, <tag:items:minecraft:logs>, <tag:items:forge:plates/brass>], [<item:immersiveengineering:treated_wood_horizontal>, <item:immersiveengineering:treated_wood_horizontal>, <item:immersiveengineering:treated_wood_horizontal>]]);
 
-//rose quartz uncrafting block
-craftingTable.addShapeless("uncrafting_rose_quartz", <item:biomesoplenty:rose_quartz_block> * 4, [<item:biomesoplenty:rose_quartz_shard>]);
-
 //immersive engineering hammer durability upgrade and recipe change
 craftingTable.remove(<item:immersiveengineering:hammer>);
 craftingTable.addShaped("immersiveengineering_crafting_hammer", <item:immersiveengineering:hammer>, [[IIngredientEmpty.getInstance(), <tag:items:forge:ingots/iron>, <tag:items:forge:fiber_hemp>], [IIngredientEmpty.getInstance(), <tag:items:forge:rods/wooden>, <tag:items:forge:ingots/iron>], [<tag:items:forge:rods/wooden>, IIngredientEmpty.getInstance(), IIngredientEmpty.getInstance()]]);
@@ -175,9 +172,6 @@ for rawblock, block in rawblock_block_map {
 
 //red alloy ingot recipe
 craftingTable.addShaped("extendedcrafting_redstone_ingot", <item:extendedcrafting:redstone_ingot>, [[<tag:items:forge:dusts/redstone>, <tag:items:forge:dusts/redstone>, <tag:items:forge:dusts/redstone>], [<tag:items:forge:dusts/redstone>, <tag:items:forge:ingots/iron>, <tag:items:forge:dusts/redstone>], [<tag:items:forge:dusts/redstone>, <tag:items:forge:dusts/redstone>, <tag:items:forge:dusts/redstone>]]);
-
-//Biomes o plenty brimstone fumarole recipe
-craftingTable.addShaped("custom_brimstone_fumarole", <item:biomesoplenty:brimstone_fumarole>, [[<item:biomesoplenty:brimstone>, <item:minecraft:campfire>, <item:biomesoplenty:brimstone>], [<item:biomesoplenty:brimstone>, <item:minecraft:magma_block>, <item:biomesoplenty:brimstone>]]);
 
 //IE waterwheel
 craftingTable.addShaped("immersiveengineering_watermill", <item:immersiveengineering:watermill>, [[IIngredientEmpty.getInstance(), <item:immersiveengineering:waterwheel_segment>, IIngredientEmpty.getInstance()], [<item:immersiveengineering:waterwheel_segment>, <tag:items:forge:rods/iron>, <item:immersiveengineering:waterwheel_segment>], [IIngredientEmpty.getInstance(), <item:immersiveengineering:waterwheel_segment>, IIngredientEmpty.getInstance()]]);
@@ -416,13 +410,6 @@ craftingTable.addShaped("sand_cast_ingot", <item:tconstruct:ingot_sand_cast> * 3
 
 craftingTable.addShaped("red_sand_cast_ingot", <item:tconstruct:ingot_red_sand_cast> * 32, [[<item:minecraft:red_sand>, <item:minecraft:red_sand>, <item:minecraft:red_sand>], [<item:minecraft:red_sand>, <tag:items:forge:ingots>, <item:minecraft:red_sand>], [<item:minecraft:red_sand>, <item:minecraft:red_sand>, <item:minecraft:red_sand>]]);
 
-//Sculk sensor recipe
-craftingTable.addShaped("custom_sculk", <item:minecraft:comparator>, [[IIngredientEmpty.getInstance(), <item:graveyard:corruption>, IIngredientEmpty.getInstance()], [<item:graveyard:corruption>, <item:minecraft:ender_eye>, <item:graveyard:corruption>], [<item:biomesoplenty:flesh>, <item:biomesoplenty:flesh>, <item:biomesoplenty:flesh>]]);
-
-//flesh block crafting and uncrafting
-craftingTable.addShaped("custom_crafting_flesh_block", <item:biomesoplenty:flesh>, [[<item:minecraft:rotten_flesh>, <item:minecraft:rotten_flesh>], [<item:minecraft:rotten_flesh>, <item:minecraft:rotten_flesh>]]);
-craftingTable.addShapeless("custom_uncrafting_flesh_block", <item:minecraft:rotten_flesh> * 4, [<item:biomesoplenty:flesh>]);
-
 //black dye from coal dust
 craftingTable.addShapeless("custom_coal_dye", <item:minecraft:black_dye> * 2, [<item:ftbic:charcoal_dust>|<item:ftbic:coal_dust>, <item:minecraft:potion>.withTag({Potion: "minecraft:water" as string})]);
 craftingTable.addShapeless("custom_coal_dye_bucket", <item:minecraft:black_dye> * 8, [<item:ftbic:charcoal_dust>|<item:ftbic:coal_dust>, <item:ftbic:charcoal_dust>|<item:ftbic:coal_dust>, <item:ftbic:charcoal_dust>|<item:ftbic:coal_dust>, <item:ftbic:charcoal_dust>|<item:ftbic:coal_dust>, <item:minecraft:water_bucket>]);
@@ -446,22 +433,14 @@ craftingTable.addShaped("custom_reach_upgrade3", <item:effortlessbuilding:reach_
 //slime crystal crafting
 craftingTable.addShaped("custom_slime_crystal", <item:tconstruct:earth_slime_crystal>, [[IIngredientEmpty.getInstance(), <item:minecraft:slime_ball>, IIngredientEmpty.getInstance()], [<item:minecraft:slime_ball>, <item:minecraft:amethyst_shard>, <item:minecraft:slime_ball>], [IIngredientEmpty.getInstance(), <item:minecraft:slime_ball>, IIngredientEmpty.getInstance()]]);
 
-craftingTable.addShaped("custom_ichor_crystal", <item:tconstruct:ichor_slime_crystal>, [[IIngredientEmpty.getInstance(), <item:tconstruct:ichor_slime_ball>, IIngredientEmpty.getInstance()], [<item:tconstruct:ichor_slime_ball>, <item:biomesoplenty:rose_quartz_shard>, <item:tconstruct:ichor_slime_ball>], [IIngredientEmpty.getInstance(), <item:tconstruct:ichor_slime_ball>, IIngredientEmpty.getInstance()]]);
+craftingTable.addShaped("custom_ichor_crystal", <item:tconstruct:ichor_slime_crystal>, [[IIngredientEmpty.getInstance(), <item:tconstruct:ichor_slime_ball>, IIngredientEmpty.getInstance()], [<item:tconstruct:ichor_slime_ball>, <item:minecraft:amethyst_shard>, <item:tconstruct:ichor_slime_ball>], [IIngredientEmpty.getInstance(), <item:tconstruct:ichor_slime_ball>, IIngredientEmpty.getInstance()]]);
 
-craftingTable.addShaped("custom_enderslime_crystal", <item:tconstruct:ender_slime_crystal>, [[IIngredientEmpty.getInstance(), <item:tconstruct:ender_slime_ball>, IIngredientEmpty.getInstance()], [<item:tconstruct:ender_slime_ball>, <item:lightstones:blightstone>, <item:tconstruct:ender_slime_ball>], [IIngredientEmpty.getInstance(), <item:tconstruct:ender_slime_ball>, IIngredientEmpty.getInstance()]]);
+craftingTable.addShaped("custom_enderslime_crystal", <item:tconstruct:ender_slime_crystal>, [[IIngredientEmpty.getInstance(), <item:tconstruct:ender_slime_ball>, IIngredientEmpty.getInstance()], [<item:tconstruct:ender_slime_ball>, <item:minecraft:amethyst_shard>, <item:tconstruct:ender_slime_ball>], [IIngredientEmpty.getInstance(), <item:tconstruct:ender_slime_ball>, IIngredientEmpty.getInstance()]]);
 
 
 //Illager items from crude cladding
 
 craftingTable.addShapeless("custom_blast_plating", <item:savage_and_ravage:blast_proof_plating>, [<item:biomemakeover:crude_cladding>, <tag:items:forge:ingots/gold>, <item:savage_and_ravage:creeper_spores>, <item:savage_and_ravage:creeper_spores>]);
-
-craftingTable.addShaped("custom_mask_of_dishonesty", <item:savage_and_ravage:mask_of_dishonesty>, [[<item:biomemakeover:crude_cladding>, <item:minecraft:ghast_tear>, <item:biomemakeover:crude_cladding>], [<item:biomemakeover:crude_cladding>, <item:minecraft:skeleton_skull>, <item:biomemakeover:crude_cladding>], [IIngredientEmpty.getInstance(), <item:biomemakeover:crude_cladding>, IIngredientEmpty.getInstance()]]);
-
-craftingTable.addShaped("custom_boomerang", <item:hunterillager:boomerang>, [[<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <item:biomemakeover:crude_cladding>], [IIngredientEmpty.getInstance(), <item:biomemakeover:crude_cladding>, <tag:items:minecraft:logs>], [IIngredientEmpty.getInstance(), IIngredientEmpty.getInstance(), <tag:items:minecraft:logs>]]);
-
-craftingTable.addShaped("custom_conch_of_conjuring", <item:savage_and_ravage:conch_of_conjuring>, [[<item:biomemakeover:crude_cladding>, <item:minecraft:nautilus_shell>, <item:biomemakeover:crude_cladding>], [<item:minecraft:nautilus_shell>, <item:minecraft:totem_of_undying>, <item:minecraft:nautilus_shell>], [<item:biomemakeover:crude_cladding>, <item:minecraft:nautilus_shell>, <item:biomemakeover:crude_cladding>]]);
-
-craftingTable.addShaped("custom_beheading_sword", <item:savage_and_ravage:cleaver_of_beheading>, [[IIngredientEmpty.getInstance(), <item:biomemakeover:crude_cladding>, IIngredientEmpty.getInstance()], [IIngredientEmpty.getInstance(), <item:biomemakeover:crude_cladding>, IIngredientEmpty.getInstance()], [IIngredientEmpty.getInstance(), <item:minecraft:diamond_sword>, IIngredientEmpty.getInstance()]]);
 
 val tapestry_array as IItemStack[IItemStack] = {
 <item:minecraft:white_banner>      : <item:biomemakeover:white_tapestry>,
@@ -504,3 +483,16 @@ craftingTable.addShaped("custom_summoning_altar", <item:summoningrituals:altar>,
 craftingTable.addShaped("custom_grinder", <item:plaingrinder:grinder>, [[<tag:items:forge:cobblestone>, <tag:items:forge:ingots/iron>, <tag:items:forge:cobblestone>], [<tag:items:forge:cobblestone>, <item:minecraft:flint>, <tag:items:forge:cobblestone>], [<tag:items:forge:cobblestone>, <tag:items:forge:cobblestone>, <tag:items:forge:cobblestone>]]);
 
 craftingTable.addShaped("custom_handle", <item:plaingrinder:handle>, [[<tag:items:forge:rods/wooden>, <tag:items:forge:rods/wooden>], [IIngredientEmpty.getInstance(), <tag:items:forge:rods/wooden>], [IIngredientEmpty.getInstance(), <tag:items:forge:rods/wooden>]]);
+
+//updated channeling stone recipe
+
+craftingTable.addShaped("custom_channeling_stone", <item:advanced_xp:channeling_stone>, [[<item:minecraft:mossy_stone_bricks>, <item:minecraft:mossy_stone_bricks>, <item:minecraft:mossy_stone_bricks>], [<item:malum:chunk_of_brilliance>, <item:minecraft:experience_bottle>, <item:malum:chunk_of_brilliance>], [<item:minecraft:mossy_stone_bricks>, <item:minecraft:mossy_stone_bricks>, <item:minecraft:mossy_stone_bricks>]]);
+
+//brewing bottles of enchanting	
+brewing.addRecipe(<item:minecraft:experience_bottle>, <item:minecraft:potion>.withTag({Potion: "minecraft:water" as string}), <item:malum:chunk_of_brilliance>);
+
+//cloggrum fertilizer
+craftingTable.addShapeless("custom_fertilizer_cloggrum", <item:immersiveengineering:fertilizer> * 4, [<item:immersiveengineering:dust_sulfur>, <item:jaopca:dusts.cloggrum>]);
+
+//Custom gravisand recipe that uses warped soul sand.
+craftingTable.addShapeless("custom_gravisand_alternative", <item:quark:gravisand> * 2, [<item:byg:warped_soul_sand>, <item:minecraft:redstone>]);
