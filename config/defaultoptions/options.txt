@@ -9,7 +9,7 @@ entityShadows:true
 forceUnicodeFont:false
 discrete_mouse_scroll:false
 invertYMouse:false
-realmsNotifications:true
+realmsNotifications:false
 reducedDebugInfo:false
 showSubtitles:false
 touchscreen:false
@@ -23,8 +23,8 @@ mouseSensitivity:0.5
 fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
-gamma:0.5035211267605634
-renderDistance:14
+gamma:0.0
+renderDistance:12
 simulationDistance:12
 entityDistanceScaling:1.0
 guiScale:2
@@ -32,12 +32,12 @@ particles:0
 maxFps:90
 difficulty:2
 graphicsMode:1
-ao:1
+ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:0
 renderClouds:true
-resourcePacks:["vanilla","mod_resources","inmemory:jaopca","Supplementaries Generated Pack","quark:emote_resources","file/FullHD_Font_1.18_1.3.zip","file/Create+Guns+1.18+v4.zip","resources/simplehats_hatdl.zip","file/Updated_Engineering_v1.6.zip","file/Copper Color Fix 3.0.zip","Everycomp Generated Pack","resources/Limitless rebirth resources","file/eatinganimations+1.9.zip","file/updated_aquaculture-1.0.zip"]
-incompatibleResourcePacks:["inmemory:jaopca","quark:emote_resources","file/Copper Color Fix 3.0.zip","file/updated_aquaculture-1.0.zip"]
+resourcePacks:["vanilla","mod_resources","inmemory:jaopca","Supplementaries Generated Pack","quark:emote_resources","file/Create+Guns+1.18+v4.zip","resources/simplehats_hatdl.zip","file/Updated_Engineering_v1.6.zip","file/Copper Color Fix 3.0.zip","Everycomp Generated Pack","file/Sullys_Peeves-FreshAnimations COMPAT.zip","file/Enhanced Tools and Armour.zip","file/eatinganimations+1.9.zip","file/updated_aquaculture-1.0.zip","file/BotaniaRevamped_1.1.0.zip","Snowyspirit Generated Pack","file/BiomeMakeoverMakeover v1.0.zip","file/Snowiest Snow 1.18.x.zip","file/BannerPatternClarity_1.18-1.0.zip","file/VanillaTweaks_r376064.zip","file/BvBOverlaysV4.zip","file/§3BetterVanillaFoods§7_v1.12.5.zip","contenttweaker:runtime/contenttweaker/ass","contenttweaker:user/client_resources"]
+incompatibleResourcePacks:["inmemory:jaopca","quark:emote_resources","file/Copper Color Fix 3.0.zip","file/Sullys_Peeves-FreshAnimations COMPAT.zip","file/updated_aquaculture-1.0.zip","file/BotaniaRevamped_1.1.0.zip","file/VanillaTweaks_r376064.zip","file/BvBOverlaysV4.zip"]
 lastServer:
 lang:en_us
 soundDevice:
@@ -74,9 +74,9 @@ hideBundleTutorial:true
 syncChunkWrites:true
 showAutosaveIndicator:true
 allowServerListing:true
-soundCategory_master:0.6056338
+soundCategory_master:1.0
 soundCategory_music:1.0
-soundCategory_record:0.10798122
+soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
 soundCategory_hostile:1.0
