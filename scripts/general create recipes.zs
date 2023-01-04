@@ -3,13 +3,6 @@ import crafttweaker.api.ingredient.IIngredient;
 import crafttweaker.api.ingredient.type.IIngredientAny;
 import crafttweaker.api.ingredient.type.IIngredientEmpty;
 
-//removing default rose quarts recipe
-craftingTable.removeByName("create:crafting/materials/rose_quartz");
-//new rose quarts recipe
-craftingTable.addShaped("custom-rose-quartz", <item:create:rose_quartz>, [[<item:minecraft:air>, <item:biomesoplenty:rose_quartz_shard>, <item:minecraft:air>], [<item:biomesoplenty:rose_quartz_shard>, <item:minecraft:redstone>, <item:biomesoplenty:rose_quartz_shard>], [<item:minecraft:air>, <item:biomesoplenty:rose_quartz_shard>, <item:minecraft:air>]]);
-
-
-
 //adding recipe for rolling lead wire
 <recipetype:createaddition:rolling>.addJsonRecipe("lead_wire", {
 	"input": {
