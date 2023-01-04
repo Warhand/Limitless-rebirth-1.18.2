@@ -1,0 +1,42 @@
+{
+  "oreConfig": [
+    {
+      "ore": "malum:blazing_quartz_ore",
+      "fillers": [
+        "minecraft:netherrack"
+      ],
+      "distribution": "UNIFORM",
+      "minY": 10,
+      "maxY": 256,
+      "maxVeinSize": 14,
+      "spawnRate": 22.0,
+      "discardChanceOnAirExposure": 0.0,
+      "biomeFilters": {
+        "biomeBlacklist": [],
+        "biomeWhitelist": [
+          "NETHER"
+        ]
+      },
+      "replace": true
+    },
+    {
+      "ore": "malum:blazing_quartz_ore",
+      "fillers": [
+        "minecraft:netherrack"
+      ],
+      "distribution": "UNIFORM",
+      "minY": 10,
+      "maxY": 256,
+      "maxVeinSize": 14,
+      "spawnRate": 48.0,
+      "discardChanceOnAirExposure": 0.0,
+      "biomeFilters": {
+        "biomeBlacklist": [],
+        "biomeWhitelist": [
+          "NETHER"
+        ]
+      },
+      "replace": true
+    }
+  ]
+}
