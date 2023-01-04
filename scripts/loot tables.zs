@@ -172,8 +172,7 @@ val ocean_loot as MyFloat[IItemStack] = {
 	<item:artifacts:umbrella>               :new MyFloat(0.04),
 	<item:artifacts:whoopee_cushion>        :new MyFloat(0.04),
 	<item:minecraft:potion>                 :new MyFloat(0.04),
-	<item:paraglider:spirit_orb>            :new MyFloat(0.01),
-	<item:schoolsofmagic:letter_ccw>        :new MyFloat(0.04)
+	<item:paraglider:spirit_orb>            :new MyFloat(0.01)
 };
 
 loot.modifiers.register("loot_name_in_oceans",
@@ -231,8 +230,7 @@ val underground_loot as MyFloat[IItemStack] = {
 	<item:artifacts:vampiric_glove>                                         :new MyFloat(0.015),
 	<item:artifacts:whoopee_cushion>                                        :new MyFloat(0.015),
 	<item:minecraft:potion>.withTag({Potion: "minecraft:luck" as string})   :new MyFloat(0.015),
-	<item:paraglider:spirit_orb>                                            :new MyFloat(0.01), 
-	<item:schoolsofmagic:letter_ccw>                                        :new MyFloat(0.015)
+	<item:paraglider:spirit_orb>                                            :new MyFloat(0.01)
 };
 
 loot.modifiers.register("loot_name_in_underground",
@@ -297,8 +295,7 @@ val overworld_loot as MyFloat[IItemStack] = {
 	<item:artifacts:umbrella>                              :new MyFloat(0.03),
 	<item:artifacts:villager_hat>                          :new MyFloat(0.03),
 	<item:artifacts:whoopee_cushion>                       :new MyFloat(0.03),
-	<item:paraglider:spirit_orb>                           :new MyFloat(0.01),
-	<item:schoolsofmagic:letter_ccw>                       :new MyFloat(0.03)
+	<item:paraglider:spirit_orb>                           :new MyFloat(0.01)
 };
 
 loot.modifiers.register("loot_name_in_overworld",
@@ -360,8 +357,7 @@ val village_loot as MyFloat[IItemStack] = {
 	<item:artifacts:vampiric_glove>                        :new MyFloat(0.025),
 	<item:artifacts:villager_hat>                          :new MyFloat(0.025),
 	<item:artifacts:whoopee_cushion>                       :new MyFloat(0.025),
-	<item:paraglider:spirit_orb>                           :new MyFloat(0.01),
-	<item:schoolsofmagic:letter_ccw>                       :new MyFloat(0.025)
+	<item:paraglider:spirit_orb>                           :new MyFloat(0.01)
 };
 
 public var villages = [
@@ -460,8 +456,7 @@ val desert_loot as MyFloat[IItemStack] = {
 	<item:artifacts:steadfast_spikes>                                     :new MyFloat(0.02),
 	<item:artifacts:vampiric_glove>                                       :new MyFloat(0.02),
 	<item:minecraft:potion>.withTag({Potion: "minecraft:luck" as string}) :new MyFloat(0.02),
-	<item:paraglider:spirit_orb>                                          :new MyFloat(0.01),
-	<item:schoolsofmagic:letter_ccw>                                      :new MyFloat(0.02)
+	<item:paraglider:spirit_orb>                                          :new MyFloat(0.01)
 };
 
 loot.modifiers.register("loot_name_in_deserts",
@@ -518,8 +513,7 @@ val forest_loot as MyFloat[IItemStack] = {
 	<item:artifacts:umbrella>                                              :new MyFloat(0.025),
 	<item:artifacts:villager_hat>                                          :new MyFloat(0.025),
 	<item:minecraft:potion>.withTag({Potion: "minecraft:luck" as string})  :new MyFloat(0.025),
-	<item:paraglider:spirit_orb>                                           :new MyFloat(0.01),
-	<item:schoolsofmagic:letter_ccw>                                       :new MyFloat(0.025)
+	<item:paraglider:spirit_orb>                                           :new MyFloat(0.01)
 };
 
 loot.modifiers.register("loot_name_in_forests",
@@ -585,8 +579,7 @@ val frozen_loot as MyFloat[IItemStack] = {
 	<item:artifacts:steadfast_spikes>                      :new MyFloat(0.035),
 	<item:artifacts:umbrella>                              :new MyFloat(0.035),
 	<item:artifacts:universal_attractor>                   :new MyFloat(0.035),
-	<item:paraglider:spirit_orb>                           :new MyFloat(0.01),
-	<item:schoolsofmagic:letter_ccw>                       :new MyFloat(0.035)
+	<item:paraglider:spirit_orb>                           :new MyFloat(0.01)
 };
 
 loot.modifiers.register("loot_name_in_frozen",
@@ -649,8 +642,7 @@ val nether_loot as MyFloat[IItemStack] = {
 	<item:artifacts:universal_attractor>                                   :new MyFloat(0.02),
 	<item:artifacts:vampiric_glove>                                        :new MyFloat(0.02),
 	<item:minecraft:potion>.withTag({Potion: "minecraft:luck" as string})  :new MyFloat(0.02),
-	<item:paraglider:spirit_orb>                                           :new MyFloat(0.01),
-	<item:schoolsofmagic:letter_ccw>                                       :new MyFloat(0.02)
+	<item:paraglider:spirit_orb>                                           :new MyFloat(0.01)
 };
 
 loot.modifiers.register("loot_name_in_nether",
@@ -722,8 +714,7 @@ val end_loot as MyFloat[IItemStack] = {
 	<item:artifacts:shock_pendant>                                        :new MyFloat(0.02),
 	<item:artifacts:universal_attractor>                                  :new MyFloat(0.02),
 	<item:minecraft:potion>.withTag({Potion: "minecraft:luck" as string}) :new MyFloat(0.02),
-	<item:paraglider:spirit_orb>                                          :new MyFloat(0.01),
-	<item:schoolsofmagic:letter_ccw>                                      :new MyFloat(0.02)
+	<item:paraglider:spirit_orb>                                          :new MyFloat(0.01)
 };
 
 loot.modifiers.register("loot_name_in_ender",
@@ -829,8 +820,7 @@ val treasure_loot as MyFloat[IItemStack] = {
 	<item:artifacts:villager_hat>                                          :new MyFloat(0.005),
 	<item:artifacts:whoopee_cushion>                                       :new MyFloat(0.005),
 	<item:minecraft:potion>.withTag({Potion: "minecraft:luck" as string})  :new MyFloat(0.005),
-	<item:paraglider:spirit_orb>                                           :new MyFloat(0.01),
-	<item:schoolsofmagic:letter_ccw>                                       :new MyFloat(0.005)
+	<item:paraglider:spirit_orb>                                           :new MyFloat(0.01)
 };
 
 loot.modifiers.register("loot_name_in_treasure",
