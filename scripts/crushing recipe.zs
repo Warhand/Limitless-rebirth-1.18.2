@@ -47,7 +47,7 @@ for input, output in ore_to_raw_map{
 	crushingBloodExplosive(input, output, 1.0, 2, output, 0.5, 1);
 	crushingBloodResonator(input, output, 1.0, 2, output, 0.25, 1);
 	crushingCreateMill(input, output, 1.0, 2);
-	crushingPlain(input, output, 2);
+	crushingPlain(input, output, 1.0, 2, output, 0.1, 1);
 }
 
 // raw to crushed
@@ -76,7 +76,7 @@ for input, output in raw_to_crushed_map{
 	crushingBloodExplosive(input, output, 1.0, 1, output, 0.25, 1);
 	crushingBloodResonator(input, output, 1.0, 1, output, 0.25, 1);
 	crushingCreateMill(input, output, 1.0, 1);
-	crushingPlain(input, output, 1);
+	crushingPlain(input, output, 1.0, 1, output, 0.1, 1);
 }
 
 //crushed to gravel
@@ -105,7 +105,7 @@ for input, output in crushed_to_gravel_map{
 	crushingBloodExplosive(input, output, 1.0, 1, output, 0.25, 1);
 	crushingBloodResonator(input, output, 1.0, 1, output, 0.5, 1);
 	crushingCreateMill(input, output, 1.0, 1);
-	crushingPlain(input, output, 1);
+	crushingPlain(input, output, 1.0, 1, output, 0.1, 1);
 }
 
 //ore to materials (rare)
@@ -146,7 +146,7 @@ for input, output in ore_to_materials_common{
 	crushingBloodExplosive(input, output, 1.0, 2, output, 0.5, 1);
 	crushingBloodResonator(input, output, 1.0, 2, output, 0.25, 1);
 	crushingCreateMill(input, output, 1.0, 2);
-	crushingPlain(input, output, 2);
+	crushingPlain(input, output, 1.0, 2, output, 0.1, 1);
 }
 
 val ore_to_materials_abundant as IItemStack[IIngredient] = {
@@ -164,7 +164,7 @@ for input, output in ore_to_materials_abundant{
 	crushingBloodExplosive(input, output, 1.0, 6, output, 0.5, 3);
 	crushingBloodResonator(input, output, 1.0, 6, output, 0.25, 3);
 	crushingCreateMill(input, output, 1.0, 3);
-	crushingPlain(input, output, 3);
+	crushingPlain(input, output, 1.0, 3, output, 0.25, 2);
 }
 
 //simple crushing recipes
@@ -209,7 +209,7 @@ for input, output in flower_dye_crushing{
 	crushingBloodExplosive(input, output, 1.0, 1, output, 0.25, 1);
 	crushingBloodResonator(input, output, 1.0, 1, output, 0.25, 1);
 	crushingCreateMill(input, output, 1.0, 2, output, 0.5, 1);
-	crushingPlain(input, output, 1);
+	crushingPlain(input, output, 1.0, 1, output, 0.1, 1);
 }
 
 var chance_output_with_chance_secondary = [
@@ -219,12 +219,7 @@ var chance_output_with_chance_secondary = [
 ] as tripleArray[];
 
 for group in chance_output_with_chance_secondary{
-	crushingIndustrial(group.input, group.output1, group.chance1, 1, group.output2, group.chance2, 1);
-	crushingCreateWheel(group.input, group.output1, group.chance1, 1, group.output2, group.chance2, 1);
-	crushingImmersive(group.input, group.output1, group.chance1, 1, group.output2, group.chance2, 1);
-	crushingArs(group.input, group.output1, group.chance1, 1, group.output2, group.chance2, 1);
-	crushingBloodExplosive(group.input, group.output1, group.chance1, 1, group.output2, group.chance2, 1);
-	crushingBloodResonator(group.input, group.output1, group.chance1, 1, group.	output2, group.chance2, 1);
+	crushingAll(group.input, group.output1, group.chance1, 1, group.output2, group.chance2, 1);
 }
 
 //individual recipes
