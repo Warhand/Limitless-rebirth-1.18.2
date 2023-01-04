@@ -67,7 +67,7 @@
 	#List of recipes that should not be added.
 	blacklist = []
 	#List of recipes by regex that should not be added.
-	regexBlacklist = ["jaopca:immersiveengineering.*_to_.*", "jaopca:ftbic.*_to_*.*", "jaopca:create.*_to..*"]
+	regexBlacklist = ["jaopca:immersiveengineering.*_to_.*", "jaopca:ftbic.*_to_*.*", "jaopca:create.*_to..*", "jaopca:bloodmagic.*"]
 
 #Configurations related to loot tables.
 [lootTables]
