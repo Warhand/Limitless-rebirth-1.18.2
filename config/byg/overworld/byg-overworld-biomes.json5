@@ -9,7 +9,7 @@ to make editing this file much easier.
 */
 {
 	// Global toggle to enable or disable BYG's overworld biomes.
-	"overworld_enabled": false,
+	"overworld_enabled": true,
 	/* A list of weighted regions containing a unique biome layout.
 	   Regions may be inlined or may call a file from "this_file_parent_directory/regions"
 	*/
