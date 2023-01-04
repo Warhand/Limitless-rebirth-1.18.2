@@ -36,8 +36,8 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:0
 renderClouds:true
-resourcePacks:["vanilla","mod_resources","inmemory:jaopca","Supplementaries Generated Pack","quark:emote_resources","file/Create+Guns+1.18+v4.zip","resources/simplehats_hatdl.zip","file/Updated_Engineering_v1.6.zip","file/Copper Color Fix 3.0.zip","Everycomp Generated Pack","file/Sullys_Peeves-FreshAnimations COMPAT.zip","file/Enhanced Tools and Armour.zip","file/eatinganimations+1.9.zip","file/updated_aquaculture-1.0.zip","file/BotaniaRevamped_1.1.0.zip","Snowyspirit Generated Pack","file/BiomeMakeoverMakeover v1.0.zip","file/Snowiest Snow 1.18.x.zip","file/BannerPatternClarity_1.18-1.0.zip","file/VanillaTweaks_r376064.zip","file/BvBOverlaysV4.zip","file/§3BetterVanillaFoods§7_v1.12.5.zip","contenttweaker:runtime/contenttweaker/ass","contenttweaker:user/client_resources"]
-incompatibleResourcePacks:["inmemory:jaopca","quark:emote_resources","file/Copper Color Fix 3.0.zip","file/Sullys_Peeves-FreshAnimations COMPAT.zip","file/updated_aquaculture-1.0.zip","file/BotaniaRevamped_1.1.0.zip","file/VanillaTweaks_r376064.zip","file/BvBOverlaysV4.zip"]
+resourcePacks:["vanilla","mod_resources","inmemory:jaopca","Supplementaries Generated Pack","quark:emote_resources","resources/simplehats_hatdl.zip","file/Updated_Engineering_v1.6.zip","file/Copper Color Fix 3.0.zip","Everycomp Generated Pack","file/Sullys_Peeves-FreshAnimations COMPAT.zip","file/Enhanced Tools and Armour.zip","file/updated_aquaculture-1.0.zip","file/BotaniaRevamped_1.1.0.zip","Snowyspirit Generated Pack","file/BiomeMakeoverMakeover v1.0.zip","file/Snowiest Snow 1.18.x.zip","file/BannerPatternClarity_1.18-1.0.zip","file/VanillaTweaks_r376064.zip","file/eatinganimations+ 1.10.zip","file/eatinganimations better vanilla foods compat","file/§3BetterVanillaFoods§7_v1.12.5.zip","contenttweaker:runtime/contenttweaker/ass","contenttweaker:user/client_resources"]
+incompatibleResourcePacks:["inmemory:jaopca","quark:emote_resources","file/Copper Color Fix 3.0.zip","file/Sullys_Peeves-FreshAnimations COMPAT.zip","file/updated_aquaculture-1.0.zip","file/BotaniaRevamped_1.1.0.zip","file/VanillaTweaks_r376064.zip"]
 lastServer:
 lang:en_us
 soundDevice:
@@ -183,8 +183,8 @@ key_key.voice_chat_settings:key.keyboard.unknown
 key_key.voice_chat_group:key.keyboard.unknown
 key_key.voice_chat_toggle_recording:key.keyboard.unknown
 key_key.voice_chat_adjust_volumes:key.keyboard.unknown
-key_cos.key.opencosarmorinventory:key.keyboard.unknown
 key_key.immersiveengineering.magnetEquip:key.keyboard.left.shift
+key_cos.key.opencosarmorinventory:key.keyboard.unknown
 key_key.immersiveengineering.railgunZoom:key.mouse.middle
 key_key.immersiveengineering.chemthrowerSwitch:key.keyboard.unknown
 key_treechop.key.toggle_chopping:key.keyboard.unknown
@@ -229,6 +229,8 @@ key_key.enchanted.broom_down:key.keyboard.left.control
 key_key.enchanted.broom_aim_up:key.keyboard.c
 key_key.enchanted.broom_aim_down:key.keyboard.v
 key_panorama.keybinds.screenshot:key.keyboard.f4
+key_create.keyinfo.toolmenu:key.keyboard.left.alt
+key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_bloodmagic.keybind.cycle_holding_pos:key.keyboard.unknown
 key_bloodmagic.keybind.cycle_holding_neg:key.keyboard.unknown
 key_key.tconstruct.helmet_interact:key.keyboard.unknown
@@ -244,9 +246,8 @@ key_quark.keybind.transfer_insert:key.keyboard.unknown
 key_quark.keybind.transfer_extract:key.keyboard.unknown
 key_quark.keybind.shift_lock:key.keyboard.unknown
 key_quark.keybind.change_hotbar:key.keyboard.unknown
-key_quark.keybind.back:key.mouse.4
 key_quark.keybind.lock_rotation:key.keyboard.unknown
-key_quark.keybind.camera_mode:key.keyboard.f12
+key_quark.keybind.autorun:key.keyboard.unknown
 key_quark.emote.no:key.keyboard.unknown
 key_quark.emote.yes:key.keyboard.unknown
 key_quark.emote.wave:key.keyboard.unknown
@@ -265,9 +266,10 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
-key_quark.keybind.autorun:key.keyboard.unknown
+key_quark.keybind.back:key.mouse.4
 key_quark.keybind.sort_player:key.keyboard.unknown
 key_quark.keybind.sort_container:key.keyboard.unknown
+key_quark.keybind.camera_mode:key.keyboard.f12
 key_key.worldstripper.strip_world:key.keyboard.delete
 key_key.worldstripper.dress_world:key.keyboard.insert
 key_key.worldstripper.add_block:key.keyboard.page.up
@@ -276,8 +278,6 @@ key_key.worldstripper.increase_range:key.keyboard.page.up:SHIFT
 key_key.worldstripper.decrease_range:key.keyboard.page.down:SHIFT
 key_key.worldstripper.big_increase_range:key.keyboard.page.up:ALT
 key_key.worldstripper.big_decrease_range:key.keyboard.page.down:ALT
-key_create.keyinfo.toolmenu:key.keyboard.left.alt
-key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_key.paraglider.paragliderSettings:key.keyboard.unknown:CONTROL
 key_info.structure_gel.building_tool.undo:key.keyboard.unknown:CONTROL
 key_info.structure_gel.building_tool.redo:key.keyboard.unknown:CONTROL
@@ -289,10 +289,10 @@ key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.c
 key_keybind.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.sort:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown:ALT
+key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
 key_key.configured.open_mod_list:key.keyboard.unknown
 soundCategory_master:1.0
