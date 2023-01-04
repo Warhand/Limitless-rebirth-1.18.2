@@ -16,7 +16,7 @@
 			"name": "Bottling Machine",
 			"multiblock": {
 				"pattern": [
-				["   _", " G _"],
+				[" _ _", "   _"],
 				["IFL_", "CCC_"],
 				["ISL_", "SRS0"]
 				],
@@ -27,7 +27,7 @@
 					"I": "immersiveengineering:sheetmetal_iron",
 					"G": "minecraft:glass",
 					"F": "immersiveengineering:fluid_pump",
-					"C": "minecraft:magenta_glazed_terracotta[facing=south]"
+					"C": "minecraft:magenta_glazed_terracotta[facing=north]"
 				}
 			},
 			"text": "The structure is built from the following $(t:3 Steel Scaffolding Blocks, 2 Iron Sheetmetal Blocks, 2 Light Engineering Blocks, 3 Conveyor belts, A Fluid pump, A Glass Block, And a Redstone Engineering Block.)$(#007500)blocks$(). (Glazed terracotta in place of conveyor belts)"        
