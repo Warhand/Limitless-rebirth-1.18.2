@@ -64,13 +64,13 @@ piglinbrute.input3 = <item:minecraft:gilded_blackstone>;
 piglinbrute.build();
 
 var magmacube = new SummonMob();
-piglin.name = "magmacube";
-piglin.summon = "minecraft:magma_cube";
-piglin.sacrifice = "minecraft:slime";
-piglin.input1 = <item:minecraft:magma_block>;
-piglin.input2 = <item:minecraft:magma_cream>;
-piglin.input3 = <tag:items:forge:basalt>;
-piglin.build();
+magmacube.name = "magmacube";
+magmacube.summon = "minecraft:magma_cube";
+magmacube.sacrifice = "minecraft:slime";
+magmacube.input1 = <item:minecraft:magma_block>;
+magmacube.input2 = <item:minecraft:magma_cream>;
+magmacube.input3 = <tag:items:forge:basalt>;
+magmacube.build();
 
 var ghast = new SummonMob();
 ghast.name = "ghast";
@@ -105,7 +105,7 @@ crimsonmosquito.name = "crimsonmosquito";
 crimsonmosquito.summon = "alexsmobs:crimson_mosquito";
 crimsonmosquito.sacrifice = "minecraft:bee";
 crimsonmosquito.input1 = <item:minecraft:crimson_fungus>;
-crimsonmosquito.input2 = <item:tconstruct:blood_slime_ball>;
+crimsonmosquito.input2 = <item:minecraft:potion>.withTag({Potion: "minecraft:water" as string});
 crimsonmosquito.input3 = <item:minecraft:weeping_vines>;
 crimsonmosquito.build();
 
