@@ -168,15 +168,6 @@ import mods.jei.JEI;
   "weight": 3000
 });
 
-<recipetype:botania:orechid_ignem>.addJsonRecipe("custom_orechid_netherrack_cobalt", {
-  "input": "minecraft:netherrack",
-  "output": {
-    "type": "block",
-    "block": "tconstruct:cobalt_ore"
-  },
-  "weight": 1500
-});
-
 //Overworld orechid ore generation
 
 //stone orechid
