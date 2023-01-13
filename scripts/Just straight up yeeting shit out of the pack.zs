@@ -27,8 +27,10 @@ import mods.jei.JEI;
 <recipetype:immersiveengineering:crusher>.removeByRegex("immersiveengineering:crusher.raw_ore_.*");
 <recipetype:immersiveengineering:crusher>.removeByRegex("immersiveengineering:crusher.ore_.*");
 <recipetype:immersiveengineering:crusher>.removeByRegex("immersiveengineering:crusher.*_sandstone");
-<recipetype:tconstruct:casting_table>.removeByRegex("tconstruct:smeltery.casting.metal.*.gear_.*_cast");
 <recipetype:ftbic:macerating>.removeByRegex("ftbic:macerating/.*/.*_to_.*");
+<recipetype:create:splashing>.removeByRegex("create:splashing.crushed.*");
+<recipetype:create:splashing>.removeByRegex("malum:create.*");
+<recipetype:bloodmagic:alchemytable>.removeByRegex("bloodmagic:alchemytable.corrupted.*");
 
 //remove by name functions
 <recipetype:create:crushing>.removeByName("create:crushing/nether_gold_ore");
@@ -50,17 +52,9 @@ import mods.jei.JEI;
 <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/nether_gold");
 <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/sandstone");
 
-<recipetype:tconstruct:alloying>.removeByName("tconstruct:smeltery/alloys/molten_bronze");
-
-<recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/copper/plate_gold_cast");
-<recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/copper/plate_sand_cast");
-<recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/iron/plate_gold_cast");
-<recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/iron/plate_sand_cast");
-<recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/gold/wire_gold_cast");
-<recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/gold/wire_sand_cast");
-<recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/iron/wire_gold_cast");
-<recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/iron/wire_sand_cast");
-<recipetype:tconstruct:casting_table>.removeByName("tconstruct:gadgets/piggy_backpack");
+<recipetype:bloodmagic:arc>.removeByName("bloodmagic:arc/netherrack_to_sulfur");
+<recipetype:bloodmagic:alchemytable>.removeByName("bloodmagic:alchemytable/sulfur_from_lava");
+<recipetype:bloodmagic:alchemytable>.removeByName("bloodmagic:alchemytable/sulfur_from_sigil");
 
 val crafting_table_strings = [
 "extendedcrafting:black_iron_ingot",
@@ -77,7 +71,6 @@ val crafting_table_strings = [
 "minecraft:lead",
 "malum:lead_from_sapballs",
 "minecraft:glass_bottle",
-"tconstruct:common/materials/copper_ingot_from_nuggets",
 "minecraft:beacon"
 ];
 
@@ -120,9 +113,6 @@ val trash as IItemStack[] = [
 	<item:upgradednetherite:corrupt_upgraded_netherite_ingot>,
 	<item:extendedcrafting:ender_ingot>,
 	<item:immersiveengineering:mold_gear>,
-	<item:tconstruct:gear_cast>,
-	<item:tconstruct:gear_sand_cast>,
-	<item:tconstruct:gear_red_sand_cast>,
 	<item:immersiveengineering:windmill>,
 	<item:immersiveengineering:watermill>,
 	<item:immersiveengineering:connector_lv>,
@@ -142,11 +132,7 @@ val trash as IItemStack[] = [
 	<item:prettypipes:high_speed_module>,
 	<item:prettypipes:high_retrieval_module>,
 	<item:prettypipes:high_crafting_module>,
-	<item:storagedrawers:obsidian_storage_upgrade>,
-	<item:storagedrawers:iron_storage_upgrade>,
-	<item:storagedrawers:gold_storage_upgrade>,
 	<item:ftbic:copper_coil>,
-	<item:tconstruct:efln_ball>,
 	<item:immersiveengineering:conveyor_basic>,
 	<item:botania:terrasteel_helmet>,
 	<item:botania:terrasteel_chestplate>,
@@ -165,7 +151,6 @@ val trash as IItemStack[] = [
 	<item:immersiveengineering:dust_copper>,
 	<item:immersiveengineering:ingot_hop_graphite>,
 	<item:minecraft:sticky_piston>,
-	<item:tconstruct:gold_bars>,
 	<item:quark:gold_bars>,
 	<item:decorative_blocks:lattice>,
 	<item:ftbic:tin_dust>,
@@ -184,9 +169,6 @@ for item in trash{
 val jei_removal as IItemStack[] = [
 	<item:malum:crushed_soulstone>,
 	<item:immersiveengineering:mold_gear>,
-	<item:tconstruct:gear_cast>,
-	<item:tconstruct:gear_sand_cast>,
-	<item:tconstruct:gear_red_sand_cast>,
 	<item:createaddition:iron_wire>,
 	<item:malum:cracked_osmium_impetus>,
 	<item:malum:osmium_impetus>,
@@ -219,13 +201,9 @@ val jei_removal as IItemStack[] = [
 	<item:minecraft:jigsaw>,
 	<item:minecraft:knowledge_book>,
 	<item:minecraft:debug_stick>,
-	<item:tconstruct:soulsteel_block>,
-	<item:tconstruct:soulsteel_ingot>,
-	<item:tconstruct:soulsteel_nugget>,
 	<item:create:crushed_quicksilver_ore>,
 	<item:create:crushed_osmium_ore>,
 	<item:create:crushed_platinum_ore>,
-	<item:tconstruct:piggy_backpack>,
 	<item:additionaladditions:gilded_netherite_sword>,
 	<item:additionaladditions:fried_egg>
 ];
@@ -280,13 +258,6 @@ val utter_eradication as IItemStack[] = [
 	<item:ironjetpacks:jetpack>.withTag({Id:"ironjetpacks:creative"as string,Throttle:1.0 as double}),
 	<item:ironjetpacks:thruster>.withTag({Id:"ironjetpacks:creative"as string}),
 	<item:malum:copper_nugget>,
-	<item:materialis:inlay_cast>,
-	<item:materialis:inlay_red_sand_cast>,
-	<item:materialis:inlay_sand_cast>,
-	<item:storagedrawers:diamond_storage_upgrade>,
-	<item:storagedrawers:emerald_storage_upgrade>,
-	<item:tconstruct:copper_nugget>,
-	<item:tconstruct:molten_refined_glowstone_bucket>,
 	<item:create:copper_sheet>,
 	<item:ftbic:lead_block>,
 	<item:create:iron_sheet>,
@@ -321,10 +292,6 @@ val utter_eradication as IItemStack[] = [
 	<item:immersiveengineering:shovel_steel>,
 	<item:immersiveengineering:pickaxe_steel>,
 	<item:immersiveengineering:hoe_steel>,
-	<item:tconstruct:gear_cast>,
-	<item:tconstruct:gear_sand_cast>,
-	<item:tconstruct:gear_red_sand_cast>,
-	<item:tconstruct:debris_nugget>,
 	<item:create:dough>,
 	<item:ftbic:bronze_plate>,
 	<item:ftbic:uranium_ingot>,
@@ -344,35 +311,6 @@ val utter_eradication as IItemStack[] = [
 	<item:darkerdepths:silver_block>,
 	<item:darkerdepths:silver_ingot>,
 	<item:waystones:warp_plate>,
-	<item:tconstruct:medium_sky_slime_crystal_bud>,
-	<item:tconstruct:large_sky_slime_crystal_bud>,
-	<item:tconstruct:sky_slime_crystal_cluster>,
-	<item:tconstruct:budding_sky_slime_crystal>,
-	<item:tconstruct:small_earth_slime_crystal_bud>,
-	<item:tconstruct:medium_earth_slime_crystal_bud>,
-	<item:tconstruct:earth_slime_crystal_cluster>,
-	<item:tconstruct:budding_earth_slime_crystal>,
-	<item:tconstruct:small_ender_slime_crystal_bud>,
-	<item:tconstruct:medium_ender_slime_crystal_bud>,
-	<item:tconstruct:large_ender_slime_crystal_bud>,
-	<item:tconstruct:ender_slime_crystal_cluster>,
-	<item:tconstruct:budding_ender_slime_crystal>,
-	<item:tconstruct:small_sky_slime_crystal_bud>,
-	<item:tconstruct:large_earth_slime_crystal_bud>,
-	<item:tconstruct:small_ichor_slime_crystal_bud>,
-	<item:tconstruct:medium_ichor_slime_crystal_bud>,
-	<item:tconstruct:large_ichor_slime_crystal_bud>,
-	<item:tconstruct:ichor_slime_crystal_cluster>,
-	<item:tconstruct:budding_ichor_slime_crystal>,
-	<item:tconstruct:glow_ball>,
-	<item:tconstruct:ender_slime_sling>,
-	<item:tconstruct:reversed_gold_item_frame>,
-	<item:tconstruct:diamond_item_frame>,
-	<item:tconstruct:manyullyn_item_frame>,
-	<item:tconstruct:gold_item_frame>,
-	<item:tconstruct:clear_item_frame>,
-	<item:tconstruct:netherite_item_frame>,
-	<item:storagedrawers:controller_slave>,
 	<item:bygonenether:gilded_netherite_boots>,
 	<item:bygonenether:gilded_netherite_leggings>,
 	<item:bygonenether:gilded_netherite_chestplate>,
@@ -382,7 +320,18 @@ val utter_eradication as IItemStack[] = [
 	<item:constructionwand:stone_wand>,
 	<item:constructionwand:iron_wand>,
 	<item:littlelogistics:rapid_hopper>,
-	<item:decorative_blocks:rocky_dirt>
+	<item:decorative_blocks:rocky_dirt>,
+	<item:plaingrinder:dust_diamond>,
+	<item:plaingrinder:dust_coal>,
+	<item:plaingrinder:dust_iron>,
+	<item:plaingrinder:dust_emerald>,
+	<item:plaingrinder:dust_lapis>,
+	<item:plaingrinder:dust_copper>,
+	<item:plaingrinder:dust_gold>,
+	<item:plaingrinder:dust_charcoal>,
+	<item:plaingrinder:dust_quartz>,
+	<item:bloodmagic:corrupted_dust>,
+	<item:bloodmagic:corrupted_tinydust>
 ];
 
 for item in utter_eradication{
@@ -391,7 +340,6 @@ for item in utter_eradication{
 	blastFurnace.remove(item);
 	smithing.remove(item);
 	furnace.remove(item);
-	<recipetype:tconstruct:molding_table>.remove(item);
 	<recipetype:immersiveengineering:metal_press>.remove(item);
 	<recipetype:ftbic:rolling>.remove(item);
 	<recipetype:ftbic:macerating>.remove(item);
