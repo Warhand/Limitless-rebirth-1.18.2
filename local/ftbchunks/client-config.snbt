@@ -12,6 +12,11 @@
 	# Default: true
 	claimed_chunks_on_map: true
 	
+	# Automatically remove death waypoints if closer than this many blocks away (distance of 0 disables removal)
+	# Default: 0
+	# Range: 0 ~ 2147483647
+	death_waypoint_autoremove_distance: 0
+	
 	# Enables creation of death waypoints
 	# Default: true
 	death_waypoints: true
@@ -163,6 +168,10 @@
 		# Default: 1.0
 		# Range: 0.25 ~ 4.0
 		scale: 1.0d
+		
+		# Draw a square minimap instead of a circular one
+		# Default: false
+		square: false
 		
 		# Minimap visibility
 		# Default: 255
