@@ -325,28 +325,6 @@ import crafttweaker.api.recipe.SmithingRecipeManager;
 }
 );
 
-//tconstruct alloy fixes
-
-<recipetype:tconstruct:alloying>.addJsonRecipe("tinkers_alloy_bronze", {
-"type": "tconstruct:alloy",
-  "inputs": [
-    {
-      "tag": "forge:molten_copper",
-      "amount": 270
-    },
-    {
-      "tag": "forge:molten_tin",
-      "amount": 90
-    }
-  ],
-  "result": {
-    "fluid": "tconstruct:molten_bronze",
-    "amount": 270
-  },
-  "temperature": 700
-}
-);
-
 //Immersive engineering recipes
 
 <recipetype:immersiveengineering:arc_furnace>.addJsonRecipe("custom_arc_bronze", {
@@ -365,11 +343,6 @@ import crafttweaker.api.recipe.SmithingRecipeManager;
 
 <recipetype:immersiveengineering:arc_furnace>.addJsonRecipe("custom_arc_brass", {
 "results":[{"count":2,"base_ingredient":{"item":"create:brass_ingot"}}],"additives":[{"tag":"forge:ingots/zinc"}],"input":{"tag":"forge:ingots/copper"},"time":100,"energy":51200
-}
-);
-
-<recipetype:immersiveengineering:arc_furnace>.addJsonRecipe("custom_arc_manyullyn", {
-"results":[{"count":4,"base_ingredient":{"item":"tconstruct:manyullyn_ingot"}}],"additives":[{"item":"minecraft:netherite_scrap"}],"input":{"count":3,"base_ingredient":{"tag":"forge:ingots/cobalt"}},"time":100,"energy":51200
 }
 );
 
