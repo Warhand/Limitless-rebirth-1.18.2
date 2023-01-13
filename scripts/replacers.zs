@@ -9,6 +9,3 @@ import crafttweaker.api.recipe.SmithingRecipeManager;
 import crafttweaker.api.ingredient.transform.type.TransformReuse;
 import crafttweaker.api.recipe.Replacer;
 
-//replacing copper with rose gold in rose gold items recipes.
-
-Replacer.forTypes(smithing).replace(<item:minecraft:copper_ingot>, <tag:items:forge:ingots/rose_gold>).execute();
