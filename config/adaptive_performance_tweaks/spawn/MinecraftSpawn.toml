@@ -3,21 +3,21 @@
 ["Minecraft Spawn Config"]
 	minecraftEnabled = true
 	minecraftId = "minecraft"
-	#e.g. mostly bats
+	#e.g. mobs which will not attack you
 	#Range: 1 ~ 64
 	minecraftMaxPassiveMobsPerPlayer = 3
 	#Range: 1 ~ 512
 	minecraftMaxPassiveMobsPerWorld = 12
-	#List of passive Mobs to optimize in the format ["minecraft:bat", ..]
+	#List of passive Mobs to optimize in the format ["minecraft:bat", "minecraft:cat", ..]
 	minecraftPassiveMobsList = ["minecraft:bat"]
-	#e.g. sheep, pig, horse, fox, ...
+	#e.g. mobs which will attack under certain conditions ...
 	#Range: 1 ~ 64
 	minecraftMaxNeutralMobsPerPlayer = 8
 	#Range: 1 ~ 512
 	minecraftMaxNeutralMobsPerWorld = 32
-	#List of neutral Mobs to optimize in the format ["minecraft:bee", "minecraft:cat", ..]
+	#List of neutral Mobs to optimize in the format ["minecraft:bee", "minecraft:wolf", ..]
 	minecraftNeutralMobsList = ["minecraft:bee", "minecraft:cat", "minecraft:chicken", "minecraft:cow", "minecraft:donkey", "minecraft:fox", "minecraft:goat", "minecraft:horse", "minecraft:llama", "minecraft:mooshroom", "minecraft:mule", "minecraft:ocelot", "minecraft:panda", "minecraft:parrot", "minecraft:pig", "minecraft:polar_bear", "minecraft:rabbit", "minecraft:sheep", "minecraft:skeleton_horse", "minecraft:strider", "minecraft:trader_llama", "minecraft:turtle", "minecraft:wandering_trader", "minecraft:wolf", "minecraft:zombie_horse"]
-	#e.g. slime, spider, zombie, ravager, ...
+	#e.g. mobs which will always attack yon ...
 	#Range: 1 ~ 64
 	minecraftMaxHostileMobsPerPlayer = 8
 	#Range: 1 ~ 512

@@ -12,11 +12,12 @@
     "maxHeartsPerLine": 10,
     "fluidMode": "SOURCE_ONLY",
     "reachDistance": 0.0,
-    "debug": false
+    "debug": false,
+    "hintOverlayToggle": true
   },
   "overlay": {
     "overlayPosX": 0.010869565,
-    "overlayPosY": 0.9619565,
+    "overlayPosY": 0.9076087,
     "overlayScale": 1.0021739,
     "overlayAnchorX": 0.0,
     "overlayAnchorY": 0.0,

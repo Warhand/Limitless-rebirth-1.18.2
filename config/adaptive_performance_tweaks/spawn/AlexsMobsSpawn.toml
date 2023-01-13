@@ -7,13 +7,13 @@
 	alexsMobsMaxPassiveMobsPerPlayer = 2
 	#Range: 1 ~ 512
 	alexsMobsMaxPassiveMobsPerWorld = 8
-	#List of passive Mobs to optimize in the format ["minecraft:bat", ..]
+	#List of passive Mobs to optimize in the format ["minecraft:bat", "minecraft:cat", ..]
 	alexsMobsPassiveMobsList = ["alexsmobs:blobfish", "alexsmobs:endergrade", "alexsmobs:fly", "alexsmobs:gazelle", "alexsmobs:hummingbird", "alexsmobs:mungus", "alexsmobs:seal", "alexsmobs:spectre", "alexsmobs:stradpole", "alexsmobs:sunbird"]
 	#Range: 1 ~ 64
 	alexsMobsMaxNeutralMobsPerPlayer = 2
 	#Range: 1 ~ 512
 	alexsMobsMaxNeutralMobsPerWorld = 8
-	#List of neutral Mobs to optimize in the format ["minecraft:bee", "minecraft:cat", ..]
+	#List of neutral Mobs to optimize in the format ["minecraft:bee", "minecraft:wolf", ..]
 	alexsMobsNeutralMobsList = ["alexsmobs:cachalot_whale", "alexsmobs:capuchin_monkey", "alexsmobs:cockroach", "alexsmobs:crow", "alexsmobs:elephant", "alexsmobs:emu", "alexsmobs:gorilla", "alexsmobs:kangaroo", "alexsmobs:lobster", "alexsmobs:mantis_shrimp", "alexsmobs:moose", "alexsmobs:orca", "alexsmobs:platypus", "alexsmobs:raccoon", "alexsmobs:roadrunner", "alexsmobs:shoebill", "alexsmobs:snow_leopard", "alexsmobs:tasmanian_devil", "alexsmobs:warped_toad"]
 	#Range: 1 ~ 64
 	alexsMobsMaxHostileMobsPerPlayer = 4

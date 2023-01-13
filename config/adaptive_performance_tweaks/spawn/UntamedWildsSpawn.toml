@@ -7,13 +7,13 @@
 	untamedWildsMaxPassiveMobsPerPlayer = 4
 	#Range: 1 ~ 512
 	untamedWildsMaxPassiveMobsPerWorld = 16
-	#List of passive Mobs to optimize in the format ["minecraft:bat", ..]
+	#List of passive Mobs to optimize in the format ["minecraft:bat", "minecraft:cat", ..]
 	untamedWildsPassiveMobsList = ["untamedwilds:arowana", "untamedwilds:giant_clam", "untamedwilds:giant_salamander", "untamedwilds:rhino", "untamedwilds:sunfish", "untamedwilds:trevally"]
 	#Range: 1 ~ 64
 	untamedWildsMaxNeutralMobsPerPlayer = 4
 	#Range: 1 ~ 512
 	untamedWildsMaxNeutralMobsPerWorld = 16
-	#List of neutral Mobs to optimize in the format ["minecraft:bee", "minecraft:cat", ..]
+	#List of neutral Mobs to optimize in the format ["minecraft:bee", "minecraft:wolf", ..]
 	untamedWildsNeutralMobsList = ["untamedwilds:aardvark", "untamedwilds:softshell_turtle", "untamedwilds:tortoise"]
 	#Range: 1 ~ 64
 	untamedWildsMaxHostileMobsPerPlayer = 4

@@ -37,4 +37,18 @@
 #Changed SkeletonWolf SpawnRate In Nether. [0 ~ 1000]
 #Range: 0 ~ 1000
 "SkeletonWolf SpawnRate In Nether" = 10
+#Changed Umbra Cow SpawnRate. [0 ~ 100]
+#Range: 0 ~ 100
+"Umbra Cow SpawnRate" = 10
+#Changed Fancy Chicken SpawnRate. [0 ~ 100]
+#Range: 0 ~ 100
+"Fancy Chicken SpawnRate" = 6
+#Changed Duck SpawnRate. [0 ~ 100]
+#Range: 0 ~ 100
+"Duck SpawnRate" = 8
+#Changed WitherSkeletonWolf SpawnRate In Nether. [0 ~ 1000]
+#Range: 0 ~ 1000
+"WitherSkeletonWolf SpawnRate In Nether" = 4
+#Changed Mud Spawn in Overworld.
+"Mud Spawn in Overworld" = true
 

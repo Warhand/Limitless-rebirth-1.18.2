@@ -7,12 +7,12 @@
     "horse_inventory": true,
     "total_ench_power": true,
     "chicken_egg": true,
-    "horse_stat": true,
     "jukebox": true,
+    "horse_stat": true,
     "brewing_stand": true,
     "animal_owner": false,
-    "inventory": true,
     "note_block": true,
+    "inventory": true,
     "beehive": true,
     "player_head": true,
     "lectern": true,
@@ -38,23 +38,11 @@
     "redstone": true,
     "fe": true
   },
-  "treechop": {
-    "show_tree_block_counts": true,
-    "show_num_chops_remaining": true
-  },
-  "mekanism": {
-    "infuse_type": true,
-    "gas": true,
-    "pigment": true,
-    "fluid": true,
-    "slurry": true,
-    "energy": true
-  },
   "create": {
     "contraption_inv": true,
     "blaze_burner": true,
-    "exact_block": true,
     "crafting_blueprint": true,
+    "exact_block": true,
     "placard": true
   },
   "jade": {
@@ -64,13 +52,5 @@
     "item_mod_name": false,
     "mod_name": true,
     "entity_hp": true
-  },
-  "lootr": {
-    "info": true
-  },
-  "storagedrawers": {
-    "display.stacklimit": true,
-    "display.content": true,
-    "display.status": true
   }
 }

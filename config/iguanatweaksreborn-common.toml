@@ -23,7 +23,7 @@
 		#Set the power of the Power enchantment (vanilla is 0.5).
 		#Range: 0.0 ~ 10.0
 		"Power Power" = 0.35
-		#If true, Arrows from Bows will no longer randomly crit (basically disables the random bonus damage given when firing a fully charged arrow).
+		#If true, Arrows from Bows and Crossbows will no longer randomly crit (basically disables the random bonus damage given when firing a fully charged arrow).
 		"Disable Arrow Crits" = true
 		#If true, Arrows from Crossbows will no longer deal random damage, but a set amount of damage (about 9 at a medium distance).
 		"Adjust Crossbow Damage" = true
@@ -252,10 +252,6 @@
 
 	#Changes to the speed on how food is eaten or how items are consumed.
 	[Hunger."Food Consuming"]
-		#Makes potion faster to drink, 1 second instead of 1.6.
-		"Faster Potion Consuming" = true
-		#Makes milk faster to drink, 1 second instead of 1.6.
-		"Faster Milk Consuming" = true
 		#Makes the speed for eating food based off the hunger and saturation they provide. At 2 (hunger + saturation) the speed is vanilla, higher / lower (hunger + saturation) will lower / raise the speed. Minimum 16 ticks.
 		"Eating Speed Based Off Food Restored" = true
 		#Multiplier for the time taken to eat. Only applied if 'Eating Speed Based Off Food Config' is active.
@@ -266,6 +262,8 @@
 		"Eating Time Minimum" = 24
 		#If true, eating/drinking stops when the player's hit.
 		"Stop consuming on hit" = true
+		#Makes potions, milk and honey faster to drink, 1 second instead of 1.6.
+		"Faster Drink Consuming" = true
 
 	#Makes Health regen work differently, like in Combat Test snapshots. Can be customized. Also adds Well Fed and Injured effects.
 	[Hunger."Health Regen"]

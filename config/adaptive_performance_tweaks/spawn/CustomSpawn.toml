@@ -7,13 +7,13 @@
 	customMaxPassiveMobsPerPlayer = 2
 	#Range: 1 ~ 512
 	customMaxPassiveMobsPerWorld = 16
-	#List of passive Mobs to optimize in the format ["minecraft:bat", ..]
+	#List of passive Mobs to optimize in the format ["minecraft:bat", "minecraft:cat", ..]
 	customPassiveMobsList = []
 	#Range: 1 ~ 64
 	customMaxNeutralMobsPerPlayer = 2
 	#Range: 1 ~ 512
 	customMaxNeutralMobsPerWorld = 16
-	#List of neutral Mobs to optimize in the format ["minecraft:bee", "minecraft:cat", ..]
+	#List of neutral Mobs to optimize in the format ["minecraft:bee", "minecraft:wolf", ..]
 	customNeutralMobsList = []
 	#Range: 1 ~ 64
 	customMaxHostileMobsPerPlayer = 2
