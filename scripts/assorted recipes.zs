@@ -57,10 +57,6 @@ craftingTable.addShaped("prettypipes_pressurizer", <item:prettypipes:pressurizer
 craftingTable.remove(<item:quark:crate>);
 craftingTable.addShaped("quark_oddities_crate", <item:quark:crate>, [[<tag:items:forge:plates/iron>, <tag:items:minecraft:planks>, <tag:items:forge:plates/iron>], [<tag:items:minecraft:planks>, <tag:items:forge:barrels/wooden>, <tag:items:minecraft:planks>], [<tag:items:forge:plates/iron>, <tag:items:minecraft:planks>, <tag:items:forge:plates/iron>]]);
 
-//storage drawers glowing label
-craftingTable.remove(<item:storagedrawers:illumination_upgrade>);
-craftingTable.addShaped("storagedrawers_illumination_upgrade", <item:storagedrawers:illumination_upgrade> * 8, [[<item:minecraft:glow_ink_sac>, <tag:items:forge:rods/wooden>, <item:minecraft:glow_ink_sac>], [<tag:items:forge:rods/wooden>, <item:storagedrawers:upgrade_template>, <tag:items:forge:rods/wooden>], [<item:minecraft:glow_ink_sac>, <tag:items:forge:rods/wooden>, <item:minecraft:glow_ink_sac>]]);
-
 //waystones scrolls custom recipes
 craftingTable.remove(<item:waystones:return_scroll>);
 craftingTable.remove(<item:waystones:bound_scroll>);
@@ -162,8 +158,8 @@ val rawblock_block_map as IItemStack[IIngredient] = {
 <tag:items:forge:storage_blocks/raw_silver>.asIIngredient(): <item:immersiveengineering:storage_silver>,
 <tag:items:forge:storage_blocks/raw_nickel>.asIIngredient(): <item:immersiveengineering:storage_nickel>,
 <tag:items:forge:storage_blocks/raw_uranium>.asIIngredient(): <item:immersiveengineering:storage_uranium>,
-<tag:items:forge:storage_blocks/raw_cobalt>.asIIngredient(): <item:tconstruct:cobalt_block>,
-<tag:items:forge:storage_blocks/raw_tin>.asIIngredient(): <item:ftbic:tin_block>
+<tag:items:forge:storage_blocks/raw_tin>.asIIngredient(): <item:ftbic:tin_block>,
+<tag:items:forge:storage_blocks/raw_irididum>.asIIngredient(): <item:ftbic:iridium_block>
 };
 
 for rawblock, block in rawblock_block_map {
@@ -224,13 +220,6 @@ craftingTable.addShaped("prettypipes_high_retrieval_module", <item:prettypipes:h
 
 craftingTable.addShaped("prettypipes_high_crafting_module", <item:prettypipes:high_crafting_module>, [[<tag:items:forge:plates/gold>, <tag:items:forge:plates/iron>, <tag:items:forge:plates/gold>], [<tag:items:forge:plates/gold>, <item:prettypipes:medium_crafting_module>, <tag:items:forge:plates/gold>], [<tag:items:forge:plates/gold>, <tag:items:forge:plates/iron>, <tag:items:forge:plates/gold>]]);
 
-//storage drawers overhauled
-craftingTable.addShaped("storagedrawers_tier_one_storage_upgrade", <item:storagedrawers:obsidian_storage_upgrade>, [[<tag:items:forge:plates/iron>, <tag:items:forge:rods/wooden>, <tag:items:forge:plates/iron>], [<tag:items:forge:rods/wooden>, <item:storagedrawers:upgrade_template>, <tag:items:forge:rods/wooden>], [<tag:items:forge:plates/iron>, <tag:items:forge:rods/wooden>, <tag:items:forge:plates/iron>]]);
-
-craftingTable.addShaped("storagedrawers_tier_two_storage_upgrade", <item:storagedrawers:iron_storage_upgrade>, [[<tag:items:forge:plates/gold>, <tag:items:forge:rods/wooden>, <tag:items:forge:plates/gold>], [<tag:items:forge:rods/wooden>, <item:storagedrawers:obsidian_storage_upgrade>, <tag:items:forge:rods/wooden>], [<tag:items:forge:plates/gold>, <tag:items:forge:rods/wooden>, <tag:items:forge:plates/gold>]]);
-
-craftingTable.addShaped("storagedrawers_tier_three_storage_upgrade", <item:storagedrawers:gold_storage_upgrade>, [[<tag:items:forge:gems/diamond>, <tag:items:forge:rods/wooden>, <tag:items:forge:gems/diamond>], [<tag:items:forge:rods/wooden>, <item:storagedrawers:iron_storage_upgrade>, <tag:items:forge:rods/wooden>], [<tag:items:forge:gems/diamond>, <tag:items:forge:rods/wooden>, <tag:items:forge:gems/diamond>]]);
-
 //FTB IC adding tags to recipes
 craftingTable.addShaped("ftbic_shaped_copper_coil", <item:ftbic:copper_coil>, [[<tag:items:forge:wires/copper>, <tag:items:forge:wires/copper>, <tag:items:forge:wires/copper>], [<tag:items:forge:wires/copper>, <tag:items:forge:rods/iron>, <tag:items:forge:wires/copper>], [<tag:items:forge:wires/copper>, <tag:items:forge:wires/copper>, <tag:items:forge:wires/copper>]]);
 
@@ -242,9 +231,6 @@ craftingTable.addShapeless("ftbic_shapeless_hv_cable", <item:ftbic:hv_cable>, [<
 
 craftingTable.removeByName("ftbic:shapeless/mv_cable");
 craftingTable.addShapeless("ftbic_shapeless_mv_cable", <item:ftbic:mv_cable>, [<tag:items:forge:wires/aluminum>, <item:ftbic:rubber>]);
-
-//tinkers EFLN
-craftingTable.addShaped("tinkers_efln", <item:tconstruct:efln_ball>, [[<item:minecraft:blaze_powder>, <tag:items:forge:dusts/redstone>, <item:minecraft:blaze_powder>], [<item:minecraft:blaze_powder>, <item:minecraft:fire_charge>, <item:minecraft:blaze_powder>], [<tag:items:forge:dusts/redstone>, <item:minecraft:blaze_powder>, <tag:items:forge:dusts/redstone>]]);
 
 //adding new recipe thats more akin to the create belt recipe.
 craftingTable.addShaped("belt_conveyor", <item:immersiveengineering:conveyor_basic>*8, [[<tag:items:forge:plates/copper>, <tag:items:forge:plates/copper>, <tag:items:forge:plates/copper>], [<item:minecraft:iron_ingot>, <item:minecraft:redstone>, <item:minecraft:iron_ingot>]]);
@@ -404,12 +390,6 @@ craftingTable.addShaped("shears_steel", <item:alloyed:steel_shears>, [[IIngredie
 //Collar tag using plate instead of ingot
 craftingTable.addShaped("collar_tag", <item:domesticationinnovation:collar_tag>, [[<item:minecraft:chain>], [<tag:items:forge:plates/copper>]]);
 
-
-//Craftable sand casts
-craftingTable.addShaped("sand_cast_ingot", <item:tconstruct:ingot_sand_cast> * 32, [[<tag:items:forge:sand>, <tag:items:forge:sand>, <tag:items:forge:sand>], [<tag:items:forge:sand>, <tag:items:forge:ingots>, <tag:items:forge:sand>], [<tag:items:forge:sand>, <tag:items:forge:sand>, <tag:items:forge:sand>]]);
-
-craftingTable.addShaped("red_sand_cast_ingot", <item:tconstruct:ingot_red_sand_cast> * 32, [[<item:minecraft:red_sand>, <item:minecraft:red_sand>, <item:minecraft:red_sand>], [<item:minecraft:red_sand>, <tag:items:forge:ingots>, <item:minecraft:red_sand>], [<item:minecraft:red_sand>, <item:minecraft:red_sand>, <item:minecraft:red_sand>]]);
-
 //black dye from coal dust
 craftingTable.addShapeless("custom_coal_dye", <item:minecraft:black_dye> * 2, [<item:ftbic:charcoal_dust>|<item:ftbic:coal_dust>, <item:minecraft:potion>.withTag({Potion: "minecraft:water" as string})]);
 craftingTable.addShapeless("custom_coal_dye_bucket", <item:minecraft:black_dye> * 8, [<item:ftbic:charcoal_dust>|<item:ftbic:coal_dust>, <item:ftbic:charcoal_dust>|<item:ftbic:coal_dust>, <item:ftbic:charcoal_dust>|<item:ftbic:coal_dust>, <item:ftbic:charcoal_dust>|<item:ftbic:coal_dust>, <item:minecraft:water_bucket>]);
@@ -424,18 +404,11 @@ craftingTable.addShaped("custom_pet_bed_magenta", <item:domesticationinnovation:
 craftingTable.addShaped("custom_lattice", <item:decorative_blocks:lattice> * 4, [[<tag:items:forge:fences/wooden>, <item:minecraft:stick>, <tag:items:forge:fences/wooden>], [<item:minecraft:stick>, IIngredientEmpty.getInstance(), <item:minecraft:stick>], [<tag:items:forge:fences/wooden>, <item:minecraft:stick>, <tag:items:forge:fences/wooden>]]);
 
 //reach upgrades, new recipes
-craftingTable.addShaped("custom_reach_upgrade1", <item:effortlessbuilding:reach_upgrade1>, [[IIngredientEmpty.getInstance(), <item:tconstruct:earth_slime_crystal>, IIngredientEmpty.getInstance()], [<item:tconstruct:earth_slime_crystal>, <item:sullysmod:polished_jade_block>, <item:tconstruct:earth_slime_crystal>], [IIngredientEmpty.getInstance(), <item:tconstruct:earth_slime_crystal>, IIngredientEmpty.getInstance()]]);
+craftingTable.addShaped("custom_reach_upgrade1", <item:effortlessbuilding:reach_upgrade1>, [[IIngredientEmpty.getInstance(), <item:minecraft:emerald>, IIngredientEmpty.getInstance()], [<item:minecraft:emerald>, <item:minecraft:slime_ball>, <item:minecraft:emerald>], [IIngredientEmpty.getInstance(), <item:minecraft:emerald>, IIngredientEmpty.getInstance()]]);
 
-craftingTable.addShaped("custom_reach_upgrade2", <item:effortlessbuilding:reach_upgrade2>, [[<item:nethersdelight:propelpearl>, <item:tconstruct:ichor_slime_crystal>, <item:nethersdelight:propelpearl>], [<item:tconstruct:ichor_slime_crystal>, <item:malum:block_of_blazing_quartz>, <item:tconstruct:ichor_slime_crystal>], [<item:nethersdelight:propelpearl>, <item:tconstruct:ichor_slime_crystal>, <item:nethersdelight:propelpearl>]]);
+craftingTable.addShaped("custom_reach_upgrade2", <item:effortlessbuilding:reach_upgrade2>, [[<item:nethersdelight:propelpearl>, <item:infernalexp:molten_gold_cluster>, <item:nethersdelight:propelpearl>], [<item:infernalexp:molten_gold_cluster>, <item:minecraft:magma_cream>, <item:infernalexp:molten_gold_cluster>], [<item:nethersdelight:propelpearl>, <item:infernalexp:molten_gold_cluster>, <item:nethersdelight:propelpearl>]]);
 
-craftingTable.addShaped("custom_reach_upgrade3", <item:effortlessbuilding:reach_upgrade3>, [[<item:minecraft:shulker_shell>, <item:tconstruct:ender_slime_crystal>, <item:minecraft:shulker_shell>], [<item:tconstruct:ender_slime_crystal>, <item:minecraft:end_crystal>, <item:tconstruct:ender_slime_crystal>], [<item:minecraft:shulker_shell>, <item:tconstruct:ender_slime_crystal>, <item:minecraft:shulker_shell>]]);
-
-//slime crystal crafting
-craftingTable.addShaped("custom_slime_crystal", <item:tconstruct:earth_slime_crystal>, [[IIngredientEmpty.getInstance(), <item:minecraft:slime_ball>, IIngredientEmpty.getInstance()], [<item:minecraft:slime_ball>, <item:minecraft:amethyst_shard>, <item:minecraft:slime_ball>], [IIngredientEmpty.getInstance(), <item:minecraft:slime_ball>, IIngredientEmpty.getInstance()]]);
-
-craftingTable.addShaped("custom_ichor_crystal", <item:tconstruct:ichor_slime_crystal>, [[IIngredientEmpty.getInstance(), <item:tconstruct:ichor_slime_ball>, IIngredientEmpty.getInstance()], [<item:tconstruct:ichor_slime_ball>, <item:minecraft:amethyst_shard>, <item:tconstruct:ichor_slime_ball>], [IIngredientEmpty.getInstance(), <item:tconstruct:ichor_slime_ball>, IIngredientEmpty.getInstance()]]);
-
-craftingTable.addShaped("custom_enderslime_crystal", <item:tconstruct:ender_slime_crystal>, [[IIngredientEmpty.getInstance(), <item:tconstruct:ender_slime_ball>, IIngredientEmpty.getInstance()], [<item:tconstruct:ender_slime_ball>, <item:minecraft:amethyst_shard>, <item:tconstruct:ender_slime_ball>], [IIngredientEmpty.getInstance(), <item:tconstruct:ender_slime_ball>, IIngredientEmpty.getInstance()]]);
+craftingTable.addShaped("custom_reach_upgrade3", <item:effortlessbuilding:reach_upgrade3>, [[<item:minecraft:shulker_shell>, <item:minecraft:chorus_fruit>, <item:minecraft:shulker_shell>], [<item:minecraft:chorus_fruit>, <item:minecraft:end_crystal>, <item:minecraft:chorus_fruit>], [<item:minecraft:shulker_shell>, <item:minecraft:chorus_fruit>, <item:minecraft:shulker_shell>]]);
 
 
 //Illager items from crude cladding
@@ -465,9 +438,6 @@ for input, output in tapestry_array {
 	smithing.addRecipe("custom_recipe_for_" + output.registryName.path, output, input, <item:biomemakeover:crude_cladding>);
 }
 
-//Cloggrum to fertilizer
-composter.setValue(<item:jaopca:dusts.cloggrum>, 1.0);
-
 //burning malum reagants for original drops
 furnace.addRecipe("reagants_to_flesh", <item:malum:rotting_essence>, <item:minecraft:rotten_flesh> * 2, 1.0, 200);
 furnace.addRecipe("reagants_to_bone", <item:malum:grim_talc>, <item:minecraft:bone> * 2, 1.0, 200);
@@ -492,7 +462,64 @@ craftingTable.addShaped("custom_channeling_stone", <item:advanced_xp:channeling_
 brewing.addRecipe(<item:minecraft:experience_bottle>, <item:minecraft:potion>.withTag({Potion: "minecraft:water" as string}), <item:malum:chunk_of_brilliance>);
 
 //cloggrum fertilizer
-craftingTable.addShapeless("custom_fertilizer_cloggrum", <item:immersiveengineering:fertilizer> * 4, [<item:immersiveengineering:dust_sulfur>, <item:jaopca:dusts.cloggrum>]);
+craftingTable.addShapeless("custom_fertilizer_cloggrum", <item:immersiveengineering:fertilizer> * 8, [<item:immersiveengineering:dust_sulfur>, <item:undergarden:raw_cloggrum>]);
 
 //Custom gravisand recipe that uses warped soul sand.
 craftingTable.addShapeless("custom_gravisand_alternative", <item:quark:gravisand> * 2, [<item:byg:warped_soul_sand>, <item:minecraft:redstone>]);
+
+//making blood magic recipes produce the proper type of sulfur
+
+<recipetype:bloodmagic:arc>.addJsonRecipe("custom_sulfur_arc", {
+	"input": {
+    "tag": "forge:netherrack"
+  },
+  "inputsize": 1,
+  "tool": {
+    "tag": "bloodmagic:arc/explosive"
+  },
+  "outputFluid": {
+    "fluid": "minecraft:lava",
+    "amount": 50
+  },
+  "output": {
+    "item": "immersiveengineering:dust_sulfur"
+  },
+  "consumeingredient": false,
+  "mainoutputchance": 0.0
+});
+
+<recipetype:bloodmagic:alchemytable>.addJsonRecipe("custom_sulfur_alchemy_lava", {
+  "input": [
+    {
+      "item": "minecraft:lava_bucket"
+    },
+    {
+      "tag": "forge:cobblestone"
+    }
+  ],
+  "output": {
+    "item": "immersiveengineering:dust_sulfur",
+    "count": 4
+  },
+  "syphon": 200,
+  "ticks": 100,
+  "upgradeLevel": 0
+});
+
+<recipetype:bloodmagic:alchemytable>.addJsonRecipe("custom_sulfur_alchemy_sigil", {
+  "input": [
+    {
+      "item": "bloodmagic:lavasigil"
+    },
+    {
+      "tag": "forge:cobblestone"
+    }
+  ],
+  "output": {
+    "item": "immersiveengineering:dust_sulfur",
+    "count": 4
+  },
+  "syphon": 200,
+  "ticks": 100,
+  "upgradeLevel": 0
+});
