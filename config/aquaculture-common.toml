@@ -13,8 +13,8 @@
 		" Used to add additional custom messages" = 29
 
 ["neptunium options"]
-	"Enable recipes for Neptunium items?" = true
-	"Enable recipes for Neptunium armor?" = true
+	"Enable recipes for Neptunium items?" = false
+	"Enable recipes for Neptunium armor?" = false
 	#Should Neptune's bounty be added as fishing loot? Very rare.
 	"Add Neptune's Bounty as loot?" = true
 
