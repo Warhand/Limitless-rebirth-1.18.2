@@ -1,5 +1,0 @@
-
-[general]
-	#The material blacklist of this module.
-	materialBlacklist = ["ender", "dragonstone", "certus_quartz", "brick", "ash", "nether_brick", "obsidian", "pink_slime", "prismarine", "refined_radiance", "saltpeter", "shadow_steel", "sulfur", "wood", "deorum", "rose_quartz"]
-
