@@ -1,0 +1,37 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jan 11, 2023, 12:04:10 AM
+
+#enchanted:blight_effects
+- minecraft:nausea
+- minecraft:blindness
+- minecraft:hunger
+- minecraft:weakness
+- minecraft:poison
+- minecraft:wither
+
+#artifacts:antidote_vessel_cancellable
+- minecraft:blindness
+- minecraft:nausea
+- minecraft:mining_fatigue
+- minecraft:hunger
+- minecraft:levitation
+- minecraft:slowness
+- minecraft:poison
+- minecraft:weakness
+- minecraft:wither
+
+#enchanted:fertility_cure_effects
+- minecraft:nausea
+- minecraft:blindness
+- minecraft:hunger
+- minecraft:weakness
+- minecraft:poison
+- minecraft:wither
+
+#enchanted:misfortune_effects
+- minecraft:slowness
+- minecraft:mining_fatigue
+- minecraft:nausea
+- minecraft:blindness
+- minecraft:hunger
+- minecraft:weakness
+- minecraft:unluck
