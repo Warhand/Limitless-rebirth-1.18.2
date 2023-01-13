@@ -1,3 +1,5 @@
+#priority 100
+
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.ingredient.IIngredient;
 import crafttweaker.api.ingredient.type.IIngredientAny;
@@ -97,7 +99,6 @@ val farmers_seeds = [
 <item:culturaldelights:cucumber_seeds>,
 <item:farmersdelight:tomato_seeds>,
 <item:culturaldelights:eggplant_seeds>,
-<item:farmersrespite:tea_seeds>,
 <item:farmersdelight:rice>
 ];
 
@@ -111,8 +112,6 @@ val portal_blocks = [
 <block:supplementaries:blackstone_tile>,
 <block:quark:blackstone_bricks>,
 <block:bygonenether:withered_blackstone>,
-<block:twigs:twisting_polished_blackstone_bricks>,
-<block:twigs:weeping_polished_blackstone_bricks>,
 <block:minecraft:chiseled_polished_blackstone>,
 <block:minecraft:polished_blackstone>,
 <block:minecraft:blackstone>,
@@ -291,3 +290,30 @@ val purple_flowers = [
 
 <tag:items:lr:dye_flowers/gray>.add(<item:biomemakeover:gray_petals>);
 <tag:items:lr:dye_flowers/brown>.add(<item:biomemakeover:brown_petals>);
+
+//adding custom blocks to raw storage block tags
+<tag:items:forge:storage_blocks/raw_tin>.add(<item:contenttweaker:raw_tin_block>);
+<tag:items:forge:storage_blocks/raw_irididum>.add(<item:contenttweaker:raw_iridium_block>);
+
+//adding basalt blocks to basalt tag
+
+val basalt_tag = [
+	<item:infernalexp:basalt_cobbled>,
+	<item:infernalexp:silt>,
+	<item:infernalexp:polished_basalt_tiles>,
+	<item:infernalexp:basalt_bricks>,
+	<item:infernalexp:cracked_basalt_bricks>,
+	<item:infernalexp:chiseled_basalt_bricks>,
+	<item:infernalexp:magmatic_chiseled_basalt_bricks>,
+	<item:infernalexp:basalt_iron_ore>,
+	<item:infernalexp:basaltic_magma>,
+	<item:minecraft:smooth_basalt>,
+	<item:minecraft:polished_basalt>,
+	<item:minecraft:basalt>,
+	<item:architects_palette:basalt_tiles>,
+	<item:bygonenether:withered_basalt>,
+	<item:architects_palette:chiseled_basalt_tiles>,
+	<item:architects_palette:cracked_basalt_tiles>
+];
+
+<tag:items:forge:basalt>.add(basalt_tag);
