@@ -1,6 +1,7 @@
 Folder PATH listing for volume New SSD
 Volume serial number is BAB7-5634
 C:.
+    1.18.2-robs_floating_islands-v1.jar
     adaptive_performance_tweaks_1.18.2-3.17.0.jar
     adaptive_performance_tweaks_core_1.18.2-3.17.0.jar
     adaptive_performance_tweaks_gamerules_1.18.2-3.17.0.jar
@@ -9,6 +10,9 @@ C:.
     adaptive_performance_tweaks_spawn_1.18.2-3.17.0.jar
     additionaladditions-4.0.5.jar
     AdditionalPlacements-1.18.2-1.6.3.jar
+    advancementframes-1.18.2-1.1.1.jar
+    AdvancementPlaques-1.18.2-1.4.5.1.jar
+    advancements_tracker_1.18.2-1.6.0.jar
     alexsdelight-1.18.2-1.3.3.jar
     alexsmobs-1.18.6.jar
     alloyed-1.18.2-v1.4e.jar
@@ -36,7 +40,6 @@ C:.
     Better_grinder-1.18.2-1.0.jar
     biomemakeover-FORGE-1.18.2-1.4.32.jar
     BlockRunner-v3.0.2-1.18.2-Forge.jar
-    Blood-Smeltery-1.18.2-1.1.5a.jar
     BloodMagic-1.18.2-3.2.6-41.jar
     blueprint-1.18.2-5.5.0.jar
     boatload-1.18.2-3.0.0.jar
@@ -46,21 +49,23 @@ C:.
     bwncr-3.13.21.jar
     bygonenether-1.2.1-1.18.2.jar
     caelus-forge-1.18.1-3.0.0.2.jar
-    canary-mc1.18.2-0.1.0.jar
+    canary-mc1.18.2-0.1.4.jar
+    carpenter-forge-1.0.0+1.18.2.jar
     carryon-1.18.2-1.17.0.8.jar
     cc-tweaked-1.18.2-1.101.0.jar
     chalk-1.18.2-1.3.2.jar
-    champions-forge-1.18.2-2.1.6.2.jar
+    champions-forge-1.18.2-2.1.6.3.jar
     ChannelingStone_1.0.1.jar
     cherishedworlds-forge-1.18-5.1.1.0.jar
     Chunky-1.2.164.jar
     citadel-1.11.3-1.18.2.jar
     cleancut-mc1.18.2-4.0-forge.jar
+    clickadv-1.18.2-2.5.jar
     clienttweaks-forge-1.18.1-7.1.0.jar
     cloth-config-6.4.90-forge.jar
     Clumps-forge-1.18.2-8.0.0+17.jar
     CNB-1.18.2-1.4.0.jar
-    collective-1.18.2-5.45.jar
+    collective-1.18.2-6.18.jar
     comforts-forge-1.18.2-5.0.0.5.jar
     configured-2.0.0-1.18.2.jar
     Connectible Chains-forge-1.18.2-2.1.1.jar
@@ -71,10 +76,11 @@ C:.
     Controlling-forge-1.18.2-9.0+22.jar
     CosmeticArmorReworked-1.18.2-v2a.jar
     craftingtweaks-forge-1.18.2-14.0.3.jar
-    CraftTweaker-forge-1.18.2-9.1.197.jar
+    CraftTweaker-forge-1.18.2-9.1.198.jar
     create-1.18.2-0.5.0.g.jar
     createaddition-1.18.2-20221219a.jar
     create_crystal_clear-0.1.3e-1.18.2.jar
+    CreativeCore_FORGE_v2.6.15_mc1.18.2.jar
     creeperoverhaul-1.3.1-forge.jar
     crittersandcompanions-1.18.2-1.0.2.jar
     Cucumber-1.18.2-5.1.3.jar
@@ -83,7 +89,7 @@ C:.
     curios-forge-1.18.2-5.0.7.1.jar
     cyclepaintings_1.18.2-2.7.jar
     DarkerDepths-1.18.2-1.0.6-patch4.jar
-    davespotioneering-1.18.2-1.0.8.jar
+    davespotioneering-1.18.2-1.0.9.jar
     Decorative Blocks-forge-1.18.2-2.1.2.jar
     defaultoptions-forge-1.18.2-14.1.1.jar
     DeleteWorldsToTrash-v3.2.0-1.18.2-Forge.jar
@@ -128,16 +134,14 @@ C:.
     fogoverrides-1.18.2-1.1.3.jar
     forgetmechunk-(forge)-mc1.18.2-0.0.1.jar
     framework-0.4.2-1.18.2.jar
-    friendsandfoes-forge-mc1.18.2-1.4.6.jar
     ftb-chunks-forge-1802.3.12-build.217.jar
     ftb-essentials-1802.1.7-build.42.jar
     ftb-industrial-contraptions-1802.1.6-build.197.jar
     ftb-library-forge-1802.3.9-build.167.jar
     ftb-pack-companion-1.0.1-build.5+mc1.18.2.jar
     ftb-teams-forge-1802.2.9-build.88.jar
-    GatewaysToEternity-1.18.2-2.2.0.jar
+    GatewaysToEternity-1.18.2-2.2.1.jar
     geckolib-forge-1.18-3.0.57.jar
-    glowinc-1.18.2_1.2.3.jar
     goldenhopper-1.2.7-1.18.2.jar
     grimoire_of_tetra-1.18.2-1.4.0.jar
     HarderSpawners-1.18.2-40.2.22.1.jar
@@ -145,30 +149,30 @@ C:.
     Highlighter-1.18.1-1.1.2.jar
     HunterIllager-1.18.2-4.0.1.jar
     Iceberg-1.18.2-forge-1.0.49.jar
-    idas_forge-1.5.1+1.18.2.jar
-    IguanaTweaksReborn-2.12.9-mc1.18.2.jar
+    idas_forge-1.5.2+1.18.2.jar
+    IguanaTweaksReborn-2.12.10-mc1.18.2.jar
     ImmersiveEngineering-1.18.2-8.3.0-155.jar
-    ImmersiveFX 1.0.0gm 1.18.2.jar
+    ImmersivePetroleum-1.18.2-4.0.0-17.jar
     ImprovedMountHUD-v3.1.0-1.18.2-Forge.jar
     incubation-1.18.2-2.0.2.jar
     infernal-expansion-1.18.2-2.5.0.jar
     InitialInventory-forge-1.18.2-6.0.8.jar
-    InsaneLib-1.5.1-mc1.18.2.jar
+    InsaneLib-1.5.3-mc1.18.2.jar
     ironchest-1.18.2-13.2.11.jar
     IronJetpacks-1.18.2-5.1.4.jar
     item-filters-forge-1802.2.8-build.47.jar
     ItemBorders-1.18.1-1.1.5.jar
     Jade-1.18.2-forge-5.2.6.jar
     JadeAddons-1.18.2-forge-2.4.1.jar
-    JAOPCA-1.18.2-4.1.12.22.jar
     JEITweaker-1.18.2-3.0.0.9.jar
     JER-Integration-3.3.2.jar
     jmi-1.18.2-0.9-49.jar
-    journeymap-1.18.2-5.9.0-forge.jar
+    journeymap-1.18.2-5.9.1-forge.jar
     jstf-1.2.jar
     JustEnoughResources-1.18.2-0.14.1.171.jar
     konkrete_forge_1.6.0_MC_1.18-1.18.2.jar
-    kotlinforforge-3.8.0-obf.jar
+    kotlinforforge-3.9.1-all.jar
+    kubejs-forge-1802.5.5-build.562.jar
     lazydfu-1.0-1.18+.jar
     LegendaryTooltips-1.18.2-1.3.1.jar
     libraryferret-forge-1.18.2-3.0.0.jar
@@ -178,13 +182,12 @@ C:.
     lodestone-1.18.2-1.2.jar
     logprot-1.18.2-1.6.jar
     lootbags-1.1.1-forge.jar
-    lootr-1.18.2-0.2.23.60.jar
     lore-1.18.2-1.0.jar
     LowDragLib-1.18.2-0.8.1.a.jar
     malum-1.18.2-1.4.3.1.jar
     mannequins-forge-2.1.0+1.18.1.jar
     Mantle-1.18.2-1.9.31.jar
-    materialis-1.18.2-2.7.1.jar
+    melter-1.18.2-1.1.1-all.jar
     modnametooltip-1.18.1-1.18.0.jar
     MouseTweaks-forge-mc1.18-2.21.jar
     mutil-1.18.2-4.5.0.jar
@@ -194,10 +197,10 @@ C:.
     NethersDelight-1.18.2-2.2.0.jar
     notenoughanimations-forge-1.6.0-mc1.18.2.jar
     notenoughcrashes-4.2.0+1.18.2-forge.jar
+    numismaticoverhaul-1.18.2-1.0.1.jar
     Oh_The_Biomes_You'll_Go-forge-1.18.2-1.4.7.jar
     OpenLoader-Forge-1.18.2-12.0.1.jar
     OreTweaker-1.18.2-3.3.0.jar
-    Overloaded Armor Bar 6.0.0.jar
     Paraglider-1.18.2-1.6.0.4.jar
     Patchouli-1.18.2-71.1.jar
     pettablebees-1.18.2-1.0.2.jar
@@ -206,7 +209,6 @@ C:.
     Placebo-1.18.2-6.6.6.jar
     pluto-mc1.18.2-0.0.3.jar
     pollen-forge-1.6.0+1.18.2.jar
-    PresenceFootsteps-1.18.2-1.5.0-beta2-forge.jar
     PrettyPipes-1.12.8.jar
     Prism-1.18.2-1.0.1.jar
     PuzzlesLib-v3.3.5-1.18.2-Forge.jar
@@ -215,6 +217,7 @@ C:.
     radon-0.8.1.jar
     ReAuth-1.18-Forge-4.0.6.jar
     REIPluginCompatibilities-forge-8.0.42.jar
+    rhino-forge-1802.2.1-build.255.jar
     RoughlyEnoughItems-8.3.583.jar
     rubidium-0.5.4.jar
     rubidium_extras-1.18.2_v1.3.2.jar
@@ -223,6 +226,7 @@ C:.
     scaffoldingpower-1.18.2-1.3.0.jar
     secondchanceforge-1.18.2-1.5.0.jar
     selene-1.18.2-1.17.9.jar
+    ShieldExpansion-1.18.2-1.1.3.jar
     shutupexperimentalsettings-1.0.5.jar
     simple-rpc-1.18.2-3.2.0.jar
     SimpleBackups-1.18.2-1.1.12.jar
@@ -231,24 +235,22 @@ C:.
     simplemagnets-1.1.9-forge-mc1.18.jar
     smoothboot(reloaded)-mc1.18.2-0.0.2.jar
     smoothchunk-1.18.2-1.9.jar
-    snowballsfreezemobs_1.18.2-1.6.jar
+    snowballsfreezemobs-1.18.2-3.0.jar
     SoL-Carrot-1.18.1-1.12.0.jar
     sophisticatedbackpacks-1.18.2-3.18.40.773.jar
     sophisticatedcore-1.18.2-0.5.36.199.jar
     spark-1.9.11-forge.jar
     SpawnBalanceUtility-1.18.2-1.40.12.1.jar
     stateobserver-1.18.2-1.1.0.jar
-    StorageDrawers-1.18.2-10.2.1.jar
     structure_gel-1.18.2-2.4.7.jar
     StylishEffects-v3.1.0-1.18.2-Forge.jar
     SuggestionProviderFix-1.18.1-1.0.0.jar
     sullysmod-1.1.4-beta.jar
     summoningrituals-1.18.2-1.1.7.jar
     supermartijn642configlib-1.1.6-forge-mc1.18.jar
-    supermartijn642corelib-1.1.0-forge-mc1.18.jar
+    supermartijn642corelib-1.1.1-forge-mc1.18.jar
     supplementaries-1.18.2-1.5.14.jar
     takesapillage-1.0.2-1.18.2.jar
-    TConstruct-1.18.2-3.5.2.40.jar
     TerraBlender-forge-1.18.2-1.2.0.126.jar
     tetra-1.18.2-4.10.1.jar
     tetrapak-1.18.2-0.5.3.jar
@@ -260,13 +262,12 @@ C:.
     TradingPost-v3.2.0-1.18.2-Forge.jar
     trashcans-1.0.16-forge-mc1.18.jar
     TreeChop-1.18.2-forge-0.16.3.jar
-    TreeChop-Jade-1.18.2-forge-0.1.0.jar
     trophymanager-1.18.2-0.1.5.3.jar
     Undergarden Paths 1.18.2-0.1.1.jar
     UniversalEnchants-v3.0.6-1.18.2-Forge.jar
     upgradedcore-1.18.2-3.2.0.0-release.jar
     upgradednetherite-1.18.2-4.2.0.6-release.jar
-    villagernames_1.18.2-4.3.jar
+    villagernames-1.18.2-5.1.jar
     VisualWorkbench-v3.3.0-1.18.2-Forge.jar
     volcanic_caverns-1.18.2-1.1.2.jar
     waystones-forge-1.18.2-10.1.0.jar
@@ -280,5 +281,5 @@ C:.
     
 No subfolders exist 
 
-Wed 01/04/2023 
-05:04 PM
+Fri 01/13/2023 
+04:59 AM
