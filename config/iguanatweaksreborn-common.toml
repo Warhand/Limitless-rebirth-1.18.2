@@ -14,7 +14,7 @@
 	#Player will deal no knockback if attacking with a non-weapon or spamming
 	"Enable No Knockback" = true
 	#Various changes to Shields. Disabled if Shields+ is installed.
-	"Enable Shields" = true
+	"Enable Shields" = false
 
 	#Various changes from weapons damage to armor reduction
 	[Combat.Stats]
@@ -489,12 +489,12 @@
 	#Small changes to villagers to make them less OP
 	[Miscellaneous."Villager Nerfs"]
 		#If true, villagers will be given 1 trading experience as soon as they choose their job to lock the trades.
-		"Lock Trades" = true
+		"Lock Trades" = false
 		#If true, villagers will always be transformed into Zombies, no matter the difficulty.
 		"Always Convert Zombie" = true
 		#Define a max percentage discount that villagers can give.
 		#Range: 0.0 ~ 1.0
-		"Max Discount Percentage" = 0.5
+		"Max Discount Percentage" = 0.25
 		#If true, villagers will no longer get the discount when cured from Zombies to prevent over discounting.
 		"Prevent Cure Discount" = true
 		#When villagers restock, they update the 'demand'. Demand is a trade modifier that increases the price whenever a trade is done many times, BUT when a trade is not performed, at each restock the 'demand' goes negative, making possible for a trade to never increase it's price due to high negative demand. With this to true, negative demand will be capped at -max_uses of the trade (e.g. Carrot trade from a farmer will have it's minimum demand set to -16).
