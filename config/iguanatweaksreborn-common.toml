@@ -523,6 +523,8 @@
 		"Better Conduit Protection" = true
 		#If true, pets will also get the beacon effects
 		"Affect Pets" = true
+		#If true, with the regeneration effect, the Vigour effect is also applied (reduces hunger consumption).
+		"Vigour with Regeneration" = true
 
 [Movement]
 	#Armor and Shield slows down the player.
