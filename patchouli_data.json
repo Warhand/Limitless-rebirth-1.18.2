@@ -2,6 +2,43 @@
   "bookGuiScale": 4,
   "clickedVisualize": true,
   "bookData": {
+    "enchanted:brewing": {
+      "viewedEntries": [
+        "enchanted:drop_of_luck",
+        "enchanted:witch_cauldron",
+        "enchanted:brew_of_love",
+        "enchanted:kettle",
+        "enchanted:mystic_unguent"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "enchanted:getting_started": {
+      "viewedEntries": [
+        "enchanted:book_herbology",
+        "enchanted:altar",
+        "enchanted:skulls",
+        "enchanted:torch"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "enchanted:circle_magic": {
+      "viewedEntries": [
+        "enchanted:broiling",
+        "enchanted:total_eclipse",
+        "enchanted:sky_wrath",
+        "enchanted:fertility",
+        "enchanted:transposition_iron",
+        "enchanted:summon_entity",
+        "enchanted:casting_curses",
+        "enchanted:binding_waystone",
+        "enchanted:transposition_player",
+        "enchanted:infusion_broomstick"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
     "bloodmagic:guide": {
       "viewedEntries": [
         "bloodmagic:rituals/ritual_list/ritual_simple_dungeon",
