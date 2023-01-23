@@ -24,7 +24,7 @@
     "enabled": false,
     "displayElevationAlways": false
   },
-  "MysteriousBundle": true,
+  "MysteriousBundle": false,
   "CompostableRottenFlesh": true,
   "MusicDiscs": true,
   "NoteBlockAmethystSounds": true,
