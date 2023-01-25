@@ -26,30 +26,6 @@ craftingTable.addShapeless("ender_waystones_warp_dust", <item:waystones:warp_dus
 craftingTable.remove(<item:minecraft:lightning_rod>);
 craftingTable.addShaped("minecraft_lightning_rod", <item:minecraft:lightning_rod>, [[<tag:items:forge:storage_blocks/copper>], [<tag:items:forge:rods/copper>], [<tag:items:forge:rods/copper>]]);
 
-//pretty pipes blank module
-craftingTable.remove(<item:prettypipes:blank_module>);
-craftingTable.addShaped("prettypipes_blank_module", <item:prettypipes:blank_module>, [[<item:minecraft:quartz>, <item:minecraft:redstone>, <item:minecraft:quartz>], [<item:minecraft:smooth_stone_slab>, <item:prettypipes:pipe>, <item:minecraft:smooth_stone_slab>], [<item:minecraft:quartz>, <item:minecraft:redstone>, <item:minecraft:quartz>]]);
-
-//pretty pipes wrench
-craftingTable.remove(<item:prettypipes:wrench>);
-craftingTable.addShapedMirrored("prettypipes_wrench", <constant:minecraft:mirroraxis:all>, <item:prettypipes:wrench>, [[IIngredientEmpty.getInstance(), <item:prettypipes:pipe>, <tag:items:forge:plates/steel>], [<item:minecraft:red_terracotta>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>], [IIngredientEmpty.getInstance(), <item:minecraft:red_terracotta>, IIngredientEmpty.getInstance()]]);
-
-//pretty pipes pipe
-craftingTable.remove(<item:prettypipes:pipe>);
-craftingTable.addShaped("prettypipes_pipe", <item:prettypipes:pipe> * 4, [[IIngredientEmpty.getInstance(), <tag:items:forge:plates/steel>, IIngredientEmpty.getInstance()], [<tag:items:forge:plates/steel>, <tag:items:forge:glass/colorless>, <tag:items:forge:plates/steel>], [IIngredientEmpty.getInstance(), <tag:items:forge:plates/steel>, IIngredientEmpty.getInstance()]]);
-
-//pretty pipes item terminal
-craftingTable.remove(<item:prettypipes:item_terminal>);
-craftingTable.addShaped("prettypipes_item_terminal", <item:prettypipes:item_terminal>, [[<tag:items:forge:sheetmetals/steel>, <item:quark:ender_watcher>, <tag:items:forge:sheetmetals/steel>], [<item:prettypipes:high_retrieval_module>, <item:quark:crate>, <item:prettypipes:high_extraction_module>], [<tag:items:forge:sheetmetals/steel>, <item:create:portable_storage_interface>, <tag:items:forge:sheetmetals/steel>]]);
-
-//pretty pipes crafting terminal
-craftingTable.remove(<item:prettypipes:crafting_terminal>);
-craftingTable.addShaped("prettypipes_crafting_terminal", <item:prettypipes:crafting_terminal>, [[<item:minecraft:diamond>, <item:prettypipes:high_crafting_module>, <item:minecraft:diamond>], [<item:minecraft:comparator>, <item:prettypipes:item_terminal>, <item:minecraft:comparator>], [<item:minecraft:diamond>, <item:immersiveengineering:rs_engineering>, <item:minecraft:diamond>]]);
-
-//pretty pipes pressurizer
-craftingTable.remove(<item:prettypipes:pressurizer>);
-craftingTable.addShaped("prettypipes_pressurizer", <item:prettypipes:pressurizer>, [[<tag:items:forge:ingots/steel>, <item:prettypipes:high_speed_module>, <tag:items:forge:ingots/steel>], [<item:prettypipes:high_speed_module>, <item:immersiveengineering:capacitor_mv>, <item:prettypipes:high_speed_module>], [<tag:items:forge:ingots/steel>, <item:prettypipes:high_speed_module>, <tag:items:forge:ingots/steel>]]);
-
 //quark crate
 craftingTable.remove(<item:quark:crate>);
 craftingTable.addShaped("quark_oddities_crate", <item:quark:crate>, [[<tag:items:forge:plates/iron>, <tag:items:minecraft:planks>, <tag:items:forge:plates/iron>], [<tag:items:minecraft:planks>, <tag:items:forge:barrels/wooden>, <tag:items:minecraft:planks>], [<tag:items:forge:plates/iron>, <tag:items:minecraft:planks>, <tag:items:forge:plates/iron>]]);
@@ -166,28 +142,6 @@ mods.extendedcrafting.TableCrafting.addShaped("6f70060a-99fa-4e8b-9542-850480418
 	[<item:extendedcrafting:elite_component>, <item:extendedcrafting:frame>, <item:extendedcrafting:ender_ingot>, <item:extendedcrafting:frame>, <item:extendedcrafting:elite_component>], 
 	[<item:extendedcrafting:black_iron_ingot>, <item:extendedcrafting:black_iron_slate>, <item:extendedcrafting:black_iron_slate>, <item:extendedcrafting:black_iron_slate>, <item:extendedcrafting:black_iron_ingot>]
 ]);
-
-//Pretty pipes upgrade modules, adding plates to recipes
-
-craftingTable.addShaped("prettypipes_medium_extraction_module", <item:prettypipes:medium_extraction_module>, [[IIngredientEmpty.getInstance(), <tag:items:forge:plates/iron>, IIngredientEmpty.getInstance()], [<tag:items:forge:plates/iron>, <item:prettypipes:low_extraction_module>, <tag:items:forge:plates/iron>], [IIngredientEmpty.getInstance(), <tag:items:forge:plates/iron>, IIngredientEmpty.getInstance()]]);
-
-craftingTable.addShaped("prettypipes_medium_crafting_module", <item:prettypipes:medium_crafting_module>, [[<tag:items:forge:plates/gold>, <tag:items:forge:plates/iron>, <tag:items:forge:plates/gold>], [<tag:items:forge:plates/iron>, <item:prettypipes:low_crafting_module>, <tag:items:forge:plates/iron>], [<tag:items:forge:plates/gold>, <tag:items:forge:plates/iron>, <tag:items:forge:plates/gold>]]);
-
-craftingTable.addShaped("prettypipes_medium_filter_module", <item:prettypipes:medium_filter_module>, [[IIngredientEmpty.getInstance(), <tag:items:forge:plates/iron>, IIngredientEmpty.getInstance()], [<item:minecraft:iron_ingot>, <item:prettypipes:low_filter_module>, <item:minecraft:iron_ingot>], [IIngredientEmpty.getInstance(), <tag:items:forge:plates/iron>, IIngredientEmpty.getInstance()]]);
-
-craftingTable.addShaped("prettypipes_medium_speed_module", <item:prettypipes:medium_speed_module>, [[<tag:items:forge:plates/iron>, <item:minecraft:sugar>, <tag:items:forge:plates/iron>], [<item:minecraft:sugar>, <item:prettypipes:low_speed_module>, <item:minecraft:sugar>], [<tag:items:forge:plates/iron>, <item:minecraft:sugar>, <tag:items:forge:plates/iron>]]);
-
-craftingTable.addShaped("prettypipes_medium_retrieval_module", <item:prettypipes:medium_retrieval_module>, [[<item:minecraft:redstone_block>, <item:minecraft:redstone_block>, <item:minecraft:redstone_block>], [<tag:items:forge:plates/gold>, <item:prettypipes:low_retrieval_module>, <tag:items:forge:plates/gold>], [IIngredientEmpty.getInstance(), <tag:items:forge:plates/gold>, IIngredientEmpty.getInstance()]]);
-
-craftingTable.addShaped("prettypipes_high_extraction_module", <item:prettypipes:high_extraction_module>, [[<tag:items:forge:plates/gold>, <item:minecraft:diamond>, <tag:items:forge:plates/gold>], [<tag:items:forge:plates/gold>, <item:prettypipes:medium_extraction_module>, <tag:items:forge:plates/gold>], [<tag:items:forge:plates/gold>, <tag:items:forge:plates/gold>, <tag:items:forge:plates/gold>]]);
-
-craftingTable.addShaped("prettypipes_high_filter_module", <item:prettypipes:high_filter_module>, [[<tag:items:forge:plates/gold>, <item:minecraft:iron_bars>, <tag:items:forge:plates/gold>], [<item:minecraft:iron_bars>, <item:prettypipes:medium_filter_module>, <item:minecraft:iron_bars>], [<tag:items:forge:plates/gold>, <item:minecraft:iron_bars>, <tag:items:forge:plates/gold>]]);
-
-craftingTable.addShaped("prettypipes_high_speed_module", <item:prettypipes:high_speed_module>, [[<tag:items:forge:plates/gold>, <item:minecraft:sugar>, <tag:items:forge:plates/gold>], [<item:minecraft:sugar>, <item:prettypipes:medium_speed_module>, <item:minecraft:sugar>], [<tag:items:forge:plates/gold>, <item:minecraft:sugar>, <tag:items:forge:plates/gold>]]);
-
-craftingTable.addShaped("prettypipes_high_retrieval_module", <item:prettypipes:high_retrieval_module>, [[<item:minecraft:redstone_block>, <item:minecraft:diamond>, <item:minecraft:redstone_block>], [<tag:items:forge:plates/gold>, <item:prettypipes:medium_retrieval_module>, <tag:items:forge:plates/gold>], [<item:minecraft:redstone_block>, <tag:items:forge:plates/gold>, <item:minecraft:redstone_block>]]);
-
-craftingTable.addShaped("prettypipes_high_crafting_module", <item:prettypipes:high_crafting_module>, [[<tag:items:forge:plates/gold>, <tag:items:forge:plates/iron>, <tag:items:forge:plates/gold>], [<tag:items:forge:plates/gold>, <item:prettypipes:medium_crafting_module>, <tag:items:forge:plates/gold>], [<tag:items:forge:plates/gold>, <tag:items:forge:plates/iron>, <tag:items:forge:plates/gold>]]);
 
 //FTB IC adding tags to recipes
 craftingTable.addShaped("ftbic_shaped_copper_coil", <item:ftbic:copper_coil>, [[<tag:items:forge:wires/copper>, <tag:items:forge:wires/copper>, <tag:items:forge:wires/copper>], [<tag:items:forge:wires/copper>, <tag:items:forge:rods/iron>, <tag:items:forge:wires/copper>], [<tag:items:forge:wires/copper>, <tag:items:forge:wires/copper>, <tag:items:forge:wires/copper>]]);
