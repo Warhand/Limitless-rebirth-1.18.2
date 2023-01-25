@@ -1,7 +1,7 @@
 {
   "oreConfig": [
 	{
-      "ore": "ftbic:lead_ore",
+      "ore": "ftbic:tin_ore",
       "fillers": [],
       "distribution": "UNIFORM",
       "minY": -1,
@@ -16,7 +16,7 @@
       "replace": true
     },
     {
-      "ore": "ftbic:deepslate_lead_ore",
+      "ore": "ftbic:deepslate_tin_ore",
       "fillers": [],
       "distribution": "TRIANGLE",
       "minY": -1,
