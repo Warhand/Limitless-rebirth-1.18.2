@@ -15,18 +15,14 @@ import mods.jei.JEI;
 //removeall functions
 
 <recipetype:createaddition:rolling>.removeAll();
-<recipetype:immersiveengineering:metal_press>.removeAll();
+
 <recipetype:ftbic:extruding>.removeAll();
 <recipetype:ftbic:rolling>.removeAll();
 
 //Regex recipe removal functions
 
 <recipetype:create:crushing>.removeByRegex("malum:create.crushing.crush_.*");
-<recipetype:immersiveengineering:crusher>.removeByRegex("immersiveengineering:crusher/ingot_.*");
-<recipetype:immersiveengineering:crusher>.removeByRegex("immersiveengineering:crusher/raw_block_.*");
-<recipetype:immersiveengineering:crusher>.removeByRegex("immersiveengineering:crusher.raw_ore_.*");
-<recipetype:immersiveengineering:crusher>.removeByRegex("immersiveengineering:crusher.ore_.*");
-<recipetype:immersiveengineering:crusher>.removeByRegex("immersiveengineering:crusher.*_sandstone");
+
 <recipetype:ftbic:macerating>.removeByRegex("ftbic:macerating/.*/.*_to_.*");
 <recipetype:create:splashing>.removeByRegex("create:splashing.crushed.*");
 <recipetype:create:splashing>.removeByRegex("malum:create.*");
@@ -44,28 +40,18 @@ import mods.jei.JEI;
 <recipetype:ftbic:macerating>.removeByName("ftbic:macerating/coal_dust");
 <recipetype:ftbic:macerating>.removeByName("ftbic:macerating/charcoal_dust");
 
-<recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/coal_block");
-<recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/coke");
-<recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/coke_block");
-<recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/blaze_powder");
-<recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/coal");
-<recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/nether_gold");
-<recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/sandstone");
-
-<recipetype:bloodmagic:arc>.removeByName("bloodmagic:arc/netherrack_to_sulfur");
+<recipetype:bloodmagic:arc>.removeByName("bloodmagic:arc/netherrack_to_sulfer");
 <recipetype:bloodmagic:alchemytable>.removeByName("bloodmagic:alchemytable/sulfur_from_lava");
 <recipetype:bloodmagic:alchemytable>.removeByName("bloodmagic:alchemytable/sulfur_from_sigil");
 
 val crafting_table_strings = [
 "extendedcrafting:black_iron_ingot",
 "extendedcrafting:redstone_ingot",
-"immersiveengineering:crafting/blastfurnace_preheater",
 "minecraft:end_crystal",
 "minecraft:daylight_detector",
 "minecraft:magma_cream",
 "malum:magma_cream_from_sapballs",
 "domesticationinnovation:pet_bed_magenta",
-"immersiveengineering:crafting/nugget_copper_to_copper_ingot",
 "ftbic:shaped/nuggets/copper_to_copper_ingot",
 "malum:copper_ingot_from_nugget",
 "minecraft:lead",
@@ -112,15 +98,6 @@ val trash as IItemStack[] = [
 	<item:upgradednetherite:feather_upgraded_netherite_ingot>,
 	<item:upgradednetherite:corrupt_upgraded_netherite_ingot>,
 	<item:extendedcrafting:ender_ingot>,
-	<item:immersiveengineering:mold_gear>,
-	<item:immersiveengineering:windmill>,
-	<item:immersiveengineering:watermill>,
-	<item:immersiveengineering:connector_lv>,
-	<item:immersiveengineering:connector_lv_relay>,
-	<item:immersiveengineering:connector_mv>,
-	<item:immersiveengineering:connector_mv_relay>,
-	<item:immersiveengineering:connector_hv>,
-	<item:immersiveengineering:connector_hv_relay>,
 	<item:extendedcrafting:crafting_core>,
 	<item:prettypipes:medium_extraction_module>,
 	<item:prettypipes:medium_crafting_module>,
@@ -133,7 +110,6 @@ val trash as IItemStack[] = [
 	<item:prettypipes:high_retrieval_module>,
 	<item:prettypipes:high_crafting_module>,
 	<item:ftbic:copper_coil>,
-	<item:immersiveengineering:conveyor_basic>,
 	<item:botania:terrasteel_helmet>,
 	<item:botania:terrasteel_chestplate>,
 	<item:botania:terrasteel_leggings>,
@@ -141,15 +117,6 @@ val trash as IItemStack[] = [
 	<item:botania:terra_axe>,
 	<item:botania:terra_pick>,
 	<item:botania:terra_sword>,
-	<item:immersiveengineering:dust_silver>,
-	<item:immersiveengineering:dust_nickel>,
-	<item:immersiveengineering:dust_aluminum>,
-	<item:immersiveengineering:dust_uranium>,
-	<item:immersiveengineering:dust_gold>,
-	<item:immersiveengineering:dust_iron>,
-	<item:immersiveengineering:dust_lead>,
-	<item:immersiveengineering:dust_copper>,
-	<item:immersiveengineering:ingot_hop_graphite>,
 	<item:minecraft:sticky_piston>,
 	<item:quark:gold_bars>,
 	<item:decorative_blocks:lattice>,
@@ -168,7 +135,6 @@ for item in trash{
 
 val jei_removal as IItemStack[] = [
 	<item:malum:crushed_soulstone>,
-	<item:immersiveengineering:mold_gear>,
 	<item:createaddition:iron_wire>,
 	<item:malum:cracked_osmium_impetus>,
 	<item:malum:osmium_impetus>,
@@ -252,7 +218,6 @@ val utter_eradication as IItemStack[] = [
 	<item:ftbic:uranium_ore>,
 	<item:ftbic:uranium_plate>,
 	<item:ftbic:uranium_rod>,
-	<item:immersiveengineering:nugget_copper>,
 	<item:ironjetpacks:capacitor>.withTag({Id:"ironjetpacks:creative"as string}),
 	<item:ironjetpacks:cell>.withTag({Id:"ironjetpacks:creative"as string}),
 	<item:ironjetpacks:jetpack>.withTag({Id:"ironjetpacks:creative"as string,Throttle:1.0 as double}),
@@ -282,16 +247,7 @@ val utter_eradication as IItemStack[] = [
 	<item:ftbic:aluminum_nugget>,
 	<item:ftbic:bronze_ingot>,
 	<item:ftbic:bronze_nugget>,
-	<item:immersiveengineering:armor_steel_feet>,
-	<item:immersiveengineering:armor_steel_legs>,
-	<item:immersiveengineering:armor_steel_chest>,
-	<item:immersiveengineering:armor_steel_head>,
 	<item:malum:osmium_node>,
-	<item:immersiveengineering:sword_steel>,
-	<item:immersiveengineering:axe_steel>,
-	<item:immersiveengineering:shovel_steel>,
-	<item:immersiveengineering:pickaxe_steel>,
-	<item:immersiveengineering:hoe_steel>,
 	<item:create:dough>,
 	<item:ftbic:bronze_plate>,
 	<item:ftbic:uranium_ingot>,
@@ -340,7 +296,6 @@ for item in utter_eradication{
 	blastFurnace.remove(item);
 	smithing.remove(item);
 	furnace.remove(item);
-	<recipetype:immersiveengineering:metal_press>.remove(item);
 	<recipetype:ftbic:rolling>.remove(item);
 	<recipetype:ftbic:macerating>.remove(item);
 	<recipetype:create:pressing>.remove(item);

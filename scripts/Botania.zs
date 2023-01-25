@@ -175,7 +175,7 @@ import mods.jei.JEI;
   "input": "minecraft:stone",
   "output": {
     "type": "block",
-    "block": "immersiveengineering:ore_lead"
+    "block": "thermal:lead_ore"
   },
   "weight": 2600
 });
@@ -184,7 +184,7 @@ import mods.jei.JEI;
   "input": "minecraft:stone",
   "output": {
     "type": "block",
-    "block": "immersiveengineering:ore_aluminum"
+    "block": "ftbic:aluminum_ore"
   },
   "weight": 3000
 });
@@ -193,7 +193,7 @@ import mods.jei.JEI;
   "input": "minecraft:stone",
   "output": {
     "type": "block",
-    "block": "immersiveengineering:ore_silver"
+    "block": "thermal:silver_ore"
   },
   "weight": 2800
 });
@@ -247,7 +247,7 @@ import mods.jei.JEI;
   "input": "minecraft:stone",
   "output": {
     "type": "block",
-    "block": "immersiveengineering:ore_nickel"
+    "block": "thermal:nickel_ore"
   },
   "weight": 4500
 });
@@ -266,7 +266,7 @@ import mods.jei.JEI;
   "input": "minecraft:deepslate",
   "output": {
     "type": "block",
-    "block": "immersiveengineering:deepslate_ore_uranium"
+    "block": "ftbic:deepslate_uranium_ore"
   },
   "weight": 110
 });
@@ -293,7 +293,7 @@ import mods.jei.JEI;
   "input": "minecraft:deepslate",
   "output": {
     "type": "block",
-    "block": "immersiveengineering:deepslate_ore_nickel"
+    "block": "thermal:deepslate_nickel_ore"
   },
   "weight": 70
 });
@@ -302,7 +302,7 @@ import mods.jei.JEI;
   "input": "minecraft:deepslate",
   "output": {
     "type": "block",
-    "block": "immersiveengineering:deepslate_ore_silver"
+    "block": "thermal:deepslate_silver_ore"
   },
   "weight": 150
 });
@@ -311,7 +311,7 @@ import mods.jei.JEI;
   "input": "minecraft:deepslate",
   "output": {
     "type": "block",
-    "block": "immersiveengineering:deepslate_ore_lead"
+    "block": "thermal:deepslate_lead_ore"
   },
   "weight": 100
 });
@@ -320,7 +320,7 @@ import mods.jei.JEI;
   "input": "minecraft:deepslate",
   "output": {
     "type": "block",
-    "block": "immersiveengineering:deepslate_ore_aluminum"
+    "block": "ftbic:deepslate_aluminum_ore"
   },
   "weight": 75
 });

@@ -10,9 +10,6 @@ import crafttweaker.api.recipe.MirrorAxis;
 import crafttweaker.api.recipe.SmithingRecipeManager;
 import crafttweaker.api.ingredient.transform.type.TransformReuse;
 
-//adding immersive engineering bottling recipe for create honeyed apple
-<recipetype:immersiveengineering:bottling_machine>.addJsonRecipe("bottling_honeyed_apple", {"results":[{"item":"create:honeyed_apple"}],"input":{"item":"minecraft:apple"},"fluid":{"tag":"forge:honey","amount":250}});
-
 //powdered snow recipe
 craftingTable.addShaped("powdered_snow", <item:minecraft:powder_snow_bucket>, [[<item:minecraft:ice>, <item:minecraft:snowball>, <item:minecraft:ice>], [<item:minecraft:ice>, <item:minecraft:water_bucket>, <item:minecraft:ice>], [<item:minecraft:ice>, <item:minecraft:ice>, <item:minecraft:ice>]]);
 
@@ -79,11 +76,6 @@ craftingTable.addShapeless("portable_fluid_interface", <item:create:portable_flu
 
 //create brass casing new recipe
 craftingTable.addShaped("create_brass_casing", <item:create:brass_casing> * 8, [[<item:immersiveengineering:treated_wood_horizontal>, <item:immersiveengineering:treated_wood_horizontal>, <item:immersiveengineering:treated_wood_horizontal>], [<tag:items:forge:plates/brass>, <tag:items:minecraft:logs>, <tag:items:forge:plates/brass>], [<item:immersiveengineering:treated_wood_horizontal>, <item:immersiveengineering:treated_wood_horizontal>, <item:immersiveengineering:treated_wood_horizontal>]]);
-
-//immersive engineering hammer durability upgrade and recipe change
-craftingTable.remove(<item:immersiveengineering:hammer>);
-craftingTable.addShaped("immersiveengineering_crafting_hammer", <item:immersiveengineering:hammer>, [[IIngredientEmpty.getInstance(), <tag:items:forge:ingots/iron>, <tag:items:forge:fiber_hemp>], [IIngredientEmpty.getInstance(), <tag:items:forge:rods/wooden>, <tag:items:forge:ingots/iron>], [<tag:items:forge:rods/wooden>, IIngredientEmpty.getInstance(), IIngredientEmpty.getInstance()]]);
-
 //bundle recipe redo
 craftingTable.remove(<item:minecraft:bundle>);
 craftingTable.addShaped("bundle", <item:minecraft:bundle>, [[<tag:items:forge:string>, <tag:items:forge:leather>, <tag:items:forge:string>], [<tag:items:forge:leather>, IIngredientEmpty.getInstance(), <tag:items:forge:leather>], [<tag:items:forge:leather>, <tag:items:forge:leather>, <tag:items:forge:leather>]]);
@@ -153,41 +145,18 @@ val rawblock_block_map as IItemStack[IIngredient] = {
 <tag:items:forge:storage_blocks/raw_zinc>.asIIngredient(): <item:create:zinc_block>,
 <tag:items:forge:storage_blocks/raw_cloggrum>.asIIngredient(): <item:undergarden:cloggrum_block>,
 <tag:items:forge:storage_blocks/raw_froststeel>.asIIngredient(): <item:undergarden:froststeel_block>,
-<tag:items:forge:storage_blocks/raw_aluminum>.asIIngredient(): <item:immersiveengineering:storage_aluminum>,
-<tag:items:forge:storage_blocks/raw_lead>.asIIngredient(): <item:immersiveengineering:storage_lead>,
-<tag:items:forge:storage_blocks/raw_silver>.asIIngredient(): <item:immersiveengineering:storage_silver>,
-<tag:items:forge:storage_blocks/raw_nickel>.asIIngredient(): <item:immersiveengineering:storage_nickel>,
-<tag:items:forge:storage_blocks/raw_uranium>.asIIngredient(): <item:immersiveengineering:storage_uranium>,
-<tag:items:forge:storage_blocks/raw_tin>.asIIngredient(): <item:ftbic:tin_block>,
+<tag:items:forge:storage_blocks/raw_aluminum>.asIIngredient(): <item:ftbic:aluminum_block>,
+<tag:items:forge:storage_blocks/raw_lead>.asIIngredient(): <item:thermal:lead_block>,
+<tag:items:forge:storage_blocks/raw_silver>.asIIngredient(): <item:thermal:silver_block>,
+<tag:items:forge:storage_blocks/raw_nickel>.asIIngredient(): <item:thermal:nickel_block>,
+<tag:items:forge:storage_blocks/raw_uranium>.asIIngredient(): <item:ftbic:uranium_block>,
+<tag:items:forge:storage_blocks/raw_tin>.asIIngredient(): <item:thermal:tin_block>,
 <tag:items:forge:storage_blocks/raw_irididum>.asIIngredient(): <item:ftbic:iridium_block>
 };
 
 for rawblock, block in rawblock_block_map {
 	blastFurnace.addRecipe("blasting_" + block.registryName.path, block, rawblock, 9.0, 200);
 }
-
-//red alloy ingot recipe
-craftingTable.addShaped("extendedcrafting_redstone_ingot", <item:extendedcrafting:redstone_ingot>, [[<tag:items:forge:dusts/redstone>, <tag:items:forge:dusts/redstone>, <tag:items:forge:dusts/redstone>], [<tag:items:forge:dusts/redstone>, <tag:items:forge:ingots/iron>, <tag:items:forge:dusts/redstone>], [<tag:items:forge:dusts/redstone>, <tag:items:forge:dusts/redstone>, <tag:items:forge:dusts/redstone>]]);
-
-//IE waterwheel
-craftingTable.addShaped("immersiveengineering_watermill", <item:immersiveengineering:watermill>, [[IIngredientEmpty.getInstance(), <item:immersiveengineering:waterwheel_segment>, IIngredientEmpty.getInstance()], [<item:immersiveengineering:waterwheel_segment>, <tag:items:forge:rods/iron>, <item:immersiveengineering:waterwheel_segment>], [IIngredientEmpty.getInstance(), <item:immersiveengineering:waterwheel_segment>, IIngredientEmpty.getInstance()]]);
-
-//IE windmill
-craftingTable.addShaped("immersiveengineering_windmill", <item:immersiveengineering:windmill>, [[<item:immersiveengineering:windmill_blade>, <item:immersiveengineering:windmill_blade>, <item:immersiveengineering:windmill_blade>], [<item:immersiveengineering:windmill_blade>, <tag:items:forge:rods/iron>, <item:immersiveengineering:windmill_blade>], [<item:immersiveengineering:windmill_blade>, <item:immersiveengineering:windmill_blade>, <item:immersiveengineering:windmill_blade>]]);
-
-//immersive engineering wire connectors
-
-craftingTable.addShaped("immersiveengineering_crafting_connector_lv", <item:immersiveengineering:connector_lv> * 4, [[IIngredientEmpty.getInstance(), <tag:items:forge:ingots/copper>, IIngredientEmpty.getInstance()], [<item:minecraft:terracotta>, <tag:items:forge:ingots/copper>, <item:minecraft:terracotta>], [<item:minecraft:terracotta>, <tag:items:forge:ingots/copper>, <item:minecraft:terracotta>]]);
-
-craftingTable.addShaped("immersiveengineering_crafting_connector_lv_relay", <item:immersiveengineering:connector_lv_relay> * 8, [[IIngredientEmpty.getInstance(), <tag:items:forge:ingots/copper>, IIngredientEmpty.getInstance()], [<item:minecraft:terracotta>, <tag:items:forge:ingots/copper>, <item:minecraft:terracotta>]]);
-
-craftingTable.addShaped("immersiveengineering_crafting_connector_mv", <item:immersiveengineering:connector_mv> * 4, [[IIngredientEmpty.getInstance(), <tag:items:forge:ingots/electrum>, IIngredientEmpty.getInstance()], [<item:minecraft:terracotta>, <tag:items:forge:ingots/electrum>, <item:minecraft:terracotta>], [<item:minecraft:terracotta>, <tag:items:forge:ingots/electrum>, <item:minecraft:terracotta>]]);
-
-craftingTable.addShaped("immersiveengineering_crafting_connector_mv_relay", <item:immersiveengineering:connector_mv_relay> * 8, [[IIngredientEmpty.getInstance(), <tag:items:forge:ingots/electrum>, IIngredientEmpty.getInstance()], [<item:minecraft:terracotta>, <tag:items:forge:ingots/electrum>, <item:minecraft:terracotta>]]);
-
-craftingTable.addShaped("immersiveengineering_crafting_connector_hv", <item:immersiveengineering:connector_hv> * 4, [[IIngredientEmpty.getInstance(), <tag:items:forge:ingots/aluminum>, IIngredientEmpty.getInstance()], [<item:minecraft:terracotta>, <tag:items:forge:ingots/aluminum>, <item:minecraft:terracotta>], [<item:minecraft:terracotta>, <tag:items:forge:ingots/aluminum>, <item:minecraft:terracotta>]]);
-
-craftingTable.addShaped("immersiveengineering_crafting_connector_hv_relay", <item:immersiveengineering:connector_hv_relay> * 8, [[IIngredientEmpty.getInstance(), <tag:items:forge:ingots/aluminum>, IIngredientEmpty.getInstance()], [<item:immersiveengineering:insulating_glass>, <tag:items:forge:ingots/aluminum>, <item:immersiveengineering:insulating_glass>], [<item:immersiveengineering:insulating_glass>, <tag:items:forge:ingots/aluminum>, <item:immersiveengineering:insulating_glass>]]);
 
 //extended crafting crafting core
 mods.extendedcrafting.TableCrafting.addShaped("6f70060a-99fa-4e8b-9542-8504804183c1", 0, <item:extendedcrafting:crafting_core>, [
@@ -230,38 +199,15 @@ craftingTable.removeByName("ftbic:shapeless/hv_cable");
 craftingTable.addShapeless("ftbic_shapeless_hv_cable", <item:ftbic:hv_cable>, [<tag:items:forge:wires/gold>, <item:ftbic:rubber>]);
 
 craftingTable.removeByName("ftbic:shapeless/mv_cable");
-craftingTable.addShapeless("ftbic_shapeless_mv_cable", <item:ftbic:mv_cable>, [<tag:items:forge:wires/aluminum>, <item:ftbic:rubber>]);
+craftingTable.addShapeless("ftbic_shapeless_mv_cable", <item:ftbic:mv_cable> * 3, [<item:ftbic:aluminum_wire>, <item:ftbic:rubber>]);
 
-//adding new recipe thats more akin to the create belt recipe.
-craftingTable.addShaped("belt_conveyor", <item:immersiveengineering:conveyor_basic>*8, [[<tag:items:forge:plates/copper>, <tag:items:forge:plates/copper>, <tag:items:forge:plates/copper>], [<item:minecraft:iron_ingot>, <item:minecraft:redstone>, <item:minecraft:iron_ingot>]]);
+craftingTable.removeByName("ftbic:shapeless/ev_cable");
+craftingTable.addShapeless("ftbic_shapeless/ev_cable", <item:ftbic:ev_cable> * 3, [<item:ftbic:enderium_wire>, <item:ftbic:rubber>]);
+
+
 
 //enchanted apple smithing recipes
 smithing.addRecipe("enchanted_heart", <item:minecraft:enchanted_golden_apple>, <item:minecraft:golden_apple>, <item:paraglider:heart_container>);
-
-//steel equipment recipe, replacing IE equipment with C:A equipment
-
-craftingTable.addShaped("armor_steel_feet", <item:alloyed:steel_boots>, [[<tag:items:forge:plates/steel>, IIngredientEmpty.getInstance(), <tag:items:forge:plates/steel>], [<tag:items:forge:plates/steel>, IIngredientEmpty.getInstance(), <tag:items:forge:plates/steel>]]);
-
-craftingTable.addShaped("armor_steel_legs", <item:alloyed:steel_leggings>, [[<tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>], [<tag:items:forge:plates/steel>, IIngredientEmpty.getInstance(), <tag:items:forge:plates/steel>], [<tag:items:forge:plates/steel>, IIngredientEmpty.getInstance(), <tag:items:forge:plates/steel>]]);
-
-craftingTable.addShaped("armor_steel_chest", <item:alloyed:steel_chestplate>, [[<tag:items:forge:plates/steel>, IIngredientEmpty.getInstance(), <tag:items:forge:plates/steel>], [<tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>], [<tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>]]);
-
-craftingTable.addShaped("armor_steel_head", <item:alloyed:steel_helmet>, [[<tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>], [<tag:items:forge:plates/steel>, IIngredientEmpty.getInstance(), <tag:items:forge:plates/steel>]]);
-
-
-craftingTable.addShaped("pickaxe_steel", <item:alloyed:steel_pickaxe>, [[<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>], [IIngredientEmpty.getInstance(), <tag:items:forge:rods/treated_wood>, IIngredientEmpty.getInstance()], [IIngredientEmpty.getInstance(), <tag:items:forge:rods/treated_wood>, IIngredientEmpty.getInstance()]]);
-
-craftingTable.addShaped("shovel_steel", <item:alloyed:steel_shovel>, [[<tag:items:forge:ingots/steel>], [<tag:items:forge:rods/treated_wood>], [<tag:items:forge:rods/treated_wood>]]);
-
-craftingTable.addShaped("axe_steel", <item:alloyed:steel_axe>, [[<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>], [<tag:items:forge:ingots/steel>, <tag:items:forge:rods/treated_wood>], [IIngredientEmpty.getInstance(), <tag:items:forge:rods/treated_wood>]]);
-
-craftingTable.addShaped("hoe_steel", <item:alloyed:steel_hoe>, [[<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>], [IIngredientEmpty.getInstance(), <tag:items:forge:rods/treated_wood>], [IIngredientEmpty.getInstance(), <tag:items:forge:rods/treated_wood>]]);
-
-craftingTable.addShaped("sword_steel", <item:alloyed:steel_sword>, [[<tag:items:forge:ingots/steel>], [<tag:items:forge:ingots/steel>], [<tag:items:forge:rods/treated_wood>]]);
-
-craftingTable.addShaped("fishing_rod_steel", <item:alloyed:steel_fishing_rod>, [[IIngredientEmpty.getInstance(), IIngredientEmpty.getInstance(), <tag:items:forge:ingots/steel>], [IIngredientEmpty.getInstance(), <tag:items:forge:ingots/steel>, <tag:items:forge:string>], [<tag:items:forge:rods/wooden>, IIngredientEmpty.getInstance(), <tag:items:forge:string>]]);
-
-craftingTable.addShaped("shears_steel", <item:alloyed:steel_shears>, [[IIngredientEmpty.getInstance(), <tag:items:forge:ingots/steel>], [<tag:items:forge:ingots/steel>, IIngredientEmpty.getInstance()]]);
 
 //Changing dough recipe to use farmers delight dough istead of create dough
 
@@ -294,97 +240,6 @@ craftingTable.addShaped("shears_steel", <item:alloyed:steel_shears>, [[IIngredie
       "item": "farmersdelight:wheat_dough"
     }
   ]
-});
-
-<recipetype:immersiveengineering:bottling_machine>.addJsonRecipe("custom_ie_mixing_dough", {
-"results":[{"item":"farmersdelight:wheat_dough"}],"input":{"tag":"forge:flour"},"fluid":{"tag":"minecraft:water","amount":1000}
-});
-
-//milling sourceberries
-<recipetype:create:milling>.addJsonRecipe("custom_create_milling_sourceberry", {
-  "ingredients": [
-    {
-      "item": "ars_nouveau:source_berry"
-    }
-  ],
-  "results": [
-    {
-      "item": "minecraft:purple_dye"
-    },
-    {
-      "item": "minecraft:purple_dye",
-      "chance": 0.5
-    }
-  ],
-  "processingTime": 150
-});
-
-<recipetype:ftbic:macerating>.addJsonRecipe("custom_ftb_ic_macerating_sourceberry", {
-	"inputItems": [{
-      "item": "ars_nouveau:source_berry"
-    }],
-  "outputItems": [
-    {
-      "item": "minecraft:purple_dye"
-    },
-	{
-      "item": "minecraft:purple_dye",
-      "count": 1,
-	  "chance": 0.5
-    }
-  ]
-});
-
-<recipetype:immersiveengineering:crusher>.addJsonRecipe("custom_ie_crushing_sourceberries", 
-{
-"secondaries":[{"chance":0.5,"output":{"count":1,"item":"minecraft:purple_dye"}}],"result":{"count":1,"base_ingredient":{"item":"minecraft:purple_dye"}},"input":{"item": "ars_nouveau:source_berry"},"energy":2000
-});
-
-//milling magebloom
-<recipetype:create:milling>.addJsonRecipe("custom_create_milling_magebloom", {
-  "ingredients": [
-    {
-      "item": "ars_nouveau:magebloom"
-    }
-  ],
-  "results": [
-    {
-      "item": "ars_nouveau:magebloom_fiber",
-	  "count": 4
-    },
-    {
-      "item": "ars_nouveau:magebloom_fiber",
-	  "count": 2,
-      "chance": 0.25
-    },
-	{
-      "item": "ars_nouveau:magebloom_crop",
-	  "chance": 0.25
-    }
-  ],
-  "processingTime": 150
-});
-
-<recipetype:ftbic:macerating>.addJsonRecipe("custom_ftb_ic_macerating_magebloom", {
-	"inputItems": [{
-      "item": "ars_nouveau:magebloom"
-    }],
-  "outputItems": [
-    {
-      "item": "ars_nouveau:magebloom_fiber",
-	  "count": 4
-    },
-	{
-      "item": "ars_nouveau:magebloom_fiber",
-      "count": 2,
-	  "chance": 0.25
-    }
-  ]
-});
-
-<recipetype:immersiveengineering:crusher>.addJsonRecipe("custom_ie_crushing_magebloom", 
-{
-"secondaries":[{"chance":0.25,"output":{"count":2,"item":"ars_nouveau:magebloom_fiber"}},{"chance":0.25,"output":{"count":1,"item":"ars_nouveau:magebloom_crop"}}],"result":{"count":4,"base_ingredient":{"item":"ars_nouveau:magebloom_fiber"}},"input":{"item": "ars_nouveau:magebloom"},"energy":2000
 });
 
 //Collar tag using plate instead of ingot
@@ -461,9 +316,6 @@ craftingTable.addShaped("custom_channeling_stone", <item:advanced_xp:channeling_
 //brewing bottles of enchanting	
 brewing.addRecipe(<item:minecraft:experience_bottle>, <item:minecraft:potion>.withTag({Potion: "minecraft:water" as string}), <item:malum:chunk_of_brilliance>);
 
-//cloggrum fertilizer
-craftingTable.addShapeless("custom_fertilizer_cloggrum", <item:immersiveengineering:fertilizer> * 8, [<item:immersiveengineering:dust_sulfur>, <item:undergarden:raw_cloggrum>]);
-
 //Custom gravisand recipe that uses warped soul sand.
 craftingTable.addShapeless("custom_gravisand_alternative", <item:quark:gravisand> * 2, [<item:byg:warped_soul_sand>, <item:minecraft:redstone>]);
 
@@ -482,7 +334,7 @@ craftingTable.addShapeless("custom_gravisand_alternative", <item:quark:gravisand
     "amount": 50
   },
   "output": {
-    "item": "immersiveengineering:dust_sulfur"
+    "item": "thermal:sulfur_dust"
   },
   "consumeingredient": false,
   "mainoutputchance": 0.0
@@ -498,7 +350,7 @@ craftingTable.addShapeless("custom_gravisand_alternative", <item:quark:gravisand
     }
   ],
   "output": {
-    "item": "immersiveengineering:dust_sulfur",
+    "item": "thermal:sulfur_dust",
     "count": 4
   },
   "syphon": 200,
@@ -516,7 +368,7 @@ craftingTable.addShapeless("custom_gravisand_alternative", <item:quark:gravisand
     }
   ],
   "output": {
-    "item": "immersiveengineering:dust_sulfur",
+    "item": "thermal:sulfur_dust",
     "count": 4
   },
   "syphon": 200,

@@ -325,38 +325,4 @@ import crafttweaker.api.recipe.SmithingRecipeManager;
 }
 );
 
-//Immersive engineering recipes
-
-<recipetype:immersiveengineering:arc_furnace>.addJsonRecipe("custom_arc_bronze", {
-"results":[{"count":3,"base_ingredient":{"item":"alloyed:bronze_ingot"}}],
-"additives":[{"tag":"forge:ingots/tin"}],
-"input":{"count":3,"base_ingredient":{"tag":"forge:ingots/copper"}},
-"time":100,
-"energy":51200
-}
-);
-
-<recipetype:immersiveengineering:arc_furnace>.addJsonRecipe("custom_arc_steel", {
-"results":[{"item":"immersiveengineering:ingot_steel"}],"additives":[{"tag":"forge:dusts/coal_coke"}],"input":{"tag":"forge:ingots/iron"},"slag":{"tag":"forge:slag"},"time":400,"energy":204800
-}
-);
-
-<recipetype:immersiveengineering:arc_furnace>.addJsonRecipe("custom_arc_brass", {
-"results":[{"count":2,"base_ingredient":{"item":"create:brass_ingot"}}],"additives":[{"tag":"forge:ingots/zinc"}],"input":{"tag":"forge:ingots/copper"},"time":100,"energy":51200
-}
-);
-
-<recipetype:immersiveengineering:arc_furnace>.addJsonRecipe("custom_ie_alloy_redstone", {
-"results":[{"count":1,"base_ingredient":{"item":"extendedcrafting:redstone_ingot"}}],"additives":[{"tag":"forge:ingots/iron"}],"input":{"count":4,"base_ingredient":{"tag":"forge:dusts/redstone"}},"time":100,"energy":51200
-}
-);
-
-<recipetype:immersiveengineering:arc_furnace>.addJsonRecipe("custom_arc_ender", {
-"results":[{"item":"extendedcrafting:ender_ingot"}],"additives":[{"tag":"forge:dusts/ender"}],"input":{"tag":"forge:ingots/steel"},"time":400,"energy":51200
-}
-);
-
-<recipetype:immersiveengineering:arc_furnace>.addJsonRecipe("custom_arc_black_iron", {
-"results":[{"item":"extendedcrafting:black_iron_ingot"}],"additives":[{"tag":"forge:dyes/black"}],"input":{"tag":"forge:ingots/iron"},"time":400,"energy":51200
-}
 );
