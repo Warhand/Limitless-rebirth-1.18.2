@@ -294,6 +294,8 @@ val purple_flowers = [
 //adding custom blocks to raw storage block tags
 <tag:items:forge:storage_blocks/raw_tin>.add(<item:contenttweaker:raw_tin_block>);
 <tag:items:forge:storage_blocks/raw_irididum>.add(<item:contenttweaker:raw_iridium_block>);
+<tag:items:forge:storage_blocks/raw_aluminum>.add(<item:contenttweaker:raw_aluminum_block>);
+<tag:items:forge:storage_blocks/raw_uranium>.add(<item:contenttweaker:raw_uranium_block>);
 
 //adding basalt blocks to basalt tag
 
@@ -317,3 +319,23 @@ val basalt_tag = [
 ];
 
 <tag:items:forge:basalt>.add(basalt_tag);
+
+//adding hammers to a custom hammer tag
+
+val hammers = [
+	<item:tools_complement:electrum_hammer>,
+	<item:tools_complement:gold_hammer>,
+	<item:tools_complement:diamond_hammer>,
+	<item:tools_complement:netherite_hammer>,
+	<item:tools_complement:copper_hammer>,
+	<item:tools_complement:tin_hammer>,
+	<item:tools_complement:lead_hammer>,
+	<item:tools_complement:silver_hammer>,
+	<item:tools_complement:nickel_hammer>,
+	<item:tools_complement:iron_hammer>,
+	<item:tools_complement:bronze_hammer>,
+	<item:tools_complement:constantan_hammer>,
+	<item:tools_complement:invar_hammer>
+];
+
+<tag:items:lr:hammers>.add(hammers);
