@@ -1,5 +1,5 @@
 {
-  "bookGuiScale": 4,
+  "bookGuiScale": 3,
   "clickedVisualize": true,
   "bookData": {
     "enchanted:brewing": {
@@ -392,6 +392,19 @@
         "patchouli:workbenches/alloy_kiln",
         "patchouli:workbenches/workbench_and_blueprints",
         "patchouli:workbenches/crude_blast_furnace"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "thermal:guidebook": {
+      "viewedEntries": [
+        "thermal:technology/machines/pulverizer",
+        "thermal:world/mobs/basalz",
+        "thermal:world/mobs/blitz",
+        "thermal:world/mobs/blizz",
+        "thermal:world/plants/storage",
+        "thermal:world/plants/treeproducts",
+        "thermal:equipment/explosives/grenade"
       ],
       "bookmarks": [],
       "completedManualQuests": []
