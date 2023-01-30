@@ -7,11 +7,11 @@ C:.
     adaptive_performance_tweaks_items_1.18.2-3.18.0.jar
     adaptive_performance_tweaks_player_1.18.2-3.18.0.jar
     adaptive_performance_tweaks_spawn_1.18.2-3.18.0.jar
-    additionaladditions-4.0.5.jar
     AdditionalPlacements-1.18.2-1.6.3.jar
     advancementframes-1.18.2-1.1.1.jar
     AdvancementPlaques-1.18.2-1.4.5.1.jar
     advancements_tracker_1.18.2-1.6.0.jar
+    aileron-1.18.2-forge-1.0.1.jar
     alexsdelight-1.18.2-1.3.3.jar
     alexsmobs-1.18.6.jar
     alloyed-1.18.2-v1.4e.jar
@@ -81,15 +81,13 @@ C:.
     create-1.18.2-0.5.0.h.jar
     create_crystal_clear-0.1.3e-1.18.2.jar
     CreativeCore_FORGE_v2.6.15_mc1.18.2.jar
-    creeperoverhaul-1.3.1-forge.jar
-    crittersandcompanions-1.18.2-1.0.2.jar
     Cucumber-1.18.2-5.1.3.jar
     culturaldelights-1.18.2-0.14.jar
     curioofundying-forge-1.18-5.3.0.0.jar
     curios-forge-1.18.2-5.0.7.1.jar
+    CustomFluidMixin-1.2.1-mc1.18.2.jar
     DarkerDepths-1.18.2-1.0.6-patch4.jar
     davespotioneering-1.18.2-1.0.10.jar
-    Decorative Blocks-forge-1.18.2-2.1.2.jar
     defaultoptions-forge-1.18.2-14.1.1.jar
     DeleteWorldsToTrash-v3.2.0-1.18.2-Forge.jar
     Delightful-1.18.2-2.6.jar
@@ -144,12 +142,13 @@ C:.
     HealthOverlay-1.18.2-6.3.4.jar
     Highlighter-1.18.1-1.1.2.jar
     Iceberg-1.18.2-forge-1.0.49.jar
-    idas_forge-1.5.3+1.18.2.jar
+    idas_forge-1.6.0+1.18.2.jar
     IguanaTweaksReborn-2.12.11-mc1.18.2.jar
     ImprovedMountHUD-v3.1.0-1.18.2-Forge.jar
     incubation-1.18.2-2.0.2.jar
     infernal-expansion-1.18.2-2.5.0.jar
     InsaneLib-1.5.3-mc1.18.2.jar
+    integrated_api_forge-1.0.0+1.18.2.jar
     ironchest-1.18.2-13.2.11.jar
     IronJetpacks-1.18.2-5.1.4.jar
     item-filters-forge-1802.2.8-build.47.jar
@@ -174,8 +173,9 @@ C:.
     lodestone-1.18.2-1.3.jar
     logprot-1.18.2-1.6.jar
     lootbags-1.1.1-forge.jar
+    lootintegrations-1.18.2-1.5.jar
     LowDragLib-1.18.2-0.8.1.a.jar
-    malum-1.18.2-1.4.4.1.jar
+    malum-1.18.2-1.4.4.2.jar
     mannequins-forge-2.1.0+1.18.1.jar
     Mantle-1.18.2-1.9.43.jar
     modnametooltip-1.18.1-1.18.0.jar
@@ -185,6 +185,7 @@ C:.
     nerb-1.18.2-0.2.jar
     netherportalfix-forge-1.18-9.0.0.jar
     NethersDelight-1.18.2-2.2.0.jar
+    no-telemetry-1.6.0.jar
     nomowanderer-1.18.2_1.1.5.jar
     notenoughanimations-forge-1.6.0-mc1.18.2.jar
     notenoughcrashes-4.2.0+1.18.2-forge.jar
@@ -199,6 +200,7 @@ C:.
     PickUpNotifier-v3.2.0-1.18.2-Forge.jar
     pipez-1.18.2-1.1.5.jar
     Placebo-1.18.2-6.6.6.jar
+    player-animation-lib-forge-0.4.2+1.18.jar
     pluto-mc1.18.2-0.0.3.jar
     pollen-forge-1.6.1+1.18.2.jar
     Prism-1.18.2-1.0.1.jar
@@ -239,7 +241,7 @@ C:.
     sullysmod-1.1.4-beta.jar
     summoningrituals-1.18.2-1.1.8.jar
     supermartijn642configlib-1.1.6-forge-mc1.18.jar
-    supermartijn642corelib-1.1.1-forge-mc1.18.jar
+    supermartijn642corelib-1.1.1a-forge-mc1.18.jar
     supplementaries-1.18.2-1.5.15.jar
     TerraBlender-forge-1.18.2-1.2.0.126.jar
     tetra-1.18.2-4.10.1.jar
@@ -276,5 +278,5 @@ C:.
     
 No subfolders exist 
 
-Tue 01/24/2023 
-07:40 PM
+Mon 01/30/2023 
+01:49 AM
