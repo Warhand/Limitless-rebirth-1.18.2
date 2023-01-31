@@ -10,6 +10,10 @@ import crafttweaker.api.recipe.MirrorAxis;
 import crafttweaker.api.recipe.SmithingRecipeManager;
 import crafttweaker.api.block.Block;
 
+//undergarden raw material tags
+<tag:items:forge:storage_blocks/raw_cloggrum>.add(<item:undergarden:raw_cloggrum_block>);
+<tag:items:forge:storage_blocks/raw_froststeel>.add(<item:undergarden:raw_froststeel_block>);
+
 //adding cooked fish tag
 val cooked_fish as IItemStack[] = [
 	<item:minecraft:cooked_cod>,
@@ -339,3 +343,113 @@ val hammers = [
 ];
 
 <tag:items:lr:hammers>.add(hammers);
+
+//adding custom molten fluids to lava tag
+
+val molten_metal = [
+	<fluid:kubejs:molten_iron>,
+	<fluid:kubejs:molten_gold>,
+	<fluid:kubejs:molten_copper>,
+	<fluid:kubejs:molten_zinc>,
+	<fluid:kubejs:molten_tin>,
+	<fluid:kubejs:molten_steel>,
+	<fluid:kubejs:molten_forgotten_metal>,
+	<fluid:kubejs:molten_froststeel>,
+	<fluid:kubejs:molten_cloggrum>,
+	<fluid:kubejs:molten_iridium>,
+	<fluid:kubejs:molten_aluminum>,
+	<fluid:kubejs:molten_netherite>,
+	<fluid:kubejs:molten_lead>,
+	<fluid:kubejs:molten_hellforged>,
+	<fluid:kubejs:molten_electrum>,
+	<fluid:kubejs:molten_enderium>,
+	<fluid:kubejs:molten_bronze>,
+	<fluid:kubejs:molten_constantan>,
+	<fluid:kubejs:molten_brass>,
+	<fluid:kubejs:molten_invar>,
+	<fluid:kubejs:molten_uranium>,
+	<fluid:kubejs:molten_terrasteel>,
+	<fluid:kubejs:molten_manasteel>,
+	<fluid:kubejs:molten_elementium>,
+	<fluid:kubejs:molten_neptunium>,
+	<fluid:kubejs:molten_hallowed_gold>,
+	<fluid:kubejs:molten_soulstained>,
+	<fluid:kubejs:molten_lumium>,
+	<fluid:kubejs:molten_pendorite>,
+	<fluid:kubejs:molten_signalum>,
+	<fluid:kubejs:flowing_molten_iron>,
+	<fluid:kubejs:flowing_molten_gold>,
+	<fluid:kubejs:flowing_molten_copper>,
+	<fluid:kubejs:flowing_molten_zinc>,
+	<fluid:kubejs:flowing_molten_tin>,
+	<fluid:kubejs:flowing_molten_steel>,
+	<fluid:kubejs:flowing_molten_forgotten_metal>,
+	<fluid:kubejs:flowing_molten_froststeel>,
+	<fluid:kubejs:flowing_molten_cloggrum>,
+	<fluid:kubejs:flowing_molten_iridium>,
+	<fluid:kubejs:flowing_molten_aluminum>,
+	<fluid:kubejs:flowing_molten_netherite>,
+	<fluid:kubejs:flowing_molten_lead>,
+	<fluid:kubejs:flowing_molten_hellforged>,
+	<fluid:kubejs:flowing_molten_electrum>,
+	<fluid:kubejs:flowing_molten_enderium>,
+	<fluid:kubejs:flowing_molten_bronze>,
+	<fluid:kubejs:flowing_molten_constantan>,
+	<fluid:kubejs:flowing_molten_brass>,
+	<fluid:kubejs:flowing_molten_invar>,
+	<fluid:kubejs:flowing_molten_uranium>,
+	<fluid:kubejs:flowing_molten_terrasteel>,
+	<fluid:kubejs:flowing_molten_manasteel>,
+	<fluid:kubejs:flowing_molten_elementium>,
+	<fluid:kubejs:flowing_molten_neptunium>,
+	<fluid:kubejs:flowing_molten_hallowed_gold>,
+	<fluid:kubejs:flowing_molten_soulstained>,
+	<fluid:kubejs:flowing_molten_lumium>,
+	<fluid:kubejs:flowing_molten_pendorite>,
+	<fluid:kubejs:flowing_molten_signalum>
+];
+
+for fluid in molten_metal {
+<tag:fluids:minecraft:lava>.add(fluid);
+}
+
+//adding knives to both the fillet knives and farmers delight knife tags
+
+val fillet_knife = [
+	<item:tools_complement:netherite_knife>,
+	<item:farmersdelight:flint_knife>,
+	<item:tools_complement:diamond_knife>,
+	<item:tools_complement:nickel_knife>,
+	<item:tools_complement:invar_knife>,
+	<item:tools_complement:iron_knife>,
+	<item:tools_complement:bronze_knife>,
+	<item:tools_complement:constantan_knife>,
+	<item:tools_complement:copper_knife>,
+	<item:malum:soul_stained_steel_knife>,
+	<item:alloyed:steel_knife>,
+	<item:tools_complement:electrum_knife>,
+	<item:tools_complement:silver_knife>,
+	<item:tools_complement:tin_knife>,
+	<item:tools_complement:gold_knife>,
+	<item:tools_complement:lead_knife>
+];
+
+val chefs_knife = [
+	<item:tools_complement:netherite_knife>,
+	<item:aquaculture:neptunium_fillet_knife>,
+	<item:tools_complement:diamond_knife>,
+	<item:tools_complement:nickel_knife>,
+	<item:tools_complement:invar_knife>,
+	<item:tools_complement:iron_knife>,
+	<item:tools_complement:bronze_knife>,
+	<item:tools_complement:constantan_knife>,
+	<item:tools_complement:copper_knife>,
+	<item:tools_complement:electrum_knife>,
+	<item:tools_complement:silver_knife>,
+	<item:tools_complement:tin_knife>,
+	<item:tools_complement:gold_knife>,
+	<item:tools_complement:lead_knife>
+];
+
+<tag:items:forge:fillet_knife>.add(fillet_knife);
+<tag:items:farmersdelight:tools/knives>.add(chefs_knife);
