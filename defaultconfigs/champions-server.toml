@@ -44,7 +44,7 @@
 	attackGrowth = 0.5
 	#The increase in armor multiplied by the growth factor
 	#Range: 0.0 ~ 30.0
-	armorGrowth = 2.0
+	armorGrowth = 1.0
 	#The increase in armor toughness multiplied by the growth factor
 	#Range: 0.0 ~ 30.0
 	toughnessGrowth = 1.0
@@ -56,7 +56,7 @@
 	experienceGrowth = 1
 	#The increase in explosive range multiplied by the growth factor
 	#Range: 0 ~ 100
-	explosionGrowth = 2
+	explosionGrowth = 1
 
 [affixes]
 	#Set the maximum distance that mobs can use their targeted abilities from, 0 to disable

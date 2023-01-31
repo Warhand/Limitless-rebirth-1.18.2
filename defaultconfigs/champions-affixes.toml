@@ -1,6 +1,6 @@
 [[affixes]]
   identifier = "adaptable"
-  enabled = true
+  enabled = false
   minTier = 2
   mobList = []
   mobPermission = "BLACKLIST"
