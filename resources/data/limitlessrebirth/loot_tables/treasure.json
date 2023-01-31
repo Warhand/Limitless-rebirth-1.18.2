@@ -45,11 +45,6 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
-          "name": "dimdungeons:block_key_charger"
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:nether_star"
         },
         {

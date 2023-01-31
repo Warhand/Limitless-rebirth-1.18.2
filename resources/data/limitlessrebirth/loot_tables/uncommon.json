@@ -31,20 +31,6 @@
             }
           ]
         },
-		{
-          "type": "minecraft:item",
-		  "weight": 15,
-          "name": "immersiveengineering:ingot_steel",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 6
-              }
-            }
-          ]
-        },
         {
           "type": "minecraft:item",
 		  "weight": 13,
