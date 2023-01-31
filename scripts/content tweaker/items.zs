@@ -15,23 +15,6 @@ val unstackable = <item:minecraft:cake>.findProperties<StandardItemProperties>()
 val stackable = <item:minecraft:cobblestone>.findProperties<StandardItemProperties>();
 
 //special crafting items
-<factory:item>.typed<Basic>().cloning(unstackable).tab(limitlessrebirth).rarity(<constant:minecraft:item/rarity:epic>).build("food_core");
-<factory:item>.typed<Basic>().cloning(unstackable).tab(limitlessrebirth).rarity(<constant:minecraft:item/rarity:epic>).build("animal_core");
-<factory:item>.typed<Basic>().cloning(unstackable).tab(limitlessrebirth).rarity(<constant:minecraft:item/rarity:epic>).build("overworld_core");
-<factory:item>.typed<Basic>().cloning(unstackable).tab(limitlessrebirth).rarity(<constant:minecraft:item/rarity:epic>).build("death_core");
-<factory:item>.typed<Basic>().cloning(unstackable).tab(limitlessrebirth).rarity(<constant:minecraft:item/rarity:epic>).build("nether_core");
-<factory:item>.typed<Basic>().cloning(unstackable).tab(limitlessrebirth).rarity(<constant:minecraft:item/rarity:epic>).build("life_core");
-<factory:item>.typed<Basic>().cloning(unstackable).tab(limitlessrebirth).rarity(<constant:minecraft:item/rarity:epic>).build("engineer_core");
-<factory:item>.typed<Basic>().cloning(unstackable).tab(limitlessrebirth).rarity(<constant:minecraft:item/rarity:epic>).build("undergarden_core");
-<factory:item>.typed<Basic>().cloning(unstackable).tab(limitlessrebirth).rarity(<constant:minecraft:item/rarity:epic>).build("mana_core");
-<factory:item>.typed<Basic>().cloning(unstackable).tab(limitlessrebirth).rarity(<constant:minecraft:item/rarity:epic>).build("dungeon_core");
-<factory:item>.typed<Basic>().cloning(unstackable).tab(limitlessrebirth).rarity(<constant:minecraft:item/rarity:epic>).build("soul_core");
-<factory:item>.typed<Basic>().cloning(unstackable).tab(limitlessrebirth).rarity(<constant:minecraft:item/rarity:epic>).build("indsutry_core");
-<factory:item>.typed<Basic>().cloning(unstackable).tab(limitlessrebirth).rarity(<constant:minecraft:item/rarity:epic>).build("blood_core");
-<factory:item>.typed<Basic>().cloning(unstackable).tab(limitlessrebirth).rarity(<constant:minecraft:item/rarity:epic>).build("source_core");
-<factory:item>.typed<Basic>().cloning(unstackable).tab(limitlessrebirth).rarity(<constant:minecraft:item/rarity:epic>).build("kinetic_core");
-<factory:item>.typed<Basic>().cloning(unstackable).tab(limitlessrebirth).rarity(<constant:minecraft:item/rarity:epic>).build("ender_core");
-
 <factory:item>.typed<Basic>().cloning(unstackable).tab(limitlessrebirth).rarity(<constant:minecraft:item/rarity:epic>).build("limitless_potential_core");
 
 //casting molds
@@ -39,18 +22,27 @@ val stackable = <item:minecraft:cobblestone>.findProperties<StandardItemProperti
 <factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("nugget_mold");
 <factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("plate_mold");
 <factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("rod_mold");
-<factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("bar_mold");
+<factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("wire_mold");
+<factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("gear_mold");
 
 //material dust
 <factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("cloggrum_dust");
 <factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("froststeel_dust");
-<factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("nickel_dust");
-<factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("silver_dust");
-<factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("uranium_dust");
 <factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("forgotten_dust");
-<factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("netherite_dust");
 <factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("hellforged_dust");
-<factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("constantan_dust");
+<factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("zinc_dust");
+<factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("neptunium_dust");
+
+//material blend
+<factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("pendorite_blend");
+<factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("elementium_blend");
+<factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("terrasteel_blend");
+<factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("manasteel_blend");
+<factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("gaia_spirit_blend");
+<factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("netherite_blend");
+<factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("hallowed_gold_blend");
+<factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("soulstained_steel_blend");
+<factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("brass_blend");
 
 //Ore fragments
 <factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("aluminum_fragment");
@@ -62,6 +54,7 @@ val stackable = <item:minecraft:cobblestone>.findProperties<StandardItemProperti
 <factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("silver_fragment");
 <factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("tin_fragment");
 <factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("uranium_fragment");
+<factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("zinc_fragment");
 
 //Ore gravel
 <factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("aluminum_gravel");
@@ -73,6 +66,7 @@ val stackable = <item:minecraft:cobblestone>.findProperties<StandardItemProperti
 <factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("silver_gravel");
 <factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("tin_gravel");
 <factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("uranium_gravel");
+<factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("zinc_gravel");
 
 //Ore crushed
 <factory:item>.typed<Basic>().stacksTo(64).tab(limitlessrebirth).build("crushed_iridium");
