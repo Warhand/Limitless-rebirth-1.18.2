@@ -2,26 +2,26 @@
 # Let's Configure Delightful
 [Knives]
 	black_opal_knife = false
-	bone_knife = true
-	brass_knife = true
-	bronze_knife = true
-	constantan_knife = true
-	copper_knife = true
-	electrum_knife = true
+	bone_knife = false
+	brass_knife = false
+	bronze_knife = false
+	constantan_knife = false
+	copper_knife = false
+	electrum_knife = false
 	enderite_knife = false
-	invar_knife = true
+	invar_knife = false
 	lapis_lazuli_knife = false
 	large_amethyst_knife = false
-	lead_knife = true
+	lead_knife = false
 	netherite_opal_knife = false
-	nickel_knife = true
+	nickel_knife = false
 	obsidian_infused_enderite_knife = false
 	osmium_knife = false
 	refined_glowstone_knife = false
 	refined_obsidian_knife = false
-	silver_knife = true
-	steel_knife = true
-	tin_knife = true
+	silver_knife = false
+	steel_knife = false
+	tin_knife = false
 	amethyst_knife = false
 	deorum_knife = false
 	draco_arcanus_knife = false
@@ -70,11 +70,11 @@
 	salmonberries = true
 	salmonberry_sack = true
 	#Allow cooking milk from nuts
-	nut_milk = true
+	nut_milk = false
 	#Allow cooking honey from honey and clovers
 	clover_honey = true
-	acorn = true
-	acorn_sack = true
+	acorn = false
+	acorn_sack = false
 	cooked_goat = true
 	cooked_venison_chops = true
 	raw_goat = true
