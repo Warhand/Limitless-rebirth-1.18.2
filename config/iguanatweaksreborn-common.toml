@@ -19,7 +19,7 @@
 	#Various changes from weapons damage to armor reduction
 	[Combat.Stats]
 		#If true, Swords and Tridents get -1 damage and Axes get -1.5 damage.
-		"Reduce Weapon Damage" = true
+		"Reduce Weapon Damage" = false
 		#Set the power of the Power enchantment (vanilla is 0.5).
 		#Range: 0.0 ~ 10.0
 		"Power Power" = 0.35
@@ -124,7 +124,7 @@
 
 [Farming]
 	#Slower breeding, Growing, Egging and Milking
-	"Enable Livestock Slowdown" = true
+	"Enable Livestock Slowdown" = false
 	#Bonemeal is no longer so OP
 	"Enable Nerfed Bonemeal" = true
 	#Slower Crops growing based off various factors
@@ -166,7 +166,7 @@
 		#SLIGHT: Makes Bone Meal grow 1-2 crop stages
 		#NERFED: Makes Bone Meal grow only 1 Stage
 		#Allowed Values: DISABLED, SLIGHT, NERFED
-		"Nerfed Bonemeal" = "NERFED"
+		"Nerfed Bonemeal" = "SLIGHT"
 		#Makes Bone Meal have a chance to fail to grow crops. 0 to disable, 1 to disable bonemeal.
 		#Range: 0.0 ~ 1.0
 		"Bonemeal Fail Chance" = 0.0
@@ -234,7 +234,7 @@
 	[Farming."Harder Crops"]
 		#How hard to break are plants? For comparison, dirt has an hardness of 0.5
 		#Range: 0.0 ~ 128.0
-		Hardness = 1.0
+		Hardness = 0.4
 		#Block ids or tags that will have the hardness and hoe efficiency applied. Each entry has a block or tag. This still only applies to blocks that have 0 hardness.
 		"Other affected blocks" = []
 		#If the hardness should be applied to mature crops only.
@@ -261,7 +261,7 @@
 		#Range: > 0
 		"Eating Time Minimum" = 24
 		#If true, eating/drinking stops when the player's hit.
-		"Stop consuming on hit" = true
+		"Stop consuming on hit" = false
 		#Makes potions, milk and honey faster to drink, 1 second instead of 1.6.
 		"Faster Drink Consuming" = true
 
@@ -277,7 +277,7 @@
 		"Health Regen Speed" = 40
 		#Sets how much hunger the player must have to regen health (vanilla is >17; Combat Test is >3).
 		#Range: > 0
-		"Regen when Hunger Above" = 10
+		"Regen when Hunger Above" = 17
 		#Sets how many ticks between starve damage happens (vanilla and Combat Test is 80).
 		#Range: > 0
 		"Starve Speed" = 80
