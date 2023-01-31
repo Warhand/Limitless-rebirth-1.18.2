@@ -50,50 +50,9 @@ craftingTable.addShapeless("portable_storage_interface", <item:create:portable_s
 craftingTable.remove(<item:create:portable_fluid_interface>);
 craftingTable.addShapeless("portable_fluid_interface", <item:create:portable_fluid_interface>, [<item:create:copper_casing>, <item:create:smart_fluid_pipe>]);
 
-//create brass casing new recipe
-craftingTable.addShaped("create_brass_casing", <item:create:brass_casing> * 8, [[<item:immersiveengineering:treated_wood_horizontal>, <item:immersiveengineering:treated_wood_horizontal>, <item:immersiveengineering:treated_wood_horizontal>], [<tag:items:forge:plates/brass>, <tag:items:minecraft:logs>, <tag:items:forge:plates/brass>], [<item:immersiveengineering:treated_wood_horizontal>, <item:immersiveengineering:treated_wood_horizontal>, <item:immersiveengineering:treated_wood_horizontal>]]);
 //bundle recipe redo
 craftingTable.remove(<item:minecraft:bundle>);
 craftingTable.addShaped("bundle", <item:minecraft:bundle>, [[<tag:items:forge:string>, <tag:items:forge:leather>, <tag:items:forge:string>], [<tag:items:forge:leather>, IIngredientEmpty.getInstance(), <tag:items:forge:leather>], [<tag:items:forge:leather>, <tag:items:forge:leather>, <tag:items:forge:leather>]]);
-
-//dimensional dungeons portal keystone
-craftingTable.remove(<item:dimdungeons:block_portal_keyhole>);
-craftingTable.addShaped("portal_keystone", <item:dimdungeons:block_portal_keyhole>, [[<item:dimdungeons:block_gilded_portal>, <item:supplementaries:lock_block>, <item:dimdungeons:block_gilded_portal>], [<item:supplementaries:lock_block>, <item:minecraft:ender_eye>, <item:supplementaries:lock_block>], [<item:dimdungeons:block_gilded_portal>, <item:supplementaries:lock_block>, <item:dimdungeons:block_gilded_portal>]]);
-
-//updating computercraft recipes
-craftingTable.remove(<item:computercraft:computer_normal>);
-
-craftingTable.addShaped("computercraft_computer_normal", <item:computercraft:computer_normal>, [[<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>], [<tag:items:forge:ingots/iron>, <item:minecraft:comparator>, <tag:items:forge:ingots/iron>], [<tag:items:forge:ingots/iron>, <tag:items:forge:glass_panes>, <tag:items:forge:ingots/iron>]]);
-craftingTable.removeByName("computercraft:computer_advanced");
-
-craftingTable.addShaped("computercraft_computer_advanced", <item:computercraft:computer_advanced>, [[<tag:items:forge:ingots/gold>, <tag:items:forge:ingots/gold>, <tag:items:forge:ingots/gold>], [<tag:items:forge:ingots/gold>, <item:minecraft:comparator>, <tag:items:forge:ingots/gold>], [<tag:items:forge:ingots/gold>, <tag:items:forge:glass_panes>, <tag:items:forge:ingots/gold>]]);
-
-craftingTable.remove(<item:computercraft:pocket_computer_normal>);
-
-craftingTable.addShaped("computercraft_tablet", <item:computercraft:pocket_computer_normal>, [[<tag:items:forge:plates/iron>, <tag:items:forge:plates/iron>, <tag:items:forge:plates/iron>], [<tag:items:forge:plates/iron>, <item:minecraft:comparator>, <tag:items:forge:plates/iron>], [<tag:items:forge:plates/iron>, <tag:items:forge:glass_panes>, <tag:items:forge:plates/iron>]]);
-
-craftingTable.addShaped("computercraft_tablet_advanced", <item:computercraft:pocket_computer_advanced>, [[<tag:items:forge:plates/gold>, <tag:items:forge:plates/gold>, <tag:items:forge:plates/gold>], [<tag:items:forge:plates/gold>, <item:minecraft:comparator>, <tag:items:forge:plates/gold>], [<tag:items:forge:plates/gold>, <tag:items:forge:glass_panes>, <tag:items:forge:plates/gold>]]);
-
-craftingTable.remove(<item:computercraft:disk_drive>);
-craftingTable.addShaped("computercraft_disk_drive", <item:computercraft:disk_drive>, [[<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>], [<tag:items:forge:ingots/iron>, <tag:items:forge:dusts/redstone>, <tag:items:forge:ingots/iron>], [<tag:items:forge:ingots/iron>, <tag:items:forge:dusts/redstone>, <tag:items:forge:ingots/iron>]]);
-
-craftingTable.remove(<item:computercraft:speaker>);
-craftingTable.addShaped("computercraft_speaker", <item:computercraft:speaker>, [[<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>], [<tag:items:forge:ingots/iron>, <item:minecraft:note_block>, <tag:items:forge:ingots/iron>], [<tag:items:forge:ingots/iron>, <tag:items:forge:dusts/redstone>, <tag:items:forge:ingots/iron>]]);
-
-craftingTable.remove(<item:computercraft:printer>);
-craftingTable.addShaped("computercraft_printer", <item:computercraft:printer>, [[<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>], [<tag:items:forge:ingots/iron>, <tag:items:forge:dusts/redstone>, <tag:items:forge:ingots/iron>], [<tag:items:forge:ingots/iron>, <tag:items:forge:dyes>, <tag:items:forge:ingots/iron>]]);
-
-craftingTable.remove(<item:computercraft:wireless_modem_normal>);
-craftingTable.addShaped("computercraft_wireless_modem_normal", <item:computercraft:wireless_modem_normal>, [[<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>], [<tag:items:forge:ingots/iron>, <tag:items:forge:ender_pearls>, <tag:items:forge:ingots/iron>], [<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>]]);
-
-craftingTable.remove(<item:computercraft:monitor_normal>);
-craftingTable.addShaped("computercraft_monitor_normal", <item:computercraft:monitor_normal> * 4, [[<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>], [<tag:items:forge:ingots/iron>, <tag:items:forge:glass_panes>, <tag:items:forge:ingots/iron>], [<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>]]);
-
-craftingTable.remove(<item:computercraft:cable>);
-craftingTable.addShaped("computercraft_cable", <item:computercraft:cable> * 8, [[IIngredientEmpty.getInstance(), <tag:items:forge:plates/iron>, IIngredientEmpty.getInstance()], [<tag:items:forge:plates/iron>, <tag:items:forge:dusts/redstone>, <tag:items:forge:plates/iron>], [IIngredientEmpty.getInstance(), <tag:items:forge:plates/iron>, IIngredientEmpty.getInstance()]]);
-
-craftingTable.removeByName("computercraft:wired_modem");
-craftingTable.addShaped("computercraft_wired_modem", <item:computercraft:wired_modem>, [[<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>], [<tag:items:forge:ingots/iron>, <tag:items:forge:dusts/redstone>, <tag:items:forge:ingots/iron>], [<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>]]);
 
 //stone variant crafting
 craftingTable.removeByName("minecraft:diorite");
@@ -105,52 +64,14 @@ craftingTable.addShapedMirrored("minecraft_granite", MirrorAxis.HORIZONTAL, <ite
 craftingTable.removeByName("minecraft:andesite");
 craftingTable.addShapedMirrored("minecraft_andesite", MirrorAxis.HORIZONTAL, <item:minecraft:andesite> * 4, [[<item:minecraft:stone>, <item:minecraft:tuff>], [<item:minecraft:tuff>, <item:minecraft:stone>]]);
 
-//advanced machine casing
-//craftingTable.remove(<item:indreb:advanced_machine_casing>);
-//craftingTable.addShaped("indreb_block_advanced_machine_casing", <item:indreb:advanced_machine_casing>, [[<tag:items:forge:plates/steel>, <item:indreb:carbon_plate>, <tag:items:forge:plates/steel>], [<item:indreb:advanced_alloy>, <item:indreb:basic_machine_casing>, <item:indreb:advanced_alloy>], [<tag:items:forge:plates/steel>, <item:indreb:carbon_plate>, <tag:items:forge:plates/steel>]]);
-
-//raw block blasting
-
-<tag:items:forge:storage_blocks/raw_cloggrum>.add(<item:undergarden:raw_cloggrum_block>);
-<tag:items:forge:storage_blocks/raw_froststeel>.add(<item:undergarden:raw_froststeel_block>);
-
-val rawblock_block_map as IItemStack[IIngredient] = {
-<tag:items:forge:storage_blocks/raw_iron>.asIIngredient(): <item:minecraft:iron_block>,
-<tag:items:forge:storage_blocks/raw_copper>.asIIngredient(): <item:minecraft:copper_block>,
-<tag:items:forge:storage_blocks/raw_gold>.asIIngredient(): <item:minecraft:gold_block>,
-<tag:items:forge:storage_blocks/raw_zinc>.asIIngredient(): <item:create:zinc_block>,
-<tag:items:forge:storage_blocks/raw_cloggrum>.asIIngredient(): <item:undergarden:cloggrum_block>,
-<tag:items:forge:storage_blocks/raw_froststeel>.asIIngredient(): <item:undergarden:froststeel_block>,
-<tag:items:forge:storage_blocks/raw_aluminum>.asIIngredient(): <item:ftbic:aluminum_block>,
-<tag:items:forge:storage_blocks/raw_lead>.asIIngredient(): <item:thermal:lead_block>,
-<tag:items:forge:storage_blocks/raw_silver>.asIIngredient(): <item:thermal:silver_block>,
-<tag:items:forge:storage_blocks/raw_nickel>.asIIngredient(): <item:thermal:nickel_block>,
-<tag:items:forge:storage_blocks/raw_uranium>.asIIngredient(): <item:ftbic:uranium_block>,
-<tag:items:forge:storage_blocks/raw_tin>.asIIngredient(): <item:thermal:tin_block>,
-<tag:items:forge:storage_blocks/raw_irididum>.asIIngredient(): <item:ftbic:iridium_block>
-};
-
-for rawblock, block in rawblock_block_map {
-	blastFurnace.addRecipe("blasting_" + block.registryName.path, block, rawblock, 9.0, 200);
-}
-
-//extended crafting crafting core
-mods.extendedcrafting.TableCrafting.addShaped("6f70060a-99fa-4e8b-9542-8504804183c1", 0, <item:extendedcrafting:crafting_core>, [
-	[<item:extendedcrafting:black_iron_ingot>, <item:extendedcrafting:elite_catalyst>, <item:extendedcrafting:elite_catalyst>, <item:extendedcrafting:elite_catalyst>, <item:extendedcrafting:black_iron_ingot>], 
-	[<item:extendedcrafting:elite_component>, <item:extendedcrafting:frame>, <item:extendedcrafting:ender_ingot>, <item:extendedcrafting:frame>, <item:extendedcrafting:elite_component>], 
-	[<item:extendedcrafting:elite_component>, <item:extendedcrafting:ender_ingot>, <item:extendedcrafting:luminessence>, <item:extendedcrafting:ender_ingot>, <item:extendedcrafting:elite_component>], 
-	[<item:extendedcrafting:elite_component>, <item:extendedcrafting:frame>, <item:extendedcrafting:ender_ingot>, <item:extendedcrafting:frame>, <item:extendedcrafting:elite_component>], 
-	[<item:extendedcrafting:black_iron_ingot>, <item:extendedcrafting:black_iron_slate>, <item:extendedcrafting:black_iron_slate>, <item:extendedcrafting:black_iron_slate>, <item:extendedcrafting:black_iron_ingot>]
-]);
-
 //FTB IC adding tags to recipes
-craftingTable.addShaped("ftbic_shaped_copper_coil", <item:ftbic:copper_coil>, [[<tag:items:forge:wires/copper>, <tag:items:forge:wires/copper>, <tag:items:forge:wires/copper>], [<tag:items:forge:wires/copper>, <tag:items:forge:rods/iron>, <tag:items:forge:wires/copper>], [<tag:items:forge:wires/copper>, <tag:items:forge:wires/copper>, <tag:items:forge:wires/copper>]]);
+craftingTable.addShaped("ftbic_shaped_copper_coil", <item:ftbic:copper_coil>, [[<item:ftbic:copper_wire>, <item:ftbic:copper_wire>, <tag:items:forge:ingots/iron>], [<item:ftbic:copper_wire>, <tag:items:forge:ingots/iron>, <item:ftbic:copper_wire>], [<tag:items:forge:ingots/iron>, <item:ftbic:copper_wire>, <item:ftbic:copper_wire>]]);
 
 craftingTable.removeByName("ftbic:shapeless/lv_cable");
-craftingTable.addShapeless("ftbic_shapeless_lv_cable", <item:ftbic:lv_cable>, [<tag:items:forge:wires/copper>, <item:ftbic:rubber>]);
+craftingTable.addShapeless("ftbic_shapeless_lv_cable", <item:ftbic:lv_cable> * 3, [<item:ftbic:copper_wire>, <item:ftbic:rubber>]);
 
 craftingTable.removeByName("ftbic:shapeless/hv_cable");
-craftingTable.addShapeless("ftbic_shapeless_hv_cable", <item:ftbic:hv_cable>, [<tag:items:forge:wires/gold>, <item:ftbic:rubber>]);
+craftingTable.addShapeless("ftbic_shapeless_hv_cable", <item:ftbic:hv_cable> * 3, [<item:ftbic:gold_wire>, <item:ftbic:rubber>]);
 
 craftingTable.removeByName("ftbic:shapeless/mv_cable");
 craftingTable.addShapeless("ftbic_shapeless_mv_cable", <item:ftbic:mv_cable> * 3, [<item:ftbic:aluminum_wire>, <item:ftbic:rubber>]);
@@ -209,9 +130,6 @@ craftingTable.addShaped("custom_sticky_piston", <item:minecraft:sticky_piston>, 
 //fixed magenta pet bed
 craftingTable.addShaped("custom_pet_bed_magenta", <item:domesticationinnovation:pet_bed_magenta>, [[<item:minecraft:magenta_wool>, <item:minecraft:magenta_wool>, <item:minecraft:magenta_wool>], [<tag:items:minecraft:planks>, <item:minecraft:bone>, <tag:items:minecraft:planks>]]);
 
-//fixed lattice
-craftingTable.addShaped("custom_lattice", <item:decorative_blocks:lattice> * 4, [[<tag:items:forge:fences/wooden>, <item:minecraft:stick>, <tag:items:forge:fences/wooden>], [<item:minecraft:stick>, IIngredientEmpty.getInstance(), <item:minecraft:stick>], [<tag:items:forge:fences/wooden>, <item:minecraft:stick>, <tag:items:forge:fences/wooden>]]);
-
 //reach upgrades, new recipes
 craftingTable.addShaped("custom_reach_upgrade1", <item:effortlessbuilding:reach_upgrade1>, [[IIngredientEmpty.getInstance(), <item:minecraft:emerald>, IIngredientEmpty.getInstance()], [<item:minecraft:emerald>, <item:minecraft:slime_ball>, <item:minecraft:emerald>], [IIngredientEmpty.getInstance(), <item:minecraft:emerald>, IIngredientEmpty.getInstance()]]);
 
@@ -256,19 +174,18 @@ blastFurnace.addRecipe("blast_reagants_to_flesh", <item:malum:rotting_essence>, 
 blastFurnace.addRecipe("blast_reagants_to_bone", <item:malum:grim_talc>, <item:minecraft:bone> * 2, 1.0, 100);
 blastFurnace.addRecipe("blast_reagants_to_membrane", <item:malum:astral_weave>, <item:minecraft:phantom_membrane> * 2, 1.0, 100);
 
-craftingTable.addShaped("custom_summoning_altar", <item:summoningrituals:altar>, [[<tag:items:minecraft:candles>, <item:minecraft:wither_skeleton_skull>, <tag:items:minecraft:candles>], [<tag:items:forge:ingots/gold>, <item:minecraft:red_carpet>, <tag:items:forge:ingots/gold>], [<item:graveyard:dark_iron_block>, <item:graveyard:dark_iron_block>, <item:graveyard:dark_iron_block>]]);
+//custom summoning altar recipe
+
+craftingTable.addShaped("custom_summoning_altar", <item:summoningrituals:altar>, [[<tag:items:minecraft:candles>, <item:minecraft:player_head>.withTag({SkullOwner: {Id: [1345610511, 728973417, -1894814960, 1553756194], Properties: {textures: [{Value: "ewogICJ0aW1lc3RhbXAiIDogMTY3NDYyODg1NzM4NiwKICAicHJvZmlsZUlkIiA6ICI1MDM0NjMwZjJiNzM0MDY5OGYwZjZiMTA1YzljNzAyMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSb3NpZUhvbHN0ZWluIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU4NGMxYmI5MzJjODEwZjIwNjk2NmIxZTQ2MmNjMjIxYWRmOGY1YjBhNmQ2NGQ3ZWNiZGZlMGYwNTIxN2U0YzgiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==" as string, Signature: "Wz7pQCf57iYzM4zD0dcBtIU5VAVNF1TStGaZXOsUXGw3voNNNbx4ww5xRUYpiVoAvnCjpMq8amS2WBXsgn9Efs2SaqeMoIn3E4XLFNsEUlWVPW5bOtN0cXwx9kmeEGOjtxrSz9DyLZ69na+/lam9S1KippAJfcC0DrDPZ2KEswOlzcj8eTb4cD/39og5OFO0Qi8Pvfd4fuvh5hfvKHnHB7fbzYBTnyybAd+lQ5a0uz6Hp33Lqb2o5AIeiEJAzd5HUbEZTJN7/M8E7SsqhAf02iDHvmbMoK62mvke8JJgTFgxreGsw969ipq0Fc2RcejQBVxaTm5OeHy25reDaVAjUacUvZ6xGV0uHLxs6HELk8FKOxGM2r2VwpeiqaL8tb1ZMjeOqZ3HgKC1gH4vkXgqRNavBhazVcDsmPWSg9pr+4PU2ehwpsLCyjA8VpHfhw4TOwYbnU+cbdsd9eBYKQG3OOIEgtaOngmYZzj70jTeeTPf78sa5afAgL3fMXlBXiiPoh4wjnP8FK7R6IXvNVpTJSNOyldX9g75V4TwKm/gEgWVrCrubpnzTMoHJJuca7d814Y8eVzDvonuqHalaXi7vw9atBkFWY1xCtPFdPdQcobueq7tMCIQ4QOvKzDSn+fPbgP/Y9Zp4n9kW9K+KkswZcZX/o8S+HoMhXMOf0JSb9s=" as string}]}, Name: "Rotwalker" as string}}), <tag:items:minecraft:candles>], [<item:undergarden:forgotten_ingot>, <tag:items:minecraft:planks>, <item:undergarden:forgotten_ingot>], [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]]);
 
 //reworked plain grinder recipes
-craftingTable.addShaped("custom_grinder", <item:plaingrinder:grinder>, [[<tag:items:forge:cobblestone>, <tag:items:forge:ingots/iron>, <tag:items:forge:cobblestone>], [<tag:items:forge:cobblestone>, <item:minecraft:flint>, <tag:items:forge:cobblestone>], [<tag:items:forge:cobblestone>, <tag:items:forge:cobblestone>, <tag:items:forge:cobblestone>]]);
+craftingTable.addShaped("custom_grinder", <item:plaingrinder:grinder>, [[<tag:items:forge:cobblestone>, <item:thermal:iron_gear>, <tag:items:forge:cobblestone>], [<tag:items:forge:cobblestone>, <item:minecraft:flint>, <tag:items:forge:cobblestone>], [<tag:items:forge:cobblestone>, <tag:items:forge:cobblestone>, <tag:items:forge:cobblestone>]]);
 
 craftingTable.addShaped("custom_handle", <item:plaingrinder:handle>, [[<tag:items:forge:rods/wooden>, <tag:items:forge:rods/wooden>], [IIngredientEmpty.getInstance(), <tag:items:forge:rods/wooden>], [IIngredientEmpty.getInstance(), <tag:items:forge:rods/wooden>]]);
 
 //updated channeling stone recipe
 
 craftingTable.addShaped("custom_channeling_stone", <item:advanced_xp:channeling_stone>, [[<item:minecraft:mossy_stone_bricks>, <item:minecraft:mossy_stone_bricks>, <item:minecraft:mossy_stone_bricks>], [<item:malum:chunk_of_brilliance>, <item:minecraft:experience_bottle>, <item:malum:chunk_of_brilliance>], [<item:minecraft:mossy_stone_bricks>, <item:minecraft:mossy_stone_bricks>, <item:minecraft:mossy_stone_bricks>]]);
-
-//brewing bottles of enchanting	
-brewing.addRecipe(<item:minecraft:experience_bottle>, <item:minecraft:potion>.withTag({Potion: "minecraft:water" as string}), <item:malum:chunk_of_brilliance>);
 
 //Custom gravisand recipe that uses warped soul sand.
 craftingTable.addShapeless("custom_gravisand_alternative", <item:quark:gravisand> * 2, [<item:byg:warped_soul_sand>, <item:minecraft:redstone>]);
@@ -329,3 +246,26 @@ craftingTable.addShapeless("custom_gravisand_alternative", <item:quark:gravisand
   "ticks": 100,
   "upgradeLevel": 0
 });
+
+//numismatic overhaul coins in thermal numismatic dynamo
+<recipetype:thermal:numismatic_fuel>.addJsonRecipe("custom_bronze_coin_dynamo", {
+  "ingredient": {
+    "item": "numismaticoverhaul:bronze_coin"
+  },
+  "energy": 32000
+});
+<recipetype:thermal:numismatic_fuel>.addJsonRecipe("custom_silver_coin_dynamo", {
+  "ingredient": {
+    "item": "numismaticoverhaul:silver_coin"
+  },
+  "energy": 64000
+});
+<recipetype:thermal:numismatic_fuel>.addJsonRecipe("custom_gold_coin_dynamo", {
+  "ingredient": {
+    "item": "numismaticoverhaul:gold_coin"
+  },
+  "energy": 160000
+});
+
+//custom extruder recipe
+craftingTable.addShaped("custom_ftbic_extruder", <item:ftbic:extruder>, [[<tag:items:forge:plates/iron>, <item:ftbic:electronic_circuit>, <tag:items:forge:plates/iron>], [<tag:items:forge:plates/iron>, <item:ftbic:machine_block>, <tag:items:forge:plates/iron>]]);
