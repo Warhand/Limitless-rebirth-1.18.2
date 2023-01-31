@@ -3,11 +3,11 @@
 	"parent": "block/block",
 	"texture_size": [32, 32],
 	"textures": {
+		"6": "undergarden:block/grongle_planks",
 		"texture": "summoningrituals:block/altar",
-		"candle": "block/candle",
-		"wither": "entity/skeleton/wither_skeleton",
-		"basalt": "block/basalt_side",
-		"particle": "graveyard:block/dark_iron_block"
+		"candle": "block/light_gray_candle_lit",
+		"wither": "undergarden:entity/rotwalker",
+		"particle": "block/dark_oak_planks"
 	},
 	"elements": [
 		{
@@ -19,8 +19,8 @@
 				"east": {"uv": [0.5, 5, 5.5, 6], "texture": "#texture"},
 				"south": {"uv": [0.5, 5, 5.5, 6], "texture": "#texture"},
 				"west": {"uv": [0.5, 5, 5.5, 6], "texture": "#texture"},
-				"up": {"uv": [3, 3, 13, 13], "texture": "#particle"},
-				"down": {"uv": [3, 3, 13, 13], "texture": "#particle"}
+				"up": {"uv": [3, 4, 13, 14], "texture": "#6"},
+				"down": {"uv": [3, 1, 13, 11], "texture": "#6"}
 			}
 		},
 		{
@@ -28,12 +28,12 @@
 			"from": [5, 2, 5],
 			"to": [11, 9, 11],
 			"faces": {
-				"north": {"uv": [8, 4, 14, 11], "texture": "#basalt"},
-				"east": {"uv": [8, 4, 14, 11], "texture": "#basalt"},
-				"south": {"uv": [8, 4, 14, 11], "texture": "#basalt"},
-				"west": {"uv": [8, 4, 14, 11], "texture": "#basalt"},
-				"up": {"uv": [0, 0, 0, 0], "texture": "#basalt"},
-				"down": {"uv": [0, 0, 0, 0], "texture": "#basalt"}
+				"north": {"uv": [4, 1, 10, 8], "texture": "#6"},
+				"east": {"uv": [0, 3, 6, 10], "rotation": 180, "texture": "#6"},
+				"south": {"uv": [4, 1, 10, 8], "texture": "#6"},
+				"west": {"uv": [0, 3, 6, 10], "rotation": 180, "texture": "#6"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#6"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#6"}
 			}
 		},
 		{
@@ -55,11 +55,11 @@
 			"to": [9.25, 17, 12.25],
 			"rotation": {"angle": -22.5, "axis": "y", "origin": [7, 15, 9]},
 			"faces": {
-				"north": {"uv": [2, 4, 4, 8], "texture": "#wither"},
-				"east": {"uv": [0, 4, 2, 8], "texture": "#wither"},
-				"south": {"uv": [6, 4, 8, 8], "texture": "#wither"},
-				"west": {"uv": [4, 4, 6, 8], "texture": "#wither"},
-				"up": {"uv": [2, 0, 4, 4], "texture": "#wither"}
+				"north": {"uv": [2, 2, 4, 4], "texture": "#wither"},
+				"east": {"uv": [0, 2, 2, 4], "texture": "#wither"},
+				"south": {"uv": [6, 2, 8, 4], "texture": "#wither"},
+				"west": {"uv": [4, 2, 6, 4], "texture": "#wither"},
+				"up": {"uv": [2, 0, 4, 2], "texture": "#wither"}
 			}
 		},
 		{
