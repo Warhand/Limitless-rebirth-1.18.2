@@ -18,7 +18,7 @@ val netherite_varieties as IItemStack[IItemStack] = {
 	<item:minecraft:wither_rose>: <item:upgradednetherite:wither_upgraded_netherite_ingot>,
 	<item:minecraft:spider_eye>: <item:upgradednetherite:poison_upgraded_netherite_ingot>,
 	<item:minecraft:ghast_tear>: <item:upgradednetherite:feather_upgraded_netherite_ingot>,
-	<item:graveyard:corruption>: <item:upgradednetherite:corrupt_upgraded_netherite_ingot>
+	<item:wildbackport:sculk>: <item:upgradednetherite:corrupt_upgraded_netherite_ingot>
 };
 
 for input, output in netherite_varieties {
