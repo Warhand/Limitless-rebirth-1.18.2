@@ -18,17 +18,41 @@ import crafttweaker.api.recipe.SmithingRecipeManager;
 <recipetype:bloodmagic:arc>.removeByRegex("bloodmagic:arc.gravels.*");
 <recipetype:bloodmagic:arc>.removeByRegex("bloodmagic:arc.fragments.*");
 
+//altering thermal pulverizer catalyst bonuses
+<recipetype:thermal:pulverizer_catalyst>.removeAll();
+
+<recipetype:thermal:pulverizer_catalyst>.addJsonRecipe("custom_flint_catalyst", {
+	"ingredient": {
+		"item": "minecraft:flint"
+	  },
+	  "primary_mod": 1.25,
+	  "secondary_mod": 1.25,
+	  "energy_mod": 1.1,
+	  "min_chance": 0.05,
+	  "use_chance": 0.20
+});
+<recipetype:thermal:pulverizer_catalyst>.addJsonRecipe("custom_basalz_catalyst", {
+	"ingredient": {
+		"item": "thermal:basalz_powder"
+	  },
+	  "primary_mod": 1.5,
+	  "secondary_mod": 1.5,
+	  "energy_mod": 0.75,
+	  "min_chance": 0.05,
+	  "use_chance": 0.40
+});
+
 //simple crushing recipes
 
 val one_to_one_map as IItemStack[IIngredient] = {
 	<item:minecraft:ender_pearl>: <item:ftbic:ender_dust>,
 	<item:alexsdelight:raw_bison>: <item:alexsdelight:bison_mince>,
 	<item:minecraft:charcoal>: <item:ftbic:charcoal_dust>,
+	<item:nethersdelight:strider_slice>: <item:nethersdelight:ground_strider>,
 	<tag:items:forge:ingots/steel>.asIIngredient(): <item:thermal:steel_dust>,
 	<tag:items:forge:ingots/constantan>.asIIngredient(): <item:thermal:constantan_dust>,
 	<tag:items:forge:ingots/electrum>.asIIngredient(): <item:thermal:electrum_dust>,
 	<tag:items:minecraft:coals>.asIIngredient(): <item:ftbic:coal_dust>,
-	<tag:items:nethersdelight:raw_strider>.asIIngredient(): <item:nethersdelight:ground_strider>,
 	<tag:items:forge:tea_leaves/green>.asIIngredient(): <item:delightful:matcha>,
 	<tag:items:forge:raw_beef>.asIIngredient(): <item:farmersdelight:minced_beef>
 };
@@ -78,11 +102,5 @@ for group in chance_output_with_chance_secondary{
 
 //individual recipes
 crushingCreateMill("create_propelplant_milling", <item:nethersdelight:propelplant_cane>, <item:minecraft:gunpowder>, 1.0, 2, <item:nethersdelight:propelpearl>, 0.5, 1);
+crushingCreateMill("create_gravel_milling", <item:minecraft:gravel>, <item:minecraft:sand>, 1.0, 1, <item:minecraft:flint>, 0.25, 1);
 crushingCreateMill("create_blazing_quartz_milling", <item:malum:blazing_quartz>, <item:thermal:sulfur_dust>, 0.75, 1, <item:minecraft:blaze_powder>, 0.1, 1);
-
-var ironMaterial = new GlobalMaterialRecipe();
-ironMaterial.name = "iron_material";
-ironMaterial.oreBlock = <tag:items:forge:ores/iron>;
-ironMaterial.oreRaw = <item:minecraft:raw_iron>;
-ironMaterial.oreFragment = <item:bloodmagic:ironfragment>;
-ironMaterial.build();
