@@ -2,8 +2,12 @@
 
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.ingredient.IIngredient;
+import crafttweaker.api.data.IData;
 import crafttweaker.api.ingredient.type.IIngredientAny;
 import crafttweaker.api.ingredient.type.IIngredientEmpty;
+import crafttweaker.api.ingredient.IIngredientWithAmount;
+import crafttweaker.api.ingredient.type.IIngredientList;
+import crafttweaker.api.data.ListData;
 import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.item.ItemDefinition;
 import crafttweaker.api.recipe.MirrorAxis;
@@ -91,13 +95,25 @@ public function crushingArs(recipeName as string, input as IIngredient, output1 
 	});
 }
 
-public function crushingImmersive(recipeName as string, input as IIngredient, output1 as IItemStack, chance1 as float = 1.0, amount1 as int = 1, output2 as IItemStack = <item:minecraft:air>, chance2 as float = 0.0, amount2 as int = 0) as void {
-	<recipetype:immersiveengineering:crusher>.addJsonRecipe("custom_ie_crushing_" + recipeName,
+public function crushingThermal(recipeName as string, input as IIngredient, output1 as IItemStack, chance1 as float = 1.0, amount1 as int = 1, output2 as IItemStack = <item:minecraft:air>, chance2 as float = 0.0, amount2 as int = 0) as void {
+	<recipetype:thermal:pulverizer>.addJsonRecipe("custom_thermal_pulverizing_" + recipeName,
 	{
-	"secondaries":[{"chance": chance2, "count": amount2, "output":{"item":output2.registryName}}],
-	"result":{"count": amount1, "chance": chance1, "base_ingredient":{"item":output1.registryName}},
-	"input":input,
-	"energy":6000
+	"ingredient":input,
+  "result": [
+    {
+      "item": output1.registryName,
+	  "count": amount1,
+	  "locked": true,
+	  "chance": chance1
+    },
+    {
+      "item": output2.registryName,
+	  "count": amount2,
+	  "locked": true,
+	  "chance": chance2
+    }
+  ],
+  "experience": 0.5
 	});
 }
 
@@ -230,12 +246,24 @@ public function crushingAll(recipeName as string, input as IIngredient, output1 
 	  "processingTime": 400
 	});
 
-	<recipetype:immersiveengineering:crusher>.addJsonRecipe("custom_ie_crushing_" + recipeName,
+	<recipetype:thermal:pulverizer>.addJsonRecipe("custom_thermal_pulverizing_universal_recipe_" + recipeName,
 	{
-	"secondaries":[{"chance": chance2, "count": amount2, "output":{"item":output2.registryName}}],
-	"result":{"count": amount1, "chance": chance1, "base_ingredient":{"item":output1.registryName}},
-	"input":input,
-	"energy":6000
+	"ingredient":input,
+  "result": [
+    {
+      "item": output1.registryName,
+	  "count": amount1,
+      "chance": chance1,
+	  "locked": true
+    },
+    {
+      "item": output2.registryName,
+	  "count": amount2,
+      "chance": amount2,
+	  "locked": true
+    }
+  ],
+  "experience": 0.5
 	});
 
 	<recipetype:bloodmagic:arc>.addJsonRecipe("custom_blood_exploding_universal_recipe_" + recipeName,
@@ -324,7 +352,7 @@ public class SummonMob {
 
 		//actual recipe
 			<recipetype:summoningrituals:altar>.addJsonRecipe("custom_ritual_" + name, {
-			"catalyst": { "item": "minecraft:amethyst_shard" },
+			"catalyst": { "item": "undergarden:utherium_crystal" },
 			"outputs": [
 				{
 				"mob": summon,
@@ -365,6 +393,20 @@ public class tripleArray {
 	public this(input as IItemStack, output1 as IItemStack, chance1 as float = 1.0, output2 as IItemStack, chance2 as float = 0.0) {
 		this.input = input;
 		this.output1 = output1;
+		this.chance1 = chance1;
 		this.output2 = output2;
+		this.chance2 = chance2;
 	}
 }
+
+//fixing arcane code stuff that I cannot even begin to fathom
+public expand IIngredient[] {
+	public implicit as IData {
+		var list = new ListData();
+		for a in this  { list.add(a as IData); }
+		return list;
+	}
+}
+
+println("peepeepoopoo");
+println(([<item:thermal:iron_dust> * 2, <item:thermal:nickel_dust>] as IData).asString());
