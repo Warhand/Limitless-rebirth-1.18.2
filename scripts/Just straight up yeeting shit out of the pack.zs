@@ -14,10 +14,14 @@ import mods.jei.JEI;
 
 //removeall functions
 
-<recipetype:createaddition:rolling>.removeAll();
 
 <recipetype:ftbic:extruding>.removeAll();
 <recipetype:ftbic:rolling>.removeAll();
+<recipetype:extendedcrafting:combination>.removeAll();
+<recipetype:extendedcrafting:ender_crafter>.removeAll();
+<recipetype:extendedcrafting:compressor>.removeAll();
+<recipetype:extendedcrafting:table>.removeAll();
+<recipetype:thermal:numismatic_fuel>.removeAll();
 
 //Regex recipe removal functions
 
@@ -27,6 +31,23 @@ import mods.jei.JEI;
 <recipetype:create:splashing>.removeByRegex("create:splashing.crushed.*");
 <recipetype:create:splashing>.removeByRegex("malum:create.*");
 <recipetype:bloodmagic:alchemytable>.removeByRegex("bloodmagic:alchemytable.corrupted.*");
+
+<recipetype:thermal:smelter>.removeByRegex("thermal:machines.smelter.smelter_alloy_.*");
+<recipetype:thermal:smelter>.removeByRegex("thermal:machines.smelter.smelter_.*_ore");
+<recipetype:thermal:smelter>.removeByRegex("thermal:machines.smelter.smelter_.*_dust");
+<recipetype:thermal:smelter>.removeByRegex("thermal:machines.smelter.smelter_raw_.*");
+<recipetype:thermal:smelter>.removeByRegex("thermal:compat.create.smelter_.*");
+
+<recipetype:thermal:pulverizer>.removeByRegex("thermal:compat.create.pulverizer_.*");
+<recipetype:thermal:pulverizer>.removeByRegex("thermal:machines.pulverizer.pulverizer.*_ore");
+<recipetype:thermal:pulverizer>.removeByRegex("thermal:machines.pulverizer.pulverizer_raw_.*");
+<recipetype:thermal:pulverizer>.removeByRegex("thermal:machines.pulverizer.pulverizer_.*ingot_to_dust");
+<recipetype:thermal:pulverizer>.removeByRegex("thermal:machines.pulverizer.pulverizer_create_.*_recycle");
+
+<recipetype:thermal:press>.removeByRegex("thermal:machines.press.*_to_coin");
+
+furnace.removeByRegex("malum:.*_from_node.*");
+blastFurnace.removeByRegex("malum:.*_from_node.*");
 
 //remove by name functions
 <recipetype:create:crushing>.removeByName("create:crushing/nether_gold_ore");
@@ -109,14 +130,15 @@ val trash as IItemStack[] = [
 	<item:botania:terra_sword>,
 	<item:minecraft:sticky_piston>,
 	<item:quark:gold_bars>,
-	<item:decorative_blocks:lattice>,
 	<item:ftbic:tin_dust>,
 	<item:effortlessbuilding:reach_upgrade1>,
 	<item:effortlessbuilding:reach_upgrade2>,
 	<item:effortlessbuilding:reach_upgrade3>,
 	<item:plaingrinder:grinder>,
 	<item:plaingrinder:handle>,
-	<item:advanced_xp:channeling_stone>
+	<item:advanced_xp:channeling_stone>,
+	<item:ftbic:gold_wire>,
+	<item:ftbic:enderium_wire>
 ];
 
 for item in trash{
@@ -125,31 +147,10 @@ for item in trash{
 
 val jei_removal as IItemStack[] = [
 	<item:malum:crushed_soulstone>,
-	<item:createaddition:iron_wire>,
 	<item:malum:cracked_osmium_impetus>,
 	<item:malum:osmium_impetus>,
 	<item:ftbic:copper_dust>,
 	<item:ftbic:iron_dust>,
-	<item:additionaladditions:gilded_netherite_hoe>,
-	<item:additionaladditions:rose_gold_helmet>,
-	<item:additionaladditions:gilded_netherite_helmet>,
-	<item:additionaladditions:rose_gold_chestplate>,
-	<item:additionaladditions:gilded_netherite_chestplate>,
-	<item:additionaladditions:rose_gold_leggings>,
-	<item:additionaladditions:gilded_netherite_leggings>,
-	<item:additionaladditions:rose_gold_boots>,
-	<item:additionaladditions:gilded_netherite_boots>,
-	<item:additionaladditions:rope>,
-	<item:additionaladditions:depth_meter>,
-	<item:additionaladditions:wrench>,
-	<item:additionaladditions:gilded_netherite_pickaxe>,
-	<item:additionaladditions:rose_gold_shovel>,
-	<item:additionaladditions:gilded_netherite_shovel>,
-	<item:additionaladditions:rose_gold_axe>,
-	<item:additionaladditions:gilded_netherite_axe>,
-	<item:additionaladditions:rose_gold_hoe>,
-	<item:additionaladditions:rose_gold_pickaxe>,
-	<item:additionaladditions:fried_egg>,
 	<item:minecraft:barrier>,
 	<item:minecraft:light>,
 	<item:minecraft:structure_void>,
@@ -160,8 +161,8 @@ val jei_removal as IItemStack[] = [
 	<item:create:crushed_quicksilver_ore>,
 	<item:create:crushed_osmium_ore>,
 	<item:create:crushed_platinum_ore>,
-	<item:additionaladditions:gilded_netherite_sword>,
-	<item:additionaladditions:fried_egg>
+	<item:pipez:gas_pipe>,
+	<item:create:copper_backtank_placeable>
 ];
 
 for item in jei_removal{
@@ -171,23 +172,13 @@ for item in jei_removal{
 //utter eradication (removing something from every recipe and JEI at once)
 
 val utter_eradication as IItemStack[] = [
-	<item:alloyed:steel_sheet>,
-	<item:createaddition:copper_wire>,
-	<item:ftbic:aluminum_chunk>,
-	<item:ftbic:aluminum_dust>,
-	<item:ftbic:aluminum_ingot>,
-	<item:ftbic:aluminum_wire>,
 	<item:ftbic:bronze_block>,
 	<item:ftbic:bronze_dust>,
 	<item:ftbic:bronze_gear>,
 	<item:ftbic:bronze_ingot>,
-	<item:ftbic:bronze_rod>,
 	<item:ftbic:copper_gear>,
 	<item:ftbic:copper_nugget>,
 	<item:ftbic:copper_plate>,
-	<item:ftbic:copper_rod>,
-	<item:ftbic:copper_wire>,
-	<item:ftbic:deepslate_uranium_ore>,
 	<item:ftbic:enderium_gear>,
 	<item:ftbic:gold_gear>,
 	<item:ftbic:iridium_gear>,
@@ -200,14 +191,6 @@ val utter_eradication as IItemStack[] = [
 	<item:ftbic:nuke>,
 	<item:ftbic:nuke_arrow>,
 	<item:ftbic:tin_gear>,
-	<item:ftbic:uranium_block>,
-	<item:ftbic:uranium_chunk>,
-	<item:ftbic:uranium_dust>,
-	<item:ftbic:uranium_gear>,
-	<item:ftbic:uranium_ingot>,
-	<item:ftbic:uranium_ore>,
-	<item:ftbic:uranium_plate>,
-	<item:ftbic:uranium_rod>,
 	<item:ironjetpacks:capacitor>.withTag({Id:"ironjetpacks:creative"as string}),
 	<item:ironjetpacks:cell>.withTag({Id:"ironjetpacks:creative"as string}),
 	<item:ironjetpacks:jetpack>.withTag({Id:"ironjetpacks:creative"as string,Throttle:1.0 as double}),
@@ -216,31 +199,16 @@ val utter_eradication as IItemStack[] = [
 	<item:create:copper_sheet>,
 	<item:ftbic:lead_block>,
 	<item:create:iron_sheet>,
-	<item:ftbic:iron_rod>,
-	<item:ftbic:gold_rod>,
 	<item:ftbic:gold_plate>,
 	<item:create:golden_sheet>,
 	<item:ftbic:gold_plate>,
-	<item:createaddition:gold_rod>,
-	<item:createaddition:gold_wire>,
 	<item:ftbic:iron_plate>,
 	<item:ftbic:lead_plate>,
-	<item:ftbic:uranium_nugget>,
-	<item:alloyed:steel_block>,
-	<item:alloyed:steel_ingot>,
-	<item:ftbic:aluminum_block>,
 	<item:ftbic:aluminum_gear>,
-	<item:ftbic:aluminum_rod>,
-	<item:ftbic:aluminum_plate>,
-	<item:ftbic:aluminum_nugget>,
-	<item:ftbic:uranium_nugget>,
-	<item:ftbic:aluminum_nugget>,
-	<item:ftbic:bronze_ingot>,
 	<item:ftbic:bronze_nugget>,
 	<item:malum:osmium_node>,
 	<item:create:dough>,
 	<item:ftbic:bronze_plate>,
-	<item:ftbic:uranium_ingot>,
 	<item:delightful:steel_knife>,
 	<item:delightful:netherite_opal_knife>,
 	<item:delightful:black_opal_knife>,
@@ -252,7 +220,6 @@ val utter_eradication as IItemStack[] = [
 	<item:delightful:large_amethyst_knife>,
 	<item:delightful:refined_glowstone_knife>,
 	<item:delightful:refined_obsidian_knife>,
-	<item:additionaladditions:honeyed_apple>,
 	<item:darkerdepths:raw_silver>,
 	<item:darkerdepths:silver_block>,
 	<item:darkerdepths:silver_ingot>,
@@ -262,11 +229,9 @@ val utter_eradication as IItemStack[] = [
 	<item:bygonenether:gilded_netherite_chestplate>,
 	<item:bygonenether:gilded_netherite_helmet>,
 	<item:farmersdelight:fried_egg>,
-	<item:createaddition:iron_wire>,
 	<item:constructionwand:stone_wand>,
 	<item:constructionwand:iron_wand>,
 	<item:littlelogistics:rapid_hopper>,
-	<item:decorative_blocks:rocky_dirt>,
 	<item:plaingrinder:dust_diamond>,
 	<item:plaingrinder:dust_coal>,
 	<item:plaingrinder:dust_iron>,
@@ -277,7 +242,43 @@ val utter_eradication as IItemStack[] = [
 	<item:plaingrinder:dust_charcoal>,
 	<item:plaingrinder:dust_quartz>,
 	<item:bloodmagic:corrupted_dust>,
-	<item:bloodmagic:corrupted_tinydust>
+	<item:bloodmagic:corrupted_tinydust>,
+	<item:farmersdelight:netherite_knife>,
+	<item:farmersdelight:diamond_knife>,
+	<item:farmersdelight:iron_knife>,
+	<item:aquaculture:diamond_fillet_knife>,
+	<item:aquaculture:gold_fillet_knife>,
+	<item:aquaculture:iron_fillet_knife>,
+	<item:aquaculture:stone_fillet_knife>,
+	<item:aquaculture:wooden_fillet_knife>,
+	<item:delightful:lead_knife>,
+	<item:delightful:electrum_knife>,
+	<item:delightful:constantan_knife>,
+	<item:delightful:bronze_knife>,
+	<item:delightful:brass_knife>,
+	<item:delightful:silver_knife>,
+	<item:delightful:tin_knife>,
+	<item:delightful:copper_knife>,
+	<item:farmersdelight:golden_knife>,
+	<item:delightful:nickel_knife>,
+	<item:thermal:bronze_ingot>,
+	<item:thermal:bronze_nugget>,
+	<item:thermal:bronze_gear>,
+	<item:thermal:bronze_plate>,
+	<item:pipez:wrench>,
+	<item:ftbic:uranium_rod>,
+	<item:ftbic:bronze_rod>,
+	<item:ftbic:iridium_rod>,
+	<item:ftbic:lead_rod>,
+	<item:ftbic:tin_rod>,
+	<item:ftbic:iron_rod>,
+	<item:thermal:lapis_gear>,
+	<item:thermal:emerald_gear>,
+	<item:thermal:diamond_gear>,
+	<item:byg:raw_pendorite>,
+	<item:byg:raw_pendorite_block>,
+	<item:delightful:acorn>,
+	<item:delightful:acorn_sack>
 ];
 
 for item in utter_eradication{
@@ -297,4 +298,5 @@ for item in utter_eradication{
 	for tag in <tagmanager:items>.getTagsFor(item) {
   tag.remove(item);
 }
+<tag:items:c:hidden_from_recipe_viewers>.add(item);
 }
