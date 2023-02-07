@@ -1,0 +1,12 @@
+{
+    "type": "block_transform",
+    "flowing": "#minecraft:water",
+    "block_to_transform": "#lr:flowing_molten",
+    "blocks_nearby": [
+        "minecraft:empty"
+    ],
+    "result": {
+        "type": "block",
+        "block": "contenttweaker:metal_slag_block"
+    }
+}

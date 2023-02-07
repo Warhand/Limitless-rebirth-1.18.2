@@ -1,0 +1,12 @@
+{
+    "type": "block_transform",
+    "flowing": "#minecraft:water",
+    "block_to_transform": "kubejs:molten_pendorite",
+    "blocks_nearby": [
+        "minecraft:empty"
+    ],
+    "result": {
+        "type": "block",
+        "block": "byg:pendorite_block"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "block_transform",
+    "flowing": "#minecraft:water",
+    "block_to_transform": "kubejs:molten_nickel",
+    "blocks_nearby": [
+        "minecraft:empty"
+    ],
+    "result": {
+        "type": "block",
+        "block": "thermal:nickel_block"
+    }
+}

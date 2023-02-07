@@ -1,0 +1,12 @@
+{
+    "type": "block_transform",
+    "flowing": "#minecraft:water",
+    "block_to_transform": "kubejs:molten_froststeel",
+    "blocks_nearby": [
+        "minecraft:empty"
+    ],
+    "result": {
+        "type": "block",
+        "block": "undergarden:froststeel_block"
+    }
+}
