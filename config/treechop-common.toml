@@ -1,7 +1,5 @@
 
 [permissions]
-	#Whether this mod is enabled or not
-	enabled = true
 
 	[permissions.choppingEnabled]
 		canBeFalse = true
@@ -25,8 +23,8 @@
 		canBeTrue = true
 
 [general]
-	#Whether to drop loot for blocks that have been chopped
-	loseLootForChoppedBlocks = true
+	#If false, log items will be destroyed when chopping
+	dropLootForChoppedBlocks = true
 
 [treeDetection]
 	#Maximum number of log blocks that can be detected to belong to one tree
@@ -35,17 +33,29 @@
 	#Maximum number of leaves blocks that can destroyed when a tree is felled
 	#Range: 1 ~ 8096
 	maxLeavesBlocks = 1024
-	#Whether to destroy leaves when a tree is felled
+	#Destroy leaves when a tree is felled
 	breakLeaves = true
-	#Whether non-decayable leaves are ignored when detecting leaves
+	#Non-decayable leaves are ignored when detecting leaves
 	ignorePersistentLeaves = true
 	#Maximum distance from log blocks to destroy non-standard leaves blocks (e.g. mushroom caps) when felling
 	#Range: 0 ~ 16
 	maxBreakLeavesDistance = 7
-	#The tag that blocks must have to be considered choppable (default: treechop:choppables)
-	blockTagForDetectingLogs = "treechop:choppables"
-	#The tag that blocks must have to be considered leaves (default: treechop:leaves_like)
-	blockTagForDetectingLeaves = "treechop:leaves_like"
+
+	[treeDetection.logs]
+		#Blocks that should be considered choppable
+		#Specify using registry names (mod:block), tags (#mod:tag), and namespaces (@mod)
+		blocks = ["#treechop:choppables", "#minecraft:logs", "#forge:mushroom_stems"]
+		#Blocks that should never be chopped, even if included in the list above
+		#Specify using registry names (mod:block), tags (#mod:tag), and namespaces (@mod)
+		exceptions = ["minecraft:bamboo", "#dynamictrees:branches", "dynamictrees:trunk_shell"]
+
+	[treeDetection.leaves]
+		#Blocks that should be considered leaves
+		#Specify using registry names (mod:block), tags (#mod:tag), and namespaces (@mod)
+		blocks = ["#treechop:leaves_like", "#minecraft:leaves", "#minecraft:wart_blocks", "#forge:mushroom_caps", "minecraft:shroomlight"]
+		#Blocks that should never be considered leaves, even if included in the list above
+		#Specify using registry names (mod:block), tags (#mod:tag), and namespaces (@mod)
+		exceptions = []
 
 [chopCounting]
 	#Method to use for computing the number of chops needed to fell a tree
@@ -54,7 +64,7 @@
 	#How to round the number of chops needed to fell a tree; this is more meaningful for smaller trees
 	#Allowed Values: DOWN, NEAREST, UP
 	rounding = "UP"
-	#Whether felling a tree can require more chops than the number of blocks in the tree
+	#Felling a tree can require more chops than the number of blocks in the tree
 	canRequireMoreChopsThanBlocks = false
 
 	#See https://github.com/hammertater/treechop/#logarithmic
@@ -73,12 +83,21 @@
 		baseNumChops = 0.0
 
 [compatibility]
+	#Better chopping behavior for block with the #forge:mushroom_stems tag
+	mushroomStems = true
+	#Prevent conflicts with DynamicTrees
+	#See https://www.curseforge.com/minecraft/mc-mods/dynamictrees
+	dynamicTrees = true
 
 	[compatibility.general]
-		#Whether to prevent chopping during right-click actions
+		#Prevent chopping when right-clicking blocks
 		preventChoppingOnRightClick = false
-		#Whether to prevent infinite loops when chopping; fixes crashes when using modded items that break multiple blocks
+		#Prevent infinite loops when chopping; fixes crashes when using modded items that break multiple blocks
 		preventChopRecursion = true
+		#Only chop when using the correct tool for drops, if any (does nothing in vanilla, but some mods add tool requirements to logs
+		choppingRequiresCorrectToolForDrops = true
+		#Only chop when using a tool that increases block breaking speed (such as axes for logs)
+		choppingRequiresFastBreakingTool = false
 
 		[compatibility.general.blacklist]
 			#Whether the listed items should be blacklisted or whitelisted
@@ -88,15 +107,6 @@
 			#- Items in this list that have special support for TreeChop will not be blacklisted; see https://github.com/hammertater/treechop/blob/main/docs/compatibility.md#blacklist
 			items = ["botania:terra_axe", "mekanism:atomic_disassembler", "@lumberjack", "practicaltools:iron_greataxe", "practicaltools:golden_greataxe", "practicaltools:diamond_greataxe", "practicaltools:netherite_greataxe"]
 
-		[compatibility.general.overrides]
-			#List of item registry names (mod:item), tags (#mod:tag), and namespaces (@mod) for items that should not perform their default behavior when chopping
-			#- Add "?chops=N" to specify the number of chops to be performed when breaking a log with the item (defaults to 1)
-			#- Add "?override=always" to disable default behavior even when chopping is disabled
-			#- Add "?override=never" to never disable default behavior
-			#- Items in this list that have special support for TreeChop will not be overridden; see https://github.com/hammertater/treechop/blob/main/docs/compatibility.md#overrides
-			#- This might not work as expected for some items; see https://github.com/hammertater/treechop/blob/main/docs/compatibility.md#caveats
-			items = ["#tconstruct:modifiable/harvest", "silentgear:saw?chops=3,override=always"]
-
 		#The chop settings used by non-player entities, such as robots and machine blocks
 		[compatibility.general.fakePlayerChopSettings]
 			#Use with caution! May cause conflicts with some mods, e.g. https://github.com/hammertater/treechop/issues/71
@@ -105,11 +115,13 @@
 			fellingEnabled = true
 			treesMustHaveLeaves = true
 
-	[compatibility.specific]
-		#Whether to enable compatibility with ProjectMMO; for example, award XP for chopping
-		#See https://www.curseforge.com/minecraft/mc-mods/project-mmo
-		projectMMO = true
-		#Whether to prevent conflicts with DynamicTrees
-		#See https://www.curseforge.com/minecraft/mc-mods/dynamictrees
-		dynamicTrees = true
+	[compatibility.API]
+		#Log information about TreeChop API usage. May be useful for debugging mod compatibility issues.
+		verbose = false
+
+[mod]
+	#Set to false to disable TreeChop without having to uninstall the mod
+	enabled = true
+	#Let TreeChop print to the log
+	printDebugInfo = true
 

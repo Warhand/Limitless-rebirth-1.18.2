@@ -396,6 +396,11 @@
       "bookmarks": [],
       "completedManualQuests": []
     },
+    "enchanted:extraction": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
     "thermal:guidebook": {
       "viewedEntries": [
         "thermal:technology/machines/pulverizer",
@@ -462,7 +467,15 @@
         "ars_nouveau:equipment/dull_items",
         "ars_nouveau:equipment/enchanters_mirror",
         "ars_nouveau:equipment/spell_bow",
-        "ars_nouveau:equipment/armor"
+        "ars_nouveau:equipment/armor",
+        "ars_nouveau:machines/scribes_block",
+        "ars_nouveau:automation/spell_turret",
+        "ars_nouveau:machines/scryers_crystal",
+        "ars_nouveau:automation/mimic_scroll",
+        "ars_nouveau:automation/deny_scroll",
+        "ars_nouveau:familiars/wixie",
+        "ars_nouveau:familiars/summoning_familiars",
+        "ars_nouveau:automation/wixie_charm"
       ],
       "bookmarks": [],
       "completedManualQuests": []
