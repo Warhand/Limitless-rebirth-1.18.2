@@ -1,0 +1,202 @@
+[
+    {
+        "key": "break_geode_action",
+        "requirement": {
+            "items": [ "tetra:geode" ]
+        },
+        "requiredTools": {
+            "hammer_dig": "minecraft:gold"
+        },
+        "lootTable": "tetra:actions/geode"
+    },
+    {
+        "key": "shatter_diamond_action",
+        "requirement": {
+            "items": [ "tetra:pristine_diamond" ]
+        },
+        "requiredTools": {
+            "hammer_dig": "minecraft:gold"
+        },
+        "lootTable": "tetra:actions/shatter_diamond"
+    },
+    {
+        "key": "shatter_emerald_action",
+        "requirement": {
+            "items": [ "tetra:pristine_emerald" ]
+        },
+        "requiredTools": {
+            "hammer_dig": "minecraft:gold"
+        },
+        "lootTable": "tetra:actions/shatter_emerald"
+    },
+    {
+        "key": "shatter_lapis_action",
+        "requirement": {
+            "items": [ "tetra:pristine_lapis" ]
+        },
+        "requiredTools": {
+            "hammer_dig": "minecraft:gold"
+        },
+        "lootTable": "tetra:actions/shatter_lapis"
+    },
+	{
+        "key": "shatter_raw_aluminum_action",
+        "requirement": {
+            "items": [ "ftbic:aluminum_chunk" ]
+        },
+        "requiredTools": {
+            "hammer_dig": "minecraft:gold"
+        },
+        "lootTable": "tetra:actions/shatter_raw_aluminum"
+    },
+	{
+        "key": "shatter_raw_brilliance_action",
+        "requirement": {
+            "items": [ "malum:cluster_of_brilliance" ]
+        },
+        "requiredTools": {
+            "hammer_dig": "minecraft:gold"
+        },
+        "lootTable": "tetra:actions/shatter_raw_brilliance"
+    },
+	{
+        "key": "shatter_raw_cloggrum_action",
+        "requirement": {
+            "items": [ "undergarden:raw_cloggrum" ]
+        },
+        "requiredTools": {
+            "hammer_dig": "minecraft:gold"
+        },
+        "lootTable": "tetra:actions/shatter_raw_cloggrum"
+    },
+	{
+        "key": "shatter_raw_copper_action",
+        "requirement": {
+            "items": [ "minecraft:raw_copper" ]
+        },
+        "requiredTools": {
+            "hammer_dig": "minecraft:gold"
+        },
+        "lootTable": "tetra:actions/shatter_raw_copper"
+    },
+	{
+        "key": "shatter_raw_froststeel_action",
+        "requirement": {
+            "items": [ "undergarden:raw_froststeel" ]
+        },
+        "requiredTools": {
+            "hammer_dig": "minecraft:gold"
+        },
+        "lootTable": "tetra:actions/shatter_raw_froststeel"
+    },
+	{
+        "key": "shatter_raw_gold_action",
+        "requirement": {
+            "items": [ "minecraft:raw_gold" ]
+        },
+        "requiredTools": {
+            "hammer_dig": "minecraft:gold"
+        },
+        "lootTable": "tetra:actions/shatter_raw_gold"
+    },
+	{
+        "key": "shatter_raw_hellforged_action",
+        "requirement": {
+            "items": [ "bloodmagic:rawdemonite" ]
+        },
+        "requiredTools": {
+            "hammer_dig": "minecraft:gold"
+        },
+        "lootTable": "tetra:actions/shatter_raw_hellforged"
+    },
+	{
+        "key": "shatter_raw_iridium_action",
+        "requirement": {
+            "items": [ "ftbic:iridium_chunk" ]
+        },
+        "requiredTools": {
+            "hammer_dig": "minecraft:gold"
+        },
+        "lootTable": "tetra:actions/shatter_raw_iridium"
+    },
+	{
+        "key": "shatter_raw_iron_action",
+        "requirement": {
+            "items": [ "minecraft:raw_iron" ]
+        },
+        "requiredTools": {
+            "hammer_dig": "minecraft:gold"
+        },
+        "lootTable": "tetra:actions/shatter_raw_iron"
+    },
+	{
+        "key": "shatter_raw_lead_action",
+        "requirement": {
+            "items": [ "thermal:raw_lead" ]
+        },
+        "requiredTools": {
+            "hammer_dig": "minecraft:gold"
+        },
+        "lootTable": "tetra:actions/shatter_raw_lead"
+    },
+	{
+        "key": "shatter_raw_nickel_action",
+        "requirement": {
+            "items": [ "thermal:raw_nickel" ]
+        },
+        "requiredTools": {
+            "hammer_dig": "minecraft:gold"
+        },
+        "lootTable": "tetra:actions/shatter_raw_nickel"
+    },
+	{
+        "key": "shatter_raw_silver_action",
+        "requirement": {
+            "items": [ "thermal:raw_silver" ]
+        },
+        "requiredTools": {
+            "hammer_dig": "minecraft:gold"
+        },
+        "lootTable": "tetra:actions/shatter_raw_silver"
+    },
+	{
+        "key": "shatter_raw_soulstone_action",
+        "requirement": {
+            "items": [ "malum:raw_soulstone" ]
+        },
+        "requiredTools": {
+            "hammer_dig": "minecraft:gold"
+        },
+        "lootTable": "tetra:actions/shatter_raw_copper"
+    },
+	{
+        "key": "shatter_raw_tin_action",
+        "requirement": {
+            "items": [ "malum:raw_tin" ]
+        },
+        "requiredTools": {
+            "hammer_dig": "minecraft:gold"
+        },
+        "lootTable": "tetra:actions/shatter_raw_tin"
+    },
+	{
+        "key": "shatter_raw_uranium_action",
+        "requirement": {
+            "items": [ "ftbic:uranium_chunk" ]
+        },
+        "requiredTools": {
+            "hammer_dig": "minecraft:gold"
+        },
+        "lootTable": "tetra:actions/shatter_raw_uranium"
+    },
+	{
+        "key": "shatter_raw_uranium_action",
+        "requirement": {
+            "items": [ "create:raw_zinc" ]
+        },
+        "requiredTools": {
+            "hammer_dig": "minecraft:gold"
+        },
+        "lootTable": "tetra:actions/shatter_raw_uranium"
+    }
+]
