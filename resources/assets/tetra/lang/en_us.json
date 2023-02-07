@@ -57,5 +57,22 @@
 	"tetra.material.uranium.prefix": "Uranium",
 	
 	"tetra.material.Necronium": "Necronium",
-	"tetra.material.Necronium.prefix": "Necronium"
+	"tetra.material.Necronium.prefix": "Necronium",
+	
+	"tetra.shatter_raw_brilliance_action.label": "Shatter Ore",
+	"tetra.shatter_raw_aluminum_action.label": "Shatter Ore",
+	"tetra.shatter_raw_cloggrum_action.label": "Shatter Ore",
+	"tetra.shatter_raw_copper_action.label": "Shatter Ore",
+	"tetra.shatter_raw_froststeel_action.label": "Shatter Ore",
+	"tetra.shatter_raw_gold_action.label": "Shatter Ore",
+	"tetra.shatter_raw_hellforged_action.label": "Shatter Ore",
+	"tetra.shatter_raw_iridium_action.label": "Shatter Ore",
+	"tetra.shatter_raw_iron_action.label": "Shatter Ore",
+	"tetra.shatter_raw_lead_action.label": "Shatter Ore",
+	"tetra.shatter_raw_nickel_action.label": "Shatter Ore",
+	"tetra.shatter_raw_silver_action.label": "Shatter Ore",
+	"tetra.shatter_raw_soulstone_action.label": "Shatter Ore",
+	"tetra.shatter_raw_tin_action.label": "Shatter Ore",
+	"tetra.shatter_raw_uranium_action.label": "Shatter Ore",
+	"tetra.shatter_raw_zinc_action.label": "Shatter Ore"
 }
