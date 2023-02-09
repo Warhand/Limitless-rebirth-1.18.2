@@ -210,6 +210,15 @@ bronzeMaterial.molten = <fluid:kubejs:molten_bronze>;
 bronzeMaterial.metalDust = <item:thermal:bronze_dust>;
 bronzeMaterial.build();
 
+var bronzeAlloy = new AlloyMaterialClass();
+bronzeAlloy.name = "bronze_alloy";
+bronzeAlloy.inputCrafting = [<item:thermal:copper_dust>, <item:thermal:copper_dust>, <item:thermal:copper_dust>, <item:thermal:tin_dust>];
+bronzeAlloy.inputMachine = [<item:minecraft:copper_ingot> * 3, <item:thermal:tin_ingot>];
+bronzeAlloy.outputDust = <item:thermal:bronze_dust> * 4;
+bronzeAlloy.outputIngot = <item:alloyed:bronze_ingot> * 4;
+bronzeAlloy.outputMolten = <fluid:kubejs:molten_bronze> * 432;
+bronzeAlloy.build();
+
 //electrum
 var electrumMaterial = new GlobalMaterialRecipe();
 electrumMaterial.name = "electrum_material";
@@ -221,6 +230,15 @@ electrumMaterial.metalDust = <item:thermal:electrum_dust>;
 electrumMaterial.gear = <item:thermal:electrum_gear>;
 electrumMaterial.plate = <item:thermal:electrum_plate>;
 electrumMaterial.build();
+
+var electrumAlloy = new AlloyMaterialClass();
+electrumAlloy.name = "electrum_alloy";
+electrumAlloy.inputCrafting = [<item:thermal:silver_dust>, <item:thermal:gold_dust>];
+electrumAlloy.inputMachine = [<item:thermal:silver_ingot>, <item:minecraft:gold_ingot>];
+electrumAlloy.outputDust = <item:thermal:electrum_dust> * 2;
+electrumAlloy.outputIngot = <item:thermal:electrum_ingot> * 2;
+electrumAlloy.outputMolten = <fluid:kubejs:molten_electrum> * 216;
+electrumAlloy.build();
 
 //invar
 var invarMaterial = new GlobalMaterialRecipe();
@@ -236,8 +254,11 @@ invarMaterial.build();
 
 var invarAlloy = new AlloyMaterialClass();
 invarAlloy.name = "invar_alloy";
-invarAlloy.inputDust = [<item:thermal:iron_dust>, <item:thermal:iron_dust>, <item:thermal:nickel_dust>];
+invarAlloy.inputCrafting = [<item:thermal:iron_dust>, <item:thermal:iron_dust>, <item:thermal:nickel_dust>];
+invarAlloy.inputMachine = [<item:minecraft:iron_ingot> * 2, <item:thermal:nickel_ingot>];
 invarAlloy.outputDust = <item:thermal:invar_dust> * 3;
+invarAlloy.outputIngot = <item:thermal:invar_ingot> * 3;
+invarAlloy.outputMolten = <fluid:kubejs:molten_invar> * 324;
 invarAlloy.build();
 
 //constantan
@@ -252,6 +273,15 @@ constantanMaterial.gear = <item:thermal:constantan_gear>;
 constantanMaterial.plate = <item:thermal:constantan_plate>;
 constantanMaterial.build();
 
+var constantanAlloy = new AlloyMaterialClass();
+constantanAlloy.name = "constantan_alloy";
+constantanAlloy.inputCrafting = [<item:thermal:copper_dust>, <item:thermal:nickel_dust>];
+constantanAlloy.inputMachine = [<item:minecraft:copper_ingot>, <item:thermal:nickel_ingot>];
+constantanAlloy.outputDust = <item:thermal:constantan_dust> * 2;
+constantanAlloy.outputIngot = <item:thermal:constantan_ingot> * 2;
+constantanAlloy.outputMolten = <fluid:kubejs:molten_constantan> * 216;
+constantanAlloy.build();
+
 //signalum
 var signalumMaterial = new GlobalMaterialRecipe();
 signalumMaterial.name = "signalum_material";
@@ -264,6 +294,15 @@ signalumMaterial.gear = <item:thermal:signalum_gear>;
 signalumMaterial.plate = <item:thermal:signalum_plate>;
 signalumMaterial.build();
 
+var signalumAlloy = new AlloyMaterialClass();
+signalumAlloy.name = "signalum_alloy";
+signalumAlloy.inputCrafting = [<item:thermal:copper_dust>, <item:thermal:copper_dust>, <item:thermal:copper_dust>, <item:thermal:silver_dust>, <item:minecraft:redstone>, <item:minecraft:redstone>, <item:minecraft:redstone>, <item:minecraft:redstone>];
+signalumAlloy.inputMachine = [<item:minecraft:copper_ingot> * 3, <item:thermal:silver_ingot>, <item:minecraft:redstone> * 4];
+signalumAlloy.outputDust = <item:thermal:signalum_dust> * 4;
+signalumAlloy.outputIngot = <item:thermal:signalum_ingot> * 4;
+signalumAlloy.outputMolten = <fluid:kubejs:molten_signalum> * 432;
+signalumAlloy.build();
+
 //lumium
 var lumiumMaterial = new GlobalMaterialRecipe();
 lumiumMaterial.name = "lumium_material";
@@ -275,6 +314,15 @@ lumiumMaterial.gear = <item:thermal:lumium_gear>;
 lumiumMaterial.plate = <item:thermal:lumium_plate>;
 lumiumMaterial.molten = <fluid:kubejs:molten_lumium>;
 lumiumMaterial.build();
+
+var lumiumAlloy = new AlloyMaterialClass();
+lumiumAlloy.name = "lumium_alloy";
+lumiumAlloy.inputCrafting = [<item:thermal:tin_dust>, <item:thermal:tin_dust>, <item:thermal:tin_dust>, <item:thermal:silver_dust>, <item:thermal:glowstone_bucket>.transformReplace(<item:minecraft:bucket>)];
+lumiumAlloy.inputMachine = [<item:thermal:tin_ingot> * 3, <item:thermal:silver_ingot>, <item:minecraft:glowstone_dust> * 2];
+lumiumAlloy.outputDust = <item:thermal:lumium_dust> * 4;
+lumiumAlloy.outputIngot = <item:thermal:lumium_ingot> * 4;
+lumiumAlloy.outputMolten = <fluid:kubejs:molten_lumium> * 432;
+lumiumAlloy.build();
 
 //enderium
 var enderiumMaterial = new GlobalMaterialRecipe();
@@ -290,6 +338,15 @@ enderiumMaterial.plate = <item:thermal:enderium_plate>;
 enderiumMaterial.block = <item:thermal:enderium_block>;
 enderiumMaterial.build();
 
+var enderiumAlloy = new AlloyMaterialClass();
+enderiumAlloy.name = "enderium_alloy";
+enderiumAlloy.inputCrafting = [<item:thermal:lead_dust>, <item:thermal:lead_dust>, <item:thermal:lead_dust>, <item:thermal:diamond_dust>, <item:thermal:ender_bucket>.transformReplace(<item:minecraft:bucket>)];
+enderiumAlloy.inputMachine = [<item:thermal:lead_ingot> * 3, <item:minecraft:diamond>, <item:minecraft:ender_pearl> * 2];
+enderiumAlloy.outputDust = <item:thermal:enderium_dust> * 2;
+enderiumAlloy.outputIngot = <item:thermal:enderium_ingot> * 2;
+enderiumAlloy.outputMolten = <fluid:kubejs:molten_enderium> * 216;
+enderiumAlloy.build();
+
 //steel
 var steelMaterial = new GlobalMaterialRecipe();
 steelMaterial.name = "steel_material";
@@ -300,6 +357,15 @@ steelMaterial.block = <item:alloyed:steel_block>;
 steelMaterial.metalDust = <item:thermal:steel_dust>;
 steelMaterial.molten = <fluid:kubejs:molten_steel>;
 steelMaterial.build();
+
+var steelAlloy = new AlloyMaterialClass();
+steelAlloy.name = "steel_alloy";
+steelAlloy.hasCraftingRecipe = false;
+steelAlloy.inputMachine = [<item:thermal:coal_coke>, <item:minecraft:iron_ingot> * 2];
+steelAlloy.outputDust = <item:thermal:steel_dust>;
+steelAlloy.outputIngot = <item:alloyed:steel_ingot>;
+steelAlloy.outputMolten = <fluid:kubejs:molten_steel> * 108;
+steelAlloy.build();
 
 //froststeel
 var froststeelMaterial = new GlobalMaterialRecipe();
@@ -367,6 +433,15 @@ netheriteMaterial.molten = <fluid:kubejs:molten_netherite>;
 netheriteMaterial.metalDust = <item:contenttweaker:netherite_blend>;
 netheriteMaterial.build();
 
+var netheriteAlloy = new AlloyMaterialClass();
+netheriteAlloy.name = "netherite_alloy";
+netheriteAlloy.hasCraftingRecipe = false;
+netheriteAlloy.inputMachine = [<item:minecraft:gold_ingot> * 4, <item:minecraft:netherite_scrap> * 4];
+netheriteAlloy.outputDust = <item:contenttweaker:netherite_blend> * 2;
+netheriteAlloy.outputIngot = <item:minecraft:netherite_ingot> * 2;
+netheriteAlloy.outputMolten = <fluid:kubejs:molten_netherite> * 216;
+netheriteAlloy.build();
+
 //ancient debris
 var debrisMaterial = new GlobalMaterialRecipe();
 debrisMaterial.name = "ancient_debris_material";
@@ -383,6 +458,15 @@ pendoriteMaterial.molten = <fluid:kubejs:molten_pendorite>;
 pendoriteMaterial.block = <item:byg:pendorite_block>;
 pendoriteMaterial.ingot = <item:byg:pendorite_ingot>;
 pendoriteMaterial.build();
+
+var pendoriteAlloy = new AlloyMaterialClass();
+pendoriteAlloy.name = "pendorite_alloy";
+pendoriteAlloy.hasCraftingRecipe = false;
+pendoriteAlloy.inputMachine = [<item:byg:pendorite_scraps> * 4, <item:byg:emeraldite_shards> * 2, <item:minecraft:diamond> * 2];
+pendoriteAlloy.outputDust = <item:contenttweaker:pendorite_blend>;
+pendoriteAlloy.outputIngot = <item:byg:pendorite_ingot>;
+pendoriteAlloy.outputMolten = <fluid:kubejs:molten_pendorite>;
+pendoriteAlloy.build();
 
 //pendorite scraps
 var scrapMaterial = new GlobalMaterialRecipe();
@@ -467,6 +551,15 @@ brassMaterial.block = <item:create:brass_block>;
 brassMaterial.metalDust = <item:contenttweaker:brass_blend>;
 brassMaterial.build();
 
+var brassAlloy = new AlloyMaterialClass();
+brassAlloy.name = "brass_alloy";
+brassAlloy.inputCrafting = [<item:thermal:copper_dust>, <item:contenttweaker:zinc_dust>];
+brassAlloy.inputMachine = [<item:minecraft:copper_ingot>, <item:create:zinc_ingot>];
+brassAlloy.outputDust = <item:contenttweaker:brass_blend> * 2;
+brassAlloy.outputIngot = <item:create:brass_ingot> * 2;
+brassAlloy.outputMolten = <fluid:kubejs:molten_brass> * 216;
+brassAlloy.build();
+
 //hallowed gold
 var hallowedMaterial = new GlobalMaterialRecipe();
 hallowedMaterial.name = "hallowed_gold_material";
@@ -485,12 +578,228 @@ soulstainedMaterial.ingot = <item:malum:soul_stained_steel_ingot>;
 soulstainedMaterial.nugget = <item:malum:soul_stained_steel_nugget>;
 soulstainedMaterial.block = <item:malum:block_of_soul_stained_steel>;
 soulstainedMaterial.metalDust = <item:contenttweaker:soulstained_steel_blend>;
+soulstainedMaterial.build();
+
+//andesite alloy
+var andesiteAlloyZinc = new AlloyMaterialClass();
+andesiteAlloyZinc.name = "andesitezinc_alloy";
+andesiteAlloyZinc.hasCraftingRecipe = false;
+andesiteAlloyZinc.createItemOutput = true;
+andesiteAlloyZinc.inputMachine = [<item:create:zinc_nugget>, <item:minecraft:andesite>];
+andesiteAlloyZinc.outputIngot = <item:create:andesite_alloy>;
+andesiteAlloyZinc.build();
+var andesiteAlloyIron = new AlloyMaterialClass();
+andesiteAlloyIron.name = "andesiteiron_alloy";
+andesiteAlloyIron.hasCraftingRecipe = false;
+andesiteAlloyIron.createItemOutput = true;
+andesiteAlloyIron.inputMachine = [<item:minecraft:iron_nugget>, <item:minecraft:andesite>];
+andesiteAlloyIron.outputIngot = <item:create:andesite_alloy>;
+andesiteAlloyIron.build();
+
+//decorative alloys
+var sunmetalAlloy = new AlloyMaterialClass();
+sunmetalAlloy.name = "sunmetal_alloy";
+sunmetalAlloy.hasCraftingRecipe = false;
+sunmetalAlloy.createItemOutput = true;
+sunmetalAlloy.inputMachine = [<item:minecraft:soul_sand> * 2, <item:minecraft:gold_nugget> * 2];
+sunmetalAlloy.outputIngot = <item:architects_palette:sunmetal_brick> * 4;
+sunmetalAlloy.build();
+
+var netherBrassAlloy = new AlloyMaterialClass();
+netherBrassAlloy.name = "netherbrass_alloy";
+netherBrassAlloy.hasCraftingRecipe = false;
+netherBrassAlloy.createItemOutput = true;
+netherBrassAlloy.inputMachine = [<item:minecraft:soul_sand> * 2, <item:minecraft:iron_nugget>, <item:minecraft:copper_ingot>];
+netherBrassAlloy.outputIngot = <item:architects_palette:nether_brass_ingot> * 4;
+netherBrassAlloy.build();
 
 //diamond
 var diamondMaterial = new GlobalMaterialRecipe();
 diamondMaterial.name = "diamond_material";
 diamondMaterial.oreBlock = <tag:items:forge:ores/diamond>;
-diamondMaterial.block = <item:minecraft:diamond_block>;
 diamondMaterial.oreSpecial = <item:minecraft:diamond>;
-debrisMaterial.specialDrops = new outputSpecial(1, 1.0, 1, 0.25, 1.25);
-diamondMaterial.metalDust = <item:thermal:diamond_dust>;
+diamondMaterial.specialDrops = new outputSpecial(1, 1.0, 1, 0.25, 1.25);
+diamondMaterial.build();
+
+//nether quartz
+var netherQuartzMaterial = new GlobalMaterialRecipe();
+netherQuartzMaterial.name = "netherquartz_material";
+netherQuartzMaterial.oreBlock = <tag:items:forge:ores/quartz>;
+netherQuartzMaterial.oreSpecial = <item:minecraft:quartz>;
+netherQuartzMaterial.specialDrops = new outputSpecial(2, 1.0, 2, 0.25, 2.25);
+netherQuartzMaterial.build();
+
+//blazing quartz
+var blazingQuartzMaterial = new GlobalMaterialRecipe();
+blazingQuartzMaterial.name = "blazingquartz_material";
+blazingQuartzMaterial.oreBlock = <item:malum:blazing_quartz_ore>;
+blazingQuartzMaterial.oreSpecial = <item:malum:blazing_quartz>;
+blazingQuartzMaterial.specialDrops = new outputSpecial(2, 1.0, 1, 0.4, 2.25);
+blazingQuartzMaterial.build();
+
+//soulstone
+var soulstoneMaterial = new GlobalMaterialRecipe();
+soulstoneMaterial.name = "soulstone_material";
+soulstoneMaterial.oreBlock = <tag:items:forge:ores/soulstone>;
+soulstoneMaterial.oreRaw = <item:malum:raw_soulstone>;
+soulstoneMaterial.oreCrushed = <item:malum:crushed_soulstone>;
+soulstoneMaterial.oreRawBlock = <item:malum:block_of_raw_soulstone>;
+soulstoneMaterial.ingot = <item:malum:processed_soulstone>;
+soulstoneMaterial.block = <item:malum:block_of_soulstone>;
+soulstoneMaterial.build();
+
+//brilliance chunks
+var brillianceMaterial = new GlobalMaterialRecipe();
+brillianceMaterial.name = "brilliance_material";
+brillianceMaterial.oreBlock = <tag:items:forge:ores/brilliance>;
+brillianceMaterial.oreRaw = <item:malum:cluster_of_brilliance>;
+brillianceMaterial.oreCrushed = <item:malum:crushed_brilliance>;
+brillianceMaterial.ingot = <item:malum:chunk_of_brilliance>;
+brillianceMaterial.block = <item:malum:block_of_brilliance>;
+brillianceMaterial.build();
+
+//advanced alloy
+var advancedAlloy = new AlloyMaterialClass();
+advancedAlloy.name = "advanced_alloy";
+advancedAlloy.createItemOutput = true;
+advancedAlloy.inputCrafting = [<item:thermal:lead_dust>, <item:thermal:lead_dust>, <item:thermal:lead_dust>, <item:thermal:bronze_dust>, <item:thermal:bronze_dust>, <item:thermal:bronze_dust>, <item:thermal:tin_dust>, <item:thermal:tin_dust>, <item:thermal:tin_dust>];
+advancedAlloy.inputMachine = [<item:thermal:lead_ingot> * 3, <item:alloyed:bronze_ingot> * 3, <item:thermal:tin_ingot> * 3];
+advancedAlloy.outputDust = <item:ftbic:mixed_metal_blend>;
+advancedAlloy.outputIngot = <item:ftbic:advanced_alloy>;
+advancedAlloy.build();
+
+//redstone
+var redstoneMaterial = new GlobalMaterialRecipe();
+redstoneMaterial.name = "redstone_material";
+redstoneMaterial.oreBlock = <tag:items:forge:ores/redstone>;
+redstoneMaterial.oreSpecial = <item:minecraft:redstone>;
+redstoneMaterial.specialDrops = new outputSpecial(6, 1.0, 4, 0.5, 8.0);
+redstoneMaterial.build();
+
+//lapis lazuli
+var lapisMaterial = new GlobalMaterialRecipe();
+lapisMaterial.name = "lapis_material";
+lapisMaterial.oreBlock = <tag:items:forge:ores/lapis>;
+lapisMaterial.oreSpecial = <item:minecraft:lapis_lazuli>;
+lapisMaterial.specialDrops = new outputSpecial(14, 1.0, 14, 0.75, 24.0);
+lapisMaterial.build();
+
+//emerald
+var emeraldMaterial = new GlobalMaterialRecipe();
+emeraldMaterial.name = "emerald_material";
+emeraldMaterial.oreBlock = <tag:items:forge:ores/emerald>;
+emeraldMaterial.oreSpecial = <item:minecraft:emerald>;
+emeraldMaterial.specialDrops = new outputSpecial(1, 1.0, 1, 0.4, 1.25);
+emeraldMaterial.build();
+
+//ametrine
+var ametrineMaterial = new GlobalMaterialRecipe();
+ametrineMaterial.name = "ametrine_material";
+ametrineMaterial.oreBlock = <tag:items:forge:ores/ametrine>;
+ametrineMaterial.oreSpecial = <item:byg:ametrine_gems>;
+ametrineMaterial.specialDrops = new outputSpecial(1, 1.0, 1, 0.4, 1.25);
+ametrineMaterial.build();
+
+//jade
+var jadeMaterial = new GlobalMaterialRecipe();
+jadeMaterial.name = "jade_material";
+jadeMaterial.oreBlock = <tag:items:forge:ores/jade>;
+jadeMaterial.oreSpecial = <item:sullysmod:rough_jade>;
+jadeMaterial.specialDrops = new outputSpecial(8, 1.0, 6, 0.5, 12.0);
+jadeMaterial.build();
+
+//niter
+var niterMaterial = new GlobalMaterialRecipe();
+niterMaterial.name = "niter_material";
+niterMaterial.oreBlock = <tag:items:forge:ores/niter>;
+niterMaterial.oreSpecial = <item:thermal:niter>;
+niterMaterial.specialDrops = new outputSpecial(6, 1.0, 2, 0.5, 6.0);
+niterMaterial.build();
+
+//sulfur
+var sulfurMaterial = new GlobalMaterialRecipe();
+sulfurMaterial.name = "sulfur_material";
+sulfurMaterial.oreBlock = <tag:items:forge:ores/sulfur>;
+sulfurMaterial.oreSpecial = <item:thermal:sulfur>;
+sulfurMaterial.specialDrops = new outputSpecial(6, 1.0, 4, 0.5, 8.0);
+sulfurMaterial.build();
+
+//nether gold
+var nethergoldMaterial = new GlobalMaterialRecipe();
+nethergoldMaterial.name = "nethergold_material";
+nethergoldMaterial.oreBlock = <tag:items:forge:ores/nethergold>;
+nethergoldMaterial.oreSpecial = <item:bloodmagic:goldfragment>;
+nethergoldMaterial.specialDrops = new outputSpecial(6, 1.0, 2, 0.75, 6.5);
+nethergoldMaterial.build();
+
+//cinnabar
+var cinnabarMaterial = new GlobalMaterialRecipe();
+cinnabarMaterial.name = "cinnabar_material";
+cinnabarMaterial.oreBlock = <tag:items:forge:ores/cinnabar>;
+cinnabarMaterial.oreSpecial = <item:thermal:cinnabar>;
+cinnabarMaterial.specialDrops = new outputSpecial(1, 1.0, 1, 0.5, 1.25);
+cinnabarMaterial.build();
+
+//regalium
+var regaliumMaterial = new GlobalMaterialRecipe();
+regaliumMaterial.name = "regalium_material";
+regaliumMaterial.oreBlock = <tag:items:forge:ores/regalium>;
+regaliumMaterial.oreSpecial = <item:undergarden:regalium_crystal>;
+regaliumMaterial.specialDrops = new outputSpecial(1, 1.0, 1, 0.5, 1.25);
+regaliumMaterial.build();
+
+//utherium
+var utheriumMaterial = new GlobalMaterialRecipe();
+utheriumMaterial.name = "utherium_material";
+utheriumMaterial.oreBlock = <tag:items:forge:ores/utherium>;
+utheriumMaterial.oreSpecial = <item:undergarden:utherium_crystal>;
+utheriumMaterial.specialDrops = new outputSpecial(1, 1.0, 1, 0.35, 1.25);
+utheriumMaterial.build();
+
+//coal
+var coalMaterial = new GlobalMaterialRecipe();
+coalMaterial.name = "coal_material";
+coalMaterial.oreBlock = <tag:items:forge:ores/coal>;
+coalMaterial.oreSpecial = <item:minecraft:coal>;
+coalMaterial.specialDrops = new outputSpecial(2, 1.0, 2, 0.25, 2.5);
+coalMaterial.build();
+
+//emeraldite
+var emeralditeMaterial = new GlobalMaterialRecipe();
+emeralditeMaterial.name = "emeraldite_material";
+emeralditeMaterial.oreBlock = <tag:items:forge:ores/emeraldite>;
+emeralditeMaterial.oreSpecial = <item:byg:emeraldite_shards>;
+emeralditeMaterial.specialDrops = new outputSpecial(2, 1.0, 1, 0.5, 2.25);
+emeralditeMaterial.build();
+
+//Anthracite
+var anthraciteMaterial = new GlobalMaterialRecipe();
+anthraciteMaterial.name = "anthracite_material";
+anthraciteMaterial.oreBlock = <tag:items:forge:ores/anthracite>;
+anthraciteMaterial.oreSpecial = <item:byg:anthracite>;
+anthraciteMaterial.specialDrops = new outputSpecial(2, 1.0, 2, 0.25, 2.5);
+anthraciteMaterial.build();
+
+//Lignite
+var ligniteMaterial = new GlobalMaterialRecipe();
+ligniteMaterial.name = "lignite_material";
+ligniteMaterial.oreBlock = <tag:items:forge:ores/lignite>;
+ligniteMaterial.oreSpecial = <item:byg:lignite>;
+ligniteMaterial.specialDrops = new outputSpecial(2, 1.0, 2, 0.25, 2.5);
+ligniteMaterial.build();
+
+//ruby
+var rubyMaterial = new GlobalMaterialRecipe();
+rubyMaterial.name = "ruby_material";
+rubyMaterial.oreBlock = <tag:items:forge:ores/ruby>;
+rubyMaterial.oreSpecial = <item:thermal:ruby>;
+rubyMaterial.specialDrops = new outputSpecial(1, 1.0, 1, 0.4, 1.25);
+rubyMaterial.build();
+
+//sapphire
+var sapphireMaterial = new GlobalMaterialRecipe();
+sapphireMaterial.name = "sapphire_material";
+sapphireMaterial.oreBlock = <tag:items:forge:ores/sapphire>;
+sapphireMaterial.oreSpecial = <item:thermal:sapphire>;
+sapphireMaterial.specialDrops = new outputSpecial(1, 1.0, 1, 0.4, 1.25);
+sapphireMaterial.build();
