@@ -58,3 +58,6 @@ description(<item:pipez:basic_upgrade>, "The first level of pipe upgrade, double
 description(<item:pipez:improved_upgrade>, "The second level of pipe upgrade, doubles the extraction rate from the basic upgrade and introduces the ability to fine-tune the distribution.");
 description(<item:pipez:advanced_upgrade>, "The third level of pipe upgrade, doubles the extraction rate from the improved upgrade and introduces the ability to filter what items/fluids are extracted. You can also use the Filter Destination Tool to customize what inventories/tanks the specified items/fluids will travel to.");
 description(<item:pipez:ultimate_upgrade>, "The fourth and final level of pipe upgrade, doubles the extraction rate from the advanced upgrade, although it does not introduce any additional functionality.");
+
+//rope arrow description
+description(<item:supplementaries:rope_arrow>, "By attaching some rope to an arrow, you should be able to shoot it against a ceiling or surface and create an instant rope ladder!");
