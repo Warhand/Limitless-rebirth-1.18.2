@@ -851,3 +851,13 @@ loot.modifiers.register("loot_name_in_treasure",
 		}
 		return stacks;
 	});
+	
+//block loot modifier changes
+
+//nether gold ore
+<block:minecraft:nether_gold_ore>.addLootModifier("nugget_to_fragment_nether_gold", CommonLootModifiers.replaceStackWith(<item:minecraft:gold_nugget>, <item:bloodmagic:goldfragment>));
+<block:byg:blue_nether_gold_ore>.addLootModifier("nugget_to_fragment_nether_gold_byg_blue", CommonLootModifiers.replaceStackWith(<item:minecraft:gold_nugget>, <item:bloodmagic:goldfragment>));
+<block:byg:brimstone_nether_gold_ore>.addLootModifier("nugget_to_fragment_nether_gold_byg_brimstone", CommonLootModifiers.replaceStackWith(<item:minecraft:gold_nugget>, <item:bloodmagic:goldfragment>));
+
+//pendorite ore
+<block:byg:pendorite_ore>.addLootModifier("raw_to_scrap_pendorite_ore", CommonLootModifiers.replaceStackWith(<item:byg:raw_pendorite>, <item:byg:pendorite_scraps>));
