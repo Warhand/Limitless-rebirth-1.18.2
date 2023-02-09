@@ -11,13 +11,13 @@
 [Modifiers]
 	#
 	#Disable the cooldown when the player lowers their shield
-	noLoweringCooldown = true
+	noLoweringCooldown = false
 	#
 	#Disable putting shields on cooldown at all
 	noCooldown = false
 	#
 	#Make all shields have vanilla movement speed
-	noSpeedModifier = true
+	noSpeedModifier = false
 	#
 	#Make shields only block partial damage from explosions when not parrying
 	harderExplosions = true
