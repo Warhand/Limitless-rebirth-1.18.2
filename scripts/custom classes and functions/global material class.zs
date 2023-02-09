@@ -156,6 +156,7 @@ public class GlobalMaterialRecipe {
 		
 		if (!metalDust.isEmpty() && !ingot.isEmpty()) {
 				crushingAll(name + "_ingot_to_dust", ingot, metalDust, 1.0, 1);
+				crushingThermal(name + "_ingot_to_dust_thermal", ingot, metalDust, -1.0, 1);
 		}
 		
 		//raw ore to fragments
@@ -371,9 +372,19 @@ public class GlobalMaterialRecipe {
 				  ],
 				  "heatRequirement": "superheated"
 				});
+				<recipetype:thermal:crucible>.addJsonRecipe(name + "_melting_block_to_molten_crucible_oretag", {
+				  "ingredient": oreBlock,
+					  "result": [
+						{
+						  "fluid": molten.registryName,
+						  "amount": 324
+						}
+					  ],
+					"energy": 8000
+				});
 			}
 			if (!oreCrushed.isEmpty()) {
-					<recipetype:create:mixing>.addJsonRecipe(name + "_melting_crushed_to_molten_superheated", {
+				<recipetype:create:mixing>.addJsonRecipe(name + "_melting_crushed_to_molten_superheated", {
 					  "ingredients": [
 						oreCrushed
 					  ],
@@ -384,10 +395,20 @@ public class GlobalMaterialRecipe {
 						}
 					  ],
 					  "heatRequirement": "superheated"
-					});
-				}
-				if (!oreGravel.isEmpty()) {
-					<recipetype:create:mixing>.addJsonRecipe(name + "_melting_gravel_to_molten_superheated", {
+				});
+				<recipetype:thermal:crucible>.addJsonRecipe(name + "_melting_crushed_to_molten_crucible", {
+					  "ingredient": oreCrushed,
+					  "result": [
+						{
+						  "fluid": molten.registryName,
+						  "amount": 192
+						}
+					  ],
+					"energy": 8000
+				});
+			}
+			if (!oreGravel.isEmpty()) {
+				<recipetype:create:mixing>.addJsonRecipe(name + "_melting_gravel_to_molten_superheated", {
 					  "ingredients": [
 						oreGravel
 					  ],
@@ -398,10 +419,20 @@ public class GlobalMaterialRecipe {
 						}
 					  ],
 					  "heatRequirement": "superheated"
-					});
-				}
-				if (!oreRaw.isEmpty()) {
-					<recipetype:create:mixing>.addJsonRecipe(name + "_melting_raw_to_molten_superheated", {
+				});
+				<recipetype:thermal:crucible>.addJsonRecipe(name + "_melting_gravel_to_molten_crucible", {
+					  "ingredient": oreGravel,
+					  "result": [
+						{
+						  "fluid": molten.registryName,
+						  "amount": 180
+						}
+					  ],
+					"energy": 8000
+				});
+			}
+			if (!oreRaw.isEmpty()) {
+				<recipetype:create:mixing>.addJsonRecipe(name + "_melting_raw_to_molten_superheated", {
 					  "ingredients": [
 						oreRaw
 					  ],
@@ -412,10 +443,20 @@ public class GlobalMaterialRecipe {
 						}
 					  ],
 					  "heatRequirement": "superheated"
-					});
-				}
-				if (!oreSpecial.isEmpty() && isSpecialMetal == true) {
-					<recipetype:create:mixing>.addJsonRecipe(name + "_melting_special_to_molten_superheated", {
+				});
+				<recipetype:thermal:crucible>.addJsonRecipe(name + "_melting_raw_to_molten_crucible", {
+					  "ingredient": oreRaw,
+					  "result": [
+						{
+						  "fluid": molten.registryName,
+						  "amount": 216
+						}
+					  ],
+					"energy": 8000
+				});
+			}
+			if (!oreSpecial.isEmpty() && isSpecialMetal == true) {
+				<recipetype:create:mixing>.addJsonRecipe(name + "_melting_special_to_molten_superheated", {
 					  "ingredients": [
 						oreSpecial
 					  ],
@@ -426,10 +467,20 @@ public class GlobalMaterialRecipe {
 						}
 					  ],
 					  "heatRequirement": "superheated"
-					});
-				}
-				if (!oreRawBlock.isEmpty()) {
-					<recipetype:create:mixing>.addJsonRecipe(name + "_melting_raw_block_to_molten_superheated", {
+				});
+				<recipetype:thermal:crucible>.addJsonRecipe(name + "_melting_special_to_molten_crucible", {
+					  "ingredient": oreSpecial,
+					  "result": [
+						{
+						  "fluid": molten.registryName,
+						  "amount": 216
+						}
+					  ],
+					"energy": 8000
+				});
+			}
+			if (!oreRawBlock.isEmpty()) {
+				<recipetype:create:mixing>.addJsonRecipe(name + "_melting_raw_block_to_molten_superheated", {
 					  "ingredients": [
 						oreRawBlock
 					  ],
@@ -440,10 +491,20 @@ public class GlobalMaterialRecipe {
 						}
 					  ],
 					  "heatRequirement": "superheated"
-					});
-				}
-				if (!node.isEmpty()) {
-					<recipetype:create:mixing>.addJsonRecipe(name + "_melting_node_to_molten_superheated", {
+				});
+				<recipetype:thermal:crucible>.addJsonRecipe(name + "_melting_raw_block_to_molten_crucible", {
+					  "ingredient": oreRawBlock,
+					  "result": [
+						{
+						  "fluid": molten.registryName,
+						  "amount": 1944
+						}
+					  ],
+					"energy": 8000
+				});
+			}
+			if (!node.isEmpty()) {
+				<recipetype:create:mixing>.addJsonRecipe(name + "_melting_node_to_molten_superheated", {
 					  "ingredients": [
 						node
 					  ],
@@ -453,9 +514,19 @@ public class GlobalMaterialRecipe {
 						  "amount": 48
 						}
 					  ],
-					  "heatRequirement": "superheated"
-					});
-				}
+					"heatRequirement": "superheated"
+				});
+				<recipetype:thermal:crucible>.addJsonRecipe(name + "_melting_node_to_molten_crucible", {
+					  "ingredient": node,
+					  "result": [
+						{
+						  "fluid": molten.registryName,
+						  "amount": 216
+						}
+					  ],
+					"energy": 8000
+				});
+			}
 			
 			//heated melting
 			if (!ingot.isEmpty()) {
@@ -471,6 +542,16 @@ public class GlobalMaterialRecipe {
 				  ],
 				  "heatRequirement": "heated"
 				});
+				<recipetype:thermal:crucible>.addJsonRecipe(name + "_melting_ingot_to_molten_crucible", {
+					  "ingredient": ingot,
+					  "result": [
+						{
+						  "fluid": molten.registryName,
+						  "amount": 108
+						}
+					  ],
+					"energy": 2000
+				});
 			}
 			if (!plate.isEmpty()) {
 				<recipetype:create:mixing>.addJsonRecipe(name + "_melting_plate_to_molten_basic", {
@@ -484,6 +565,16 @@ public class GlobalMaterialRecipe {
 					}
 				  ],
 				  "heatRequirement": "heated"
+				});
+				<recipetype:thermal:crucible>.addJsonRecipe(name + "_melting_plate_to_molten_crucible", {
+					  "ingredient": plate,
+					  "result": [
+						{
+						  "fluid": molten.registryName,
+						  "amount": 108
+						}
+					  ],
+					"energy": 2000
 				});
 			}
 			if (!rod.isEmpty()) {
@@ -499,6 +590,16 @@ public class GlobalMaterialRecipe {
 				  ],
 				  "heatRequirement": "heated"
 				});
+				<recipetype:thermal:crucible>.addJsonRecipe(name + "_melting_rod_to_molten_crucible", {
+					  "ingredient": rod,
+					  "result": [
+						{
+						  "fluid": molten.registryName,
+						  "amount": 108
+						}
+					  ],
+					"energy": 2000
+				});
 			}
 			if (!oreFragment.isEmpty()) {
 				<recipetype:create:mixing>.addJsonRecipe(name + "_melting_fragment_to_molten_basic", {
@@ -512,6 +613,16 @@ public class GlobalMaterialRecipe {
 					}
 				  ],
 				  "heatRequirement": "heated"
+				});
+				<recipetype:thermal:crucible>.addJsonRecipe(name + "_melting_fragment_to_molten_crucible", {
+					  "ingredient": oreFragment,
+					  "result": [
+						{
+						  "fluid": molten.registryName,
+						  "amount": 12
+						}
+					  ],
+					"energy": 2000
 				});
 			}
 		}
@@ -809,30 +920,29 @@ public class GlobalMaterialRecipe {
 		}
 		
 		//packing and unpacking
-		if (!block.isEmpty()) {
+		if (!block.isEmpty() && !ingot.isEmpty()) {
 			craftingTable.remove(block);
 			<recipetype:thermal:press>.remove(block);
-		}
-		if (!ingot.isEmpty()) {
 			craftingTable.remove(ingot);
 			<recipetype:thermal:press>.remove(ingot);
 		}
-		if (!nugget.isEmpty()) {
+		if (!nugget.isEmpty() && !ingot.isEmpty()) {
 			craftingTable.remove(nugget);
 			<recipetype:thermal:press>.remove(nugget);
+			craftingTable.remove(ingot);
+			<recipetype:thermal:press>.remove(ingot);
 		}
 		
-		if (!oreRaw.isEmpty()) {
+		if (!oreRaw.isEmpty() && !oreRawBlock.isEmpty()) {
 			craftingTable.remove(oreRaw);
 			<recipetype:thermal:press>.remove(oreRaw);
+			craftingTable.remove(oreRawBlock);
+			<recipetype:thermal:press>.remove(oreRawBlock);
 		}
 		
-		if (!oreSpecial.isEmpty()) {
+		if (!oreSpecial.isEmpty() && !oreRawBlock.isEmpty()) {
 			craftingTable.remove(oreSpecial);
 			<recipetype:thermal:press>.remove(oreSpecial);
-		}
-		
-		if (!oreRawBlock.isEmpty()) {
 			craftingTable.remove(oreRawBlock);
 			<recipetype:thermal:press>.remove(oreRawBlock);
 		}
