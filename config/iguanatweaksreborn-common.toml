@@ -354,7 +354,7 @@
 	#Change all the blocks hardness
 	"Enable Global Hardness" = false
 	#Change specific blocks hardness as well as black and whitelist. Requires a Minecraft restart if you remove a block from the list.
-	"Enable Custom Hardness" = true
+	"Enable Custom Hardness" = false
 	#Various mining changes
 	"Enable Misc" = true
 
@@ -532,7 +532,7 @@
 	#Prevents the player from placing blocks below him when in mid air.
 	"Enable No Pillaring" = false
 	#Player's slowed down for a brief moment when hit.
-	"Enable Tagging" = true
+	"Enable Tagging" = false
 	#Slowdown based off the terrain you're walking on.
 	"Enable Terrain Slowdown" = false
 	#Player's slowed down when walking backwards.
@@ -547,7 +547,7 @@
 		#Total percentage slowdown is '(slowness_per_armor * armor_points) * (1 + (toughness * percentage_per_toughness))'
 		#E.g. with 'Slowness per Armor' set to 0.02 and this set to 0.04 and the player wearing Diamond Armor the slowdown is '(0.02 * 20) * (1 + (8 * 0.04))' = '0.4 * 1.32'= '0.528' = -52.8% Speed applied to the player.
 		#Range: 0.0 ~ 1.0
-		"Percentage Increase per Toughness" = 0.025
+		"Percentage Increase per Toughness" = 0.0
 		#Define here a list of total slowdown percentage (with full armor) per material. This has priority over 'Slowdown per Armor' and 'Percentage Increase per Toughness'. Material's names are the names in the armor's ids. E.g. Gold Armor is 'golden' as the ids are like 'golden_chestplate'.
 		#Format is material,total_slowdown
 		"Material Weight" = ["leather,0.04", "chainmail,0.10", "golden,0.07", "iron,0.13", "diamond,0.18", "netherite,0.25"]
@@ -558,7 +558,7 @@
 		"Enchantments Weight Reduction" = ["minecraft:feather_falling,0.10", "elenaidodge2:lightweight,0.15,5"]
 		#Shields will slowdown the player by this percentage.
 		#Range: 0.0 ~ 1.0
-		"Shield Slowdown" = 0.15
+		"Shield Slowdown" = 0.0
 
 	#Player's slowed down for a brief moment when hit.
 	[Movement.Tagging]
