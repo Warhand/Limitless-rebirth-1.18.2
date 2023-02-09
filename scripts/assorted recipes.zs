@@ -19,8 +19,8 @@ craftingTable.addShaped("waystones_warp_stone", <item:waystones:warp_stone>, [[<
 
 //waystones warp dust
 craftingTable.remove(<item:waystones:warp_dust>);
-craftingTable.addShapeless("waystones_warp_dust", <item:waystones:warp_dust>, [<tag:items:forge:dusts/ender>, <tag:items:forge:gems/amethyst>]);
-craftingTable.addShapeless("ender_waystones_warp_dust", <item:waystones:warp_dust> * 4, [<tag:items:forge:dusts/ender>, <item:minecraft:chorus_fruit>, <item:minecraft:blaze_powder>]);
+craftingTable.addShapeless("waystones_warp_dust", <item:waystones:warp_dust>, [<tag:items:forge:dusts/ender_pearl>, <tag:items:forge:gems/amethyst>]);
+craftingTable.addShapeless("ender_waystones_warp_dust", <item:waystones:warp_dust> * 4, [<tag:items:forge:dusts/ender_pearl>, <item:minecraft:chorus_fruit>, <item:minecraft:blaze_powder>]);
 
 //minecraft lightning rod
 craftingTable.remove(<item:minecraft:lightning_rod>);
@@ -269,3 +269,19 @@ craftingTable.addShapeless("custom_gravisand_alternative", <item:quark:gravisand
 
 //custom extruder recipe
 craftingTable.addShaped("custom_ftbic_extruder", <item:ftbic:extruder>, [[<tag:items:forge:plates/iron>, <item:ftbic:electronic_circuit>, <tag:items:forge:plates/iron>], [<tag:items:forge:plates/iron>, <item:ftbic:machine_block>, <tag:items:forge:plates/iron>]]);
+
+//alternate rope recipe
+craftingTable.addShapeless("custom_alternate_rope_recipe", <item:supplementaries:rope> * 4, [<item:farmersdelight:rope>, <item:farmersdelight:rope>]);
+craftingTable.addShaped("custom_alternate_rope_vine", <item:supplementaries:rope> * 2, [[<tag:items:lr:vines>], [<tag:items:lr:vines>]]);
+
+//custom safety net recipe
+craftingTable.addShaped("custom_safety_net", <item:farmersdelight:safety_net> * 2, [[<tag:items:forge:rope>, <tag:items:forge:rope>], [<tag:items:forge:rope>, <tag:items:forge:rope>]]);
+
+//custom warp scroll recipe
+craftingTable.addShaped("custom_warp_scroll_recipe", <item:waystones:warp_scroll> * 4, [[IIngredientEmpty.getInstance(), <item:waystones:warp_dust>, IIngredientEmpty.getInstance()], [<item:waystones:warp_dust>, <item:minecraft:paper>, <item:waystones:warp_dust>], [IIngredientEmpty.getInstance(), <item:waystones:warp_dust>, IIngredientEmpty.getInstance()]]);
+
+//compost from cloggrum
+craftingTable.addShapeless("cloggrum_and_sulfur_to_compost", <item:thermal:compost> * 6, [<item:thermal:sulfur_dust>, <item:contenttweaker:cloggrum_dust>]);
+
+//custom coal coke recipe
+blastFurnace.addRecipe("custom_coal_coke", <item:thermal:coal_coke>, <item:minecraft:coal>, 0.5, 100);
