@@ -46,7 +46,6 @@ val cooked_fish as IItemStack[] = [
 <tag:items:rosie:malum/soul>.add(<item:malum:soulstone_ore>);
 <tag:items:rosie:malum/soul>.add(<item:malum:deepslate_soulstone_ore>);
 <tag:items:rosie:malum/soulraw>.add(<item:malum:raw_soulstone>);
-<tag:items:rosie:nethergold>.add(<item:minecraft:nether_gold_ore>);
 <tag:items:forge:ores/brilliance>.add(<item:malum:brilliant_stone>);
 <tag:items:forge:ores/brilliance>.add(<item:malum:brilliant_deepslate>);
 
@@ -56,6 +55,10 @@ val cooked_fish as IItemStack[] = [
 //removing nether gold from gold tag, adding it to nethergold tag
 <tag:items:forge:ores/nethergold>.add(<item:minecraft:nether_gold_ore>);
 <tag:items:forge:ores/gold>.remove(<item:minecraft:nether_gold_ore>);
+<tag:items:forge:ores/nethergold>.add(<item:byg:blue_nether_gold_ore>);
+<tag:items:forge:ores/gold>.remove(<item:byg:blue_nether_gold_ore>);
+<tag:items:forge:ores/nethergold>.add(<item:byg:brimstone_nether_gold_ore>);
+<tag:items:forge:ores/gold>.remove(<item:byg:brimstone_nether_gold_ore>);
 
 //adding fish to forge fish tag
 <tag:items:forge:raw_fishes>.add(<item:aquaculture:fish_fillet_raw>);
@@ -295,11 +298,22 @@ val purple_flowers = [
 <tag:items:lr:dye_flowers/gray>.add(<item:biomemakeover:gray_petals>);
 <tag:items:lr:dye_flowers/brown>.add(<item:biomemakeover:brown_petals>);
 
-//adding custom blocks to raw storage block tags
-<tag:items:forge:storage_blocks/raw_tin>.add(<item:contenttweaker:raw_tin_block>);
+//adding custom blocks to basic tags
 <tag:items:forge:storage_blocks/raw_irididum>.add(<item:contenttweaker:raw_iridium_block>);
 <tag:items:forge:storage_blocks/raw_aluminum>.add(<item:contenttweaker:raw_aluminum_block>);
 <tag:items:forge:storage_blocks/raw_uranium>.add(<item:contenttweaker:raw_uranium_block>);
+
+val custom_blocks = [
+	<block:contenttweaker:metal_slag_block>,
+	<block:contenttweaker:raw_uranium_block>,
+	<block:contenttweaker:raw_aluminum_block>,
+	<block:contenttweaker:raw_iridium_block>
+];
+
+<tag:blocks:minecraft:needs_stone_tool>.add(custom_blocks);
+<tag:blocks:upgradedcore:mineable/hammer>.add(custom_blocks);
+<tag:blocks:minecraft:mineable/pickaxe>.add(custom_blocks);
+
 
 //adding basalt blocks to basalt tag
 
@@ -377,6 +391,15 @@ val molten_metal = [
 	<fluid:kubejs:molten_lumium>,
 	<fluid:kubejs:molten_pendorite>,
 	<fluid:kubejs:molten_signalum>,
+	<fluid:kubejs:molten_nickel>,
+	<fluid:kubejs:molten_silver>
+];
+
+for fluid in molten_metal {
+<tag:fluids:minecraft:lava>.add(fluid);
+}
+
+val flowing_molten = [
 	<fluid:kubejs:flowing_molten_iron>,
 	<fluid:kubejs:flowing_molten_gold>,
 	<fluid:kubejs:flowing_molten_copper>,
@@ -406,11 +429,14 @@ val molten_metal = [
 	<fluid:kubejs:flowing_molten_soulstained>,
 	<fluid:kubejs:flowing_molten_lumium>,
 	<fluid:kubejs:flowing_molten_pendorite>,
-	<fluid:kubejs:flowing_molten_signalum>
+	<fluid:kubejs:flowing_molten_signalum>,
+	<fluid:kubejs:flowing_molten_nickel>,
+	<fluid:kubejs:flowing_molten_silver>
 ];
 
-for fluid in molten_metal {
+for fluid in flowing_molten {
 <tag:fluids:minecraft:lava>.add(fluid);
+<tag:fluids:lr:flowing_molten>.add(fluid);
 }
 
 //adding knives to both the fillet knives and farmers delight knife tags
@@ -453,3 +479,20 @@ val chefs_knife = [
 
 <tag:items:forge:fillet_knife>.add(fillet_knife);
 <tag:items:farmersdelight:tools/knives>.add(chefs_knife);
+
+//adding vines to a custom vine tag
+val vines = [
+	<item:minecraft:vine>,
+	<item:minecraft:weeping_vines>,
+	<item:minecraft:twisting_vines>,
+	<item:darkerdepths:glowspire>,
+	<item:byg:imparius_vine>,
+	<item:byg:lament_vine>,
+	<item:byg:skyris_vine>,
+	<item:byg:embur_gel_vines>,
+	<item:byg:wailing_vine>,
+	<item:byg:shulkren_vine>
+];
+
+<tag:items:lr:vines>.add(vines);
+
