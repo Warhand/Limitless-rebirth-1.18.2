@@ -45,10 +45,13 @@ import crafttweaker.api.recipe.SmithingRecipeManager;
 //simple crushing recipes
 
 val one_to_one_map as IItemStack[IIngredient] = {
-	<item:minecraft:ender_pearl>: <item:ftbic:ender_dust>,
+	<item:minecraft:ender_pearl>: <item:thermal:ender_pearl_dust>,
 	<item:alexsdelight:raw_bison>: <item:alexsdelight:bison_mince>,
 	<item:minecraft:charcoal>: <item:ftbic:charcoal_dust>,
 	<item:nethersdelight:strider_slice>: <item:nethersdelight:ground_strider>,
+	<item:thermal:apatite>: <item:thermal:apatite_dust>,
+	<item:thermal:ruby>: <item:thermal:ruby_dust>,
+	<item:thermal:sapphire>: <item:thermal:sapphire_dust>,
 	<tag:items:forge:ingots/steel>.asIIngredient(): <item:thermal:steel_dust>,
 	<tag:items:forge:ingots/constantan>.asIIngredient(): <item:thermal:constantan_dust>,
 	<tag:items:forge:ingots/electrum>.asIIngredient(): <item:thermal:electrum_dust>,
@@ -59,6 +62,8 @@ val one_to_one_map as IItemStack[IIngredient] = {
 
 for input, output in one_to_one_map{
 	crushingAll("one_to_one_" + input.items[0].registryName.path, input, output, 1.0, 1);
+	crushingThermal("one_to_one_thermal_" + input.items[0].registryName.path, input, output, -1.0, 1);
+	craftingTable.addShapeless("one_to_one_charge_crafting_" + input.items[0].registryName.path, output, [input, <item:thermal:earth_charge>]);
 }
 
 val flower_dye_crushing as IItemStack[IIngredient] = {
