@@ -7,6 +7,7 @@ import crafttweaker.api.ingredient.type.IIngredientAny;
 import crafttweaker.api.ingredient.type.IIngredientEmpty;
 import crafttweaker.api.ingredient.IIngredientWithAmount;
 import crafttweaker.api.ingredient.type.IIngredientList;
+import stdlib.List;
 import crafttweaker.api.data.ListData;
 import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.item.ItemDefinition;
@@ -246,26 +247,6 @@ public function crushingAll(recipeName as string, input as IIngredient, output1 
 	  "processingTime": 400
 	});
 
-	<recipetype:thermal:pulverizer>.addJsonRecipe("custom_thermal_pulverizing_universal_recipe_" + recipeName,
-	{
-	"ingredient":input,
-  "result": [
-    {
-      "item": output1.registryName,
-	  "count": amount1,
-      "chance": chance1,
-	  "locked": true
-    },
-    {
-      "item": output2.registryName,
-	  "count": amount2,
-      "chance": amount2,
-	  "locked": true
-    }
-  ],
-  "experience": 0.5
-	});
-
 	<recipetype:bloodmagic:arc>.addJsonRecipe("custom_blood_exploding_universal_recipe_" + recipeName,
 	{
 	"input": input,
@@ -341,6 +322,7 @@ public class SummonMob {
 	public var name as string : get, set;
 	public var summon as string : get, set;
 	public var summonData as string : get, set = "{}";
+	public var isSummonFromAmber as bool : get, set = false;
 	public var sacrifice as string : get, set;
 	public var input1 as IIngredient : get, set;
 	public var input2 as IIngredient : get, set;
@@ -350,8 +332,9 @@ public class SummonMob {
 	public build() as void {
 		println("building summon recipe:" + name);
 
-		//actual recipe
-			<recipetype:summoningrituals:altar>.addJsonRecipe("custom_ritual_" + name, {
+	//actual recipe
+		if (isSummonFromAmber == false) {
+			<recipetype:summoningrituals:altar>.addJsonRecipe("custom_ritual_sacrifice_" + name, {
 			"catalyst": { "item": "undergarden:utherium_crystal" },
 			"outputs": [
 				{
@@ -371,7 +354,46 @@ public class SummonMob {
 			},
 			"recipe_time": 200,
 			"block_below": { "block": block }
-	});
+			});
+			
+			<recipetype:summoningrituals:altar>.addJsonRecipe("custom_ritual_vegan_sacrifice_" + name, {
+			"catalyst": { "item": "undergarden:utherium_crystal" },
+			"outputs": [
+				{
+				"mob": summon,
+				"data": summonData
+				}
+			],
+			"inputs": [
+				{ "ingredient": input1, "count": 1 },
+				{ "ingredient": input2, "count": 1 },
+				{ "ingredient": input3, "count": 1 },
+				{ "ingredient": <item:darkerdepths:amber_block>, "count": 1 }
+			],
+			"recipe_time": 200,
+			"block_below": { "block": block }
+			});
+		}
+		
+		if (isSummonFromAmber == true) {
+			<recipetype:summoningrituals:altar>.addJsonRecipe("custom_ritual_amber_summon_" + name, {
+			"catalyst": { "item": "undergarden:utherium_crystal" },
+			"outputs": [
+				{
+				"mob": summon,
+				"data": summonData
+				}
+			],
+			"inputs": [
+				{ "ingredient": input1, "count": 1 },
+				{ "ingredient": input2, "count": 1 },
+				{ "ingredient": input3, "count": 1 },
+				{ "ingredient": <item:darkerdepths:amber>, "count": 1 }
+			],
+			"recipe_time": 200,
+			"block_below": { "block": block }
+			});
+		}
 	}
 }
 
@@ -400,13 +422,26 @@ public class tripleArray {
 }
 
 //fixing arcane code stuff that I cannot even begin to fathom
+
+//public expand IIngredient[] {
+//	public implicit as IData {
+//		var list = new ListData();
+//		for a in this  { list.add(a as IData); }
+//		return list;
+//	}
+//}
+
 public expand IIngredient[] {
-	public implicit as IData {
-		var list = new ListData();
-		for a in this  { list.add(a as IData); }
-		return list;
-	}
+  public implicit as IData {
+    var list = new ListData(new List<IData>());
+    list.clear();
+    for a in this {
+      list.add(a as IData);
+    }
+    return list;
+  }
 }
 
+println(
+([<item:thermal:iron_dust> * 2 | <item:minecraft:iron_ingot> * 2, <item:thermal:nickel_dust> | <item:thermal:nickel_ingot>] as IData).asString()); 
 println("peepeepoopoo");
-println(([<item:thermal:iron_dust> * 2, <item:thermal:nickel_dust>] as IData).asString());
