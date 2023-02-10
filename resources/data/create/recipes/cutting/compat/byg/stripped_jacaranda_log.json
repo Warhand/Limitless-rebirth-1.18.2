@@ -1,0 +1,25 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "byg:stripped_jacaranda_log"
+    }
+  ],
+  "results": [
+    {
+      "item": "byg:jacaranda_planks",
+      "count": 6
+    },
+	{
+	  "item": "thermal:sawdust",
+	  "count": 1
+	}
+  ],
+  "processingTime": 50,
+  "conditions": [
+    {
+      "modid": "byg",
+      "type": "forge:mod_loaded"
+    }
+  ]
+}

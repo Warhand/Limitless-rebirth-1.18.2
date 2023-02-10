@@ -1,0 +1,25 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "quark:stripped_azalea_wood"
+    }
+  ],
+  "results": [
+    {
+      "item": "quark:azalea_planks",
+      "count": 6
+    },
+	{
+	  "item": "thermal:sawdust",
+	  "count": 1
+	}
+  ],
+  "processingTime": 50,
+  "conditions": [
+    {
+      "modid": "quark",
+      "type": "forge:mod_loaded"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "byg:stripped_mangrove_log"
+    }
+  ],
+  "results": [
+    {
+      "item": "byg:mangrove_planks",
+      "count": 6
+    },
+	{
+	  "item": "thermal:sawdust",
+	  "count": 1
+	}
+  ],
+  "processingTime": 50,
+  "conditions": [
+    {
+      "modid": "byg",
+      "type": "forge:mod_loaded"
+    }
+  ]
+}
