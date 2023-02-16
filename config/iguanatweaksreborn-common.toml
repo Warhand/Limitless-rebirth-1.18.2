@@ -271,13 +271,13 @@
 		#NONE: Use custom values
 		#COMBAT_TEST: health regeneration works like the Combat Tests Snapshots
 		#Allowed Values: NONE, COMBAT_TEST
-		"Health Regen Preset" = "COMBAT_TEST"
+		"Health Regen Preset" = "NONE"
 		#Sets how many ticks between the health regeneration happens (vanilla is 80; Combat Test is 40).
 		#Range: > 0
-		"Health Regen Speed" = 40
+		"Health Regen Speed" = 60
 		#Sets how much hunger the player must have to regen health (vanilla is >17; Combat Test is >3).
 		#Range: > 0
-		"Regen when Hunger Above" = 17
+		"Regen when Hunger Above" = 15
 		#Sets how many ticks between starve damage happens (vanilla and Combat Test is 80).
 		#Range: > 0
 		"Starve Speed" = 80
@@ -285,7 +285,7 @@
 		#Range: > 0
 		"Starve Damage" = 1
 		#Set to true to consume Hunger only (and not saturation) when regenerating health (false for Vanilla; true for Combat Test).
-		"Consume Hunger Only" = true
+		"Consume Hunger Only" = false
 		#Vanilla consumes 1 saturation or hunger whenever Exhaustion reaches 4.0. You can change that value with this config option. NOTE that Minecraft caps this value to 40
 		#Range: 0.0 ~ 40.0
 		"Max Exhaustion" = 4.0
