@@ -9,18 +9,19 @@
 	identifier = "charm"
 	size = 2
 	override = true
-	
+
 [[curiosSettings]]
 	identifier = "curio"
 	size = 0
 	override = true
-	
+
 [[curiosSettings]]
 	identifier = "head"
 	size = 1
 	override = true
-	
+
 [[curiosSettings]]
 	identifier = "belt"
 	size = 1
 	override = true
+
