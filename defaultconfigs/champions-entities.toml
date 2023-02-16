@@ -5,123 +5,19 @@
   presetAffixes = []
   affixList = ["knocking", "wounding", "paralyzing", "molten"]
   affixPermission = "BLACKLIST"
-  
-[[entities]]
-  entity = "creeperoverhaul:badlands_creeper"
-  minTier = 0
-  maxTier = 4
-  presetAffixes = []
-  affixList = ["knocking", "wounding", "paralyzing", "molten"]
-  affixPermission = "BLACKLIST"
-  
-[[entities]]
-  entity = "creeperoverhaul:bamboo_creeper"
-  minTier = 0
-  maxTier = 4
-  presetAffixes = []
-  affixList = ["knocking", "wounding", "paralyzing", "molten"]
-  affixPermission = "BLACKLIST"
-  
-[[entities]]
-  entity = "creeperoverhaul:beach_creeper"
-  minTier = 0
-  maxTier = 4
-  presetAffixes = []
-  affixList = ["knocking", "wounding", "paralyzing", "molten"]
-  affixPermission = "BLACKLIST"
-  
-[[entities]]
-  entity = "creeperoverhaul:cave_creeper"
-  minTier = 0
-  maxTier = 4
-  presetAffixes = []
-  affixList = ["knocking", "wounding", "paralyzing", "molten"]
-  affixPermission = "BLACKLIST"
-  
-[[entities]]
-  entity = "creeperoverhaul:dark_oak_creeper"
-  minTier = 0
-  maxTier = 4
-  presetAffixes = []
-  affixList = ["knocking", "wounding", "paralyzing", "molten"]
-  affixPermission = "BLACKLIST"
-  
-[[entities]]
-  entity = "creeperoverhaul:desert_creeper"
-  minTier = 0
-  maxTier = 4
-  presetAffixes = []
-  affixList = ["knocking", "wounding", "paralyzing", "molten"]
-  affixPermission = "BLACKLIST"
-  
-[[entities]]
-  entity = "creeperoverhaul:dripstone_creeper"
-  minTier = 0
-  maxTier = 4
-  presetAffixes = []
-  affixList = ["knocking", "wounding", "paralyzing", "molten"]
-  affixPermission = "BLACKLIST"
-  
-[[entities]]
-  entity = "creeperoverhaul:hills_creeper"
-  minTier = 0
-  maxTier = 4
-  presetAffixes = []
-  affixList = ["knocking", "wounding", "paralyzing", "molten"]
-  affixPermission = "BLACKLIST"
-  
-[[entities]]
-  entity = "creeperoverhaul:jungle_creeper"
-  minTier = 0
-  maxTier = 4
-  presetAffixes = []
-  affixList = ["knocking", "wounding", "paralyzing", "molten"]
-  affixPermission = "BLACKLIST"
-  
-[[entities]]
-  entity = "creeperoverhaul:savannah_creeper"
-  minTier = 0
-  maxTier = 4
-  presetAffixes = []
-  affixList = ["knocking", "wounding", "paralyzing", "molten"]
-  affixPermission = "BLACKLIST"
-  
-[[entities]]
-  entity = "creeperoverhaul:snowy_creeper"
-  minTier = 0
-  maxTier = 4
-  presetAffixes = []
-  affixList = ["knocking", "wounding", "paralyzing", "molten"]
-  affixPermission = "BLACKLIST"
-  
-[[entities]]
-  entity = "creeperoverhaul:spruce_creeper"
-  minTier = 0
-  maxTier = 4
-  presetAffixes = []
-  affixList = ["knocking", "wounding", "paralyzing", "molten"]
-  affixPermission = "BLACKLIST"
-  
-[[entities]]
-  entity = "creeperoverhaul:swamp_creeper"
-  minTier = 0
-  maxTier = 4
-  presetAffixes = []
-  affixList = ["knocking", "wounding", "paralyzing", "molten"]
-  affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "undergarden:forgotten_guardian"
-  minTier = 1
-  maxTier = 2
+  minTier = 0
+  maxTier = 1
   presetAffixes = []
   affixList = ["lively", "adaptable", "shielding"]
   affixPermission = "BLACKLIST"
   
 [[entities]]
   entity = "minecraft:piglin_brute"
-  minTier = 1
-  maxTier = 2
+  minTier = 0
+  maxTier = 1
   presetAffixes = []
   affixList = ["lively", "adaptable", "shielding"]
   affixPermission = "BLACKLIST"
@@ -137,7 +33,7 @@
 [[entities]]
   entity = "quark:forgotten"
   minTier = 0
-  maxTier = 0
+  maxTier = 2
   presetAffixes = []
   affixList = ["lively", "adaptable", "shielding"]
   affixPermission = "BLACKLIST"
@@ -160,14 +56,22 @@
   
 [[entities]]
   entity = "alexsmobs:warped_mosco"
-  minTier = 1
-  maxTier = 4
+  minTier = 0
+  maxTier = 0
   presetAffixes = []
   affixList = ["lively", "adaptable", "shielding"]
   affixPermission = "BLACKLIST"
   
 [[entities]]
   entity = "botania:doppleganger"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = ["lively", "adaptable", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+  [[entities]]
+  entity = "wildbackport:warden"
   minTier = 0
   maxTier = 0
   presetAffixes = []
