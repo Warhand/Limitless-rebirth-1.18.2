@@ -18,7 +18,8 @@
         "enchanted:book_herbology",
         "enchanted:altar",
         "enchanted:skulls",
-        "enchanted:torch"
+        "enchanted:torch",
+        "enchanted:chalice"
       ],
       "bookmarks": [],
       "completedManualQuests": []
@@ -70,7 +71,17 @@
         "bloodmagic:rituals/ritual_list/ritual_zephyr",
         "bloodmagic:rituals/ritual_list/ritual_crystal_split",
         "bloodmagic:rituals/ritual_list/ritual_crushing",
-        "bloodmagic:utility/ore_processing"
+        "bloodmagic:utility/ore_processing",
+        "bloodmagic:utility/bloodstone_bricks",
+        "bloodmagic:altar/slates",
+        "bloodmagic:utility/life_essence_bucket",
+        "bloodmagic:utility/changelog",
+        "bloodmagic:utility/teleposer",
+        "bloodmagic:utility/lava_crystal",
+        "bloodmagic:utility/book_experience",
+        "bloodmagic:utility/getting_started",
+        "bloodmagic:alchemy_array/sigil/teleposition",
+        "bloodmagic:rituals/ritual_list/ritual_regeneration"
       ],
       "bookmarks": [],
       "completedManualQuests": []

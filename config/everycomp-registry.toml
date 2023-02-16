@@ -126,6 +126,9 @@
 	[leaves_type.culturaldelights]
 		avocado = true
 
+	[leaves_type.upgrade_aquatic]
+		river = true
+
 [wood_type]
 
 	[wood_type.minecraft]
@@ -207,4 +210,8 @@
 	[wood_type.malum]
 		runewood = true
 		soulwood = true
+
+	[wood_type.upgrade_aquatic]
+		driftwood = true
+		river = true
 

@@ -1,8 +1,4 @@
 {
-  "tconstruct": {
-    "casting_table": true,
-    "drain": true
-  },
   "minecraft": {
     "horse_inventory": true,
     "total_ench_power": true,
@@ -37,6 +33,10 @@
     "spawner_type": true,
     "redstone": true,
     "fe": true
+  },
+  "treechop": {
+    "show_tree_block_counts": true,
+    "show_num_chops_remaining": true
   },
   "create": {
     "contraption_inv": true,

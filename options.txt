@@ -36,8 +36,8 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:0
 renderClouds:true
-resourcePacks:["vanilla","mod_resources","Supplementaries Generated Pack","quark:emote_resources","resources/simplehats_hatdl.zip","file/Copper Color Fix 3.0.zip","Everycomp Generated Pack","file/Sullys_Peeves-FreshAnimations COMPAT.zip","file/Enhanced Tools and Armour.zip","file/updated_aquaculture-1.0.zip","file/BotaniaRevamped_1.1.0.zip","file/BiomeMakeoverMakeover v1.0.zip","file/Snowiest Snow 1.18.x.zip","file/BannerPatternClarity_1.18-1.0.zip","file/VanillaTweaks_r376064.zip","file/eatinganimations+ 1.10.zip","file/eatinganimations better vanilla foods compat","file/§3BetterVanillaFoods§7_v1.12.5.zip","file/Pretty_Pipez.zip","file/3D-fishing-hook-bobber-with-line.zip","contenttweaker:runtime/contenttweaker/ass","contenttweaker:user/client_resources"]
-incompatibleResourcePacks:["quark:emote_resources","file/Copper Color Fix 3.0.zip","file/Sullys_Peeves-FreshAnimations COMPAT.zip","file/updated_aquaculture-1.0.zip","file/BotaniaRevamped_1.1.0.zip","file/VanillaTweaks_r376064.zip"]
+resourcePacks:["vanilla","mod_resources","Supplementaries Generated Pack","quark:emote_resources","resources/simplehats_hatdl.zip","file/Copper Color Fix 3.0.zip","Everycomp Generated Pack","file/Sullys_Peeves-FreshAnimations COMPAT.zip","file/Enhanced Tools and Armour.zip","file/updated_aquaculture-1.0.zip","file/BotaniaRevamped_1.1.0.zip","file/BiomeMakeoverMakeover v1.0.zip","file/Snowiest Snow 1.18.x.zip","file/BannerPatternClarity_1.18-1.0.zip","file/VanillaTweaks_r376064.zip","file/eatinganimations+ 1.10.zip","file/eatinganimations better vanilla foods compat","file/§3BetterVanillaFoods§7_v1.12.5.zip","file/Pretty_Pipez.zip","contenttweaker:runtime/contenttweaker/ass","contenttweaker:user/client_resources","file/ldlib","file/3D-fishing-hook-bobber-v2-fancy-with-line.zip"]
+incompatibleResourcePacks:["quark:emote_resources","file/Copper Color Fix 3.0.zip","file/Sullys_Peeves-FreshAnimations COMPAT.zip","file/updated_aquaculture-1.0.zip","file/BotaniaRevamped_1.1.0.zip","file/VanillaTweaks_r376064.zip","file/ldlib","file/3D-fishing-hook-bobber-v2-fancy-with-line.zip"]
 lastServer:
 lang:en_us
 soundDevice:
@@ -108,8 +108,6 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
-key_key.do_a_barrel_roll.toggle_enabled:key.keyboard.l
-key_key.do_a_barrel_roll.toggle_thrust:key.keyboard.unknown
 key_key.clienttweaks.hideOffhandItem:key.keyboard.unknown
 key_key.clienttweaks.disableStepAssist:key.keyboard.unknown
 key_key.clienttweaks.disableLogStripping:key.keyboard.unknown
@@ -171,8 +169,8 @@ key_treechop.key.toggle_felling:key.keyboard.unknown
 key_treechop.key.cycle_sneak_behavior:key.keyboard.unknown
 key_treechop.key.open_settings_overlay:key.keyboard.n
 key_placebo.toggleTrails:key.keyboard.unknown
-key_Reload Shaders:key.keyboard.f9
 key_placebo.toggleWings:key.keyboard.keypad.8
+key_Reload Shaders:key.keyboard.f9
 key_equipmentcompare.key.showTooltips:key.keyboard.left.shift
 key_key.ars_nouveau.open_book:key.keyboard.c:SHIFT
 key_key.ars_nouveau.selection_hud:key.keyboard.v:SHIFT
@@ -211,16 +209,12 @@ key_key.waila.narrate:key.keyboard.keypad.6
 key_key.waila.show_details:key.keyboard.left.shift
 key_key.waila.show_recipes:key.keyboard.keypad.3
 key_key.waila.show_uses:key.keyboard.keypad.4
-key_create.keyinfo.toolmenu:key.keyboard.left.alt
-key_create.keyinfo.toolbelt:key.keyboard.left.alt
-key_quark.keybind.transfer_insert:key.keyboard.unknown
-key_quark.keybind.transfer_extract:key.keyboard.unknown
-key_quark.keybind.shift_lock:key.keyboard.unknown
-key_quark.keybind.camera_mode:key.keyboard.f12
+key_quark.keybind.autorun:key.keyboard.unknown
 key_quark.keybind.sort_player:key.keyboard.unknown
 key_quark.keybind.sort_container:key.keyboard.unknown
-key_quark.keybind.autorun:key.keyboard.unknown
-key_quark.keybind.lock_rotation:key.keyboard.unknown
+key_create.keyinfo.toolmenu:key.keyboard.left.alt
+key_create.keyinfo.toolbelt:key.keyboard.left.alt
+key_quark.keybind.camera_mode:key.keyboard.f12
 key_quark.emote.no:key.keyboard.unknown
 key_quark.emote.yes:key.keyboard.unknown
 key_quark.emote.wave:key.keyboard.unknown
@@ -239,8 +233,12 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
-key_quark.keybind.back:key.mouse.4
 key_quark.keybind.change_hotbar:key.keyboard.unknown
+key_quark.keybind.transfer_insert:key.keyboard.unknown
+key_quark.keybind.transfer_extract:key.keyboard.unknown
+key_quark.keybind.shift_lock:key.keyboard.unknown
+key_quark.keybind.back:key.mouse.4
+key_quark.keybind.lock_rotation:key.keyboard.unknown
 key_key.diet.open.desc:key.keyboard.unknown
 key_key.worldstripper.strip_world:key.keyboard.delete
 key_key.worldstripper.dress_world:key.keyboard.insert
@@ -263,16 +261,16 @@ key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.c
 key_keybind.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.sort:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown:ALT
-key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
-key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
+key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown:ALT
 key_key.cofh.mode_change_increment:key.keyboard.v
 key_key.cofh.mode_change_decrement:key.keyboard.b
 key_key.configured.open_mod_list:key.keyboard.unknown
-soundCategory_master:0.2963576
-soundCategory_music:0.20422535
+soundCategory_master:0.42605633
+soundCategory_music:0.34507042
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
