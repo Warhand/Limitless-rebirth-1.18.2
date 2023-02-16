@@ -285,3 +285,6 @@ craftingTable.addShapeless("cloggrum_and_sulfur_to_compost", <item:thermal:compo
 
 //custom coal coke recipe
 blastFurnace.addRecipe("custom_coal_coke", <item:thermal:coal_coke>, <item:minecraft:coal>, 0.5, 100);
+
+//custom generic chest recipes
+craftingTable.addShapeless("custom_shapeless_chest_conversion", <item:minecraft:chest>, [<tag:items:forge:chests/wooden>]);
