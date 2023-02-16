@@ -404,7 +404,7 @@ public function description(m as JeiIngredient, s as string) as void {
 }
 
 //defining IItemStack array with 3 values
-public class tripleArray {
+public class tripleArrayWithChance {
 
 	public var input as IItemStack : get;
 	public var output1 as IItemStack : get;
@@ -418,6 +418,19 @@ public class tripleArray {
 		this.chance1 = chance1;
 		this.output2 = output2;
 		this.chance2 = chance2;
+	}
+}
+
+public class tripleArray {
+
+	public var one as IItemStack : get;
+	public var two as IItemStack : get;
+	public var three as IItemStack : get;
+
+	public this(one as IItemStack, two as IItemStack, three as IItemStack) {
+		this.one = one;
+		this.two = two;
+		this.three = three;
 	}
 }
 
