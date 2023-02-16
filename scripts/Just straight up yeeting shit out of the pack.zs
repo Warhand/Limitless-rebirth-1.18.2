@@ -141,7 +141,8 @@ val trash as IItemStack[] = [
 	<item:ftbic:enderium_wire>,
 	<item:waystones:waystone>,
 	<item:waystones:mossy_waystone>,
-	<item:waystones:sandy_waystone>
+	<item:waystones:sandy_waystone>,
+	<item:minecraft:chest>
 ];
 
 for item in trash{
@@ -162,7 +163,18 @@ val jei_removal as IItemStack[] = [
 	<item:create:crushed_osmium_ore>,
 	<item:create:crushed_platinum_ore>,
 	<item:pipez:gas_pipe>,
-	<item:create:copper_backtank_placeable>
+	<item:create:copper_backtank_placeable>,
+	<item:delightful:bone_knife>,
+	<item:delightful:amethyst_knife>,
+	<item:delightful:deorum_knife>,
+	<item:delightful:reinforced_deorum_knife>,
+	<item:delightful:draco_arcanus_knife>,
+	<item:delightful:ironwood_knife>,
+	<item:delightful:knightmetal_knife>,
+	<item:delightful:steeleaf_knife>,
+	<item:delightful:living_knife>,
+	<item:byg:biomepedia>,
+	<item:byg:byg_logo>
 ];
 
 for item in jei_removal{
@@ -266,7 +278,6 @@ val utter_eradication as IItemStack[] = [
 	<item:thermal:bronze_gear>,
 	<item:thermal:bronze_plate>,
 	<item:pipez:wrench>,
-	<item:ftbic:uranium_rod>,
 	<item:ftbic:bronze_rod>,
 	<item:ftbic:iridium_rod>,
 	<item:ftbic:lead_rod>,
@@ -368,8 +379,6 @@ val utter_eradication as IItemStack[] = [
 	<item:ftbic:lead_ore>,
 	<item:ftbic:deepslate_tin_ore>,
 	<item:ftbic:tin_ore>,
-	<item:ftbic:deepslate_uranium_ore>,
-	<item:ftbic:uranium_ore>,
 	<item:thermal:rose_gold_block>,
 	<item:thermal:rose_gold_ingot>,
 	<item:thermal:rose_gold_nugget>,
@@ -461,7 +470,91 @@ val utter_eradication as IItemStack[] = [
 	<item:supplementaries:stone_tile_vertical_slab>,
 	<item:supplementaries:blackstone_tile_vertical_slab>,
 	<item:supplementaries:ash_bricks_vertical_slab>,
-	<item:ftbic:ender_dust>
+	<item:ftbic:ender_dust>,
+	<item:upgradednetherite:netherite_shield>,
+	<item:ftbic:iron_dust>,
+	<item:ftbic:obsidian_dust>,
+	<item:malum:runewood_sign>,
+	<item:malum:soulwood_sign>,
+	<item:ftbic:tin_ingot>,
+	<item:ftbic:tin_chunk>,
+	<item:ftbic:tin_dust>,
+	<item:ftbic:tin_nugget>,
+	<item:ftbic:tin_plate>,
+	<item:ftbic:tin_block>,
+	<item:clayworks:terracotta_vertical_slab>,
+	<item:clayworks:white_terracotta_vertical_slab>,
+	<item:clayworks:orange_terracotta_vertical_slab>,
+	<item:clayworks:magenta_terracotta_vertical_slab>,
+	<item:clayworks:light_blue_terracotta_vertical_slab>,
+	<item:clayworks:yellow_terracotta_vertical_slab>,
+	<item:clayworks:lime_terracotta_vertical_slab>,
+	<item:clayworks:pink_terracotta_vertical_slab>,
+	<item:clayworks:gray_terracotta_vertical_slab>,
+	<item:clayworks:black_terracotta_brick_vertical_slab>,
+	<item:upgrade_aquatic:scute_shingle_vertical_slab>,
+	<item:upgrade_aquatic:scute_pavement_vertical_slab>,
+	<item:upgrade_aquatic:tooth_brick_vertical_slab>,
+	<item:clayworks:red_terracotta_brick_vertical_slab>,
+	<item:clayworks:orange_terracotta_brick_vertical_slab>,
+	<item:clayworks:light_blue_terracotta_brick_vertical_slab>,
+	<item:clayworks:light_gray_terracotta_brick_vertical_slab>,
+	<item:clayworks:cyan_terracotta_brick_vertical_slab>,
+	<item:clayworks:purple_terracotta_brick_vertical_slab>,
+	<item:clayworks:blue_terracotta_brick_vertical_slab>,
+	<item:clayworks:brown_terracotta_brick_vertical_slab>,
+	<item:clayworks:gray_terracotta_brick_vertical_slab>,
+	<item:clayworks:pink_terracotta_brick_vertical_slab>,
+	<item:clayworks:lime_terracotta_brick_vertical_slab>,
+	<item:clayworks:yellow_terracotta_brick_vertical_slab>,
+	<item:clayworks:magenta_terracotta_brick_vertical_slab>,
+	<item:clayworks:light_gray_terracotta_vertical_slab>,
+	<item:clayworks:purple_terracotta_vertical_slab>,
+	<item:clayworks:green_terracotta_vertical_slab>,
+	<item:clayworks:red_terracotta_vertical_slab>,
+	<item:clayworks:white_terracotta_brick_vertical_slab>,
+	<item:clayworks:terracotta_brick_vertical_slab>,
+	<item:clayworks:black_terracotta_vertical_slab>,
+	<item:clayworks:brown_terracotta_vertical_slab>,
+	<item:clayworks:blue_terracotta_vertical_slab>,
+	<item:clayworks:cyan_terracotta_vertical_slab>,
+	<item:clayworks:green_terracotta_brick_vertical_slab>,
+	<item:upgrade_aquatic:coralstone_vertical_slab>,
+	<item:upgrade_aquatic:bubble_coralstone_vertical_slab>,
+	<item:upgrade_aquatic:horn_coralstone_vertical_slab>,
+	<item:upgrade_aquatic:tube_coralstone_vertical_slab>,
+	<item:upgrade_aquatic:brain_coralstone_vertical_slab>,
+	<item:upgrade_aquatic:fire_coralstone_vertical_slab>,
+	<item:upgrade_aquatic:acan_coralstone_vertical_slab>,
+	<item:upgrade_aquatic:star_coralstone_vertical_slab>,
+	<item:upgrade_aquatic:finger_coralstone_vertical_slab>,
+	<item:upgrade_aquatic:thorny_kelpy_cobblestone_vertical_slab>,
+	<item:upgrade_aquatic:ochre_kelpy_stone_brick_vertical_slab>,
+	<item:upgrade_aquatic:beachgrass_thatch_vertical_slab>,
+	<item:upgrade_aquatic:luminous_prismarine_vertical_slab>,
+	<item:upgrade_aquatic:river_vertical_slab>,
+	<item:upgrade_aquatic:driftwood_vertical_slab>,
+	<item:upgrade_aquatic:polar_kelpy_stone_brick_vertical_slab>,
+	<item:upgrade_aquatic:ochre_kelpy_cobblestone_vertical_slab>,
+	<item:upgrade_aquatic:branch_coralstone_vertical_slab>,
+	<item:upgrade_aquatic:rock_coralstone_vertical_slab>,
+	<item:upgrade_aquatic:chrome_coralstone_vertical_slab>,
+	<item:upgrade_aquatic:prismarine_coralstone_vertical_slab>,
+	<item:upgrade_aquatic:elder_prismarine_coralstone_vertical_slab>,
+	<item:upgrade_aquatic:dead_coralstone_vertical_slab>,
+	<item:upgrade_aquatic:kelpy_cobblestone_vertical_slab>,
+	<item:upgrade_aquatic:tongue_kelpy_cobblestone_vertical_slab>,
+	<item:upgrade_aquatic:tooth_vertical_slab>,
+	<item:upgrade_aquatic:thorny_kelpy_stone_brick_vertical_slab>,
+	<item:upgrade_aquatic:tongue_kelpy_stone_brick_vertical_slab>,
+	<item:upgrade_aquatic:kelpy_stone_brick_vertical_slab>,
+	<item:upgrade_aquatic:polar_kelpy_cobblestone_vertical_slab>,
+	<item:upgrade_aquatic:silk_coralstone_vertical_slab>,
+	<item:upgrade_aquatic:pillow_coralstone_vertical_slab>,
+	<item:upgrade_aquatic:petal_coralstone_vertical_slab>,
+	<item:upgrade_aquatic:moss_coralstone_vertical_slab>,
+	<item:ftbic:gold_dust>,
+	<item:ftbic:tin_dust>
 ];
 
 for item in utter_eradication{
@@ -478,12 +571,20 @@ for item in utter_eradication{
 	<recipetype:create:crushing>.remove(item);
 	<recipetype:create:mixing>.remove(item);
 	<recipetype:thermal:press>.remove(item);
+	<recipetype:malum:spirit_repair>.remove(item);
 	item.addTooltip("THIS ITEM IS NOT MEANT TO BE OBTAINABLE, PLEASE REPORT THIS AS AN ISSUE IF YOU COME ACROSS IT WHILE PLAYING");
 	for tag in <tagmanager:items>.getTagsFor(item) {
   tag.remove(item);
+	}
+	<tag:items:c:hidden_from_recipe_viewers>.add(item);
 }
-<tag:items:c:hidden_from_recipe_viewers>.add(item);
-}
+
+
+loot.modifiers.register(
+  "removing_unused_items_from_chest_loot",
+  LootConditions.only(LootTableIdRegexLootCondition.create(".*chests/.*")),
+  CommonLootModifiers.removeAll(utter_eradication)
+);
 
 //removing mixing recipes
 val alloys as IItemStack[] = [
