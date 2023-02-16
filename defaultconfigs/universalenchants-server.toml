@@ -1,0 +1,46 @@
+
+#Only enchantments included by default are guaranteed to work. While any modded enchantments or other vanilla enchantments can work, they are highly unlikely to do so.
+#The blacklists for each item group are supposed to disable items which can be enchanted, but where the enchantments do not function as expected.
+#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+[item_compatibility]
+
+	[item_compatibility.blacklists]
+		#Crossbows to be disabled from receiving additional enchantments.
+		crossbow_blacklist = []
+		#Tridents to be disabled from receiving additional enchantments.
+		trident_blacklist = []
+		#Swords to be disabled from receiving additional enchantments.
+		sword_blacklist = []
+		#Axes to be disabled from receiving additional enchantments.
+		axe_blacklist = []
+		#Bows to be disabled from receiving additional enchantments.
+		bow_blacklist = []
+
+	[item_compatibility.enchantments]
+		#Additional enchantments to be made usable with tridents.
+		trident_enchantments = ["minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:quick_charge", "minecraft:piercing"]
+		#Additional enchantments to be made usable with crossbows.
+		crossbow_enchantments = ["minecraft:flame", "minecraft:punch", "minecraft:power", "minecraft:infinity", "minecraft:looting"]
+		#Additional enchantments to be made usable with bows.
+		bow_enchantments = ["minecraft:piercing", "minecraft:multishot", "minecraft:quick_charge", "minecraft:looting"]
+		#Additional enchantments to be made usable with axes.
+		axe_enchantments = ["minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:impaling"]
+		#Additional enchantments to be made usable with swords.
+		sword_enchantments = ["minecraft:impaling"]
+
+[enchantment_compatibility]
+	#Allow infinity and mending to be applied at the same time.
+	infinity_mending_fix = false
+	#Allow multishot and piercing to be applied at the same time.
+	multishot_piercing_fix = false
+
+[enchantment_improvements]
+	#Any level of feather falling prevents farmland being trampled.
+	no_farmland_trample = true
+	#Looting also affects dropped experience points.
+	looting_boosts_xp = true
+	#Infinity enchantment no longer requires a single arrow to be present in the player inventory.
+	true_infinity = true
+	#Disables damage immunity when hit by a projectile. Makes it possible for entities to be hit by multiple projectiles at once (mainly useful for the multishot enchantment).
+	no_projectile_immunity = true
+
