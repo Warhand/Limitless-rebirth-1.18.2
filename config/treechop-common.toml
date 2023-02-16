@@ -77,10 +77,10 @@
 	[chopCounting.linear]
 		#The number of chops per block required to fell a tree; if chopsPerBlock = 0.5, it will take 50 chops to fell a 100 block tree
 		#Range: 0.0 ~ 7.0
-		chopsPerBlock = 1.0
+		chopsPerBlock = 0.5
 		#The base number of chops required to fell a tree regardless of its size
 		#Range: -10000.0 ~ 10000.0
-		baseNumChops = 0.0
+		baseNumChops = 4.0
 
 [compatibility]
 	#Better chopping behavior for block with the #forge:mushroom_stems tag
@@ -97,7 +97,7 @@
 		#Only chop when using the correct tool for drops, if any (does nothing in vanilla, but some mods add tool requirements to logs
 		choppingRequiresCorrectToolForDrops = true
 		#Only chop when using a tool that increases block breaking speed (such as axes for logs)
-		choppingRequiresFastBreakingTool = false
+		choppingRequiresFastBreakingTool = true
 
 		[compatibility.general.blacklist]
 			#Whether the listed items should be blacklisted or whitelisted
