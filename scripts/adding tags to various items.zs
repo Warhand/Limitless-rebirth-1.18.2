@@ -496,3 +496,6 @@ val vines = [
 
 <tag:items:lr:vines>.add(vines);
 
+//adding carpets and rockwool to vibration occlusion tag
+<tag:blocks:minecraft:occludes_vibration_signals>.add(<tag:blocks:minecraft:carpets>);
+<tag:blocks:minecraft:occludes_vibration_signals>.add(<tag:blocks:thermal:rockwool>);
