@@ -14,6 +14,7 @@ import crafttweaker.api.recipe.SmithingRecipeManager;
 <recipetype:create:milling>.removeAll();
 <recipetype:ars_nouveau:crush>.removeAll();
 <recipetype:ftbic:macerating>.removeAll();
+<recipetype:thermal:pulverizer>.removeAll();
 <recipetype:bloodmagic:arc>.removeByRegex("bloodmagic:arc.dusts.*");
 <recipetype:bloodmagic:arc>.removeByRegex("bloodmagic:arc.gravels.*");
 <recipetype:bloodmagic:arc>.removeByRegex("bloodmagic:arc.fragments.*");
@@ -52,6 +53,16 @@ val one_to_one_map as IItemStack[IIngredient] = {
 	<item:thermal:apatite>: <item:thermal:apatite_dust>,
 	<item:thermal:ruby>: <item:thermal:ruby_dust>,
 	<item:thermal:sapphire>: <item:thermal:sapphire_dust>,
+	<item:thermal:sulfur>: <item:thermal:sulfur_dust>,
+	<item:minecraft:obsidian>: <item:create:powdered_obsidian>,
+	<item:minecraft:diamond>: <item:thermal:diamond_dust>,
+	<item:minecraft:emerald>: <item:thermal:emerald_dust>,
+	<item:minecraft:lapis_lazuli>: <item:thermal:lapis_dust>,
+	<item:minecraft:quartz>: <item:thermal:quartz_dust>,
+	<item:thermal:sulfur>: <item:thermal:sulfur_dust>,
+	<item:thermal:niter>: <item:thermal:niter_dust>,
+	<item:thermal:cinnabar>: <item:thermal:cinnabar_dust>,
+	<tag:items:minecraft:planks>.asIIngredient(): <item:thermal:sawdust>,
 	<tag:items:forge:ingots/steel>.asIIngredient(): <item:thermal:steel_dust>,
 	<tag:items:forge:ingots/constantan>.asIIngredient(): <item:thermal:constantan_dust>,
 	<tag:items:forge:ingots/electrum>.asIIngredient(): <item:thermal:electrum_dust>,
@@ -63,7 +74,19 @@ val one_to_one_map as IItemStack[IIngredient] = {
 for input, output in one_to_one_map{
 	crushingAll("one_to_one_" + input.items[0].registryName.path, input, output, 1.0, 1);
 	crushingThermal("one_to_one_thermal_" + input.items[0].registryName.path, input, output, -1.0, 1);
+	craftingTable.remove(output);
 	craftingTable.addShapeless("one_to_one_charge_crafting_" + input.items[0].registryName.path, output, [input, <item:thermal:earth_charge>]);
+}
+
+val one_to_four_map as IItemStack[IIngredient] = {
+	<item:minecraft:glowstone>: <item:minecraft:glowstone_dust>
+};
+
+for input, output in one_to_four_map{
+	crushingAll("one_to_four_" + input.items[0].registryName.path, input, output, 1.0, 4);
+	crushingThermal("one_to_four_thermal_" + input.items[0].registryName.path, input, output, -1.0, 4);
+	craftingTable.remove(output);
+	craftingTable.addShapeless("one_to_four_charge_crafting_" + input.items[0].registryName.path, output * 4, [input, <item:thermal:earth_charge>]);
 }
 
 val flower_dye_crushing as IItemStack[IIngredient] = {
@@ -90,10 +113,10 @@ for input, output in flower_dye_crushing{
 }
 
 var chance_output_with_chance_secondary = [
-	new tripleArray(<item:malum:blazing_quartz>, <item:thermal:sulfur_dust>, 0.75f, <item:minecraft:blaze_powder>, 0.1f),
-	new tripleArray(<item:minecraft:gravel>, <item:minecraft:sand>, 1.0f, <item:minecraft:flint>, 0.25f),
-	new tripleArray(<item:nethersdelight:propelplant_cane>, <item:minecraft:gunpowder>, 1.0f, <item:nethersdelight:propelpearl>, 0.25f)
-] as tripleArray[];
+	new tripleArrayWithChance(<item:malum:blazing_quartz>, <item:thermal:sulfur_dust>, 0.75f, <item:minecraft:blaze_powder>, 0.1f),
+	new tripleArrayWithChance(<item:minecraft:gravel>, <item:minecraft:sand>, 1.0f, <item:minecraft:flint>, 0.25f),
+	new tripleArrayWithChance(<item:nethersdelight:propelplant_cane>, <item:minecraft:gunpowder>, 1.0f, <item:nethersdelight:propelpearl>, 0.25f)
+] as tripleArrayWithChance[];
 
 for group in chance_output_with_chance_secondary{
 	crushingIndustrial("_industrialmacerator_chance_output_" + group.input.items[0].registryName.path, group.input, group.output1, group.chance1, 1, group.output2, group.chance2, 1);
@@ -109,3 +132,15 @@ for group in chance_output_with_chance_secondary{
 crushingCreateMill("create_propelplant_milling", <item:nethersdelight:propelplant_cane>, <item:minecraft:gunpowder>, 1.0, 2, <item:nethersdelight:propelpearl>, 0.5, 1);
 crushingCreateMill("create_gravel_milling", <item:minecraft:gravel>, <item:minecraft:sand>, 1.0, 1, <item:minecraft:flint>, 0.25, 1);
 crushingCreateMill("create_blazing_quartz_milling", <item:malum:blazing_quartz>, <item:thermal:sulfur_dust>, 0.75, 1, <item:minecraft:blaze_powder>, 0.1, 1);
+
+var elemental_rods_crushing = [
+	new tripleArray(<item:thermal:blizz_rod>, <item:thermal:blizz_powder>, <item:minecraft:snowball>),
+	new tripleArray(<item:thermal:basalz_rod>, <item:thermal:basalz_powder>, <item:thermal:slag>),
+	new tripleArray(<item:thermal:blitz_rod>, <item:thermal:blitz_powder>, <item:thermal:niter>),
+	new tripleArray(<item:minecraft:blaze_rod>, <item:minecraft:blaze_powder>, <item:thermal:sulfur>)
+] as tripleArray[];
+
+for group in elemental_rods_crushing{
+	crushingAll("_elemental_rod_to_" + group.two.items[0].registryName.path, group.one, group.two, 1.0, 3, group.three, 0.25, 1);
+	crushingThermal("_elemental_rod_to_" + group.two.items[0].registryName.path, group.one, group.two, 1.0, 3, group.three, 0.25, 1);
+}
