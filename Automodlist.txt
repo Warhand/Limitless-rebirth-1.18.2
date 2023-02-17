@@ -53,7 +53,7 @@ C:.
     bygonenether-1.2.2-1.18.2.jar
     caelus-forge-1.18.1-3.0.0.2.jar
     canary-mc1.18.2-0.1.4.jar
-    cc-tweaked-1.18.2-1.101.0.jar
+    cc-tweaked-1.18.2-1.101.2.jar
     chalk-1.18.2-1.4.0.jar
     champions-forge-1.18.2-2.1.6.3.jar
     ChannelingStone_1.0.1.jar
@@ -66,7 +66,7 @@ C:.
     clienttweaks-forge-1.18.1-7.1.0.jar
     cloth-config-6.4.90-forge.jar
     Clumps-forge-1.18.2-8.0.0+17.jar
-    CNB-1.18.2-1.5.0.jar
+    CNB-1.18.2-1.5.1.jar
     cofh_core-1.18.2-9.2.1.39.jar
     compost-forge-1.18.2-1.1.1.jar
     configured-2.0.0-1.18.2.jar
@@ -80,14 +80,13 @@ C:.
     craftingtweaks-forge-1.18.2-14.0.3.jar
     CraftTweaker-forge-1.18.2-9.1.204.jar
     create-1.18.2-0.5.0.i.jar
-    CreateTweaker-1.18.2-2.0.0.17.jar
+    CreateTweaker-1.18.2-2.0.0.18.jar
     create_central_kitchen-1.18.2-for-create-0.5.0.i-1.1.0.jar
     create_crystal_clear-0.1.3e-1.18.2.jar
-    CreativeCore_FORGE_v2.6.15_mc1.18.2.jar
     Cucumber-1.18.2-5.1.3.jar
     culturaldelights-1.18.2-0.14.jar
     curioofundying-forge-1.18-5.3.0.0.jar
-    curios-forge-1.18.2-5.0.7.1.jar
+    curios-forge-1.18.2-5.0.8.0.jar
     CustomFluidMixin-1.2.1-mc1.18.2.jar
     DarkerDepths-1.18.2-1.0.6-patch4.jar
     defaultoptions-forge-1.18.2-14.1.1.jar
@@ -97,7 +96,6 @@ C:.
     dimdungeons-168-forge-1.18.2.jar
     dimensionalworldborder-1.18.2-2.0.0.1.jar
     domesticationinnovation-1.4.2-1.18.2.jar
-    drawerfps-1.18.2-2.4.jar
     Droplight-1.18.2-forge-1.0.3.jar
     durabilitytooltip-1.1.4-forge-mc1.18.jar
     dynamiclightsreforged-1.18.2_v1.3.3.jar
@@ -134,7 +132,7 @@ C:.
     ftb-chunks-forge-1802.3.13-build.234.jar
     ftb-essentials-1802.1.7-build.42.jar
     ftb-industrial-contraptions-1802.1.6-build.197.jar
-    ftb-library-forge-1802.3.10-build.171.jar
+    ftb-library-forge-1802.3.11-build.177.jar
     ftb-pack-companion-1.0.1-build.5+mc1.18.2.jar
     ftb-teams-forge-1802.2.10-build.96.jar
     GatewaysToEternity-1.18.2-2.2.1.jar
@@ -200,10 +198,9 @@ C:.
     Patchouli-1.18.2-71.1.jar
     pettablebees-1.18.2-1.0.2.jar
     Phantoms of The End-1.0.0-1.18.2.jar
-    PickUpNotifier-v3.2.0-1.18.2-Forge.jar
+    PickUpNotifier-v3.2.1-1.18.2-Forge.jar
     pipez-1.18.2-1.1.5.jar
     Placebo-1.18.2-6.6.6.jar
-    player-animation-lib-forge-0.4.2+1.18.jar
     pluto-mc1.18.2-0.0.3.jar
     Prism-1.18.2-1.0.1.jar
     PuzzlesLib-v3.3.5-1.18.2-Forge.jar
@@ -217,7 +214,7 @@ C:.
     rubidium-0.5.4.jar
     rubidium_extras-1.18.2_v1.3.2.jar
     saturn-mc1.18.2-0.0.1.jar
-    savage_and_ravage-1.18.2-4.0.0.jar
+    savage_and_ravage-1.18.2-4.0.1.jar
     scaffoldingpower-1.18.2-1.3.0.jar
     secondchanceforge-1.18.2-1.5.0.jar
     selene-1.18.2-1.17.9.jar
@@ -226,7 +223,6 @@ C:.
     simple-rpc-1.18.2-3.2.0.jar
     SimpleBackups-1.18.2-1.1.12.jar
     simplehats-forge-1.18.2-0.1.6.jar
-    simplekiln-1.18.2-0.0.1.jar
     simplemagnets-1.1.9-forge-mc1.18.jar
     smoothboot(reloaded)-mc1.18.2-0.0.2.jar
     smoothchunk-1.18.2-1.9.jar
@@ -272,8 +268,9 @@ C:.
     volcanic_caverns-1.18.2-1.1.2.jar
     waystones-forge-1.18.2-10.1.0.jar
     wildbackport-1.2.3.jar
-    woodworks-1.18.2-1.2.0.jar
+    woodworks-1.18.2-1.2.1.jar
     World Stripper-1.18.2-3.1.0.jar
+    worldedit-mod-7.2.10.jar
     YungsApi-1.18.2-Forge-2.2.7.jar
     YungsBetterDungeons-1.18.2-Forge-2.1.0.jar
     YungsBetterMineshafts-1.18.2-Forge-2.2.jar
@@ -284,5 +281,5 @@ C:.
     
 No subfolders exist 
 
-Thu 02/16/2023 
-11:12 AM
+Fri 02/17/2023 
+10:34 AM
