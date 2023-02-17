@@ -275,7 +275,7 @@ craftingTable.addShapeless("custom_alternate_rope_recipe", <item:supplementaries
 craftingTable.addShaped("custom_alternate_rope_vine", <item:supplementaries:rope> * 2, [[<tag:items:lr:vines>], [<tag:items:lr:vines>]]);
 
 //custom safety net recipe
-craftingTable.addShaped("custom_safety_net", <item:farmersdelight:safety_net> * 2, [[<tag:items:forge:rope>, <tag:items:forge:rope>], [<tag:items:forge:rope>, <tag:items:forge:rope>]]);
+craftingTable.addShaped("custom_safety_net", <item:farmersdelight:safety_net> * 2, [[<tag:items:supplementaries:ropes>, <tag:items:supplementaries:ropes>], [<tag:items:supplementaries:ropes>, <tag:items:supplementaries:ropes>]]);
 
 //custom warp scroll recipe
 craftingTable.addShaped("custom_warp_scroll_recipe", <item:waystones:warp_scroll> * 4, [[IIngredientEmpty.getInstance(), <item:waystones:warp_dust>, IIngredientEmpty.getInstance()], [<item:waystones:warp_dust>, <item:minecraft:paper>, <item:waystones:warp_dust>], [IIngredientEmpty.getInstance(), <item:waystones:warp_dust>, IIngredientEmpty.getInstance()]]);
@@ -288,3 +288,8 @@ blastFurnace.addRecipe("custom_coal_coke", <item:thermal:coal_coke>, <item:minec
 
 //custom generic chest recipes
 craftingTable.addShapeless("custom_shapeless_chest_conversion", <item:minecraft:chest>, [<tag:items:forge:chests/wooden>]);
+
+//custom quarry recipe
+craftingTable.addShaped("custom_quarry", <item:ftbic:quarry>, [[<item:ftbic:advanced_circuit>, <item:ftbic:advanced_machine_block>, <item:ftbic:advanced_circuit>], [<item:ftbic:gold_rod>, <item:thermal:diamond_gear>, <item:ftbic:gold_rod>], [<item:ftbic:advanced_alloy>, <item:minecraft:diamond_pickaxe>, <item:ftbic:advanced_alloy>]]);
+
+//graphene pressing compat
