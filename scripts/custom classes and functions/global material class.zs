@@ -528,7 +528,7 @@ public class GlobalMaterialRecipe {
 				});
 			}
 			
-			//heated melting
+			//component melting
 			if (!ingot.isEmpty()) {
 				<recipetype:create:mixing>.addJsonRecipe(name + "_melting_ingot_to_molten_basic", {
 				  "ingredients": [
@@ -540,7 +540,7 @@ public class GlobalMaterialRecipe {
 					  "amount": 108
 					}
 				  ],
-				  "heatRequirement": "heated"
+				  "heatRequirement": "superheated"
 				});
 				<recipetype:thermal:crucible>.addJsonRecipe(name + "_melting_ingot_to_molten_crucible", {
 					  "ingredient": ingot,
@@ -564,7 +564,7 @@ public class GlobalMaterialRecipe {
 					  "amount": 108
 					}
 				  ],
-				  "heatRequirement": "heated"
+				  "heatRequirement": "superheated"
 				});
 				<recipetype:thermal:crucible>.addJsonRecipe(name + "_melting_plate_to_molten_crucible", {
 					  "ingredient": plate,
@@ -588,7 +588,7 @@ public class GlobalMaterialRecipe {
 					  "amount": 108
 					}
 				  ],
-				  "heatRequirement": "heated"
+				  "heatRequirement": "superheated"
 				});
 				<recipetype:thermal:crucible>.addJsonRecipe(name + "_melting_rod_to_molten_crucible", {
 					  "ingredient": rod,
@@ -612,7 +612,7 @@ public class GlobalMaterialRecipe {
 					  "amount": 12
 					}
 				  ],
-				  "heatRequirement": "heated"
+				  "heatRequirement": "superheated"
 				});
 				<recipetype:thermal:crucible>.addJsonRecipe(name + "_melting_fragment_to_molten_crucible", {
 					  "ingredient": oreFragment,
@@ -620,6 +620,31 @@ public class GlobalMaterialRecipe {
 						{
 						  "fluid": molten.registryName,
 						  "amount": 12
+						}
+					  ],
+					"energy": 2000
+				});
+			}
+			
+			if (!gear.isEmpty()) {
+				<recipetype:create:mixing>.addJsonRecipe(name + "_melting_gear_to_molten_basic", {
+				  "ingredients": [
+					gear
+				  ],
+				  "results": [
+					{
+					  "fluid": molten.registryName,
+					  "amount": 216
+					}
+				  ],
+				  "heatRequirement": "superheated"
+				});
+				<recipetype:thermal:crucible>.addJsonRecipe(name + "_melting_gear_to_molten_crucible", {
+					  "ingredient": gear,
+					  "result": [
+						{
+						  "fluid": molten.registryName,
+						  "amount": 216
 						}
 					  ],
 					"energy": 2000
@@ -776,7 +801,7 @@ public class GlobalMaterialRecipe {
 							},
 							{
 							  "fluid": molten.registryName,
-							  "amount": 432
+							  "amount": 216
 							}
 						  ],
 						  "results": [
@@ -879,7 +904,7 @@ public class GlobalMaterialRecipe {
 					"ingredients": [
 						{
 						  "item": ingot.items[0].registryName,
-						  "count": 4
+						  "count": 2
 						},
 						{
 						  "item": "thermal:press_gear_die"
@@ -889,11 +914,16 @@ public class GlobalMaterialRecipe {
 				});
 					if (!plate.isEmpty()) {
 						<recipetype:ftbic:extruding>.addJsonRecipe(name + "_plate_to_gear_ftbic_extruder", {
-						  "inputItems": [plate],
+						  "inputItems": [
+								{
+								  "item": ingot.items[0].registryName,
+								  "count": 2
+								}
+						  ],
 						  "outputItems": [
 							{
 							  "item": gear.items[0].registryName,
-							  "count": 2
+							  "count": 1
 							}
 						  ]
 						});
