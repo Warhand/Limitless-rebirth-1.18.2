@@ -65,6 +65,8 @@ blastFurnace.removeByRegex("malum:.*_from_node.*");
 <recipetype:bloodmagic:alchemytable>.removeByName("bloodmagic:alchemytable/sulfur_from_lava");
 <recipetype:bloodmagic:alchemytable>.removeByName("bloodmagic:alchemytable/sulfur_from_sigil");
 
+<recipetype:thermal:smelter>.removeByName("thermal:machines/smelter/smelter_netherite_plate_to_ingot");
+
 val crafting_table_strings = [
 "extendedcrafting:black_iron_ingot",
 "extendedcrafting:redstone_ingot",
@@ -142,7 +144,9 @@ val trash as IItemStack[] = [
 	<item:waystones:waystone>,
 	<item:waystones:mossy_waystone>,
 	<item:waystones:sandy_waystone>,
-	<item:minecraft:chest>
+	<item:minecraft:chest>,
+	<item:ftbic:extruder>,
+	<item:ftbic:quarry>
 ];
 
 for item in trash{
@@ -275,7 +279,6 @@ val utter_eradication as IItemStack[] = [
 	<item:delightful:nickel_knife>,
 	<item:thermal:bronze_ingot>,
 	<item:thermal:bronze_nugget>,
-	<item:thermal:bronze_gear>,
 	<item:thermal:bronze_plate>,
 	<item:pipez:wrench>,
 	<item:ftbic:bronze_rod>,
@@ -285,7 +288,6 @@ val utter_eradication as IItemStack[] = [
 	<item:ftbic:iron_rod>,
 	<item:thermal:lapis_gear>,
 	<item:thermal:emerald_gear>,
-	<item:thermal:diamond_gear>,
 	<item:byg:raw_pendorite>,
 	<item:byg:raw_pendorite_block>,
 	<item:delightful:acorn>,
@@ -554,7 +556,10 @@ val utter_eradication as IItemStack[] = [
 	<item:upgrade_aquatic:petal_coralstone_vertical_slab>,
 	<item:upgrade_aquatic:moss_coralstone_vertical_slab>,
 	<item:ftbic:gold_dust>,
-	<item:ftbic:tin_dust>
+	<item:ftbic:tin_dust>,
+	<item:delightful:nut_butter_bottle>,
+	<item:delightful:nut_butter_and_jelly_sandwich>,
+	<item:thermal:enderium_gear>
 ];
 
 for item in utter_eradication{
@@ -578,13 +583,6 @@ for item in utter_eradication{
 	}
 	<tag:items:c:hidden_from_recipe_viewers>.add(item);
 }
-
-
-loot.modifiers.register(
-  "removing_unused_items_from_chest_loot",
-  LootConditions.only(LootTableIdRegexLootCondition.create(".*chests/.*")),
-  CommonLootModifiers.removeAll(utter_eradication)
-);
 
 //removing mixing recipes
 val alloys as IItemStack[] = [
