@@ -42,7 +42,6 @@ public class AlloyMaterialClass {
 	public var name as string : get, set;
 	public var inputMachine as IIngredient[] : get, set;
 	public var inputCrafting as IIngredient[] : get, set;
-	public var createItemOutput as bool : get, set = false;
 	public var hasCraftingRecipe as bool : get, set = true;
 	public var outputIngot as IItemStack : get, set;
 	public var outputDust as IItemStack : get, set;
@@ -63,11 +62,7 @@ public class AlloyMaterialClass {
 			craftingTable.addShapeless(name + "_blend_shapeless_two_input", outputDust, inputCrafting);
 		}
 		
-		if (createItemOutput == false) {
-			<recipetype:create:mixing>.addRecipe(name + "_superheated_item_mixing_molten", <constant:create:heat_condition:heated>, [outputMolten], inputCreate, [], 100);
-		} else {
-			<recipetype:create:mixing>.addRecipe(name + "_superheated_item_mixing_item", <constant:create:heat_condition:heated>, [outputIngot], inputCreate, [], 100);
-		}
+		<recipetype:create:mixing>.addRecipe(name + "_heated_item_mixing_item", <constant:create:heat_condition:heated>, [outputIngot], inputCreate, [], 100);
 	}
 }
 
