@@ -499,3 +499,78 @@ val vines = [
 //adding carpets and rockwool to vibration occlusion tag
 <tag:blocks:minecraft:occludes_vibration_signals>.add(<tag:blocks:minecraft:carpets>);
 <tag:blocks:minecraft:occludes_vibration_signals>.add(<tag:blocks:thermal:rockwool>);
+
+//adding new hellforged dust to hellforged dust tag.
+<tag:items:forge:dusts/hellforged>.add(<item:contenttweaker:hellforged_dust>);
+
+//
+val wool_carpets = [
+	<item:minecraft:black_carpet>,
+	<item:minecraft:red_carpet>,
+	<item:minecraft:brown_carpet>,
+	<item:minecraft:purple_carpet>,
+	<item:minecraft:gray_carpet>,
+	<item:minecraft:pink_carpet>,
+	<item:minecraft:light_blue_carpet>,
+	<item:minecraft:magenta_carpet>,
+	<item:minecraft:white_carpet>,
+	<item:minecraft:orange_carpet>,
+	<item:minecraft:yellow_carpet>,
+	<item:minecraft:lime_carpet>,
+	<item:minecraft:light_gray_carpet>,
+	<item:minecraft:cyan_carpet>,
+	<item:minecraft:blue_carpet>,
+	<item:minecraft:green_carpet>
+];
+
+<tag:items:minecraft:wool_carpets>.add(wool_carpets);
+
+//diet mod food group tags
+
+val proteins = [
+	<item:sullysmod:raw_lanternfish>,
+	<item:sullysmod:cooked_lanternfish>,
+	<item:biomemakeover:cooked_toad>,
+	<item:biomemakeover:raw_toad>,
+	<item:nethersdelight:hoglin_ear>,
+	<item:nethersdelight:ground_strider>,
+	<item:nethersdelight:strider_slice>,
+	<item:nethersdelight:hoglin_sirloin>,
+	<item:nethersdelight:hoglin_loin>,
+	<item:nethersdelight:nether_skewer>,
+	<item:nethersdelight:magma_gelatin>,
+	<item:nethersdelight:plate_of_stuffed_hoglin_roast>,
+	<item:nethersdelight:plate_of_stuffed_hoglin_ham>,
+	<item:nethersdelight:plate_of_stuffed_hoglin_snout>,
+	<item:nethersdelight:warped_moldy_meat>,
+	<item:nethersdelight:grilled_strider>,
+	<item:nethersdelight:strider_moss_stew>
+];
+//val grains = [];
+val fruits = [
+	<item:enchanted:rowan_berries>,
+	<item:nethersdelight:nether_skewer>,
+	<item:nethersdelight:propelpearl>,
+	<item:nethersdelight:magma_gelatin>
+];
+val vegetables = [
+	<item:biomemakeover:roasted_bulbus_root>,
+	<item:biomemakeover:bulbus_root>,
+	<item:biomemakeover:glowshroom_stew>,
+	<item:nethersdelight:plate_of_stuffed_hoglin_roast>,
+	<item:nethersdelight:plate_of_stuffed_hoglin_ham>,
+	<item:nethersdelight:plate_of_stuffed_hoglin_snout>,
+	<item:nethersdelight:warped_moldy_meat>,
+	<item:nethersdelight:grilled_strider>,
+	<item:nethersdelight:strider_moss_stew>
+];
+val sugars = [
+	<item:malum:holy_syrup>,
+	<item:malum:unholy_syrup>
+];
+
+<tag:items:diet:proteins>.add(proteins);
+//<tag:items:diet:grains>.add(grains);
+<tag:items:diet:fruits>.add(fruits);
+<tag:items:diet:vegetables>.add(vegetables);
+<tag:items:diet:sugars>.add(sugars);
