@@ -1,23 +1,23 @@
 {
     "size": "medium",
-    "color": "#bc270d",
+    "color": "#E34109",
     "waves": [{
             "entities": [{
-                    "entity": "minecraft:magma_cube"
+                    "entity": "minecraft:blaze"
                 },
                 {
-                    "entity": "minecraft:piglin"
+                    "entity": "minecraft:blaze"
                 },
                 {
-                    "entity": "minecraft:magma_cube"
+                    "entity": "minecraft:blaze"
                 }
             ],
             "rewards": [{
-                "type": "loot_table",
-                "entity": "limitlessrebirth:common",
-                "rolls": 1
+                "type": "entity_loot",
+                "entity": "minecraft:blaze",
+                "rolls": 5
             }],
-            "max_wave_time": 1200,
+            "max_wave_time": 750,
             "setup_time": 150
         },
         {
@@ -62,7 +62,7 @@
                 "entity": "minecraft:blaze",
                 "rolls": 10
             }],
-            "max_wave_time": 1200,
+            "max_wave_time": 750,
             "setup_time": 150
         },
         {
@@ -113,7 +113,7 @@
                 "entity": "minecraft:blaze",
                 "rolls": 15
             }],
-            "max_wave_time": 1200,
+            "max_wave_time": 750,
             "setup_time": 150
         },
         {
@@ -167,7 +167,7 @@
                 "entity": "minecraft:blaze",
                 "rolls": 20
             }],
-            "max_wave_time": 1200,
+            "max_wave_time": 750,
             "setup_time": 150
         },
         {
@@ -224,7 +224,7 @@
                 "entity": "minecraft:blaze",
                 "rolls": 25
             }],
-            "max_wave_time": 1200,
+            "max_wave_time": 750,
             "setup_time": 150
         }
     ],
