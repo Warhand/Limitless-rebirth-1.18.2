@@ -479,6 +479,8 @@ val chefs_knife = [
 
 <tag:items:forge:fillet_knife>.add(fillet_knife);
 <tag:items:farmersdelight:tools/knives>.add(chefs_knife);
+<tag:items:forge:tools/knives>.add(chefs_knife);
+<tag:items:forge:tools/knives>.add(fillet_knife);
 
 //adding vines to a custom vine tag
 val vines = [
