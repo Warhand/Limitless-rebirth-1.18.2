@@ -168,15 +168,6 @@ val jei_removal as IItemStack[] = [
 	<item:create:crushed_platinum_ore>,
 	<item:pipez:gas_pipe>,
 	<item:create:copper_backtank_placeable>,
-	<item:delightful:bone_knife>,
-	<item:delightful:amethyst_knife>,
-	<item:delightful:deorum_knife>,
-	<item:delightful:reinforced_deorum_knife>,
-	<item:delightful:draco_arcanus_knife>,
-	<item:delightful:ironwood_knife>,
-	<item:delightful:knightmetal_knife>,
-	<item:delightful:steeleaf_knife>,
-	<item:delightful:living_knife>,
 	<item:byg:biomepedia>,
 	<item:byg:byg_logo>
 ];
@@ -559,7 +550,16 @@ val utter_eradication as IItemStack[] = [
 	<item:ftbic:tin_dust>,
 	<item:delightful:nut_butter_bottle>,
 	<item:delightful:nut_butter_and_jelly_sandwich>,
-	<item:thermal:enderium_gear>
+	<item:thermal:enderium_gear>,
+	<item:delightful:bone_knife>,
+	<item:delightful:amethyst_knife>,
+	<item:delightful:deorum_knife>,
+	<item:delightful:reinforced_deorum_knife>,
+	<item:delightful:draco_arcanus_knife>,
+	<item:delightful:ironwood_knife>,
+	<item:delightful:knightmetal_knife>,
+	<item:delightful:steeleaf_knife>,
+	<item:delightful:living_knife>
 ];
 
 for item in utter_eradication{
