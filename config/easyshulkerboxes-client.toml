@@ -1,7 +1,0 @@
-#Render a white overlay over the slot the next item will be taken out when right-clicking the shulker box item.
-render_slot_overlay = true
-#Color shulker box inventories on tooltips according to the boxes color.
-colorful_tooltips = true
-#Seeing shulker box inventory contents requires shift to be held.
-contents_require_shift = true
-

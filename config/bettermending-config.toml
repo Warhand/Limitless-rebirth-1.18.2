@@ -1,9 +1,0 @@
-maxLvl = 3
-minTableLvl = 20
-xpLvlsPerLvl = 2
-isTreasure = true
-enchantmentRarity = "VERY_RARE"
-unbreakingAllowed = false
-infinityAllowed = true
-manualMendingAllowed = true
-baseExhaustionMultiplier = 1.0
