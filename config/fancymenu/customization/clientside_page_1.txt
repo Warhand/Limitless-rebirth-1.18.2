@@ -1,0 +1,94 @@
+type = menu
+
+customization-meta {
+  identifier = clientsidemods
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = element
+  shape = rectangle
+  color = #D5D5D5
+  orientation_element = 1b669c21-9d8c-4eac-88e5-ff243247e24b1683222807660
+  x = 0
+  width = 60
+  action = addshape
+  actionid = ff01a632-a67b-4d1e-80df-4c4de29bdddd1683223122174
+  y = 0
+  height = 60
+}
+
+customization {
+  orientation = top-left
+  x = 10
+  width = 58
+  action = addwebtexture
+  actionid = 1b669c21-9d8c-4eac-88e5-ff243247e24b1683222807660
+  y = 115
+  url = https://media.forgecdn.net/avatars/483/224/637782958702187625.gif
+  height = 58
+}
+
+customization {
+  orientation = element
+  enable_scrolling = true
+  shadow = true
+  scale = 1.4
+  source = Eating animations [Forge]
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = 1b669c21-9d8c-4eac-88e5-ff243247e24b1683222807660
+  x = 69
+  width = 235
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = dcadfb27-1f75-42b2-8be1-c2c0c7ed24e31683223030237
+  y = 2
+  alignment = centered
+  height = 16
+}
+
+customization {
+  orientation = element
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Eating animations is a mod that adds a%n%short animation to most food items,%n%showing them being eaten. This mod%n%has a lot of compatibility already built in,%n%but Limitless rebirth also has an optional,%n%built-in resource pack to expand the support%n%to some food items that exist in the pack,%n%but aren't supported by default!
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = 1b669c21-9d8c-4eac-88e5-ff243247e24b1683222807660
+  x = 69
+  width = 235
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = ef5101f2-48cf-498d-a5b8-b9059df5ba171683223374727
+  y = 19
+  alignment = left
+  base_color = #555555
+  height = 40
+}
+
+customization {
+  orientation = element
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  orientation_element = 1b669c21-9d8c-4eac-88e5-ff243247e24b1683222807660
+  x = 97
+  width = 100
+  action = addbutton
+  actionid = 5626a598-337d-4e49-b160-db34ad9a794a1683224672278
+  y = 65
+  label = Mod Page
+  height = 20
+}
+
