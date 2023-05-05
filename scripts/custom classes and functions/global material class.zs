@@ -246,8 +246,8 @@ public class GlobalMaterialRecipe {
 					furnace.addRecipe(name + "_raw_to_ingot_furnace", ingot, oreRaw, 0.5, 200);
 				}
 				if (!oreSpecial.isEmpty() && isSpecialMetal == true) {
-					blastFurnace.addRecipe(name + "_special_to_ingot_blast_furnace", oreSpecial, oreRaw, 0.5, 100);
-					furnace.addRecipe(name + "_special_to_ingot_furnace", oreSpecial, oreRaw, 0.5, 200);
+					blastFurnace.addRecipe(name + "_special_to_ingot_blast_furnace", ingot, oreSpecial, 0.5, 100);
+					furnace.addRecipe(name + "_special_to_ingot_furnace", ingot, oreSpecial, 0.5, 200);
 				}
 				if (!oreCrushed.isEmpty()) {
 					blastFurnace.addRecipe(name + "_crushed_to_ingot_blast_furnace", ingot, oreCrushed, 0.5, 100);
