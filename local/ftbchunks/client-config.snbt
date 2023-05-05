@@ -101,10 +101,30 @@
 	# Range: 0 ~ 255
 	water_visibility: 220
 	
-	# Distance at which waypoints start to fade
+	# Distance at which waypoint dots start to fade
+	# Default: 1.0
+	# Range: 1.0 ~ 200.0
+	waypoint_dot_fade_distance: 1.0d
+	
+	# Distance at which waypoint beacons start to fade
 	# Default: 12.0
 	# Range: 1.0 ~ 200.0
 	waypoint_fade_distance: 12.0d
+	memory: {
+		# When the large map is closed, auto-release least recently accessed regions down to this number (0 disables releasing)
+		# Default: 32
+		# Range: 0 ~ 2147483647
+		autorelease_on_map_close: 32
+		
+		# Constrain maximum map zoom-out based on number of explored regions and available memory
+		# Default: true
+		max_zoom_constraint: true
+		
+		# Periodically release region data for non-recently-used regions to save memory (units of seconds, 0 disables releasing
+		# Default: 300
+		# Range: 0 ~ 2147483647
+		region_release_time: 300
+	}
 	minimap: {
 		# Show biome under minimap
 		# Default: true
