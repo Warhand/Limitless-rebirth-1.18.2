@@ -130,14 +130,6 @@ craftingTable.addShaped("custom_sticky_piston", <item:minecraft:sticky_piston>, 
 //fixed magenta pet bed
 craftingTable.addShaped("custom_pet_bed_magenta", <item:domesticationinnovation:pet_bed_magenta>, [[<item:minecraft:magenta_wool>, <item:minecraft:magenta_wool>, <item:minecraft:magenta_wool>], [<tag:items:minecraft:planks>, <item:minecraft:bone>, <tag:items:minecraft:planks>]]);
 
-//reach upgrades, new recipes
-craftingTable.addShaped("custom_reach_upgrade1", <item:effortlessbuilding:reach_upgrade1>, [[IIngredientEmpty.getInstance(), <item:minecraft:emerald>, IIngredientEmpty.getInstance()], [<item:minecraft:emerald>, <item:minecraft:slime_ball>, <item:minecraft:emerald>], [IIngredientEmpty.getInstance(), <item:minecraft:emerald>, IIngredientEmpty.getInstance()]]);
-
-craftingTable.addShaped("custom_reach_upgrade2", <item:effortlessbuilding:reach_upgrade2>, [[<item:nethersdelight:propelpearl>, <item:infernalexp:molten_gold_cluster>, <item:nethersdelight:propelpearl>], [<item:infernalexp:molten_gold_cluster>, <item:minecraft:magma_cream>, <item:infernalexp:molten_gold_cluster>], [<item:nethersdelight:propelpearl>, <item:infernalexp:molten_gold_cluster>, <item:nethersdelight:propelpearl>]]);
-
-craftingTable.addShaped("custom_reach_upgrade3", <item:effortlessbuilding:reach_upgrade3>, [[<item:minecraft:shulker_shell>, <item:minecraft:chorus_fruit>, <item:minecraft:shulker_shell>], [<item:minecraft:chorus_fruit>, <item:minecraft:end_crystal>, <item:minecraft:chorus_fruit>], [<item:minecraft:shulker_shell>, <item:minecraft:chorus_fruit>, <item:minecraft:shulker_shell>]]);
-
-
 //Illager items from crude cladding
 
 craftingTable.addShapeless("custom_blast_plating", <item:savage_and_ravage:blast_proof_plating>, [<item:biomemakeover:crude_cladding>, <tag:items:forge:ingots/gold>, <item:savage_and_ravage:creeper_spores>, <item:savage_and_ravage:creeper_spores>]);
@@ -182,10 +174,6 @@ craftingTable.addShaped("custom_summoning_altar", <item:summoningrituals:altar>,
 craftingTable.addShaped("custom_grinder", <item:plaingrinder:grinder>, [[<tag:items:forge:cobblestone>, <item:thermal:iron_gear>, <tag:items:forge:cobblestone>], [<tag:items:forge:cobblestone>, <item:minecraft:flint>, <tag:items:forge:cobblestone>], [<tag:items:forge:cobblestone>, <tag:items:forge:cobblestone>, <tag:items:forge:cobblestone>]]);
 
 craftingTable.addShaped("custom_handle", <item:plaingrinder:handle>, [[<tag:items:forge:rods/wooden>, <tag:items:forge:rods/wooden>], [IIngredientEmpty.getInstance(), <tag:items:forge:rods/wooden>], [IIngredientEmpty.getInstance(), <tag:items:forge:rods/wooden>]]);
-
-//updated channeling stone recipe
-
-craftingTable.addShaped("custom_channeling_stone", <item:advanced_xp:channeling_stone>, [[<item:minecraft:mossy_stone_bricks>, <item:minecraft:mossy_stone_bricks>, <item:minecraft:mossy_stone_bricks>], [<item:malum:chunk_of_brilliance>, <item:minecraft:experience_bottle>, <item:malum:chunk_of_brilliance>], [<item:minecraft:mossy_stone_bricks>, <item:minecraft:mossy_stone_bricks>, <item:minecraft:mossy_stone_bricks>]]);
 
 //Custom gravisand recipe that uses warped soul sand.
 craftingTable.addShapeless("custom_gravisand_alternative", <item:quark:gravisand> * 2, [<item:byg:warped_soul_sand>, <item:minecraft:redstone>]);
@@ -293,3 +281,5 @@ craftingTable.addShapeless("custom_shapeless_chest_conversion", <item:minecraft:
 craftingTable.addShaped("custom_quarry", <item:ftbic:quarry>, [[<item:ftbic:advanced_circuit>, <item:ftbic:advanced_machine_block>, <item:ftbic:advanced_circuit>], [<item:ftbic:gold_rod>, <item:thermal:diamond_gear>, <item:ftbic:gold_rod>], [<item:ftbic:advanced_alloy>, <item:minecraft:diamond_pickaxe>, <item:ftbic:advanced_alloy>]]);
 
 //graphene pressing compat
+
+//glass bottle

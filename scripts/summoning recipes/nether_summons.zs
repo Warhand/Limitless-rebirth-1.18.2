@@ -95,7 +95,7 @@ var boneserpent = new SummonMob();
 boneserpent.name = "boneserpent";
 boneserpent.summon = "alexsmobs:bone_serpent";
 boneserpent.sacrifice = "alexsmobs:rattlesnake";
-boneserpent.input1 = <item:alexsmobs:gazelle_horn> | <item:alexsmobs:froststalker_horn> | <item:ars_nouveau:wilden_horn> | <item:earthmobsmod:horn>;
+boneserpent.input1 = <item:alexsmobs:gazelle_horn> | <item:alexsmobs:froststalker_horn> | <item:ars_nouveau:wilden_horn> | <item:cnb:yeti_antler> | <item:alexsmobs:moose_antler>;
 boneserpent.input2 = <item:minecraft:bone_block>;
 boneserpent.input3 = <item:minecraft:lava_bucket>;
 boneserpent.build();

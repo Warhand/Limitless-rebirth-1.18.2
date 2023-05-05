@@ -530,16 +530,6 @@ gaiaMaterial.ingot = <item:botania:gaia_ingot>;
 gaiaMaterial.metalDust = <item:contenttweaker:gaia_spirit_blend>;
 gaiaMaterial.build();
 
-//neptunium
-var neptuniumMaterial = new GlobalMaterialRecipe();
-neptuniumMaterial.name = "neptunium_material";
-neptuniumMaterial.ingot = <item:aquaculture:neptunium_ingot>;
-neptuniumMaterial.nugget = <item:aquaculture:neptunium_nugget>;
-neptuniumMaterial.molten = <fluid:kubejs:molten_neptunium>;
-neptuniumMaterial.block = <item:aquaculture:neptunium_block>;
-neptuniumMaterial.metalDust = <item:contenttweaker:neptunium_dust>;
-neptuniumMaterial.build();
-
 //brass
 var brassMaterial = new GlobalMaterialRecipe();
 brassMaterial.name = "brass_material";
@@ -694,14 +684,6 @@ ametrineMaterial.oreBlock = <tag:items:forge:ores/ametrine>;
 ametrineMaterial.oreSpecial = <item:byg:ametrine_gems>;
 ametrineMaterial.specialDrops = new outputSpecial(1, 1.0, 1, 0.4, 1.25);
 ametrineMaterial.build();
-
-//jade
-var jadeMaterial = new GlobalMaterialRecipe();
-jadeMaterial.name = "jade_material";
-jadeMaterial.oreBlock = <tag:items:forge:ores/jade>;
-jadeMaterial.oreSpecial = <item:sullysmod:rough_jade>;
-jadeMaterial.specialDrops = new outputSpecial(8, 1.0, 6, 0.5, 12.0);
-jadeMaterial.build();
 
 //niter
 var niterMaterial = new GlobalMaterialRecipe();

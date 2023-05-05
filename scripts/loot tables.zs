@@ -77,9 +77,6 @@ this.value =value;
 //<item:relics:wool_mitten>,
 
 public var loot_removal = [
-<item:aquaculture:box>,
-<item:aquaculture:lockbox>,
-<item:aquaculture:treasure_chest>,
 <item:artifacts:antidote_vessel>,
 <item:artifacts:aqua_dashers>,
 <item:artifacts:bunny_hoppers>,
@@ -157,9 +154,6 @@ public var all_chests = [
 //	<item:relics:spider_necklace>           :new MyFloat(0.04),
 
 val ocean_loot as MyFloat[IItemStack] = {
-	<item:aquaculture:box>                  :new MyFloat(0.04),
-	<item:aquaculture:lockbox>              :new MyFloat(0.04),
-	<item:aquaculture:treasure_chest>       :new MyFloat(0.04),
 	<item:artifacts:antidote_vessel>        :new MyFloat(0.04),
 	<item:artifacts:aqua_dashers>           :new MyFloat(0.04),
 	<item:artifacts:charm_of_sinking>       :new MyFloat(0.04),
@@ -208,9 +202,6 @@ loot.modifiers.register("loot_name_in_oceans",
 //	<item:relics:squire_bag>                                                :new MyFloat(0.015),
 
 val underground_loot as MyFloat[IItemStack] = {
-	<item:aquaculture:box>                                                  :new MyFloat(0.015),
-	<item:aquaculture:lockbox>                                              :new MyFloat(0.015),
-	<item:aquaculture:treasure_chest>                                       :new MyFloat(0.015),
 	<item:artifacts:antidote_vessel>                                        :new MyFloat(0.015),
 	<item:artifacts:cross_necklace>                                         :new MyFloat(0.015),
 	<item:artifacts:digging_claws>                                          :new MyFloat(0.015),
@@ -279,9 +270,6 @@ loot.modifiers.register("loot_name_in_underground",
 //	<item:relics:squire_bag>                               :new MyFloat(0.035),
 
 val overworld_loot as MyFloat[IItemStack] = {
-	<item:aquaculture:box>                                 :new MyFloat(0.03),
-	<item:aquaculture:lockbox>                             :new MyFloat(0.03),
-	<item:aquaculture:treasure_chest>                      :new MyFloat(0.03),
 	<item:artifacts:bunny_hoppers>                         :new MyFloat(0.03),
 	<item:artifacts:cross_necklace>                        :new MyFloat(0.03),
 	<item:artifacts:helium_flamingo>                       :new MyFloat(0.03),
@@ -338,9 +326,6 @@ loot.modifiers.register("loot_name_in_overworld",
 //	<item:relics:squire_bag>                               :new MyFloat(0.02)5,
 
 val village_loot as MyFloat[IItemStack] = {
-	<item:aquaculture:box>                                 :new MyFloat(0.025),
-	<item:aquaculture:lockbox>                             :new MyFloat(0.025),
-	<item:aquaculture:treasure_chest>                      :new MyFloat(0.025),
 	<item:artifacts:antidote_vessel>                       :new MyFloat(0.025),
 	<item:artifacts:bunny_hoppers>                         :new MyFloat(0.025),
 	<item:artifacts:cloud_in_a_bottle>                     :new MyFloat(0.025),
@@ -436,9 +421,6 @@ loot.modifiers.register("loot_name_in_villages",
 //	<item:relics:squire_bag>                                              :new MyFloat(0.02),
 
 val desert_loot as MyFloat[IItemStack] = {
-	<item:aquaculture:box>                                                :new MyFloat(0.02),
-	<item:aquaculture:lockbox>                                            :new MyFloat(0.02),
-	<item:aquaculture:treasure_chest>                                     :new MyFloat(0.02),
 	<item:artifacts:bunny_hoppers>                                        :new MyFloat(0.02),
 	<item:artifacts:cross_necklace>                                       :new MyFloat(0.02),
 	<item:artifacts:digging_claws>                                        :new MyFloat(0.02),
@@ -498,9 +480,6 @@ loot.modifiers.register("loot_name_in_deserts",
 //	<item:relics:squire_bag>                                               :new MyFloat(0.02)5,
 
 val forest_loot as MyFloat[IItemStack] = {
-	<item:aquaculture:box>                                                 :new MyFloat(0.025),
-	<item:aquaculture:lockbox>                                             :new MyFloat(0.025),
-	<item:aquaculture:treasure_chest>                                      :new MyFloat(0.025),
 	<item:artifacts:antidote_vessel>                                       :new MyFloat(0.025),
 	<item:artifacts:feral_claws>                                           :new MyFloat(0.025),
 	<item:artifacts:lucky_scarf>                                           :new MyFloat(0.025),
@@ -560,9 +539,6 @@ loot.modifiers.register("loot_name_in_forests",
 //	<item:relics:wool_mitten>                              :new MyFloat(0.035),
 
 val frozen_loot as MyFloat[IItemStack] = {
-	<item:aquaculture:box>                                 :new MyFloat(0.035),
-	<item:aquaculture:lockbox>                             :new MyFloat(0.035),
-	<item:aquaculture:treasure_chest>                      :new MyFloat(0.035),
 	<item:artifacts:aqua_dashers>                          :new MyFloat(0.035),
 	<item:artifacts:bunny_hoppers>                         :new MyFloat(0.035),
 	<item:artifacts:charm_of_sinking>                      :new MyFloat(0.035),
@@ -624,9 +600,6 @@ loot.modifiers.register("loot_name_in_frozen",
 //	<item:relics:spatial_sign>                                             :new MyFloat(0.02),
 
 val nether_loot as MyFloat[IItemStack] = {
-	<item:aquaculture:box>                                                 :new MyFloat(0.02),
-	<item:aquaculture:lockbox>                                             :new MyFloat(0.02),
-	<item:aquaculture:treasure_chest>                                      :new MyFloat(0.02),
 	<item:artifacts:cloud_in_a_bottle>                                     :new MyFloat(0.02),
 	<item:artifacts:cross_necklace>                                        :new MyFloat(0.02),
 	<item:artifacts:fire_gauntlet>                                         :new MyFloat(0.02),
@@ -704,9 +677,6 @@ loot.modifiers.register("loot_name_in_nether",
 //	<item:relics:stellar_catalyst>                                        :new MyFloat(0.02),
 
 val end_loot as MyFloat[IItemStack] = {
-	<item:aquaculture:box>                                                :new MyFloat(0.02),
-	<item:aquaculture:lockbox>                                            :new MyFloat(0.02),
-	<item:aquaculture:treasure_chest>                                     :new MyFloat(0.02),
 	<item:artifacts:feral_claws>                                          :new MyFloat(0.02),
 	<item:artifacts:lucky_scarf>                                          :new MyFloat(0.02),
 	<item:artifacts:power_glove>                                          :new MyFloat(0.02),
@@ -782,9 +752,6 @@ loot.modifiers.register("loot_name_in_ender",
 //	<item:relics:wool_mitten>                                              :new MyFloat(0.005),
 
 val treasure_loot as MyFloat[IItemStack] = {
-	<item:aquaculture:box>                                                 :new MyFloat(0.005),
-	<item:aquaculture:lockbox>                                             :new MyFloat(0.005),
-	<item:aquaculture:treasure_chest>                                      :new MyFloat(0.005),
 	<item:artifacts:antidote_vessel>                                       :new MyFloat(0.005),
 	<item:artifacts:aqua_dashers>                                          :new MyFloat(0.005),
 	<item:artifacts:bunny_hoppers>                                         :new MyFloat(0.005),

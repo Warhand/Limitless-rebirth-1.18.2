@@ -18,12 +18,10 @@ import crafttweaker.api.block.Block;
 val cooked_fish as IItemStack[] = [
 	<item:minecraft:cooked_cod>,
 	<item:minecraft:cooked_salmon>,
-	<item:aquaculture:fish_fillet_cooked>,
 	<item:alexsmobs:cooked_lobster_tail>,
 	<item:undergarden:cooked_gwibling>,
 	<item:quark:cooked_crab_leg>,
-	<item:quark:cooked_frog_leg>,
-	<item:aquaculture:frog_legs_cooked>
+	<item:quark:cooked_frog_leg>
 ];
 <tag:items:rosie:cooked_fish>.add(cooked_fish);
 
@@ -61,7 +59,6 @@ val cooked_fish as IItemStack[] = [
 <tag:items:forge:ores/gold>.remove(<item:byg:brimstone_nether_gold_ore>);
 
 //adding fish to forge fish tag
-<tag:items:forge:raw_fishes>.add(<item:aquaculture:fish_fillet_raw>);
 <tag:items:forge:raw_fishes>.add(<item:undergarden:raw_gloomper_leg>);
 <tag:items:forge:raw_fishes>.add(<item:quark:frog_leg>);
 <tag:items:forge:raw_fishes>.add(<item:alexsmobs:raw_catfish>);
@@ -78,18 +75,13 @@ val cooked_fish as IItemStack[] = [
 
 val fishing_rods as IItemStack[] = [
 	<item:minecraft:fishing_rod>,
-	<item:alloyed:steel_fishing_rod>,
-	<item:aquaculture:iron_fishing_rod>,
-	<item:aquaculture:gold_fishing_rod>,
-	<item:aquaculture:diamond_fishing_rod>,
-	<item:aquaculture:neptunium_fishing_rod>
+	<item:alloyed:steel_fishing_rod>
 ];
 
 <tag:items:forge:fishing_rods>.add(fishing_rods);
 
 //adding andesite alloy to andesite nuggets and plates tag to fix one recipe
 <tag:items:forge:nuggets/andesite>.add(<item:create:andesite_alloy>);
-
 <tag:items:forge:plates/andesite>.add(<item:minecraft:andesite>);
 <tag:items:forge:plates/andesite>.add(<item:minecraft:polished_andesite>);
 
@@ -103,9 +95,7 @@ val fishing_rods as IItemStack[] = [
 
 val farmers_seeds = [
 <item:farmersdelight:cabbage_seeds>,
-<item:culturaldelights:cucumber_seeds>,
 <item:farmersdelight:tomato_seeds>,
-<item:culturaldelights:eggplant_seeds>,
 <item:farmersdelight:rice>
 ];
 
@@ -114,11 +104,8 @@ val farmers_seeds = [
 //adding blocks to dimdungeon portal frame tags
 
 val portal_blocks = [
-<block:bygonenether:cracked_withered_blackstone>,
-<block:bygonenether:chiseled_withered_blackstone>,
 <block:supplementaries:blackstone_tile>,
 <block:quark:blackstone_bricks>,
-<block:bygonenether:withered_blackstone>,
 <block:minecraft:chiseled_polished_blackstone>,
 <block:minecraft:polished_blackstone>,
 <block:minecraft:blackstone>,
@@ -331,7 +318,6 @@ val basalt_tag = [
 	<item:minecraft:polished_basalt>,
 	<item:minecraft:basalt>,
 	<item:architects_palette:basalt_tiles>,
-	<item:bygonenether:withered_basalt>,
 	<item:architects_palette:chiseled_basalt_tiles>,
 	<item:architects_palette:cracked_basalt_tiles>
 ];
@@ -462,7 +448,6 @@ val fillet_knife = [
 
 val chefs_knife = [
 	<item:tools_complement:netherite_knife>,
-	<item:aquaculture:neptunium_fillet_knife>,
 	<item:tools_complement:diamond_knife>,
 	<item:tools_complement:nickel_knife>,
 	<item:tools_complement:invar_knife>,
@@ -530,8 +515,6 @@ val wool_carpets = [
 //diet mod food group tags
 
 val proteins = [
-	<item:sullysmod:raw_lanternfish>,
-	<item:sullysmod:cooked_lanternfish>,
 	<item:biomemakeover:cooked_toad>,
 	<item:biomemakeover:raw_toad>,
 	<item:nethersdelight:hoglin_ear>,
