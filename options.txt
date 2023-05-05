@@ -23,8 +23,8 @@ mouseSensitivity:0.5
 fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
-gamma:0.0
-renderDistance:16
+gamma:0.5
+renderDistance:14
 simulationDistance:12
 entityDistanceScaling:1.0
 guiScale:2
@@ -36,8 +36,8 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:0
 renderClouds:true
-resourcePacks:["vanilla","mod_resources","Supplementaries Generated Pack","quark:emote_resources","resources/simplehats_hatdl.zip","file/Copper Color Fix 3.0.zip","Everycomp Generated Pack","file/Sullys_Peeves-FreshAnimations COMPAT.zip","file/Enhanced Tools and Armour.zip","file/updated_aquaculture-1.0.zip","file/BotaniaRevamped_1.1.0.zip","file/BiomeMakeoverMakeover v1.0.zip","file/Snowiest Snow 1.18.x.zip","file/BannerPatternClarity_1.18-1.0.zip","file/VanillaTweaks_r376064.zip","file/eatinganimations+ 1.10.zip","file/eatinganimations better vanilla foods compat","file/§3BetterVanillaFoods§7_v1.12.5.zip","file/Pretty_Pipez.zip","contenttweaker:runtime/contenttweaker/ass","contenttweaker:user/client_resources","file/ldlib","file/3D-fishing-hook-bobber-v2-fancy-with-line.zip"]
-incompatibleResourcePacks:["quark:emote_resources","file/Copper Color Fix 3.0.zip","file/Sullys_Peeves-FreshAnimations COMPAT.zip","file/updated_aquaculture-1.0.zip","file/BotaniaRevamped_1.1.0.zip","file/VanillaTweaks_r376064.zip","file/ldlib","file/3D-fishing-hook-bobber-v2-fancy-with-line.zip"]
+resourcePacks:["vanilla","mod_resources","Supplementaries Generated Pack","quark:emote_resources","resources/simplehats_hatdl.zip","file/Copper Color Fix 3.0.zip","Everycomp Generated Pack","file/Enhanced Tools and Armour.zip","file/updated_aquaculture-1.0.zip","file/BotaniaRevamped_1.1.0.zip","file/BiomeMakeoverMakeover v1.0.zip","file/Snowiest Snow 1.18.x.zip","file/BannerPatternClarity_1.18-1.0.zip","file/VanillaTweaks_r376064.zip","file/eatinganimations+ 1.10.zip","file/eatinganimations better vanilla foods compat","file/Sullys_Peeves.zip","file/§3BetterVanillaFoods§7_v1.12.5.zip","file/Pretty_Pipez.zip","contenttweaker:runtime/contenttweaker/ass","contenttweaker:user/client_resources","file/ldlib","file/3D-fishing-hook-bobber-v2-fancy-with-line.zip"]
+incompatibleResourcePacks:["quark:emote_resources","file/Copper Color Fix 3.0.zip","file/updated_aquaculture-1.0.zip","file/BotaniaRevamped_1.1.0.zip","file/VanillaTweaks_r376064.zip","file/Sullys_Peeves.zip","file/ldlib","file/3D-fishing-hook-bobber-v2-fancy-with-line.zip"]
 lastServer:
 lang:en_us
 soundDevice:
@@ -108,11 +108,8 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
-key_key.clienttweaks.hideOffhandItem:key.keyboard.unknown
-key_key.clienttweaks.disableStepAssist:key.keyboard.unknown
-key_key.clienttweaks.disableLogStripping:key.keyboard.unknown
-key_key.ftbteams.open_gui:key.keyboard.unknown
 key_key.findme.search:key.keyboard.keypad.7
+key_key.ftbteams.open_gui:key.keyboard.unknown
 key_key.lightoverlay.enable_overlay:key.keyboard.f7
 key_key.journeymap.zoom_in:key.keyboard.equal
 key_key.journeymap.zoom_out:key.keyboard.minus
@@ -155,15 +152,8 @@ key_Reload Menu | CTRL + ALT + :key.keyboard.r
 key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.c
 key_bloodmagic.keybind.open_holding:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
-key_simplemagnets.keys.toggle:key.keyboard.h
-key_keybind.ironjetpacks.engine:key.keyboard.v
-key_keybind.ironjetpacks.hover:key.keyboard.h
-key_keybind.ironjetpacks.descend:key.keyboard.unknown
-key_keybind.ironjetpacks.increment_throttle:key.keyboard.up
-key_keybind.ironjetpacks.decrement_throttle:key.keyboard.down
 key_key.botania_corporea_request:key.keyboard.c
 key_key.curios.open.desc:key.keyboard.g
-key_cos.key.opencosarmorinventory:key.keyboard.unknown
 key_treechop.key.toggle_chopping:key.keyboard.unknown
 key_treechop.key.toggle_felling:key.keyboard.unknown
 key_treechop.key.cycle_sneak_behavior:key.keyboard.unknown
@@ -171,7 +161,6 @@ key_treechop.key.open_settings_overlay:key.keyboard.n
 key_placebo.toggleTrails:key.keyboard.unknown
 key_placebo.toggleWings:key.keyboard.keypad.8
 key_Reload Shaders:key.keyboard.f9
-key_equipmentcompare.key.showTooltips:key.keyboard.left.shift
 key_key.ars_nouveau.open_book:key.keyboard.c:SHIFT
 key_key.ars_nouveau.selection_hud:key.keyboard.v:SHIFT
 key_key.ars_nouveau.previous_slot:key.keyboard.z:SHIFT
@@ -186,12 +175,6 @@ key_key.ars_nouveau.qc7:key.keyboard.unknown
 key_key.ars_nouveau.qc8:key.keyboard.unknown
 key_key.ars_nouveau.qc9:key.keyboard.unknown
 key_key.ars_nouveau.qc10:key.keyboard.unknown
-key_key.effortlessbuilding.hud.desc:key.keyboard.keypad.add
-key_key.effortlessbuilding.replace.desc:key.keyboard.keypad.subtract
-key_key.effortlessbuilding.mode.desc:key.keyboard.left.alt
-key_key.effortlessbuilding.undo.desc:key.keyboard.z:CONTROL
-key_key.effortlessbuilding.redo.desc:key.keyboard.y:CONTROL
-key_key.effortlessbuilding.altplacement.desc:key.keyboard.left.control
 key_key.enchanted.broom_forward:key.keyboard.w
 key_key.enchanted.broom_backward:key.keyboard.s
 key_key.enchanted.broom_turn_left:key.keyboard.a
@@ -200,8 +183,8 @@ key_key.enchanted.broom_up:key.keyboard.space
 key_key.enchanted.broom_down:key.keyboard.left.control
 key_key.enchanted.broom_aim_up:key.keyboard.c
 key_key.enchanted.broom_aim_down:key.keyboard.v
-key_bloodmagic.keybind.cycle_holding_pos:key.keyboard.unknown
-key_bloodmagic.keybind.cycle_holding_neg:key.keyboard.unknown
+key_create.keyinfo.toolmenu:key.keyboard.left.alt
+key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_key.waila.config:key.keyboard.keypad.0
 key_key.waila.show_overlay:key.keyboard.keypad.1
 key_key.waila.toggle_liquid:key.keyboard.keypad.2
@@ -209,8 +192,14 @@ key_key.waila.narrate:key.keyboard.keypad.6
 key_key.waila.show_details:key.keyboard.left.shift
 key_key.waila.show_recipes:key.keyboard.keypad.3
 key_key.waila.show_uses:key.keyboard.keypad.4
-key_quark.keybind.autorun:key.keyboard.unknown
-key_quark.keybind.lock_rotation:key.keyboard.unknown
+key_bloodmagic.keybind.cycle_holding_pos:key.keyboard.unknown
+key_bloodmagic.keybind.cycle_holding_neg:key.keyboard.unknown
+key_key.diet.open.desc:key.keyboard.unknown
+key_quark.keybind.sort_player:key.keyboard.unknown
+key_quark.keybind.sort_container:key.keyboard.unknown
+key_quark.keybind.transfer_insert:key.keyboard.unknown
+key_quark.keybind.transfer_extract:key.keyboard.unknown
+key_quark.keybind.shift_lock:key.keyboard.unknown
 key_quark.keybind.change_hotbar:key.keyboard.unknown
 key_quark.emote.no:key.keyboard.unknown
 key_quark.emote.yes:key.keyboard.unknown
@@ -230,45 +219,29 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
-key_quark.keybind.sort_player:key.keyboard.unknown
-key_quark.keybind.sort_container:key.keyboard.unknown
-key_quark.keybind.back:key.mouse.4
-key_quark.keybind.transfer_insert:key.keyboard.unknown
-key_quark.keybind.transfer_extract:key.keyboard.unknown
-key_quark.keybind.shift_lock:key.keyboard.unknown
-key_key.diet.open.desc:key.keyboard.unknown
-key_key.worldstripper.strip_world:key.keyboard.delete
-key_key.worldstripper.dress_world:key.keyboard.insert
-key_key.worldstripper.add_block:key.keyboard.page.up
-key_key.worldstripper.remove_block:key.keyboard.page.down
-key_key.worldstripper.increase_range:key.keyboard.page.up:SHIFT
-key_key.worldstripper.decrease_range:key.keyboard.page.down:SHIFT
-key_key.worldstripper.big_increase_range:key.keyboard.page.up:ALT
-key_key.worldstripper.big_decrease_range:key.keyboard.page.down:ALT
 key_quark.keybind.camera_mode:key.keyboard.f12
-key_create.keyinfo.toolmenu:key.keyboard.left.alt
-key_create.keyinfo.toolbelt:key.keyboard.left.alt
+key_quark.keybind.autorun:key.keyboard.unknown
+key_quark.keybind.lock_rotation:key.keyboard.unknown
+key_quark.keybind.back:key.mouse.4
 key_key.paraglider.paragliderSettings:key.keyboard.unknown:CONTROL
 key_info.structure_gel.building_tool.undo:key.keyboard.unknown:CONTROL
 key_info.structure_gel.building_tool.redo:key.keyboard.unknown:CONTROL
 key_key.zoom:key.keyboard.z
+key_key.cofh.mode_change_increment:key.keyboard.v
+key_key.cofh.mode_change_decrement:key.keyboard.b
 key_tetra.toolbelt.binding.access:key.keyboard.unknown
 key_tetra.toolbelt.binding.restock:key.keyboard.unknown:SHIFT
 key_tetra.toolbelt.binding.open:key.keyboard.b:ALT
-key_advancements_tracker.keys.show_widget:key.keyboard.l:ALT
-key_advancements_tracker.keys.show_overview:key.keyboard.l:CONTROL
 key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.c
 key_keybind.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.sort:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
 key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown:ALT
+key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
+key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
-key_key.cofh.mode_change_increment:key.keyboard.v
-key_key.cofh.mode_change_decrement:key.keyboard.b
-key_key.configured.open_mod_list:key.keyboard.unknown
+key_keybind.sophisticatedstorage.sort:key.mouse.middle
 soundCategory_master:0.42605633
 soundCategory_music:0.34507042
 soundCategory_record:1.0

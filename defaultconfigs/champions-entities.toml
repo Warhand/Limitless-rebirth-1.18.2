@@ -77,3 +77,19 @@
   presetAffixes = []
   affixList = ["lively", "adaptable", "shielding"]
   affixPermission = "BLACKLIST"
+  
+[[entities]]
+  entity = "minecraft:slime"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = ["lively", "adaptable", "shielding"]
+  affixPermission = "BLACKLIST"
+  
+[[entities]]
+  entity = "minecraft:magma_cube"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = ["lively", "adaptable", "shielding"]
+  affixPermission = "BLACKLIST"

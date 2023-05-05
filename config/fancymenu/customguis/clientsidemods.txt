@@ -1,0 +1,3 @@
+identifier = clientsidemods
+title = 
+allowesc = true

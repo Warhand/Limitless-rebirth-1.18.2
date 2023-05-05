@@ -123,9 +123,6 @@
 		yellow_blossom = true
 		red_blossom = true
 
-	[leaves_type.culturaldelights]
-		avocado = true
-
 	[leaves_type.upgrade_aquatic]
 		river = true
 

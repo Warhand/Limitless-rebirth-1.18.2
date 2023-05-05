@@ -50,4 +50,6 @@
 	hoe_seeds = false
 	#Disable totems of undying (to make poppets more useful) #default false
 	disable_totems = false
+	#The damage multiplier for axes against an Ent #default 3.0
+	ent_axe_multiplier = 3.0
 
