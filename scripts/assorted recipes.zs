@@ -283,3 +283,4 @@ craftingTable.addShaped("custom_quarry", <item:ftbic:quarry>, [[<item:ftbic:adva
 //graphene pressing compat
 
 //glass bottle
+craftingTable.addShaped("custom_glass_bottle_recipe", <item:minecraft:glass_bottle> * 3, [[IIngredientEmpty.getInstance(), IIngredientEmpty.getInstance(), IIngredientEmpty.getInstance()], [<tag:items:forge:glass>, IIngredientEmpty.getInstance(), <tag:items:forge:glass>], [IIngredientEmpty.getInstance(), <tag:items:forge:glass>, IIngredientEmpty.getInstance()]]);
