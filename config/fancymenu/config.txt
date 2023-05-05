@@ -8,6 +8,7 @@ B:playbackgroundsounds = 'true';
 [A minecraft restart is required after changing this value.]
 B:enablehotkeys = 'true';
 B:playmenumusic = 'true';
+S:variables_to_reset_on_launch = '';
 B:showdebugwarnings = 'true';
 [Sets the default GUI scale on first launch. Useful for modpacks. Cache data is saved in '/mods/fancymenu/'.]
 I:defaultguiscale = '-1';
@@ -16,13 +17,12 @@ I:defaultguiscale = '-1';
 ##[customization]
 
 B:advancedmode = 'true';
-B:showcustomizationbuttons = 'false';
+B:showcustomizationbuttons = 'true';
 
 
 ##[loading]
 
 B:allowgameintroskip = 'true';
-S:loadinganimationcolor = '#ffffffff';
 B:showanimationloadingstatus = 'true';
 S:gameintroanimation = '';
 B:preloadanimations = 'false';
@@ -32,9 +32,9 @@ S:customgameintroskiptext = '';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = 'Minecraft: Limitless rebirth';
+S:customwindowtitle = 'Limitless Rebirth';
 [A minecraft restart is required after changing this value.]
-B:customwindowicon = 'false';
+B:customwindowicon = 'true';
 
 
 ##[world_loading_screen]
@@ -56,8 +56,8 @@ B:show_world_icons = 'true';
 ##[layouteditor]
 
 I:gridsize = '10';
-B:editordeleteconfirmation = 'false';
-B:showgrid = 'false';
+B:editordeleteconfirmation = 'true';
+B:showgrid = 'true';
 [If the warning when trying to move an vanilla button without an orientation should be displayed or not.]
 B:showvanillamovewarning = 'true';
 
