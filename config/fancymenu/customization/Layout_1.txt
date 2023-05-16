@@ -9,22 +9,129 @@ customization-meta {
 }
 
 customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
+  baseheight = 1137
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
   keepaspectratio = false
   action = backgroundoptions
 }
 
 customization {
-  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = element
-  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
   x = 0
   action = movebutton
   y = 24
 }
 
 customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = -24
+  action = movebutton
+  y = 48
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 20
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttonlabel
+  value = M
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttondescription
+  description = Installed mods%n%(Complete list of all installed mods, as well as the option to configure any%n%of them that allow for configuration. It is recommended you only edit clientside%n%configs if you want to maintain the default LR experience.)
+}
+
+customization {
+  identifier = %id=503334%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = -24
+  action = movebutton
+  y = 24
+}
+
+customization {
+  identifier = %id=503334%
+  action = setbuttonlabel
+  value = Q
+}
+
+customization {
+  identifier = %id=503334%
+  action = sethoverlabel
+  label = Q
+}
+
+customization {
+  identifier = %id=503334%
+  action = setbuttondescription
+  description = Quark Configs %n%(If you want to retain the intended LR experience, only change clientside configs)
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_quit_button
+  x = 102
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = setbuttondescription
+  description = accessibility settings
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -82
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
   action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 0
+  action = movebutton
+  y = 84
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 102
+  action = movebutton
+  y = 84
 }
 
 customization {
@@ -111,7 +218,7 @@ customization {
 }
 
 customization {
-  path = lr_border.png
+  path = lr_ui/lr_border.png
   orientation = bottom-left
   x = 5
   width = 80
@@ -126,7 +233,7 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 1.0
-  source = Pack version: 0.5 BETA
+  source = Pack version: {"placeholder":"json","values":{"source":"pack_version.json","json_path":"$.version"}}
   text_border = 0
   case_mode = normal
   source_mode = direct
@@ -136,7 +243,7 @@ customization {
   width = 200
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = daca2919-e4a8-48f4-97f9-c83e8ffb18b31683221475657
-  y = 5
+  y = 4
   alignment = left
   height = 12
 }
@@ -156,7 +263,7 @@ customization {
   width = 200
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = bd57491a-bcf9-4dfd-8629-092a923bb4f81683221521898
-  y = 19
+  y = 18
   alignment = left
   height = 12
 }
@@ -176,7 +283,7 @@ customization {
   width = 200
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = a3256c13-37ab-4801-b419-f724edeacc161683221553600
-  y = 33
+  y = 32
   alignment = left
   height = 12
 }
@@ -186,7 +293,7 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 1.0
-  source = Mods loaded: %totalmods%
+  source = Mods loaded: {"placeholder":"calc","values":{"expression":"%totalmods% - 6","decimal":"false"}}
   text_border = 0
   case_mode = normal
   source_mode = direct
@@ -196,36 +303,99 @@ customization {
   width = 200
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 6ae215d1-0e46-4cae-be56-30df89ae45de1683221574735
-  y = 47
+  y = 46
   alignment = left
   height = 12
 }
 
 customization {
-  identifier = %id=503334%
   orientation = element
-  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;clientsidemods%btnaction_splitter_fm%
+  description = A list of optional, clientside mods that you can %n%add to limitless rebirth without breaking the game or its balance.%n%%n%(Note: This is not an exhaustive list, and if you have suggestions %n%of your own, please feel free to share them in the discord!)
+  label = Optional mods
+  loopbackgroundanimations = true
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 0
+  width = 200
+  action = addbutton
+  actionid = 0bd1d999-736d-4ef8-a061-bdd72e6d0fc91683249621414
+  y = 48
+  height = 20
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://discord.gg/7Dq3yRSgzQ%btnaction_splitter_fm%
+  backgroundhovered = lr_ui/discord_active.png
+  description = The Limitless Rebirth discord server.%n%%n%This is where you can go to interact with%n%other players, and also see development%n%previews and teasers for upcoming updates!
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
   x = 204
+  width = 20
+  action = addbutton
+  actionid = 203d3700-974a-4e8d-8bb1-a720ff4903071683729137320
+  y = 48
+  backgroundnormal = lr_ui/discord.png
+  height = 20
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://github.com/Warhand/Limitless-rebirth-1.18.2%btnaction_splitter_fm%
+  backgroundhovered = lr_ui/github_active.png
+  description = The Limitless Rebirth Github repository.%n%%n%This is where you can go to report major bugs%n%and issues with the pack!
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 204
+  width = 20
+  action = addbutton
+  actionid = cf6debff-a8d3-43a8-a931-1b9d8aff0ada1683735003406
+  y = 24
+  backgroundnormal = lr_ui/github.png
+  height = 20
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://www.curseforge.com/minecraft/modpacks/limitless-rebirth%btnaction_splitter_fm%
+  backgroundhovered = lr_ui/forge_active.png
+  description = The Limitless rebirth curseforge page.%n%%n%This is where you can go to download more%n%up-to-date versions of the pack.
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 204
+  width = 20
+  action = addbutton
+  actionid = af1d9aac-f0ca-45bd-90d8-e1aee14d75c51683735040775
+  y = 0
+  backgroundnormal = lr_ui/forge.png
+  height = 20
+}
+
+customization {
+  identifier = %id=376310%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = -24
   action = movebutton
   y = 0
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
-  action = setbuttondescription
-  description = accessibility settings
+  identifier = %id=376310%
+  action = sethoverlabel
+  label = 
 }
 
 customization {
-  orientation = top-left
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  x = 379
-  width = 200
-  action = addbutton
-  actionid = 0bd1d999-736d-4ef8-a061-bdd72e6d0fc91683249621414
-  y = 250
-  label = New Button
-  height = 20
+  identifier = %id=376310%
+  action = setbuttondescription
+  description = Create Configs %n%(If you want to retain the intended LR experience, only change clientside configs)
 }
 

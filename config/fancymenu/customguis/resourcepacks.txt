@@ -1,0 +1,3 @@
+identifier = resourcepacks
+title = 
+allowesc = true

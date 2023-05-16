@@ -1,7 +1,7 @@
 type = menu
 
 customization-meta {
-  identifier = clientsidemods
+  identifier = resourcepacks
   randomgroup = 1
   renderorder = foreground
   randommode = false
@@ -25,102 +25,6 @@ customization {
 }
 
 customization {
-  path = lr_ui/text_background.png
-  orientation = element
-  orientation_element = d9712407-4dc0-4999-a98b-1fb8005470ae1683584482838
-  x = 70
-  width = 280
-  action = addtexture
-  actionid = d46c5d7c-f2bc-4ec1-bbad-95acf81a71ce1683911217560
-  y = 0
-  height = 90
-}
-
-customization {
-  path = lr_ui/text_background.png
-  orientation = element
-  orientation_element = 65578c86-ff39-4f37-86e0-48bf36ed5f691683582205973
-  x = 70
-  width = 280
-  action = addtexture
-  actionid = e5933c8f-ef6d-4d44-976a-c83a68b670b61683911214473
-  y = 0
-  height = 90
-}
-
-customization {
-  path = lr_ui/text_background.png
-  orientation = element
-  orientation_element = a6f73c64-42f3-4f3a-8677-71e00b0f78e81683586015793
-  x = 70
-  width = 280
-  action = addtexture
-  actionid = 984075bd-25f2-441e-bbf7-5dd941e1a3bb1683911221349
-  y = 0
-  height = 90
-}
-
-customization {
-  path = lr_ui/text_background.png
-  orientation = element
-  orientation_element = 36f6cd15-4f69-4c65-b31d-8d79a9b43a791683586786455
-  x = 70
-  width = 280
-  action = addtexture
-  actionid = 6c591971-d410-4d3d-ab13-fb4dcc4738641683911224514
-  y = 0
-  height = 90
-}
-
-customization {
-  path = lr_ui/text_background.png
-  orientation = element
-  orientation_element = ece934ba-97e8-455f-b863-a73b1acdeff91683580577715
-  x = 70
-  width = 280
-  action = addtexture
-  actionid = b30cfc64-d285-4679-a74f-3eb6e53dd4d01683911210802
-  y = 0
-  height = 90
-}
-
-customization {
-  path = lr_ui/text_background.png
-  orientation = element
-  orientation_element = 14c9fcfb-b2ec-425d-8f44-b691e193ade71683580001845
-  x = 70
-  width = 280
-  action = addtexture
-  actionid = 7915b0e4-ecd8-463b-acf0-9636ef73cb321683911207568
-  y = 0
-  height = 90
-}
-
-customization {
-  path = lr_ui/text_background.png
-  orientation = element
-  orientation_element = b2122a75-ec02-4e20-be30-933e205971af1683577836113
-  x = 70
-  width = 280
-  action = addtexture
-  actionid = b8f05f3f-19a1-41f2-8f6f-397cdd70361b1683911203348
-  y = 0
-  height = 90
-}
-
-customization {
-  path = lr_ui/text_background.png
-  orientation = element
-  orientation_element = 1b669c21-9d8c-4eac-88e5-ff243247e24b1683222807660
-  x = 70
-  width = 280
-  action = addtexture
-  actionid = 11f17259-3191-42c7-953e-7cc631b90c701683910067725
-  y = 0
-  height = 90
-}
-
-customization {
   orientation = element
   shape = rectangle
   color = #D5D5D5
@@ -135,7 +39,7 @@ customization {
 
 customization {
   orientation = mid-centered
-  x = -411
+  x = -410
   width = 58
   action = addwebtexture
   actionid = 1b669c21-9d8c-4eac-88e5-ff243247e24b1683222807660
@@ -149,19 +53,18 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 1.5
-  source = &nEating animations [Forge]
+  source = Eating animations [Forge]
   text_border = 0
   case_mode = normal
   source_mode = direct
   line_spacing = 1
   orientation_element = 1b669c21-9d8c-4eac-88e5-ff243247e24b1683222807660
-  x = 90
+  x = 70
   width = 240
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = dcadfb27-1f75-42b2-8be1-c2c0c7ed24e31683223030237
-  y = 12
+  y = 0
   alignment = centered
-  base_color = #55FFFF
   height = 20
 }
 
@@ -176,13 +79,14 @@ customization {
   source_mode = direct
   line_spacing = 1
   orientation_element = 1b669c21-9d8c-4eac-88e5-ff243247e24b1683222807660
-  x = 84
+  x = 70
   width = 240
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = ef5101f2-48cf-498d-a5b8-b9059df5ba171683223374727
-  y = 31
+  y = 20
   alignment = left
-  height = 50
+  base_color = #555555
+  height = 60
 }
 
 customization {
@@ -202,7 +106,7 @@ customization {
 
 customization {
   orientation = mid-centered
-  x = -411
+  x = -410
   width = 60
   action = addwebtexture
   actionid = b2122a75-ec02-4e20-be30-933e205971af1683577836113
@@ -231,19 +135,18 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 1.5
-  source = &nNot Enough Animations
+  source = Not Enough Animations
   text_border = 0
   case_mode = normal
   source_mode = direct
   line_spacing = 1
   orientation_element = b2122a75-ec02-4e20-be30-933e205971af1683577836113
-  x = 90
+  x = 70
   width = 240
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 1acfde39-aac8-48f7-8d31-98a8dc77074d1683578248236
-  y = 12
+  y = 0
   alignment = centered
-  base_color = #55FFFF
   height = 20
 }
 
@@ -258,18 +161,19 @@ customization {
   source_mode = direct
   line_spacing = 1
   orientation_element = b2122a75-ec02-4e20-be30-933e205971af1683577836113
-  x = 84
+  x = 70
   width = 240
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 15291b23-f42c-47d4-a6a6-788c3da2fdda1683578502144
-  y = 31
+  y = 20
   alignment = left
-  height = 50
+  base_color = #555555
+  height = 60
 }
 
 customization {
   orientation = mid-centered
-  x = -411
+  x = -410
   width = 60
   action = addwebtexture
   actionid = 14c9fcfb-b2ec-425d-8f44-b691e193ade71683580001845
@@ -304,13 +208,14 @@ customization {
   source_mode = direct
   line_spacing = 1
   orientation_element = 14c9fcfb-b2ec-425d-8f44-b691e193ade71683580001845
-  x = 84
+  x = 70
   width = 240
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 0bb780db-c8d5-4797-a5ab-504c224660a21683580051094
-  y = 31
+  y = 20
   alignment = left
-  height = 50
+  base_color = #555555
+  height = 60
 }
 
 customization {
@@ -318,19 +223,18 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 1.5
-  source = &nExtended Clouds
+  source = Extended Clouds
   text_border = 0
   case_mode = normal
   source_mode = direct
   line_spacing = 1
   orientation_element = 14c9fcfb-b2ec-425d-8f44-b691e193ade71683580001845
-  x = 90
+  x = 70
   width = 240
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = f2e030cc-7d04-4139-885c-4ca9f943dd541683580057049
-  y = 12
+  y = 0
   alignment = centered
-  base_color = #55FFFF
   height = 20
 }
 
@@ -349,7 +253,7 @@ customization {
 
 customization {
   orientation = mid-centered
-  x = -411
+  x = -410
   width = 60
   action = addwebtexture
   actionid = ece934ba-97e8-455f-b863-a73b1acdeff91683580577715
@@ -378,19 +282,18 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 1.5
-  source = &nVisuality: Reforged
+  source = Visuality: Reforged
   text_border = 0
   case_mode = normal
   source_mode = direct
   line_spacing = 1
   orientation_element = ece934ba-97e8-455f-b863-a73b1acdeff91683580577715
-  x = 90
+  x = 70
   width = 240
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 4c791ebb-7cd6-4c2d-a99f-cfd4ce79463d1683580831707
-  y = 12
+  y = 0
   alignment = centered
-  base_color = #55FFFF
   height = 20
 }
 
@@ -405,18 +308,19 @@ customization {
   source_mode = direct
   line_spacing = 1
   orientation_element = ece934ba-97e8-455f-b863-a73b1acdeff91683580577715
-  x = 84
+  x = 70
   width = 240
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = c8050a5d-bfc0-48bf-ad05-63dad5bc05db1683580931257
-  y = 31
+  y = 20
   alignment = left
-  height = 50
+  base_color = #555555
+  height = 60
 }
 
 customization {
   orientation = mid-centered
-  x = 61
+  x = 71
   width = 60
   action = addwebtexture
   actionid = 65578c86-ff39-4f37-86e0-48bf36ed5f691683582205973
@@ -430,19 +334,18 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 1.5
-  source = &nOculus
+  source = Oculus
   text_border = 0
   case_mode = normal
   source_mode = direct
   line_spacing = 1
   orientation_element = 65578c86-ff39-4f37-86e0-48bf36ed5f691683582205973
-  x = 91
+  x = 70
   width = 240
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 0afd5e4d-3d06-4001-817e-4765a6bdb33e1683582274461
-  y = 12
+  y = 0
   alignment = centered
-  base_color = #55FFFF
   height = 20
 }
 
@@ -457,13 +360,14 @@ customization {
   source_mode = direct
   line_spacing = 1
   orientation_element = 65578c86-ff39-4f37-86e0-48bf36ed5f691683582205973
-  x = 84
+  x = 70
   width = 240
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = f719e962-6200-4b9b-98bf-883697de9f841683582312589
-  y = 31
+  y = 20
   alignment = left
-  height = 50
+  base_color = #555555
+  height = 60
 }
 
 customization {
@@ -496,7 +400,7 @@ customization {
 
 customization {
   orientation = mid-centered
-  x = 61
+  x = 71
   width = 60
   action = addwebtexture
   actionid = d9712407-4dc0-4999-a98b-1fb8005470ae1683584482838
@@ -510,19 +414,18 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 1.5
-  source = &nClient Tweaks
+  source = Client Tweaks
   text_border = 0
   case_mode = normal
   source_mode = direct
   line_spacing = 1
   orientation_element = d9712407-4dc0-4999-a98b-1fb8005470ae1683584482838
-  x = 90
+  x = 70
   width = 240
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 4f4b0122-db15-4d85-8bde-640ebdf463601683584751797
-  y = 12
+  y = 0
   alignment = centered
-  base_color = #55FFFF
   height = 20
 }
 
@@ -552,18 +455,19 @@ customization {
   source_mode = direct
   line_spacing = 1
   orientation_element = d9712407-4dc0-4999-a98b-1fb8005470ae1683584482838
-  x = 84
+  x = 70
   width = 240
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 9d1f7405-ac4f-43dc-af68-aeeaddecf54d1683585053292
-  y = 31
+  y = 20
   alignment = left
-  height = 50
+  base_color = #555555
+  height = 60
 }
 
 customization {
   orientation = mid-centered
-  x = 61
+  x = 71
   width = 60
   action = addwebtexture
   actionid = a6f73c64-42f3-4f3a-8677-71e00b0f78e81683586015793
@@ -593,19 +497,18 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 1.5
-  source = &nDynamic Lights Reforged
+  source = Dynamic Lights Reforged
   text_border = 0
   case_mode = normal
   source_mode = direct
   line_spacing = 1
   orientation_element = a6f73c64-42f3-4f3a-8677-71e00b0f78e81683586015793
-  x = 90
+  x = 70
   width = 240
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = a4af387c-ff3d-4231-819e-521efbb4c85a1683586152736
-  y = 12
+  y = 0
   alignment = centered
-  base_color = #55FFFF
   height = 20
 }
 
@@ -620,18 +523,19 @@ customization {
   source_mode = direct
   line_spacing = 1
   orientation_element = a6f73c64-42f3-4f3a-8677-71e00b0f78e81683586015793
-  x = 84
+  x = 70
   width = 240
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 099d4f29-4a72-4eea-9242-d90b163e59f61683586174403
-  y = 31
+  y = 20
   alignment = left
-  height = 50
+  base_color = #555555
+  height = 60
 }
 
 customization {
   orientation = mid-centered
-  x = 61
+  x = 71
   width = 60
   action = addwebtexture
   actionid = 36f6cd15-4f69-4c65-b31d-8d79a9b43a791683586786455
@@ -660,19 +564,18 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 1.5
-  source = &nEquipment Compare [Forge]
+  source = Equipment Compare [Forge]
   text_border = 0
   case_mode = normal
   source_mode = direct
   line_spacing = 1
   orientation_element = 36f6cd15-4f69-4c65-b31d-8d79a9b43a791683586786455
-  x = 90
+  x = 70
   width = 240
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 069f626f-398e-47e3-80bc-3804c22a1ad21683586864302
-  y = 12
+  y = 0
   alignment = centered
-  base_color = #55FFFF
   height = 20
 }
 
@@ -687,13 +590,14 @@ customization {
   source_mode = direct
   line_spacing = 1
   orientation_element = 36f6cd15-4f69-4c65-b31d-8d79a9b43a791683586786455
-  x = 84
+  x = 70
   width = 240
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 5e257f3e-a80f-40a9-8869-093f04a7cc161683586878628
-  y = 31
+  y = 20
   alignment = left
-  height = 50
+  base_color = #555555
+  height = 60
 }
 
 customization {
@@ -724,7 +628,7 @@ customization {
   width = 100
   action = addbutton
   actionid = f234a014-3c44-4441-849b-0ec8dc1afba91683590667790
-  y = 241
+  y = 251
   label = Back to Menu
   height = 20
 }
@@ -737,45 +641,25 @@ customization {
   width = 20
   action = addbutton
   actionid = 5baf5805-36a2-4feb-80a9-e0b5a494afba1683591076604
-  y = 525
-  backgroundhovered = lr_ui/arrow_left_ui_active.png
+  y = 535
+  backgroundhovered = arrow_left_ui_active.png
   label = 
-  backgroundnormal = lr_ui/arrow_left_ui_default.png
+  backgroundnormal = arrow_left_ui_default.png
   height = 20
 }
 
 customization {
   orientation = top-left
-  enable_scrolling = true
-  shadow = true
-  scale = 1.2
-  source = Page 1
-  text_border = 0
-  case_mode = normal
-  source_mode = direct
-  line_spacing = 1
-  x = 450
-  width = 60
-  action = custom_layout_element:fancymenu_customization_item_text
-  actionid = 6fa7bbfa-b39a-4135-88f7-975454ce60081683658072769
-  y = 549
-  alignment = centered
-  height = 15
-}
-
-customization {
-  orientation = top-left
-  restartbackgroundanimations = true
-  buttonaction = enable_layout;clientside_page_2%btnaction_splitter_fm%disable_layout;clientside_page_1%btnaction_splitter_fm%
-  backgroundhovered = lr_ui/arrow_right_ui_active.png
-  label = 
   loopbackgroundanimations = true
+  restartbackgroundanimations = true
   x = 541
   width = 20
   action = addbutton
   actionid = af661b83-6634-4aae-833f-932c8e23d0161683591241992
-  y = 525
-  backgroundnormal = lr_ui/arrow_right_ui_default.png
+  y = 535
+  backgroundhovered = arrow_right_ui_active.png
+  label = 
+  backgroundnormal = arrow_right_ui_default.png
   height = 20
 }
 
