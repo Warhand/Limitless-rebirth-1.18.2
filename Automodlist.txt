@@ -6,14 +6,14 @@ C:.
     AdvancementPlaques-1.18.2-1.4.5.1.jar
     alexsabnormalities-1.2.3.jar
     alexsdelight-1.18.2-1.3.3.jar
-    alexsmobs-1.18.6.jar
+    alexsmobs-1.17.5.jar
     alloyed-1.18.2-v1.4e.jar
     alternate-current-mc1.18-1.2.1.jar
     Amplified_Nether_v1.1.1.jar
-    another_furniture-forge-1.2.2-1.18.2.jar
+    another_furniture-forge-1.2.1-1.18.2.jar
     appleskin-forge-mc1.18.2-2.4.1.jar
     Architects-Palette-1.18.2-1.3.2.jar
-    architectury-4.11.92-forge.jar
+    architectury-4.11.93-forge.jar
     ars_nouveau-1.18.2-2.8.0.jar
     artifacts-1.18.2-4.2.1.jar
     art_of_forging-1.5.5-1.18.2.jar
@@ -24,7 +24,6 @@ C:.
     berry_good-1.18.2-5.0.0.jar
     BetterAdvancements-1.18.2-0.2.0.146.jar
     betterbiomeblend-1.18.2-1.3.5-forge.jar
-    betterfog-1.18.2-1.1.1.jar
     betterfpsdist-1.18.2-1.5.jar
     BetterModsButton-v3.2.3-1.18.2-Forge.jar
     biomemakeover-FORGE-1.18.2-1.4.32.jar
@@ -35,8 +34,8 @@ C:.
     Botania-1.18.2-435.jar
     buzzier_bees-1.18.2-4.0.0.jar
     bwncr-3.13.21.jar
-    canary-mc1.18.2-0.1.7.jar
-    cc-tweaked-1.18.2-1.101.2.jar
+    canary-mc1.18.2-0.1.8.jar
+    cc-tweaked-1.18.2-1.100.9.jar
     cherishedworlds-forge-1.18-5.1.1.0.jar
     citadel-1.11.3-1.18.2.jar
     clayworks-1.18.2-1.0.0.jar
@@ -46,7 +45,7 @@ C:.
     Clumps-forge-1.18.2-8.0.0+17.jar
     CNB-1.18.2-1.5.1.jar
     cofh_core-1.18.2-9.2.1.39.jar
-    compost-forge-1.18.2-1.1.3.jar
+    compost-forge-1.18.2-1.2.0.jar
     Connectible Chains-forge-1.18.2-2.1.1.jar
     connectivity-1.18.2-3.2.jar
     ContentTweaker-forge-1.18.2-1.0.0+13.jar
@@ -57,6 +56,7 @@ C:.
     CreateTweaker-1.18.2-2.0.0.18.jar
     create_crystal_clear-0.1.3e-1.18.2.jar
     Cucumber-1.18.2-5.1.3.jar
+    CullLessLeaves-Reforged-1.18.2-1.0.5.jar
     curios-forge-1.18.2-5.0.9.0.jar
     CustomFluidMixin-1.2.1-mc1.18.2.jar
     DarkerDepths-1.18.2-1.0.6-patch4.jar
@@ -73,7 +73,7 @@ C:.
     enchanted-1.18.2-1.0.6.jar
     EnchantmentDescriptions-Forge-1.18.2-10.0.12.jar
     enderbundle-1.10.1.jar
-    endofmending-1.0.0.jar
+    endofmending-1.0.1.jar
     endportalparallax-2.0-mc1.18.jar
     entityculling-forge-1.6.1-mc1.18.2.jar
     Entity_Collision_FPS_Fix-forge-1.18.2-1.0.0.jar
@@ -81,7 +81,7 @@ C:.
     expandability-6.0.0.jar
     ExtendedCrafting-1.18.2-4.1.2.jar
     fancymenu_forge_2.14.7_MC_1.18.2.jar
-    FarmersDelight-1.18.2-1.2.0.jar
+    FarmersDelight-1.18.2-1.2.1.jar
     FastFurnace-1.18.2-6.0.3.jar
     FastLeafDecay-28.jar
     FastSuite-1.18.2-3.0.2.jar
@@ -101,8 +101,9 @@ C:.
     HealthOverlay-1.18.2-6.3.4.jar
     Highlighter-1.18.1-1.1.2.jar
     Iceberg-1.18.2-forge-1.0.49.jar
-    idas_forge-1.6.3+1.18.2.jar
+    idas_forge-1.6.4+1.18.2.jar
     IguanaTweaksReborn-2.12.11-mc1.18.2.jar
+    ImmediatelyFastReforged-1.18.2-1.1.10.jar
     incubation-1.18.2-2.0.2.jar
     infernal-expansion-1.18.2-2.5.0.jar
     InsaneLib-1.5.3-mc1.18.2.jar
@@ -112,7 +113,7 @@ C:.
     JadeAddons-1.18.2-forge-2.4.1.jar
     JEITweaker-1.18.2-3.0.0.9.jar
     jmi-forge-1.18.2-0.13-32.jar
-    journeymap-1.18.2-5.9.6-forge.jar
+    journeymap-1.18.2-5.9.7-forge.jar
     konkrete_forge_1.6.1_MC_1.18-1.18.2.jar
     kubejs-forge-1802.5.5-build.569.jar
     lazydfu-1.0-1.18+.jar
@@ -162,8 +163,8 @@ C:.
     smoothboot(reloaded)-mc1.18.2-0.0.2.jar
     smoothchunk-1.18.2-1.9.jar
     sophisticatedbackpacks-1.18.2-3.18.46.821.jar
-    sophisticatedcore-1.18.2-0.5.52.256.jar
-    sophisticatedstorage-1.18.2-0.6.28.334.jar
+    sophisticatedcore-1.18.2-0.5.53.260.jar
+    sophisticatedstorage-1.18.2-0.7.7.359.jar
     stateobserver-1.18.2-1.1.0.jar
     structure_gel-1.18.2-2.4.7.jar
     StylishEffects-v3.1.0-1.18.2-Forge.jar
@@ -192,7 +193,7 @@ C:.
     VisualWorkbench-v3.3.0-1.18.2-Forge.jar
     volcanic_caverns-1.18.2-1.1.2.jar
     waystones-forge-1.18.2-10.2.1.jar
-    wildbackport-1.2.3.jar
+    wildbackport-1.2.1.jar
     woodworks-1.18.2-1.2.1.jar
     YungsApi-1.18.2-Forge-2.2.9.jar
     YungsBetterDungeons-1.18.2-Forge-2.1.0.jar
@@ -204,5 +205,5 @@ C:.
     
 No subfolders exist 
 
-Thu 05/04/2023 
-06:59 PM
+Tue 05/16/2023 
+12:37 PM
