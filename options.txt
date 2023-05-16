@@ -24,7 +24,7 @@ fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
 gamma:0.5
-renderDistance:14
+renderDistance:12
 simulationDistance:12
 entityDistanceScaling:1.0
 guiScale:2
@@ -36,8 +36,8 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:0
 renderClouds:true
-resourcePacks:["vanilla","mod_resources","Supplementaries Generated Pack","quark:emote_resources","resources/simplehats_hatdl.zip","file/Copper Color Fix 3.0.zip","Everycomp Generated Pack","file/Enhanced Tools and Armour.zip","file/updated_aquaculture-1.0.zip","file/BotaniaRevamped_1.1.0.zip","file/BiomeMakeoverMakeover v1.0.zip","file/Snowiest Snow 1.18.x.zip","file/BannerPatternClarity_1.18-1.0.zip","file/VanillaTweaks_r376064.zip","file/eatinganimations+ 1.10.zip","file/eatinganimations better vanilla foods compat","file/Sullys_Peeves.zip","file/§3BetterVanillaFoods§7_v1.12.5.zip","file/Pretty_Pipez.zip","contenttweaker:runtime/contenttweaker/ass","contenttweaker:user/client_resources","file/ldlib","file/3D-fishing-hook-bobber-v2-fancy-with-line.zip"]
-incompatibleResourcePacks:["quark:emote_resources","file/Copper Color Fix 3.0.zip","file/updated_aquaculture-1.0.zip","file/BotaniaRevamped_1.1.0.zip","file/VanillaTweaks_r376064.zip","file/Sullys_Peeves.zip","file/ldlib","file/3D-fishing-hook-bobber-v2-fancy-with-line.zip"]
+resourcePacks:["vanilla","mod_resources","Supplementaries Generated Pack","quark:emote_resources","resources/simplehats_hatdl.zip","file/Copper Color Fix 3.0.zip","Everycomp Generated Pack","file/Enhanced Tools and Armour.zip","file/BotaniaRevamped_1.1.0.zip","file/BiomeMakeoverMakeover v1.0.zip","file/Snowiest Snow 1.18.x.zip","file/BannerPatternClarity_1.18-1.0.zip","file/VanillaTweaks_r376064.zip","file/eatinganimations+ 1.10.zip","file/eatinganimations better vanilla foods compat","file/Sullys_Peeves.zip","file/§3BetterVanillaFoods§7_v1.12.5.zip","contenttweaker:runtime/contenttweaker/ass","contenttweaker:user/client_resources","file/3D-fishing-hook-bobber-v2-fancy-with-line.zip"]
+incompatibleResourcePacks:["quark:emote_resources","file/Copper Color Fix 3.0.zip","file/BotaniaRevamped_1.1.0.zip","file/VanillaTweaks_r376064.zip","file/Sullys_Peeves.zip","file/3D-fishing-hook-bobber-v2-fancy-with-line.zip"]
 lastServer:
 lang:en_us
 soundDevice:
@@ -185,6 +185,8 @@ key_key.enchanted.broom_aim_up:key.keyboard.c
 key_key.enchanted.broom_aim_down:key.keyboard.v
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
+key_bloodmagic.keybind.cycle_holding_pos:key.keyboard.unknown
+key_bloodmagic.keybind.cycle_holding_neg:key.keyboard.unknown
 key_key.waila.config:key.keyboard.keypad.0
 key_key.waila.show_overlay:key.keyboard.keypad.1
 key_key.waila.toggle_liquid:key.keyboard.keypad.2
@@ -192,15 +194,12 @@ key_key.waila.narrate:key.keyboard.keypad.6
 key_key.waila.show_details:key.keyboard.left.shift
 key_key.waila.show_recipes:key.keyboard.keypad.3
 key_key.waila.show_uses:key.keyboard.keypad.4
-key_bloodmagic.keybind.cycle_holding_pos:key.keyboard.unknown
-key_bloodmagic.keybind.cycle_holding_neg:key.keyboard.unknown
-key_key.diet.open.desc:key.keyboard.unknown
-key_quark.keybind.sort_player:key.keyboard.unknown
-key_quark.keybind.sort_container:key.keyboard.unknown
 key_quark.keybind.transfer_insert:key.keyboard.unknown
 key_quark.keybind.transfer_extract:key.keyboard.unknown
 key_quark.keybind.shift_lock:key.keyboard.unknown
-key_quark.keybind.change_hotbar:key.keyboard.unknown
+key_quark.keybind.sort_player:key.keyboard.unknown
+key_quark.keybind.sort_container:key.keyboard.unknown
+key_quark.keybind.camera_mode:key.keyboard.f12
 key_quark.emote.no:key.keyboard.unknown
 key_quark.emote.yes:key.keyboard.unknown
 key_quark.emote.wave:key.keyboard.unknown
@@ -219,10 +218,11 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
-key_quark.keybind.camera_mode:key.keyboard.f12
 key_quark.keybind.autorun:key.keyboard.unknown
-key_quark.keybind.lock_rotation:key.keyboard.unknown
+key_quark.keybind.change_hotbar:key.keyboard.unknown
 key_quark.keybind.back:key.mouse.4
+key_quark.keybind.lock_rotation:key.keyboard.unknown
+key_key.diet.open.desc:key.keyboard.unknown
 key_key.paraglider.paragliderSettings:key.keyboard.unknown:CONTROL
 key_info.structure_gel.building_tool.undo:key.keyboard.unknown:CONTROL
 key_info.structure_gel.building_tool.redo:key.keyboard.unknown:CONTROL
@@ -236,11 +236,11 @@ key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.c
 key_keybind.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.sort:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown:ALT
-key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
-key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
+key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown:ALT
 key_keybind.sophisticatedstorage.sort:key.mouse.middle
 soundCategory_master:0.42605633
 soundCategory_music:0.34507042
